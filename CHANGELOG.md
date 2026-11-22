@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: Google Trends (Brasil) e resultado das legendas do YouTube pela Apify
+
+**Trends.** O coletor do ODI Espanha (`collect_trends.py`, `net.py`) foi copiado e ajustado para o Brasil (pt-BR, UTC-3, geo BR), com workflow `trends.yml` de disparo manual. `data/config/trends.json` tem três grupos: tópicos (Hamas, Faixa de Gaza), palavras do tema (Hamas, desarmamento, Gaza, Palestina, cessar-fogo) e os nomes das quatro influenciadoras. São dois períodos: o estudo inteiro (01/06 a 14/08) e só o núcleo (23/07 a 14/08). O Trends ainda não tinha sido coletado porque o coletor não existia neste repositório; o responsável perguntou às 17h22.
+
+**Legendas do YouTube pela Apify** (run 45065594426): pedidas para os 16 vídeos do núcleo, nenhuma veio com texto; custo de US$ 0,0001 (`apify_youtube_transcricao_*.json`). Os vídeos de Mariam no núcleo seguem sem transcrição.
+
+**Executado.** 22 testes unitários aprovados (região, períodos, até 5 termos por grupo). Trends disparado logo após este commit.
+
 ## 22/11/2026: legendas do YouTube pela Apify (etapa de terceiros e transcrições)
 
 **O que mudou.** `transcrever.py --rede youtube --apify` pede as legendas dos vídeos pendentes ao `seemuapps~youtube-transcript-scraper`, o mesmo ator do ODI Atlas (que mediu US$ 0,0001 por transcrição mais o início). O pedido usa a etapa `terceiros_transcricoes` (US$ 1,00), com teto de US$ 0,50 por execução, e grava o custo em `apify_youtube_transcricao_*.json`. O workflow ganhou a opção `youtube_apify`.
