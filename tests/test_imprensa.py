@@ -49,3 +49,38 @@ class TestRedeImprensa(unittest.TestCase):
         ]}
         n = bri.noticias_do_tema(res)
         self.assertEqual(sorted(x["link"] for x in n), ["L1", "L2"])
+
+
+class TestTextoImprensa(unittest.TestCase):
+    def setUp(self):
+        import importlib, sys as _s
+        from pathlib import Path as _P
+        _s.path.insert(0, str(_P(__file__).resolve().parents[1] / "scripts"))
+        self.cit = importlib.import_module("collect_imprensa_texto")
+        self.bci = importlib.import_module("build_corpus_imprensa")
+
+    def test_materias_distintas_com_recortes(self):
+        res = {"consultas": [
+            {"recorte": "dia do anúncio", "grupo": "tema", "consulta": "Hamas", "resultados": [{"veiculo": "G1", "titulo": "a", "link": "L1"}]},
+            {"recorte": "núcleo", "grupo": "tema", "consulta": "Gaza", "resultados": [{"veiculo": "G1", "titulo": "a", "link": "L1"}]},
+            {"recorte": "núcleo", "grupo": "influenciadora", "consulta": "Mariam Chami", "resultados": [{"veiculo": "X", "titulo": "c", "link": "L3"}]},
+        ]}
+        ms = self.cit.materias(res)
+        self.assertEqual(len(ms), 1)
+        self.assertEqual(ms[0]["recortes"], {"dia do anúncio", "núcleo"})
+        self.assertEqual(ms[0]["consultas"], {"Hamas", "Gaza"})
+
+    def test_status_curto(self):
+        self.assertEqual(self.cit.classificar(None), "sem_texto")
+        self.assertEqual(self.cit.classificar("x" * 100), "curto")
+        self.assertEqual(self.cit.classificar("x" * 700), "ok")
+
+    def test_corpus_so_com_texto_e_recorte(self):
+        ts, fora = self.bci.textos([
+            {"status": "ok", "veiculo": "G1", "recortes": "dia do anúncio|núcleo", "titulo": "T", "url": "u", "texto": "corpo"},
+            {"status": "curto", "veiculo": "Folha", "recortes": "núcleo", "titulo": "T2", "url": "u2", "texto": ""},
+        ])
+        self.assertEqual(len(ts), 1)
+        self.assertEqual(ts[0]["recorte"], "dia")
+        self.assertEqual(fora, {"curto": 1})
+        self.assertEqual(self.bci.var("Folha de S.Paulo"), "folhadespaulo")

@@ -1,0 +1,70 @@
+name: Imprensa — texto completo das matérias e IRaMuTeQ (sem custo)
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: imprensa
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  texto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências
+        run: pip install -q networkx numpy scipy trafilatura googlenewsdecoder
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl-.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error title=Repositório privado::sem acesso — o texto das matérias não é lido"
+            exit 1
+          fi
+      - name: Texto das matérias e corpus
+        id: t
+        continue-on-error: true
+        env:
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          rc=0
+          { python scripts/collect_imprensa_texto.py && python scripts/build_corpus_imprensa.py; } > o.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Imprensa (texto)::$(echo "$l" | cut -c1-900)"; done < o.txt
+          rm -f o.txt; exit $rc
+      - name: Gravar (público)
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Imprensa: texto e IRaMuTeQ (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Gravar (privado)
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Imprensa: texto das matérias (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.t.outcome == 'failure'
+        run: exit 1

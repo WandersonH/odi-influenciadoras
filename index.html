@@ -397,6 +397,7 @@ async function dizem(rede) {
   {
     const IM = await json("data/imprensa/resultados.json");
     const RI = await json("data/redes/imprensa.json");
+    const CI7 = await json("data/corpus/imprensa_chd.json"), MTX = await json("data/manifest/imprensa_texto_latest.json");
     if (!IM) $("p7Imprensa").innerHTML = `<div class="eyebrow">Imprensa</div>${vazio("⛔ Matérias ainda não coletadas.")}`;
     else {
       const recs = [...new Set(IM.consultas.map(c => c.recorte))];
@@ -413,7 +414,24 @@ async function dizem(rede) {
           <div class="tablewrap" style="margin-top:12px"><table class="datatable"><thead><tr><th>Veículo</th><th class="inf-num">Matérias</th><th class="inf-num">Termos em que aparece</th></tr></thead><tbody>${RI.top_veiculos.map(t => `<tr><td>${esc(t.veiculo)}</td><td class="inf-num">${n(t.materias)}</td><td class="inf-num">${n(t.termos)}</td></tr>`).join("")}</tbody></table></div>
           ${tabEstat(RI)}
           <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/imprensa.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/imprensa.graphml" download>GraphML</a> · <a href="data/redes/imprensa_estatisticas.csv" download>estatísticas (CSV)</a> · <a href="data/redes/imprensa_centralidades.csv" download>centralidades (CSV)</a> · <a href="data/redes/imprensa_comunidades.csv" download>comunidades (CSV)</a></p>
-          <p class="inf-nota">${esc(RI.metodo)}</p>`; })() : vazio("⛔ Rede da imprensa ainda não gerada.")}`;
+          <p class="inf-nota">${esc(RI.metodo)}</p>`; })() : vazio("⛔ Rede da imprensa ainda não gerada.")}
+        <h2 class="tk-h2" style="margin-top:24px">IRaMuTeQ das matérias: CHD de Reinert e similitude</h2>
+        ${CI7 && CI7.classes ? (() => { const pal = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b", "#6b4fa0", "#8a5a0b", "#2a8a8a", "#c4302b"], corR = {dia: "#9c2b20", nucleo: "#165ebd"}, rotR = {dia: "dia do anúncio (30/07 a 02/08)", nucleo: "restante do núcleo"};
+          const simI = CI7.similitude && CI7.similitude.nos ? CI7.similitude : null, fora = Object.entries(CI7.fora_do_corpus || {});
+          return `<div class="kpigrid"><div class="kpi"><div class="klabel">Matérias no corpus</div><div class="kval">${n(CI7.textos)} de ${n(CI7.materias_lidas)}</div><div class="knote">texto completo · ${n(CI7.veiculos)} veículos · universo ⛔</div></div>
+            <div class="kpi"><div class="klabel">Segmentos</div><div class="kval">${n(CI7.segmentos_total)}</div><div class="knote">~40 palavras, padrão do IRaMuTeQ</div></div>
+            <div class="kpi"><div class="klabel">Classificados</div><div class="kval">${n(CI7.pct_classificados)}%</div><div class="knote">${CI7.pct_classificados >= 75 ? "acima" : "⛔ abaixo"} dos 75% de Camargo & Justo</div></div>
+            <div class="kpi"><div class="klabel">Classes</div><div class="kval">${n(CI7.classes.length)}</div><div class="knote">${n(CI7.formas_ativas)} formas ativas · nomes a dar pelo pesquisador</div></div></div>
+            ${fora.length ? `<p class="inf-nota">Fora do corpus: ${fora.map(([k, v]) => `${n(v)} ${({curto: "com texto curto (paywall, vídeo ou só resumo)", sem_link: "sem link convertido", falha_download: "com falha no download", sem_texto: "sem texto extraído"})[k] || k}`).join(" · ")}.</p>` : ""}
+            <div class="inf-duas">${CI7.classes.map((c, i) => { const vs = Object.entries(c.variaveis).filter(([, v]) => v.chi2 >= 3.84).sort((a, b) => b[1].chi2 - a[1].chi2).slice(0, 4);
+              return `<div class="card" style="border-top:4px solid ${pal[i % pal.length]}"><div class="eyebrow" style="color:${pal[i % pal.length]}">Classe ${c.classe} · ${c.pct}% dos segmentos classificados</div>
+                <div class="inf-cloud" style="--c:${pal[i % pal.length]}">${c.formas.slice(0, 18).map(f => `<span style="font-size:${(11 + 12 * Math.sqrt(f[1] / Math.max(1, c.formas[0][1]))).toFixed(1)}px" title="χ² ${f[1]} · ${f[2]} segmentos">${esc(f[0])}</span>`).join(" ")}</div>
+                <p class="inf-nota" style="margin-top:4px">Associada a: ${vs.length ? vs.map(([k, v]) => `${esc(k.startsWith("recorte:") ? rotR[k.split(":")[1]] : k.split(":")[1])} (χ² ${v.chi2})`).join(", ") : "nenhuma variável com χ² ≥ 3,84"}</p></div>`; }).join("")}</div>
+            ${simI ? `<h2 class="tk-h2" style="margin-top:18px">Similitude das matérias</h2>${desenhaSim(simI, corR)}
+              <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.keys(corR).map(r => `<span style="color:${corR[r]};font-weight:700">● específica do ${rotR[r]}</span>`).join("")}<span style="color:#69768a;font-weight:700">● comum</span><span>· halo = comunidade (Louvain)</span></div>
+              <p class="inf-nota"><b>Baixar:</b> <a href="data/corpus/imprensa_similitude.gexf" download>similitude (GEXF, Gephi)</a>. O corpus no formato do IRaMuTeQ (**** *veic_ *recorte_) e os trechos característicos de cada classe ficam no repositório privado, por serem texto de terceiros com direito autoral.</p>` : ""}
+            <p class="inf-nota">${esc(CI7.metodo)} Lematização: ${esc((CI7.lematizacao || {}).dicionario || "")}.</p>`; })()
+          : vazio(MTX ? `⛔ Corpus das matérias não gerado: ${n((MTX.por_status || {}).ok || 0)} de ${n(MTX.materias)} matérias com texto completo.` : "⛔ Texto completo das matérias ainda não coletado (workflow imprensa_texto.yml). Até lá só há os títulos, pouco para uma CHD.")}`;
     }
   }
 

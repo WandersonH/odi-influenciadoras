@@ -1,5 +1,21 @@
 # Changelog
 
+## 22/11/2026: IRaMuTeQ das matérias da imprensa (caderno 07)
+
+O responsável pediu às 20h24 ("um iramuteq das matérias seria bom"). O RSS do Google Notícias só traz o título, e 75 títulos são pouco texto para uma CHD.
+- **Coleta** (`scripts/collect_imprensa_texto.py`, novo workflow `imprensa_texto.yml`, sem custo):
+  - Lê uma vez cada matéria distinta das buscas do tema.
+  - Converte o link do Google no endereço do veículo (googlenewsdecoder) e extrai o texto da página (trafilatura).
+  - Status de cada matéria: ok, curto (menos de 600 caracteres: paywall, vídeo ou só resumo), sem_link, falha_download, sem_texto.
+- **Corpus** (`scripts/build_corpus_imprensa.py`):
+  - Título + texto das matérias com status "ok".
+  - Variáveis `*veic_` e `*recorte_dia|nucleo`.
+  - Mesma CHD e similitude do corpus das influenciadoras (cópias do Atlas, dicionário do IRaMuTeQ).
+- **Privacidade e direito autoral:** o texto das matérias, o corpus `.txt` e os trechos característicos ficam só no privado. No público vão as formas, as classes, as variáveis, a similitude (GEXF) e as contagens por status.
+- **Página:** bloco novo no caderno 07, com o número de matérias no corpus e o que ficou fora, e por quê.
+- **Testes:** 3 novos em `tests/test_imprensa.py`.
+- **Execução:** a primeira coleta foi disparada logo depois deste commit. O resultado está no próximo registro.
+
 ## 22/11/2026: rede da imprensa no caderno 07 (Gephi)
 
 O responsável pediu às 20h22 ("falta rede gephi no caderno 07 das matérias"). Novo `scripts/build_rede_imprensa.py`: monta a rede veículo × termo com a `redes_caso.circulacao()` do Atlas e calcula as estatísticas do Atlas (`estatisticas_redes.py`: Louvain com semente 42, E-I e centralidades).
