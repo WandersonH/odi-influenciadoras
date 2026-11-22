@@ -66,17 +66,17 @@
           <attvalue for="2" value="1" />
         </attvalues>
       </node>
-      <node id="@naturabroficial" label="@naturabroficial">
-        <attvalues>
-          <attvalue for="0" value="@naturabroficial" />
-          <attvalue for="1" value="perfil marcado" />
-          <attvalue for="2" value="3" />
-        </attvalues>
-      </node>
       <node id="#naturaessencialsafran" label="#naturaessencialsafran">
         <attvalues>
           <attvalue for="0" value="#naturaessencialsafran" />
           <attvalue for="1" value="hashtag" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="@naturabroficial" label="@naturabroficial">
+        <attvalues>
+          <attvalue for="0" value="@naturabroficial" />
+          <attvalue for="1" value="perfil marcado" />
           <attvalue for="2" value="3" />
         </attvalues>
       </node>
@@ -101,9 +101,9 @@
           <attvalue for="2" value="1" />
         </attvalues>
       </node>
-      <node id="#fifa" label="#fifa">
+      <node id="#isla" label="#isla">
         <attvalues>
-          <attvalue for="0" value="#fifa" />
+          <attvalue for="0" value="#isla" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -115,16 +115,9 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#isla" label="#isla">
+      <node id="#fifa" label="#fifa">
         <attvalues>
-          <attvalue for="0" value="#isla" />
-          <attvalue for="1" value="hashtag" />
-          <attvalue for="2" value="2" />
-        </attvalues>
-      </node>
-      <node id="#alcool" label="#alcool">
-        <attvalues>
-          <attvalue for="0" value="#alcool" />
+          <attvalue for="0" value="#fifa" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -136,13 +129,6 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#muçulmano" label="#muçulmano">
-        <attvalues>
-          <attvalue for="0" value="#muçulmano" />
-          <attvalue for="1" value="hashtag" />
-          <attvalue for="2" value="2" />
-        </attvalues>
-      </node>
       <node id="#bet" label="#bet">
         <attvalues>
           <attvalue for="0" value="#bet" />
@@ -150,16 +136,23 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#copadomundo" label="#copadomundo">
+      <node id="#alcool" label="#alcool">
         <attvalues>
-          <attvalue for="0" value="#copadomundo" />
+          <attvalue for="0" value="#alcool" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#morocco" label="#morocco">
+      <node id="#muçulmano" label="#muçulmano">
         <attvalues>
-          <attvalue for="0" value="#morocco" />
+          <attvalue for="0" value="#muçulmano" />
+          <attvalue for="1" value="hashtag" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
+      <node id="#copadomundo" label="#copadomundo">
+        <attvalues>
+          <attvalue for="0" value="#copadomundo" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -178,6 +171,13 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
+      <node id="#morocco" label="#morocco">
+        <attvalues>
+          <attvalue for="0" value="#morocco" />
+          <attvalue for="1" value="hashtag" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
       <node id="@usedohabr" label="@usedohabr">
         <attvalues>
           <attvalue for="0" value="@usedohabr" />
@@ -185,16 +185,16 @@
           <attvalue for="2" value="3" />
         </attvalues>
       </node>
-      <node id="#argentina" label="#argentina">
+      <node id="#roubo" label="#roubo">
         <attvalues>
-          <attvalue for="0" value="#argentina" />
+          <attvalue for="0" value="#roubo" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#roubo" label="#roubo">
+      <node id="#argentina" label="#argentina">
         <attvalues>
-          <attvalue for="0" value="#roubo" />
+          <attvalue for="0" value="#argentina" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -206,17 +206,17 @@
           <attvalue for="2" value="3" />
         </attvalues>
       </node>
-      <node id="#hadiya" label="#hadiya">
-        <attvalues>
-          <attvalue for="0" value="#hadiya" />
-          <attvalue for="1" value="hashtag" />
-          <attvalue for="2" value="3" />
-        </attvalues>
-      </node>
       <node id="@oboticario" label="@oboticario">
         <attvalues>
           <attvalue for="0" value="@oboticario" />
           <attvalue for="1" value="perfil marcado" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </node>
+      <node id="#hadiya" label="#hadiya">
+        <attvalues>
+          <attvalue for="0" value="#hadiya" />
+          <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="3" />
         </attvalues>
       </node>
@@ -234,16 +234,16 @@
           <attvalue for="2" value="1" />
         </attvalues>
       </node>
-      <node id="@hudabeauty" label="@hudabeauty">
+      <node id="@sephorabrasil" label="@sephorabrasil">
         <attvalues>
-          <attvalue for="0" value="@hudabeauty" />
+          <attvalue for="0" value="@sephorabrasil" />
           <attvalue for="1" value="perfil marcado" />
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="@sephorabrasil" label="@sephorabrasil">
+      <node id="@hudabeauty" label="@hudabeauty">
         <attvalues>
-          <attvalue for="0" value="@sephorabrasil" />
+          <attvalue for="0" value="@hudabeauty" />
           <attvalue for="1" value="perfil marcado" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -255,6 +255,13 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
+      <node id="#arrumesecomigo" label="#arrumesecomigo">
+        <attvalues>
+          <attvalue for="0" value="#arrumesecomigo" />
+          <attvalue for="1" value="hashtag" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </node>
       <node id="#fatiha" label="#fatiha">
         <attvalues>
           <attvalue for="0" value="#fatiha" />
@@ -262,9 +269,9 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#arrumesecomigo" label="#arrumesecomigo">
+      <node id="#maquiagem" label="#maquiagem">
         <attvalues>
-          <attvalue for="0" value="#arrumesecomigo" />
+          <attvalue for="0" value="#maquiagem" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="2" />
         </attvalues>
@@ -283,23 +290,9 @@
           <attvalue for="2" value="2" />
         </attvalues>
       </node>
-      <node id="#maquiagem" label="#maquiagem">
-        <attvalues>
-          <attvalue for="0" value="#maquiagem" />
-          <attvalue for="1" value="hashtag" />
-          <attvalue for="2" value="2" />
-        </attvalues>
-      </node>
       <node id="#curiosidades" label="#curiosidades">
         <attvalues>
           <attvalue for="0" value="#curiosidades" />
-          <attvalue for="1" value="hashtag" />
-          <attvalue for="2" value="1" />
-        </attvalues>
-      </node>
-      <node id="#muculmanos" label="#muculmanos">
-        <attvalues>
-          <attvalue for="0" value="#muculmanos" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="1" />
         </attvalues>
@@ -311,9 +304,9 @@
           <attvalue for="2" value="1" />
         </attvalues>
       </node>
-      <node id="#turquia" label="#turquia">
+      <node id="#muculmanos" label="#muculmanos">
         <attvalues>
-          <attvalue for="0" value="#turquia" />
+          <attvalue for="0" value="#muculmanos" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="1" />
         </attvalues>
@@ -332,9 +325,9 @@
           <attvalue for="2" value="1" />
         </attvalues>
       </node>
-      <node id="#modamodesta" label="#modamodesta">
+      <node id="#turquia" label="#turquia">
         <attvalues>
-          <attvalue for="0" value="#modamodesta" />
+          <attvalue for="0" value="#turquia" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="1" />
         </attvalues>
@@ -342,6 +335,13 @@
       <node id="#arrumesecmg" label="#arrumesecmg">
         <attvalues>
           <attvalue for="0" value="#arrumesecmg" />
+          <attvalue for="1" value="hashtag" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </node>
+      <node id="#modamodesta" label="#modamodesta">
+        <attvalues>
+          <attvalue for="0" value="#modamodesta" />
           <attvalue for="1" value="hashtag" />
           <attvalue for="2" value="1" />
         </attvalues>
@@ -533,23 +533,23 @@
       <edge source="mariam-chami" target="#hajj" id="0" weight="5" />
       <edge source="mariam-chami" target="#hajj2026" id="1" weight="6" />
       <edge source="mariam-chami" target="@turkishairlines" id="2" weight="2" />
-      <edge source="mariam-chami" target="@naturabroficial" id="3" weight="2" />
-      <edge source="mariam-chami" target="#naturaessencialsafran" id="4" weight="4" />
+      <edge source="mariam-chami" target="#naturaessencialsafran" id="3" weight="4" />
+      <edge source="mariam-chami" target="@naturabroficial" id="4" weight="2" />
       <edge source="mariam-chami" target="@lattafa_brazil" id="5" weight="4" />
       <edge source="mariam-chami" target="@hamde_atelie" id="6" weight="3" />
-      <edge source="mariam-chami" target="#hadiya" id="7" weight="3" />
-      <edge source="mariam-chami" target="@oboticario" id="8" weight="2" />
+      <edge source="mariam-chami" target="@oboticario" id="7" weight="2" />
+      <edge source="mariam-chami" target="#hadiya" id="8" weight="3" />
       <edge source="mariam-chami" target="#publi" id="9" weight="4" />
-      <edge source="mariam-chami" target="@hudabeauty" id="10" weight="1" />
-      <edge source="mariam-chami" target="@sephorabrasil" id="11" weight="1" />
+      <edge source="mariam-chami" target="@sephorabrasil" id="10" weight="1" />
+      <edge source="mariam-chami" target="@hudabeauty" id="11" weight="1" />
       <edge source="mariam-chami" target="#curiosidades" id="12" weight="10" />
-      <edge source="mariam-chami" target="#muculmanos" id="13" weight="17" />
-      <edge source="mariam-chami" target="#religiao" id="14" weight="2" />
-      <edge source="mariam-chami" target="#turquia" id="15" weight="8" />
-      <edge source="mariam-chami" target="#viagem" id="16" weight="30" />
-      <edge source="mariam-chami" target="#provandocomidas" id="17" weight="3" />
-      <edge source="mariam-chami" target="#modamodesta" id="18" weight="6" />
-      <edge source="mariam-chami" target="#arrumesecmg" id="19" weight="2" />
+      <edge source="mariam-chami" target="#religiao" id="13" weight="2" />
+      <edge source="mariam-chami" target="#muculmanos" id="14" weight="17" />
+      <edge source="mariam-chami" target="#viagem" id="15" weight="30" />
+      <edge source="mariam-chami" target="#provandocomidas" id="16" weight="3" />
+      <edge source="mariam-chami" target="#turquia" id="17" weight="8" />
+      <edge source="mariam-chami" target="#arrumesecmg" id="18" weight="2" />
+      <edge source="mariam-chami" target="#modamodesta" id="19" weight="6" />
       <edge source="mariam-chami" target="#turkishairlines" id="20" weight="3" />
       <edge source="mariam-chami" target="@turkish" id="21" weight="3" />
       <edge source="mariam-chami" target="#mariamnohajj" id="22" weight="15" />
@@ -567,14 +567,14 @@
       <edge source="mariam-chami" target="@lattafa" id="34" weight="2" />
       <edge source="mariam-chami" target="#comidaarabe" id="35" weight="3" />
       <edge source="mariam-chami" target="#abaya" id="36" weight="4" />
-      <edge source="mariam-chami" target="#hijab" id="37" weight="1" />
-      <edge source="mariam-chami" target="#muculmana" id="38" weight="4" />
+      <edge source="mariam-chami" target="#muculmana" id="37" weight="4" />
+      <edge source="mariam-chami" target="#hijab" id="38" weight="1" />
       <edge source="mariam-chami" target="#respeito" id="39" weight="2" />
       <edge source="mariam-chami" target="#arabes" id="40" weight="2" />
       <edge source="mariam-chami" target="#muculmanas" id="41" weight="2" />
       <edge source="mariam-chami" target="#fulla" id="42" weight="2" />
-      <edge source="mariam-chami" target="#makeup" id="43" weight="1" />
-      <edge source="mariam-chami" target="#casamentoarabe" id="44" weight="5" />
+      <edge source="mariam-chami" target="#casamentoarabe" id="43" weight="5" />
+      <edge source="mariam-chami" target="#makeup" id="44" weight="1" />
       <edge source="mariam-chami" target="#marrocos" id="45" weight="1" />
       <edge source="mariam-chami" target="#arabe" id="46" weight="1" />
       <edge source="mariam-chami" target="@huda" id="47" weight="1" />
@@ -582,39 +582,39 @@
       <edge source="mariam-chami" target="#perrenguechique" id="49" weight="3" />
       <edge source="mariam-chami" target="#japao" id="50" weight="2" />
       <edge source="hyatt-omar" target="#hijab" id="51" weight="1" />
-      <edge source="hyatt-omar" target="#fifa" id="52" weight="5" />
+      <edge source="hyatt-omar" target="#isla" id="52" weight="2" />
       <edge source="hyatt-omar" target="#copa" id="53" weight="7" />
-      <edge source="hyatt-omar" target="#isla" id="54" weight="2" />
-      <edge source="hyatt-omar" target="#alcool" id="55" weight="2" />
-      <edge source="hyatt-omar" target="#bebida" id="56" weight="2" />
-      <edge source="hyatt-omar" target="#muçulmano" id="57" weight="2" />
-      <edge source="hyatt-omar" target="#bet" id="58" weight="2" />
+      <edge source="hyatt-omar" target="#fifa" id="54" weight="5" />
+      <edge source="hyatt-omar" target="#bebida" id="55" weight="2" />
+      <edge source="hyatt-omar" target="#bet" id="56" weight="2" />
+      <edge source="hyatt-omar" target="#alcool" id="57" weight="2" />
+      <edge source="hyatt-omar" target="#muçulmano" id="58" weight="2" />
       <edge source="hyatt-omar" target="#copadomundo" id="59" weight="2" />
-      <edge source="hyatt-omar" target="#morocco" id="60" weight="2" />
-      <edge source="hyatt-omar" target="#marrocos" id="61" weight="2" />
-      <edge source="hyatt-omar" target="#worldcup" id="62" weight="5" />
-      <edge source="hyatt-omar" target="#argentina" id="63" weight="2" />
-      <edge source="hyatt-omar" target="#roubo" id="64" weight="2" />
+      <edge source="hyatt-omar" target="#marrocos" id="60" weight="2" />
+      <edge source="hyatt-omar" target="#worldcup" id="61" weight="5" />
+      <edge source="hyatt-omar" target="#morocco" id="62" weight="2" />
+      <edge source="hyatt-omar" target="#roubo" id="63" weight="2" />
+      <edge source="hyatt-omar" target="#argentina" id="64" weight="2" />
       <edge source="hyatt-omar" target="#arabe" id="65" weight="2" />
-      <edge source="hyatt-omar" target="#fatiha" id="66" weight="3" />
-      <edge source="hyatt-omar" target="#arrumesecomigo" id="67" weight="2" />
-      <edge source="hyatt-omar" target="@hudabeauty" id="68" weight="1" />
-      <edge source="hyatt-omar" target="#hudabeauty" id="69" weight="2" />
-      <edge source="hyatt-omar" target="#makeup" id="70" weight="2" />
-      <edge source="hyatt-omar" target="#maquiagem" id="71" weight="2" />
-      <edge source="hyatt-omar" target="@sephorabrasil" id="72" weight="1" />
+      <edge source="hyatt-omar" target="#arrumesecomigo" id="66" weight="2" />
+      <edge source="hyatt-omar" target="#fatiha" id="67" weight="3" />
+      <edge source="hyatt-omar" target="@sephorabrasil" id="68" weight="1" />
+      <edge source="hyatt-omar" target="#maquiagem" id="69" weight="2" />
+      <edge source="hyatt-omar" target="#hudabeauty" id="70" weight="2" />
+      <edge source="hyatt-omar" target="#makeup" id="71" weight="2" />
+      <edge source="hyatt-omar" target="@hudabeauty" id="72" weight="1" />
       <edge source="hyatt-omar" target="#islam" id="73" weight="1" />
       <edge source="hyatt-omar" target="#muculmana" id="74" weight="2" />
       <edge source="hyatt-omar" target="#grwm" id="75" weight="1" />
       <edge source="hyatt-omar" target="@huda" id="76" weight="1" />
-      <edge source="carima-orra" target="@naturabroficial" id="77" weight="2" />
-      <edge source="carima-orra" target="#naturaessencialsafran" id="78" weight="2" />
+      <edge source="carima-orra" target="#naturaessencialsafran" id="77" weight="2" />
+      <edge source="carima-orra" target="@naturabroficial" id="78" weight="2" />
       <edge source="carima-orra" target="@leilinha_arabi" id="79" weight="2" />
       <edge source="carima-orra" target="@usedohabr" id="80" weight="6" />
       <edge source="carima-orra" target="@lojacasaoriente" id="81" weight="2" />
-      <edge source="carima-orra" target="#publicidade" id="82" weight="2" />
-      <edge source="carima-orra" target="#hadiya" id="83" weight="2" />
-      <edge source="carima-orra" target="@oboticario" id="84" weight="2" />
+      <edge source="carima-orra" target="@oboticario" id="82" weight="2" />
+      <edge source="carima-orra" target="#publicidade" id="83" weight="2" />
+      <edge source="carima-orra" target="#hadiya" id="84" weight="2" />
     </edges>
   </graph>
 </gexf>

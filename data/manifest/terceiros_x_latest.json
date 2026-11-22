@@ -3,13 +3,13 @@
  "etapa": "terceiros_transcricoes",
  "tipo": "menções de terceiros",
  "ator": "xquik~x-tweet-scraper",
- "run_apify": "kfMYl2tVLmuKDoTbc",
- "run_id": "45076755782",
- "gerado_em": "2026-11-22T22:16:23Z",
+ "run_apify": "rsumIZelyfd6hKVgZ",
+ "run_id": "45077239872",
+ "gerado_em": "2026-11-22T22:21:20Z",
  "janela": "núcleo",
- "itens_recebidos": 1716,
+ "itens_recebidos": 2,
  "cap_por_execucao_usd": 0.5,
- "custo_usd": 0.2574,
+ "custo_usd": 0.0003,
  "influenciadoras": [
   {
    "ator": "mariam-chami",
@@ -18,13 +18,14 @@
     "@eumariamchami -from:eumariamchami -filter:retweets"
    ],
    "lidos": 0,
+   "periodo_lido": null,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
    "por_dia": {},
    "autores_distintos": 0,
    "visualizacoes_somadas": 0,
    "revisao_homonimos": "não se aplica (todas pelo @)",
-   "itens_lidos_antes_do_filtro_de_data": 313,
+   "itens_lidos_antes_do_filtro_de_data": 0,
    "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite"
   },
   {
@@ -34,13 +35,14 @@
     "@hyattomar_ -from:hyattomar_ -filter:retweets"
    ],
    "lidos": 0,
+   "periodo_lido": null,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
    "por_dia": {},
    "autores_distintos": 0,
    "visualizacoes_somadas": 0,
    "revisao_homonimos": "não se aplica (todas pelo @)",
-   "itens_lidos_antes_do_filtro_de_data": 651,
+   "itens_lidos_antes_do_filtro_de_data": 0,
    "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite"
   },
   {
@@ -50,13 +52,14 @@
     "@CarimaOrra -from:CarimaOrra -filter:retweets"
    ],
    "lidos": 0,
+   "periodo_lido": null,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
    "por_dia": {},
    "autores_distintos": 0,
    "visualizacoes_somadas": 0,
    "revisao_homonimos": "não se aplica (todas pelo @)",
-   "itens_lidos_antes_do_filtro_de_data": 34,
+   "itens_lidos_antes_do_filtro_de_data": 0,
    "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite"
   },
   {
@@ -66,6 +69,10 @@
     "@fabiola_oliver -from:fabiola_oliver -filter:retweets"
    ],
    "lidos": 1,
+   "periodo_lido": [
+    "2026-08-14",
+    "2026-08-14"
+   ],
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {
     "nome": 1
@@ -74,9 +81,9 @@
     "2026-08-14": 1
    },
    "autores_distintos": 1,
-   "visualizacoes_somadas": 471109,
+   "visualizacoes_somadas": 471110,
    "revisao_homonimos": "pendente (menções só por nome)",
-   "itens_lidos_antes_do_filtro_de_data": 126,
+   "itens_lidos_antes_do_filtro_de_data": 1,
    "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite"
   }
  ],
