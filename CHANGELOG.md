@@ -1,5 +1,20 @@
 # Changelog
 
+## 22/11/2026: resultado do IRaMuTeQ das matérias (run 45083550703)
+
+- **Texto completo:** 39 de 51 matérias distintas (25 veículos). Ficaram de fora:
+  - 6 sem link convertido ("Failed to fetch data attributes from Google News");
+  - 4 com falha no download (Médicos Sem Fronteiras, ALMG, Jornal da USP e outros);
+  - 2 curtas.
+- **Corpus:** 30 matérias do dia do anúncio e 9 só do restante do núcleo; 582 segmentos, 529 classificados (90,9%); 1.514 formas; 6 classes.
+- **Classes:**
+  - 1 (20,6%): Trump, acordo, desarmamento, paz, Hamas; associada ao dia do anúncio.
+  - 2 (9,3%): Netanyahu, linha amarela, exigência.
+  - 3 (17,0%): comitê, estabilização, força internacional, tecnocrata.
+  - 4 (23,4%): saúde, criança, morto, ONU, colono; associada ao restante do núcleo.
+  - 5 (19,8%) e 6 (9,8%): 72% e 100% dos segmentos vêm do Outras Palavras. A página passa a avisar quando mais da metade de uma classe vem de um só veículo.
+- **Privacidade:** no público não há trecho de matéria (conferido).
+
 ## 22/11/2026: IRaMuTeQ das matérias da imprensa (caderno 07)
 
 O responsável pediu às 20h24 ("um iramuteq das matérias seria bom"). O RSS do Google Notícias só traz o título, e 75 títulos são pouco texto para uma CHD.
