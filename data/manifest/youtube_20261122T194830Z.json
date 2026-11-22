@@ -1,0 +1,39 @@
+{
+ "run_id": "45062821933",
+ "gerado_em": "2026-11-22T19:48:29Z",
+ "janelas": {
+  "base": {
+   "inicio": "2026-06-01T00:00:00Z",
+   "fim": "2026-07-22T23:59:59Z",
+   "papel": "linha de base: mediana das interações por influenciadora e rede, para o índice de engajamento relativo"
+  },
+  "nucleo": {
+   "inicio": "2026-07-23T00:00:00Z",
+   "fim": "2026-08-14T23:59:59Z",
+   "papel": "janela do evento; menções de terceiros só aqui"
+  }
+ },
+ "custo_usd": 0,
+ "cota_unidades_estimadas": 404,
+ "chamadas": {
+  "channels.list": 4,
+  "search.list": 4
+ },
+ "atores": [],
+ "terceiros": [],
+ "terceiros_destino": "não gravado",
+ "videos_gravados": {
+  "novos": 0,
+  "total_no_acervo": 0
+ },
+ "erros": [
+  "mariam-chami: channels.list: HTTP 404 ",
+  "hyatt-omar: channels.list: HTTP 404 ",
+  "carima-orra: channels.list: HTTP 404 ",
+  "fabiola-oliveira: channels.list: HTTP 404 ",
+  "terceiros mariam-chami: search.list: HTTP 404 ",
+  "terceiros hyatt-omar: search.list: HTTP 404 ",
+  "terceiros carima-orra: search.list: HTTP 404 ",
+  "terceiros fabiola-oliveira: search.list: HTTP 404 "
+ ]
+}
