@@ -281,8 +281,8 @@ def main(argv=None, executar=None, raiz=RAIZ):
             "mais_antigo": datas[0] if datas else None, "mais_recente": datas[-1] if datas else None,
             "na_base": sum(1 for l in ls if l["janela"] == "base"), "no_nucleo": sum(1 for l in ls if l["janela"] == "nucleo"),
             "cobertura": ("amostra de teste (mais recentes)" if a.etapa == "teste" else
-                          "nenhuma publicação no período devolvida pelo ator" if not ls else
                           "parcial ⛔ (execução parou no teto de gasto)" if bateu_teto else
+                          "nenhuma publicação no período devolvida pelo ator" if not ls else
                           "completa (parou pela data inicial)" if len(ls) < n else "parcial ⛔ (parou no limite de itens)"),
         })
     outros = sum(1 for x in itens if dono(a.rede, x) not in {p.lstrip("@").lower() for _, p in perfis})
