@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-11-22T21:01:51Z",
- "run_id": "45069732315",
+ "gerado_em": "2026-11-22T21:09:25Z",
+ "run_id": "45070471764",
  "fonte": "https://factchecktools.googleapis.com/v1alpha1/claims:search",
  "custo_usd": 0,
  "max_age_days": 175,
@@ -9,88 +9,77 @@
   {
    "consulta": "Hamas",
    "grupo": "tema",
-   "lidos": 0,
-   "paginas": 0,
+   "lidos": 2,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "desarmamento Hamas",
    "grupo": "tema",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "Gaza",
    "grupo": "tema",
-   "lidos": 0,
-   "paginas": 0,
+   "lidos": 11,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "Palestina",
    "grupo": "tema",
-   "lidos": 0,
-   "paginas": 0,
+   "lidos": 6,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "cessar-fogo Gaza",
    "grupo": "tema",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "Israel Hamas acordo",
    "grupo": "tema",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "\"Mariam Chami\"",
    "grupo": "influenciadora",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "\"Hyatt Omar\"",
    "grupo": "influenciadora",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "\"Carima Orra\"",
    "grupo": "influenciadora",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   },
   {
    "consulta": "\"Fabíola Oliveira\"",
    "grupo": "influenciadora",
    "lidos": 0,
-   "paginas": 0,
+   "paginas": 1,
    "limite_paginas": false
   }
  ],
- "checagens_unicas": 0,
+ "checagens_unicas": 17,
  "no_nucleo": 0,
  "citam_influenciadora": 0,
- "erros": [
-  "Hamas: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "desarmamento Hamas: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "Gaza: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "Palestina: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "cessar-fogo Gaza: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "Israel Hamas acordo: HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "\"Mariam Chami\": HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "\"Hyatt Omar\": HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "\"Carima Orra\": HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  ",
-  "\"Fabíola Oliveira\": HTTP 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Permission denied on the service.\",\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCESS_DENIED\",\n        \"domain\": \"googleapis.com\",\n        \"metadata\": {\n  "
- ],
- "status": "bloqueado"
+ "erros": [],
+ "status": "ok"
 }

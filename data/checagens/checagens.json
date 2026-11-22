@@ -1,0 +1,347 @@
+{
+ "gerado_em": "2026-11-22T21:09:25Z",
+ "checagens": [
+  {
+   "afirmacao": "Jornalista é atingida com pedras por palestinos",
+   "quem_disse": "Várias fontes",
+   "data_afirmacao": "2026-11-13",
+   "agencia": "AFP Checamos",
+   "site": "checamos.afp.com",
+   "titulo": "Vídeo feito na Síria em 2024 circula falsamente como se mostrasse ...",
+   "url": "https://checamos.afp.com/doc.afp.com.D82W39E",
+   "data_checagem": "2026-11-19",
+   "rotulo": "Falso",
+   "idioma": "pt",
+   "consulta": [
+    "Gaza",
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "An image authentically depicts flooding in Gaza in November that has damaged thousands of shelters.",
+   "quem_disse": null,
+   "data_afirmacao": null,
+   "agencia": "Snopes",
+   "site": "snopes.com",
+   "titulo": "Is this image of flooded tents in Gaza real?",
+   "url": "https://www.snopes.com/fact-check/gaza-flooding-tents-image/",
+   "data_checagem": "2026-11-11",
+   "rotulo": "Fake",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "Colocaram a bandeira da Palestina na Torre Eiffel.",
+   "quem_disse": "Utilizador de Facebook",
+   "data_afirmacao": "2026-10-19",
+   "agencia": "Observador",
+   "site": "observador.pt",
+   "titulo": "Fact Check. Manifestantes colocam bandeira da Palestina na Torre ...",
+   "url": "https://observador.pt/factchecks/fact-check-manifestantes-colocam-bandeira-da-palestina-na-torre-eiffel-em-paris/",
+   "data_checagem": "2026-10-27",
+   "rotulo": "Errado",
+   "idioma": "pt",
+   "consulta": [
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "A video shows a funeral procession in Gaza scattering when air raid sirens sound, with the ‘corpse’ jumping up and running away.",
+   "quem_disse": null,
+   "data_afirmacao": null,
+   "agencia": "Full Fact",
+   "site": "fullfact.org",
+   "titulo": "Early pandemic staged funeral procession video wrongly linked to ...",
+   "url": "https://fullfact.org/conflict/video-staged-funeral-wrongly-linked-gaza/",
+   "data_checagem": "2026-10-09",
+   "rotulo": "This isn’t what the footage shows. It was filmed in March 2020, reportedly in Jordan.",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "A 2026 UN survey of conditions in Gaza proves an earlier UN-backed famine declaration was incorrect.",
+   "quem_disse": "A Facebook user.",
+   "data_afirmacao": "2026-08-25",
+   "agencia": "AAP",
+   "site": "aap.com.au",
+   "titulo": "No, UNICEF report does not contradict Gaza famine declaration",
+   "url": "https://www.aap.com.au/factcheck/no-unicef-report-does-not-contradict-gaza-famine-declaration/",
+   "data_checagem": "2026-09-14",
+   "rotulo": "False. The 2026 survey was carried out nearly a year after the famine was declared and didn't contradict the earlier declaration.",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "A summer 2026 UNICEF report \"dismantled\" the \"lie\" that there is or was a famine in Gaza.",
+   "quem_disse": null,
+   "data_afirmacao": null,
+   "agencia": "Snopes",
+   "site": "snopes.com",
+   "titulo": "UNICEF report didn't disprove famine in Gaza, contrary to claims",
+   "url": "https://www.snopes.com/fact-check/gaza-famine-unicef-date/",
+   "data_checagem": "2026-08-19",
+   "rotulo": "False",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "depois"
+  },
+  {
+   "afirmacao": "A comemoração da conquista da Copa do Mundo pela Espanha também foi marcada por um gesto que repercutiu além do futebol. O jovem atacante Lamine Yamal foi fotografado celebrando o título com uma bandeira da Palestina sobre os ombros.",
+   "quem_disse": "Utilizador de Facebook",
+   "data_afirmacao": "2026-07-20",
+   "agencia": "Observador",
+   "site": "observador.pt",
+   "titulo": "Yamal festeja vitória no Mundial com bandeira da Palestina?",
+   "url": "https://observador.pt/factchecks/fact-check-lamine-yamal-festejou-conquista-do-mundial-de-futebol-exibindo-a-bandeira-da-palestina/",
+   "data_checagem": "2026-07-22",
+   "rotulo": "Enganador",
+   "idioma": "pt",
+   "consulta": [
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "Apoiantes vindos da Coreia Do Sul foram registados a chegar aos estádios do Mundial da FIFA a carregar bandeiras e símbolos da Palestina.",
+   "quem_disse": "Utilizador de Instagram",
+   "data_afirmacao": "2026-06-15",
+   "agencia": "Observador",
+   "site": "observador.pt",
+   "titulo": "Fact Check. Adeptos da Coreia do Sul levam bandeiras da Palestina para o Mundial 2026?",
+   "url": "https://observador.pt/factchecks/fact-check-adeptos-da-coreia-do-sul-levam-bandeiras-da-palestina-para-o-mundial-2026/",
+   "data_checagem": "2026-07-14",
+   "rotulo": "Enganador",
+   "idioma": "pt",
+   "consulta": [
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "Em Gaza, carne de ajuda humanitária foi descartada devido a caminhões refrigerados israelenses",
+   "quem_disse": "desinformação",
+   "data_afirmacao": "2026-07-13",
+   "agencia": "Aos Fatos",
+   "site": "aosfatos.org",
+   "titulo": "Vídeo não mostra moradores de Gaza descartando carne",
+   "url": "https://www.aosfatos.org/noticias/video-moradores-gaza-carne/",
+   "data_checagem": "2026-07-13",
+   "rotulo": "falso",
+   "idioma": "pt",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "A Noruega esmagou Israel por 5-0 e celebrou com uma alegria sentida em todo o mundo. Mas o mais poderoso não foi apenas o resultado: a equipe e a federação norueguesa decidiram doar 100% da receita do jogo à Palestina. Isto não é apenas futebol. É uma declaração política clara e corajosa.",
+   "quem_disse": "Utilizador do Facebook",
+   "data_afirmacao": "2026-06-14",
+   "agencia": "Observador",
+   "site": "observador.pt",
+   "titulo": "Fact Check. Noruega ganha jogo contra Israel no Mundial e doa lucros à Palestina?",
+   "url": "https://observador.pt/factchecks/fact-check-noruega-ganha-jogo-contra-israel-no-mundial-e-doa-lucros-a-palestina/",
+   "data_checagem": "2026-06-29",
+   "rotulo": "Enganador",
+   "idioma": "pt",
+   "consulta": [
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "A primeira-ministra italiana, Giorgia Meloni, declarou: \"Sou mulher e mãe. Não posso apoiar o assassino de crianças inocentes.\" Uma mulher corajosa caminha em frente a Netanyahu com uma bandeira palestina ao redor do pescoço. Tenho que reconhecer que alguém da direita é decente.",
+   "quem_disse": "pessoa ou perfil (nome omitido)",
+   "data_afirmacao": "2026-05-05",
+   "agencia": "Observador",
+   "site": "observador.pt",
+   "titulo": "Meloni desafia Netanyahu na ONU com bandeira da Palestina ...",
+   "url": "https://observador.pt/factchecks/fact-check-meloni-ao-lado-de-netanyahu-com-bandeira-da-palestina-e-contra-o-assassinio-de-criancas/",
+   "data_checagem": "2026-06-22",
+   "rotulo": "Errado",
+   "idioma": "pt",
+   "consulta": [
+    "Palestina"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "Palestine cheers on Argentina against #Algeria!",
+   "quem_disse": null,
+   "data_afirmacao": "2026-06-19",
+   "agencia": "misbar.com",
+   "site": "misbar.com",
+   "titulo": "Video Does Not Show Celebrations in Gaza Over Argentina's World ...",
+   "url": "https://www.misbar.com/en/factcheck/2026/06/19/video-does-not-show-celebrations-gaza-over-argentina%E2%80%99s-world-cup-victory-against-algeria",
+   "data_checagem": "2026-06-19",
+   "rotulo": "misleading",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "Photo Shows Man From Gaza Buried In Concrete By Israeli Soldiers",
+   "quem_disse": "pessoa ou perfil (nome omitido)",
+   "data_afirmacao": "2026-06-09",
+   "agencia": "Lead Stories",
+   "site": "leadstories.com",
+   "titulo": "Fact Check: Photo Does NOT Show Man From Gaza Buried In ...",
+   "url": "https://leadstories.com/hoax-alert/2026/06/fact-check-photo-does-not-show-man-from-gaza-buried-in-concrete-by-israeli-soldiers.html",
+   "data_checagem": "2026-06-09",
+   "rotulo": "Somewhere Else",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "In May 2026, former President Bill Clinton said, \"I offered Palestine all of Gaza and 97% of the West Bank, but they never really wanted a homeland for themselves. They just wanted to kill the Jews.\"",
+   "quem_disse": null,
+   "data_afirmacao": null,
+   "agencia": "Snopes",
+   "site": "snopes.com",
+   "titulo": "Did Bill Clinton say Palestinians 'never really wanted a homeland ...",
+   "url": "https://www.snopes.com/fact-check/bill-clinton-palestinians-homeland/",
+   "data_checagem": "2026-06-01",
+   "rotulo": "Incorrect Attribution",
+   "idioma": "en",
+   "consulta": [
+    "Gaza",
+    "Hamas"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "Video shows the moment when Russia hit Ukraine with Oreshnik missile",
+   "quem_disse": "pessoa ou perfil (nome omitido)",
+   "data_afirmacao": "2026-05-25",
+   "agencia": "AFP Fact Check",
+   "site": "factcheck.afp.com",
+   "titulo": "Old Gaza video falsely shared as Russia strike on Ukraine",
+   "url": "https://factcheck.afp.com/doc.afp.com.B44W4KE",
+   "data_checagem": "2026-06-01",
+   "rotulo": "False",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "base"
+  },
+  {
+   "afirmacao": "The video shows Israel dropping snakes on Gaza amid the Israel-Palestinian conflict.",
+   "quem_disse": null,
+   "data_afirmacao": "2026-11-12",
+   "agencia": "Telugu Post",
+   "site": "telugupost.com",
+   "titulo": "Fact Check: Video Of Israel Dropping Snakes On Gaza Is Fake",
+   "url": "https://www.telugupost.com/ai-factcheck/fact-check-israel-snakes-gaza-video-fake-ai-generated-1625625",
+   "data_checagem": null,
+   "rotulo": "False",
+   "idioma": "en",
+   "consulta": [
+    "Gaza"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "sem data"
+  },
+  {
+   "afirmacao": "Urgente! Bomba do dia! Ministro André Mendonça, do STF, acusou o Presidente Lula de DEFENDER O GRUPO TERRORISTA HAMAS trazendo à tona potenciais consequências GRAVÍSSIMAS na relação dos Estados Unidos com o Brasil. Podem utilizar essa frase do ministro para embasamento de uma ação militar contra o Brasil!",
+   "quem_disse": "Boatos em redes sociais",
+   "data_afirmacao": "2026-09-15",
+   "agencia": "Estadão",
+   "site": "estadao.com.br",
+   "titulo": "Vídeo em que Mendonça critica apoio a grupo terrorista é de 2024, não atual",
+   "url": "https://www.estadao.com.br/estadao-verifica/video-mendonca-critica-apoio-grupo-terrorista-2024-nao-atual/",
+   "data_checagem": null,
+   "rotulo": "Fora de contexto",
+   "idioma": "pt",
+   "consulta": [
+    "Hamas"
+   ],
+   "grupo": [
+    "tema"
+   ],
+   "cita_influenciadora": [],
+   "janela": "sem data"
+  }
+ ]
+}
