@@ -4,14 +4,39 @@
   "segredo": "YOUTUBE_API_KEY",
   "custo_usd": 0,
   "cota_diaria": 10000,
-  "custo_unidades": {"channels.list": 1, "playlistItems.list": 1, "videos.list": 1, "search.list": 100},
+  "custo_unidades": {
+   "channels.list": 1,
+   "playlistItems.list": 1,
+   "videos.list": 1,
+   "search.list": 100
+  },
   "max_paginas_uploads": 40,
   "max_paginas_terceiros": 2
  },
  "apify": {
   "segredo": "APIFY_TOKEN_INFL",
-  "teto_usd": 0,
-  "autorizacao": "",
-  "nota": "Teto 0 e sem autorização: nenhum ator Apify roda. Conta Apify dedicada a este projeto; nenhuma consulta de saldo ou de limites."
+  "teto_usd": 10.0,
+  "autorizacao": "Wanderson Honorio, 22/11/2026 16h53 (chat): aprovou o orçamento de US$ 10 da seção 11 do plano, por etapa — teste de Instagram, TikTok e X US$ 1,00; posts das quatro (janela + linha de base) e marcados US$ 1,50; terceiros no TikTok e transcrições US$ 1,00; comentários de Instagram e TikTok dos posts sobre o tema US$ 5,00; reserva US$ 1,50. Frase: 'ta aprovado'.",
+  "etapas": {
+   "teste": 1.0,
+   "posts": 1.5,
+   "terceiros_transcricoes": 1.0,
+   "comentarios": 5.0,
+   "reserva": 1.5
+  },
+  "regra": "O coletor soma o custo dos manifestos da etapa e não roda se o teto da etapa já foi atingido; cada execução leva maxTotalChargeUsd = o que resta da etapa dividido pelo número de execuções previstas. Nenhuma consulta de saldo ou de limites da conta.",
+  "nota": "Conta Apify dedicada a este projeto."
+ },
+ "redes": {
+  "instagram": {
+   "ator": "esdrasdw~instagram-content-scraper",
+   "preco_fonte": "ODI Atlas/ODI Espanha: US$ 0,05 por 1.000 itens (loja Apify, 18/10/2026); reconferir no manifesto do teste",
+   "itens_teste": 15
+  },
+  "tiktok": {
+   "ator": "clockworks~tiktok-scraper",
+   "preco_fonte": "Atlas testou clockworks~tiktok-scraper no diagnóstico de atores de TikTok; preço a medir no manifesto do teste",
+   "itens_teste": 15
+  }
  }
 }

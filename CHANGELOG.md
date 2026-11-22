@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: orçamento de US$ 10 autorizado e coletor pago de Instagram e TikTok
+
+**O que mudou.** `data/config/coleta.json`: teto de US$ 10 por etapa (teste 1,00; posts 1,50; terceiros e transcrições 1,00; comentários 5,00; reserva 1,50), com a autorização do responsável. Novo `scripts/collect_apify_posts.py` (Instagram: esdrasdw~instagram-content-scraper; TikTok: clockworks~tiktok-scraper), `scripts/apify.py` (copiado do ODI Espanha, sem consulta de saldo) e o workflow `pagas.yml`, com disparo manual.
+
+**Por quê.** O responsável aprovou o orçamento da seção 11 do plano em 22/11/2026, às 16h53 ("ta aprovado").
+
+**Trava de gasto.** O coletor soma o custo dos manifestos da etapa; no teste, cada rede usa no máximo metade de US$ 1,00, dividida entre os perfis (maxTotalChargeUsd por execução).
+
+**Executado.** 12 testes unitários aprovados (sem autorização nada roda; o teto por execução considera o gasto anterior; curtida oculta vira vazio; post de outro perfil fica fora; janela e universo do TikTok). Teste pago disparado logo após este commit.
+
 ## 22/11/2026: primeira coleta do YouTube com dados (run 45062903853)
 
 **Resultado** (manifesto `data/manifest/youtube_latest.json`): 4 de 4 canais lidos, nenhum erro, cerca de 612 unidades de cota, cobertura completa nos quatro.
