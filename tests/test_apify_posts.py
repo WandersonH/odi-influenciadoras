@@ -62,6 +62,17 @@ class TestTeto(Base):
         rc = cap.main(["--rede", "instagram", "--etapa", "teste"], executar=lambda *a: chamado.append(a), raiz=self.tmp)
         self.assertEqual((rc, chamado), (1, []))
 
+    def test_posts_pede_o_recorte_e_marca_teto(self):
+        pedidos = []
+
+        def executar(ator, p, c):
+            pedidos.append(p)
+            return {"id": "r", "status": "SUCCEEDED", "usageTotalUsd": c}, []
+        cap.main(["--rede", "tiktok", "--etapa", "posts"], executar=executar, raiz=self.tmp)
+        self.assertEqual((pedidos[0]["oldestPostDateUnified"], pedidos[0]["newestPostDate"]), ("2026-06-01", "2026-08-14"))
+        m = json.loads((self.tmp / "data/manifest/tiktok_latest.json").read_text())
+        self.assertTrue(m["perfis"][0]["cobertura"].startswith("parcial ⛔ (execução parou no teto"))
+
 
 class TestLinha(unittest.TestCase):
     J = {"base": {"inicio": "2026-06-01T00:00:00Z", "fim": "2026-07-22T23:59:59Z"},

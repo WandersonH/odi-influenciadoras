@@ -65,6 +65,15 @@ def run_actor(token: str, actor: str, payload: dict, cap: float):
     run = api("POST", f"/acts/{actor}/runs?waitForFinish=300&maxTotalChargeUsd={cap}", token, payload)["data"]
     while run.get("status") in ("READY", "RUNNING"):
         run = api("GET", f"/actor-runs/{run['id']}?waitForFinish=300", token)["data"]
+    # a cobrança só aparece na execução alguns segundos depois de terminar: relê a execução (não é consulta de saldo)
+    for espera in (5, 10, 20):
+        if run.get("usageTotalUsd") or run.get("chargedEventCounts"):
+            break
+        time.sleep(espera)
+        try:
+            run = api("GET", f"/actor-runs/{run['id']}", token)["data"]
+        except Exception:  # noqa: BLE001
+            break
     try:
         return run, baixar_itens(token, run["defaultDatasetId"])
     except Exception as e:  # noqa: BLE001

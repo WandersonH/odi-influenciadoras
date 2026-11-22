@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: etapa de posts no recorte (01/06 a 14/08/2026)
+
+**O que mudou.** `apify.py` relê a execução depois que ela termina, até três vezes, para gravar o custo de fato cobrado (o responsável informou que o teste custou cerca de US$ 0,25; os manifestos mediram US$ 0,223). O TikTok passa a pedir `oldestPostDateUnified` 2026-06-01 e `newestPostDate` 2026-08-14; o Instagram, `onlyPostsNewerThan` 2026-06-01 (o que vier depois de 14/08 fica fora do acervo). Se o custo chega a 95% do teto da execução, a cobertura é marcada como "parcial ⛔ (parou no teto)".
+
+**Por quê.** O responsável pediu às 17h06 os posts do recorte, dentro do teto aprovado (etapa de posts: US$ 1,50).
+
+**Executado.** 16 testes unitários aprovados. Etapa de posts disparada logo após este commit (Instagram primeiro e, em seguida, TikTok com o que restar).
+
 ## 22/11/2026: teste do apidojo no TikTok (run 45063770407)
 
 **Resultado** (`apify_tiktok_teste_apidojo_20261122T195900Z.json`, execução NchRIPfoMBH9XlZ7I): pedi 60 itens para quatro perfis e vieram 10, todos de Mariam. As outras três ficaram com 0. Universo de Mariam: 3.627 (`channel.videos`), o mesmo do clockworks.

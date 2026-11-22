@@ -85,7 +85,7 @@ def gasto_etapa(etapa: str, raiz: Path = RAIZ) -> float:
     return round(tot, 4)
 
 
-def pedido(rede, perfis, etapa, n, desde, ator=""):
+def pedido(rede, perfis, etapa, n, desde, ator="", ate=""):
     """Uma execução por rede com todos os perfis (a Apify exige teto mínimo de US$ 0,50 por execução)."""
     us = [p.lstrip("@") for p in perfis]
     if rede == "instagram":
@@ -104,6 +104,8 @@ def pedido(rede, perfis, etapa, n, desde, ator=""):
          "shouldDownloadVideos": False, "shouldDownloadCovers": False, "shouldDownloadSubtitles": False}
     if etapa != "teste":
         p["oldestPostDateUnified"] = desde[:10]
+        if ate:
+            p["newestPostDate"] = ate[:10]
     return p
 
 
@@ -224,7 +226,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
     linhas, por_perfil, brutos, custo, erros = [], [], {}, 0.0, []
     run_id = None
     try:
-        run, itens = executar(cfg_rede["ator"], pedido(a.rede, [p for _, p in perfis], a.etapa, n, desde, cfg_rede["ator"]), cap)
+        run, itens = executar(cfg_rede["ator"], pedido(a.rede, [p for _, p in perfis], a.etapa, n, desde, cfg_rede["ator"], projeto["janelas"]["nucleo"]["fim"]), cap)
         custo = apify.custo_run(run)
         run_id = run.get("id")
     except apify.ErroDepoisDaExecucao as e:
@@ -234,6 +236,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
         itens = []
         erros.append(apify.erro_curto(e))
     brutos = itens
+    bateu_teto = custo >= cap * 0.95
     for ator_id, perfil in perfis:
         meus = [x for x in itens if e_do_perfil(a.rede, x, perfil)]
         ls = [linha(a.rede, x, ator_id, perfil, projeto["janelas"], agora) for x in meus]
@@ -247,7 +250,8 @@ def main(argv=None, executar=None, raiz=RAIZ):
             "mais_antigo": datas[0] if datas else None, "mais_recente": datas[-1] if datas else None,
             "na_base": sum(1 for l in ls if l["janela"] == "base"), "no_nucleo": sum(1 for l in ls if l["janela"] == "nucleo"),
             "cobertura": ("amostra de teste (mais recentes)" if a.etapa == "teste" else
-                          "completa (parou pela data inicial)" if datas and len(ls) < n else "parcial ⛔ (parou no limite)"),
+                          "parcial ⛔ (execução parou no teto de gasto)" if bateu_teto else
+                          "completa (parou pela data inicial)" if len(ls) < n else "parcial ⛔ (parou no limite de itens)"),
         })
     outros = sum(1 for x in itens if dono(a.rede, x) not in {p.lstrip("@").lower() for _, p in perfis})
     if outros:
