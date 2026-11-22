@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: comentários coletados (run 45071626874) e menções no X (run 45071871689)
+
+**Comentários do núcleo.** YouTube: 2.098 lidos de um universo de 2.696 (a API conta as respostas, que não foram lidas), 1.771 comentaristas, sem custo; citam islamofobia 48, Israel e guerra 29, Gaza e Palestina 11, acordo/Hamas 1. Instagram: 1.524 lidos em 48 publicações (universo ⛔), US$ 2,44; islamofobia 9, Gaza e Palestina 7, Israel 2. TikTok: 950 lidos em 28 vídeos, US$ 1,18; islamofobia 21, Gaza 1. Texto e autor estão no privado (`data/comentarios/`). Etapa de comentários: US$ 3,62 de 5,00.
+
+**Menções no X** (núcleo, campos since/until do ator): 2 itens, 1 menção a Fabíola Oliveira só pelo nome (revisão de homônimos pendente), US$ 0,0003. Não está confirmado se o número baixo é real ou limite da busca do ator; falta testar a mesma busca sem datas.
+
+**Gasto total na Apify** (manifestos): cerca de US$ 4,43 de 10.
+
 ## 22/11/2026: caderno 05 lê os comentários (só contagens)
 
 **O que mudou.** O caderno 05 mostra, por rede e por influenciadora: publicações, universo de comentários, lidos, comentaristas distintos, quantos comentários citam acordo/Hamas, Gaza e Palestina, Israel ou islamofobia, e a nuvem de palavras dos comentários. Não mostra texto nem autor.
