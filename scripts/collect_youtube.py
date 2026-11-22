@@ -67,7 +67,8 @@ class Api:
         params["key"] = self.chave
         self.unidades += self.custo[rota]
         self.chamadas[rota] = self.chamadas.get(rota, 0) + 1
-        url = API + rota + "?" + urllib.parse.urlencode(params)
+        # a rota é o nome do método ("channels.list"); o endereço é só o recurso ("channels")
+        url = API + rota.split(".")[0] + "?" + urllib.parse.urlencode(params)
         try:
             with urllib.request.urlopen(url, timeout=60) as r:
                 return json.loads(r.read().decode("utf-8"))
@@ -211,6 +212,7 @@ def main():
             stats = estatisticas(api, [u["video_id"] for u in uploads])
         except ErroAPI as e:
             erros.append(f"{ator['id']}: {e}")
+            por_ator.append({"ator": ator["id"], "status": f"erro na leitura: {e}"})
             continue
         lidos = {"base": 0, "nucleo": 0}
         for u in uploads:
@@ -286,8 +288,13 @@ def main():
     (RAIZ / "data/manifest" / nome).write_text(texto_manifesto, encoding="utf-8")
     # cópia de nome fixo para a página ler (a página estática não lista pastas)
     (RAIZ / "data/manifest/youtube_latest.json").write_text(texto_manifesto, encoding="utf-8")
-    print(f"YouTube: {len(por_ator)} perfis; {novos} vídeos novos ({total} no acervo); "
+    lidos_ok = sum(1 for a in por_ator if a.get("canal"))
+    confirmados = sum(1 for a in atores["atores"] if a["perfis"].get("youtube", {}).get("confirmado"))
+    print(f"YouTube: {lidos_ok} de {confirmados} canais lidos; {novos} vídeos novos ({total} no acervo); "
           f"cota ~{api.unidades} unidades; {len(erros)} erro(s); manifesto {nome}")
+    if confirmados and not lidos_ok:
+        print("Nenhum canal confirmado foi lido: execução marcada como falha.")
+        return 1
     return 0
 
 

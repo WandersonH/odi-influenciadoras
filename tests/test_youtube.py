@@ -100,5 +100,24 @@ class TestChaveNaoVazaEmErro(unittest.TestCase):
         self.assertIn("HTTP 403", str(ctx.exception))
 
 
+class TestEndereco(unittest.TestCase):
+    def test_rota_vira_recurso_no_endereco(self):
+        pedidos = []
+
+        class Resp(io.BytesIO):
+            def __enter__(self): return self
+            def __exit__(self, *a): return False
+
+        def falso(url, timeout=0):
+            pedidos.append(url)
+            return Resp(b"{}")
+        api = cy.Api("K")
+        with mock.patch.object(cy.urllib.request, "urlopen", side_effect=falso):
+            api.get("channels.list", part="id", forHandle="x")
+            api.get("playlistItems.list", part="id", playlistId="UU")
+        self.assertTrue(pedidos[0].startswith("https://www.googleapis.com/youtube/v3/channels?"))
+        self.assertTrue(pedidos[1].startswith("https://www.googleapis.com/youtube/v3/playlistItems?"))
+
+
 if __name__ == "__main__":
     unittest.main()
