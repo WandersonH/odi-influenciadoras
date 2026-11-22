@@ -2,14 +2,14 @@
  "rede": "x",
  "etapa": "terceiros_transcricoes",
  "tipo": "menções de terceiros",
- "ator": "xquik~x-tweet-scraper",
- "run_apify": "rsumIZelyfd6hKVgZ",
- "run_id": "45077239872",
- "gerado_em": "2026-11-22T22:21:20Z",
+ "ator": "apidojo~tweet-scraper",
+ "run_apify": "C4k3gHDChYVAlSf3C",
+ "run_id": "45077498670",
+ "gerado_em": "2026-11-22T22:24:06Z",
  "janela": "núcleo",
- "itens_recebidos": 2,
+ "itens_recebidos": 10,
  "cap_por_execucao_usd": 0.5,
- "custo_usd": 0.0003,
+ "custo_usd": 0.0036,
  "influenciadoras": [
   {
    "ator": "mariam-chami",
@@ -68,22 +68,15 @@
     "\"Fabíola Oliveira\" -from:fabiola_oliver -filter:retweets",
     "@fabiola_oliver -from:fabiola_oliver -filter:retweets"
    ],
-   "lidos": 1,
-   "periodo_lido": [
-    "2026-08-14",
-    "2026-08-14"
-   ],
+   "lidos": 0,
+   "periodo_lido": null,
    "universo": "⛔ o X não informa o total da busca",
-   "por_tipo": {
-    "nome": 1
-   },
-   "por_dia": {
-    "2026-08-14": 1
-   },
-   "autores_distintos": 1,
-   "visualizacoes_somadas": 471110,
-   "revisao_homonimos": "pendente (menções só por nome)",
-   "itens_lidos_antes_do_filtro_de_data": 1,
+   "por_tipo": {},
+   "por_dia": {},
+   "autores_distintos": 0,
+   "visualizacoes_somadas": 0,
+   "revisao_homonimos": "não se aplica (todas pelo @)",
+   "itens_lidos_antes_do_filtro_de_data": 0,
    "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite"
   }
  ],
