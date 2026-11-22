@@ -1,0 +1,69 @@
+{
+ "rede": "tiktok",
+ "etapa": "teste",
+ "ator": "apidojo~tiktok-profile-scraper",
+ "run_id": "45063770407",
+ "gerado_em": "2026-11-22T19:58:52Z",
+ "run_apify": "NchRIPfoMBH9XlZ7I",
+ "itens_recebidos": 10,
+ "teto_etapa_usd": 1.0,
+ "gasto_antes_usd": 0.223,
+ "cap_por_execucao_usd": 0.5,
+ "custo_usd": 0.0,
+ "perfis": [
+  {
+   "ator": "mariam-chami",
+   "perfil": "@mariamchami1",
+   "lidos": 10,
+   "universo": 3627,
+   "universo_fonte": "channel.videos (TikTok)",
+   "mais_antigo": "2026-06-26T00:17:34Z",
+   "mais_recente": "2026-11-22T18:40:55Z",
+   "na_base": 2,
+   "no_nucleo": 0,
+   "cobertura": "amostra de teste (mais recentes)"
+  },
+  {
+   "ator": "hyatt-omar",
+   "perfil": "@hyattomar",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "amostra de teste (mais recentes)"
+  },
+  {
+   "ator": "carima-orra",
+   "perfil": "@carimaorra1",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "amostra de teste (mais recentes)"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "perfil": "@fabiolaoliver",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "amostra de teste (mais recentes)"
+  }
+ ],
+ "bruto": "repositório privado",
+ "posts_gravados": {
+  "novos": 0,
+  "total_no_acervo": 60
+ },
+ "erros": []
+}
