@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: caderno 05 lê os comentários (só contagens)
+
+**O que mudou.** O caderno 05 mostra, por rede e por influenciadora: publicações, universo de comentários, lidos, comentaristas distintos, quantos comentários citam acordo/Hamas, Gaza e Palestina, Israel ou islamofobia, e a nuvem de palavras dos comentários. Não mostra texto nem autor.
+
+**Pergunta do responsável às 18h21.** O corpus usa o mesmo `lexique_pt.txt` do ODI Atlas (dicionário de português da instalação do IRaMuTeQ do responsável, 142.615 formas), conferido byte a byte com `cmp`, e as mesmas formas ativas (nome, verbo, adjetivo e formas não reconhecidas).
+
+**Executado.** `node --check`; testes unitários.
+
 ## 22/11/2026: coletor de comentários do núcleo
 
 **O que mudou.** Novo `scripts/collect_comentarios.py`, com o workflow `comentarios.yml`. YouTube pela API oficial (todos os comentários, sem custo); Instagram (datadoping) e TikTok (clockworks), atores do ODI Atlas, com até 50 comentários por publicação. Usa a etapa "comentarios" do teto (US$ 5,00): até US$ 3,60 no Instagram e US$ 1,20 no TikTok. Texto e autor vão só para o privado; o público recebe `data/comentarios/<rede>_resumo.json`, com universo × lido por publicação, comentaristas distintos, nuvem e quantos comentários citam acordo/Hamas, Gaza e Palestina, Israel ou islamofobia.

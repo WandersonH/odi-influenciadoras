@@ -77,7 +77,7 @@
   <div class="paper-ribbon"><span>CADERNO 05 / COMENTÁRIOS</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Só agregados no público</div><h1>Quanto se comentou e em que tom.</h1>
     <p>Volume, contador da plataforma × comentários lidos, intolerância (islamofobia, antissemitismo), posição do comentarista, CHD e similitude. Texto e autor ficam só no repositório privado.</p></div>
-  <div class="card"><div class="inf-vazio">⛔ Comentários ainda não coletados. Etapa posterior à coleta das publicações; a parte paga depende de teto autorizado.</div></div>
+  <div class="card" id="p5Corpo"></div>
 </section>
 
 <section class="panel" id="terceiros" aria-label="Quem fala delas">
@@ -378,6 +378,24 @@ async function dizem(rede) {
         <div class="kpi"><div class="klabel">Citam uma influenciadora</div><div class="kval">${n(MC.citam_influenciadora)}</div><div class="knote">nome na afirmação, no título ou em quem disse</div></div></div>
         ${lista.length ? `<div class="tablewrap" style="margin-top:14px"><table class="datatable"><thead><tr><th>Checagem</th><th>Janela</th><th>Agência</th><th>Rótulo</th><th>Afirmação</th><th>Quem disse</th><th></th></tr></thead><tbody>${lista.slice(0, 60).map(x => `<tr><td>${x.data_checagem ? dataBR(x.data_checagem + "T12:00:00Z") : "—"}</td><td>${rotJ[x.janela] || x.janela}</td><td>${esc(x.agencia || "")}</td><td>${esc(x.rotulo || "")}</td><td style="max-width:420px">${esc((x.afirmacao || "").slice(0, 220))}${x.cita_influenciadora?.length ? ` <span class="inf-sit pend">${esc(x.cita_influenciadora.join(", "))}</span>` : ""}</td><td>${esc(x.quem_disse || "—")}</td><td>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">abrir</a>` : ""}</td></tr>`).join("")}</tbody></table></div>` : vazio("Nenhuma checagem encontrada para as consultas no período.")}
         <p class="inf-nota">Consultas: ${MC.consultas.map(c => `${esc(c.consulta)} (${c.lidos})`).join(" · ")}. O estudo não dá veredito: o rótulo é o da agência. Nome de pessoa comum em "quem disse" é omitido.</p>`;
+  }
+
+  // Caderno 05: comentários (só contagens)
+  {
+    const CM = {};
+    for (const r of ["youtube", "instagram", "tiktok"]) CM[r] = await json(`data/comentarios/${r}_resumo.json`);
+    const temaRot = {acordo_hamas: "Acordo/Hamas", gaza_palestina: "Gaza e Palestina", israel_guerra: "Israel e guerra", islamofobia_preconceito: "Islamofobia e preconceito"};
+    const blocos = Object.entries(CM).map(([r, C]) => {
+      if (!C) return `<h2 class="tk-h2" style="margin-top:18px">${REDES[r]}</h2>${vazio("⛔ Comentários ainda não coletados nesta rede.")}`;
+      const pi = C.por_influenciadora;
+      return `<h2 class="tk-h2" style="margin-top:18px">${REDES[r]} <small style="font:400 12px sans-serif;color:#6b7a8c">· coleta de ${dataBR(C.gerado_em)}</small></h2>
+        <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Publicações</th><th class="inf-num">Universo</th><th class="inf-num">Lidos</th><th class="inf-num">Comentaristas</th>${Object.values(temaRot).map(t => `<th class="inf-num">${t}</th>`).join("")}</tr></thead><tbody>${Object.entries(pi).map(([a, v]) => `<tr><td>${esc(nomes[a] || a)}</td><td class="inf-num">${n(v.publicacoes)}</td><td class="inf-num">${v.universo == null ? "⛔" : n(v.universo)}</td><td class="inf-num">${n(v.lidos)}</td><td class="inf-num">${n(v.comentaristas_distintos)}</td>${Object.keys(temaRot).map(k => `<td class="inf-num">${n(v.temas[k] || 0)} <small>${pct(v.temas[k] || 0, v.lidos)}</small></td>`).join("")}</tr>`).join("")}</tbody></table></div>
+        <div class="inf-duas">${Object.entries(pi).filter(([, v]) => v.nuvem && v.nuvem.length).map(([a, v], i) => { const mx = v.nuvem[0][1]; return `<div class="card"><div class="eyebrow" style="color:${COR[i % COR.length]}">${esc(nomes[a] || a)} · palavras dos comentários</div><div class="inf-cloud" style="--c:${COR[i % COR.length]}">${v.nuvem.slice(0, 35).map(([t, q]) => `<span style="font-size:${(11 + 13 * Math.sqrt(q / mx)).toFixed(1)}px" title="${n(q)} comentários">${esc(t)}</span>`).join(" ")}</div></div>`; }).join("")}</div>
+        ${C.erros && C.erros.length ? `<p class="inf-nota">Erros: ${esc(C.erros.slice(0, 3).join(" · "))}</p>` : ""}`;
+    }).join("");
+    $("p5Corpo").innerHTML = `<div class="eyebrow">Comentários das publicações do núcleo · sem texto nem autor no público</div><h2 class="tk-h2">Quanto se comentou e se alguém cobrou o tema</h2>${blocos}
+      <p class="inf-nota">Universo = número de comentários que a plataforma informa para as publicações (o Instagram não informou: ⛔). YouTube: todos os comentários pela API oficial. Instagram e TikTok: até 50 por publicação (Apify), ordem da plataforma: é amostra. Os temas usam o mesmo dicionário do caderno 03; um comentário pode ter mais de um tema. Texto e autor ficam só no repositório privado.</p>
+      <div class="inf-vazio" style="margin-top:12px">⛔ Ainda por fazer sobre os comentários: classificação de intolerância e posição do comentarista pelo livro de códigos (com kappa), CHD e similitude dos comentários.</div>`;
   }
 
   // Cadernos 08 e 09: rede e corpus
