@@ -78,6 +78,17 @@ class TestTranscrever(unittest.TestCase):
         m = json.loads(next((self.tmp / "data/manifest").glob("apify_youtube_transcricao_*.json")).read_text())
         self.assertEqual((m["etapa"], m["custo_usd"], m["com_texto"]), ("terceiros_transcricoes", 0.003, 1))
 
+    def test_audio_local_dispensa_download(self):
+        escrever(self.tmp / "data/youtube/videos.csv", ["video_id", "ator_id", "publicado_em", "janela", "url"], [
+            {"video_id": "-ab", "ator_id": "m", "publicado_em": "2026-08-01", "janela": "nucleo", "url": "y"}])
+        pasta = self.tmp / "audio"; pasta.mkdir(); (pasta / "-ab.m4a").write_bytes(b"x")
+        usados = []
+        rc = tr.main(["--rede", "youtube", "--audio-dir", str(pasta)], raiz=self.tmp,
+                     legenda=lambda vid: self.fail("não devia buscar legenda"), baixar=lambda *a: self.fail("não devia baixar"),
+                     transcrever=lambda c, m: usados.append(c) or {"texto": "fala", "idioma": "pt", "duracao_s": 5, "fonte": "Whisper"})
+        self.assertEqual(rc, 0)
+        self.assertTrue(usados[0].endswith("-ab.m4a"))
+
 
 if __name__ == "__main__":
     unittest.main()

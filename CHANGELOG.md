@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: YouTube transcrito a partir de áudio baixado pelo responsável
+
+**O que aconteceu.** O YouTube bloqueia o download vindo do GitHub e do ambiente de nuvem. O responsável baixou o áudio dos 16 vídeos de Mariam no núcleo pelo Terminal do próprio Mac (yt-dlp; corrigido antes o erro de certificado do Python dele), em `~/Downloads/trascricao` (16 arquivos m4a, cerca de 25 MB). Os arquivos foram guardados no repositório privado (`odi-secret-infl-/audio/youtube`, commit f70b797).
+
+**O que mudou.** `transcrever.py --audio-dir` usa o áudio local antes de tentar legenda ou download. A fonte registra "áudio baixado pelo responsável no próprio computador". O workflow de transcrição clona o privado na tarefa do YouTube e ganhou a opção `so_youtube`.
+
+**Executado.** 20 testes unitários aprovados. Transcrição disparada logo após este commit.
+
 ## 22/11/2026: página lê Trends e transcrições (cadernos 02, 07 e 10)
 
 **O que mudou.** O caderno 02 mostra, por influenciadora, as publicações do núcleo, quantas têm o tema na legenda, quantos vídeos tiveram a fala transcrita, quantas falas citam um termo e os trechos com contexto. Isso ainda não é posição codificada. O caderno 07 traz os gráficos do Trends com o núcleo sombreado e 31/07 marcado. O caderno 10 registra a saúde do Trends e das transcrições. `collect_trends.py` grava `pasta` no manifesto para a página achar os CSVs (preenchido à mão no manifesto atual). A página abre o caderno pelo endereço (`#trends`, `#posicao`).

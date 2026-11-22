@@ -30,6 +30,11 @@ ACERVO = {"youtube": ("data/youtube/videos.csv", "video_id"), "instagram": ("dat
           "tiktok": ("data/tiktok/posts.csv", "post_id")}
 
 
+def glob_escape(s: str) -> str:
+    import glob as _g
+    return _g.escape(s)
+
+
 def ler_csv(caminho: Path) -> list[dict]:
     if not caminho.exists():
         return []
@@ -160,6 +165,7 @@ def main(argv=None, raiz: Path = RAIZ, legenda=legenda_youtube, baixar=baixar_au
     ap.add_argument("--modelo", default="small")
     ap.add_argument("--janela", default="nucleo")
     ap.add_argument("--apify", action="store_true", help="YouTube: legendas pela Apify (etapa terceiros_transcricoes)")
+    ap.add_argument("--audio-dir", default="", help="pasta com áudios já baixados (<post_id>.*); usados antes de baixar")
     ap.add_argument("--limite-minutos", type=float, default=300, help="para com folga antes do tempo do job")
     a = ap.parse_args(argv)
 
@@ -180,13 +186,18 @@ def main(argv=None, raiz: Path = RAIZ, legenda=legenda_youtube, baixar=baixar_au
             parou_por_tempo = True
             break
         agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        res = pela_apify.get(v["post_id"]) or (legenda(v["post_id"]) if a.rede == "youtube" else None)
+        tem_local = bool(a.audio_dir) and any(Path(a.audio_dir).glob(f"{glob_escape(v['post_id'])}.*"))
+        res = pela_apify.get(v["post_id"]) or (legenda(v["post_id"]) if a.rede == "youtube" and not tem_local else None)
         if res is None and a.apify:
             falhas.append({"post_id": v["post_id"], "motivo": "sem legenda pela Apify"})
             feitas[v["post_id"]] = {**v, "status": "falhou: sem legenda pela Apify", "texto": "", "transcrito_em": agora}
             gravar(destino, feitas)
             continue
         try:
+            local = sorted(Path(a.audio_dir).glob(f"{glob_escape(v['post_id'])}.*")) if a.audio_dir else []
+            if res is None and local:
+                res = transcrever(str(local[0]), a.modelo)
+                res["fonte"] += " · áudio baixado pelo responsável no próprio computador"
             if res is None:
                 with tempfile.TemporaryDirectory() as tmp:
                     res = transcrever(baixar(v["url"], tmp), a.modelo)
