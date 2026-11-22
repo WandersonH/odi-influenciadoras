@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: primeira transcrição falhou (run 45065082432); correção
+
+**Resultado.** Instagram (30 vídeos; 18 publicações sem vídeo fora) e TikTok (28 vídeos): o download funcionou, mas todas as transcrições falharam com `open() got an unexpected keyword argument 'metadata_errors'`, uma incompatibilidade entre o faster-whisper e a versão nova do PyAV. YouTube (16 vídeos): legenda indisponível e download bloqueado pelo YouTube no runner do GitHub ("Sign in to confirm you're not a bot"), risco que já estava previsto no plano.
+
+**Correção.** O áudio passa a ser decodificado com o ffmpeg (16 kHz, mono) e entregue ao Whisper como vetor, sem passar pelo PyAV. Instagram e TikTok disparados de novo. O YouTube fica para a Apify, dentro da etapa de terceiros e transcrições (US$ 1,00).
+
+**Executado.** 18 testes unitários aprovados.
+
 ## 22/11/2026: transcrição dos vídeos do núcleo (sem custo)
 
 **O que mudou.** Novo `scripts/transcrever.py` e workflow `transcricao.yml` (uma tarefa por rede, em paralelo). No YouTube, usa primeiro a legenda do próprio vídeo; sem ela, e no Instagram e no TikTok, baixa o áudio com yt-dlp e transcreve com faster-whisper na CPU do runner, detectando o idioma. Imagem e carrossel ficam fora (não têm fala) e são contados no manifesto. Retoma de onde parou e grava a cada vídeo.

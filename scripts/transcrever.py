@@ -87,7 +87,14 @@ def whisper(caminho: str, modelo: str):
     if modelo not in _MODELO:
         from faster_whisper import WhisperModel
         _MODELO[modelo] = WhisperModel(modelo, device="cpu", compute_type="int8")
-    segs, info = _MODELO[modelo].transcribe(caminho, vad_filter=True, beam_size=1)
+    # decodifica com o ffmpeg (16 kHz, mono): evita o PyAV, cuja versão nova quebrou o decode_audio do faster-whisper
+    import numpy as np
+    r = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", caminho, "-f", "s16le", "-ac", "1", "-ar", "16000", "-"],
+                       capture_output=True, timeout=900)
+    if r.returncode != 0 or not r.stdout:
+        raise RuntimeError("ffmpeg: " + r.stderr.decode("utf-8", "replace")[-200:])
+    audio = np.frombuffer(r.stdout, np.int16).astype(np.float32) / 32768.0
+    segs, info = _MODELO[modelo].transcribe(audio, vad_filter=True, beam_size=1)
     texto = " ".join(s.text.strip() for s in segs)
     return {"texto": " ".join(texto.split()), "idioma": info.language, "duracao_s": round(info.duration),
             "fonte": f"Whisper {modelo} (faster-whisper, CPU)"}
