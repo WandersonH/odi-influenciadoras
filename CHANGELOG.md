@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: posts do recorte coletados (run 45064535261) e página com Instagram e TikTok
+
+**Resultado** (`instagram_latest.json` e `tiktok_latest.json`, etapa posts):
+- Instagram (execução zy5eI85W6wGJeXfng): 337 itens, 9 de outros perfis fora do acervo. Base/núcleo: Mariam 48/21, Hyatt 8/5, Carima 31/20, Fabíola 1/2. Universo ⛔ (o ator não informa). Custo gravado de novo como 0,0, mesmo relendo a execução: esse ator não devolve a cobrança; pelo preço de referência (US$ 0,05 por mil), 337 itens dão cerca de US$ 0,02 (estimativa).
+- TikTok (execução jywrkdCGySox9KfbG, filtro de 01/06 a 14/08): 109 itens, US$ 0,546 medidos. Base/núcleo: Mariam 68/17 (universo 3.628), Hyatt 4/4 (226), Carima 4/3 (570), Fabíola 5/4 (941).
+- "Completa" aqui significa que o ator devolveu menos itens que o limite sem atingir o teto, usando o próprio filtro de data. A leitura não foi conferida pela data mais antiga, como no YouTube.
+- Nenhuma das 76 legendas do núcleo no Instagram e no TikTok contém Hamas, desarmamento, Gaza, Palestina ou os termos em árabe. Isso só cobre a legenda: falta a fala dos vídeos.
+
+**Página.** Panorama, caderno 03 e saúde da coleta agora leem Instagram e TikTok. Conferida no Chrome headless servida localmente: 92 publicações no núcleo (YouTube 16, Instagram 48, TikTok 28).
+
+**Executado.** 16 testes unitários aprovados; `node --check` no script da página.
+
 ## 22/11/2026: etapa de posts no recorte (01/06 a 14/08/2026)
 
 **O que mudou.** `apify.py` relê a execução depois que ela termina, até três vezes, para gravar o custo de fato cobrado (o responsável informou que o teste custou cerca de US$ 0,25; os manifestos mediram US$ 0,223). O TikTok passa a pedir `oldestPostDateUnified` 2026-06-01 e `newestPostDate` 2026-08-14; o Instagram, `onlyPostsNewerThan` 2026-06-01 (o que vier depois de 14/08 fica fora do acervo). Se o custo chega a 95% do teto da execução, a cobertura é marcada como "parcial ⛔ (parou no teto)".

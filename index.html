@@ -38,7 +38,7 @@
   <div class="kpigrid" id="p1Kpis"></div>
   <div class="card" style="margin-top:17px"><div class="eyebrow">Universo e amostra</div><h2 class="tk-h2">Quanto existe, quanto foi lido e como</h2>
     <div class="tablewrap"><table class="datatable" id="p1Tabela"></table></div>
-    <p class="inf-nota">Universo = total de vídeos que o próprio YouTube informa para o canal (toda a vida da conta), com a data da leitura. Cobertura <b>completa</b> só quando a leitura parou pela data inicial da linha de base; <b>parcial ⛔</b> quando parou no limite. Universo que a plataforma não informa aparece como ⛔ e nunca é estimado. Redes sem perfil confirmado não são coletadas.</p></div>
+    <p class="inf-nota">Linhas de Instagram e TikTok: "lidos" = publicações no período, com o filtro de data do ator. O Instagram não informa o total de publicações do perfil (⛔). Universo = total de vídeos que o próprio YouTube ou TikTok informa para o perfil (toda a vida da conta), com a data da leitura. Cobertura <b>completa</b> só quando a leitura parou pela data inicial da linha de base; <b>parcial ⛔</b> quando parou no limite. Universo que a plataforma não informa aparece como ⛔ e nunca é estimado. Redes sem perfil confirmado não são coletadas.</p></div>
   <div class="card"><div class="eyebrow">Perfis</div><h2 class="tk-h2">Quem está no estudo e o que já foi confirmado</h2><div class="inf-atores" id="p1Atores"></div></div>
 </section>
 
@@ -51,8 +51,8 @@
 
 <section class="panel" id="dizem" aria-label="O que dizem">
   <div class="paper-ribbon"><span>CADERNO 03 / O QUE DIZEM</span><span>—</span></div>
-  <div class="intro"><div class="eyebrow">Acervo do núcleo</div><h1>Cada publicação, com data e números.</h1>
-    <p>Vídeos do YouTube das próprias influenciadoras no período. A marcação de tema vem do título e da descrição (regras, não inteligência artificial); a posição só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
+  <div class="intro"><div class="eyebrow">Acervo do núcleo</div><h1>Cada publicação do núcleo, com data e números.</h1>
+    <p>Publicações das próprias influenciadoras no YouTube, no Instagram e no TikTok entre 23/07 e 14/08/2026. A marcação de tema vem do título e da descrição (regras, não inteligência artificial); a posição só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
   <div class="card" id="p3Corpo"></div>
 </section>
 
@@ -146,8 +146,11 @@ function lerCSV(t) {
 }
 
 (async () => {
-  const [atores, M, csv] = await Promise.all([json("data/config/atores.json"), json("data/manifest/youtube_latest.json"), texto("data/youtube/videos.csv")]);
+  const [atores, M, csv, MI, MT, ci, ct] = await Promise.all([json("data/config/atores.json"), json("data/manifest/youtube_latest.json"), texto("data/youtube/videos.csv"),
+    json("data/manifest/instagram_latest.json"), json("data/manifest/tiktok_latest.json"), texto("data/instagram/posts.csv"), texto("data/tiktok/posts.csv")]);
   const videos = csv ? lerCSV(csv) : [];
+  const postsIG = ci ? lerCSV(ci) : [], postsTT = ct ? lerCSV(ct) : [];
+  const apifyOk = m => m && m.etapa === "posts";
   const nomes = Object.fromEntries((atores?.atores || []).map(a => [a.id, a.nome]));
 
   // Perfis
@@ -167,22 +170,28 @@ function lerCSV(t) {
     $("chipColeta").textContent = "● Última coleta YouTube: " + dataBR(M.gerado_em);
     $("p1Data").textContent = "LEITURA DE " + dataBR(M.gerado_em);
     const ok = M.atores.filter(a => a.canal);
-    const nucleo = videos.filter(v => v.janela === "nucleo");
-    const tema = nucleo.filter(v => v.toca_nucleo === "True" || v.toca_tema_amplo === "True" || v.toca_arabe === "True");
+    const nucleo = videos.filter(v => v.janela === "nucleo").concat(apifyOk(MI) ? postsIG.filter(v => v.janela === "nucleo") : [], apifyOk(MT) ? postsTT.filter(v => v.janela === "nucleo") : []);
+    const termos = ["hamas", "desarmamento", "desarmar", "gaza", "palestina", "cessar-fogo", "cessar fogo", "حماس", "غزة", "فلسطين"];
+    const sem = t => (t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    const tema = nucleo.filter(v => v.toca_nucleo === "True" || v.toca_tema_amplo === "True" || v.toca_arabe === "True" || (v.texto && termos.some(k => sem(v.texto).includes(sem(k)))));
     $("p1Kpis").innerHTML = [
-      ["Canais lidos", n(ok.length) + " de " + n(M.atores.length), "YouTube com perfil confirmado"],
-      ["Vídeos na base", n(videos.filter(v => v.janela === "base").length), "01/06 a 22/07"],
-      ["Vídeos no núcleo", n(nucleo.length), "23/07 a 14/08"],
-      ["No núcleo, com termos do tema", n(tema.length), "título ou descrição; sem codificação humana"],
+      ["Canais do YouTube lidos", n(ok.length) + " de " + n(M.atores.length), "perfis confirmados"],
+      ["Publicações no núcleo", n(nucleo.length), "YouTube, Instagram e TikTok · 23/07 a 14/08"],
+      ["No núcleo, com termos do tema", n(tema.length), "Hamas, desarmamento, Gaza, Palestina, árabe"],
+      ["Posição codificada", "⛔", "falta transcrição e codificação humana"],
     ].map(k => `<div class="kpi"><div class="klabel">${k[0]}</div><div class="kval">${k[1]}</div><div class="knote">${k[2]}</div></div>`).join("");
     $("p1Tabela").innerHTML = `<thead><tr><th>Influenciadora</th><th>Rede</th><th class="inf-num">Universo</th><th class="inf-num">Lidos base</th><th class="inf-num">Lidos núcleo</th><th>Cobertura</th></tr></thead><tbody>${M.atores.map(a => a.canal
       ? `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td class="inf-num">${a.universo_canal == null ? "⛔" : n(a.universo_canal)}</td><td class="inf-num">${n(a.lidos_base)}</td><td class="inf-num">${n(a.lidos_nucleo)}</td><td>${a.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`
-      : `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td colspan="4">⛔ ${esc(a.status || "")}</td></tr>`).join("")}</tbody>`;
+      : `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td colspan="4">⛔ ${esc(a.status || "")}</td></tr>`).join("")}${
+      [["Instagram", MI], ["TikTok", MT]].map(([rede, m]) => apifyOk(m) ? m.perfis.map(p => `<tr><td>${esc(nomes[p.ator] || p.ator)}</td><td>${rede}</td><td class="inf-num">${p.universo == null ? "⛔" : n(p.universo)}</td><td class="inf-num">${n(p.na_base)}</td><td class="inf-num">${n(p.no_nucleo)}</td><td>${p.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`).join("") : `<tr><td colspan="2">${rede}</td><td colspan="4">⛔ posts do recorte ainda não coletados</td></tr>`).join("")}</tbody>`;
   }
 
   // Caderno 03: vídeos do núcleo
-  const nuc = videos.filter(v => v.janela === "nucleo").sort((a, b) => a.publicado_em.localeCompare(b.publicado_em));
-  $("p3Corpo").innerHTML = nuc.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Vídeo</th><th>Tema</th><th class="inf-num">Visualizações</th><th class="inf-num">Curtidas</th><th class="inf-num">Comentários</th></tr></thead><tbody>${nuc.map(v => `<tr><td>${dataBR(v.publicado_em)}</td><td>${esc(nomes[v.ator_id] || v.ator_id)}</td><td><a href="${esc(v.url)}" target="_blank" rel="noopener">abrir</a></td><td>${[v.toca_nucleo === "True" ? "acordo" : "", v.toca_tema_amplo === "True" ? "Gaza/Palestina" : "", v.toca_arabe === "True" ? "árabe" : ""].filter(Boolean).join(", ") || "—"}</td><td class="inf-num">${n(v.visualizacoes)}</td><td class="inf-num">${n(v.curtidas)}</td><td class="inf-num">${n(v.comentarios)}</td></tr>`).join("")}</tbody></table></div>` : vazio(M ? "Nenhum vídeo das influenciadoras no núcleo (23/07 a 14/08) na leitura do YouTube." : "⛔ Nenhuma coleta executada ainda.");
+  const nuc = videos.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "YouTube"}))
+    .concat(apifyOk(MI) ? postsIG.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "Instagram"})) : [],
+            apifyOk(MT) ? postsTT.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "TikTok"})) : [])
+    .sort((a, b) => a.publicado_em.localeCompare(b.publicado_em));
+  $("p3Corpo").innerHTML = nuc.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th>Publicação</th><th>Legenda</th><th class="inf-num">Visualizações</th><th class="inf-num">Curtidas</th><th class="inf-num">Comentários</th></tr></thead><tbody>${nuc.map(v => `<tr><td>${dataBR(v.publicado_em)}</td><td>${esc(nomes[v.ator_id] || v.ator_id)}</td><td>${v.rede}</td><td><a href="${esc(v.url)}" target="_blank" rel="noopener">abrir</a></td><td style="max-width:420px">${v.texto ? esc(v.texto.slice(0, 220)) + (v.texto.length > 220 ? "…" : "") : "—"}</td><td class="inf-num">${n(v.visualizacoes)}</td><td class="inf-num">${n(v.curtidas)}</td><td class="inf-num">${n(v.comentarios)}</td></tr>`).join("")}</tbody></table></div>` : vazio(M ? "Nenhum vídeo das influenciadoras no núcleo (23/07 a 14/08) na leitura do YouTube." : "⛔ Nenhuma coleta executada ainda.");
 
   $("p2Corpo").innerHTML = vazio("⛔ Posição ainda não codificada. Depende da coleta das publicações e da validação do livro de códigos (kappa ≥ 0,70).");
   $("p4Corpo").innerHTML = vazio(M ? "⛔ Índice ainda não calculado: o script de engajamento é a próxima etapa sobre os vídeos já coletados." : "⛔ Nenhuma coleta executada ainda.");
@@ -194,7 +203,8 @@ function lerCSV(t) {
   // Caderno 10: saúde
   $("p10Saude").innerHTML = `<thead><tr><th>Fonte</th><th>Última execução</th><th>Situação</th></tr></thead><tbody>
     <tr><td>YouTube (API oficial)</td><td>${M ? dataBR(M.gerado_em) + " · run " + esc(M.run_id) : "—"}</td><td>${M ? (M.erros.length ? `<span class="inf-sit pend">${M.erros.length} erro(s)</span>` : '<span class="inf-sit ok">ok</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
-    ${["Instagram", "TikTok", "X", "Imprensa (Google Notícias)", "Google Trends", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;
+    ${[["Instagram", MI], ["TikTok", MT]].map(([f, m]) => `<tr><td>${f} (Apify)</td><td>${m ? dataBR(m.gerado_em) + " · run " + esc(m.run_id) + " · etapa " + esc(m.etapa) : "—"}</td><td>${apifyOk(m) ? '<span class="inf-sit ok">recorte coletado</span>' : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
+    ${["X", "Imprensa (Google Notícias)", "Google Trends", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;
 })();
 </script>
 </body></html>
