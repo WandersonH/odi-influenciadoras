@@ -82,6 +82,7 @@
   <div class="intro"><div class="eyebrow">Google Trends · Google Notícias</div><h1>O tamanho do assunto fora das redes delas.</h1>
     <p>Interesse de busca no Brasil e por estado; matérias de 30/07 a 07/08 e os termos que definiram as palavras-chave.</p></div>
   <div class="card" id="p7Corpo"></div>
+  <div class="card" id="p7Checagens"></div>
   <div class="card"><div class="eyebrow">Imprensa</div><div class="inf-vazio">⛔ Matérias ainda não coletadas.</div></div>
 </section>
 
@@ -252,6 +253,21 @@ function lerCSV(t) {
     $("p7Corpo").innerHTML = `<div class="eyebrow">Google Trends · Brasil · 01/06 a 14/08/2026 · coleta de ${dataBR(MTr.run_started_utc)}</div>${blocos.join("")}<p class="inf-nota">Índice de 0 a 100 relativo a cada consulta: não é volume de buscas e não se compara entre gráficos. Zero significa volume abaixo do mínimo que o Trends mostra.</p>`;
   }
 
+  // Caderno 07: checagens
+  {
+    const [MC, C] = await Promise.all([json("data/manifest/checagens_latest.json"), json("data/checagens/checagens.json")]);
+    const lista = C?.checagens || [];
+    const rotJ = {nucleo: "núcleo", base: "linha de base", depois: "depois do recorte", antes: "antes", "sem data": "sem data"};
+    $("p7Checagens").innerHTML = !MC ? `<div class="eyebrow">Checagens · Google Fact Check Tools</div>${vazio("⛔ Checagens ainda não coletadas.")}`
+      : MC.status === "bloqueado" ? `<div class="eyebrow">Checagens · Google Fact Check Tools</div>${vazio("⛔ A API recusou todas as consultas (" + esc((MC.erros[0] || "").slice(0, 160)) + "). Verifique se a Fact Check Tools API está ativa no projeto da chave.")}`
+      : `<div class="eyebrow">Checagens · Google Fact Check Tools · coleta de ${dataBR(MC.gerado_em)}</div><h2 class="tk-h2">O que as agências checaram sobre o tema e sobre elas</h2>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Checagens lidas</div><div class="kval">${n(MC.checagens_unicas)}</div><div class="knote">únicas, desde 01/06 · universo ⛔ (a API não informa o total)</div></div>
+        <div class="kpi"><div class="klabel">No núcleo</div><div class="kval">${n(MC.no_nucleo)}</div><div class="knote">checadas de 23/07 a 14/08</div></div>
+        <div class="kpi"><div class="klabel">Citam uma influenciadora</div><div class="kval">${n(MC.citam_influenciadora)}</div><div class="knote">nome na afirmação, no título ou em quem disse</div></div></div>
+        ${lista.length ? `<div class="tablewrap" style="margin-top:14px"><table class="datatable"><thead><tr><th>Checagem</th><th>Janela</th><th>Agência</th><th>Rótulo</th><th>Afirmação</th><th>Quem disse</th><th></th></tr></thead><tbody>${lista.slice(0, 60).map(x => `<tr><td>${x.data_checagem ? dataBR(x.data_checagem + "T12:00:00Z") : "—"}</td><td>${rotJ[x.janela] || x.janela}</td><td>${esc(x.agencia || "")}</td><td>${esc(x.rotulo || "")}</td><td style="max-width:420px">${esc((x.afirmacao || "").slice(0, 220))}${x.cita_influenciadora?.length ? ` <span class="inf-sit pend">${esc(x.cita_influenciadora.join(", "))}</span>` : ""}</td><td>${esc(x.quem_disse || "—")}</td><td>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">abrir</a>` : ""}</td></tr>`).join("")}</tbody></table></div>` : vazio("Nenhuma checagem encontrada para as consultas no período.")}
+        <p class="inf-nota">Consultas: ${MC.consultas.map(c => `${esc(c.consulta)} (${c.lidos})`).join(" · ")}. O estudo não dá veredito: o rótulo é o da agência. Nome de pessoa comum em "quem disse" é omitido.</p>`;
+  }
+
   // Caderno 06: só contagens
   const T = M?.terceiros || [];
   $("p6Corpo").innerHTML = T.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Termo</th><th class="inf-num">Vídeos lidos</th><th>Universo</th><th>Revisão de homônimos</th></tr></thead><tbody>${T.map(t => `<tr><td>${esc(nomes[t.ator] || t.ator)}</td><td>${esc(t.termo)}</td><td class="inf-num">${n(t.lidos)}</td><td>⛔ não informado pela API</td><td><span class="inf-sit pend">${esc(t.revisao_homonimos)}</span></td></tr>`).join("")}</tbody></table></div><p class="inf-nota">Contagens antes da revisão de homônimos: ainda não são menções confirmadas.</p>` : vazio("⛔ Menções de terceiros ainda não coletadas.");
@@ -260,6 +276,7 @@ function lerCSV(t) {
   $("p10Saude").innerHTML = `<thead><tr><th>Fonte</th><th>Última execução</th><th>Situação</th></tr></thead><tbody>
     <tr><td>YouTube (API oficial)</td><td>${M ? dataBR(M.gerado_em) + " · run " + esc(M.run_id) : "—"}</td><td>${M ? (M.erros.length ? `<span class="inf-sit pend">${M.erros.length} erro(s)</span>` : '<span class="inf-sit ok">ok</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
     ${[["Instagram", MI], ["TikTok", MT]].map(([f, m]) => `<tr><td>${f} (Apify)</td><td>${m ? dataBR(m.gerado_em) + " · run " + esc(m.run_id) + " · etapa " + esc(m.etapa) : "—"}</td><td>${apifyOk(m) ? '<span class="inf-sit ok">recorte coletado</span>' : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
+    <tr><td>Checagens (Fact Check Tools)</td><td id="saudeCheck">—</td><td>—</td></tr>
     <tr><td>Google Trends</td><td>${MTr ? dataBR(MTr.run_started_utc) : "—"}</td><td>${MTr ? (MTr.status === "ok" ? '<span class="inf-sit ok">ok</span>' : '<span class="inf-sit pend">parcial</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
     ${[["Transcrição Instagram", MtrI], ["Transcrição TikTok", MtrT], ["Transcrição YouTube", MtrY]].map(([f, m]) => `<tr><td>${f}</td><td>${m ? dataBR(m.gerado_em) + " · " + esc(m.modelo) : "—"}</td><td>${m ? (m.transcritos === m.universo_videos ? `<span class="inf-sit ok">${m.transcritos} de ${m.universo_videos}</span>` : `<span class="inf-sit ${m.transcritos ? "pend" : "bloq"}">${m.transcritos} de ${m.universo_videos}</span>`) : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
     ${["X", "Imprensa (Google Notícias)", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;

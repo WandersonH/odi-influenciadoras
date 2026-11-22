@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: checagens pela Google Fact Check Tools API
+
+**O que mudou.** Novo `scripts/collect_checagens.py`, porta do coletor do ODI Atlas, com workflow `checagens.yml` de disparo manual. As consultas cobrem o tema (Hamas, desarmamento Hamas, Gaza, Palestina, cessar-fogo Gaza, Israel Hamas acordo) e o nome das quatro influenciadoras, desde 01/06/2026 (maxAgeDays). A janela de cada checagem é marcada pela data em que foi publicada. Nome de pessoa comum em "quem disse" é omitido. O caderno 07 ganhou a seção de checagens.
+
+**Por quê.** Pedido do responsável às 18h00 ("api fact check integrada").
+
+**Executado.** 23 testes unitários aprovados (janela, omissão de nome, citação de influenciadora, sem chave nada roda); `node --check` na página. Coleta disparada logo após este commit, com FACTCHECK_API_KEY ou, sem ela, a chave do YouTube.
+
 ## 22/11/2026: YouTube transcrito (run 45068995637) e página atualizada
 
 **Resultado.** 16 de 16 vídeos de Mariam Chami no núcleo transcritos (cerca de 26 min de áudio; Whisper small, a partir do áudio baixado pelo responsável). Nenhuma fala trata do acordo, de Hamas, desarmamento, Gaza, Israel ou cessar-fogo. Aparecem: Palestina numa lista de países árabes (23/07), "já nos chamaram de terrorista" num vídeo sobre ser muçulmana no Brasil (26/07) e Líbano num vestido e num perfume (02/08 e 08/08).
