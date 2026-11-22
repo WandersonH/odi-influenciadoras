@@ -54,6 +54,11 @@ def ads(X: np.ndarray, voc: list[str], grupos: list[str] | None = None, top: int
                 if ch[k] >= cr.CHI_CRIT and ch[k] > espec.get(voc[j], ("", 0))[1]:
                     espec[voc[j]] = (m, round(float(ch[k]), 1))
     com, pos = _layout(T) if T.number_of_edges() else ({}, {n: (0.0, 0.0) for n in T.nodes})
+    # ODI Influenciadoras (22/11/2026): a árvore máxima é um só componente; Kamada-Kawai espalha os ramos como o desenho do
+    # IRaMuTeQ (o spring do _layout amontoava o centro). Comunidades (halos) por Louvain, semente 42, sobre a árvore.
+    if T.number_of_edges() and nx.is_connected(T):
+        pos = nx.kamada_kawai_layout(T, weight=None)
+        com = {n: i for i, c in enumerate(nx.community.louvain_communities(T, weight="weight", resolution=1.0, seed=42)) for n in c}
     nos = [{"id": n, "freq": T.nodes[n]["freq"], "grupo": com.get(n, 0), "especifica_de": espec.get(n, (None, None))[0],
             "chi2": espec.get(n, (None, None))[1], "x": round(float(pos[n][0]), 4), "y": round(float(pos[n][1]), 4)} for n in T.nodes]
     return {"metodo": " ".join(__doc__.split("Saída:")[0].split()[2:]), "indice": "coocorrência (segmentos)", "formas": len(ordem),

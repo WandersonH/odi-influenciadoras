@@ -25,8 +25,8 @@ class TestTerceirosX(unittest.TestCase):
         shutil.rmtree(self.tmp)
 
     def test_consulta(self):
-        self.assertEqual(tx3.consulta("Mariam Chami", "eumariamchami", "2026-07-23T00:00:00Z", "2026-08-14T23:59:59Z"),
-                         '("Mariam Chami" OR @eumariamchami) -from:eumariamchami -filter:retweets')
+        self.assertEqual(tx3.consulta("Mariam Chami", "eumariamchami"),
+                         ['"Mariam Chami" -from:eumariamchami -filter:retweets', "@eumariamchami -from:eumariamchami -filter:retweets"])
 
     def test_publico_so_contagens_privado_texto(self):
         import os

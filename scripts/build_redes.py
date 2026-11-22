@@ -96,6 +96,21 @@ def main(root: Path = RAIZ) -> int:
         G.nodes[n]["label"] = G.nodes[n]["rotulo"]
     nx.write_gexf(G, d / "marcacoes.gexf")
     nx.write_graphml(G, d / "marcacoes.graphml")
+    # estatísticas do ODI Atlas (scripts/estatisticas_redes.py, cópia sem mudança: os indicadores do painel Statistics do
+    # Gephi, Louvain com semente 42, E-I das duas maiores comunidades e as 5 maiores centralidades por medida)
+    import estatisticas_redes as er
+    lin, coms_ = er.estatisticas(str(d / "marcacoes.gexf"))
+    cent = lin.pop("_centralidades", [])
+    out["estatisticas_atlas"] = {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}
+    out["centralidades"] = cent
+    out["comunidades_atlas"] = coms_
+    (d / "marcacoes.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+    for nome, linhas in (("estatisticas_redes.csv", [out["estatisticas_atlas"]]), ("centralidades_redes.csv", cent), ("comunidades_redes.csv", coms_)):
+        if linhas:
+            with (d / nome).open("w", encoding="utf-8", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=list(linhas[0].keys()))
+                w.writeheader()
+                w.writerows(linhas)
     with (d / "marcacoes_nos.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["id", "rotulo", "tipo", "grau", "peso", "comunidade"], extrasaction="ignore")
         w.writeheader()

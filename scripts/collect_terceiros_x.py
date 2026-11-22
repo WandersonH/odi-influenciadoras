@@ -34,9 +34,10 @@ CAMPOS = ["chave", "ator_id", "post_id", "autor", "autor_seguidores", "publicado
           "visualizacoes", "curtidas", "respostas", "reposts", "coletado_em"]
 
 
-def consulta(nome: str, handle: str, inicio: str = "", fim: str = "") -> str:
-    """Período vai nos campos since/until do ator (o operador since: na busca voltou vazio no run 45070655413)."""
-    return f'("{nome}" OR @{handle}) -from:{handle} -filter:retweets'
+def consulta(nome: str, handle: str, inicio: str = "", fim: str = "") -> list[str]:
+    """Duas buscas por influenciadora, sem OR e sem datas: com OR e/ou com datas a busca do ator voltou quase vazia
+    (runs 45070739356 e 45071871689: 2 itens). O núcleo é filtrado depois, pela data de cada post."""
+    return [f'"{nome}" -from:{handle} -filter:retweets', f"@{handle} -from:{handle} -filter:retweets"]
 
 
 def tipo_mencao(texto: str, nome: str, handle: str) -> str:
@@ -48,7 +49,7 @@ def tipo_mencao(texto: str, nome: str, handle: str) -> str:
 
 def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-por-influenciadora", type=int, default=1000)
+    ap.add_argument("--max-por-influenciadora", type=int, default=600, help="itens por busca (2 buscas por influenciadora)")
     a = ap.parse_args(argv)
     coleta = json.loads((raiz / "data/config/coleta.json").read_text(encoding="utf-8"))["apify"]
     atores = json.loads((raiz / "data/config/atores.json").read_text(encoding="utf-8"))["atores"]
@@ -69,14 +70,13 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
             return 1
         executar = lambda ator, p, c: apify.run_actor(token, ator, p, c)  # noqa: E731
     alvos = [(x["id"], x["nome"], x["perfis"]["x"]["perfil"]) for x in atores if x["perfis"].get("x", {}).get("confirmado")]
-    qs = {aid: consulta(nome, h, nuc["inicio"], nuc["fim"]) for aid, nome, h in alvos}
+    qs = {aid: consulta(nome, h) for aid, nome, h in alvos}
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     erros, itens, custo, run_id = [], [], 0.0, None
     try:
-        until = (date.fromisoformat(nuc["fim"][:10]) + timedelta(days=1)).isoformat()  # until do ator é exclusivo
-        run, itens = executar(ATOR, {"searchTerms": list(qs.values()), "maxItems": a.max_por_influenciadora * len(qs),
-                                     "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest",
-                                     "since": nuc["inicio"][:10], "until": until}, cap)
+        termos = [q for v in qs.values() for q in v]
+        run, itens = executar(ATOR, {"searchTerms": termos, "maxItems": a.max_por_influenciadora * len(termos),
+                                     "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest"}, cap)
         custo, run_id = apify.custo_run(run), run.get("id")
     except apify.ErroDepoisDaExecucao as e:
         custo = apify.custo_run(e.run)
@@ -111,7 +111,8 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
                        "autores_distintos": len({m["autor"].lower() for m in meus}),
                        "visualizacoes_somadas": sum(m["visualizacoes"] or 0 for m in meus),
                        "revisao_homonimos": "pendente (menções só por nome)" if any(m["tipo_mencao"] == "nome" for m in meus) else "não se aplica (todas pelo @)",
-                       "cobertura": "possível limite de itens ⛔" if len(meus) >= a.max_por_influenciadora else "a busca terminou antes do limite"})
+                       "itens_lidos_antes_do_filtro_de_data": sum(1 for x in itens if isinstance(x, dict) and (nome.lower() in str(g(x, "fullText", "text") or "").lower() or f"@{h.lower()}" in str(g(x, "fullText", "text") or "").lower())),
+                       "cobertura": "verificar: a leitura vai do mais recente para trás e pode não alcançar o núcleo antes do limite" })
     d = Path(interno) / "data/terceiros"
     d.mkdir(parents=True, exist_ok=True)
     arq = d / "x_mencoes.csv"

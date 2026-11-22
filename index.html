@@ -398,6 +398,21 @@ async function dizem(rede) {
       <div class="inf-vazio" style="margin-top:12px">⛔ Ainda por fazer sobre os comentários: classificação de intolerância e posição do comentarista pelo livro de códigos (com kappa), CHD e similitude dos comentários.</div>`;
   }
 
+  // Similitude no desenho do ODI Atlas/IRaMuTeQ: a palavra é o nó; tamanho = frequência; espessura = coocorrência
+  function desenhaSim(S, cores) {
+    const W = 980, H = 680, xs = S.nos.map(n => n.x), ys = S.nos.map(n => n.y), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const X = v => 50 + (v - x0) / ((x1 - x0) || 1) * (W - 100), Y = v => 30 + (v - y0) / ((y1 - y0) || 1) * (H - 60), by = {};
+    S.nos.forEach(n => by[n.id] = n);
+    const fm = Math.max(...S.nos.map(n => n.freq)), wm = Math.max(...S.arestas.map(a => a[2]));
+    const halo = ["#dbe8fb", "#f6dcea", "#dcefe2", "#f8e1d6", "#e7e0f4", "#f4ecd2", "#d9f0ef", "#f3d9d8"];
+    const cor = n => n.especifica_de ? (cores[n.especifica_de] || "#297de2") : "#69768a";
+    let g = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;background:#fffdf8" role="img" aria-label="Análise de similitude">`;
+    S.nos.forEach(n => g += `<circle cx="${X(n.x).toFixed(1)}" cy="${Y(n.y).toFixed(1)}" r="${(22 + 26 * Math.sqrt(n.freq / fm)).toFixed(1)}" fill="${halo[n.grupo % halo.length]}" fill-opacity=".55"/>`);
+    S.arestas.forEach(([a, b, w]) => g += `<line x1="${X(by[a].x).toFixed(1)}" y1="${Y(by[a].y).toFixed(1)}" x2="${X(by[b].x).toFixed(1)}" y2="${Y(by[b].y).toFixed(1)}" stroke="#b8b1a1" stroke-width="${(0.6 + 4 * w / wm).toFixed(2)}"><title>${esc(a)} — ${esc(b)}: ${n(w)} segmentos</title></line>`);
+    S.nos.forEach(nd => g += `<text x="${X(nd.x).toFixed(1)}" y="${Y(nd.y).toFixed(1)}" text-anchor="middle" dominant-baseline="middle" style="font:700 ${(9 + 13 * Math.sqrt(nd.freq / fm)).toFixed(1)}px Georgia,serif;fill:${cor(nd)};paint-order:stroke;stroke:#fffdf8;stroke-width:3px"><title>${esc(nd.id)}: ${n(nd.freq)} segmentos${nd.especifica_de ? " · específica de " + esc(nomes[nd.especifica_de] || nd.especifica_de) + " (χ² " + nd.chi2 + ")" : " · comum"}</title>${esc(nd.id)}</text>`);
+    return g + "</svg>";
+  }
+
   // Cadernos 08 e 09: rede e corpus
   const desenhaRede = (nos, arestas, cor, raio, rot, W = 900, H = 560) => {
     if (!nos.length) return "";
@@ -407,8 +422,8 @@ async function dizem(rede) {
     const maxW = Math.max(1, ...arestas.map(a => a[2]));
     let g = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;font:10px sans-serif;background:#fbfdff">`;
     arestas.forEach(([a, b, w]) => { if (P[a] && P[b]) g += `<line x1="${X(P[a].x)}" y1="${Y(P[a].y)}" x2="${X(P[b].x)}" y2="${Y(P[b].y)}" stroke="#9fb2c4" stroke-opacity=".55" stroke-width="${(0.6 + 3 * w / maxW).toFixed(1)}"/>`; });
-    nos.forEach(nd => g += `<circle cx="${X(nd.x)}" cy="${Y(nd.y)}" r="${raio(nd)}" fill="${cor(nd)}" fill-opacity=".85"><title>${esc(rot(nd))}</title></circle>`);
-    nos.forEach(nd => { if (raio(nd) >= 5) g += `<text x="${X(nd.x) + raio(nd) + 2}" y="${Y(nd.y) + 3}" fill="#273447">${esc(rot(nd))}</text>`; });
+    nos.forEach(nd => g += `<circle cx="${X(nd.x)}" cy="${Y(nd.y)}" r="${Number(raio(nd))}" fill="${cor(nd)}" fill-opacity=".85"><title>${esc(rot(nd))}</title></circle>`);
+    nos.forEach(nd => { const r_ = Number(raio(nd)); if (r_ >= 5) g += `<text x="${(X(nd.x) + r_ + 3).toFixed(1)}" y="${(Y(nd.y) + 3).toFixed(1)}" fill="#273447" style="paint-order:stroke;stroke:#fbfdff;stroke-width:3px">${esc(rot(nd))}</text>`; });
     return g + "</svg>";
   };
   {
@@ -445,8 +460,8 @@ async function dizem(rede) {
             <div class="inf-cloud" style="--c:${paleta[i % paleta.length]}">${c.formas.slice(0, 18).map(f => `<span style="font-size:${(11 + 12 * Math.sqrt(f[1] / Math.max(1, c.formas[0][1]))).toFixed(1)}px" title="χ² ${f[1]} · ${f[2]} segmentos">${esc(f[0])}</span>`).join(" ")}</div>
             <p class="inf-nota" style="margin-top:4px">Associada a: ${vs.length ? vs.map(([k, v]) => `${esc(k.startsWith("influenciadora:") ? nomes[k.split(":")[1]] : k === "janela:nucleo" ? "núcleo" : "linha de base")} (χ² ${v.chi2})`).join(", ") : "nenhuma variável com χ² ≥ 3,84"}</p>
             ${c.segmentos_caracteristicos.slice(0, 2).map(sg => `<a class="inf-item" href="${esc(sg.url)}" target="_blank" rel="noopener"><p>“${esc(sg.texto)}”</p><small>${esc(nomes[sg.cand] || sg.cand)} · ${REDES[sg.rede] || sg.rede}</small></a>`).join("")}</div>`; }).join("")}</div>
-        ${sim ? `<h2 class="tk-h2" style="margin-top:20px">Análise de similitude</h2>${desenhaRede(sim.nos, sim.arestas, nd => nd.especifica_de ? corI[nd.especifica_de] || "#7d8997" : "#9fb2c4", nd => (2 + 9 * Math.sqrt(nd.freq / mx)).toFixed(1), nd => nd.id)}
-          <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.keys(nomes).map(a => `<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${corI[a]};margin-right:6px"></b>forma específica de ${esc(nomes[a])}</span>`).join("")}<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#9fb2c4;margin-right:6px"></b>comum</span></div>
+        ${sim ? `<h2 class="tk-h2" style="margin-top:20px">Análise de similitude</h2>${desenhaSim(sim, corI)}
+          <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.keys(nomes).map(a => `<span style="color:${corI[a]};font-weight:700">● específica de ${esc(nomes[a])}</span>`).join("")}<span style="color:#69768a;font-weight:700">● comum</span><span>· halo = comunidade (Louvain)</span></div>
           <p class="inf-nota">Árvore máxima das ${n(sim.formas)} formas mais frequentes, índice de coocorrência (padrão do IRaMuTeQ). Cor: influenciadora em que a forma é mais específica (χ² ≥ 3,84).</p>` : ""}
         <p class="inf-nota">${esc(C9.metodo)} Lematização: ${esc((C9.lematizacao || {}).dicionario || "")}.</p>`;
     }

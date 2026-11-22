@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: similitude no desenho do Atlas, estatísticas de rede do Atlas e menções no X refeitas
+
+**Similitude.** O desenho estava quebrado: o raio virava texto e a soma com a posição jogava os rótulos para a margem (apontado pelo responsável às 19h14). Agora segue o desenho do ODI Atlas e do IRaMuTeQ: a palavra é o nó, o tamanho é a frequência, a espessura é a coocorrência e a cor é a influenciadora em que a forma é específica, com halo por comunidade (Louvain). Na cópia de `similitude.py`, a árvore usa Kamada-Kawai, porque o spring amontoava o centro.
+
+**Estatísticas de rede.** `estatisticas_redes.py` foi copiado do ODI Atlas sem mudança (indicadores do painel Statistics do Gephi, Louvain com semente 42, E-I das duas maiores comunidades e top 5 por grau ponderado, PageRank, intermediação e autovetor). `build_redes.py` grava `estatisticas_redes.csv`, `centralidades_redes.csv` e `comunidades_redes.csv`. Na rede de marcações: densidade 0,031, diâmetro 6, assortatividade −0,76, Q 0,375, E-I das duas maiores −0,886.
+
+**Menções no X.** O responsável encontrou menções às influenciadoras no X, e a busca só tinha trazido 2. Agora são duas buscas por influenciadora (nome entre aspas; @), sem OR e sem datas no ator, com o núcleo filtrado pela data de cada post. Disparado logo após este commit.
+
 ## 22/11/2026: comentários coletados (run 45071626874) e menções no X (run 45071871689)
 
 **Comentários do núcleo.** YouTube: 2.098 lidos de um universo de 2.696 (a API conta as respostas, que não foram lidas), 1.771 comentaristas, sem custo; citam islamofobia 48, Israel e guerra 29, Gaza e Palestina 11, acordo/Hamas 1. Instagram: 1.524 lidos em 48 publicações (universo ⛔), US$ 2,44; islamofobia 9, Gaza e Palestina 7, Israel 2. TikTok: 950 lidos em 28 vídeos, US$ 1,18; islamofobia 21, Gaza 1. Texto e autor estão no privado (`data/comentarios/`). Etapa de comentários: US$ 3,62 de 5,00.
