@@ -1,0 +1,1220 @@
+{
+ "gerado_em": "2026-11-22T22:17:35Z",
+ "run_id": "45076870902",
+ "fonte": "Google Notícias (RSS, Brasil, pt-BR)",
+ "metodo": "Pedido do responsável (22/11/2026, 19h14): \"os 10 primeiros resultados do Google para cada\" termo, e os resultados do\ncaso Hamas. Fonte: https://news.google.com/rss/search (Brasil, português), com os operadores de data do Google\n(after:/before:). A ordem é a do Google (relevância), lida na data da coleta: é uma amostra dos 10 primeiros, não o\nuniverso (o Google não informa o total: ⛔).",
+ "universo": "⛔ o Google não informa o total de resultados",
+ "consultas": [
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Hamas desarmamento",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+     "veiculo": "BBC",
+     "site": "https://www.bbc.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Hamas diz aceitar plano de desarmamento anunciado por Trump",
+     "veiculo": "DW.com",
+     "site": "https://www.dw.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOclB5Wl82QTh0T2JyOTBUSzJ5Vm9YS2VOZVFjdVVfUUVROFNCcmNhSFZ2aDZRN19ZbEtQbFhYOUhtMHZiV3hMUU1LVDhzQVpFUVZNVnlfbVg0dE9vSnRkb2I5ZkFxUF9EQ3RWdWxXSm00aXEtWldVallETXBxbDdITkZxRjdnZnRZUW9lQlNtQzh0LXItMFdTVTNNY9IBmwFBVV95cUxPQXBRWmxnS1ktanZTVG13Sk8tcWhOUXFUTUY3cW5lYmJ6QkhJNFRQRTFSeGxxV2p1TjYtcmNPU3AxRVpWUHRmVEYtQ3ctYXhieFQxcjVWV2I4dzNVOVlYcHAzbUF5dWx0dlVxdi04cXJDUW1mY2FqTkdFN3dpOWVZT3NPVEwtNkpQVTlnbEg4SVZvemwtRmo2OWZZaw?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Entenda as etapas do plano de Trump para o desarmamento do Hamas",
+     "veiculo": "Poder360",
+     "site": "https://www.poder360.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcVh5V1BYRTA1NUszandaczV6NEVuNldkanZlSTlhNkYwT3piczhRWjFJa2xJQWxpUkVYeW1PUTI0OThYMFZoNnFPRXdncUszb05YLWNwS0k1cmxWcDlMVUtsdDZjWHd1TTh3T2V2UG55QXUySGhPbXktd0NVbHZtNVVaSGFncFNTM3ROMzlaMGxjd25UdWpCckxBVDNvNWVVclJUQzJLajFHR2dvdkhNVmxfTQ?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Acordo de desarmamento é uma manobra política do Hamas em que Trump embarcou por conveniência",
+     "veiculo": "Estadão",
+     "site": "https://www.estadao.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV3M4YTh0S2Qxell1aFE1Y3lsMjhUcFdzdGFYdkswSDlQeDZBMU5LR21LNkFDVE9FYnl2cVVyNHRtQnBTSnhyUXpncmUyZk04VzVjWGFRR0xqTl96N1dlM3l4Ykt3b2dQTkQzWGVGMFBBeXJLc3dwdHhCbXJzVDN4ZjAxZW9kaDhISXo0a21ZSm4wQ0tDRENHX3daNkRDeU11aFJ0VHNNdXA4UzdYQVpPM1p0dGVxc3VPV1FnOHRNZVB5aHVVMWd2aDV5MG42dTlRQWxXVlgxbmRaMVc2SDBrM2ZnVG_SAeoBQVVfeXFMTkJIU3Z1dEJGeTFuUnlwUFF0RVYxQ29UQkNvbkRHcjFoWjRfbl82eGpYR2I3enk3WGZLVVVTUzNFc1hocS1jS0JYaXNGQjA1WGlJTU9tbHhQYWUyckZMd2dJdHpxMHFuSHh0dHdZZ3ZjRnVqay1wTEIwWk5KOWpSMmZyM2Y1UWd2anJ4ck44bm9MNnpwbU9nb2ViSkdZbDFiUlE0Y2pMcVdSTWs4S1VlT0NfWWF1cmE1X3RfMkNzUFI2d0FObFo1ZHViSjNrM2drUjU0U0NkQXI3NlAzSTNCdS1TYlVoTlhrX1d3?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "O que se sabe sobre o acordo para o desarmamento do Hamas e a retirada israelense de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdkdmc25NZ2M0YjJfcHRFazRUeUV1cm9RdkR6b0FiQjBHNWlZMlhEbTY3UDVDR2JMdkR1dEpNa1FrS05kTHlKUnhVZGljMEREMUpaRkVTVkhvR3Q4Skl6UjVtT2Q3Rkdpbkl0V2pBY3JrLVJNRmlXYm1sTE5sRWdVdURqVjBCRUlJLW83TXlIM29NYXZFUnhRTUV2a2c5U2N4TUJubDFWT1p3V2dGZ0lueGdIMkl4RnpmR1EyVzB4SVdHUUdUS09SV1lDVGJreFhOOEZaV29KNUPSAecBQVVfeXFMUG5qZUcwUWFfdkVmdF9jM1RYMjhYLUpoVm93THhRY3RDbFhTZXYwUWR0aElMc1VEOTUtc0cya0JlS3RhM0hRbzR5aGUxU1Vndk91QW1CX0phNE4yd2IxUXVZZ3AyV1BtRzd6enE3NXhFQmtnQzEtSGhFMUhMTnowc0owajFoVkVKTmdGaTZ3eWN5bzdiekRqd0Ytdkc3UHZsV3JfWFNvRDB0eEkwa0dzNzRRa1ZMUnI2djZJR1J2bnZfaXdGWUpfV2JhWjU3TEdKUW1ZYlYxSjFrWWZ3T0ZlRm02WmlRT040?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Trump anuncia conclusão de acordo para desarmamento do Hamas em Gaza; grupo confirma",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSm5Sc3N2aGV3cmxaMDFDLW5mU3FsLXhXY2MzTGlpVG5uX25meUhhOFdjLTJhejZGMVVzc1lyd3BJVVo1ZGcwbURYalNILUdEejR2WmxlMkQtUzFlb2FpNEVnVUF5LTdJWVg4TXZVSEhtT1BkVEMwalEzYllUSDJtSDJybkhqVmdGNDR1TDYtZW1RT1pYVUdKMENKQ29TdWhXaTRlUExBNG5wS29nVUJxRnZWZC0zTEF1RkE?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Hamas aceita desarmamento",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Hamas aceita acordo para encerrar guerra em Gaza e prevê desarmamento",
+     "veiculo": "Exame",
+     "site": "https://exame.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeDlxVDFyRFRVNlRvbFVSZm42aEhxSFBDSGFuQnRHdFZHMW45Q0MxekpiMGFuTS05MHVSMmZES21OM19NUExWOHJuSmc0SU85U3VaTXpSNFpjV2xVSmVDUFdpLWZRelpWWjlWbU94V3dmVzJuOUhtUmJJSHlLeFRSbVdLdy1lRFdPWGFtRk02bF9VNWlHT3dreUln?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas aceita plano de desarmamento em Gaza anunciado por Trump",
+     "veiculo": "Metrópoles",
+     "site": "https://www.metropoles.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0ZRMmJ3QlQ0dGNDVURieWFZbzM0c0Q1bUtqeWtXaE5Fc2JQYUNKS2toeEdKZExBWHhwR2ZKc2F1ZkItNTJEU2FDTzhTbXlsTW5vcTVfTWJpbEZ6cDFNc253MkFpYWtwU2lLR2FaTGhOVjJBZnRWWDVyT0NBX01sbnE0YjhSN0dmNUttd2pHT0tVUXN5OVFSTVE5bw?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Hamas aceita acordo que prevê desarmamento e retirada de tropas de Israel",
+     "veiculo": "Vermelho",
+     "site": "https://vermelho.org.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUE8zUUVhTGhnc08xVDJEZ2JVTVJFQkhzelEzRjBBTklzcWlRdnhqazlUV3JEMXpPUDQyaFdhWEdlSnFldUlKa3NiNGdlRGVWWFk1aVJLS1BNalRjVnJyNFJES0diT1FFSS1tWjYzN0FFcHJRU0x2UXI4cUdUcGF3dXhDZDNPT1BFa1RQWERpd1ZEVEYzTmM3Tm1TSVBZbEZtSjN3aTNfbzlodlo2ekE?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas aceita acordo de desarmamento e Trump diz que Israel está ‘muito satisfeito’",
+     "veiculo": "Estadão",
+     "site": "https://www.estadao.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY2ZGQmNJWXBrcFZZTTVVS0FnUHczMnVvc0VRd0t5SXF6N0Z1azJQZEZHTU1MRGhjSXg0SVRQUTMxS0J4WDRzRHRiQVpVTGM5Q1dwVHBLZjI4akpMLXZfb0RWUENHcDdMcFk3cEhoWHlnRnB4MkJSYnJqdEpuR1h3VnE2b0FKMnJ5UGFNV1ptZzJNeVZuUjJXT0hjcVF6OVF1dFVWZEZzZm1HSUtXbVZ2cDB30gG3AUFVX3lxTE9rdG9aeHVXM2hhVmdPd2Y3Y3RPaTVHMFZETlozVGJJYkRpeGRyb3Q4b0JVekwyOHdqRTZhS2paV1luNWtZaVpRbmd2dUlnbVRERGRLLUJHRjhPLWtGRmUzbDJFR2QwZDh1UmZrMDFwN2l0emE1Y014ZDRLdnZjbk9veTVDYklKNTBReXZ1QlVmcGNFUjBGRWtsQkRRSHJEV0IzM21obDBDbTJUQzJMcHNQUEw0VnFPYw?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+     "veiculo": "ICL Notícias",
+     "site": "https://iclnoticias.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WNjc0Yno0ZnlRWHdRbS0ya19ZS1plamlLRnd0RllObGM4SGo3bmRLckNwVmg4cmdYUnltVVFmY3BnVEx3enppeFpJU2d1alFHZzc1TzhOQXV1dTlDMmhUQXJJWHNVRmxZdnZwUVQ4NHJ1dlU?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Israel diz ter sérias preocupações com acordo de desarmamento do Hamas",
+     "veiculo": "UOL Notícias",
+     "site": "https://noticias.uol.com.br",
+     "publicado_em": "2026-08-02T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMlJxVU82VG1TWU92NF9MY2lwVElHWUJuNFVkYjYtQ1lqTFFpb0o3OFJNd3JBejZJMDVvOXl6ZjUxUVluNTBWZHc3Wmw0cVViUFVxMFR1VW9xUHVka1lacGlDcm1OUDRsR3FVWjhMNVhSWHVrVl9jU0N2VHBOeFB5djk5VDR1ZFRRakhWcXZmOEJYQzVQb1lUVklHal9mRFJtUnQzRFR0S2tadnlwaEpqZkFEcmVGNDJNcHZZaDkybWRPR3d5WTlSMGF1cDN2Szg?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+     "veiculo": "Euronews",
+     "site": "https://pt.euronews.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRnN6LTcxTXpmUUNPZFhGZlY1Sl9UTTE5X001YkRHdUc2MU5FblVUM0Z2X2taWFlkdkg1SWoxMmlGaEFyQk1KYWdzTmpla2Npa1liekJPTFhINGlnXzQxXzVkWGZna0szTVBYQ2FNREQtR1o3U2pWdkNYc2JDbDJBb3liRDVIaHUybUREWXBLX0NJLVM1TUd3WEFEamFIZG00MVJxdGY2QzBEVEZySmpvdWk4X1FRUlBsdzhaN1poRkMtMzg?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "acordo Hamas Israel",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Israel precisa aprovar acordo de Trump antes que Hamas o implemente",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWl6NEEwWWNuSW5tejhOZUtUenRYYkpXVmRISnJOdTZqWUd0bTByaEZvOTM3V2h3dkRqRWJpdHNFLUlEZ19lV1dqWXE5dURDV0prbG4wMFpRaEVXTUMtRnhrbWdDOXRCeVlucXQzSXhwWFQ2TGUxc2xyaDhESGFWNERCanlJOVptVmZLZ0Q3S09KUnF3VFNlb1hmTmh3eHN4Z2dtSThDMnQ1TG50dnpnRHR1UmM1aFp5UTdfaTlTNkxWc2NjZzJMYnZR?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+     "veiculo": "BBC",
+     "site": "https://www.bbc.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+     "veiculo": "VEJA",
+     "site": "https://veja.abril.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Trump diz ter fechado acordo para 'desarmamento total' do Hamas e retirada israelense de Gaza",
+     "veiculo": "CartaCapital",
+     "site": "https://www.cartacapital.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnF3NmpzVmFCU3lvZ2pmeUIycWxXLXFvYTdfZkx4YlZzRnVRM250ZkJlQWJjZ3BLTXkwZTRtbmFCcDBITC1PWURRUEZfYlVJWnozeGkwSjJ0ZFBBZTFzNFE5blVkZThEbllNUUttMENSeThUdXBWa092Rk1vTUVaM1VwQlRaTkNVV0lRQTV1X2xCcW1TTmZUajJ0Z2xOdG5zeGpjcDA5a255LVIyUFdkWHFaSDhSZjFpaFRvejZ4TlZNcXRrTmNkN1h3?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Trump anuncia acordo para desarmar Hamas; grupo confirma entendimento",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXZidGZIckxwS01sNGpLYmU4NTRoRlVDZ1hObl9DdV84bEtyNWhKQ2t0ZjFnWGUtZnZnd3VyR3ZjeElBQTk3NmQ1OVlKaTQxNC03ZU1UWlBJRThvUE15OHg4X3RlZGxxR25LY2ZVaUFFZU91aWJ5WGxfTS05NkIwQ3Z5WlVJX1FIZk15TjZlQWNEOE81d0FYRDEyVmtsMWNOSGs2RU1CM1p6UHpwVmZaNUktM3NpbWR1c0poQnctbkpPLWoxTWhEUGVGd2drRThmRWhqa1M1UjUzQdIB6AFBVV95cUxOVHQ3SE9CWE9tanFFSEVEX1c2akpUNVhTdDZMRXRCM0R0QlJrVGhXU0xFMXpxSmhzTDVGb1ZnOU5uQVBJYldHYlNjbWtsWEJWMUhOWU9TYTVHSV9Sb3FsM0xJc255eVM4ZHVTdDA3NmxVNFRRRVNBa3hwQVhOZmhwSTV0MWlZQjlNUWZYWl91Q1dkMFk0TGxYeWNSQ29ONU5yV0ZMeVdrSmE4ZnRjeEdzX0VaVTBDU0ZoTkdMU25qVC1NZG9Tb1BXOTNuX3ZLWlFxTHlmZTJGY0YxSC1uSDEzTC1pRzM5RjZo?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Gaza",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Defesa Civil de Gaza recupera restos mortais de 112 palestinos, incluindo 40 crianças",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQVBMaVVwRFU5bUlMdDVjR1pEaDAtRzhITUxGWlpubWtHcEJGalZEUzFJaXkyQWpYczdqa2Q4UXBtUVB0TUZISE5yMGZ2bGRPRE85U2NYQi1TUDczRXozWVdFSjFfdkJhd2hubV9DUWNJZ3MzLS1WY0V5b09WM2RqeHkwb2RCNS1RLWZpdHR5LWxiZ09VdFVtVXYyQzFCM1BvX3FXc1FURmlaYm9kd24yakN2NDd3TGZIOVFldWZGQTZwODBWclpuMVNtemVGS2Z4VTA4dDFvY9IB5gFBVV95cUxPa3cwU2JQUlloeVgwTFZkRW43ZUt4ZExrczBUc0JmeDZweWZiaU1aLURxNnRTcHVLUzV3RW5OY1hDb240Sm1BMHRsUFprWE4tVVkyWk9veTdHcklNOWVmaTdkOFp6NzVZYnA5UmZqUW94UHI1WmZORnR6bGFOdktPX29OaEpLS3pjVW41TTJsVDkxWHBFUXdoeEthenVmZWlOUEVXbnRFUXR2anREQk5pZzlmM0pPQVBIdlVQTUNzYWVvbVIzVXdyRDhmT2JMMDY1b2tFbjJxUUNsSi01eWJLYmowaHp2Zw?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "‘Com a corda no pescoço’: como Netanyahu usa ataques em Gaza para sustentar projeto político",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcHQ2VGpHVUJhelhIQWpwVkk2Y2dBUXJlUGRCcTBta01Fd0Y4dmhBWDU2UGRFM051V01oVzdxeTdkcXdDUjhQUnhTT3o2UVNkeDZYODdMX2JzNDEzSjFQWExZN0dXQmpldUhqWUVldE9ybFMwcEp6OUtabFJBZGVuY0s3TW51dWhJeld0S3BYMHRVcGFyT3J5ZjdiVmtkVzBMS2pyYkxfcUR6Y0VwRC1IRGhlcldQbzZ5OEloeWRMRkhMUkNwS0VBMnNFdGtHUQ?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Israel volta a atacar Gaza horas após Hamas concordar com desarmamento",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2RSVkptMUdUemRFSzhyRGlLTVZCWWstR2Y4ajdwVmFnMThOVzNKOUxqLTdpTlF3NjNUOUJGWldaU29pQ2d2M3ZmalFTY0NCOHZ6cnFlNkVqTUFZUVR3ckZlamNQWWFzTFdQQmdPZ2ZsRDdlV0M2emU2dndFbWhGVFpvUXcwWjk3eHhTZHFXMW5tZGhIdm01dTF1a1JIMlVxU0xDVEd4ckNNN1oxUG5JcUo1QTZyaWlVdFVjMDVCU1ZLbGVT0gHTAUFVX3lxTE5YbFJiWnNqckdhUjNsQnVya2xScUkxSGR2UVpfRmxYZ3FzQTdOMlFSR3BFN1lmcU83Zl9pLW9yUHo5X1lFQk9GX0hyQ3NmU2VBVkVyQURVV1UtX1Q0WHFvUzlsR19jRlhtb0FhZWZSVmNkT01NcEp3T1hDLUpYcmE1cy1wbkdqSF9QVm5GdExtNXhjbEdja1lEVDJUQnZjZW9kQXZ3eWtRd0RYWi1vUS1UWFdrQzZxbl9Nc1k0YVhWaDZ6amx5cjFyZ19MY1dyejFSdFU?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas diz aceitar desarmamento, mas Israel não confirma acordo em Gaza",
+     "veiculo": "Times Brasil",
+     "site": "https://timesbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSWx2dlVMSmdoTFhwN3lMUVlmLVEzaXctcENaZHdYNXdyY21TZDBQUHFVLVk4MHJRd1hwVGV3QW8yME9qUTc0WHZkeFVEa3lqNlliNHZtTHVhMnBtdnQtSzhkbHZHQkxXbUd6Z1luOXJIYTNFVWhGb3lDNjQxQmVOanRBN3Q2dS1NYVlSX2JzWkc3M2Jnbkt5cGVOMVB1TVgzOTVvNE1oM0ZtZw?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Operações militares de Israel em Gaza fazem parte de um projeto político e não vão cessar, avalia especialista",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2ZzRWFUeVg1UlJqSnU4TGFicDIzZU04ekhFdFp1NnYyNF9HbEJpV2VnVUpVeV96SnhFMFpTYmFyZXBsRllaYzFFa1hCZVFPMHlOeUdmQmV3cEtNS2dEc2F6bFdFSjNNNFdOaFNacXdJazFxNGFGZnJJNFpTMW0zeGY4SHBQcmZIX29DYndVdlZNbjFpUnUwYkhkWGpjeFV2N3NYb2hGdmdhSW1GRUt5Z1pvdXdOOENQQmFTSXlKelFHb3V1M1MwdTFGUVc1QWFMRGp6MG00a2VDVEg0ektjZUZVNzgxMDhL?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Trump anunciou dois acordos históricos na mesma semana — e os dois podem desmoronar pelo mesmo motivo",
+     "veiculo": "ND Mais",
+     "site": "https://ndmais.com.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVk5UQW1ValIyc2NkeG42THFRWUktc3ZZLVNyVFROb2dDanczd3JWMkpyUDNvTkFhZnVCM2dVS3IxaUNRZTdDRGQ0NHRQSWxBVXNZTGpyR3pDUllpZkhCQnVfN2ltOGFSVllQNXhMWG5Lc3V1eUtSNnljRGpickRLczJNUUxUeE9jMVkyb25lUzZ5eVRGQWwxQUJjMTRGcjdJVU55bDZQcnhEVlpDOXAyT2p3TC04bHJ3N3YwbUZhVGNSdzhVdVhF?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Palestina",
+   "grupo": "tema",
+   "lidos": 5,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Psicanálise sob Ocupação : A resistência palestina no divã",
+     "veiculo": "Outras Palavras",
+     "site": "https://outraspalavras.net",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZG9iNkY0RXY2RGQwZW5EaDdVbWk4MGlmbXp4ajNHdmR0LTQ1aE1IaUNiaFg0QjRMbjJCVDZDTHhMTDVKVWxDWkxNZjg2eXA3amJWNTQtN1ZuaFVHNWM2R3dsUWRZRzhLbVFWTW4zUFFQa3NmRENsLVdkN05TUkVPY2R2TzgyWWVzVVk3elQ5UkpKUDY0eXQ5aEpIR1duQjREUWx3SkhvYw?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Palestina: Sinteal se reúne com gestão da Educação para discutir pautas da categoria",
+     "veiculo": "Sinteal",
+     "site": "https://www.sinteal.org.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWhQZWRYXzVBT2tNcFJZeUtmQWZVRUlKUHJXMjQ0M2pMajVGYXJVd0t2cmtDbVFRdU40Vzh0SWQwWHFkZ1RfREh4VzR0c2lVaVIwRVFCc1B0OWk3Q1JzOWJQWU5PWGhYcTF5N0tTNEVSMTU2S29YT0FEWmYxcUduMHZKM19SMzBYNG16Y3RyWktNVGltRVd6UmcwLW5SbE80Wlh4c2Vad0hNOUZFN1d1VEpic3hTb2pORDJj?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "cessar-fogo Gaza",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Ataque israelense deixa cratera em hospital de Gaza, apesar de cessar-fogo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNajBDOXZDSE01dkpZYnBlSlBPTVBOQ2dqR3c5X1hxRG1yNnVhZFJGVEJrOXBTeHpwdjNna2Nsb2pLOHFDWWJFOC1EVWxSX3NoNG5oRUR4dzFrT25tZW5fWkg0Mk8yczZIdzEyenFWNTVFSU5XTnV3QU5oSEdhWEVTN1hXUDBzeG9TSmZ1S1UySlRacmQ3d0pnQWQ1QnZsVFBNQk9UZ1BkMVlDTHhBVHlmdGhYTFVtdnpr?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Ataques de Israel matam 18 palestinos em Gaza, apesar de anúncio de avanço no cessar-fogo",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-08-02T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTDBZVHk3RzJ4ZVFJZWxOaXVweWhoYlpBbEdILTViZzVZVE5CSVY5MWs3bWotcXJPbEZYUWJfdWNLb0pYRHZ0WkFNMWZlcFZMOFhVc3FNR1ZoTFZHTENxaDVUWURHc1hYSWsxR3JfNmJLVy15UjdSMnVxWC05dlVrdVF3LUwtaTFlTWZlSzFrN01BRU1HWlpPN2dITzBaMzV4OGE4YzM0MXppbEg2UDhxWlNOTTdma2dpeTRTbWVIanNGYlNnZlpQeWpYY2xwb2tKOFE4?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "O que se sabe sobre o acordo para o desarmamento do Hamas e a retirada israelense de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdkdmc25NZ2M0YjJfcHRFazRUeUV1cm9RdkR6b0FiQjBHNWlZMlhEbTY3UDVDR2JMdkR1dEpNa1FrS05kTHlKUnhVZGljMEREMUpaRkVTVkhvR3Q4Skl6UjVtT2Q3Rkdpbkl0V2pBY3JrLVJNRmlXYm1sTE5sRWdVdURqVjBCRUlJLW83TXlIM29NYXZFUnhRTUV2a2c5U2N4TUJubDFWT1p3V2dGZ0lueGdIMkl4RnpmR1EyVzB4SVdHUUdUS09SV1lDVGJreFhOOEZaV29KNUPSAecBQVVfeXFMUG5qZUcwUWFfdkVmdF9jM1RYMjhYLUpoVm93THhRY3RDbFhTZXYwUWR0aElMc1VEOTUtc0cya0JlS3RhM0hRbzR5aGUxU1Vndk91QW1CX0phNE4yd2IxUXVZZ3AyV1BtRzd6enE3NXhFQmtnQzEtSGhFMUhMTnowc0owajFoVkVKTmdGaTZ3eWN5bzdiekRqd0Ytdkc3UHZsV3JfWFNvRDB0eEkwa0dzNzRRa1ZMUnI2djZJR1J2bnZfaXdGWUpfV2JhWjU3TEdKUW1ZYlYxSjFrWWZ3T0ZlRm02WmlRT040?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+     "veiculo": "VEJA",
+     "site": "https://veja.abril.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Israel bombardeia Gaza após Trump anunciar acordo para avançar cessar-fogo",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3lSR3ZyN2FJWGNYYkg5THpDQVk4WFFLTEZYVnNJSzJlQmdzWE9xWkloX2pVUmEwZWcxX3Q0dEhqRC1ucnJHdDNXckVkUlJkdkRsaVFlTFV1T29DMzBmREpYaGgzN19zWkJoUXpyWE5sdmNIZUxfdDlSRWhqQ2hVZF85a0VyckExVEFrTEZTei04UUVZYmE0MERHN09LdlVsZ3dCTG5xYXQ2V0JiRDljWm5LdkVpVUtHMEtOQ18yUjhoUQ?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Operações militares de Israel em Gaza fazem parte de um projeto político e não vão cessar, avalia especialista",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2ZzRWFUeVg1UlJqSnU4TGFicDIzZU04ekhFdFp1NnYyNF9HbEJpV2VnVUpVeV96SnhFMFpTYmFyZXBsRllaYzFFa1hCZVFPMHlOeUdmQmV3cEtNS2dEc2F6bFdFSjNNNFdOaFNacXdJazFxNGFGZnJJNFpTMW0zeGY4SHBQcmZIX29DYndVdlZNbjFpUnUwYkhkWGpjeFV2N3NYb2hGdmdhSW1GRUt5Z1pvdXdOOENQQmFTSXlKelFHb3V1M1MwdTFGUVc1QWFMRGp6MG00a2VDVEg0ektjZUZVNzgxMDhL?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Mariam Chami\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Hyatt Omar\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Carima Orra\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Fabíola Oliveira\"",
+   "grupo": "influenciadora",
+   "lidos": 3,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Axé-Amém: Uma jornada pelas encruzilhadas da fé e da resistência negra no Rio",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmtaV0dOX0JUb2dNbHhkWXQyYVRHVUpIeFpfVndJOU5YQnhDM2hRWFd3VVBhVHVuQTJPUHEya21DQndmSl9JNzhFbTNqb1VWZkZhNjdKdnlpQTdHc19HMTJ5MGRCZWVMdnZkS25xOUZCOHNiT1JWM0RsZjVFTUlCZmpjZkxoc2Z4OHlkSTJibkNqMlU4NzdSRHNlb2h0OUZVTEtEY2lxRzNyTlZRQnlyUUdjYjBxT0pRWHptNA?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Comandante João Neves Simões é o novo Capitão do Porto e Comandante-local da Polícia Marítima de Viana do Castelo",
+     "veiculo": "Autoridade Marítima Nacional",
+     "site": "https://www.amn.pt",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1pRS1iaklBRVZ2MXVLY3VqSlRubFA3XzFmRG82cnY1aUI5MzJzLWtWYTlDZFU5OVc3LXJrbi1rQlZaSmNWU29JUDFiOU9sa2Utd05VM0I1WXQ5eXRSNUdMZGxUS0tydlJiOS1uSHBn?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "João Neves Simões assume comando da Capitania e da Polícia Marítima de Viana do Castelo",
+     "veiculo": "Viana TV",
+     "site": "https://vianatv.pt",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZUM4am5HZU5hRkV3LXlXV1ZvVjNmYzgtRUZWSHV0Q2Y2TnNKdFVEcTRZTk1BWFBRUzFFV1BNU0lUVXNOVlNXTlpjbnE2N1dTY1AxVXA2S1I3RVVzOWd2YkpFMjI0YWV2Y0Nzb1dfZjNRUFlPWWNJNU42QW9vSHVCVGV6S1ljQWxxdi1MR2FETG95RkZFRjNaajZnYnpCZkZtZEFpQjVPdmNIMTQ?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Hamas desarmamento",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+     "veiculo": "BBC",
+     "site": "https://www.bbc.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Hamas diz aceitar plano de desarmamento anunciado por Trump",
+     "veiculo": "DW.com",
+     "site": "https://www.dw.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOclB5Wl82QTh0T2JyOTBUSzJ5Vm9YS2VOZVFjdVVfUUVROFNCcmNhSFZ2aDZRN19ZbEtQbFhYOUhtMHZiV3hMUU1LVDhzQVpFUVZNVnlfbVg0dE9vSnRkb2I5ZkFxUF9EQ3RWdWxXSm00aXEtWldVallETXBxbDdITkZxRjdnZnRZUW9lQlNtQzh0LXItMFdTVTNNY9IBmwFBVV95cUxPQXBRWmxnS1ktanZTVG13Sk8tcWhOUXFUTUY3cW5lYmJ6QkhJNFRQRTFSeGxxV2p1TjYtcmNPU3AxRVpWUHRmVEYtQ3ctYXhieFQxcjVWV2I4dzNVOVlYcHAzbUF5dWx0dlVxdi04cXJDUW1mY2FqTkdFN3dpOWVZT3NPVEwtNkpQVTlnbEg4SVZvemwtRmo2OWZZaw?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Entenda as etapas do plano de Trump para o desarmamento do Hamas",
+     "veiculo": "Poder360",
+     "site": "https://www.poder360.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcVh5V1BYRTA1NUszandaczV6NEVuNldkanZlSTlhNkYwT3piczhRWjFJa2xJQWxpUkVYeW1PUTI0OThYMFZoNnFPRXdncUszb05YLWNwS0k1cmxWcDlMVUtsdDZjWHd1TTh3T2V2UG55QXUySGhPbXktd0NVbHZtNVVaSGFncFNTM3ROMzlaMGxjd25UdWpCckxBVDNvNWVVclJUQzJLajFHR2dvdkhNVmxfTQ?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Acordo de desarmamento é uma manobra política do Hamas em que Trump embarcou por conveniência",
+     "veiculo": "Estadão",
+     "site": "https://www.estadao.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV3M4YTh0S2Qxell1aFE1Y3lsMjhUcFdzdGFYdkswSDlQeDZBMU5LR21LNkFDVE9FYnl2cVVyNHRtQnBTSnhyUXpncmUyZk04VzVjWGFRR0xqTl96N1dlM3l4Ykt3b2dQTkQzWGVGMFBBeXJLc3dwdHhCbXJzVDN4ZjAxZW9kaDhISXo0a21ZSm4wQ0tDRENHX3daNkRDeU11aFJ0VHNNdXA4UzdYQVpPM1p0dGVxc3VPV1FnOHRNZVB5aHVVMWd2aDV5MG42dTlRQWxXVlgxbmRaMVc2SDBrM2ZnVG_SAeoBQVVfeXFMTkJIU3Z1dEJGeTFuUnlwUFF0RVYxQ29UQkNvbkRHcjFoWjRfbl82eGpYR2I3enk3WGZLVVVTUzNFc1hocS1jS0JYaXNGQjA1WGlJTU9tbHhQYWUyckZMd2dJdHpxMHFuSHh0dHdZZ3ZjRnVqay1wTEIwWk5KOWpSMmZyM2Y1UWd2anJ4ck44bm9MNnpwbU9nb2ViSkdZbDFiUlE0Y2pMcVdSTWs4S1VlT0NfWWF1cmE1X3RfMkNzUFI2d0FObFo1ZHViSjNrM2drUjU0U0NkQXI3NlAzSTNCdS1TYlVoTlhrX1d3?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "O que se sabe sobre o acordo para o desarmamento do Hamas e a retirada israelense de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdkdmc25NZ2M0YjJfcHRFazRUeUV1cm9RdkR6b0FiQjBHNWlZMlhEbTY3UDVDR2JMdkR1dEpNa1FrS05kTHlKUnhVZGljMEREMUpaRkVTVkhvR3Q4Skl6UjVtT2Q3Rkdpbkl0V2pBY3JrLVJNRmlXYm1sTE5sRWdVdURqVjBCRUlJLW83TXlIM29NYXZFUnhRTUV2a2c5U2N4TUJubDFWT1p3V2dGZ0lueGdIMkl4RnpmR1EyVzB4SVdHUUdUS09SV1lDVGJreFhOOEZaV29KNUPSAecBQVVfeXFMUG5qZUcwUWFfdkVmdF9jM1RYMjhYLUpoVm93THhRY3RDbFhTZXYwUWR0aElMc1VEOTUtc0cya0JlS3RhM0hRbzR5aGUxU1Vndk91QW1CX0phNE4yd2IxUXVZZ3AyV1BtRzd6enE3NXhFQmtnQzEtSGhFMUhMTnowc0owajFoVkVKTmdGaTZ3eWN5bzdiekRqd0Ytdkc3UHZsV3JfWFNvRDB0eEkwa0dzNzRRa1ZMUnI2djZJR1J2bnZfaXdGWUpfV2JhWjU3TEdKUW1ZYlYxSjFrWWZ3T0ZlRm02WmlRT040?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Trump anuncia conclusão de acordo para desarmamento do Hamas em Gaza; grupo confirma",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSm5Sc3N2aGV3cmxaMDFDLW5mU3FsLXhXY2MzTGlpVG5uX25meUhhOFdjLTJhejZGMVVzc1lyd3BJVVo1ZGcwbURYalNILUdEejR2WmxlMkQtUzFlb2FpNEVnVUF5LTdJWVg4TXZVSEhtT1BkVEMwalEzYllUSDJtSDJybkhqVmdGNDR1TDYtZW1RT1pYVUdKMENKQ29TdWhXaTRlUExBNG5wS29nVUJxRnZWZC0zTEF1RkE?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Hamas aceita desarmamento",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+     "veiculo": "BBC",
+     "site": "https://www.bbc.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Hamas aceita plano de desarmamento em Gaza anunciado por Trump",
+     "veiculo": "Metrópoles",
+     "site": "https://www.metropoles.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0ZRMmJ3QlQ0dGNDVURieWFZbzM0c0Q1bUtqeWtXaE5Fc2JQYUNKS2toeEdKZExBWHhwR2ZKc2F1ZkItNTJEU2FDTzhTbXlsTW5vcTVfTWJpbEZ6cDFNc253MkFpYWtwU2lLR2FaTGhOVjJBZnRWWDVyT0NBX01sbnE0YjhSN0dmNUttd2pHT0tVUXN5OVFSTVE5bw?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas aceita acordo para encerrar guerra em Gaza e prevê desarmamento",
+     "veiculo": "Exame",
+     "site": "https://exame.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeDlxVDFyRFRVNlRvbFVSZm42aEhxSFBDSGFuQnRHdFZHMW45Q0MxekpiMGFuTS05MHVSMmZES21OM19NUExWOHJuSmc0SU85U3VaTXpSNFpjV2xVSmVDUFdpLWZRelpWWjlWbU94V3dmVzJuOUhtUmJJSHlLeFRSbVdLdy1lRFdPWGFtRk02bF9VNWlHT3dreUln?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Hamas aceita acordo de desarmamento e Trump diz que Israel está ‘muito satisfeito’",
+     "veiculo": "Estadão",
+     "site": "https://www.estadao.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY2ZGQmNJWXBrcFZZTTVVS0FnUHczMnVvc0VRd0t5SXF6N0Z1azJQZEZHTU1MRGhjSXg0SVRQUTMxS0J4WDRzRHRiQVpVTGM5Q1dwVHBLZjI4akpMLXZfb0RWUENHcDdMcFk3cEhoWHlnRnB4MkJSYnJqdEpuR1h3VnE2b0FKMnJ5UGFNV1ptZzJNeVZuUjJXT0hjcVF6OVF1dFVWZEZzZm1HSUtXbVZ2cDB30gG3AUFVX3lxTE9rdG9aeHVXM2hhVmdPd2Y3Y3RPaTVHMFZETlozVGJJYkRpeGRyb3Q4b0JVekwyOHdqRTZhS2paV1luNWtZaVpRbmd2dUlnbVRERGRLLUJHRjhPLWtGRmUzbDJFR2QwZDh1UmZrMDFwN2l0emE1Y014ZDRLdnZjbk9veTVDYklKNTBReXZ1QlVmcGNFUjBGRWtsQkRRSHJEV0IzM21obDBDbTJUQzJMcHNQUEw0VnFPYw?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Hamas aceita acordo que prevê desarmamento e retirada de tropas de Israel",
+     "veiculo": "Vermelho",
+     "site": "https://vermelho.org.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUE8zUUVhTGhnc08xVDJEZ2JVTVJFQkhzelEzRjBBTklzcWlRdnhqazlUV3JEMXpPUDQyaFdhWEdlSnFldUlKa3NiNGdlRGVWWFk1aVJLS1BNalRjVnJyNFJES0diT1FFSS1tWjYzN0FFcHJRU0x2UXI4cUdUcGF3dXhDZDNPT1BFa1RQWERpd1ZEVEYzTmM3Tm1TSVBZbEZtSjN3aTNfbzlodlo2ekE?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+     "veiculo": "ICL Notícias",
+     "site": "https://iclnoticias.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WNjc0Yno0ZnlRWHdRbS0ya19ZS1plamlLRnd0RllObGM4SGo3bmRLckNwVmg4cmdYUnltVVFmY3BnVEx3enppeFpJU2d1alFHZzc1TzhOQXV1dTlDMmhUQXJJWHNVRmxZdnZwUVQ4NHJ1dlU?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "acordo Hamas Israel",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Israel precisa aprovar acordo de Trump antes que Hamas o implemente",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWl6NEEwWWNuSW5tejhOZUtUenRYYkpXVmRISnJOdTZqWUd0bTByaEZvOTM3V2h3dkRqRWJpdHNFLUlEZ19lV1dqWXE5dURDV0prbG4wMFpRaEVXTUMtRnhrbWdDOXRCeVlucXQzSXhwWFQ2TGUxc2xyaDhESGFWNERCanlJOVptVmZLZ0Q3S09KUnF3VFNlb1hmTmh3eHN4Z2dtSThDMnQ1TG50dnpnRHR1UmM1aFp5UTdfaTlTNkxWc2NjZzJMYnZR?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+     "veiculo": "BBC",
+     "site": "https://www.bbc.com",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+     "veiculo": "VEJA",
+     "site": "https://veja.abril.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Trump diz ter fechado acordo para 'desarmamento total' do Hamas e retirada israelense de Gaza",
+     "veiculo": "CartaCapital",
+     "site": "https://www.cartacapital.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnF3NmpzVmFCU3lvZ2pmeUIycWxXLXFvYTdfZkx4YlZzRnVRM250ZkJlQWJjZ3BLTXkwZTRtbmFCcDBITC1PWURRUEZfYlVJWnozeGkwSjJ0ZFBBZTFzNFE5blVkZThEbllNUUttMENSeThUdXBWa092Rk1vTUVaM1VwQlRaTkNVV0lRQTV1X2xCcW1TTmZUajJ0Z2xOdG5zeGpjcDA5a255LVIyUFdkWHFaSDhSZjFpaFRvejZ4TlZNcXRrTmNkN1h3?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Trump fala em acordo para desarmamento do Hamas",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Trump anuncia acordo para desarmar Hamas; grupo confirma entendimento",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXZidGZIckxwS01sNGpLYmU4NTRoRlVDZ1hObl9DdV84bEtyNWhKQ2t0ZjFnWGUtZnZnd3VyR3ZjeElBQTk3NmQ1OVlKaTQxNC03ZU1UWlBJRThvUE15OHg4X3RlZGxxR25LY2ZVaUFFZU91aWJ5WGxfTS05NkIwQ3Z5WlVJX1FIZk15TjZlQWNEOE81d0FYRDEyVmtsMWNOSGs2RU1CM1p6UHpwVmZaNUktM3NpbWR1c0poQnctbkpPLWoxTWhEUGVGd2drRThmRWhqa1M1UjUzQdIB6AFBVV95cUxOVHQ3SE9CWE9tanFFSEVEX1c2akpUNVhTdDZMRXRCM0R0QlJrVGhXU0xFMXpxSmhzTDVGb1ZnOU5uQVBJYldHYlNjbWtsWEJWMUhOWU9TYTVHSV9Sb3FsM0xJc255eVM4ZHVTdDA3NmxVNFRRRVNBa3hwQVhOZmhwSTV0MWlZQjlNUWZYWl91Q1dkMFk0TGxYeWNSQ29ONU5yV0ZMeVdrSmE4ZnRjeEdzX0VaVTBDU0ZoTkdMU25qVC1NZG9Tb1BXOTNuX3ZLWlFxTHlmZTJGY0YxSC1uSDEzTC1pRzM5RjZo?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Gaza",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Iniciativa coletiva traduz diário de paramédico palestino sobre a guerra em Gaza",
+     "veiculo": "Jornal da USP",
+     "site": "https://jornal.usp.br",
+     "publicado_em": "2026-08-10T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUXZzUU03MTBwZzZxQXpHdWhMak85cFRmTmlsNzlFazIyMW9fb2F4M3RLcFVES2lWSUZaS3pWN1U5b3N5VWZGdmxZMnpBRFRqN0wwaHJjOU1PemtSOXZZUW51ZHhCSFRMRzJOcDdYZXJkUEI4QnZSWWxtQXgwVXprTjVTSWJyWEhYWW1UV1BrRmtIbUJFU2hueFByVFRTNjB5QV9ncGFOaEZWU3VaeW9nNEpqcmFVUQ?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Gaza: isto não é um cessar-fogo",
+     "veiculo": "Médicos Sem Fronteiras",
+     "site": "https://www.msf.org.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16UDI1OHNONk5CUTZmUDB2RUdFb2pJVldndFgzd3hXRWpVcjhjbmVNMXozLVBsRzdfb0oxS1ZtRHJuT0JYY1ZmSnVNSlVTRy1WQktHTlFJVlJUWW5wRk1PSzRiTzBKbllkMnVFNHlEQ3c?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Defesa Civil de Gaza recupera restos mortais de 112 palestinos, incluindo 40 crianças",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQVBMaVVwRFU5bUlMdDVjR1pEaDAtRzhITUxGWlpubWtHcEJGalZEUzFJaXkyQWpYczdqa2Q4UXBtUVB0TUZISE5yMGZ2bGRPRE85U2NYQi1TUDczRXozWVdFSjFfdkJhd2hubV9DUWNJZ3MzLS1WY0V5b09WM2RqeHkwb2RCNS1RLWZpdHR5LWxiZ09VdFVtVXYyQzFCM1BvX3FXc1FURmlaYm9kd24yakN2NDd3TGZIOVFldWZGQTZwODBWclpuMVNtemVGS2Z4VTA4dDFvY9IB5gFBVV95cUxPa3cwU2JQUlloeVgwTFZkRW43ZUt4ZExrczBUc0JmeDZweWZiaU1aLURxNnRTcHVLUzV3RW5OY1hDb240Sm1BMHRsUFprWE4tVVkyWk9veTdHcklNOWVmaTdkOFp6NzVZYnA5UmZqUW94UHI1WmZORnR6bGFOdktPX29OaEpLS3pjVW41TTJsVDkxWHBFUXdoeEthenVmZWlOUEVXbnRFUXR2anREQk5pZzlmM0pPQVBIdlVQTUNzYWVvbVIzVXdyRDhmT2JMMDY1b2tFbjJxUUNsSi01eWJLYmowaHp2Zw?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Especialistas da ONU pedem medidas para evitar Gaza silenciosa em Cuba",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-08-06T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMGNNZTBEVXk3ck5UUjdGbFB5MXNlWXhldXNMMWxpMzRjc2doXzhsTV83MGR0WTdoMmJQaGlaV3ZzTEZrREhJanFnTmIyVm1namZOVWpoQ19Hd1NJQ1dFY1R6dXpMRDYzZmpaQW45MFNNWk1tcTVyTXpSVXd1cWx6cS1uZVdfYW9rOWxRMldTc1hoOXViZU5MT0lmNGVMNE0xV1Z3MDBWZjZnZWFpUFlaWlI1RkdmVW9KX3l3UUtHeThfZFNBN2luN01IcGMxdw?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Gaza, 71 bilhões de dólares para a reconstrução. Oxfam: “não seja apenas caridade”",
+     "veiculo": "Vatican News",
+     "site": "https://www.vaticannews.va",
+     "publicado_em": "2026-07-24T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQkdvT2wyRnVBYkhmaVAyU0tuTWMycVhaMC1FUWt0SUs2MHNTYTU2TnlrZFd3Q2thcDRhdlRIUmtyR3ktVDNuSTJvdHpQMFRxdkt6ZTd1RE1xTE5Wd2dCQ2ZvZ2lxb0VtTWoxSG4zU3VhR0h4X3M5aW1OSjhoVFdHWGFiZGFmWEpLcHdIdURzRjVFdmlUYlJyNFVCd2Q1TEdVZHh6TGNxd0RYQXc?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Unicef alerta sobre fome e mortes de crianças na Faixa de Gaza",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-08-06T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQW1iUWFPSmNldWhUQmxXXzZBR2xqZ0lHZEhRVDNQaExpdVgzcFhEcGZ1RUd0M0xqdWFFcDJNWk9JNFhsdWt0T0trelFoNlZPSGV6NllmdXBNaGxxdHNUei1EcmZ3ZmZJRFVabXU2RkgxUURfNk10QVE1ZW52S3J2azBaNE5EY0NTcW5vWHQwLXpvYkozVVpUZndONjlfTS0wZXpPdk5JUGdOOTRXNlNaUWJjdnd0MkF4VmUteEtUeDlNa3draWw5RFNkS2xDWmc2LWxuMVJ4VWhENWlId0E?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Israel volta a atacar Gaza horas após Hamas concordar com desarmamento",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2RSVkptMUdUemRFSzhyRGlLTVZCWWstR2Y4ajdwVmFnMThOVzNKOUxqLTdpTlF3NjNUOUJGWldaU29pQ2d2M3ZmalFTY0NCOHZ6cnFlNkVqTUFZUVR3ckZlamNQWWFzTFdQQmdPZ2ZsRDdlV0M2emU2dndFbWhGVFpvUXcwWjk3eHhTZHFXMW5tZGhIdm01dTF1a1JIMlVxU0xDVEd4ckNNN1oxUG5JcUo1QTZyaWlVdFVjMDVCU1ZLbGVT0gHTAUFVX3lxTE5YbFJiWnNqckdhUjNsQnVya2xScUkxSGR2UVpfRmxYZ3FzQTdOMlFSR3BFN1lmcU83Zl9pLW9yUHo5X1lFQk9GX0hyQ3NmU2VBVkVyQURVV1UtX1Q0WHFvUzlsR19jRlhtb0FhZWZSVmNkT01NcEp3T1hDLUpYcmE1cy1wbkdqSF9QVm5GdExtNXhjbEdja1lEVDJUQnZjZW9kQXZ3eWtRd0RYWi1vUS1UWFdrQzZxbl9Nc1k0YVhWaDZ6amx5cjFyZ19MY1dyejFSdFU?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Gaza: mais uma vez, hospitais de MSF recebem feridos de ataques israelenses",
+     "veiculo": "Médicos Sem Fronteiras",
+     "site": "https://www.msf.org.br",
+     "publicado_em": "2026-07-28T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVdWYnE3ZFZvd0ZlZEVqME5POVVUc29BSTRPTlJWT0FEQmIwVmNDR3NJSzNtZkNhcWlUUjl0a2Y1c2Q5MUhRRWNGcm5vSS0tTnRMR0tJSjBOUWFkcks4NlkzaURPZkl4bDVIeENEY1hSenI5ZTdwMTZweUNtekFqVVU5WVFZS3pxdW9JV2VhQVNrSF9uMEMyWURIZzI0MDhqQmx0RWtXcGNCUQ?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "‘Com a corda no pescoço’: como Netanyahu usa ataques em Gaza para sustentar projeto político",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcHQ2VGpHVUJhelhIQWpwVkk2Y2dBUXJlUGRCcTBta01Fd0Y4dmhBWDU2UGRFM051V01oVzdxeTdkcXdDUjhQUnhTT3o2UVNkeDZYODdMX2JzNDEzSjFQWExZN0dXQmpldUhqWUVldE9ybFMwcEp6OUtabFJBZGVuY0s3TW51dWhJeld0S3BYMHRVcGFyT3J5ZjdiVmtkVzBMS2pyYkxfcUR6Y0VwRC1IRGhlcldQbzZ5OEloeWRMRkhMUkNwS0VBMnNFdGtHUQ?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Palestina",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Ativistas da causa Palestina denunciam perseguições",
+     "veiculo": "Portal da Assembleia Legislativa de Minas Gerais",
+     "site": "https://www.almg.gov.br",
+     "publicado_em": "2026-08-12T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWTRHcEkzejFHWGhPNGt1RE80UHZPT0FWNk9BTDhRVjhRRnl3MXNRWWtOTEpYUE9kZnlPQXBmY2s5VzJjR3RDejBITlZzNzlPZm5OZTd4NUttNGlUTXhfMjkxSEZ6SllDMkJ1WXk3QUZiNWxVWHJROFZXQWlUTWx6aDc3blkzZkdOaTJlSmxqelZZM0x4MFlJZ3VIRG9OeHprbFNrNkZmYlVudw?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Psicanálise sob Ocupação : A resistência palestina no divã",
+     "veiculo": "Outras Palavras",
+     "site": "https://outraspalavras.net",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZG9iNkY0RXY2RGQwZW5EaDdVbWk4MGlmbXp4ajNHdmR0LTQ1aE1IaUNiaFg0QjRMbjJCVDZDTHhMTDVKVWxDWkxNZjg2eXA3amJWNTQtN1ZuaFVHNWM2R3dsUWRZRzhLbVFWTW4zUFFQa3NmRENsLVdkN05TUkVPY2R2TzgyWWVzVVk3elQ5UkpKUDY0eXQ5aEpIR1duQjREUWx3SkhvYw?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "SOLIDARIEDADE INTERNACIONAL - Questão Palestina é debatida no 2º encontro do Seminário “Conhecimentos para um projeto de Brasil Anticapitalista”",
+     "veiculo": "ADUFC",
+     "site": "https://www.adufc.org.br",
+     "publicado_em": "2026-08-13T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUTBleU45RkQ4dE16ZlBmNHh6anA5S1J5Y045dXFVdWU2a1lIdHFaanlNSzNlNXlUczR3TkYwMmk0NDRsSGNpY012SjY2amJiMnBINDZfd2tZaHNSYng3cmxwb3pfWjlFOHdFeHlKVHRQYjZ2b09vNHphVFUzWmhWX1pUYTN0OWc2UmRXTW9EaE9CUFBXOU5TeGFDcmtOSFNsYmJ6UkRCVUxDZ3FUcFN4MndURVVOajVuY0pjYmZIZExGeE4wem5uRjFrcjdlVVpEdFM5VmhhX09RbGdyOHZtRlFhM1dENGpSbzhlZkM0ZWtleDdINXp1VEZDVVdMOGM3OW81TFdmRWw?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Palestina grávida de seis meses perde bebê após ficar retida em posto de controle israelense, dizem paramédicos",
+     "veiculo": "O GLOBO",
+     "site": "https://oglobo.globo.com",
+     "publicado_em": "2026-07-27T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNU5MZnRtQWNKYTk2dGVfQ19VaEZ1elc4ZC02R2RyRWRSbUJEdks0Q1RDejN2WVQzcHNfNEtSbXRPTE5RanhnXzdnblVSSUlnS3prbXlGM2s5X1BaNkF6eENPSGRJSUs3WGJlUC1hUG1sZ1d3Mjl4TkdDbnVHVkpsUTZkdUsxbnl4dG9KcHd1WW5aMzJ5UDhwLXg2UnBTUkxUS1pDdWNicVFzLWhsMDJyX0xCX1VDSU5YVDFPODZSMmtrTFppa19XZ3JWT3VIZWhZVGhFQWtvYkNicWpoSU9EeGRfLVZaYmNxV3NvaU51eUJjTm1ON0dlQUtR0gGIAkFVX3lxTE9CdG1VQUhrT01kNi1XLUhKNFBVWW5hXzlyV09wTWNQUkFqdXozRFc5UnRnRDB3NE1Mc2ozbEdWbnNFN0pocTNacXdmeWNsWGEzeEJuemxqRks4dUcyZFlxd2ZnZURiQkpxem45RTRMOUpZa2FwdEFIRkNhV2UzRGoyWHpLNWNFc2x0emZ1amE2QXJ4UVRmU3hldUVFZ1NKUTM2a1BhZk40NWV1aGwtVE92NXJCV2ZDNVZQRlRpVGhtOFF3czR2eGFrVFllOTdmUE15bXVKa2xzamdaR2ptWVZKeXVKTlUxUzJzYXROMUZCVHFuSUhrc3liaFUyXzlOSmpkWkduYmlQMw?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "Palestina: Sinteal se reúne com gestão da Educação para discutir pautas da categoria",
+     "veiculo": "Sinteal",
+     "site": "https://www.sinteal.org.br",
+     "publicado_em": "2026-08-03T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWhQZWRYXzVBT2tNcFJZeUtmQWZVRUlKUHJXMjQ0M2pMajVGYXJVd0t2cmtDbVFRdU40Vzh0SWQwWHFkZ1RfREh4VzR0c2lVaVIwRVFCc1B0OWk3Q1JzOWJQWU5PWGhYcTF5N0tTNEVSMTU2S29YT0FEWmYxcUduMHZKM19SMzBYNG16Y3RyWktNVGltRVd6UmcwLW5SbE80Wlh4c2Vad0hNOUZFN1d1VEpic3hTb2pORDJj?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Funeral coletivo na Palestina é um novo capítulo da guerra em Gaza",
+     "veiculo": "Notícias - Canção Nova",
+     "site": "https://noticias.cancaonova.com",
+     "publicado_em": "2026-08-04T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRDQzSTdjWFVVdExPbkNPeFZvdTlMelVqT3k1dWM5NXFqLUQ2cmNJWjRnazM1N2RoTG5aV0g1OWdnSDVxQml6YjJRS3VvYkt5d19IOUY3Slp4MWVVZnc4ano2aVhsVzZDTlVNUUZVZ2VILWlwb0JmWk5OUEh0N0loOVQwRml6a1ZCbXBxaEl6X1h0cS1Ld1FJdkdJcThKVkxlTlVrakNBYlA?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "A tensão aumenta na Cisjordânia; quatro palestinos e dois israelenses morreram",
+     "veiculo": "Vatican News",
+     "site": "https://www.vaticannews.va",
+     "publicado_em": "2026-07-24T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcFM5d2xraGRvOGhrLWw3SU1QSXJNX0hmVlpIQXQ0QVV2bF9xRUgyT3pKYWpwU2EzbEw2RjliTnp2RmRzN1daQU9DXy1Ydm9ZQnJzNWd2OHE0QnJVYUJtNmlRMWxheVo3LUFFRXBtYmU2RUdueVhFN2lvREh0LWl5X003UDRJVW1OOUhOamVaNERndU1UZGFadDVBcEdQNThvWDB3WjVB?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "ONU alerta para tensão na Cisjordânia após cercos, ataques e assédio a palestinos",
+     "veiculo": "UN News",
+     "site": "https://news.un.org",
+     "publicado_em": "2026-08-13T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFU1VORVpqdldQQlBrM0tvb3BrOXRkdkQ1VDlkNUJkTjhNVGhibmtORm9NUUFqM0hQZzBNSVc1UUFRSk1MNUFOcDVENXNCM3FZcG9HUkMxTQ?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Lideranças da causa palestina relatam casos de criminalização",
+     "veiculo": "Portal da Assembleia Legislativa de Minas Gerais",
+     "site": "https://www.almg.gov.br",
+     "publicado_em": "2026-08-12T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc0swZ1JIQnFqMC13M09ncUJadzQ4Xy1Kalg4Z1NHbGJxRWlkOU5IVkU2V2w1OVcwNFYyREFqLUgzS3c3bnplWmZ5eGg2TWJzZmJPejZfX2hINTJSSzVOWVl0Q2Z5RVpWaG90dzJFUE8yWFdhNXhzSi0xZ242WnU5eU5HZG0ydHJJcU9nZFoyanBIYi1mSFRGQg?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "cessar-fogo Gaza",
+   "grupo": "tema",
+   "lidos": 10,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Gaza: isto não é um cessar-fogo",
+     "veiculo": "Médicos Sem Fronteiras",
+     "site": "https://www.msf.org.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16UDI1OHNONk5CUTZmUDB2RUdFb2pJVldndFgzd3hXRWpVcjhjbmVNMXozLVBsRzdfb0oxS1ZtRHJuT0JYY1ZmSnVNSlVTRy1WQktHTlFJVlJUWW5wRk1PSzRiTzBKbllkMnVFNHlEQ3c?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Ataque israelense deixa cratera em hospital de Gaza, apesar de cessar-fogo",
+     "veiculo": "CNN Brasil",
+     "site": "https://www.cnnbrasil.com.br",
+     "publicado_em": "2026-08-01T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNajBDOXZDSE01dkpZYnBlSlBPTVBOQ2dqR3c5X1hxRG1yNnVhZFJGVEJrOXBTeHpwdjNna2Nsb2pLOHFDWWJFOC1EVWxSX3NoNG5oRUR4dzFrT25tZW5fWkg0Mk8yczZIdzEyenFWNTVFSU5XTnV3QU5oSEdhWEVTN1hXUDBzeG9TSmZ1S1UySlRacmQ3d0pnQWQ1QnZsVFBNQk9UZ1BkMVlDTHhBVHlmdGhYTFVtdnpr?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Ataques de Israel matam 18 palestinos em Gaza, apesar de anúncio de avanço no cessar-fogo",
+     "veiculo": "Folha de S.Paulo",
+     "site": "https://www1.folha.uol.com.br",
+     "publicado_em": "2026-08-02T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTDBZVHk3RzJ4ZVFJZWxOaXVweWhoYlpBbEdILTViZzVZVE5CSVY5MWs3bWotcXJPbEZYUWJfdWNLb0pYRHZ0WkFNMWZlcFZMOFhVc3FNR1ZoTFZHTENxaDVUWURHc1hYSWsxR3JfNmJLVy15UjdSMnVxWC05dlVrdVF3LUwtaTFlTWZlSzFrN01BRU1HWlpPN2dITzBaMzV4OGE4YzM0MXppbEg2UDhxWlNOTTdma2dpeTRTbWVIanNGYlNnZlpQeWpYY2xwb2tKOFE4?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Unicef alerta sobre fome e mortes de crianças na Faixa de Gaza",
+     "veiculo": "Agência Brasil",
+     "site": "https://agenciabrasil.ebc.com.br",
+     "publicado_em": "2026-08-06T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQW1iUWFPSmNldWhUQmxXXzZBR2xqZ0lHZEhRVDNQaExpdVgzcFhEcGZ1RUd0M0xqdWFFcDJNWk9JNFhsdWt0T0trelFoNlZPSGV6NllmdXBNaGxxdHNUei1EcmZ3ZmZJRFVabXU2RkgxUURfNk10QVE1ZW52S3J2azBaNE5EY0NTcW5vWHQwLXpvYkozVVpUZndONjlfTS0wZXpPdk5JUGdOOTRXNlNaUWJjdnd0MkF4VmUteEtUeDlNa3draWw5RFNkS2xDWmc2LWxuMVJ4VWhENWlId0E?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+     "veiculo": "VEJA",
+     "site": "https://veja.abril.com.br",
+     "publicado_em": "2026-07-31T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Netanyahu rejeita termos de acordo para cessar-fogo em Gaza",
+     "veiculo": "TV Cultura",
+     "site": "https://cultura.uol.com.br",
+     "publicado_em": "2026-08-10T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdGdSd1RBcjIyTkpUZnNQT1BNeFZuVmt4Vzc4ZzNjenBybi02T2pSTkRKUnB5eHdWRU00VWs0bFpQUTdQcldBRlFZb09mdF93aGZtSFU5VGVCTl9uR3ZBTDVNSXpqSEctZmctYXZrRUhobFcyTHJyX0lUOHJIZUZ0RlJwU0xRN3IwV0Z1THZ0WldJbkg5VEdVYnh6Mk81a05aYXN2YkdtQlBUd0ZKT1BzSVhoajhJLVJuSXdLaXBwalVnY2RfZE53?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+     "veiculo": "Brasil de Fato",
+     "site": "https://www.brasildefato.com.br",
+     "publicado_em": "2026-07-30T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Pelo menos 300 crianças mortas em 300 dias de cessar-fogo, denuncia UNICEF",
+     "veiculo": "Sete Margens",
+     "site": "https://setemargens.com",
+     "publicado_em": "2026-08-07T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS0dYVDVBYlhGUHlwVEJuRnFZQVhjODNzMWw1d2JjejRvaXI0Z0xkT25kRUVzUnFtVHFXc2Z3c1NpXzZiUExleXBoZ2ZCeUI3Mm5QR09DaDlrNHRCOVVCMEZ5OXByYkFBSEE1YVpXNnZLdmhCYXBLckROV0FnSTRybExqNEFVYmlPM1dJNWw4NHZjdUJ5dFlaNDZWUWVqZGc?oc=5"
+    },
+    {
+     "posicao": 10,
+     "titulo": "Apesar do cessar-fogo, morre uma criança por dia em Gaza",
+     "veiculo": "Público",
+     "site": "https://www.publico.pt",
+     "publicado_em": "2026-08-07T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVTM5clZ4SG1OZTJvZWsxTlRCUndMWHUzY0YxZGE3bm5pNmdkeVVpX2FET1plaWxCUFRpOEFuLVVSX2R5cmNLT01lTk1ra3prTWpOeEg2RjZ3SFlsQ0lVbDhHc0paMFZWaXdsa2xmWEdvVDNKVEtSYzg4T09RRUhlaWlLb3ZNV3hKVHR3c0xNcTRIOXBnTTloZW9nY0w?oc=5"
+    }
+   ]
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Mariam Chami\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Hyatt Omar\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Carima Orra\"",
+   "grupo": "influenciadora",
+   "lidos": 0,
+   "resultados": []
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Fabíola Oliveira\"",
+   "grupo": "influenciadora",
+   "lidos": 9,
+   "resultados": [
+    {
+     "posicao": 1,
+     "titulo": "Influenciador é condenado por difamar ex-namorado em perfis falsos",
+     "veiculo": "Migalhas",
+     "site": "https://www.migalhas.com.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOHBScEJzUk9vVDhKMVdCQk9heTZ6X0xjaGNpdTViX2xWdlJsNkFZbWwwQXl2SHpOdmFYcVdudjJFaXVDODMxRGp5S1NHTk1FR1lHNWtKT3VoMmNfMUJscWZUcWNJeHItR0xXR1BIT2FPVWdvQVI0X0JLd3REa2NLZ3F5Vms0UXJEaGZmTkdRZm9McnpucjlJTEtPVUxoUDBJQWpHNmxxSk9TRmFIX2c?oc=5"
+    },
+    {
+     "posicao": 2,
+     "titulo": "Influenciador é condenado por usar perfil falso em app de relacionamento para difamar ex-companheiro em SP",
+     "veiculo": "G1",
+     "site": "https://g1.globo.com",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXI2N1h1QU9GeWpYVG1neERSa1IyaXZZYm1nNlJ6SENaTmNBSlkxdExXOXVBV0Fla1M5QnRBM2hmWUoyQ1kwUG1Ya3dLVExDZldKanBhc0UzckFEeXpoR3lXa1BTZVRlb0gxbEpCSW9uMnFVcUp4cDRwVmR3UnBGVUoySE03bE5BaS1ibDBQZlh3UkVkaFh4MTFVWTVIeXZJUi1nbUJlUVMzamtJX0kwRUsyMlhYTDMyb1h4S0owTHFRSG1jV29VVDdIT1JtQklKME1zR2ZrakVPSGxnWUFIcTByT2NLbHY0VC03b1o0SENMUmpNdlhLStIBhwJBVV95cUxNVm9IbTdLMUtRUUVQY0piRzZUaHBoU0JSV3p3eE5tM1hqNmtNN2lYcGlXMGFXd1U3My0wRllmTGxRRUFhdkVrcjNKQkdXVDJTbXdINVR1azJCX3NCTlpMVkVZRlhPR1VPQWQ2VUlOa25fQVdnTl82Q1NpWThqRlBPM2QtYUFwZ2NPR19hLXE4eTEtc2tXODlxQ3B5dEpibGZidWJRUDVnQVh4VnFEaWFTNWJBU2tJVkVFVjI0dTVTSUk0aGMyaHF2dkk4dlpyTzM1TWhOcmhDN2RxZi1aQUU0M014TklSQmxRTTUyYkxoZFVzYlF3bG4tcFdZR1JvVnYwc2hVX1Naaw?oc=5"
+    },
+    {
+     "posicao": 3,
+     "titulo": "Influenciador é condenado por difamar ex em perfis falsos",
+     "veiculo": "Metrópoles",
+     "site": "https://www.metropoles.com",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbDBJOUdhVnZKT1VNOER2ajV3R3g3ZS1PcFFlUXZfNXcwbGVPbExiVnhvc2VBUEhOdUlzaThZa1p0bHFWN2lreDd6dmlUNU5KWktzTlc1WjZmRGpBU0hSMjJXUWhIdHN2YzZzTXFQSTBEOFZsbHNlMWUxaDFienBGN2xBWklmQW5JRmprdGNmWi16c050TVRpczZBLXg0dw?oc=5"
+    },
+    {
+     "posicao": 4,
+     "titulo": "Influenciador Victor Oliveira é condenado por usar perfis falsos para difamar ex-namorado",
+     "veiculo": "Terra",
+     "site": "https://www.terra.com.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPVHZmVzcxRjRvT2lWaEJmTVg1amszaHRRM0FoR25mZG1VVXIzR2dBMDJ2YVAyWC1sZXdIaFhQS19jd21BVGJkckhTcVBEYTZvcW5qMFdhSmlkUHVXZ1NXRHBfSzVkSEtwUVJ3Z2UzR05ScENINXlxWkw1UEJWZXc0Z0VYX1RKTXp6S2liRDRwWHg1aWZKM1VCYXZKLVJrNWlZMExDdlFQOGxWTEtwVTFDRmJBdjV4STBoUFBBMFRqcXRwcFhsOEc3YzZBM19TaEtpeXVWbG5pU3V6OTA1OThnTW5feHdwZENrajFZamJTQmFMLWlBdEdyR0liYVE0b3ZvWTBRSXZn?oc=5"
+    },
+    {
+     "posicao": 5,
+     "titulo": "Influenciador é condenado por difamar ex com perfis falsos em SP",
+     "veiculo": "UOL Notícias",
+     "site": "https://noticias.uol.com.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb3RpckpQODRuSk5oWVMxOUVGemxZZVBaYWo3V1FmN2xMQnZ2dVUyTzU5N1c2OHBiMk9YM3U1N19pTGhmYjJzT01jUjBXQzFHNTh2RlZZVVNrN3FqN2FycHRsNTNwN1J0eFVINFRISDhQTFEyVzlrN19vU0ktLWVaM3VUdHBBV2w4bTFZVkZQaHd4VGdYZzRQcHJvSDZ1ZXZhMmZWQUFhVktyZGk2Q1JKUGJyYkU3dFpzVFE1WWExTEtmeHRfNUJ4SERqU01WYjdZ?oc=5"
+    },
+    {
+     "posicao": 6,
+     "titulo": "CP reforça comboios para as Festas da Senhora d'Agonia",
+     "veiculo": "Rádio Comercial",
+     "site": "https://radiocomercial.pt",
+     "publicado_em": "2026-08-05T10:01:51Z",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLVh1SzBtV2VxRFg1NXFtdEI2Tmltb1F1X3U4eWYzUWVtZFZ2ZTlabXZ6V0kwTFYzTzRIZTdPQzg3V0hRQVpBb2luVlIwVHg2WjlaN0VtRmJHNmtvOWlWX0R2aUN2a1RYZ2Z4cDJWRHgwTzFkbnA5NWdaZVAwSFVmdjlRQXhGbWZ2NXNENjVJYTc?oc=5"
+    },
+    {
+     "posicao": 7,
+     "titulo": "Influenciador é condenado por difamar ex no Grindr e no Instagram",
+     "veiculo": "Notícias ao Minuto Brasil",
+     "site": "https://www.noticiasaominuto.com.br",
+     "publicado_em": "2026-08-15T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeFpxVFBJWEZ5YmwyaWQyZ21Vc3NBb0J0OHBsc0pmaTRKREZKUGJ3NWxjUW5rSWtEc3VtMzJQdU1vT0MyeXd6dVVveXNOQUhvT2VWOGV3WjhSN0dBdU9peXBRSHFVMFBEdjlLdXQ2NHhlOXJtdWVhNU1hRWZXWjQxWXQzYjdmU0Z3bGw4V0U4REREWlcwLTNkdjA3TDRxSS0tS1BGamd3MTY3LUlTUkZNYVluNUU?oc=5"
+    },
+    {
+     "posicao": 8,
+     "titulo": "Victor Oliveira: condenado com multa de R$ 1.540 e serviços",
+     "veiculo": "diariodamidia.com.br",
+     "site": "https://diariodamidia.com.br",
+     "publicado_em": "2026-08-14T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV2lhZEZUSGpUcks5UEtrZS1yQkI5V3YwVl9FMmtUc1phNW02U1VIeGwwMzNCSGs2VjV3Q2lrSlItekVBTnJyOXkyaGotMzJlUU83TmRUSE5VVFc3d2V4ejBEcDQyTTFTSGdMNXBsM1JkOGg5eHBvNEtNYzVCTFhCUndiTlRldjh6d2ZrbzhR?oc=5"
+    },
+    {
+     "posicao": 9,
+     "titulo": "Vai à Romaria d’ Agonia? Vá pensando em deixar o carro em casa",
+     "veiculo": "Rádio Vale do Minho",
+     "site": "https://www.radiovaledominho.com",
+     "publicado_em": "2026-08-04T07:00:00Z",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHRnTGFKRGg0bmIxZ1lOZ2JGUndhQndzYTVlZ2hEN2RoelIxQVpwSG1FWkxqTzA3S3dBclc0YzRxSm5Uazh0NVNyR243aTFlNHhZYmtxdURnTnc4WERucXZ6X0NhMHduNGluOFdUTmVXUVo0cmNvSC1vMW8zeHdYdVY4Y0xvUDJkc1g3SkRpQ21PVE5UNmFsTV9DdVc3MENYYjUzVkRJdEs?oc=5"
+    }
+   ]
+  }
+ ],
+ "erros": []
+}

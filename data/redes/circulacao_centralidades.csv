@@ -1,0 +1,21 @@
+caso,rede,medida,posicao,no,valor,comunidade
+redes,circulacao_hamas,grau ponderado,1,busca: acordo Hamas Israel,718049.0,3
+redes,circulacao_hamas,grau ponderado,2,busca: Hamas desarmamento,432217.0,1
+redes,circulacao_hamas,grau ponderado,3,busca: Hamas aceita desarmamento,427594.0,1
+redes,circulacao_hamas,grau ponderado,4,busca: desarmamento do Hamas,416805.0,1
+redes,circulacao_hamas,grau ponderado,5,CBN News,275206.0,3
+redes,circulacao_hamas,PageRank,1,busca: acordo Hamas Israel,0.103791,3
+redes,circulacao_hamas,PageRank,2,busca: Hamas aceita desarmamento,0.075245,1
+redes,circulacao_hamas,PageRank,3,busca: Hamas desarmamento,0.072226,1
+redes,circulacao_hamas,PageRank,4,busca: desarmamento do Hamas,0.071871,1
+redes,circulacao_hamas,PageRank,5,Rede Gospel de Televisão,0.040579,1
+redes,circulacao_hamas,intermediação (betweenness),1,busca: Hamas aceita desarmamento,0.153841,1
+redes,circulacao_hamas,intermediação (betweenness),2,busca: acordo Hamas Israel,0.146385,3
+redes,circulacao_hamas,intermediação (betweenness),3,busca: desarmamento do Hamas,0.124396,1
+redes,circulacao_hamas,intermediação (betweenness),4,busca: Hamas desarmamento,0.114571,1
+redes,circulacao_hamas,intermediação (betweenness),5,notícia: Hamas aceita desarmamento,0.036552,2
+redes,circulacao_hamas,autovetor (eigenvector),1,busca: acordo Hamas Israel,0.662788,3
+redes,circulacao_hamas,autovetor (eigenvector),2,CBN News,0.586234,3
+redes,circulacao_hamas,autovetor (eigenvector),3,SBT News,0.171146,3
+redes,circulacao_hamas,autovetor (eigenvector),4,Band Jornalismo,0.162569,1
+redes,circulacao_hamas,autovetor (eigenvector),5,BBC News,0.149572,1

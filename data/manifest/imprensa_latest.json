@@ -1,0 +1,170 @@
+{
+ "gerado_em": "2026-11-22T22:17:35Z",
+ "run_id": "45076870902",
+ "fonte": "Google Notícias (RSS, Brasil, pt-BR)",
+ "metodo": "Pedido do responsável (22/11/2026, 19h14): \"os 10 primeiros resultados do Google para cada\" termo, e os resultados do\ncaso Hamas. Fonte: https://news.google.com/rss/search (Brasil, português), com os operadores de data do Google\n(after:/before:). A ordem é a do Google (relevância), lida na data da coleta: é uma amostra dos 10 primeiros, não o\nuniverso (o Google não informa o total: ⛔).",
+ "universo": "⛔ o Google não informa o total de resultados",
+ "erros": [],
+ "consultas": [
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Hamas desarmamento",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Hamas aceita desarmamento",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "acordo Hamas Israel",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Gaza",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "Palestina",
+   "grupo": "tema",
+   "lidos": 5
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "cessar-fogo Gaza",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Mariam Chami\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Hyatt Omar\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Carima Orra\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "dia do anúncio",
+   "de": "2026-07-30",
+   "ate_exclusivo": "2026-08-03",
+   "consulta": "\"Fabíola Oliveira\"",
+   "grupo": "influenciadora",
+   "lidos": 3
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Hamas desarmamento",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Hamas aceita desarmamento",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "acordo Hamas Israel",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Gaza",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "Palestina",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "cessar-fogo Gaza",
+   "grupo": "tema",
+   "lidos": 10
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Mariam Chami\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Hyatt Omar\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Carima Orra\"",
+   "grupo": "influenciadora",
+   "lidos": 0
+  },
+  {
+   "recorte": "núcleo",
+   "de": "2026-07-23",
+   "ate_exclusivo": "2026-08-15",
+   "consulta": "\"Fabíola Oliveira\"",
+   "grupo": "influenciadora",
+   "lidos": 9
+  }
+ ]
+}

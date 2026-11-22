@@ -1,0 +1,757 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-22">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tipo" type="string" />
+      <attribute id="1" title="peso" type="long" />
+    </attributes>
+    <nodes>
+      <node id="yt:UCamgdcs45ToPrIV7wmT7iYg" label="AFP Português">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="118260" />
+        </attvalues>
+      </node>
+      <node id="busca: Hamas desarmamento" label="busca: Hamas desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="432216" />
+        </attvalues>
+      </node>
+      <node id="busca: Hamas aceita desarmamento" label="busca: Hamas aceita desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="427593" />
+        </attvalues>
+      </node>
+      <node id="busca: acordo Hamas Israel" label="busca: acordo Hamas Israel">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="718049" />
+        </attvalues>
+      </node>
+      <node id="busca: desarmamento do Hamas" label="busca: desarmamento do Hamas">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="416804" />
+        </attvalues>
+      </node>
+      <node id="yt:UCoa-D_VfMkFrCYodrOC9-mA" label="Band Jornalismo">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="191858" />
+        </attvalues>
+      </node>
+      <node id="yt:UCvdwhh_fDyWccR42-rReZLw" label="CNN Brasil">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="113874" />
+        </attvalues>
+      </node>
+      <node id="yt:UCmQTY7b5w61WlmBbJ5a8XrQ" label="Rede TVT">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="11173" />
+        </attvalues>
+      </node>
+      <node id="yt:UCUmEPYxmnyQDeRUcFkslmQw" label="Euronews em Português">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="19348" />
+        </attvalues>
+      </node>
+      <node id="P0001" label="perfil pequeno P0001">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="26636" />
+        </attvalues>
+      </node>
+      <node id="yt:UCxm0tptjIc76-i26EKQ9NpA" label="InfoMoney">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="41440" />
+        </attvalues>
+      </node>
+      <node id="yt:UCOnuheHbS2DgZiAZFL0-Sbg" label="Brasil de Fato">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1494" />
+        </attvalues>
+      </node>
+      <node id="yt:UCbiGwU0-W1XCDUrt3BTVrag" label="Rádio CBN">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="2508" />
+        </attvalues>
+      </node>
+      <node id="yt:UCXdXYG8dUmEv6jhEji_lSHg" label="Jornalismo TV Cultura">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="28140" />
+        </attvalues>
+      </node>
+      <node id="P0002" label="perfil pequeno P0002">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="524" />
+        </attvalues>
+      </node>
+      <node id="yt:UCOsYwlfhlRTPCQARdkNtjZg" label="Eric Deters Show">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="3855" />
+        </attvalues>
+      </node>
+      <node id="yt:UC376n347Ob5Lwzq2WGzF1AA" label="SBT News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="169329" />
+        </attvalues>
+      </node>
+      <node id="yt:UCT6Imb3GXhF8GmjpIk6y2lg" label="Professor Ricardo Marcílio">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="148804" />
+        </attvalues>
+      </node>
+      <node id="yt:UCp6RRaz93Pt2xYZoEye_rLA" label="globonews">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="3748" />
+        </attvalues>
+      </node>
+      <node id="yt:UCaGmdJSSiR7fkh2A-c6emsA" label="g1">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="21170" />
+        </attvalues>
+      </node>
+      <node id="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw" label="TV A Crítica">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="2541" />
+        </attvalues>
+      </node>
+      <node id="yt:UCNl_i-ggJbZNyOLlhE7yyhw" label="Jornal da Gazeta">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="18816" />
+        </attvalues>
+      </node>
+      <node id="P0003" label="perfil pequeno P0003">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1994" />
+        </attvalues>
+      </node>
+      <node id="yt:UC9_P8UgE6lExmkrzH4g2L8A" label="Rede Gospel de Televisão">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="266634" />
+        </attvalues>
+      </node>
+      <node id="yt:UCj-RTZE-V3Q6jleatRR9k2A" label="O POVO">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="7272" />
+        </attvalues>
+      </node>
+      <node id="P0004" label="perfil pequeno P0004">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="yt:UCEsbaUdrM_87K-2um30hf8Q" label="Jovem Pan  - 3 em 1">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="28820" />
+        </attvalues>
+      </node>
+      <node id="yt:UCx7Ohl0Ln516T5pu5M8_SMA" label="O TEMPO">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="12692" />
+        </attvalues>
+      </node>
+      <node id="yt:UCsEC-wMKyvx5EIxKHsG0q3g" label="NOW Canal">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1947" />
+        </attvalues>
+      </node>
+      <node id="yt:UCP391YRAjSOdM_bwievgaZA" label="Jovem Pan News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="86221" />
+        </attvalues>
+      </node>
+      <node id="P0005" label="perfil pequeno P0005">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1028" />
+        </attvalues>
+      </node>
+      <node id="P0006" label="perfil pequeno P0006">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="0" />
+        </attvalues>
+      </node>
+      <node id="yt:UCWeXgaH6wwyTRAkA3n6sRxg" label="Terra Brasil">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="4680" />
+        </attvalues>
+      </node>
+      <node id="yt:UCVgO39Bk5sMo66-6o6Spn6Q" label="ABC News (Australia)">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="2906" />
+        </attvalues>
+      </node>
+      <node id="yt:UCEs-K_xio8n6PKKbTCZpaSA" label="ABC30 Action News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="12183" />
+        </attvalues>
+      </node>
+      <node id="yt:UC1_E8NeF5QHY2dtdLRBCCLA" label="africanews">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="9186" />
+        </attvalues>
+      </node>
+      <node id="yt:UCw77677G3EAODp61b0izs7w" label="6abc Philadelphia">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="7320" />
+        </attvalues>
+      </node>
+      <node id="yt:UCO0akufu9MOzyz3nvGIXAAw" label="News24">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="26441" />
+        </attvalues>
+      </node>
+      <node id="yt:UC0nvfUHh42VwMeaqEy6EPFg" label="Mapas e Motivos | Notícias">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="258" />
+        </attvalues>
+      </node>
+      <node id="yt:UCNye-wNBqNL5ZzHSJj3l8Bg" label="Al Jazeera English">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="10704" />
+        </attvalues>
+      </node>
+      <node id="yt:UC16niRr50-MSBwiO3YDb3RA" label="BBC News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="145539" />
+        </attvalues>
+      </node>
+      <node id="yt:UCXBD5iG5cr4ZYZ99K-fmDHg" label="NDTV World">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1936" />
+        </attvalues>
+      </node>
+      <node id="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ" label="Al Arabiya English">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1824" />
+        </attvalues>
+      </node>
+      <node id="P0007" label="perfil pequeno P0007">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1280" />
+        </attvalues>
+      </node>
+      <node id="P0008" label="perfil pequeno P0008">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1311" />
+        </attvalues>
+      </node>
+      <node id="P0009" label="perfil pequeno P0009">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="1580" />
+        </attvalues>
+      </node>
+      <node id="P0010" label="perfil pequeno P0010">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="509" />
+        </attvalues>
+      </node>
+      <node id="yt:UCfMy1UCSxAoMq3jWacKcohg" label="Geopol Maps">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="6564" />
+        </attvalues>
+      </node>
+      <node id="yt:UCSrZ3UV4jOidv8ppoVuvW9Q" label="euronews">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="9018" />
+        </attvalues>
+      </node>
+      <node id="yt:UC_gUM8rL-Lrg6O3adPW9K1g" label="WION">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="3921" />
+        </attvalues>
+      </node>
+      <node id="yt:UCK3U5q7b8U8yffUlblyrpRQ" label="Correio Braziliense">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="552" />
+        </attvalues>
+      </node>
+      <node id="P0011" label="perfil pequeno P0011">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="549" />
+        </attvalues>
+      </node>
+      <node id="yt:UCMmpLL2ucRHAXbNHiCPyIyg" label="ARY News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="10156" />
+        </attvalues>
+      </node>
+      <node id="yt:UC9T0ZAarQHL4cJGFzORVsFg" label="Itatiaia">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="45174" />
+        </attvalues>
+      </node>
+      <node id="yt:UC5T7D-Dh1eDGtsAFCuwv_Sw" label="7NEWS Australia">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="21834" />
+        </attvalues>
+      </node>
+      <node id="yt:UCoja0MNI4SIvXqJR3szbSfw" label="BM&amp;C ">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="325" />
+        </attvalues>
+      </node>
+      <node id="yt:UCQfwfsi5VrQ8yKZ-UWmAEFg" label="FRANCE 24 English">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="2703" />
+        </attvalues>
+      </node>
+      <node id="yt:UCYI_ychRnL7sJrG6PUSBpQA" label="CBN News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="275206" />
+        </attvalues>
+      </node>
+      <node id="yt:UCT350j4u6alUKyF9eu2bGug" label="ABC10">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="4681" />
+        </attvalues>
+      </node>
+      <node id="yt:UCBi2mrWuNuyYy4gbM6fU18Q" label="ABC News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="21603" />
+        </attvalues>
+      </node>
+      <node id="yt:UCuFFtHWoLl5fauMMD5Ww2jA" label="CBC News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="6810" />
+        </attvalues>
+      </node>
+      <node id="yt:UC52X5wxOL_s5yw0dQk7NtgA" label="Associated Press">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="11544" />
+        </attvalues>
+      </node>
+      <node id="yt:UCef1-8eOpJgud7szVPlZQAQ" label="CNN-News18">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="2675" />
+        </attvalues>
+      </node>
+      <node id="yt:UCi7Zk9baY1tvdlgxIML8MXg" label="CTV News">
+        <attvalues>
+          <attvalue for="0" value="canal do YouTube" />
+          <attvalue for="1" value="13561" />
+        </attvalues>
+      </node>
+      <node id="imprensa:G1" label="G1">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="notícia: Hamas desarmamento" label="notícia: Hamas desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:BBC" label="BBC">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Folha de S.Paulo" label="Folha de S.Paulo">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Agência Brasil" label="Agência Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="imprensa:CNN Brasil" label="CNN Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="imprensa:DW.com" label="DW.com">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Poder360" label="Poder360">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Estadão" label="Estadão">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="notícia: Hamas aceita desarmamento" label="notícia: Hamas aceita desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Exame" label="Exame">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Metrópoles" label="Metrópoles">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Vermelho" label="Vermelho">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:ICL Notícias" label="ICL Notícias">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:UOL Notícias" label="UOL Notícias">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Euronews" label="Euronews">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: acordo Hamas Israel" label="notícia: acordo Hamas Israel">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:VEJA" label="VEJA">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Brasil de Fato" label="Brasil de Fato">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="imprensa:CartaCapital" label="CartaCapital">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:O GLOBO" label="O GLOBO">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="notícia: Gaza" label="notícia: Gaza">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Times Brasil" label="Times Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:ND Mais" label="ND Mais">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: Palestina" label="notícia: Palestina">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Outras Palavras" label="Outras Palavras">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Sinteal" label="Sinteal">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: cessar-fogo Gaza" label="notícia: cessar-fogo Gaza">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: Hamas desarmamento" id="0" weight="29565" />
+      <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: Hamas aceita desarmamento" id="1" weight="29565" />
+      <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: acordo Hamas Israel" id="2" weight="29565" />
+      <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: desarmamento do Hamas" id="3" weight="29565" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCoa-D_VfMkFrCYodrOC9-mA" id="4" weight="49013" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCvdwhh_fDyWccR42-rReZLw" id="5" weight="20906" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ" id="6" weight="3161" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCUmEPYxmnyQDeRUcFkslmQw" id="7" weight="4837" />
+      <edge source="busca: Hamas desarmamento" target="P0001" id="8" weight="6659" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCxm0tptjIc76-i26EKQ9NpA" id="9" weight="10360" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg" id="10" weight="498" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCbiGwU0-W1XCDUrt3BTVrag" id="11" weight="414" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCXdXYG8dUmEv6jhEji_lSHg" id="12" weight="7035" />
+      <edge source="busca: Hamas desarmamento" target="P0002" id="13" weight="262" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCOsYwlfhlRTPCQARdkNtjZg" id="14" weight="1285" />
+      <edge source="busca: Hamas desarmamento" target="yt:UC376n347Ob5Lwzq2WGzF1AA" id="15" weight="37748" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg" id="16" weight="37201" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCp6RRaz93Pt2xYZoEye_rLA" id="17" weight="937" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCaGmdJSSiR7fkh2A-c6emsA" id="18" weight="4226" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw" id="19" weight="847" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw" id="20" weight="4704" />
+      <edge source="busca: Hamas desarmamento" target="P0003" id="21" weight="997" />
+      <edge source="busca: Hamas desarmamento" target="yt:UC9_P8UgE6lExmkrzH4g2L8A" id="22" weight="88878" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCj-RTZE-V3Q6jleatRR9k2A" id="23" weight="1818" />
+      <edge source="busca: Hamas desarmamento" target="P0004" id="24" weight="1" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCEsbaUdrM_87K-2um30hf8Q" id="25" weight="7205" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA" id="26" weight="3173" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g" id="27" weight="649" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCP391YRAjSOdM_bwievgaZA" id="28" weight="25741" />
+      <edge source="busca: Hamas desarmamento" target="P0005" id="29" weight="514" />
+      <edge source="busca: Hamas desarmamento" target="P0006" id="30" weight="1" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCWeXgaH6wwyTRAkA3n6sRxg" id="31" weight="2340" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCVgO39Bk5sMo66-6o6Spn6Q" id="32" weight="2906" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCEs-K_xio8n6PKKbTCZpaSA" id="33" weight="4061" />
+      <edge source="busca: Hamas desarmamento" target="yt:UC1_E8NeF5QHY2dtdLRBCCLA" id="34" weight="4593" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCw77677G3EAODp61b0izs7w" id="35" weight="3660" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCO0akufu9MOzyz3nvGIXAAw" id="36" weight="12199" />
+      <edge source="busca: Hamas desarmamento" target="yt:UC0nvfUHh42VwMeaqEy6EPFg" id="37" weight="129" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCNye-wNBqNL5ZzHSJj3l8Bg" id="38" weight="3605" />
+      <edge source="busca: Hamas desarmamento" target="yt:UC16niRr50-MSBwiO3YDb3RA" id="39" weight="48513" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCXBD5iG5cr4ZYZ99K-fmDHg" id="40" weight="968" />
+      <edge source="busca: Hamas desarmamento" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ" id="41" weight="608" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCoa-D_VfMkFrCYodrOC9-mA" id="42" weight="49013" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCvdwhh_fDyWccR42-rReZLw" id="43" weight="20906" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ" id="44" weight="3161" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCUmEPYxmnyQDeRUcFkslmQw" id="45" weight="4837" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0001" id="46" weight="6659" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCxm0tptjIc76-i26EKQ9NpA" id="47" weight="10360" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg" id="48" weight="498" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCbiGwU0-W1XCDUrt3BTVrag" id="49" weight="414" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCXdXYG8dUmEv6jhEji_lSHg" id="50" weight="7035" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCOsYwlfhlRTPCQARdkNtjZg" id="51" weight="1285" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UC376n347Ob5Lwzq2WGzF1AA" id="52" weight="37748" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg" id="53" weight="37201" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCp6RRaz93Pt2xYZoEye_rLA" id="54" weight="937" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCaGmdJSSiR7fkh2A-c6emsA" id="55" weight="4226" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw" id="56" weight="847" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw" id="57" weight="4704" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UC9_P8UgE6lExmkrzH4g2L8A" id="58" weight="88878" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCj-RTZE-V3Q6jleatRR9k2A" id="59" weight="1818" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0004" id="60" weight="1" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCEsbaUdrM_87K-2um30hf8Q" id="61" weight="7205" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA" id="62" weight="3173" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g" id="63" weight="649" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCP391YRAjSOdM_bwievgaZA" id="64" weight="25741" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0006" id="65" weight="1" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCEs-K_xio8n6PKKbTCZpaSA" id="66" weight="4061" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UC16niRr50-MSBwiO3YDb3RA" id="67" weight="48513" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ" id="68" weight="608" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0007" id="69" weight="640" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0008" id="70" weight="1311" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0009" id="71" weight="790" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0010" id="72" weight="509" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCfMy1UCSxAoMq3jWacKcohg" id="73" weight="6564" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCSrZ3UV4jOidv8ppoVuvW9Q" id="74" weight="2558" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UC_gUM8rL-Lrg6O3adPW9K1g" id="75" weight="3921" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCK3U5q7b8U8yffUlblyrpRQ" id="76" weight="552" />
+      <edge source="busca: Hamas aceita desarmamento" target="P0011" id="77" weight="549" />
+      <edge source="busca: Hamas aceita desarmamento" target="yt:UCMmpLL2ucRHAXbNHiCPyIyg" id="78" weight="10156" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCoa-D_VfMkFrCYodrOC9-mA" id="79" weight="44819" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ" id="80" weight="1690" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCUmEPYxmnyQDeRUcFkslmQw" id="81" weight="4837" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCvdwhh_fDyWccR42-rReZLw" id="82" weight="51156" />
+      <edge source="busca: acordo Hamas Israel" target="P0001" id="83" weight="6659" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCxm0tptjIc76-i26EKQ9NpA" id="84" weight="10360" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCXdXYG8dUmEv6jhEji_lSHg" id="85" weight="7035" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UC376n347Ob5Lwzq2WGzF1AA" id="86" weight="56085" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg" id="87" weight="37201" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCp6RRaz93Pt2xYZoEye_rLA" id="88" weight="937" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw" id="89" weight="4704" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCj-RTZE-V3Q6jleatRR9k2A" id="90" weight="1818" />
+      <edge source="busca: acordo Hamas Israel" target="P0004" id="91" weight="1" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCEsbaUdrM_87K-2um30hf8Q" id="92" weight="7205" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA" id="93" weight="3173" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UC16niRr50-MSBwiO3YDb3RA" id="94" weight="48513" />
+      <edge source="busca: acordo Hamas Israel" target="P0007" id="95" weight="640" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCSrZ3UV4jOidv8ppoVuvW9Q" id="96" weight="6460" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UC9T0ZAarQHL4cJGFzORVsFg" id="97" weight="22587" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCP391YRAjSOdM_bwievgaZA" id="98" weight="8998" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCaGmdJSSiR7fkh2A-c6emsA" id="99" weight="8492" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UC5T7D-Dh1eDGtsAFCuwv_Sw" id="100" weight="21834" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCbiGwU0-W1XCDUrt3BTVrag" id="101" weight="1266" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCoja0MNI4SIvXqJR3szbSfw" id="102" weight="325" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCQfwfsi5VrQ8yKZ-UWmAEFg" id="103" weight="2703" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCYI_ychRnL7sJrG6PUSBpQA" id="104" weight="275206" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCT350j4u6alUKyF9eu2bGug" id="105" weight="4681" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCBi2mrWuNuyYy4gbM6fU18Q" id="106" weight="21603" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCuFFtHWoLl5fauMMD5Ww2jA" id="107" weight="6810" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCO0akufu9MOzyz3nvGIXAAw" id="108" weight="2043" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UCNye-wNBqNL5ZzHSJj3l8Bg" id="109" weight="7099" />
+      <edge source="busca: acordo Hamas Israel" target="yt:UC52X5wxOL_s5yw0dQk7NtgA" id="110" weight="11544" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCoa-D_VfMkFrCYodrOC9-mA" id="111" weight="49013" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCvdwhh_fDyWccR42-rReZLw" id="112" weight="20906" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ" id="113" weight="3161" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCUmEPYxmnyQDeRUcFkslmQw" id="114" weight="4837" />
+      <edge source="busca: desarmamento do Hamas" target="P0001" id="115" weight="6659" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCxm0tptjIc76-i26EKQ9NpA" id="116" weight="10360" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg" id="117" weight="498" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCbiGwU0-W1XCDUrt3BTVrag" id="118" weight="414" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCXdXYG8dUmEv6jhEji_lSHg" id="119" weight="7035" />
+      <edge source="busca: desarmamento do Hamas" target="P0002" id="120" weight="262" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCOsYwlfhlRTPCQARdkNtjZg" id="121" weight="1285" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UC376n347Ob5Lwzq2WGzF1AA" id="122" weight="37748" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg" id="123" weight="37201" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCp6RRaz93Pt2xYZoEye_rLA" id="124" weight="937" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCaGmdJSSiR7fkh2A-c6emsA" id="125" weight="4226" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw" id="126" weight="847" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw" id="127" weight="4704" />
+      <edge source="busca: desarmamento do Hamas" target="P0003" id="128" weight="997" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UC9_P8UgE6lExmkrzH4g2L8A" id="129" weight="88878" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCj-RTZE-V3Q6jleatRR9k2A" id="130" weight="1818" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCEsbaUdrM_87K-2um30hf8Q" id="131" weight="7205" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA" id="132" weight="3173" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g" id="133" weight="649" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCP391YRAjSOdM_bwievgaZA" id="134" weight="25741" />
+      <edge source="busca: desarmamento do Hamas" target="P0005" id="135" weight="514" />
+      <edge source="busca: desarmamento do Hamas" target="P0006" id="136" weight="1" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCWeXgaH6wwyTRAkA3n6sRxg" id="137" weight="2340" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCEs-K_xio8n6PKKbTCZpaSA" id="138" weight="4061" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UC1_E8NeF5QHY2dtdLRBCCLA" id="139" weight="4593" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCw77677G3EAODp61b0izs7w" id="140" weight="3660" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCO0akufu9MOzyz3nvGIXAAw" id="141" weight="12199" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UC0nvfUHh42VwMeaqEy6EPFg" id="142" weight="129" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCXBD5iG5cr4ZYZ99K-fmDHg" id="143" weight="968" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ" id="144" weight="608" />
+      <edge source="busca: desarmamento do Hamas" target="P0009" id="145" weight="790" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UC9T0ZAarQHL4cJGFzORVsFg" id="146" weight="22587" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCef1-8eOpJgud7szVPlZQAQ" id="147" weight="2675" />
+      <edge source="busca: desarmamento do Hamas" target="yt:UCi7Zk9baY1tvdlgxIML8MXg" id="148" weight="13561" />
+      <edge source="imprensa:G1" target="notícia: Hamas desarmamento" id="149" weight="2" />
+      <edge source="imprensa:G1" target="notícia: Hamas aceita desarmamento" id="150" weight="1" />
+      <edge source="imprensa:G1" target="notícia: acordo Hamas Israel" id="151" weight="1" />
+      <edge source="imprensa:G1" target="notícia: Gaza" id="152" weight="1" />
+      <edge source="imprensa:G1" target="notícia: cessar-fogo Gaza" id="153" weight="2" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:BBC" id="154" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Folha de S.Paulo" id="155" weight="2" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Agência Brasil" id="156" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:CNN Brasil" id="157" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:DW.com" id="158" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Poder360" id="159" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Estadão" id="160" weight="1" />
+      <edge source="imprensa:BBC" target="notícia: acordo Hamas Israel" id="161" weight="1" />
+      <edge source="imprensa:Folha de S.Paulo" target="notícia: acordo Hamas Israel" id="162" weight="1" />
+      <edge source="imprensa:Folha de S.Paulo" target="notícia: cessar-fogo Gaza" id="163" weight="2" />
+      <edge source="imprensa:Agência Brasil" target="notícia: Hamas aceita desarmamento" id="164" weight="1" />
+      <edge source="imprensa:Agência Brasil" target="notícia: acordo Hamas Israel" id="165" weight="2" />
+      <edge source="imprensa:CNN Brasil" target="notícia: Hamas aceita desarmamento" id="166" weight="1" />
+      <edge source="imprensa:CNN Brasil" target="notícia: acordo Hamas Israel" id="167" weight="1" />
+      <edge source="imprensa:CNN Brasil" target="notícia: cessar-fogo Gaza" id="168" weight="1" />
+      <edge source="imprensa:Estadão" target="notícia: Hamas aceita desarmamento" id="169" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Exame" id="170" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Metrópoles" id="171" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Vermelho" id="172" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:ICL Notícias" id="173" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:UOL Notícias" id="174" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Euronews" id="175" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:VEJA" id="176" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:Brasil de Fato" id="177" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:CartaCapital" id="178" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:O GLOBO" id="179" weight="1" />
+      <edge source="imprensa:VEJA" target="notícia: cessar-fogo Gaza" id="180" weight="1" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: Gaza" id="181" weight="5" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: Palestina" id="182" weight="3" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: cessar-fogo Gaza" id="183" weight="4" />
+      <edge source="imprensa:O GLOBO" target="notícia: Gaza" id="184" weight="2" />
+      <edge source="notícia: Gaza" target="imprensa:Times Brasil" id="185" weight="1" />
+      <edge source="notícia: Gaza" target="imprensa:ND Mais" id="186" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Outras Palavras" id="187" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Sinteal" id="188" weight="1" />
+    </edges>
+  </graph>
+</gexf>

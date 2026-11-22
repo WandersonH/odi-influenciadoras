@@ -1,0 +1,2142 @@
+{
+ "gerado_em": "2026-11-22T22:17:42Z",
+ "run_id": "45076870902",
+ "metodo": "Pedido do responsável (22/11/2026, 19h14): \"uma rede de circulação do Hamas com canais [que] publicaram notícias no dia\".\n- YouTube (API oficial, sem custo): search.list por termo do caso, publishedAfter 2026-07-30 e publishedBefore 2026-08-03,\n  ordem de relevância, até 50 vídeos por termo; visualizações (videos.list) e inscritos do canal (channels.list).\n- Imprensa: os 10 primeiros do Google Notícias no recorte \"dia do anúncio\" (data/imprensa/resultados.json).\n- Rede: redes_caso.circulacao() do ODI Atlas, sem mudança: quem publicou (canal do YouTube ou veículo) × termo que o\n  trouxe; peso = visualizações (ou 1 por notícia). Canal com menos de 10 mil inscritos aparece como código (P0001…).\n- Estatísticas: estatisticas_redes.py do ODI Atlas (Gephi Statistics, Louvain semente 42, E-I, centralidades).\n- Cruzamento: se algum canal da rede é de uma das influenciadoras (canal próprio) — resposta direta à pergunta do estudo.\nUniverso: a busca do YouTube não informa o total (pageInfo.totalResults é estimativa: não é universo, ⛔).\nSaídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatísticas.",
+ "recorte": {
+  "de": "2026-07-30T00:00:00Z",
+  "ate_exclusivo": "2026-08-03T00:00:00Z"
+ },
+ "termos": [
+  "Hamas desarmamento",
+  "Hamas aceita desarmamento",
+  "acordo Hamas Israel",
+  "desarmamento do Hamas"
+ ],
+ "youtube": {
+  "videos": 87,
+  "canais": 60,
+  "estimativa_api_por_termo": {
+   "Hamas desarmamento": 66550,
+   "Hamas aceita desarmamento": 35053,
+   "acordo Hamas Israel": 1000000,
+   "desarmamento do Hamas": 35053
+  },
+  "universo": "⛔ a busca do YouTube não informa o total (a estimativa da API não é universo)",
+  "cota_unidades": 404
+ },
+ "imprensa": {
+  "noticias": 55,
+  "veiculos": 22
+ },
+ "influenciadoras_na_rede": [],
+ "top_canais": [
+  {
+   "canal": "CBN News",
+   "inscritos": 2900000,
+   "visualizacoes": 246333,
+   "titulo": "Trump Pressures Israel Not to Derail Hamas Disarmament Deal",
+   "publicado_em": "2026-07-31T12:52:12Z",
+   "url": "https://www.youtube.com/watch?v=TwEPPFbFz3g"
+  },
+  {
+   "canal": "Rede Gospel de Televisão",
+   "inscritos": 237000,
+   "visualizacoes": 88878,
+   "titulo": "HAMAS ACEITOU DESARMAMENTO TOTAL, ANUNCIA DONALD TRUMP",
+   "publicado_em": "2026-07-31T19:50:10Z",
+   "url": "https://www.youtube.com/watch?v=5do3ABvJ4Wg"
+  },
+  {
+   "canal": "BBC News",
+   "inscritos": 20300000,
+   "visualizacoes": 48513,
+   "titulo": "Hamas agrees to Donald Trump&#39;s plan to disarm in Gaza - what now? #Israel #Gaza #BBCNews",
+   "publicado_em": "2026-07-31T19:26:05Z",
+   "url": "https://www.youtube.com/watch?v=SE80LBOWs_Y"
+  },
+  {
+   "canal": "Professor Ricardo Marcílio",
+   "inscritos": 1410000,
+   "visualizacoes": 37201,
+   "titulo": "ACORDO HISTÓRICO EM GAZA! Desarmamento do Hamas? Paz definitiva na Palestina?!",
+   "publicado_em": "2026-07-31T20:30:18Z",
+   "url": "https://www.youtube.com/watch?v=VaRrOq8ELlw"
+  },
+  {
+   "canal": "Band Jornalismo",
+   "inscritos": 7490000,
+   "visualizacoes": 33778,
+   "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
+   "publicado_em": "2026-08-01T04:39:20Z",
+   "url": "https://www.youtube.com/watch?v=yMDZkev12es"
+  },
+  {
+   "canal": "CBN News",
+   "inscritos": 2900000,
+   "visualizacoes": 28873,
+   "titulo": "Trump Pressures Israel Not to Derail Hamas Disarmament Deal",
+   "publicado_em": "2026-07-31T16:26:41Z",
+   "url": "https://www.youtube.com/watch?v=KqMlFRGi6tQ"
+  },
+  {
+   "canal": "SBT News",
+   "inscritos": 8330000,
+   "visualizacoes": 28771,
+   "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
+   "publicado_em": "2026-07-31T23:45:56Z",
+   "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI"
+  },
+  {
+   "canal": "Jovem Pan News",
+   "inscritos": 9250000,
+   "visualizacoes": 25741,
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas em Gaza",
+   "publicado_em": "2026-07-31T11:12:03Z",
+   "url": "https://www.youtube.com/watch?v=nH9fFsuwHIg"
+  },
+  {
+   "canal": "AFP Português",
+   "inscritos": 1480000,
+   "visualizacoes": 25088,
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza | AFP",
+   "publicado_em": "2026-07-31T12:57:18Z",
+   "url": "https://www.youtube.com/watch?v=kcYObcVZt98"
+  },
+  {
+   "canal": "Itatiaia",
+   "inscritos": 3730000,
+   "visualizacoes": 22587,
+   "titulo": "O QUE SE SABE SOBRE O ACORDO ENTRE HAMAS E ISRAEL ANUNCIADO POR TRUMP?",
+   "publicado_em": "2026-07-31T16:15:30Z",
+   "url": "https://www.youtube.com/watch?v=sHLz-zNALoo"
+  },
+  {
+   "canal": "ABC News",
+   "inscritos": 20000000,
+   "visualizacoes": 21603,
+   "titulo": "President Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "publicado_em": "2026-07-31T12:23:06Z",
+   "url": "https://www.youtube.com/watch?v=mV2ARK5ruP0"
+  },
+  {
+   "canal": "SBT News",
+   "inscritos": 8330000,
+   "visualizacoes": 16044,
+   "titulo": "Trump anuncia acordo para desarmar Hamas em Gaza | #PoderExpresso",
+   "publicado_em": "2026-07-31T22:10:27Z",
+   "url": "https://www.youtube.com/watch?v=CFduyTQ_uZ0"
+  },
+  {
+   "canal": "CNN Brasil",
+   "inscritos": 7280000,
+   "visualizacoes": 15637,
+   "titulo": "Trump diz que Israel ficou “muito feliz” com plano para desarmar Hamas | CNN 360°",
+   "publicado_em": "2026-07-31T20:34:15Z",
+   "url": "https://www.youtube.com/watch?v=FfJM5HEkSDw"
+  },
+  {
+   "canal": "7NEWS Australia",
+   "inscritos": 2280000,
+   "visualizacoes": 14558,
+   "titulo": "Hamas agrees to disarm after peace deal reached",
+   "publicado_em": "2026-07-31T02:43:46Z",
+   "url": "https://www.youtube.com/watch?v=IMYhYFwZ35s"
+  },
+  {
+   "canal": "CNN Brasil",
+   "inscritos": 7280000,
+   "visualizacoes": 13868,
+   "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
+   "publicado_em": "2026-07-31T11:56:47Z",
+   "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs"
+  }
+ ],
+ "desenho": {
+  "nos": [
+   {
+    "id": "yt:UCamgdcs45ToPrIV7wmT7iYg",
+    "rotulo": "AFP Português",
+    "tipo": "canal do YouTube",
+    "n": 118260,
+    "grupo": 0,
+    "x": 0.9912,
+    "y": 1.0044
+   },
+   {
+    "id": "busca: Hamas desarmamento",
+    "rotulo": "busca: Hamas desarmamento",
+    "tipo": "termo",
+    "n": 432216,
+    "grupo": 0,
+    "x": 0.9943,
+    "y": 1.0001
+   },
+   {
+    "id": "busca: Hamas aceita desarmamento",
+    "rotulo": "busca: Hamas aceita desarmamento",
+    "tipo": "termo",
+    "n": 427593,
+    "grupo": 0,
+    "x": 0.9999,
+    "y": 1.0184
+   },
+   {
+    "id": "busca: acordo Hamas Israel",
+    "rotulo": "busca: acordo Hamas Israel",
+    "tipo": "termo",
+    "n": 718049,
+    "grupo": 2,
+    "x": 0.9731,
+    "y": 0.9853
+   },
+   {
+    "id": "busca: desarmamento do Hamas",
+    "rotulo": "busca: desarmamento do Hamas",
+    "tipo": "termo",
+    "n": 416804,
+    "grupo": 0,
+    "x": 0.9942,
+    "y": 0.9974
+   },
+   {
+    "id": "yt:UCoa-D_VfMkFrCYodrOC9-mA",
+    "rotulo": "Band Jornalismo",
+    "tipo": "canal do YouTube",
+    "n": 191858,
+    "grupo": 0,
+    "x": 0.9895,
+    "y": 1.0017
+   },
+   {
+    "id": "yt:UCvdwhh_fDyWccR42-rReZLw",
+    "rotulo": "CNN Brasil",
+    "tipo": "canal do YouTube",
+    "n": 113874,
+    "grupo": 2,
+    "x": 0.9827,
+    "y": 0.9967
+   },
+   {
+    "id": "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
+    "rotulo": "Rede TVT",
+    "tipo": "canal do YouTube",
+    "n": 11173,
+    "grupo": 0,
+    "x": 1.034,
+    "y": 1.0276
+   },
+   {
+    "id": "yt:UCUmEPYxmnyQDeRUcFkslmQw",
+    "rotulo": "Euronews em Português",
+    "tipo": "canal do YouTube",
+    "n": 19348,
+    "grupo": 0,
+    "x": 1.0077,
+    "y": 0.9696
+   },
+   {
+    "id": "P0001",
+    "rotulo": "perfil pequeno P0001",
+    "tipo": "canal do YouTube",
+    "n": 26636,
+    "grupo": 0,
+    "x": 0.9923,
+    "y": 1.0253
+   },
+   {
+    "id": "yt:UCxm0tptjIc76-i26EKQ9NpA",
+    "rotulo": "InfoMoney",
+    "tipo": "canal do YouTube",
+    "n": 41440,
+    "grupo": 0,
+    "x": 0.9941,
+    "y": 1.0066
+   },
+   {
+    "id": "yt:UCOnuheHbS2DgZiAZFL0-Sbg",
+    "rotulo": "Brasil de Fato",
+    "tipo": "canal do YouTube",
+    "n": 1494,
+    "grupo": 0,
+    "x": 1.0956,
+    "y": 1.0979
+   },
+   {
+    "id": "yt:UCbiGwU0-W1XCDUrt3BTVrag",
+    "rotulo": "Rádio CBN",
+    "tipo": "canal do YouTube",
+    "n": 2508,
+    "grupo": 2,
+    "x": 1.0214,
+    "y": 0.8984
+   },
+   {
+    "id": "yt:UCXdXYG8dUmEv6jhEji_lSHg",
+    "rotulo": "Jornalismo TV Cultura",
+    "tipo": "canal do YouTube",
+    "n": 28140,
+    "grupo": 0,
+    "x": 1.003,
+    "y": 0.9919
+   },
+   {
+    "id": "P0002",
+    "rotulo": "perfil pequeno P0002",
+    "tipo": "canal do YouTube",
+    "n": 524,
+    "grupo": 0,
+    "x": 0.8413,
+    "y": 1.125
+   },
+   {
+    "id": "yt:UCOsYwlfhlRTPCQARdkNtjZg",
+    "rotulo": "Eric Deters Show",
+    "tipo": "canal do YouTube",
+    "n": 3855,
+    "grupo": 0,
+    "x": 1.0858,
+    "y": 1.0036
+   },
+   {
+    "id": "yt:UC376n347Ob5Lwzq2WGzF1AA",
+    "rotulo": "SBT News",
+    "tipo": "canal do YouTube",
+    "n": 169329,
+    "grupo": 0,
+    "x": 0.9839,
+    "y": 0.9965
+   },
+   {
+    "id": "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
+    "rotulo": "Professor Ricardo Marcílio",
+    "tipo": "canal do YouTube",
+    "n": 148804,
+    "grupo": 0,
+    "x": 0.9861,
+    "y": 0.9985
+   },
+   {
+    "id": "yt:UCp6RRaz93Pt2xYZoEye_rLA",
+    "rotulo": "globonews",
+    "tipo": "canal do YouTube",
+    "n": 3748,
+    "grupo": 0,
+    "x": 1.0427,
+    "y": 1.0634
+   },
+   {
+    "id": "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    "rotulo": "g1",
+    "tipo": "canal do YouTube",
+    "n": 21170,
+    "grupo": 2,
+    "x": 0.9663,
+    "y": 1.0304
+   },
+   {
+    "id": "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw",
+    "rotulo": "TV A Crítica",
+    "tipo": "canal do YouTube",
+    "n": 2541,
+    "grupo": 0,
+    "x": 1.0822,
+    "y": 0.9573
+   },
+   {
+    "id": "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
+    "rotulo": "Jornal da Gazeta",
+    "tipo": "canal do YouTube",
+    "n": 18816,
+    "grupo": 0,
+    "x": 1.0253,
+    "y": 0.9768
+   },
+   {
+    "id": "P0003",
+    "rotulo": "perfil pequeno P0003",
+    "tipo": "canal do YouTube",
+    "n": 1994,
+    "grupo": 0,
+    "x": 1.1001,
+    "y": 0.942
+   },
+   {
+    "id": "yt:UC9_P8UgE6lExmkrzH4g2L8A",
+    "rotulo": "Rede Gospel de Televisão",
+    "tipo": "canal do YouTube",
+    "n": 266634,
+    "grupo": 0,
+    "x": 0.9967,
+    "y": 1.0065
+   },
+   {
+    "id": "yt:UCj-RTZE-V3Q6jleatRR9k2A",
+    "rotulo": "O POVO",
+    "tipo": "canal do YouTube",
+    "n": 7272,
+    "grupo": 0,
+    "x": 1.0098,
+    "y": 1.068
+   },
+   {
+    "id": "P0004",
+    "rotulo": "perfil pequeno P0004",
+    "tipo": "canal do YouTube",
+    "n": 3,
+    "grupo": 2,
+    "x": 1.3943,
+    "y": 0.0
+   },
+   {
+    "id": "yt:UCEsbaUdrM_87K-2um30hf8Q",
+    "rotulo": "Jovem Pan  - 3 em 1",
+    "tipo": "canal do YouTube",
+    "n": 28820,
+    "grupo": 0,
+    "x": 1.0198,
+    "y": 1.015
+   },
+   {
+    "id": "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
+    "rotulo": "O TEMPO",
+    "tipo": "canal do YouTube",
+    "n": 12692,
+    "grupo": 0,
+    "x": 1.0416,
+    "y": 0.983
+   },
+   {
+    "id": "yt:UCsEC-wMKyvx5EIxKHsG0q3g",
+    "rotulo": "NOW Canal",
+    "tipo": "canal do YouTube",
+    "n": 1947,
+    "grupo": 0,
+    "x": 1.1212,
+    "y": 1.0191
+   },
+   {
+    "id": "yt:UCP391YRAjSOdM_bwievgaZA",
+    "rotulo": "Jovem Pan News",
+    "tipo": "canal do YouTube",
+    "n": 86221,
+    "grupo": 0,
+    "x": 0.999,
+    "y": 1.0109
+   },
+   {
+    "id": "P0005",
+    "rotulo": "perfil pequeno P0005",
+    "tipo": "canal do YouTube",
+    "n": 1028,
+    "grupo": 0,
+    "x": 1.1269,
+    "y": 1.0701
+   },
+   {
+    "id": "yt:UCWeXgaH6wwyTRAkA3n6sRxg",
+    "rotulo": "Terra Brasil",
+    "tipo": "canal do YouTube",
+    "n": 4680,
+    "grupo": 0,
+    "x": 1.043,
+    "y": 0.9489
+   },
+   {
+    "id": "yt:UCVgO39Bk5sMo66-6o6Spn6Q",
+    "rotulo": "ABC News (Australia)",
+    "tipo": "canal do YouTube",
+    "n": 2906,
+    "grupo": 0,
+    "x": 1.0397,
+    "y": 1.0938
+   },
+   {
+    "id": "yt:UCEs-K_xio8n6PKKbTCZpaSA",
+    "rotulo": "ABC30 Action News",
+    "tipo": "canal do YouTube",
+    "n": 12183,
+    "grupo": 0,
+    "x": 1.0066,
+    "y": 1.0639
+   },
+   {
+    "id": "yt:UC1_E8NeF5QHY2dtdLRBCCLA",
+    "rotulo": "africanews",
+    "tipo": "canal do YouTube",
+    "n": 9186,
+    "grupo": 0,
+    "x": 0.9836,
+    "y": 1.0531
+   },
+   {
+    "id": "yt:UCw77677G3EAODp61b0izs7w",
+    "rotulo": "6abc Philadelphia",
+    "tipo": "canal do YouTube",
+    "n": 7320,
+    "grupo": 0,
+    "x": 1.0528,
+    "y": 1.0332
+   },
+   {
+    "id": "yt:UCO0akufu9MOzyz3nvGIXAAw",
+    "rotulo": "News24",
+    "tipo": "canal do YouTube",
+    "n": 26441,
+    "grupo": 0,
+    "x": 1.0192,
+    "y": 0.9763
+   },
+   {
+    "id": "yt:UC0nvfUHh42VwMeaqEy6EPFg",
+    "rotulo": "Mapas e Motivos | Notícias",
+    "tipo": "canal do YouTube",
+    "n": 258,
+    "grupo": 0,
+    "x": 0.8335,
+    "y": 1.1939
+   },
+   {
+    "id": "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
+    "rotulo": "Al Jazeera English",
+    "tipo": "canal do YouTube",
+    "n": 10704,
+    "grupo": 2,
+    "x": 0.9352,
+    "y": 1.0134
+   },
+   {
+    "id": "yt:UC16niRr50-MSBwiO3YDb3RA",
+    "rotulo": "BBC News",
+    "tipo": "canal do YouTube",
+    "n": 145539,
+    "grupo": 0,
+    "x": 0.9883,
+    "y": 1.0035
+   },
+   {
+    "id": "yt:UCXBD5iG5cr4ZYZ99K-fmDHg",
+    "rotulo": "NDTV World",
+    "tipo": "canal do YouTube",
+    "n": 1936,
+    "grupo": 0,
+    "x": 0.9201,
+    "y": 1.0946
+   },
+   {
+    "id": "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
+    "rotulo": "Al Arabiya English",
+    "tipo": "canal do YouTube",
+    "n": 1824,
+    "grupo": 0,
+    "x": 1.1114,
+    "y": 1.0493
+   },
+   {
+    "id": "P0007",
+    "rotulo": "perfil pequeno P0007",
+    "tipo": "canal do YouTube",
+    "n": 1280,
+    "grupo": 2,
+    "x": 0.8579,
+    "y": 1.0368
+   },
+   {
+    "id": "P0008",
+    "rotulo": "perfil pequeno P0008",
+    "tipo": "canal do YouTube",
+    "n": 1311,
+    "grupo": 0,
+    "x": 0.886,
+    "y": 1.0843
+   },
+   {
+    "id": "P0009",
+    "rotulo": "perfil pequeno P0009",
+    "tipo": "canal do YouTube",
+    "n": 1580,
+    "grupo": 0,
+    "x": 0.883,
+    "y": 1.0136
+   },
+   {
+    "id": "P0010",
+    "rotulo": "perfil pequeno P0010",
+    "tipo": "canal do YouTube",
+    "n": 509,
+    "grupo": 0,
+    "x": 1.1907,
+    "y": 0.9684
+   },
+   {
+    "id": "yt:UCfMy1UCSxAoMq3jWacKcohg",
+    "rotulo": "Geopol Maps",
+    "tipo": "canal do YouTube",
+    "n": 6564,
+    "grupo": 0,
+    "x": 0.9856,
+    "y": 1.0774
+   },
+   {
+    "id": "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
+    "rotulo": "euronews",
+    "tipo": "canal do YouTube",
+    "n": 9018,
+    "grupo": 2,
+    "x": 0.941,
+    "y": 1.0181
+   },
+   {
+    "id": "yt:UC_gUM8rL-Lrg6O3adPW9K1g",
+    "rotulo": "WION",
+    "tipo": "canal do YouTube",
+    "n": 3921,
+    "grupo": 0,
+    "x": 1.0778,
+    "y": 0.9956
+   },
+   {
+    "id": "yt:UCK3U5q7b8U8yffUlblyrpRQ",
+    "rotulo": "Correio Braziliense",
+    "tipo": "canal do YouTube",
+    "n": 552,
+    "grupo": 0,
+    "x": 0.9808,
+    "y": 1.1984
+   },
+   {
+    "id": "P0011",
+    "rotulo": "perfil pequeno P0011",
+    "tipo": "canal do YouTube",
+    "n": 549,
+    "grupo": 0,
+    "x": 1.0567,
+    "y": 1.1973
+   },
+   {
+    "id": "yt:UCMmpLL2ucRHAXbNHiCPyIyg",
+    "rotulo": "ARY News",
+    "tipo": "canal do YouTube",
+    "n": 10156,
+    "grupo": 0,
+    "x": 0.9637,
+    "y": 1.0596
+   },
+   {
+    "id": "yt:UC9T0ZAarQHL4cJGFzORVsFg",
+    "rotulo": "Itatiaia",
+    "tipo": "canal do YouTube",
+    "n": 45174,
+    "grupo": 2,
+    "x": 1.011,
+    "y": 0.9803
+   },
+   {
+    "id": "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
+    "rotulo": "7NEWS Australia",
+    "tipo": "canal do YouTube",
+    "n": 21834,
+    "grupo": 2,
+    "x": 0.9456,
+    "y": 0.9518
+   },
+   {
+    "id": "yt:UCoja0MNI4SIvXqJR3szbSfw",
+    "rotulo": "BM&C ",
+    "tipo": "canal do YouTube",
+    "n": 325,
+    "grupo": 2,
+    "x": 0.8385,
+    "y": 0.8201
+   },
+   {
+    "id": "yt:UCQfwfsi5VrQ8yKZ-UWmAEFg",
+    "rotulo": "FRANCE 24 English",
+    "tipo": "canal do YouTube",
+    "n": 2703,
+    "grupo": 2,
+    "x": 0.891,
+    "y": 0.9397
+   },
+   {
+    "id": "yt:UCYI_ychRnL7sJrG6PUSBpQA",
+    "rotulo": "CBN News",
+    "tipo": "canal do YouTube",
+    "n": 275206,
+    "grupo": 2,
+    "x": 0.9726,
+    "y": 0.9905
+   },
+   {
+    "id": "yt:UCT350j4u6alUKyF9eu2bGug",
+    "rotulo": "ABC10",
+    "tipo": "canal do YouTube",
+    "n": 4681,
+    "grupo": 2,
+    "x": 0.944,
+    "y": 0.9151
+   },
+   {
+    "id": "yt:UCBi2mrWuNuyYy4gbM6fU18Q",
+    "rotulo": "ABC News",
+    "tipo": "canal do YouTube",
+    "n": 21603,
+    "grupo": 2,
+    "x": 0.9437,
+    "y": 0.9762
+   },
+   {
+    "id": "yt:UCuFFtHWoLl5fauMMD5Ww2jA",
+    "rotulo": "CBC News",
+    "tipo": "canal do YouTube",
+    "n": 6810,
+    "grupo": 2,
+    "x": 0.9253,
+    "y": 0.9717
+   },
+   {
+    "id": "yt:UC52X5wxOL_s5yw0dQk7NtgA",
+    "rotulo": "Associated Press",
+    "tipo": "canal do YouTube",
+    "n": 11544,
+    "grupo": 2,
+    "x": 0.9408,
+    "y": 0.9485
+   },
+   {
+    "id": "yt:UCef1-8eOpJgud7szVPlZQAQ",
+    "rotulo": "CNN-News18",
+    "tipo": "canal do YouTube",
+    "n": 2675,
+    "grupo": 0,
+    "x": 0.9473,
+    "y": 1.0896
+   },
+   {
+    "id": "yt:UCi7Zk9baY1tvdlgxIML8MXg",
+    "rotulo": "CTV News",
+    "tipo": "canal do YouTube",
+    "n": 13561,
+    "grupo": 0,
+    "x": 0.9877,
+    "y": 0.9555
+   },
+   {
+    "id": "imprensa:G1",
+    "rotulo": "G1",
+    "tipo": "veículo de imprensa",
+    "n": 7,
+    "grupo": 1,
+    "x": 2.7745,
+    "y": 0.6781
+   },
+   {
+    "id": "notícia: Hamas desarmamento",
+    "rotulo": "notícia: Hamas desarmamento",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 1,
+    "x": 2.7511,
+    "y": 0.474
+   },
+   {
+    "id": "imprensa:BBC",
+    "rotulo": "BBC",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 1,
+    "x": 2.7875,
+    "y": 0.6179
+   },
+   {
+    "id": "imprensa:Folha de S.Paulo",
+    "rotulo": "Folha de S.Paulo",
+    "tipo": "veículo de imprensa",
+    "n": 5,
+    "grupo": 1,
+    "x": 2.6523,
+    "y": 0.5851
+   },
+   {
+    "id": "imprensa:Agência Brasil",
+    "rotulo": "Agência Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 4,
+    "grupo": 1,
+    "x": 2.8341,
+    "y": 0.5453
+   },
+   {
+    "id": "imprensa:CNN Brasil",
+    "rotulo": "CNN Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 4,
+    "grupo": 1,
+    "x": 2.8658,
+    "y": 0.6226
+   },
+   {
+    "id": "imprensa:DW.com",
+    "rotulo": "DW.com",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.6039,
+    "y": 0.28
+   },
+   {
+    "id": "imprensa:Poder360",
+    "rotulo": "Poder360",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.725,
+    "y": 0.2346
+   },
+   {
+    "id": "imprensa:Estadão",
+    "rotulo": "Estadão",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 1,
+    "x": 2.9454,
+    "y": 0.385
+   },
+   {
+    "id": "notícia: Hamas aceita desarmamento",
+    "rotulo": "notícia: Hamas aceita desarmamento",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 1,
+    "x": 3.091,
+    "y": 0.5069
+   },
+   {
+    "id": "imprensa:Exame",
+    "rotulo": "Exame",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.2439,
+    "y": 0.6623
+   },
+   {
+    "id": "imprensa:Metrópoles",
+    "rotulo": "Metrópoles",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.2439,
+    "y": 0.3226
+   },
+   {
+    "id": "imprensa:Vermelho",
+    "rotulo": "Vermelho",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.1475,
+    "y": 0.288
+   },
+   {
+    "id": "imprensa:ICL Notícias",
+    "rotulo": "ICL Notícias",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.3,
+    "y": 0.4002
+   },
+   {
+    "id": "imprensa:UOL Notícias",
+    "rotulo": "UOL Notícias",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.3327,
+    "y": 0.4885
+   },
+   {
+    "id": "imprensa:Euronews",
+    "rotulo": "Euronews",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 3.3129,
+    "y": 0.5835
+   },
+   {
+    "id": "notícia: acordo Hamas Israel",
+    "rotulo": "notícia: acordo Hamas Israel",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 1,
+    "x": 2.6534,
+    "y": 0.6717
+   },
+   {
+    "id": "imprensa:VEJA",
+    "rotulo": "VEJA",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 1,
+    "x": 2.504,
+    "y": 0.7117
+   },
+   {
+    "id": "imprensa:Brasil de Fato",
+    "rotulo": "Brasil de Fato",
+    "tipo": "veículo de imprensa",
+    "n": 13,
+    "grupo": 1,
+    "x": 2.6481,
+    "y": 0.9087
+   },
+   {
+    "id": "imprensa:CartaCapital",
+    "rotulo": "CartaCapital",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.4186,
+    "y": 0.5745
+   },
+   {
+    "id": "imprensa:O GLOBO",
+    "rotulo": "O GLOBO",
+    "tipo": "veículo de imprensa",
+    "n": 3,
+    "grupo": 1,
+    "x": 2.4898,
+    "y": 0.8417
+   },
+   {
+    "id": "notícia: Gaza",
+    "rotulo": "notícia: Gaza",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 1,
+    "x": 2.5551,
+    "y": 0.9354
+   },
+   {
+    "id": "imprensa:Times Brasil",
+    "rotulo": "Times Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.3497,
+    "y": 1.0546
+   },
+   {
+    "id": "imprensa:ND Mais",
+    "rotulo": "ND Mais",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.4479,
+    "y": 1.1444
+   },
+   {
+    "id": "notícia: Palestina",
+    "rotulo": "notícia: Palestina",
+    "tipo": "termo",
+    "n": 5,
+    "grupo": 1,
+    "x": 2.6723,
+    "y": 1.0888
+   },
+   {
+    "id": "imprensa:Outras Palavras",
+    "rotulo": "Outras Palavras",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.696,
+    "y": 1.3093
+   },
+   {
+    "id": "notícia: cessar-fogo Gaza",
+    "rotulo": "notícia: cessar-fogo Gaza",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 1,
+    "x": 2.6791,
+    "y": 0.7603
+   }
+  ],
+  "arestas": [
+   [
+    "yt:UCamgdcs45ToPrIV7wmT7iYg",
+    "busca: Hamas desarmamento",
+    29565
+   ],
+   [
+    "yt:UCamgdcs45ToPrIV7wmT7iYg",
+    "busca: Hamas aceita desarmamento",
+    29565
+   ],
+   [
+    "yt:UCamgdcs45ToPrIV7wmT7iYg",
+    "busca: acordo Hamas Israel",
+    29565
+   ],
+   [
+    "yt:UCamgdcs45ToPrIV7wmT7iYg",
+    "busca: desarmamento do Hamas",
+    29565
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCoa-D_VfMkFrCYodrOC9-mA",
+    49013
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCvdwhh_fDyWccR42-rReZLw",
+    20906
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
+    3161
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCUmEPYxmnyQDeRUcFkslmQw",
+    4837
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "P0001",
+    6659
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCxm0tptjIc76-i26EKQ9NpA",
+    10360
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCOnuheHbS2DgZiAZFL0-Sbg",
+    498
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCbiGwU0-W1XCDUrt3BTVrag",
+    414
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCXdXYG8dUmEv6jhEji_lSHg",
+    7035
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "P0002",
+    262
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCOsYwlfhlRTPCQARdkNtjZg",
+    1285
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UC376n347Ob5Lwzq2WGzF1AA",
+    37748
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
+    37201
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCp6RRaz93Pt2xYZoEye_rLA",
+    937
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    4226
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw",
+    847
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
+    4704
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "P0003",
+    997
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UC9_P8UgE6lExmkrzH4g2L8A",
+    88878
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCj-RTZE-V3Q6jleatRR9k2A",
+    1818
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "P0004",
+    1
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCEsbaUdrM_87K-2um30hf8Q",
+    7205
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
+    3173
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCsEC-wMKyvx5EIxKHsG0q3g",
+    649
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCP391YRAjSOdM_bwievgaZA",
+    25741
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "P0005",
+    514
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCWeXgaH6wwyTRAkA3n6sRxg",
+    2340
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCVgO39Bk5sMo66-6o6Spn6Q",
+    2906
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCEs-K_xio8n6PKKbTCZpaSA",
+    4061
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UC1_E8NeF5QHY2dtdLRBCCLA",
+    4593
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCw77677G3EAODp61b0izs7w",
+    3660
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCO0akufu9MOzyz3nvGIXAAw",
+    12199
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UC0nvfUHh42VwMeaqEy6EPFg",
+    129
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
+    3605
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UC16niRr50-MSBwiO3YDb3RA",
+    48513
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCXBD5iG5cr4ZYZ99K-fmDHg",
+    968
+   ],
+   [
+    "busca: Hamas desarmamento",
+    "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
+    608
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCoa-D_VfMkFrCYodrOC9-mA",
+    49013
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCvdwhh_fDyWccR42-rReZLw",
+    20906
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
+    3161
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCUmEPYxmnyQDeRUcFkslmQw",
+    4837
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0001",
+    6659
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCxm0tptjIc76-i26EKQ9NpA",
+    10360
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCOnuheHbS2DgZiAZFL0-Sbg",
+    498
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCbiGwU0-W1XCDUrt3BTVrag",
+    414
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCXdXYG8dUmEv6jhEji_lSHg",
+    7035
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCOsYwlfhlRTPCQARdkNtjZg",
+    1285
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UC376n347Ob5Lwzq2WGzF1AA",
+    37748
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
+    37201
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCp6RRaz93Pt2xYZoEye_rLA",
+    937
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    4226
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw",
+    847
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
+    4704
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UC9_P8UgE6lExmkrzH4g2L8A",
+    88878
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCj-RTZE-V3Q6jleatRR9k2A",
+    1818
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0004",
+    1
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCEsbaUdrM_87K-2um30hf8Q",
+    7205
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
+    3173
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCsEC-wMKyvx5EIxKHsG0q3g",
+    649
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCP391YRAjSOdM_bwievgaZA",
+    25741
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCEs-K_xio8n6PKKbTCZpaSA",
+    4061
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UC16niRr50-MSBwiO3YDb3RA",
+    48513
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
+    608
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0007",
+    640
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0008",
+    1311
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0009",
+    790
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0010",
+    509
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCfMy1UCSxAoMq3jWacKcohg",
+    6564
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
+    2558
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UC_gUM8rL-Lrg6O3adPW9K1g",
+    3921
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCK3U5q7b8U8yffUlblyrpRQ",
+    552
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0011",
+    549
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCMmpLL2ucRHAXbNHiCPyIyg",
+    10156
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCoa-D_VfMkFrCYodrOC9-mA",
+    44819
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
+    1690
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCUmEPYxmnyQDeRUcFkslmQw",
+    4837
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCvdwhh_fDyWccR42-rReZLw",
+    51156
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "P0001",
+    6659
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCxm0tptjIc76-i26EKQ9NpA",
+    10360
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCXdXYG8dUmEv6jhEji_lSHg",
+    7035
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC376n347Ob5Lwzq2WGzF1AA",
+    56085
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
+    37201
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCp6RRaz93Pt2xYZoEye_rLA",
+    937
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
+    4704
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCj-RTZE-V3Q6jleatRR9k2A",
+    1818
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "P0004",
+    1
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCEsbaUdrM_87K-2um30hf8Q",
+    7205
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
+    3173
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC16niRr50-MSBwiO3YDb3RA",
+    48513
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "P0007",
+    640
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
+    6460
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC9T0ZAarQHL4cJGFzORVsFg",
+    22587
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCP391YRAjSOdM_bwievgaZA",
+    8998
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    8492
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
+    21834
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCbiGwU0-W1XCDUrt3BTVrag",
+    1266
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCoja0MNI4SIvXqJR3szbSfw",
+    325
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCQfwfsi5VrQ8yKZ-UWmAEFg",
+    2703
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCYI_ychRnL7sJrG6PUSBpQA",
+    275206
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCT350j4u6alUKyF9eu2bGug",
+    4681
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCBi2mrWuNuyYy4gbM6fU18Q",
+    21603
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCuFFtHWoLl5fauMMD5Ww2jA",
+    6810
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCO0akufu9MOzyz3nvGIXAAw",
+    2043
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
+    7099
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC52X5wxOL_s5yw0dQk7NtgA",
+    11544
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCoa-D_VfMkFrCYodrOC9-mA",
+    49013
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCvdwhh_fDyWccR42-rReZLw",
+    20906
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
+    3161
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCUmEPYxmnyQDeRUcFkslmQw",
+    4837
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "P0001",
+    6659
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCxm0tptjIc76-i26EKQ9NpA",
+    10360
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCOnuheHbS2DgZiAZFL0-Sbg",
+    498
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCbiGwU0-W1XCDUrt3BTVrag",
+    414
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCXdXYG8dUmEv6jhEji_lSHg",
+    7035
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "P0002",
+    262
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCOsYwlfhlRTPCQARdkNtjZg",
+    1285
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UC376n347Ob5Lwzq2WGzF1AA",
+    37748
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
+    37201
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCp6RRaz93Pt2xYZoEye_rLA",
+    937
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    4226
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw",
+    847
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
+    4704
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "P0003",
+    997
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UC9_P8UgE6lExmkrzH4g2L8A",
+    88878
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCj-RTZE-V3Q6jleatRR9k2A",
+    1818
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCEsbaUdrM_87K-2um30hf8Q",
+    7205
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
+    3173
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCsEC-wMKyvx5EIxKHsG0q3g",
+    649
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCP391YRAjSOdM_bwievgaZA",
+    25741
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "P0005",
+    514
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCWeXgaH6wwyTRAkA3n6sRxg",
+    2340
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCEs-K_xio8n6PKKbTCZpaSA",
+    4061
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UC1_E8NeF5QHY2dtdLRBCCLA",
+    4593
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCw77677G3EAODp61b0izs7w",
+    3660
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCO0akufu9MOzyz3nvGIXAAw",
+    12199
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UC0nvfUHh42VwMeaqEy6EPFg",
+    129
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCXBD5iG5cr4ZYZ99K-fmDHg",
+    968
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
+    608
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "P0009",
+    790
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UC9T0ZAarQHL4cJGFzORVsFg",
+    22587
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCef1-8eOpJgud7szVPlZQAQ",
+    2675
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCi7Zk9baY1tvdlgxIML8MXg",
+    13561
+   ],
+   [
+    "imprensa:G1",
+    "notícia: Hamas desarmamento",
+    2
+   ],
+   [
+    "imprensa:G1",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: Gaza",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: cessar-fogo Gaza",
+    2
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:BBC",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Folha de S.Paulo",
+    2
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Agência Brasil",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:CNN Brasil",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:DW.com",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Poder360",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Estadão",
+    1
+   ],
+   [
+    "imprensa:BBC",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:Folha de S.Paulo",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:Folha de S.Paulo",
+    "notícia: cessar-fogo Gaza",
+    2
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: acordo Hamas Israel",
+    2
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: cessar-fogo Gaza",
+    1
+   ],
+   [
+    "imprensa:Estadão",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Exame",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Metrópoles",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Vermelho",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:ICL Notícias",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:UOL Notícias",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Euronews",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:VEJA",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:Brasil de Fato",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:CartaCapital",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:O GLOBO",
+    1
+   ],
+   [
+    "imprensa:VEJA",
+    "notícia: cessar-fogo Gaza",
+    1
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: Gaza",
+    5
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: Palestina",
+    3
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: cessar-fogo Gaza",
+    4
+   ],
+   [
+    "imprensa:O GLOBO",
+    "notícia: Gaza",
+    2
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:Times Brasil",
+    1
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:ND Mais",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Outras Palavras",
+    1
+   ]
+  ],
+  "total_nos": 92,
+  "total_arestas": 189,
+  "comunidades": 3
+ },
+ "total_nos": 92,
+ "total_arestas": 189,
+ "estatisticas_atlas": {
+  "rede": "circulacao_hamas",
+  "dirigida": false,
+  "nos": 92,
+  "arestas": 189,
+  "densidade": 0.045151,
+  "grau_medio": 4.109,
+  "grau_ponderado_medio": 43363.478,
+  "componentes": 2,
+  "nos_maior_componente": 64,
+  "pct_nos_maior_componente": 69.57,
+  "clustering_medio": 0.0,
+  "assortatividade_grau": -0.7096,
+  "diametro_maior_componente": 4,
+  "caminho_medio_maior_componente": 2.315,
+  "modularidade_q": 0.234,
+  "comunidades": 3,
+  "comunidades_1pct_ou_mais": 3,
+  "pct_maior": 53.26,
+  "pct_segunda": 30.43,
+  "pct_terceira": 16.3,
+  "pct_nos_em_comunidades_1pct": 100.0,
+  "gc_densidade": 0.073909,
+  "gc_modularidade_q": 0.234,
+  "gc_comunidades": 2,
+  "gc_comunidades_1pct_ou_mais": 2,
+  "gc_pct_maior": 76.56,
+  "gc_pct_segunda": 23.44,
+  "gc_polarizacao_ei_2_maiores": -0.56,
+  "polarizacao_ei_2_maiores": -1.0
+ },
+ "centralidades": [
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "grau ponderado",
+   "posicao": 1,
+   "no": "busca: acordo Hamas Israel",
+   "valor": 718049.0,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "grau ponderado",
+   "posicao": 2,
+   "no": "busca: Hamas desarmamento",
+   "valor": 432217.0,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "grau ponderado",
+   "posicao": 3,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 427594.0,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "grau ponderado",
+   "posicao": 4,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 416805.0,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "grau ponderado",
+   "posicao": 5,
+   "no": "CBN News",
+   "valor": 275206.0,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "PageRank",
+   "posicao": 1,
+   "no": "busca: acordo Hamas Israel",
+   "valor": 0.103791,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "PageRank",
+   "posicao": 2,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 0.075245,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "PageRank",
+   "posicao": 3,
+   "no": "busca: Hamas desarmamento",
+   "valor": 0.072226,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "PageRank",
+   "posicao": 4,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 0.071871,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "PageRank",
+   "posicao": 5,
+   "no": "Rede Gospel de Televisão",
+   "valor": 0.040579,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
+   "posicao": 1,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 0.153841,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
+   "posicao": 2,
+   "no": "busca: acordo Hamas Israel",
+   "valor": 0.146385,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
+   "posicao": 3,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 0.124396,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
+   "posicao": 4,
+   "no": "busca: Hamas desarmamento",
+   "valor": 0.114571,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
+   "posicao": 5,
+   "no": "notícia: Hamas aceita desarmamento",
+   "valor": 0.036552,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 1,
+   "no": "busca: acordo Hamas Israel",
+   "valor": 0.662788,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 2,
+   "no": "CBN News",
+   "valor": 0.586234,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 3,
+   "no": "SBT News",
+   "valor": 0.171146,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 4,
+   "no": "Band Jornalismo",
+   "valor": 0.162569,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 5,
+   "no": "BBC News",
+   "valor": 0.149572,
+   "comunidade": 1
+  }
+ ],
+ "comunidades_atlas": [
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "comunidade": 1,
+   "nos": 49,
+   "pct_nos": 53.26,
+   "pct_peso_interno": 54.17,
+   "nos_de_maior_grau": "busca: Hamas desarmamento | busca: Hamas aceita desarmamento | busca: desarmamento do Hamas | Rede Gospel de Televisão | Band Jornalismo"
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "comunidade": 2,
+   "nos": 28,
+   "pct_nos": 30.43,
+   "pct_peso_interno": 0.0,
+   "nos_de_maior_grau": "Brasil de Fato | notícia: cessar-fogo Gaza | notícia: Hamas desarmamento | notícia: acordo Hamas Israel | notícia: Hamas aceita desarmamento"
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "comunidade": 3,
+   "nos": 15,
+   "pct_nos": 16.3,
+   "pct_peso_interno": 23.83,
+   "nos_de_maior_grau": "busca: acordo Hamas Israel | CBN News | SBT News | CNN Brasil | 7NEWS Australia"
+  }
+ ]
+}

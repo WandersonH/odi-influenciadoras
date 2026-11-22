@@ -1,0 +1,1036 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d2" for="node" attr.name="peso" attr.type="long" />
+  <key id="d1" for="node" attr.name="tipo" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="yt:UCamgdcs45ToPrIV7wmT7iYg">
+      <data key="d0">AFP Português</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">118260</data>
+    </node>
+    <node id="busca: Hamas desarmamento">
+      <data key="d0">busca: Hamas desarmamento</data>
+      <data key="d1">termo</data>
+      <data key="d2">432216</data>
+    </node>
+    <node id="busca: Hamas aceita desarmamento">
+      <data key="d0">busca: Hamas aceita desarmamento</data>
+      <data key="d1">termo</data>
+      <data key="d2">427593</data>
+    </node>
+    <node id="busca: acordo Hamas Israel">
+      <data key="d0">busca: acordo Hamas Israel</data>
+      <data key="d1">termo</data>
+      <data key="d2">718049</data>
+    </node>
+    <node id="busca: desarmamento do Hamas">
+      <data key="d0">busca: desarmamento do Hamas</data>
+      <data key="d1">termo</data>
+      <data key="d2">416804</data>
+    </node>
+    <node id="yt:UCoa-D_VfMkFrCYodrOC9-mA">
+      <data key="d0">Band Jornalismo</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">191858</data>
+    </node>
+    <node id="yt:UCvdwhh_fDyWccR42-rReZLw">
+      <data key="d0">CNN Brasil</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">113874</data>
+    </node>
+    <node id="yt:UCmQTY7b5w61WlmBbJ5a8XrQ">
+      <data key="d0">Rede TVT</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">11173</data>
+    </node>
+    <node id="yt:UCUmEPYxmnyQDeRUcFkslmQw">
+      <data key="d0">Euronews em Português</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">19348</data>
+    </node>
+    <node id="P0001">
+      <data key="d0">perfil pequeno P0001</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">26636</data>
+    </node>
+    <node id="yt:UCxm0tptjIc76-i26EKQ9NpA">
+      <data key="d0">InfoMoney</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">41440</data>
+    </node>
+    <node id="yt:UCOnuheHbS2DgZiAZFL0-Sbg">
+      <data key="d0">Brasil de Fato</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1494</data>
+    </node>
+    <node id="yt:UCbiGwU0-W1XCDUrt3BTVrag">
+      <data key="d0">Rádio CBN</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">2508</data>
+    </node>
+    <node id="yt:UCXdXYG8dUmEv6jhEji_lSHg">
+      <data key="d0">Jornalismo TV Cultura</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">28140</data>
+    </node>
+    <node id="P0002">
+      <data key="d0">perfil pequeno P0002</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">524</data>
+    </node>
+    <node id="yt:UCOsYwlfhlRTPCQARdkNtjZg">
+      <data key="d0">Eric Deters Show</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">3855</data>
+    </node>
+    <node id="yt:UC376n347Ob5Lwzq2WGzF1AA">
+      <data key="d0">SBT News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">169329</data>
+    </node>
+    <node id="yt:UCT6Imb3GXhF8GmjpIk6y2lg">
+      <data key="d0">Professor Ricardo Marcílio</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">148804</data>
+    </node>
+    <node id="yt:UCp6RRaz93Pt2xYZoEye_rLA">
+      <data key="d0">globonews</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">3748</data>
+    </node>
+    <node id="yt:UCaGmdJSSiR7fkh2A-c6emsA">
+      <data key="d0">g1</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">21170</data>
+    </node>
+    <node id="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw">
+      <data key="d0">TV A Crítica</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">2541</data>
+    </node>
+    <node id="yt:UCNl_i-ggJbZNyOLlhE7yyhw">
+      <data key="d0">Jornal da Gazeta</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">18816</data>
+    </node>
+    <node id="P0003">
+      <data key="d0">perfil pequeno P0003</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1994</data>
+    </node>
+    <node id="yt:UC9_P8UgE6lExmkrzH4g2L8A">
+      <data key="d0">Rede Gospel de Televisão</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">266634</data>
+    </node>
+    <node id="yt:UCj-RTZE-V3Q6jleatRR9k2A">
+      <data key="d0">O POVO</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">7272</data>
+    </node>
+    <node id="P0004">
+      <data key="d0">perfil pequeno P0004</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="yt:UCEsbaUdrM_87K-2um30hf8Q">
+      <data key="d0">Jovem Pan  - 3 em 1</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">28820</data>
+    </node>
+    <node id="yt:UCx7Ohl0Ln516T5pu5M8_SMA">
+      <data key="d0">O TEMPO</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">12692</data>
+    </node>
+    <node id="yt:UCsEC-wMKyvx5EIxKHsG0q3g">
+      <data key="d0">NOW Canal</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1947</data>
+    </node>
+    <node id="yt:UCP391YRAjSOdM_bwievgaZA">
+      <data key="d0">Jovem Pan News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">86221</data>
+    </node>
+    <node id="P0005">
+      <data key="d0">perfil pequeno P0005</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1028</data>
+    </node>
+    <node id="P0006">
+      <data key="d0">perfil pequeno P0006</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">0</data>
+    </node>
+    <node id="yt:UCWeXgaH6wwyTRAkA3n6sRxg">
+      <data key="d0">Terra Brasil</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">4680</data>
+    </node>
+    <node id="yt:UCVgO39Bk5sMo66-6o6Spn6Q">
+      <data key="d0">ABC News (Australia)</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">2906</data>
+    </node>
+    <node id="yt:UCEs-K_xio8n6PKKbTCZpaSA">
+      <data key="d0">ABC30 Action News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">12183</data>
+    </node>
+    <node id="yt:UC1_E8NeF5QHY2dtdLRBCCLA">
+      <data key="d0">africanews</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">9186</data>
+    </node>
+    <node id="yt:UCw77677G3EAODp61b0izs7w">
+      <data key="d0">6abc Philadelphia</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">7320</data>
+    </node>
+    <node id="yt:UCO0akufu9MOzyz3nvGIXAAw">
+      <data key="d0">News24</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">26441</data>
+    </node>
+    <node id="yt:UC0nvfUHh42VwMeaqEy6EPFg">
+      <data key="d0">Mapas e Motivos | Notícias</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">258</data>
+    </node>
+    <node id="yt:UCNye-wNBqNL5ZzHSJj3l8Bg">
+      <data key="d0">Al Jazeera English</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">10704</data>
+    </node>
+    <node id="yt:UC16niRr50-MSBwiO3YDb3RA">
+      <data key="d0">BBC News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">145539</data>
+    </node>
+    <node id="yt:UCXBD5iG5cr4ZYZ99K-fmDHg">
+      <data key="d0">NDTV World</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1936</data>
+    </node>
+    <node id="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ">
+      <data key="d0">Al Arabiya English</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1824</data>
+    </node>
+    <node id="P0007">
+      <data key="d0">perfil pequeno P0007</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1280</data>
+    </node>
+    <node id="P0008">
+      <data key="d0">perfil pequeno P0008</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1311</data>
+    </node>
+    <node id="P0009">
+      <data key="d0">perfil pequeno P0009</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">1580</data>
+    </node>
+    <node id="P0010">
+      <data key="d0">perfil pequeno P0010</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">509</data>
+    </node>
+    <node id="yt:UCfMy1UCSxAoMq3jWacKcohg">
+      <data key="d0">Geopol Maps</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">6564</data>
+    </node>
+    <node id="yt:UCSrZ3UV4jOidv8ppoVuvW9Q">
+      <data key="d0">euronews</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">9018</data>
+    </node>
+    <node id="yt:UC_gUM8rL-Lrg6O3adPW9K1g">
+      <data key="d0">WION</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">3921</data>
+    </node>
+    <node id="yt:UCK3U5q7b8U8yffUlblyrpRQ">
+      <data key="d0">Correio Braziliense</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">552</data>
+    </node>
+    <node id="P0011">
+      <data key="d0">perfil pequeno P0011</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">549</data>
+    </node>
+    <node id="yt:UCMmpLL2ucRHAXbNHiCPyIyg">
+      <data key="d0">ARY News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">10156</data>
+    </node>
+    <node id="yt:UC9T0ZAarQHL4cJGFzORVsFg">
+      <data key="d0">Itatiaia</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">45174</data>
+    </node>
+    <node id="yt:UC5T7D-Dh1eDGtsAFCuwv_Sw">
+      <data key="d0">7NEWS Australia</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">21834</data>
+    </node>
+    <node id="yt:UCoja0MNI4SIvXqJR3szbSfw">
+      <data key="d0">BM&amp;C </data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">325</data>
+    </node>
+    <node id="yt:UCQfwfsi5VrQ8yKZ-UWmAEFg">
+      <data key="d0">FRANCE 24 English</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">2703</data>
+    </node>
+    <node id="yt:UCYI_ychRnL7sJrG6PUSBpQA">
+      <data key="d0">CBN News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">275206</data>
+    </node>
+    <node id="yt:UCT350j4u6alUKyF9eu2bGug">
+      <data key="d0">ABC10</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">4681</data>
+    </node>
+    <node id="yt:UCBi2mrWuNuyYy4gbM6fU18Q">
+      <data key="d0">ABC News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">21603</data>
+    </node>
+    <node id="yt:UCuFFtHWoLl5fauMMD5Ww2jA">
+      <data key="d0">CBC News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">6810</data>
+    </node>
+    <node id="yt:UC52X5wxOL_s5yw0dQk7NtgA">
+      <data key="d0">Associated Press</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">11544</data>
+    </node>
+    <node id="yt:UCef1-8eOpJgud7szVPlZQAQ">
+      <data key="d0">CNN-News18</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">2675</data>
+    </node>
+    <node id="yt:UCi7Zk9baY1tvdlgxIML8MXg">
+      <data key="d0">CTV News</data>
+      <data key="d1">canal do YouTube</data>
+      <data key="d2">13561</data>
+    </node>
+    <node id="imprensa:G1">
+      <data key="d0">G1</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">7</data>
+    </node>
+    <node id="notícia: Hamas desarmamento">
+      <data key="d0">notícia: Hamas desarmamento</data>
+      <data key="d1">termo</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="imprensa:BBC">
+      <data key="d0">BBC</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="imprensa:Folha de S.Paulo">
+      <data key="d0">Folha de S.Paulo</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">5</data>
+    </node>
+    <node id="imprensa:Agência Brasil">
+      <data key="d0">Agência Brasil</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="imprensa:CNN Brasil">
+      <data key="d0">CNN Brasil</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="imprensa:DW.com">
+      <data key="d0">DW.com</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Poder360">
+      <data key="d0">Poder360</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Estadão">
+      <data key="d0">Estadão</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="notícia: Hamas aceita desarmamento">
+      <data key="d0">notícia: Hamas aceita desarmamento</data>
+      <data key="d1">termo</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="imprensa:Exame">
+      <data key="d0">Exame</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Metrópoles">
+      <data key="d0">Metrópoles</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Vermelho">
+      <data key="d0">Vermelho</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:ICL Notícias">
+      <data key="d0">ICL Notícias</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:UOL Notícias">
+      <data key="d0">UOL Notícias</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Euronews">
+      <data key="d0">Euronews</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="notícia: acordo Hamas Israel">
+      <data key="d0">notícia: acordo Hamas Israel</data>
+      <data key="d1">termo</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="imprensa:VEJA">
+      <data key="d0">VEJA</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">2</data>
+    </node>
+    <node id="imprensa:Brasil de Fato">
+      <data key="d0">Brasil de Fato</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">13</data>
+    </node>
+    <node id="imprensa:CartaCapital">
+      <data key="d0">CartaCapital</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:O GLOBO">
+      <data key="d0">O GLOBO</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="notícia: Gaza">
+      <data key="d0">notícia: Gaza</data>
+      <data key="d1">termo</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="imprensa:Times Brasil">
+      <data key="d0">Times Brasil</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:ND Mais">
+      <data key="d0">ND Mais</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="notícia: Palestina">
+      <data key="d0">notícia: Palestina</data>
+      <data key="d1">termo</data>
+      <data key="d2">5</data>
+    </node>
+    <node id="imprensa:Outras Palavras">
+      <data key="d0">Outras Palavras</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="imprensa:Sinteal">
+      <data key="d0">Sinteal</data>
+      <data key="d1">veículo de imprensa</data>
+      <data key="d2">1</data>
+    </node>
+    <node id="notícia: cessar-fogo Gaza">
+      <data key="d0">notícia: cessar-fogo Gaza</data>
+      <data key="d1">termo</data>
+      <data key="d2">10</data>
+    </node>
+    <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: Hamas desarmamento">
+      <data key="d3">29565</data>
+    </edge>
+    <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: Hamas aceita desarmamento">
+      <data key="d3">29565</data>
+    </edge>
+    <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: acordo Hamas Israel">
+      <data key="d3">29565</data>
+    </edge>
+    <edge source="yt:UCamgdcs45ToPrIV7wmT7iYg" target="busca: desarmamento do Hamas">
+      <data key="d3">29565</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCoa-D_VfMkFrCYodrOC9-mA">
+      <data key="d3">49013</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCvdwhh_fDyWccR42-rReZLw">
+      <data key="d3">20906</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ">
+      <data key="d3">3161</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCUmEPYxmnyQDeRUcFkslmQw">
+      <data key="d3">4837</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0001">
+      <data key="d3">6659</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCxm0tptjIc76-i26EKQ9NpA">
+      <data key="d3">10360</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg">
+      <data key="d3">498</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCbiGwU0-W1XCDUrt3BTVrag">
+      <data key="d3">414</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCXdXYG8dUmEv6jhEji_lSHg">
+      <data key="d3">7035</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0002">
+      <data key="d3">262</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCOsYwlfhlRTPCQARdkNtjZg">
+      <data key="d3">1285</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UC376n347Ob5Lwzq2WGzF1AA">
+      <data key="d3">37748</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg">
+      <data key="d3">37201</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCp6RRaz93Pt2xYZoEye_rLA">
+      <data key="d3">937</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCaGmdJSSiR7fkh2A-c6emsA">
+      <data key="d3">4226</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw">
+      <data key="d3">847</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw">
+      <data key="d3">4704</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0003">
+      <data key="d3">997</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UC9_P8UgE6lExmkrzH4g2L8A">
+      <data key="d3">88878</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCj-RTZE-V3Q6jleatRR9k2A">
+      <data key="d3">1818</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0004">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCEsbaUdrM_87K-2um30hf8Q">
+      <data key="d3">7205</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA">
+      <data key="d3">3173</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g">
+      <data key="d3">649</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCP391YRAjSOdM_bwievgaZA">
+      <data key="d3">25741</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0005">
+      <data key="d3">514</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="P0006">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCWeXgaH6wwyTRAkA3n6sRxg">
+      <data key="d3">2340</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCVgO39Bk5sMo66-6o6Spn6Q">
+      <data key="d3">2906</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCEs-K_xio8n6PKKbTCZpaSA">
+      <data key="d3">4061</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UC1_E8NeF5QHY2dtdLRBCCLA">
+      <data key="d3">4593</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCw77677G3EAODp61b0izs7w">
+      <data key="d3">3660</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCO0akufu9MOzyz3nvGIXAAw">
+      <data key="d3">12199</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UC0nvfUHh42VwMeaqEy6EPFg">
+      <data key="d3">129</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCNye-wNBqNL5ZzHSJj3l8Bg">
+      <data key="d3">3605</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UC16niRr50-MSBwiO3YDb3RA">
+      <data key="d3">48513</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCXBD5iG5cr4ZYZ99K-fmDHg">
+      <data key="d3">968</data>
+    </edge>
+    <edge source="busca: Hamas desarmamento" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ">
+      <data key="d3">608</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCoa-D_VfMkFrCYodrOC9-mA">
+      <data key="d3">49013</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCvdwhh_fDyWccR42-rReZLw">
+      <data key="d3">20906</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ">
+      <data key="d3">3161</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCUmEPYxmnyQDeRUcFkslmQw">
+      <data key="d3">4837</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0001">
+      <data key="d3">6659</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCxm0tptjIc76-i26EKQ9NpA">
+      <data key="d3">10360</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg">
+      <data key="d3">498</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCbiGwU0-W1XCDUrt3BTVrag">
+      <data key="d3">414</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCXdXYG8dUmEv6jhEji_lSHg">
+      <data key="d3">7035</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCOsYwlfhlRTPCQARdkNtjZg">
+      <data key="d3">1285</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UC376n347Ob5Lwzq2WGzF1AA">
+      <data key="d3">37748</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg">
+      <data key="d3">37201</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCp6RRaz93Pt2xYZoEye_rLA">
+      <data key="d3">937</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCaGmdJSSiR7fkh2A-c6emsA">
+      <data key="d3">4226</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw">
+      <data key="d3">847</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw">
+      <data key="d3">4704</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UC9_P8UgE6lExmkrzH4g2L8A">
+      <data key="d3">88878</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCj-RTZE-V3Q6jleatRR9k2A">
+      <data key="d3">1818</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0004">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCEsbaUdrM_87K-2um30hf8Q">
+      <data key="d3">7205</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA">
+      <data key="d3">3173</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g">
+      <data key="d3">649</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCP391YRAjSOdM_bwievgaZA">
+      <data key="d3">25741</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0006">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCEs-K_xio8n6PKKbTCZpaSA">
+      <data key="d3">4061</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UC16niRr50-MSBwiO3YDb3RA">
+      <data key="d3">48513</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ">
+      <data key="d3">608</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0007">
+      <data key="d3">640</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0008">
+      <data key="d3">1311</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0009">
+      <data key="d3">790</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0010">
+      <data key="d3">509</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCfMy1UCSxAoMq3jWacKcohg">
+      <data key="d3">6564</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCSrZ3UV4jOidv8ppoVuvW9Q">
+      <data key="d3">2558</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UC_gUM8rL-Lrg6O3adPW9K1g">
+      <data key="d3">3921</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCK3U5q7b8U8yffUlblyrpRQ">
+      <data key="d3">552</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="P0011">
+      <data key="d3">549</data>
+    </edge>
+    <edge source="busca: Hamas aceita desarmamento" target="yt:UCMmpLL2ucRHAXbNHiCPyIyg">
+      <data key="d3">10156</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCoa-D_VfMkFrCYodrOC9-mA">
+      <data key="d3">44819</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ">
+      <data key="d3">1690</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCUmEPYxmnyQDeRUcFkslmQw">
+      <data key="d3">4837</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCvdwhh_fDyWccR42-rReZLw">
+      <data key="d3">51156</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="P0001">
+      <data key="d3">6659</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCxm0tptjIc76-i26EKQ9NpA">
+      <data key="d3">10360</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCXdXYG8dUmEv6jhEji_lSHg">
+      <data key="d3">7035</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UC376n347Ob5Lwzq2WGzF1AA">
+      <data key="d3">56085</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg">
+      <data key="d3">37201</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCp6RRaz93Pt2xYZoEye_rLA">
+      <data key="d3">937</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw">
+      <data key="d3">4704</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCj-RTZE-V3Q6jleatRR9k2A">
+      <data key="d3">1818</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="P0004">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCEsbaUdrM_87K-2um30hf8Q">
+      <data key="d3">7205</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA">
+      <data key="d3">3173</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UC16niRr50-MSBwiO3YDb3RA">
+      <data key="d3">48513</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="P0007">
+      <data key="d3">640</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCSrZ3UV4jOidv8ppoVuvW9Q">
+      <data key="d3">6460</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UC9T0ZAarQHL4cJGFzORVsFg">
+      <data key="d3">22587</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCP391YRAjSOdM_bwievgaZA">
+      <data key="d3">8998</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCaGmdJSSiR7fkh2A-c6emsA">
+      <data key="d3">8492</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UC5T7D-Dh1eDGtsAFCuwv_Sw">
+      <data key="d3">21834</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCbiGwU0-W1XCDUrt3BTVrag">
+      <data key="d3">1266</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCoja0MNI4SIvXqJR3szbSfw">
+      <data key="d3">325</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCQfwfsi5VrQ8yKZ-UWmAEFg">
+      <data key="d3">2703</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCYI_ychRnL7sJrG6PUSBpQA">
+      <data key="d3">275206</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCT350j4u6alUKyF9eu2bGug">
+      <data key="d3">4681</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCBi2mrWuNuyYy4gbM6fU18Q">
+      <data key="d3">21603</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCuFFtHWoLl5fauMMD5Ww2jA">
+      <data key="d3">6810</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCO0akufu9MOzyz3nvGIXAAw">
+      <data key="d3">2043</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UCNye-wNBqNL5ZzHSJj3l8Bg">
+      <data key="d3">7099</data>
+    </edge>
+    <edge source="busca: acordo Hamas Israel" target="yt:UC52X5wxOL_s5yw0dQk7NtgA">
+      <data key="d3">11544</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCoa-D_VfMkFrCYodrOC9-mA">
+      <data key="d3">49013</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCvdwhh_fDyWccR42-rReZLw">
+      <data key="d3">20906</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCmQTY7b5w61WlmBbJ5a8XrQ">
+      <data key="d3">3161</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCUmEPYxmnyQDeRUcFkslmQw">
+      <data key="d3">4837</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0001">
+      <data key="d3">6659</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCxm0tptjIc76-i26EKQ9NpA">
+      <data key="d3">10360</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCOnuheHbS2DgZiAZFL0-Sbg">
+      <data key="d3">498</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCbiGwU0-W1XCDUrt3BTVrag">
+      <data key="d3">414</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCXdXYG8dUmEv6jhEji_lSHg">
+      <data key="d3">7035</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0002">
+      <data key="d3">262</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCOsYwlfhlRTPCQARdkNtjZg">
+      <data key="d3">1285</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UC376n347Ob5Lwzq2WGzF1AA">
+      <data key="d3">37748</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCT6Imb3GXhF8GmjpIk6y2lg">
+      <data key="d3">37201</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCp6RRaz93Pt2xYZoEye_rLA">
+      <data key="d3">937</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCaGmdJSSiR7fkh2A-c6emsA">
+      <data key="d3">4226</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCnLSKfHkgZ6ujEYCO9jq7Sw">
+      <data key="d3">847</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCNl_i-ggJbZNyOLlhE7yyhw">
+      <data key="d3">4704</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0003">
+      <data key="d3">997</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UC9_P8UgE6lExmkrzH4g2L8A">
+      <data key="d3">88878</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCj-RTZE-V3Q6jleatRR9k2A">
+      <data key="d3">1818</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCEsbaUdrM_87K-2um30hf8Q">
+      <data key="d3">7205</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCx7Ohl0Ln516T5pu5M8_SMA">
+      <data key="d3">3173</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCsEC-wMKyvx5EIxKHsG0q3g">
+      <data key="d3">649</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCP391YRAjSOdM_bwievgaZA">
+      <data key="d3">25741</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0005">
+      <data key="d3">514</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0006">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCWeXgaH6wwyTRAkA3n6sRxg">
+      <data key="d3">2340</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCEs-K_xio8n6PKKbTCZpaSA">
+      <data key="d3">4061</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UC1_E8NeF5QHY2dtdLRBCCLA">
+      <data key="d3">4593</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCw77677G3EAODp61b0izs7w">
+      <data key="d3">3660</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCO0akufu9MOzyz3nvGIXAAw">
+      <data key="d3">12199</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UC0nvfUHh42VwMeaqEy6EPFg">
+      <data key="d3">129</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCXBD5iG5cr4ZYZ99K-fmDHg">
+      <data key="d3">968</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCIZJ9a6P_nxCFJTmL0gh_IQ">
+      <data key="d3">608</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="P0009">
+      <data key="d3">790</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UC9T0ZAarQHL4cJGFzORVsFg">
+      <data key="d3">22587</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCef1-8eOpJgud7szVPlZQAQ">
+      <data key="d3">2675</data>
+    </edge>
+    <edge source="busca: desarmamento do Hamas" target="yt:UCi7Zk9baY1tvdlgxIML8MXg">
+      <data key="d3">13561</data>
+    </edge>
+    <edge source="imprensa:G1" target="notícia: Hamas desarmamento">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="imprensa:G1" target="notícia: Hamas aceita desarmamento">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:G1" target="notícia: acordo Hamas Israel">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:G1" target="notícia: Gaza">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:G1" target="notícia: cessar-fogo Gaza">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:BBC">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:Folha de S.Paulo">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:Agência Brasil">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:CNN Brasil">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:DW.com">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:Poder360">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas desarmamento" target="imprensa:Estadão">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:BBC" target="notícia: acordo Hamas Israel">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:Folha de S.Paulo" target="notícia: acordo Hamas Israel">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:Folha de S.Paulo" target="notícia: cessar-fogo Gaza">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="imprensa:Agência Brasil" target="notícia: Hamas aceita desarmamento">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:Agência Brasil" target="notícia: acordo Hamas Israel">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="imprensa:CNN Brasil" target="notícia: Hamas aceita desarmamento">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:CNN Brasil" target="notícia: acordo Hamas Israel">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:CNN Brasil" target="notícia: cessar-fogo Gaza">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:Estadão" target="notícia: Hamas aceita desarmamento">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Exame">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Metrópoles">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Vermelho">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:ICL Notícias">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:UOL Notícias">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Euronews">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: acordo Hamas Israel" target="imprensa:VEJA">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: acordo Hamas Israel" target="imprensa:Brasil de Fato">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: acordo Hamas Israel" target="imprensa:CartaCapital">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: acordo Hamas Israel" target="imprensa:O GLOBO">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:VEJA" target="notícia: cessar-fogo Gaza">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="imprensa:Brasil de Fato" target="notícia: Gaza">
+      <data key="d3">5</data>
+    </edge>
+    <edge source="imprensa:Brasil de Fato" target="notícia: Palestina">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="imprensa:Brasil de Fato" target="notícia: cessar-fogo Gaza">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="imprensa:O GLOBO" target="notícia: Gaza">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="notícia: Gaza" target="imprensa:Times Brasil">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Gaza" target="imprensa:ND Mais">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Palestina" target="imprensa:Outras Palavras">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="notícia: Palestina" target="imprensa:Sinteal">
+      <data key="d3">1</data>
+    </edge>
+  </graph>
+</graphml>
