@@ -1,0 +1,1028 @@
+{
+ "rede": "instagram",
+ "gerado_em": "2026-11-22T21:39:33Z",
+ "run_id": "45071626874",
+ "janela": "núcleo",
+ "metodo": "Uso: python scripts/collect_comentarios.py --rede youtube|instagram|tiktok [--por-post 50] Universo por publicação = número de comentários que a plataforma informa no acervo de posts (YouTube e TikTok); o\nInstagram não informou (⛔). Lido = comentários recebidos. Cobertura \"completa\" só quando lido ≥ universo.",
+ "temas_procurados": {
+  "acordo_hamas": [
+   "hamas",
+   "desarma*",
+   "acordo de paz",
+   "acordo de cessar",
+   "cessar-fogo",
+   "cessar fogo",
+   "tregua",
+   "حماس",
+   "نزع السلاح"
+  ],
+  "gaza_palestina": [
+   "gaza",
+   "palestin*",
+   "faixa de gaza",
+   "cisjordania",
+   "genocid*",
+   "free palestine",
+   "غزة",
+   "فلسطين",
+   "🍉",
+   "🇵🇸"
+  ],
+  "israel_guerra": [
+   "israel*",
+   "sionis*",
+   "netanyahu",
+   "guerra",
+   "bombarde*",
+   "refem",
+   "refens",
+   "ocupacao"
+  ],
+  "islamofobia_preconceito": [
+   "islamofob*",
+   "preconceito",
+   "terroris*",
+   "mulher bomba",
+   "xenofob*",
+   "racismo",
+   "discrimina*",
+   "intoleran*",
+   "odio"
+  ]
+ },
+ "por_influenciadora": {
+  "carima-orra": {
+   "publicacoes": 20,
+   "universo": null,
+   "lidos": 562,
+   "comentaristas_distintos": 393,
+   "temas": {
+    "gaza_palestina": 4,
+    "israel_guerra": 1,
+    "islamofobia_preconceito": 5
+   },
+   "nuvem": [
+    [
+     "linda",
+     38
+    ],
+    [
+     "chique",
+     25
+    ],
+    [
+     "amei",
+     21
+    ],
+    [
+     "maravilhosa",
+     21
+    ],
+    [
+     "lindas",
+     20
+    ],
+    [
+     "sempre",
+     18
+    ],
+    [
+     "vida",
+     18
+    ],
+    [
+     "muculmanos",
+     15
+    ],
+    [
+     "mundo",
+     15
+    ],
+    [
+     "mulher",
+     13
+    ],
+    [
+     "religiao",
+     13
+    ],
+    [
+     "carimaorra",
+     12
+    ],
+    [
+     "lindo",
+     12
+    ],
+    [
+     "sao",
+     12
+    ],
+    [
+     "ver",
+     12
+    ],
+    [
+     "demais",
+     11
+    ],
+    [
+     "jesus",
+     11
+    ],
+    [
+     "pessoas",
+     11
+    ],
+    [
+     "allah",
+     10
+    ],
+    [
+     "amo",
+     10
+    ],
+    [
+     "pais",
+     10
+    ],
+    [
+     "alcorao",
+     9
+    ],
+    [
+     "dancinha",
+     9
+    ],
+    [
+     "familia",
+     9
+    ],
+    [
+     "filhos",
+     9
+    ],
+    [
+     "medo",
+     9
+    ],
+    [
+     "mulheres",
+     9
+    ],
+    [
+     "arabe",
+     8
+    ],
+    [
+     "cruz",
+     8
+    ],
+    [
+     "culturas",
+     8
+    ],
+    [
+     "hijab",
+     8
+    ],
+    [
+     "humano",
+     8
+    ],
+    [
+     "islamico",
+     8
+    ],
+    [
+     "mentir",
+     8
+    ],
+    [
+     "pecado",
+     8
+    ],
+    [
+     "sou",
+     8
+    ],
+    [
+     "vcs",
+     8
+    ],
+    [
+     "bando",
+     7
+    ],
+    [
+     "carima",
+     7
+    ],
+    [
+     "fim",
+     7
+    ]
+   ]
+  },
+  "fabiola-oliveira": {
+   "publicacoes": 2,
+   "universo": null,
+   "lidos": 23,
+   "comentaristas_distintos": 21,
+   "temas": {},
+   "nuvem": [
+    [
+     "cultura",
+     3
+    ],
+    [
+     "sao",
+     3
+    ]
+   ]
+  },
+  "hyatt-omar": {
+   "publicacoes": 5,
+   "universo": null,
+   "lidos": 170,
+   "comentaristas_distintos": 146,
+   "temas": {
+    "gaza_palestina": 1
+   },
+   "nuvem": [
+    [
+     "allah",
+     15
+    ],
+    [
+     "felicidades",
+     12
+    ],
+    [
+     "abencoe",
+     11
+    ],
+    [
+     "mabrouk",
+     11
+    ],
+    [
+     "vestido",
+     11
+    ],
+    [
+     "mashallah",
+     10
+    ],
+    [
+     "parabens",
+     9
+    ],
+    [
+     "princesa",
+     9
+    ],
+    [
+     "alf",
+     8
+    ],
+    [
+     "feliz",
+     8
+    ],
+    [
+     "felicidade",
+     7
+    ],
+    [
+     "linda",
+     7
+    ],
+    [
+     "amiga",
+     6
+    ],
+    [
+     "lindo",
+     6
+    ],
+    [
+     "maravilhosa",
+     6
+    ],
+    [
+     "alf mabrouk",
+     5
+    ],
+    [
+     "allah yhanikon",
+     5
+    ],
+    [
+     "casal",
+     4
+    ],
+    [
+     "compartilhar",
+     4
+    ],
+    [
+     "noivado",
+     4
+    ],
+    [
+     "seja",
+     4
+    ],
+    [
+     "uniao",
+     4
+    ],
+    [
+     "allah abencoe",
+     3
+    ],
+    [
+     "allah yhanikom",
+     3
+    ],
+    [
+     "amei",
+     3
+    ],
+    [
+     "belissima",
+     3
+    ],
+    [
+     "chamo",
+     3
+    ],
+    [
+     "colinha",
+     3
+    ],
+    [
+     "congratulations",
+     3
+    ],
+    [
+     "hyatt",
+     3
+    ],
+    [
+     "lindos",
+     3
+    ],
+    [
+     "love",
+     3
+    ],
+    [
+     "mashaallah",
+     3
+    ],
+    [
+     "vcs",
+     3
+    ]
+   ]
+  },
+  "mariam-chami": {
+   "publicacoes": 21,
+   "universo": null,
+   "lidos": 568,
+   "comentaristas_distintos": 462,
+   "temas": {
+    "gaza_palestina": 2,
+    "islamofobia_preconceito": 4,
+    "israel_guerra": 1
+   },
+   "nuvem": [
+    [
+     "linda",
+     33
+    ],
+    [
+     "amo",
+     25
+    ],
+    [
+     "amei",
+     23
+    ],
+    [
+     "sempre",
+     22
+    ],
+    [
+     "sobre",
+     19
+    ],
+    [
+     "lindo",
+     18
+    ],
+    [
+     "maravilhosa",
+     18
+    ],
+    [
+     "sao",
+     18
+    ],
+    [
+     "mariam",
+     15
+    ],
+    [
+     "familia",
+     14
+    ],
+    [
+     "japao",
+     14
+    ],
+    [
+     "sabia",
+     14
+    ],
+    [
+     "lindos",
+     13
+    ],
+    [
+     "vcs",
+     13
+    ],
+    [
+     "parabens",
+     12
+    ],
+    [
+     "tamaras",
+     12
+    ],
+    [
+     "bom",
+     11
+    ],
+    [
+     "ficou",
+     11
+    ],
+    [
+     "vestido",
+     11
+    ],
+    [
+     "look",
+     10
+    ],
+    [
+     "pais",
+     10
+    ],
+    [
+     "religiao",
+     10
+    ],
+    [
+     "ver",
+     10
+    ],
+    [
+     "fica",
+     9
+    ],
+    [
+     "melhor",
+     9
+    ],
+    [
+     "onde",
+     9
+    ],
+    [
+     "tao",
+     9
+    ],
+    [
+     "adorei",
+     8
+    ],
+    [
+     "belissima",
+     8
+    ],
+    [
+     "brasil",
+     8
+    ],
+    [
+     "casamento",
+     8
+    ],
+    [
+     "demais",
+     8
+    ],
+    [
+     "hijab",
+     8
+    ],
+    [
+     "nome",
+     8
+    ],
+    [
+     "tipos",
+     8
+    ],
+    [
+     "viagem",
+     8
+    ],
+    [
+     "aprender",
+     7
+    ],
+    [
+     "comer",
+     7
+    ],
+    [
+     "conheco",
+     7
+    ],
+    [
+     "feliz",
+     7
+    ]
+   ]
+  }
+ },
+ "por_publicacao": [
+  {
+   "post_id": "DbHXUXKkZm6",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/p/DbHXUXKkZm6/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbJs95_PFUG",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DbJs95_PFUG/",
+   "universo": null,
+   "lidos": 30,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbJtobdRy_T",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbJtobdRy_T/",
+   "universo": null,
+   "lidos": 46,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "gaza_palestina": 1,
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "DbMWx8psBP-",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DbMWx8psBP-/",
+   "universo": null,
+   "lidos": 48,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbMdAixxZ1I",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbMdAixxZ1I/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbOC7LegATx",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbOC7LegATx/",
+   "universo": null,
+   "lidos": 33,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbPG5QqRFAw",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbPG5QqRFAw/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "DbRYBIlv9RY",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DbRYBIlv9RY/",
+   "universo": null,
+   "lidos": 49,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbRj7uLRQrc",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbRj7uLRQrc/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbRmV70lKNO",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbRmV70lKNO/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbT5nlbxoQ1",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbT5nlbxoQ1/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbVQVOGHCql",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.instagram.com/p/DbVQVOGHCql/",
+   "universo": null,
+   "lidos": 8,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbWd7UaRHOX",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbWd7UaRHOX/",
+   "universo": null,
+   "lidos": 45,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbWfTqIPvsX",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DbWfTqIPvsX/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbZXZFWxv0Q",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbZXZFWxv0Q/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Dbb2wn1sIRv",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/Dbb2wn1sIRv/",
+   "universo": null,
+   "lidos": 47,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "gaza_palestina": 2,
+    "israel_guerra": 1,
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "Dbb6xCOx3Q-",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/Dbb6xCOx3Q-/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbeSsn3RtkS",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbeSsn3RtkS/",
+   "universo": null,
+   "lidos": 47,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Dbg6ndrRQMu",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/Dbg6ndrRQMu/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbmFHJLzd3a",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbmFHJLzd3a/",
+   "universo": null,
+   "lidos": 39,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "islamofobia_preconceito": 1,
+    "gaza_palestina": 1,
+    "israel_guerra": 1
+   }
+  },
+  {
+   "post_id": "DboeyxvzQqf",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DboeyxvzQqf/",
+   "universo": null,
+   "lidos": 46,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Dbot2E6TnnX",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/Dbot2E6TnnX/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbrWQxOE2sH",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/p/DbrWQxOE2sH/",
+   "universo": null,
+   "lidos": 0,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbsyX_NkV3F",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbsyX_NkV3F/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbtlFrRj3pu",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbtlFrRj3pu/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "gaza_palestina": 2,
+    "islamofobia_preconceito": 2
+   }
+  },
+  {
+   "post_id": "DbtyEacE5Yc",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/p/DbtyEacE5Yc/",
+   "universo": null,
+   "lidos": 47,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbvlOUwgDj_",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DbvlOUwgDj_/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbwWM9kzW_r",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbwWM9kzW_r/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "DbwdPp6lLKp",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbwdPp6lLKp/",
+   "universo": null,
+   "lidos": 10,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbyCMujlg3p",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.instagram.com/p/DbyCMujlg3p/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbyE0aGkcup",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DbyE0aGkcup/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DbyzdPIzZYZ",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/DbyzdPIzZYZ/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db0s8ZylqhA",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.instagram.com/p/Db0s8ZylqhA/",
+   "universo": null,
+   "lidos": 34,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db03svjoN_p",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/Db03svjoN_p/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db039golAkZ",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/Db039golAkZ/",
+   "universo": null,
+   "lidos": 17,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db1l6CpM21G",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/Db1l6CpM21G/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db36X8lqyHi",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.instagram.com/reel/Db36X8lqyHi/",
+   "universo": null,
+   "lidos": 35,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db4OdeuGIIo",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.instagram.com/p/Db4OdeuGIIo/",
+   "universo": null,
+   "lidos": 49,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db6nddQDzJM",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/Db6nddQDzJM/",
+   "universo": null,
+   "lidos": 49,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db60Xy3kxjn",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/p/Db60Xy3kxjn/",
+   "universo": null,
+   "lidos": 26,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db9KEJDzlwS",
+   "ator_id": "mariam-chami",
+   "url": "https://www.instagram.com/reel/Db9KEJDzlwS/",
+   "universo": null,
+   "lidos": 35,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db9du_bsn0a",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/Db9du_bsn0a/",
+   "universo": null,
+   "lidos": 49,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db-pjXLEZIh",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/Db-pjXLEZIh/",
+   "universo": null,
+   "lidos": 27,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db_s0DJMWcB",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.instagram.com/reel/Db_s0DJMWcB/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "Db_2H9wKrSh",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.instagram.com/reel/Db_2H9wKrSh/",
+   "universo": null,
+   "lidos": 18,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "gaza_palestina": 1
+   }
+  },
+  {
+   "post_id": "DcBMXflEXyo",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/p/DcBMXflEXyo/",
+   "universo": null,
+   "lidos": 49,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DcBoj4SRk_2",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DcBoj4SRk_2/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {}
+  },
+  {
+   "post_id": "DcCVAKmvL23",
+   "ator_id": "carima-orra",
+   "url": "https://www.instagram.com/reel/DcCVAKmvL23/",
+   "universo": null,
+   "lidos": 15,
+   "cobertura": "⛔ universo não informado",
+   "temas": {
+    "islamofobia_preconceito": 2
+   }
+  }
+ ],
+ "execucao": {
+  "run_apify": "jJb0CZtq1zQ04ggPU",
+  "itens_recebidos": 1576,
+  "custo_usd": 2.4428,
+  "cap_usd": 3.6
+ },
+ "erros": []
+}

@@ -1,0 +1,784 @@
+{
+ "rede": "tiktok",
+ "gerado_em": "2026-11-22T21:22:35Z",
+ "run_id": "45071626874",
+ "janela": "núcleo",
+ "metodo": "Uso: python scripts/collect_comentarios.py --rede youtube|instagram|tiktok [--por-post 50] Universo por publicação = número de comentários que a plataforma informa no acervo de posts (YouTube e TikTok); o\nInstagram não informou (⛔). Lido = comentários recebidos. Cobertura \"completa\" só quando lido ≥ universo.",
+ "temas_procurados": {
+  "acordo_hamas": [
+   "hamas",
+   "desarma*",
+   "acordo de paz",
+   "acordo de cessar",
+   "cessar-fogo",
+   "cessar fogo",
+   "tregua",
+   "حماس",
+   "نزع السلاح"
+  ],
+  "gaza_palestina": [
+   "gaza",
+   "palestin*",
+   "faixa de gaza",
+   "cisjordania",
+   "genocid*",
+   "free palestine",
+   "غزة",
+   "فلسطين",
+   "🍉",
+   "🇵🇸"
+  ],
+  "israel_guerra": [
+   "israel*",
+   "sionis*",
+   "netanyahu",
+   "guerra",
+   "bombarde*",
+   "refem",
+   "refens",
+   "ocupacao"
+  ],
+  "islamofobia_preconceito": [
+   "islamofob*",
+   "preconceito",
+   "terroris*",
+   "mulher bomba",
+   "xenofob*",
+   "racismo",
+   "discrimina*",
+   "intoleran*",
+   "odio"
+  ]
+ },
+ "por_influenciadora": {
+  "carima-orra": {
+   "publicacoes": 3,
+   "universo": 908,
+   "lidos": 57,
+   "comentaristas_distintos": 57,
+   "temas": {
+    "islamofobia_preconceito": 7
+   },
+   "nuvem": [
+    [
+     "hijab",
+     8
+    ],
+    [
+     "mulher",
+     7
+    ],
+    [
+     "mulheres",
+     7
+    ],
+    [
+     "brasil",
+     5
+    ],
+    [
+     "final",
+     5
+    ],
+    [
+     "homens",
+     5
+    ],
+    [
+     "mulher bomba",
+     5
+    ],
+    [
+     "religiao",
+     5
+    ],
+    [
+     "roupa",
+     5
+    ],
+    [
+     "confortavel",
+     4
+    ],
+    [
+     "usar",
+     4
+    ],
+    [
+     "assustador",
+     3
+    ],
+    [
+     "desrespeitoso",
+     3
+    ],
+    [
+     "dizer",
+     3
+    ],
+    [
+     "homem",
+     3
+    ],
+    [
+     "linda",
+     3
+    ],
+    [
+     "moca",
+     3
+    ],
+    [
+     "pergunta",
+     3
+    ]
+   ]
+  },
+  "fabiola-oliveira": {
+   "publicacoes": 4,
+   "universo": 210,
+   "lidos": 103,
+   "comentaristas_distintos": 101,
+   "temas": {
+    "islamofobia_preconceito": 7
+   },
+   "nuvem": [
+    [
+     "filme",
+     8
+    ],
+    [
+     "muculmano",
+     8
+    ],
+    [
+     "nunca",
+     8
+    ],
+    [
+     "pessoas",
+     8
+    ],
+    [
+     "religiao",
+     8
+    ],
+    [
+     "mulher",
+     7
+    ],
+    [
+     "lacracao",
+     6
+    ],
+    [
+     "sim",
+     6
+    ],
+    [
+     "branco",
+     5
+    ],
+    [
+     "grecia",
+     5
+    ],
+    [
+     "odisseia",
+     5
+    ],
+    [
+     "racismo",
+     5
+    ],
+    [
+     "sempre",
+     5
+    ],
+    [
+     "brancos",
+     4
+    ],
+    [
+     "helena",
+     4
+    ],
+    [
+     "jovem",
+     4
+    ],
+    [
+     "muculmanos",
+     4
+    ],
+    [
+     "mundo",
+     4
+    ],
+    [
+     "olhos",
+     4
+    ],
+    [
+     "pior",
+     4
+    ],
+    [
+     "problema",
+     4
+    ],
+    [
+     "reclamam",
+     4
+    ],
+    [
+     "sao",
+     4
+    ],
+    [
+     "sendo",
+     4
+    ],
+    [
+     "somos",
+     4
+    ],
+    [
+     "tempo",
+     4
+    ],
+    [
+     "ver",
+     4
+    ],
+    [
+     "yamal",
+     4
+    ],
+    [
+     "amei",
+     3
+    ],
+    [
+     "cristaos",
+     3
+    ],
+    [
+     "esposa",
+     3
+    ],
+    [
+     "etc",
+     3
+    ],
+    [
+     "exemplo",
+     3
+    ],
+    [
+     "familia",
+     3
+    ],
+    [
+     "isla",
+     3
+    ],
+    [
+     "jesus",
+     3
+    ],
+    [
+     "lamine",
+     3
+    ],
+    [
+     "mal",
+     3
+    ],
+    [
+     "mulheres",
+     3
+    ],
+    [
+     "negra",
+     3
+    ]
+   ]
+  },
+  "hyatt-omar": {
+   "publicacoes": 4,
+   "universo": 60,
+   "lidos": 49,
+   "comentaristas_distintos": 43,
+   "temas": {
+    "gaza_palestina": 1
+   },
+   "nuvem": [
+    [
+     "parabens",
+     9
+    ],
+    [
+     "alf",
+     5
+    ],
+    [
+     "alf mabrook",
+     3
+    ],
+    [
+     "cultura",
+     3
+    ]
+   ]
+  },
+  "mariam-chami": {
+   "publicacoes": 17,
+   "universo": 3417,
+   "lidos": 741,
+   "comentaristas_distintos": 700,
+   "temas": {
+    "islamofobia_preconceito": 7
+   },
+   "nuvem": [
+    [
+     "usar",
+     57
+    ],
+    [
+     "linda",
+     55
+    ],
+    [
+     "vestido",
+     48
+    ],
+    [
+     "religiao",
+     39
+    ],
+    [
+     "lindo",
+     36
+    ],
+    [
+     "mulheres",
+     35
+    ],
+    [
+     "mulher",
+     34
+    ],
+    [
+     "sao",
+     33
+    ],
+    [
+     "sempre",
+     31
+    ],
+    [
+     "hijab",
+     30
+    ],
+    [
+     "sapato",
+     26
+    ],
+    [
+     "brasil",
+     23
+    ],
+    [
+     "maravilhosa",
+     23
+    ],
+    [
+     "usa",
+     23
+    ],
+    [
+     "sou",
+     22
+    ],
+    [
+     "escolha",
+     21
+    ],
+    [
+     "aconteceu",
+     19
+    ],
+    [
+     "amei",
+     19
+    ],
+    [
+     "bolsa",
+     18
+    ],
+    [
+     "cola",
+     17
+    ],
+    [
+     "onde",
+     17
+    ],
+    [
+     "pessoas",
+     17
+    ],
+    [
+     "sobre",
+     17
+    ],
+    [
+     "tempo",
+     17
+    ],
+    [
+     "bom",
+     16
+    ],
+    [
+     "ficou",
+     15
+    ],
+    [
+     "mariam",
+     15
+    ],
+    [
+     "muculmanas",
+     15
+    ],
+    [
+     "pais",
+     15
+    ],
+    [
+     "comigo",
+     14
+    ],
+    [
+     "diva",
+     14
+    ],
+    [
+     "japao",
+     14
+    ],
+    [
+     "nunca",
+     14
+    ],
+    [
+     "ver",
+     14
+    ],
+    [
+     "roupa",
+     13
+    ],
+    [
+     "sim",
+     13
+    ],
+    [
+     "vida",
+     13
+    ],
+    [
+     "familia",
+     12
+    ],
+    [
+     "maravilhoso",
+     12
+    ],
+    [
+     "paises",
+     12
+    ]
+   ]
+  }
+ },
+ "por_publicacao": [
+  {
+   "post_id": "7665859042501348616",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.tiktok.com/@fabiolaoliver/video/7665859042501348616",
+   "universo": 124,
+   "lidos": 49,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "7666248732865826066",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.tiktok.com/@fabiolaoliver/video/7666248732865826066",
+   "universo": 13,
+   "lidos": 8,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "7666475363429600519",
+   "ator_id": "carima-orra",
+   "url": "https://www.tiktok.com/@carimaorra1/video/7666475363429600519",
+   "universo": 3,
+   "lidos": 3,
+   "cobertura": "completa",
+   "temas": {}
+  },
+  {
+   "post_id": "7666628701051768071",
+   "ator_id": "carima-orra",
+   "url": "https://www.tiktok.com/@carimaorra1/video/7666628701051768071",
+   "universo": 7,
+   "lidos": 4,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7667291040415517970",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667291040415517970",
+   "universo": 609,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7667297399836069138",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667297399836069138",
+   "universo": 285,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
+  },
+  {
+   "post_id": "7667308226269990162",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667308226269990162",
+   "universo": 292,
+   "lidos": 49,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 2
+   }
+  },
+  {
+   "post_id": "7667312131829697799",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667312131829697799",
+   "universo": 363,
+   "lidos": 40,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7667331640099687698",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667331640099687698",
+   "universo": 186,
+   "lidos": 42,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 4
+   }
+  },
+  {
+   "post_id": "7667340944013790482",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.tiktok.com/@fabiolaoliver/video/7667340944013790482",
+   "universo": 6,
+   "lidos": 5,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7667611237559110930",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667611237559110930",
+   "universo": 53,
+   "lidos": 38,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7667708180964674834",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7667708180964674834",
+   "universo": 61,
+   "lidos": 41,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7668429900310744327",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7668429900310744327",
+   "universo": 65,
+   "lidos": 48,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7668825304181378322",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7668825304181378322",
+   "universo": 134,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7668831789086936338",
+   "ator_id": "fabiola-oliveira",
+   "url": "https://www.tiktok.com/@fabiolaoliver/video/7668831789086936338",
+   "universo": 67,
+   "lidos": 41,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 5
+   }
+  },
+  {
+   "post_id": "7668850207710301447",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7668850207710301447",
+   "universo": 324,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7668879587547319560",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7668879587547319560",
+   "universo": 36,
+   "lidos": 24,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7668897621058030855",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7668897621058030855",
+   "universo": 443,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7669139336394312968",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7669139336394312968",
+   "universo": 90,
+   "lidos": 43,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7669196671422663943",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7669196671422663943",
+   "universo": 180,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7670314889700773127",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7670314889700773127",
+   "universo": 63,
+   "lidos": 38,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7670328283950550280",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7670328283950550280",
+   "universo": 202,
+   "lidos": 49,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7670635116875582738",
+   "ator_id": "mariam-chami",
+   "url": "https://www.tiktok.com/@mariamchami1/video/7670635116875582738",
+   "universo": 31,
+   "lidos": 29,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7671671431075335444",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.tiktok.com/@hyattomar/video/7671671431075335444",
+   "universo": 15,
+   "lidos": 15,
+   "cobertura": "completa",
+   "temas": {}
+  },
+  {
+   "post_id": "7672493906650713364",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.tiktok.com/@hyattomar/video/7672493906650713364",
+   "universo": 11,
+   "lidos": 8,
+   "cobertura": "amostra",
+   "temas": {}
+  },
+  {
+   "post_id": "7672510412046224660",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.tiktok.com/@hyattomar/video/7672510412046224660",
+   "universo": 30,
+   "lidos": 22,
+   "cobertura": "amostra",
+   "temas": {
+    "gaza_palestina": 1
+   }
+  },
+  {
+   "post_id": "7673652819383127317",
+   "ator_id": "hyatt-omar",
+   "url": "https://www.tiktok.com/@hyattomar/video/7673652819383127317",
+   "universo": 4,
+   "lidos": 4,
+   "cobertura": "completa",
+   "temas": {}
+  },
+  {
+   "post_id": "7674013930687122706",
+   "ator_id": "carima-orra",
+   "url": "https://www.tiktok.com/@carimaorra1/video/7674013930687122706",
+   "universo": 898,
+   "lidos": 50,
+   "cobertura": "amostra",
+   "temas": {
+    "islamofobia_preconceito": 7
+   }
+  }
+ ],
+ "execucao": {
+  "run_apify": "wUPuwZuXpHInlVCAL",
+  "itens_recebidos": 960,
+  "custo_usd": 1.1787,
+  "cap_usd": 1.2
+ },
+ "erros": []
+}
