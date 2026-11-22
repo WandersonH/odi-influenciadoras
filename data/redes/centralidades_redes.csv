@@ -4,18 +4,8 @@ redes,marcacoes,grau ponderado,2,Hyatt Omar,58.0,2
 redes,marcacoes,grau ponderado,3,#viagem,30.0,1
 redes,marcacoes,grau ponderado,4,Carima Orra,20.0,3
 redes,marcacoes,grau ponderado,5,#muculmanos,17.0,1
-redes,marcacoes,PageRank,1,Mariam Chami,0.302349,1
-redes,marcacoes,PageRank,2,Hyatt Omar,0.121776,2
-redes,marcacoes,PageRank,3,#viagem,0.037908,1
-redes,marcacoes,PageRank,4,Carima Orra,0.037732,3
-redes,marcacoes,PageRank,5,#muculmanos,0.02237,1
 redes,marcacoes,intermediação (betweenness),1,Mariam Chami,0.836948,1
 redes,marcacoes,intermediação (betweenness),2,Hyatt Omar,0.375761,2
 redes,marcacoes,intermediação (betweenness),3,Carima Orra,0.106925,3
-redes,marcacoes,intermediação (betweenness),4,#naturaessencialsafran,0.030441,3
-redes,marcacoes,intermediação (betweenness),5,@naturabroficial,0.030441,3
-redes,marcacoes,autovetor (eigenvector),1,Mariam Chami,0.706971,1
-redes,marcacoes,autovetor (eigenvector),2,#viagem,0.460225,1
-redes,marcacoes,autovetor (eigenvector),3,#muculmanos,0.260794,1
-redes,marcacoes,autovetor (eigenvector),4,#mariamnohajj,0.230112,1
-redes,marcacoes,autovetor (eigenvector),5,#curiosidades,0.153408,1
+redes,marcacoes,intermediação (betweenness),4,@naturabroficial,0.030441,3
+redes,marcacoes,intermediação (betweenness),5,#naturaessencialsafran,0.030441,3
