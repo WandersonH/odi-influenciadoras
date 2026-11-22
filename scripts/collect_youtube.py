@@ -282,7 +282,10 @@ def main():
     }
     nome = "youtube_" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + ".json"
     (RAIZ / "data/manifest").mkdir(parents=True, exist_ok=True)
-    (RAIZ / "data/manifest" / nome).write_text(json.dumps(manifesto, ensure_ascii=False, indent=1), encoding="utf-8")
+    texto_manifesto = json.dumps(manifesto, ensure_ascii=False, indent=1)
+    (RAIZ / "data/manifest" / nome).write_text(texto_manifesto, encoding="utf-8")
+    # cópia de nome fixo para a página ler (a página estática não lista pastas)
+    (RAIZ / "data/manifest/youtube_latest.json").write_text(texto_manifesto, encoding="utf-8")
     print(f"YouTube: {len(por_ator)} perfis; {novos} vídeos novos ({total} no acervo); "
           f"cota ~{api.unidades} unidades; {len(erros)} erro(s); manifesto {nome}")
     return 0
