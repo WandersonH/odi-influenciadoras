@@ -1,6 +1,6 @@
 {
- "run_id": "45062821933",
- "gerado_em": "2026-11-22T19:48:29Z",
+ "run_id": "45062903853",
+ "gerado_em": "2026-11-22T19:49:20Z",
  "janelas": {
   "base": {
    "inicio": "2026-06-01T00:00:00Z",
@@ -14,26 +14,105 @@
   }
  },
  "custo_usd": 0,
- "cota_unidades_estimadas": 404,
+ "cota_unidades_estimadas": 612,
  "chamadas": {
   "channels.list": 4,
-  "search.list": 4
+  "playlistItems.list": 6,
+  "videos.list": 2,
+  "search.list": 6
  },
- "atores": [],
- "terceiros": [],
- "terceiros_destino": "não gravado",
+ "atores": [
+  {
+   "ator": "mariam-chami",
+   "canal": "Mariam Chami",
+   "canal_id": "UCxWW2GA5GDRJ7AXiauZVnkA",
+   "universo_canal": 2036,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 71,
+   "lidos_nucleo": 16,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 3
+  },
+  {
+   "ator": "hyatt-omar",
+   "canal": "Hyatt Omar",
+   "canal_id": "UCfUwhY2eJ0EmTn3vdaUhbSw",
+   "universo_canal": 5,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1
+  },
+  {
+   "ator": "carima-orra",
+   "canal": "Carima Orra",
+   "canal_id": "UCDQSIfUd7W7alJtCkl-rDwQ",
+   "universo_canal": 32,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "canal": "fabiola",
+   "canal_id": "UCa7KOBkF-se1jp1AKZTy8Ow",
+   "universo_canal": 145,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1
+  }
+ ],
+ "terceiros": [
+  {
+   "ator": "mariam-chami",
+   "termo": "\"Mariam Chami\"",
+   "janela": "núcleo",
+   "lidos": 5,
+   "paginas": 1,
+   "estimativa_api": 96,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "hyatt-omar",
+   "termo": "\"Hyatt Omar\"",
+   "janela": "núcleo",
+   "lidos": 50,
+   "paginas": 2,
+   "estimativa_api": 1401,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "carima-orra",
+   "termo": "\"Carima Orra\"",
+   "janela": "núcleo",
+   "lidos": 2,
+   "paginas": 1,
+   "estimativa_api": 16,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "termo": "\"Fabíola Oliveira\"",
+   "janela": "núcleo",
+   "lidos": 93,
+   "paginas": 2,
+   "estimativa_api": 279,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  }
+ ],
+ "terceiros_destino": "repositório privado",
  "videos_gravados": {
-  "novos": 0,
-  "total_no_acervo": 0
+  "novos": 87,
+  "total_no_acervo": 87
  },
- "erros": [
-  "mariam-chami: channels.list: HTTP 404 ",
-  "hyatt-omar: channels.list: HTTP 404 ",
-  "carima-orra: channels.list: HTTP 404 ",
-  "fabiola-oliveira: channels.list: HTTP 404 ",
-  "terceiros mariam-chami: search.list: HTTP 404 ",
-  "terceiros hyatt-omar: search.list: HTTP 404 ",
-  "terceiros carima-orra: search.list: HTTP 404 ",
-  "terceiros fabiola-oliveira: search.list: HTTP 404 "
- ]
+ "erros": []
 }
