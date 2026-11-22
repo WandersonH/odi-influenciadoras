@@ -1,80 +1,17 @@
 {
  "rede": "youtube",
  "janela": "nucleo",
- "run_id": "45065517835",
- "gerado_em": "2026-11-22T20:17:42Z",
+ "run_id": "45068995637",
+ "gerado_em": "2026-11-22T20:59:27Z",
  "modelo": "small",
  "custo_usd": 0,
  "universo_videos": 16,
  "publicacoes_sem_video": 0,
- "transcritos": 0,
- "novos_nesta_execucao": 0,
- "falhas": [
-  {
-   "post_id": "3LrfrJ1dqSU",
-   "motivo": "download: ERROR: [youtube] 3LrfrJ1dqSU: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "-FmjzKCM1oI",
-   "motivo": "download: ERROR: [youtube] -FmjzKCM1oI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "CdDwtrUqdyw",
-   "motivo": "download: ERROR: [youtube] CdDwtrUqdyw: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "ksA1velHT0g",
-   "motivo": "download: ERROR: [youtube] ksA1velHT0g: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "SEruKLf1gGc",
-   "motivo": "download: ERROR: [youtube] SEruKLf1gGc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "2ynx5nKfx5Y",
-   "motivo": "download: ERROR: [youtube] 2ynx5nKfx5Y: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "gx0zZUsxHI0",
-   "motivo": "download: ERROR: [youtube] gx0zZUsxHI0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "JZoo0BGf6uI",
-   "motivo": "download: ERROR: [youtube] JZoo0BGf6uI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "OAMEao-4gns",
-   "motivo": "download: ERROR: [youtube] OAMEao-4gns: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "c1f0vs5ygVQ",
-   "motivo": "download: ERROR: [youtube] c1f0vs5ygVQ: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "nfalbVp3Hq0",
-   "motivo": "download: ERROR: [youtube] nfalbVp3Hq0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "90PLqvk_D_o",
-   "motivo": "download: ERROR: [youtube] 90PLqvk_D_o: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "-5FTohs6zHI",
-   "motivo": "download: ERROR: [youtube] -5FTohs6zHI: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "clrKQDhxuoc",
-   "motivo": "download: ERROR: [youtube] clrKQDhxuoc: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "CPlUhw9v01k",
-   "motivo": "download: ERROR: [youtube] CPlUhw9v01k: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  },
-  {
-   "post_id": "rX_OgbYS8qg",
-   "motivo": "download: ERROR: [youtube] rX_OgbYS8qg: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-d"
-  }
- ],
+ "transcritos": 16,
+ "novos_nesta_execucao": 16,
+ "falhas": [],
  "parou_por_tempo": false,
- "fontes": []
+ "fontes": [
+  "Whisper small (faster-whisper, CPU) · áudio baixado pelo responsável no próprio computador"
+ ]
 }
