@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-22T23:11:26Z",
+ "gerado_em_utc": "2026-11-22T23:22:09Z",
  "metodo": "Para cada publicação do núcleo:  índice = interações da publicação ÷ mediana das interações da MESMA influenciadora,\nna MESMA rede, na linha de base (01/06 a 22/07/2026). Acima de 1, rendeu mais que o habitual dela naquela rede.",
  "grupos": [
   {
@@ -154,9 +154,9 @@
    "post_id": "3LrfrJ1dqSU",
    "url": "https://www.youtube.com/watch?v=3LrfrJ1dqSU",
    "publicado_em": "2026-07-23T00:00:00Z",
-   "interacoes": 25675,
-   "visualizacoes": 227781,
-   "indice": 56.3,
+   "interacoes": 25676,
+   "visualizacoes": 227778,
+   "indice": 56.31,
    "texto": ""
   },
   {
@@ -1046,7 +1046,7 @@
    "url": "https://www.youtube.com/watch?v=CPlUhw9v01k",
    "publicado_em": "2026-08-12T22:52:18Z",
    "interacoes": 5135,
-   "visualizacoes": 45465,
+   "visualizacoes": 45470,
    "indice": 11.26,
    "texto": ""
   },

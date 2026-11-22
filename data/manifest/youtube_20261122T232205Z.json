@@ -1,0 +1,136 @@
+{
+ "run_id": "45082856345",
+ "gerado_em": "2026-11-22T23:22:00Z",
+ "janelas": {
+  "base": {
+   "inicio": "2026-06-01T00:00:00Z",
+   "fim": "2026-07-22T23:59:59Z",
+   "papel": "linha de base: mediana das interações por influenciadora e rede, para o índice de engajamento relativo"
+  },
+  "nucleo": {
+   "inicio": "2026-07-23T00:00:00Z",
+   "fim": "2026-08-14T23:59:59Z",
+   "papel": "janela do evento; menções de terceiros só aqui"
+  }
+ },
+ "custo_usd": 0,
+ "cota_unidades_estimadas": 612,
+ "chamadas": {
+  "channels.list": 4,
+  "playlistItems.list": 6,
+  "videos.list": 2,
+  "search.list": 6
+ },
+ "atores": [
+  {
+   "ator": "mariam-chami",
+   "canal": "Mariam Chami",
+   "canal_id": "UCxWW2GA5GDRJ7AXiauZVnkA",
+   "universo_canal": 2037,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 71,
+   "lidos_nucleo": 16,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 3,
+   "ultimo_video_em": "2026-11-22T22:00:00Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
+  },
+  {
+   "ator": "hyatt-omar",
+   "canal": "Hyatt Omar",
+   "canal_id": "UCfUwhY2eJ0EmTn3vdaUhbSw",
+   "universo_canal": 5,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1,
+   "ultimo_video_em": "2020-08-11T21:01:28Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
+  },
+  {
+   "ator": "carima-orra",
+   "canal": "Carima Orra",
+   "canal_id": "UCDQSIfUd7W7alJtCkl-rDwQ",
+   "universo_canal": 32,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1,
+   "ultimo_video_em": "2025-11-10T19:52:15Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "canal": "fabiola",
+   "canal_id": "UCa7KOBkF-se1jp1AKZTy8Ow",
+   "universo_canal": 145,
+   "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
+   "lidos_base": 0,
+   "lidos_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial da janela base)",
+   "paginas": 1,
+   "ultimo_video_em": "2026-03-05T16:49:58Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
+  }
+ ],
+ "terceiros": [
+  {
+   "ator": "mariam-chami",
+   "termo": "\"Mariam Chami\"",
+   "janela": "núcleo",
+   "lidos": 5,
+   "paginas": 1,
+   "estimativa_api": 96,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "hyatt-omar",
+   "termo": "\"Hyatt Omar\"",
+   "janela": "núcleo",
+   "lidos": 0,
+   "paginas": 1,
+   "estimativa_api": 0,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "carima-orra",
+   "termo": "\"Carima Orra\"",
+   "janela": "núcleo",
+   "lidos": 2,
+   "paginas": 1,
+   "estimativa_api": 16,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "termo": "\"Fabíola Oliveira\"",
+   "janela": "núcleo",
+   "lidos": 93,
+   "paginas": 2,
+   "estimativa_api": 279,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "termo": "\"Fabiola Oliver\"",
+   "janela": "núcleo",
+   "lidos": 0,
+   "paginas": 1,
+   "estimativa_api": 0,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
+  }
+ ],
+ "terceiros_destino": "repositório privado",
+ "videos_gravados": {
+  "novos": 0,
+  "total_no_acervo": 87
+ },
+ "erros": []
+}

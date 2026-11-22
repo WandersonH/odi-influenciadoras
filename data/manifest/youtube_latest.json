@@ -1,6 +1,6 @@
 {
- "run_id": "45081857459",
- "gerado_em": "2026-11-22T23:11:18Z",
+ "run_id": "45082856345",
+ "gerado_em": "2026-11-22T23:22:00Z",
  "janelas": {
   "base": {
    "inicio": "2026-06-01T00:00:00Z",
@@ -31,7 +31,9 @@
    "lidos_base": 71,
    "lidos_nucleo": 16,
    "cobertura": "completa (parou pela data inicial da janela base)",
-   "paginas": 3
+   "paginas": 3,
+   "ultimo_video_em": "2026-11-22T22:00:00Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
   },
   {
    "ator": "hyatt-omar",
@@ -42,7 +44,9 @@
    "lidos_base": 0,
    "lidos_nucleo": 0,
    "cobertura": "completa (parou pela data inicial da janela base)",
-   "paginas": 1
+   "paginas": 1,
+   "ultimo_video_em": "2020-08-11T21:01:28Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
   },
   {
    "ator": "carima-orra",
@@ -53,7 +57,9 @@
    "lidos_base": 0,
    "lidos_nucleo": 0,
    "cobertura": "completa (parou pela data inicial da janela base)",
-   "paginas": 1
+   "paginas": 1,
+   "ultimo_video_em": "2025-11-10T19:52:15Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
   },
   {
    "ator": "fabiola-oliveira",
@@ -64,7 +70,9 @@
    "lidos_base": 0,
    "lidos_nucleo": 0,
    "cobertura": "completa (parou pela data inicial da janela base)",
-   "paginas": 1
+   "paginas": 1,
+   "ultimo_video_em": "2026-03-05T16:49:58Z",
+   "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)"
   }
  ],
  "terceiros": [
