@@ -49,6 +49,7 @@ def tipo_mencao(texto: str, nome: str, handle: str) -> str:
 
 def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--ator", default=ATOR, help="xquik~x-tweet-scraper (padrão) ou apidojo~tweet-scraper (busca histórica com since:/until: na própria busca)")
     ap.add_argument("--com-datas", action="store_true", help="período do núcleo nos campos since/until do ator")
     ap.add_argument("--max-por-influenciadora", type=int, default=600, help="itens por busca (2 buscas por influenciadora)")
     a = ap.parse_args(argv)
@@ -76,12 +77,17 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     erros, itens, custo, run_id = [], [], 0.0, None
     try:
         termos = [q for v in qs.values() for q in v]
+        if a.ator.startswith("apidojo~"):
+            until = (date.fromisoformat(nuc["fim"][:10]) + timedelta(days=1)).isoformat()
+            termos = [f"{q} since:{nuc['inicio'][:10]} until:{until}" for q in termos]
         pedido = {"searchTerms": termos, "maxItems": a.max_por_influenciadora * len(termos),
                   "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest"}
-        if a.com_datas:  # período nos campos do ator, buscas separadas (sem OR)
+        if a.ator.startswith("apidojo~"):
+            pedido = {"searchTerms": termos, "maxItems": a.max_por_influenciadora * len(alvos), "sort": "Latest"}
+        elif a.com_datas:  # período nos campos do ator, buscas separadas (sem OR)
             pedido["since"] = nuc["inicio"][:10]
             pedido["until"] = (date.fromisoformat(nuc["fim"][:10]) + timedelta(days=1)).isoformat()
-        run, itens = executar(ATOR, pedido, cap)
+        run, itens = executar(a.ator, pedido, cap)
         custo, run_id = apify.custo_run(run), run.get("id")
     except apify.ErroDepoisDaExecucao as e:
         custo = apify.custo_run(e.run)
@@ -133,7 +139,7 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
         w.writeheader()
         w.writerows(sorted(existentes.values(), key=lambda r: (r["ator_id"], r["publicado_em"])))
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
-    man = {"rede": "x", "etapa": ETAPA, "tipo": "menções de terceiros", "ator": ATOR, "run_apify": run_id,
+    man = {"rede": "x", "etapa": ETAPA, "tipo": "menções de terceiros", "ator": a.ator, "run_apify": run_id,
            "run_id": os.environ.get("GITHUB_RUN_ID", "local"), "gerado_em": agora, "janela": "núcleo",
            "itens_recebidos": len(itens), "cap_por_execucao_usd": cap, "custo_usd": custo, "influenciadoras": resumo,
            "destino_texto_e_autor": "repositório privado (data/terceiros/x_mencoes.csv)", "erros": erros}

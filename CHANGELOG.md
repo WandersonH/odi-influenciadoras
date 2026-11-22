@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: menções no X — teste do apidojo~tweet-scraper
+
+**Contexto.** Com o período nos campos since/until (run 45077239872), o xquik devolveu de novo só 2 itens. Sem datas, devolve as menções recentes, mas não chega ao núcleo.
+
+**O que mudou.** `collect_terceiros_x.py --ator apidojo~tweet-scraper` põe `since:2026-07-23 until:2026-08-15` dentro de cada busca separada (nome; @), `sort: Latest`, até 600 por influenciadora. Preço da loja: US$ 0,40 por mil tweets, mínimo de 50 por busca. Teto de US$ 0,50 por execução, na etapa de terceiros. Pedido do responsável às 19h23.
+
 ## 22/11/2026: menções no X sem datas (run 45076755782) e nova tentativa com datas
 
 **Resultado.** Busca separada por nome e por @, sem datas: 1.716 itens, US$ 0,26. Mencionam as influenciadoras: Mariam 313, Hyatt 651, Carima 34, Fabíola 126. Só 1 está no núcleo. A leitura vai do mais recente para trás e, ao que parece, não chegou a julho e agosto. O manifesto passa a registrar o período lido por influenciadora.

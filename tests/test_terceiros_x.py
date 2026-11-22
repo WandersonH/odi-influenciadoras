@@ -49,6 +49,16 @@ class TestTerceirosX(unittest.TestCase):
         with (self.priv / "data/terceiros/x_mencoes.csv").open(encoding="utf-8") as f:
             self.assertEqual({r["autor"] for r in csv.DictReader(f)}, {"fulano", "outra"})
 
+    def test_apidojo_poe_datas_na_busca(self):
+        import os
+        from unittest import mock
+        pedidos = []
+        with mock.patch.dict(os.environ, {"INFL_INTERNO_DIR": str(self.priv)}):
+            tx3.main(["--ator", "apidojo~tweet-scraper"], raiz=self.tmp, executar=lambda a, p, c: pedidos.append((a, p)) or ({"id": "r"}, []))
+        self.assertEqual(pedidos[0][0], "apidojo~tweet-scraper")
+        self.assertIn('"Mariam Chami" -from:eumariamchami -filter:retweets since:2026-07-23 until:2026-08-15', pedidos[0][1]["searchTerms"])
+        self.assertEqual(pedidos[0][1]["sort"], "Latest")
+
     def test_sem_privado_nao_roda(self):
         import os
         from unittest import mock
