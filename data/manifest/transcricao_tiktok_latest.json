@@ -1,128 +1,17 @@
 {
  "rede": "tiktok",
  "janela": "nucleo",
- "run_id": "45065082432",
- "gerado_em": "2026-11-22T20:13:57Z",
+ "run_id": "45065517835",
+ "gerado_em": "2026-11-22T20:24:47Z",
  "modelo": "small",
  "custo_usd": 0,
  "universo_videos": 28,
  "publicacoes_sem_video": 0,
- "transcritos": 0,
- "novos_nesta_execucao": 0,
- "falhas": [
-  {
-   "post_id": "7665859042501348616",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7666248732865826066",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7666475363429600519",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7666628701051768071",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667291040415517970",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667297399836069138",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667308226269990162",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667312131829697799",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667331640099687698",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667340944013790482",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667611237559110930",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7667708180964674834",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668429900310744327",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668825304181378322",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668831789086936338",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668850207710301447",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668879587547319560",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7668897621058030855",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7669139336394312968",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7669196671422663943",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7670314889700773127",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7670328283950550280",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7670635116875582738",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7671671431075335444",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7672493906650713364",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7672510412046224660",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7673652819383127317",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "7674013930687122706",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  }
- ],
+ "transcritos": 28,
+ "novos_nesta_execucao": 28,
+ "falhas": [],
  "parou_por_tempo": false,
- "fontes": []
+ "fontes": [
+  "Whisper small (faster-whisper, CPU)"
+ ]
 }
