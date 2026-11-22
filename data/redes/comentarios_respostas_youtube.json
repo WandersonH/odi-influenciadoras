@@ -1,16 +1,2749 @@
 {
- "gerado_em": "2026-11-22T23:09:13Z",
+ "gerado_em": "2026-11-22T23:16:27Z",
  "metodo": "- Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),\n  formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.\n- Respostas: quem responde a quem nos comentários do YouTube (o único com respostas lidas); autores SEMPRE como código\n  (A0001…), nunca nome.\nLê o privado (INFL_INTERNO_DIR, data/comentarios/<rede>.csv); grava no público só palavras, códigos e contagens:\ndata/redes/comentarios_palavras_<rede>.json/.gexf, comentarios_respostas_youtube.json/.gexf.",
- "desenho": null,
- "estatisticas_atlas": {},
- "centralidades": [],
- "comunidades_atlas": [],
+ "desenho": {
+  "nos": [
+   {
+    "id": "A0129",
+    "rotulo": "A0129",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.1045,
+    "y": 1.1806
+   },
+   {
+    "id": "A0248",
+    "rotulo": "A0248",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.1112,
+    "y": 1.4838
+   },
+   {
+    "id": "A0257",
+    "rotulo": "A0257",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.3402,
+    "y": 1.5093
+   },
+   {
+    "id": "A0300",
+    "rotulo": "A0300",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 4,
+    "x": 1.458,
+    "y": 0.7249
+   },
+   {
+    "id": "A0112",
+    "rotulo": "A0112",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 8,
+    "x": 0.8725,
+    "y": 0.99
+   },
+   {
+    "id": "A0013",
+    "rotulo": "A0013",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.8092,
+    "y": 1.268
+   },
+   {
+    "id": "A0219",
+    "rotulo": "A0219",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 4,
+    "x": 0.9242,
+    "y": 0.7039
+   },
+   {
+    "id": "A0039",
+    "rotulo": "A0039",
+    "tipo": "autor (código)",
+    "n": 49,
+    "grupo": 7,
+    "x": 0.6263,
+    "y": 1.2035
+   },
+   {
+    "id": "A0096",
+    "rotulo": "A0096",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 2,
+    "x": 0.8997,
+    "y": 1.0281
+   },
+   {
+    "id": "A0201",
+    "rotulo": "A0201",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 7,
+    "x": 0.5037,
+    "y": 1.2147
+   },
+   {
+    "id": "A0005",
+    "rotulo": "A0005",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 3,
+    "x": 0.935,
+    "y": 0.0273
+   },
+   {
+    "id": "A0006",
+    "rotulo": "A0006",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 3,
+    "x": 0.8053,
+    "y": 0.0111
+   },
+   {
+    "id": "A0375",
+    "rotulo": "A0375",
+    "tipo": "autor (código)",
+    "n": 10,
+    "grupo": 6,
+    "x": 1.402,
+    "y": 0.5375
+   },
+   {
+    "id": "A0342",
+    "rotulo": "A0342",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 5,
+    "x": 1.0525,
+    "y": 0.5339
+   },
+   {
+    "id": "A0245",
+    "rotulo": "A0245",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.6336,
+    "y": 1.3993
+   },
+   {
+    "id": "A0002",
+    "rotulo": "A0002",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 12,
+    "x": 2.65,
+    "y": 0.2023
+   },
+   {
+    "id": "A0176",
+    "rotulo": "A0176",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 7,
+    "x": 0.3949,
+    "y": 1.3827
+   },
+   {
+    "id": "A0015",
+    "rotulo": "A0015",
+    "tipo": "autor (código)",
+    "n": 10,
+    "grupo": 4,
+    "x": 1.3277,
+    "y": 0.9304
+   },
+   {
+    "id": "A0283",
+    "rotulo": "A0283",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 4,
+    "x": 0.9625,
+    "y": 0.9464
+   },
+   {
+    "id": "A0363",
+    "rotulo": "A0363",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 6,
+    "x": 1.4236,
+    "y": 0.6953
+   },
+   {
+    "id": "A0135",
+    "rotulo": "A0135",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.4707,
+    "y": 1.2635
+   },
+   {
+    "id": "A0315",
+    "rotulo": "A0315",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 6,
+    "x": 1.7625,
+    "y": 0.71
+   },
+   {
+    "id": "A0066",
+    "rotulo": "A0066",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 10,
+    "x": 0.0291,
+    "y": 1.6976
+   },
+   {
+    "id": "A0393",
+    "rotulo": "A0393",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 0.6448,
+    "y": 0.9612
+   },
+   {
+    "id": "A0398",
+    "rotulo": "A0398",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.4833,
+    "y": 0.6188
+   },
+   {
+    "id": "A0259",
+    "rotulo": "A0259",
+    "tipo": "autor (código)",
+    "n": 21,
+    "grupo": 0,
+    "x": 1.2521,
+    "y": 1.395
+   },
+   {
+    "id": "A0322",
+    "rotulo": "A0322",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 5,
+    "x": 1.0147,
+    "y": 0.6269
+   },
+   {
+    "id": "A0216",
+    "rotulo": "A0216",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 1,
+    "x": 0.4055,
+    "y": 1.4193
+   },
+   {
+    "id": "A0346",
+    "rotulo": "A0346",
+    "tipo": "autor (código)",
+    "n": 23,
+    "grupo": 5,
+    "x": 1.0373,
+    "y": 0.4646
+   },
+   {
+    "id": "A0022",
+    "rotulo": "A0022",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 9,
+    "x": 1.2978,
+    "y": 1.6742
+   },
+   {
+    "id": "A0113",
+    "rotulo": "A0113",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 8,
+    "x": 1.0808,
+    "y": 0.9968
+   },
+   {
+    "id": "A0017",
+    "rotulo": "A0017",
+    "tipo": "autor (código)",
+    "n": 22,
+    "grupo": 2,
+    "x": 1.3607,
+    "y": 1.2175
+   },
+   {
+    "id": "A0341",
+    "rotulo": "A0341",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.5746,
+    "y": 0.697
+   },
+   {
+    "id": "A0343",
+    "rotulo": "A0343",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 5,
+    "x": 0.9501,
+    "y": 0.2115
+   },
+   {
+    "id": "A0014",
+    "rotulo": "A0014",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 9,
+    "x": 1.6617,
+    "y": 1.2182
+   },
+   {
+    "id": "A0120",
+    "rotulo": "A0120",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 1.152,
+    "y": 0.7161
+   },
+   {
+    "id": "A0011",
+    "rotulo": "A0011",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 3,
+    "x": 0.7723,
+    "y": 0.6215
+   },
+   {
+    "id": "A0148",
+    "rotulo": "A0148",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.5737,
+    "y": 1.3449
+   },
+   {
+    "id": "A0359",
+    "rotulo": "A0359",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 0.7621,
+    "y": 0.1932
+   },
+   {
+    "id": "A0183",
+    "rotulo": "A0183",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.576,
+    "y": 0.9551
+   },
+   {
+    "id": "A0202",
+    "rotulo": "A0202",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.5688,
+    "y": 0.8208
+   },
+   {
+    "id": "A0123",
+    "rotulo": "A0123",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.4794,
+    "y": 1.3334
+   },
+   {
+    "id": "A0056",
+    "rotulo": "A0056",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 3,
+    "x": 0.5026,
+    "y": 1.3578
+   },
+   {
+    "id": "A0244",
+    "rotulo": "A0244",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.3051,
+    "y": 1.1911
+   },
+   {
+    "id": "A0047",
+    "rotulo": "A0047",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 3,
+    "x": 0.7176,
+    "y": 1.5385
+   },
+   {
+    "id": "A0089",
+    "rotulo": "A0089",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 11,
+    "x": 2.2556,
+    "y": 0.3497
+   },
+   {
+    "id": "A0261",
+    "rotulo": "A0261",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.1653,
+    "y": 1.413
+   },
+   {
+    "id": "A0288",
+    "rotulo": "A0288",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 4,
+    "x": 1.1214,
+    "y": 0.6081
+   },
+   {
+    "id": "A0395",
+    "rotulo": "A0395",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.6248,
+    "y": 0.5692
+   },
+   {
+    "id": "A0117",
+    "rotulo": "A0117",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 0.5716,
+    "y": 0.8969
+   },
+   {
+    "id": "A0102",
+    "rotulo": "A0102",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 11,
+    "x": 2.3945,
+    "y": 0.0
+   },
+   {
+    "id": "A0156",
+    "rotulo": "A0156",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.4687,
+    "y": 0.9575
+   },
+   {
+    "id": "A0209",
+    "rotulo": "A0209",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.3986,
+    "y": 0.9578
+   },
+   {
+    "id": "A0318",
+    "rotulo": "A0318",
+    "tipo": "autor (código)",
+    "n": 28,
+    "grupo": 1,
+    "x": 0.7047,
+    "y": 0.7233
+   },
+   {
+    "id": "A0023",
+    "rotulo": "A0023",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 9,
+    "x": 1.5504,
+    "y": 1.5194
+   },
+   {
+    "id": "A0030",
+    "rotulo": "A0030",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.3047,
+    "y": 1.0894
+   },
+   {
+    "id": "A0330",
+    "rotulo": "A0330",
+    "tipo": "autor (código)",
+    "n": 11,
+    "grupo": 1,
+    "x": 1.033,
+    "y": 0.6868
+   },
+   {
+    "id": "A0270",
+    "rotulo": "A0270",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 0,
+    "x": 1.1511,
+    "y": 1.6624
+   },
+   {
+    "id": "A0140",
+    "rotulo": "A0140",
+    "tipo": "autor (código)",
+    "n": 13,
+    "grupo": 5,
+    "x": 0.8994,
+    "y": 0.6588
+   },
+   {
+    "id": "A0319",
+    "rotulo": "A0319",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 5,
+    "x": 0.9264,
+    "y": 0.3638
+   },
+   {
+    "id": "A0063",
+    "rotulo": "A0063",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 13,
+    "x": 3.15,
+    "y": 0.2023
+   },
+   {
+    "id": "A0217",
+    "rotulo": "A0217",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 6,
+    "x": 1.2012,
+    "y": 0.5109
+   },
+   {
+    "id": "A0141",
+    "rotulo": "A0141",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 0.7759,
+    "y": 0.469
+   },
+   {
+    "id": "A0177",
+    "rotulo": "A0177",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.6011,
+    "y": 1.303
+   },
+   {
+    "id": "A0090",
+    "rotulo": "A0090",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 11,
+    "x": 2.3249,
+    "y": 0.1753
+   },
+   {
+    "id": "A0241",
+    "rotulo": "A0241",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.3708,
+    "y": 1.4167
+   },
+   {
+    "id": "A0317",
+    "rotulo": "A0317",
+    "tipo": "autor (código)",
+    "n": 26,
+    "grupo": 3,
+    "x": 0.7705,
+    "y": 0.9267
+   },
+   {
+    "id": "A0169",
+    "rotulo": "A0169",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 0.832,
+    "y": 0.9565
+   },
+   {
+    "id": "A0249",
+    "rotulo": "A0249",
+    "tipo": "autor (código)",
+    "n": 40,
+    "grupo": 0,
+    "x": 1.1526,
+    "y": 1.3478
+   },
+   {
+    "id": "A0001",
+    "rotulo": "A0001",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 12,
+    "x": 3.0,
+    "y": 0.1477
+   },
+   {
+    "id": "A0251",
+    "rotulo": "A0251",
+    "tipo": "autor (código)",
+    "n": 32,
+    "grupo": 0,
+    "x": 1.2854,
+    "y": 1.3884
+   },
+   {
+    "id": "A0045",
+    "rotulo": "A0045",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 10,
+    "x": 0.0,
+    "y": 1.8983
+   },
+   {
+    "id": "A0152",
+    "rotulo": "A0152",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 2,
+    "x": 0.5627,
+    "y": 1.1398
+   },
+   {
+    "id": "A0260",
+    "rotulo": "A0260",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 0,
+    "x": 1.3795,
+    "y": 1.3307
+   },
+   {
+    "id": "A0377",
+    "rotulo": "A0377",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.6366,
+    "y": 0.8248
+   },
+   {
+    "id": "A0234",
+    "rotulo": "A0234",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.3811,
+    "y": 1.597
+   },
+   {
+    "id": "A0075",
+    "rotulo": "A0075",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 0.9969,
+    "y": 1.6269
+   },
+   {
+    "id": "A0299",
+    "rotulo": "A0299",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 1.5107,
+    "y": 0.826
+   },
+   {
+    "id": "A0360",
+    "rotulo": "A0360",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 1.2864,
+    "y": 0.4787
+   },
+   {
+    "id": "A0190",
+    "rotulo": "A0190",
+    "tipo": "autor (código)",
+    "n": 12,
+    "grupo": 7,
+    "x": 0.8381,
+    "y": 1.1463
+   },
+   {
+    "id": "A0390",
+    "rotulo": "A0390",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 0.6388,
+    "y": 0.2415
+   },
+   {
+    "id": "A0228",
+    "rotulo": "A0228",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 4,
+    "x": 1.0529,
+    "y": 0.9282
+   },
+   {
+    "id": "A0324",
+    "rotulo": "A0324",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 1,
+    "x": 0.8169,
+    "y": 0.5205
+   },
+   {
+    "id": "A0298",
+    "rotulo": "A0298",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 1,
+    "x": 0.9224,
+    "y": 0.5489
+   },
+   {
+    "id": "A0122",
+    "rotulo": "A0122",
+    "tipo": "autor (código)",
+    "n": 8,
+    "grupo": 8,
+    "x": 0.963,
+    "y": 1.1064
+   },
+   {
+    "id": "A0389",
+    "rotulo": "A0389",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 4,
+    "x": 0.7115,
+    "y": 0.4576
+   },
+   {
+    "id": "A0131",
+    "rotulo": "A0131",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.5404,
+    "y": 1.3987
+   },
+   {
+    "id": "A0278",
+    "rotulo": "A0278",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.1605,
+    "y": 1.8238
+   },
+   {
+    "id": "A0019",
+    "rotulo": "A0019",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.8775,
+    "y": 1.3089
+   },
+   {
+    "id": "A0046",
+    "rotulo": "A0046",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 10,
+    "x": 0.0819,
+    "y": 1.7891
+   },
+   {
+    "id": "A0067",
+    "rotulo": "A0067",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 10,
+    "x": 0.1687,
+    "y": 1.5522
+   },
+   {
+    "id": "A0150",
+    "rotulo": "A0150",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.2204,
+    "y": 1.0881
+   },
+   {
+    "id": "A0018",
+    "rotulo": "A0018",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.8589,
+    "y": 1.1195
+   },
+   {
+    "id": "A0302",
+    "rotulo": "A0302",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 6,
+    "x": 1.6255,
+    "y": 0.6338
+   },
+   {
+    "id": "A0267",
+    "rotulo": "A0267",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.0265,
+    "y": 1.3439
+   },
+   {
+    "id": "A0265",
+    "rotulo": "A0265",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.8631,
+    "y": 1.2951
+   },
+   {
+    "id": "A0161",
+    "rotulo": "A0161",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.5131,
+    "y": 1.2364
+   },
+   {
+    "id": "A0382",
+    "rotulo": "A0382",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 6,
+    "x": 1.309,
+    "y": 0.6773
+   },
+   {
+    "id": "A0246",
+    "rotulo": "A0246",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.4024,
+    "y": 1.3869
+   },
+   {
+    "id": "A0338",
+    "rotulo": "A0338",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 0.8453,
+    "y": 0.8028
+   },
+   {
+    "id": "A0301",
+    "rotulo": "A0301",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 4,
+    "x": 1.2423,
+    "y": 0.5989
+   },
+   {
+    "id": "A0323",
+    "rotulo": "A0323",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 5,
+    "x": 0.9389,
+    "y": 0.4506
+   },
+   {
+    "id": "A0048",
+    "rotulo": "A0048",
+    "tipo": "autor (código)",
+    "n": 14,
+    "grupo": 3,
+    "x": 0.7587,
+    "y": 1.4126
+   },
+   {
+    "id": "A0003",
+    "rotulo": "A0003",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 3,
+    "x": 0.8715,
+    "y": 0.0079
+   },
+   {
+    "id": "A0083",
+    "rotulo": "A0083",
+    "tipo": "autor (código)",
+    "n": 25,
+    "grupo": 8,
+    "x": 1.0132,
+    "y": 1.0002
+   },
+   {
+    "id": "A0333",
+    "rotulo": "A0333",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.597,
+    "y": 0.6508
+   },
+   {
+    "id": "A0004",
+    "rotulo": "A0004",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 3,
+    "x": 0.8381,
+    "y": 0.2191
+   },
+   {
+    "id": "A0321",
+    "rotulo": "A0321",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 5,
+    "x": 1.1686,
+    "y": 0.5229
+   },
+   {
+    "id": "A0376",
+    "rotulo": "A0376",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 4,
+    "x": 0.9701,
+    "y": 0.6484
+   },
+   {
+    "id": "A0215",
+    "rotulo": "A0215",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.5006,
+    "y": 1.0671
+   },
+   {
+    "id": "A0029",
+    "rotulo": "A0029",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 2,
+    "x": 0.2044,
+    "y": 0.9866
+   },
+   {
+    "id": "A0348",
+    "rotulo": "A0348",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.2692,
+    "y": 0.387
+   },
+   {
+    "id": "A0072",
+    "rotulo": "A0072",
+    "tipo": "autor (código)",
+    "n": 13,
+    "grupo": 8,
+    "x": 0.6996,
+    "y": 0.9928
+   },
+   {
+    "id": "A0263",
+    "rotulo": "A0263",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.1795,
+    "y": 1.5678
+   },
+   {
+    "id": "A0057",
+    "rotulo": "A0057",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 13,
+    "x": 3.5,
+    "y": 0.1477
+   },
+   {
+    "id": "A0366",
+    "rotulo": "A0366",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.5618,
+    "y": 0.3761
+   },
+   {
+    "id": "A0068",
+    "rotulo": "A0068",
+    "tipo": "autor (código)",
+    "n": 12,
+    "grupo": 3,
+    "x": 0.7007,
+    "y": 1.2081
+   },
+   {
+    "id": "A0287",
+    "rotulo": "A0287",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.308,
+    "y": 1.1362
+   },
+   {
+    "id": "A0191",
+    "rotulo": "A0191",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.6882,
+    "y": 1.1493
+   },
+   {
+    "id": "A0316",
+    "rotulo": "A0316",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.6569,
+    "y": 0.5498
+   },
+   {
+    "id": "A0111",
+    "rotulo": "A0111",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 1.2289,
+    "y": 0.4565
+   },
+   {
+    "id": "A0069",
+    "rotulo": "A0069",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 3,
+    "x": 0.6058,
+    "y": 1.4152
+   },
+   {
+    "id": "A0133",
+    "rotulo": "A0133",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.1528,
+    "y": 1.1687
+   },
+   {
+    "id": "A0256",
+    "rotulo": "A0256",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.2938,
+    "y": 1.4616
+   },
+   {
+    "id": "A0255",
+    "rotulo": "A0255",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 0,
+    "x": 1.2466,
+    "y": 1.2449
+   },
+   {
+    "id": "A0049",
+    "rotulo": "A0049",
+    "tipo": "autor (código)",
+    "n": 8,
+    "grupo": 7,
+    "x": 0.5817,
+    "y": 1.2421
+   },
+   {
+    "id": "A0311",
+    "rotulo": "A0311",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.2401,
+    "y": 0.6421
+   },
+   {
+    "id": "A0126",
+    "rotulo": "A0126",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 1.5037,
+    "y": 1.287
+   },
+   {
+    "id": "A0262",
+    "rotulo": "A0262",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.6525,
+    "y": 1.161
+   },
+   {
+    "id": "A0213",
+    "rotulo": "A0213",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 0,
+    "x": 1.1196,
+    "y": 1.5818
+   },
+   {
+    "id": "A0146",
+    "rotulo": "A0146",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 7,
+    "x": 0.3894,
+    "y": 1.259
+   },
+   {
+    "id": "A0037",
+    "rotulo": "A0037",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 7,
+    "x": 0.5292,
+    "y": 1.279
+   },
+   {
+    "id": "A0230",
+    "rotulo": "A0230",
+    "tipo": "autor (código)",
+    "n": 14,
+    "grupo": 0,
+    "x": 1.1363,
+    "y": 1.1934
+   },
+   {
+    "id": "A0294",
+    "rotulo": "A0294",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 9,
+    "x": 1.8162,
+    "y": 0.9677
+   },
+   {
+    "id": "A0344",
+    "rotulo": "A0344",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 1.0432,
+    "y": 0.2359
+   },
+   {
+    "id": "A0310",
+    "rotulo": "A0310",
+    "tipo": "autor (código)",
+    "n": 18,
+    "grupo": 5,
+    "x": 1.014,
+    "y": 0.7658
+   },
+   {
+    "id": "A0253",
+    "rotulo": "A0253",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.287,
+    "y": 1.5244
+   },
+   {
+    "id": "A0266",
+    "rotulo": "A0266",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.4279,
+    "y": 1.5206
+   },
+   {
+    "id": "A0326",
+    "rotulo": "A0326",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 1.007,
+    "y": 0.5524
+   },
+   {
+    "id": "A0027",
+    "rotulo": "A0027",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 8,
+    "x": 1.1657,
+    "y": 0.9373
+   },
+   {
+    "id": "A0101",
+    "rotulo": "A0101",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 10,
+    "x": 0.2683,
+    "y": 1.6022
+   }
+  ],
+  "arestas": [
+   [
+    "A0129",
+    "A0017",
+    1
+   ],
+   [
+    "A0129",
+    "A0096",
+    1
+   ],
+   [
+    "A0248",
+    "A0249",
+    2
+   ],
+   [
+    "A0257",
+    "A0251",
+    2
+   ],
+   [
+    "A0257",
+    "A0259",
+    1
+   ],
+   [
+    "A0300",
+    "A0015",
+    1
+   ],
+   [
+    "A0300",
+    "A0301",
+    1
+   ],
+   [
+    "A0300",
+    "A0302",
+    1
+   ],
+   [
+    "A0300",
+    "A0299",
+    1
+   ],
+   [
+    "A0112",
+    "A0083",
+    2
+   ],
+   [
+    "A0112",
+    "A0072",
+    1
+   ],
+   [
+    "A0013",
+    "A0014",
+    2
+   ],
+   [
+    "A0219",
+    "A0140",
+    1
+   ],
+   [
+    "A0219",
+    "A0228",
+    1
+   ],
+   [
+    "A0219",
+    "A0288",
+    1
+   ],
+   [
+    "A0219",
+    "A0283",
+    1
+   ],
+   [
+    "A0219",
+    "A0389",
+    1
+   ],
+   [
+    "A0039",
+    "A0037",
+    3
+   ],
+   [
+    "A0039",
+    "A0049",
+    8
+   ],
+   [
+    "A0039",
+    "A0122",
+    1
+   ],
+   [
+    "A0039",
+    "A0135",
+    2
+   ],
+   [
+    "A0039",
+    "A0146",
+    1
+   ],
+   [
+    "A0039",
+    "A0176",
+    1
+   ],
+   [
+    "A0039",
+    "A0183",
+    1
+   ],
+   [
+    "A0039",
+    "A0190",
+    4
+   ],
+   [
+    "A0039",
+    "A0201",
+    3
+   ],
+   [
+    "A0096",
+    "A0133",
+    1
+   ],
+   [
+    "A0096",
+    "A0140",
+    1
+   ],
+   [
+    "A0096",
+    "A0152",
+    1
+   ],
+   [
+    "A0005",
+    "A0004",
+    1
+   ],
+   [
+    "A0006",
+    "A0004",
+    1
+   ],
+   [
+    "A0375",
+    "A0366",
+    1
+   ],
+   [
+    "A0375",
+    "A0311",
+    1
+   ],
+   [
+    "A0375",
+    "A0363",
+    2
+   ],
+   [
+    "A0375",
+    "A0316",
+    1
+   ],
+   [
+    "A0375",
+    "A0302",
+    1
+   ],
+   [
+    "A0375",
+    "A0348",
+    1
+   ],
+   [
+    "A0375",
+    "A0217",
+    1
+   ],
+   [
+    "A0375",
+    "A0321",
+    2
+   ],
+   [
+    "A0342",
+    "A0310",
+    1
+   ],
+   [
+    "A0342",
+    "A0346",
+    3
+   ],
+   [
+    "A0245",
+    "A0246",
+    1
+   ],
+   [
+    "A0002",
+    "A0001",
+    1
+   ],
+   [
+    "A0176",
+    "A0177",
+    1
+   ],
+   [
+    "A0176",
+    "A0067",
+    1
+   ],
+   [
+    "A0015",
+    "A0014",
+    1
+   ],
+   [
+    "A0015",
+    "A0299",
+    1
+   ],
+   [
+    "A0015",
+    "A0255",
+    1
+   ],
+   [
+    "A0015",
+    "A0310",
+    1
+   ],
+   [
+    "A0015",
+    "A0330",
+    1
+   ],
+   [
+    "A0283",
+    "A0230",
+    1
+   ],
+   [
+    "A0283",
+    "A0317",
+    1
+   ],
+   [
+    "A0363",
+    "A0156",
+    1
+   ],
+   [
+    "A0363",
+    "A0382",
+    3
+   ],
+   [
+    "A0315",
+    "A0316",
+    1
+   ],
+   [
+    "A0315",
+    "A0302",
+    2
+   ],
+   [
+    "A0315",
+    "A0294",
+    1
+   ],
+   [
+    "A0066",
+    "A0067",
+    1
+   ],
+   [
+    "A0066",
+    "A0046",
+    1
+   ],
+   [
+    "A0393",
+    "A0317",
+    2
+   ],
+   [
+    "A0398",
+    "A0318",
+    1
+   ],
+   [
+    "A0259",
+    "A0256",
+    3
+   ],
+   [
+    "A0259",
+    "A0255",
+    1
+   ],
+   [
+    "A0259",
+    "A0249",
+    6
+   ],
+   [
+    "A0259",
+    "A0251",
+    3
+   ],
+   [
+    "A0259",
+    "A0253",
+    2
+   ],
+   [
+    "A0259",
+    "A0260",
+    3
+   ],
+   [
+    "A0259",
+    "A0261",
+    2
+   ],
+   [
+    "A0322",
+    "A0140",
+    1
+   ],
+   [
+    "A0322",
+    "A0310",
+    4
+   ],
+   [
+    "A0322",
+    "A0346",
+    2
+   ],
+   [
+    "A0216",
+    "A0215",
+    1
+   ],
+   [
+    "A0216",
+    "A0234",
+    2
+   ],
+   [
+    "A0346",
+    "A0348",
+    1
+   ],
+   [
+    "A0346",
+    "A0330",
+    1
+   ],
+   [
+    "A0346",
+    "A0217",
+    1
+   ],
+   [
+    "A0346",
+    "A0326",
+    1
+   ],
+   [
+    "A0346",
+    "A0344",
+    1
+   ],
+   [
+    "A0346",
+    "A0324",
+    1
+   ],
+   [
+    "A0346",
+    "A0319",
+    3
+   ],
+   [
+    "A0346",
+    "A0321",
+    2
+   ],
+   [
+    "A0346",
+    "A0323",
+    2
+   ],
+   [
+    "A0022",
+    "A0023",
+    1
+   ],
+   [
+    "A0022",
+    "A0075",
+    1
+   ],
+   [
+    "A0113",
+    "A0083",
+    4
+   ],
+   [
+    "A0017",
+    "A0122",
+    1
+   ],
+   [
+    "A0017",
+    "A0123",
+    2
+   ],
+   [
+    "A0017",
+    "A0126",
+    2
+   ],
+   [
+    "A0017",
+    "A0131",
+    1
+   ],
+   [
+    "A0017",
+    "A0148",
+    1
+   ],
+   [
+    "A0017",
+    "A0150",
+    1
+   ],
+   [
+    "A0017",
+    "A0133",
+    1
+   ],
+   [
+    "A0017",
+    "A0156",
+    1
+   ],
+   [
+    "A0017",
+    "A0161",
+    2
+   ],
+   [
+    "A0341",
+    "A0318",
+    3
+   ],
+   [
+    "A0343",
+    "A0344",
+    1
+   ],
+   [
+    "A0343",
+    "A0319",
+    2
+   ],
+   [
+    "A0014",
+    "A0018",
+    1
+   ],
+   [
+    "A0014",
+    "A0019",
+    1
+   ],
+   [
+    "A0014",
+    "A0023",
+    1
+   ],
+   [
+    "A0120",
+    "A0083",
+    1
+   ],
+   [
+    "A0120",
+    "A0111",
+    1
+   ],
+   [
+    "A0011",
+    "A0004",
+    1
+   ],
+   [
+    "A0011",
+    "A0317",
+    2
+   ],
+   [
+    "A0359",
+    "A0319",
+    1
+   ],
+   [
+    "A0359",
+    "A0390",
+    1
+   ],
+   [
+    "A0183",
+    "A0318",
+    1
+   ],
+   [
+    "A0202",
+    "A0072",
+    1
+   ],
+   [
+    "A0202",
+    "A0318",
+    1
+   ],
+   [
+    "A0056",
+    "A0068",
+    2
+   ],
+   [
+    "A0056",
+    "A0101",
+    1
+   ],
+   [
+    "A0056",
+    "A0152",
+    1
+   ],
+   [
+    "A0244",
+    "A0230",
+    1
+   ],
+   [
+    "A0047",
+    "A0048",
+    3
+   ],
+   [
+    "A0089",
+    "A0090",
+    2
+   ],
+   [
+    "A0261",
+    "A0249",
+    3
+   ],
+   [
+    "A0261",
+    "A0251",
+    1
+   ],
+   [
+    "A0261",
+    "A0267",
+    1
+   ],
+   [
+    "A0288",
+    "A0310",
+    1
+   ],
+   [
+    "A0288",
+    "A0301",
+    1
+   ],
+   [
+    "A0288",
+    "A0360",
+    1
+   ],
+   [
+    "A0395",
+    "A0318",
+    2
+   ],
+   [
+    "A0395",
+    "A0389",
+    1
+   ],
+   [
+    "A0117",
+    "A0072",
+    2
+   ],
+   [
+    "A0102",
+    "A0090",
+    2
+   ],
+   [
+    "A0209",
+    "A0072",
+    1
+   ],
+   [
+    "A0209",
+    "A0029",
+    1
+   ],
+   [
+    "A0318",
+    "A0140",
+    1
+   ],
+   [
+    "A0318",
+    "A0324",
+    1
+   ],
+   [
+    "A0318",
+    "A0330",
+    2
+   ],
+   [
+    "A0318",
+    "A0333",
+    3
+   ],
+   [
+    "A0318",
+    "A0215",
+    1
+   ],
+   [
+    "A0318",
+    "A0376",
+    1
+   ],
+   [
+    "A0318",
+    "A0377",
+    1
+   ],
+   [
+    "A0030",
+    "A0029",
+    1
+   ],
+   [
+    "A0030",
+    "A0152",
+    1
+   ],
+   [
+    "A0330",
+    "A0310",
+    1
+   ],
+   [
+    "A0330",
+    "A0217",
+    1
+   ],
+   [
+    "A0330",
+    "A0298",
+    1
+   ],
+   [
+    "A0330",
+    "A0382",
+    1
+   ],
+   [
+    "A0270",
+    "A0249",
+    1
+   ],
+   [
+    "A0270",
+    "A0278",
+    2
+   ],
+   [
+    "A0270",
+    "A0213",
+    1
+   ],
+   [
+    "A0140",
+    "A0141",
+    1
+   ],
+   [
+    "A0140",
+    "A0317",
+    1
+   ],
+   [
+    "A0140",
+    "A0310",
+    1
+   ],
+   [
+    "A0140",
+    "A0319",
+    1
+   ],
+   [
+    "A0140",
+    "A0298",
+    1
+   ],
+   [
+    "A0140",
+    "A0321",
+    1
+   ],
+   [
+    "A0140",
+    "A0323",
+    1
+   ],
+   [
+    "A0063",
+    "A0057",
+    1
+   ],
+   [
+    "A0177",
+    "A0190",
+    1
+   ],
+   [
+    "A0241",
+    "A0255",
+    1
+   ],
+   [
+    "A0317",
+    "A0310",
+    1
+   ],
+   [
+    "A0317",
+    "A0338",
+    1
+   ],
+   [
+    "A0317",
+    "A0068",
+    4
+   ],
+   [
+    "A0317",
+    "A0377",
+    1
+   ],
+   [
+    "A0169",
+    "A0072",
+    1
+   ],
+   [
+    "A0169",
+    "A0083",
+    1
+   ],
+   [
+    "A0249",
+    "A0251",
+    9
+   ],
+   [
+    "A0249",
+    "A0255",
+    3
+   ],
+   [
+    "A0249",
+    "A0263",
+    1
+   ],
+   [
+    "A0249",
+    "A0230",
+    6
+   ],
+   [
+    "A0249",
+    "A0213",
+    1
+   ],
+   [
+    "A0249",
+    "A0190",
+    2
+   ],
+   [
+    "A0251",
+    "A0246",
+    6
+   ],
+   [
+    "A0251",
+    "A0253",
+    1
+   ],
+   [
+    "A0251",
+    "A0256",
+    4
+   ],
+   [
+    "A0251",
+    "A0260",
+    5
+   ],
+   [
+    "A0251",
+    "A0266",
+    1
+   ],
+   [
+    "A0045",
+    "A0046",
+    2
+   ],
+   [
+    "A0260",
+    "A0262",
+    1
+   ],
+   [
+    "A0075",
+    "A0048",
+    1
+   ],
+   [
+    "A0360",
+    "A0301",
+    1
+   ],
+   [
+    "A0190",
+    "A0072",
+    2
+   ],
+   [
+    "A0190",
+    "A0191",
+    1
+   ],
+   [
+    "A0190",
+    "A0083",
+    1
+   ],
+   [
+    "A0190",
+    "A0310",
+    1
+   ],
+   [
+    "A0390",
+    "A0389",
+    1
+   ],
+   [
+    "A0228",
+    "A0230",
+    1
+   ],
+   [
+    "A0122",
+    "A0083",
+    5
+   ],
+   [
+    "A0122",
+    "A0072",
+    1
+   ],
+   [
+    "A0046",
+    "A0101",
+    1
+   ],
+   [
+    "A0150",
+    "A0083",
+    1
+   ],
+   [
+    "A0018",
+    "A0294",
+    1
+   ],
+   [
+    "A0267",
+    "A0265",
+    1
+   ],
+   [
+    "A0267",
+    "A0230",
+    1
+   ],
+   [
+    "A0338",
+    "A0310",
+    1
+   ],
+   [
+    "A0301",
+    "A0376",
+    1
+   ],
+   [
+    "A0048",
+    "A0068",
+    4
+   ],
+   [
+    "A0003",
+    "A0004",
+    1
+   ],
+   [
+    "A0083",
+    "A0027",
+    1
+   ],
+   [
+    "A0376",
+    "A0310",
+    1
+   ],
+   [
+    "A0068",
+    "A0069",
+    1
+   ],
+   [
+    "A0287",
+    "A0230",
+    1
+   ],
+   [
+    "A0255",
+    "A0230",
+    2
+   ],
+   [
+    "A0311",
+    "A0310",
+    1
+   ],
+   [
+    "A0262",
+    "A0294",
+    1
+   ],
+   [
+    "A0310",
+    "A0326",
+    1
+   ]
+  ],
+  "total_nos": 404,
+  "total_arestas": 427,
+  "comunidades": 14
+ },
+ "estatisticas_atlas": {
+  "rede": "comentarios_respostas_youtube",
+  "dirigida": true,
+  "nos": 404,
+  "arestas": 427,
+  "densidade": 0.002623,
+  "grau_medio": 1.057,
+  "grau_ponderado_medio": 2.673,
+  "componentes": 39,
+  "nos_maior_componente": 311,
+  "pct_nos_maior_componente": 76.98,
+  "clustering_medio": 0.0217,
+  "assortatividade_grau": -0.3061,
+  "reciprocidade": 0.0,
+  "diametro_maior_componente": 11,
+  "caminho_medio_maior_componente": 5.257,
+  "modularidade_q": 0.8182,
+  "comunidades": 49,
+  "comunidades_1pct_ou_mais": 13,
+  "pct_maior": 9.9,
+  "pct_segunda": 9.9,
+  "pct_terceira": 8.66,
+  "pct_nos_em_comunidades_1pct": 79.95,
+  "gc_densidade": 0.007717,
+  "gc_modularidade_q": 0.7824,
+  "gc_comunidades": 13,
+  "gc_comunidades_1pct_ou_mais": 13,
+  "gc_pct_maior": 12.86,
+  "gc_pct_segunda": 12.86,
+  "gc_polarizacao_ei_2_maiores": -0.9836,
+  "polarizacao_ei_2_maiores": -1.0
+ },
+ "centralidades": [
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "grau ponderado",
+   "posicao": 1,
+   "no": "A0039",
+   "valor": 49.0,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "grau ponderado",
+   "posicao": 2,
+   "no": "A0249",
+   "valor": 40.0,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "grau ponderado",
+   "posicao": 3,
+   "no": "A0251",
+   "valor": 32.0,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "grau ponderado",
+   "posicao": 4,
+   "no": "A0318",
+   "valor": 28.0,
+   "comunidade": 5
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "grau ponderado",
+   "posicao": 5,
+   "no": "A0317",
+   "valor": 26.0,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "PageRank",
+   "posicao": 1,
+   "no": "A0039",
+   "valor": 0.037686,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "PageRank",
+   "posicao": 2,
+   "no": "A0310",
+   "valor": 0.029683,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "PageRank",
+   "posicao": 3,
+   "no": "A0318",
+   "valor": 0.023512,
+   "comunidade": 5
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "PageRank",
+   "posicao": 4,
+   "no": "A0027",
+   "valor": 0.021695,
+   "comunidade": 8
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "PageRank",
+   "posicao": 5,
+   "no": "A0317",
+   "valor": 0.021368,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "intermediação (betweenness)",
+   "posicao": 1,
+   "no": "A0190",
+   "valor": 0.211962,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "intermediação (betweenness)",
+   "posicao": 2,
+   "no": "A0310",
+   "valor": 0.18461,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "intermediação (betweenness)",
+   "posicao": 3,
+   "no": "A0039",
+   "valor": 0.142727,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "intermediação (betweenness)",
+   "posicao": 4,
+   "no": "A0317",
+   "valor": 0.138988,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "intermediação (betweenness)",
+   "posicao": 5,
+   "no": "A0249",
+   "valor": 0.115531,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 1,
+   "no": "A0249",
+   "valor": 0.559962,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 2,
+   "no": "A0251",
+   "valor": 0.53991,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 3,
+   "no": "A0259",
+   "valor": 0.389132,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 4,
+   "no": "A0260",
+   "valor": 0.218466,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 5,
+   "no": "A0230",
+   "valor": 0.209707,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS hub (quem responde muito)",
+   "posicao": 1,
+   "no": "A0251",
+   "valor": 0.273624,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS hub (quem responde muito)",
+   "posicao": 2,
+   "no": "A0259",
+   "valor": 0.168916,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS hub (quem responde muito)",
+   "posicao": 3,
+   "no": "A0230",
+   "valor": 0.114662,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS hub (quem responde muito)",
+   "posicao": 4,
+   "no": "A0255",
+   "valor": 0.055146,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS hub (quem responde muito)",
+   "posicao": 5,
+   "no": "A0261",
+   "valor": 0.054933,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS autoridade (quem recebe respostas)",
+   "posicao": 1,
+   "no": "A0249",
+   "valor": 0.336863,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS autoridade (quem recebe respostas)",
+   "posicao": 2,
+   "no": "A0260",
+   "valor": 0.131584,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS autoridade (quem recebe respostas)",
+   "posicao": 3,
+   "no": "A0246",
+   "valor": 0.115223,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS autoridade (quem recebe respostas)",
+   "posicao": 4,
+   "no": "A0256",
+   "valor": 0.111951,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "medida": "HITS autoridade (quem recebe respostas)",
+   "posicao": 5,
+   "no": "A0257",
+   "valor": 0.050071,
+   "comunidade": 3
+  }
+ ],
+ "comunidades_atlas": [
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 1,
+   "nos": 40,
+   "pct_nos": 9.9,
+   "pct_peso_interno": 10.19,
+   "nos_de_maior_grau": "A0039 | A0190 | A0049 | A0176 | A0037"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 2,
+   "nos": 40,
+   "pct_nos": 9.9,
+   "pct_peso_interno": 9.26,
+   "nos_de_maior_grau": "A0317 | A0048 | A0068 | A0056 | A0069"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 3,
+   "nos": 35,
+   "pct_nos": 8.66,
+   "pct_peso_interno": 16.48,
+   "nos_de_maior_grau": "A0249 | A0251 | A0259 | A0230 | A0260"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 4,
+   "nos": 35,
+   "pct_nos": 8.66,
+   "pct_peso_interno": 10.93,
+   "nos_de_maior_grau": "A0346 | A0310 | A0140 | A0375 | A0319"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 5,
+   "nos": 33,
+   "pct_nos": 8.17,
+   "pct_peso_interno": 7.22,
+   "nos_de_maior_grau": "A0318 | A0330 | A0216 | A0324 | A0298"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 6,
+   "nos": 31,
+   "pct_nos": 7.67,
+   "pct_peso_interno": 6.3,
+   "nos_de_maior_grau": "A0015 | A0022 | A0302 | A0294 | A0014"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 7,
+   "nos": 31,
+   "pct_nos": 7.67,
+   "pct_peso_interno": 6.3,
+   "nos_de_maior_grau": "A0017 | A0152 | A0096 | A0029 | A0133"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 8,
+   "nos": 30,
+   "pct_nos": 7.43,
+   "pct_peso_interno": 7.41,
+   "nos_de_maior_grau": "A0083 | A0072 | A0122 | A0027 | A0113"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 9,
+   "nos": 21,
+   "pct_nos": 5.2,
+   "pct_peso_interno": 3.89,
+   "nos_de_maior_grau": "A0219 | A0228 | A0301 | A0288 | A0389"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 10,
+   "nos": 8,
+   "pct_nos": 1.98,
+   "pct_peso_interno": 1.48,
+   "nos_de_maior_grau": "A0046 | A0067 | A0045 | A0066 | A0101"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 11,
+   "nos": 7,
+   "pct_nos": 1.73,
+   "pct_peso_interno": 1.11,
+   "nos_de_maior_grau": "A0057 | A0063 | A0064 | A0058 | A0060"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 12,
+   "nos": 7,
+   "pct_nos": 1.73,
+   "pct_peso_interno": 1.3,
+   "nos_de_maior_grau": "A0270 | A0213 | A0278 | A0214 | A0280"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_respostas_youtube",
+   "comunidade": 13,
+   "nos": 5,
+   "pct_nos": 1.24,
+   "pct_peso_interno": 0.74,
+   "nos_de_maior_grau": "A0272 | A0271 | A0282 | A0279 | A0275"
+  }
+ ],
  "rede": "youtube",
- "comentarios": 2098,
- "respostas_lidas": 0,
- "autores_na_rede": 0,
- "respostas_entre_autores": 0,
- "pares": 0,
- "mais_respondidos": [],
- "concentracao_top10_pct": null
+ "comentarios": 2698,
+ "respostas_lidas": 599,
+ "autores_na_rede": 404,
+ "respostas_entre_autores": 540,
+ "pares": 427,
+ "mais_respondidos": [
+  [
+   "A0039",
+   49
+  ],
+  [
+   "A0249",
+   40
+  ],
+  [
+   "A0318",
+   28
+  ],
+  [
+   "A0317",
+   25
+  ],
+  [
+   "A0083",
+   24
+  ],
+  [
+   "A0017",
+   22
+  ],
+  [
+   "A0310",
+   16
+  ],
+  [
+   "A0048",
+   14
+  ],
+  [
+   "A0072",
+   13
+  ],
+  [
+   "A0260",
+   9
+  ]
+ ],
+ "concentracao_top10_pct": 44.4
 }

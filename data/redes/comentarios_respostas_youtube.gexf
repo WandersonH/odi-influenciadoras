@@ -4,7 +4,2864 @@
     <creator>NetworkX 3.7</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
-    <nodes />
-    <edges />
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tipo" type="string" />
+      <attribute id="1" title="peso" type="long" />
+    </attributes>
+    <nodes>
+      <node id="A0001" label="A0001">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0002" label="A0002">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0003" label="A0003">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0004" label="A0004">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0005" label="A0005">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0006" label="A0006">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0007" label="A0007">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0008" label="A0008">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0009" label="A0009">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0010" label="A0010">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0011" label="A0011">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0012" label="A0012">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0013" label="A0013">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0014" label="A0014">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0015" label="A0015">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="A0016" label="A0016">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0017" label="A0017">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="A0018" label="A0018">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0019" label="A0019">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0020" label="A0020">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0021" label="A0021">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0022" label="A0022">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0023" label="A0023">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0024" label="A0024">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0025" label="A0025">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0026" label="A0026">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0027" label="A0027">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0028" label="A0028">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0029" label="A0029">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0030" label="A0030">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0031" label="A0031">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0032" label="A0032">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0033" label="A0033">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0034" label="A0034">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0035" label="A0035">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0036" label="A0036">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0037" label="A0037">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0038" label="A0038">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0039" label="A0039">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="49" />
+        </attvalues>
+      </node>
+      <node id="A0040" label="A0040">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0041" label="A0041">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0042" label="A0042">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0043" label="A0043">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0044" label="A0044">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0045" label="A0045">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0046" label="A0046">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0047" label="A0047">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0048" label="A0048">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="A0049" label="A0049">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="A0050" label="A0050">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0051" label="A0051">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0052" label="A0052">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0053" label="A0053">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0054" label="A0054">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0055" label="A0055">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0056" label="A0056">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0057" label="A0057">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0058" label="A0058">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0059" label="A0059">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0060" label="A0060">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0061" label="A0061">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0062" label="A0062">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0063" label="A0063">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0064" label="A0064">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0065" label="A0065">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0066" label="A0066">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0067" label="A0067">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0068" label="A0068">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="A0069" label="A0069">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0070" label="A0070">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0071" label="A0071">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0072" label="A0072">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="A0073" label="A0073">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0074" label="A0074">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0075" label="A0075">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0076" label="A0076">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0077" label="A0077">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0078" label="A0078">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0079" label="A0079">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0080" label="A0080">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0081" label="A0081">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0082" label="A0082">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0083" label="A0083">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="25" />
+        </attvalues>
+      </node>
+      <node id="A0084" label="A0084">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0085" label="A0085">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0086" label="A0086">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0087" label="A0087">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0088" label="A0088">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0089" label="A0089">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0090" label="A0090">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0091" label="A0091">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0092" label="A0092">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0093" label="A0093">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0094" label="A0094">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0095" label="A0095">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0096" label="A0096">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0097" label="A0097">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0098" label="A0098">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0099" label="A0099">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0100" label="A0100">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0101" label="A0101">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0102" label="A0102">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0103" label="A0103">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0104" label="A0104">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0105" label="A0105">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0106" label="A0106">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0107" label="A0107">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0108" label="A0108">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0109" label="A0109">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0110" label="A0110">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0111" label="A0111">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0112" label="A0112">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0113" label="A0113">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0114" label="A0114">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0115" label="A0115">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0116" label="A0116">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0117" label="A0117">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0118" label="A0118">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0119" label="A0119">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0120" label="A0120">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0121" label="A0121">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0122" label="A0122">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="A0123" label="A0123">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0124" label="A0124">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0125" label="A0125">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0126" label="A0126">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0127" label="A0127">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0128" label="A0128">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0129" label="A0129">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0130" label="A0130">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0131" label="A0131">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0132" label="A0132">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0133" label="A0133">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0134" label="A0134">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0135" label="A0135">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0136" label="A0136">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0137" label="A0137">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0138" label="A0138">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0139" label="A0139">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0140" label="A0140">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="A0141" label="A0141">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0142" label="A0142">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0143" label="A0143">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0144" label="A0144">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0145" label="A0145">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0146" label="A0146">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0147" label="A0147">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0148" label="A0148">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0149" label="A0149">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0150" label="A0150">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0151" label="A0151">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0152" label="A0152">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0153" label="A0153">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0154" label="A0154">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0155" label="A0155">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0156" label="A0156">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0157" label="A0157">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0158" label="A0158">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0159" label="A0159">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0160" label="A0160">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0161" label="A0161">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0162" label="A0162">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0163" label="A0163">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0164" label="A0164">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0165" label="A0165">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0166" label="A0166">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0167" label="A0167">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0168" label="A0168">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0169" label="A0169">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0170" label="A0170">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0171" label="A0171">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0172" label="A0172">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0173" label="A0173">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0174" label="A0174">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0175" label="A0175">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0176" label="A0176">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0177" label="A0177">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0178" label="A0178">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0179" label="A0179">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0180" label="A0180">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0181" label="A0181">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0182" label="A0182">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0183" label="A0183">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0184" label="A0184">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0185" label="A0185">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0186" label="A0186">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0187" label="A0187">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0188" label="A0188">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0189" label="A0189">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0190" label="A0190">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="A0191" label="A0191">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0192" label="A0192">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0193" label="A0193">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0194" label="A0194">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0195" label="A0195">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0196" label="A0196">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0197" label="A0197">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0198" label="A0198">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0199" label="A0199">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0200" label="A0200">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0201" label="A0201">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0202" label="A0202">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0203" label="A0203">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0204" label="A0204">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0205" label="A0205">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0206" label="A0206">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0207" label="A0207">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0208" label="A0208">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0209" label="A0209">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0210" label="A0210">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0211" label="A0211">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0212" label="A0212">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0213" label="A0213">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0214" label="A0214">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0215" label="A0215">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0216" label="A0216">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0217" label="A0217">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0218" label="A0218">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0219" label="A0219">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="A0220" label="A0220">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0221" label="A0221">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0222" label="A0222">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0223" label="A0223">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0224" label="A0224">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0225" label="A0225">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0226" label="A0226">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0227" label="A0227">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0228" label="A0228">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0229" label="A0229">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0230" label="A0230">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="A0231" label="A0231">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0232" label="A0232">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0233" label="A0233">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0234" label="A0234">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0235" label="A0235">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0236" label="A0236">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0237" label="A0237">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0238" label="A0238">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0239" label="A0239">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0240" label="A0240">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0241" label="A0241">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0242" label="A0242">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0243" label="A0243">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0244" label="A0244">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0245" label="A0245">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0246" label="A0246">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0247" label="A0247">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0248" label="A0248">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0249" label="A0249">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="A0250" label="A0250">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0251" label="A0251">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="32" />
+        </attvalues>
+      </node>
+      <node id="A0252" label="A0252">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0253" label="A0253">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0254" label="A0254">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0255" label="A0255">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="A0256" label="A0256">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0257" label="A0257">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0258" label="A0258">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0259" label="A0259">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="21" />
+        </attvalues>
+      </node>
+      <node id="A0260" label="A0260">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="A0261" label="A0261">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0262" label="A0262">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0263" label="A0263">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0264" label="A0264">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0265" label="A0265">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0266" label="A0266">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0267" label="A0267">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0268" label="A0268">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0269" label="A0269">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0270" label="A0270">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0271" label="A0271">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0272" label="A0272">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0273" label="A0273">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0274" label="A0274">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0275" label="A0275">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0276" label="A0276">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0277" label="A0277">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0278" label="A0278">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0279" label="A0279">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0280" label="A0280">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0281" label="A0281">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0282" label="A0282">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0283" label="A0283">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0284" label="A0284">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0285" label="A0285">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0286" label="A0286">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0287" label="A0287">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0288" label="A0288">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0289" label="A0289">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0290" label="A0290">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0291" label="A0291">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0292" label="A0292">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0293" label="A0293">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0294" label="A0294">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0295" label="A0295">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0296" label="A0296">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0297" label="A0297">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0298" label="A0298">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0299" label="A0299">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0300" label="A0300">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0301" label="A0301">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0302" label="A0302">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0303" label="A0303">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0304" label="A0304">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0305" label="A0305">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0306" label="A0306">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0307" label="A0307">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0308" label="A0308">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0309" label="A0309">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0310" label="A0310">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="A0311" label="A0311">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0312" label="A0312">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0313" label="A0313">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0314" label="A0314">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0315" label="A0315">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0316" label="A0316">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0317" label="A0317">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="26" />
+        </attvalues>
+      </node>
+      <node id="A0318" label="A0318">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="28" />
+        </attvalues>
+      </node>
+      <node id="A0319" label="A0319">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0320" label="A0320">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0321" label="A0321">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="A0322" label="A0322">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="A0323" label="A0323">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0324" label="A0324">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0325" label="A0325">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0326" label="A0326">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0327" label="A0327">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0328" label="A0328">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0329" label="A0329">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0330" label="A0330">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="A0331" label="A0331">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0332" label="A0332">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0333" label="A0333">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0334" label="A0334">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0335" label="A0335">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0336" label="A0336">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0337" label="A0337">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0338" label="A0338">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0339" label="A0339">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0340" label="A0340">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0341" label="A0341">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0342" label="A0342">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0343" label="A0343">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0344" label="A0344">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0345" label="A0345">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0346" label="A0346">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="23" />
+        </attvalues>
+      </node>
+      <node id="A0347" label="A0347">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0348" label="A0348">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0349" label="A0349">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0350" label="A0350">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0351" label="A0351">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0352" label="A0352">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0353" label="A0353">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0354" label="A0354">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0355" label="A0355">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0356" label="A0356">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0357" label="A0357">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0358" label="A0358">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0359" label="A0359">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0360" label="A0360">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0361" label="A0361">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0362" label="A0362">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0363" label="A0363">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="A0364" label="A0364">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0365" label="A0365">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0366" label="A0366">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0367" label="A0367">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0368" label="A0368">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0369" label="A0369">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0370" label="A0370">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0371" label="A0371">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0372" label="A0372">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0373" label="A0373">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0374" label="A0374">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0375" label="A0375">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="A0376" label="A0376">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0377" label="A0377">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0378" label="A0378">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0379" label="A0379">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0380" label="A0380">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0381" label="A0381">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0382" label="A0382">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0383" label="A0383">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0384" label="A0384">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0385" label="A0385">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0386" label="A0386">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0387" label="A0387">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0388" label="A0388">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0389" label="A0389">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="A0390" label="A0390">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0391" label="A0391">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0392" label="A0392">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0393" label="A0393">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0394" label="A0394">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0395" label="A0395">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="A0396" label="A0396">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0397" label="A0397">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0398" label="A0398">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0399" label="A0399">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0400" label="A0400">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0401" label="A0401">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0402" label="A0402">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="A0403" label="A0403">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="A0404" label="A0404">
+        <attvalues>
+          <attvalue for="0" value="autor (código)" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="A0001" target="A0002" id="0" weight="1" />
+      <edge source="A0003" target="A0004" id="1" weight="1" />
+      <edge source="A0005" target="A0004" id="2" weight="1" />
+      <edge source="A0006" target="A0004" id="3" weight="1" />
+      <edge source="A0007" target="A0008" id="4" weight="1" />
+      <edge source="A0009" target="A0010" id="5" weight="1" />
+      <edge source="A0011" target="A0004" id="6" weight="1" />
+      <edge source="A0011" target="A0317" id="7" weight="2" />
+      <edge source="A0012" target="A0010" id="8" weight="1" />
+      <edge source="A0013" target="A0014" id="9" weight="2" />
+      <edge source="A0015" target="A0014" id="10" weight="1" />
+      <edge source="A0015" target="A0031" id="11" weight="1" />
+      <edge source="A0015" target="A0032" id="12" weight="1" />
+      <edge source="A0015" target="A0330" id="13" weight="1" />
+      <edge source="A0016" target="A0017" id="14" weight="1" />
+      <edge source="A0018" target="A0014" id="15" weight="1" />
+      <edge source="A0018" target="A0294" id="16" weight="1" />
+      <edge source="A0019" target="A0020" id="17" weight="1" />
+      <edge source="A0019" target="A0014" id="18" weight="1" />
+      <edge source="A0021" target="A0022" id="19" weight="1" />
+      <edge source="A0023" target="A0022" id="20" weight="1" />
+      <edge source="A0023" target="A0025" id="21" weight="1" />
+      <edge source="A0023" target="A0014" id="22" weight="1" />
+      <edge source="A0024" target="A0017" id="23" weight="1" />
+      <edge source="A0026" target="A0027" id="24" weight="1" />
+      <edge source="A0028" target="A0027" id="25" weight="1" />
+      <edge source="A0029" target="A0030" id="26" weight="1" />
+      <edge source="A0033" target="A0027" id="27" weight="1" />
+      <edge source="A0034" target="A0035" id="28" weight="1" />
+      <edge source="A0036" target="A0027" id="29" weight="1" />
+      <edge source="A0037" target="A0038" id="30" weight="1" />
+      <edge source="A0037" target="A0039" id="31" weight="3" />
+      <edge source="A0040" target="A0041" id="32" weight="1" />
+      <edge source="A0042" target="A0022" id="33" weight="1" />
+      <edge source="A0043" target="A0022" id="34" weight="1" />
+      <edge source="A0044" target="A0027" id="35" weight="1" />
+      <edge source="A0045" target="A0046" id="36" weight="2" />
+      <edge source="A0047" target="A0048" id="37" weight="3" />
+      <edge source="A0049" target="A0039" id="38" weight="8" />
+      <edge source="A0050" target="A0051" id="39" weight="1" />
+      <edge source="A0052" target="A0039" id="40" weight="1" />
+      <edge source="A0053" target="A0046" id="41" weight="1" />
+      <edge source="A0054" target="A0051" id="42" weight="1" />
+      <edge source="A0055" target="A0056" id="43" weight="1" />
+      <edge source="A0057" target="A0058" id="44" weight="1" />
+      <edge source="A0057" target="A0059" id="45" weight="1" />
+      <edge source="A0057" target="A0060" id="46" weight="1" />
+      <edge source="A0061" target="A0062" id="47" weight="1" />
+      <edge source="A0063" target="A0064" id="48" weight="1" />
+      <edge source="A0063" target="A0065" id="49" weight="1" />
+      <edge source="A0063" target="A0057" id="50" weight="1" />
+      <edge source="A0066" target="A0067" id="51" weight="1" />
+      <edge source="A0066" target="A0046" id="52" weight="1" />
+      <edge source="A0068" target="A0048" id="53" weight="4" />
+      <edge source="A0068" target="A0056" id="54" weight="2" />
+      <edge source="A0068" target="A0069" id="55" weight="1" />
+      <edge source="A0068" target="A0317" id="56" weight="4" />
+      <edge source="A0070" target="A0048" id="57" weight="1" />
+      <edge source="A0071" target="A0072" id="58" weight="1" />
+      <edge source="A0073" target="A0048" id="59" weight="1" />
+      <edge source="A0074" target="A0039" id="60" weight="1" />
+      <edge source="A0075" target="A0048" id="61" weight="1" />
+      <edge source="A0075" target="A0022" id="62" weight="1" />
+      <edge source="A0076" target="A0039" id="63" weight="1" />
+      <edge source="A0077" target="A0078" id="64" weight="1" />
+      <edge source="A0079" target="A0056" id="65" weight="1" />
+      <edge source="A0080" target="A0039" id="66" weight="1" />
+      <edge source="A0081" target="A0048" id="67" weight="1" />
+      <edge source="A0082" target="A0039" id="68" weight="1" />
+      <edge source="A0083" target="A0027" id="69" weight="1" />
+      <edge source="A0084" target="A0048" id="70" weight="1" />
+      <edge source="A0085" target="A0039" id="71" weight="1" />
+      <edge source="A0086" target="A0067" id="72" weight="1" />
+      <edge source="A0087" target="A0048" id="73" weight="1" />
+      <edge source="A0088" target="A0017" id="74" weight="1" />
+      <edge source="A0089" target="A0090" id="75" weight="2" />
+      <edge source="A0091" target="A0017" id="76" weight="1" />
+      <edge source="A0092" target="A0017" id="77" weight="1" />
+      <edge source="A0093" target="A0094" id="78" weight="1" />
+      <edge source="A0095" target="A0096" id="79" weight="1" />
+      <edge source="A0097" target="A0083" id="80" weight="1" />
+      <edge source="A0098" target="A0096" id="81" weight="1" />
+      <edge source="A0099" target="A0100" id="82" weight="1" />
+      <edge source="A0101" target="A0046" id="83" weight="1" />
+      <edge source="A0101" target="A0056" id="84" weight="1" />
+      <edge source="A0102" target="A0090" id="85" weight="2" />
+      <edge source="A0103" target="A0022" id="86" weight="1" />
+      <edge source="A0104" target="A0039" id="87" weight="1" />
+      <edge source="A0105" target="A0022" id="88" weight="1" />
+      <edge source="A0106" target="A0107" id="89" weight="1" />
+      <edge source="A0108" target="A0072" id="90" weight="1" />
+      <edge source="A0109" target="A0039" id="91" weight="1" />
+      <edge source="A0110" target="A0111" id="92" weight="1" />
+      <edge source="A0112" target="A0083" id="93" weight="2" />
+      <edge source="A0112" target="A0072" id="94" weight="1" />
+      <edge source="A0113" target="A0083" id="95" weight="4" />
+      <edge source="A0114" target="A0069" id="96" weight="1" />
+      <edge source="A0115" target="A0116" id="97" weight="1" />
+      <edge source="A0115" target="A0118" id="98" weight="1" />
+      <edge source="A0117" target="A0072" id="99" weight="2" />
+      <edge source="A0119" target="A0017" id="100" weight="1" />
+      <edge source="A0120" target="A0083" id="101" weight="1" />
+      <edge source="A0120" target="A0111" id="102" weight="1" />
+      <edge source="A0121" target="A0039" id="103" weight="1" />
+      <edge source="A0122" target="A0017" id="104" weight="1" />
+      <edge source="A0122" target="A0083" id="105" weight="5" />
+      <edge source="A0122" target="A0072" id="106" weight="1" />
+      <edge source="A0122" target="A0039" id="107" weight="1" />
+      <edge source="A0123" target="A0017" id="108" weight="2" />
+      <edge source="A0124" target="A0083" id="109" weight="1" />
+      <edge source="A0125" target="A0039" id="110" weight="1" />
+      <edge source="A0126" target="A0017" id="111" weight="2" />
+      <edge source="A0127" target="A0128" id="112" weight="1" />
+      <edge source="A0129" target="A0017" id="113" weight="1" />
+      <edge source="A0129" target="A0096" id="114" weight="1" />
+      <edge source="A0130" target="A0083" id="115" weight="1" />
+      <edge source="A0131" target="A0017" id="116" weight="1" />
+      <edge source="A0132" target="A0069" id="117" weight="1" />
+      <edge source="A0133" target="A0096" id="118" weight="1" />
+      <edge source="A0133" target="A0017" id="119" weight="1" />
+      <edge source="A0134" target="A0069" id="120" weight="1" />
+      <edge source="A0135" target="A0039" id="121" weight="2" />
+      <edge source="A0136" target="A0083" id="122" weight="1" />
+      <edge source="A0137" target="A0017" id="123" weight="1" />
+      <edge source="A0138" target="A0039" id="124" weight="1" />
+      <edge source="A0139" target="A0039" id="125" weight="1" />
+      <edge source="A0140" target="A0141" id="126" weight="1" />
+      <edge source="A0140" target="A0096" id="127" weight="1" />
+      <edge source="A0140" target="A0142" id="128" weight="1" />
+      <edge source="A0140" target="A0219" id="129" weight="1" />
+      <edge source="A0140" target="A0317" id="130" weight="1" />
+      <edge source="A0140" target="A0310" id="131" weight="1" />
+      <edge source="A0140" target="A0318" id="132" weight="1" />
+      <edge source="A0140" target="A0319" id="133" weight="1" />
+      <edge source="A0140" target="A0298" id="134" weight="1" />
+      <edge source="A0140" target="A0320" id="135" weight="1" />
+      <edge source="A0140" target="A0321" id="136" weight="1" />
+      <edge source="A0140" target="A0322" id="137" weight="1" />
+      <edge source="A0140" target="A0323" id="138" weight="1" />
+      <edge source="A0143" target="A0039" id="139" weight="1" />
+      <edge source="A0144" target="A0039" id="140" weight="1" />
+      <edge source="A0145" target="A0039" id="141" weight="1" />
+      <edge source="A0146" target="A0039" id="142" weight="1" />
+      <edge source="A0146" target="A0147" id="143" weight="1" />
+      <edge source="A0146" target="A0175" id="144" weight="1" />
+      <edge source="A0148" target="A0017" id="145" weight="1" />
+      <edge source="A0148" target="A0149" id="146" weight="1" />
+      <edge source="A0150" target="A0017" id="147" weight="1" />
+      <edge source="A0150" target="A0083" id="148" weight="1" />
+      <edge source="A0151" target="A0090" id="149" weight="1" />
+      <edge source="A0152" target="A0030" id="150" weight="1" />
+      <edge source="A0152" target="A0153" id="151" weight="1" />
+      <edge source="A0152" target="A0154" id="152" weight="1" />
+      <edge source="A0152" target="A0056" id="153" weight="1" />
+      <edge source="A0152" target="A0155" id="154" weight="1" />
+      <edge source="A0152" target="A0096" id="155" weight="1" />
+      <edge source="A0156" target="A0017" id="156" weight="1" />
+      <edge source="A0156" target="A0363" id="157" weight="1" />
+      <edge source="A0157" target="A0158" id="158" weight="1" />
+      <edge source="A0159" target="A0067" id="159" weight="1" />
+      <edge source="A0160" target="A0039" id="160" weight="1" />
+      <edge source="A0161" target="A0017" id="161" weight="2" />
+      <edge source="A0162" target="A0048" id="162" weight="1" />
+      <edge source="A0163" target="A0072" id="163" weight="1" />
+      <edge source="A0164" target="A0072" id="164" weight="1" />
+      <edge source="A0165" target="A0166" id="165" weight="1" />
+      <edge source="A0167" target="A0168" id="166" weight="1" />
+      <edge source="A0169" target="A0072" id="167" weight="1" />
+      <edge source="A0169" target="A0083" id="168" weight="1" />
+      <edge source="A0170" target="A0083" id="169" weight="1" />
+      <edge source="A0171" target="A0039" id="170" weight="1" />
+      <edge source="A0172" target="A0083" id="171" weight="1" />
+      <edge source="A0173" target="A0069" id="172" weight="1" />
+      <edge source="A0174" target="A0039" id="173" weight="1" />
+      <edge source="A0176" target="A0177" id="174" weight="1" />
+      <edge source="A0176" target="A0178" id="175" weight="1" />
+      <edge source="A0176" target="A0039" id="176" weight="1" />
+      <edge source="A0176" target="A0067" id="177" weight="1" />
+      <edge source="A0179" target="A0083" id="178" weight="1" />
+      <edge source="A0180" target="A0039" id="179" weight="1" />
+      <edge source="A0181" target="A0182" id="180" weight="1" />
+      <edge source="A0183" target="A0039" id="181" weight="1" />
+      <edge source="A0183" target="A0318" id="182" weight="1" />
+      <edge source="A0184" target="A0039" id="183" weight="1" />
+      <edge source="A0185" target="A0186" id="184" weight="1" />
+      <edge source="A0187" target="A0017" id="185" weight="1" />
+      <edge source="A0188" target="A0189" id="186" weight="1" />
+      <edge source="A0190" target="A0039" id="187" weight="4" />
+      <edge source="A0190" target="A0177" id="188" weight="1" />
+      <edge source="A0190" target="A0072" id="189" weight="2" />
+      <edge source="A0190" target="A0191" id="190" weight="1" />
+      <edge source="A0190" target="A0083" id="191" weight="1" />
+      <edge source="A0190" target="A0249" id="192" weight="2" />
+      <edge source="A0190" target="A0310" id="193" weight="1" />
+      <edge source="A0192" target="A0039" id="194" weight="1" />
+      <edge source="A0193" target="A0131" id="195" weight="1" />
+      <edge source="A0194" target="A0195" id="196" weight="1" />
+      <edge source="A0196" target="A0191" id="197" weight="1" />
+      <edge source="A0197" target="A0083" id="198" weight="1" />
+      <edge source="A0198" target="A0141" id="199" weight="1" />
+      <edge source="A0199" target="A0200" id="200" weight="1" />
+      <edge source="A0201" target="A0039" id="201" weight="3" />
+      <edge source="A0202" target="A0072" id="202" weight="1" />
+      <edge source="A0202" target="A0318" id="203" weight="1" />
+      <edge source="A0203" target="A0017" id="204" weight="1" />
+      <edge source="A0204" target="A0083" id="205" weight="1" />
+      <edge source="A0205" target="A0069" id="206" weight="1" />
+      <edge source="A0206" target="A0207" id="207" weight="1" />
+      <edge source="A0208" target="A0039" id="208" weight="1" />
+      <edge source="A0209" target="A0072" id="209" weight="1" />
+      <edge source="A0209" target="A0029" id="210" weight="1" />
+      <edge source="A0210" target="A0039" id="211" weight="1" />
+      <edge source="A0211" target="A0039" id="212" weight="1" />
+      <edge source="A0212" target="A0039" id="213" weight="1" />
+      <edge source="A0213" target="A0214" id="214" weight="1" />
+      <edge source="A0213" target="A0237" id="215" weight="1" />
+      <edge source="A0213" target="A0249" id="216" weight="1" />
+      <edge source="A0213" target="A0270" id="217" weight="1" />
+      <edge source="A0215" target="A0216" id="218" weight="1" />
+      <edge source="A0215" target="A0318" id="219" weight="1" />
+      <edge source="A0217" target="A0218" id="220" weight="1" />
+      <edge source="A0219" target="A0220" id="221" weight="1" />
+      <edge source="A0219" target="A0240" id="222" weight="1" />
+      <edge source="A0221" target="A0222" id="223" weight="1" />
+      <edge source="A0223" target="A0216" id="224" weight="1" />
+      <edge source="A0224" target="A0225" id="225" weight="1" />
+      <edge source="A0226" target="A0216" id="226" weight="1" />
+      <edge source="A0227" target="A0216" id="227" weight="1" />
+      <edge source="A0228" target="A0229" id="228" weight="1" />
+      <edge source="A0228" target="A0219" id="229" weight="1" />
+      <edge source="A0228" target="A0230" id="230" weight="1" />
+      <edge source="A0228" target="A0231" id="231" weight="1" />
+      <edge source="A0230" target="A0255" id="232" weight="2" />
+      <edge source="A0230" target="A0249" id="233" weight="6" />
+      <edge source="A0230" target="A0267" id="234" weight="1" />
+      <edge source="A0230" target="A0281" id="235" weight="1" />
+      <edge source="A0230" target="A0244" id="236" weight="1" />
+      <edge source="A0230" target="A0287" id="237" weight="1" />
+      <edge source="A0232" target="A0233" id="238" weight="1" />
+      <edge source="A0234" target="A0216" id="239" weight="2" />
+      <edge source="A0235" target="A0236" id="240" weight="1" />
+      <edge source="A0238" target="A0239" id="241" weight="1" />
+      <edge source="A0241" target="A0242" id="242" weight="1" />
+      <edge source="A0241" target="A0255" id="243" weight="1" />
+      <edge source="A0243" target="A0244" id="244" weight="1" />
+      <edge source="A0245" target="A0246" id="245" weight="1" />
+      <edge source="A0245" target="A0247" id="246" weight="1" />
+      <edge source="A0248" target="A0249" id="247" weight="2" />
+      <edge source="A0250" target="A0249" id="248" weight="1" />
+      <edge source="A0251" target="A0249" id="249" weight="9" />
+      <edge source="A0251" target="A0246" id="250" weight="6" />
+      <edge source="A0251" target="A0253" id="251" weight="1" />
+      <edge source="A0251" target="A0256" id="252" weight="4" />
+      <edge source="A0251" target="A0257" id="253" weight="2" />
+      <edge source="A0251" target="A0260" id="254" weight="5" />
+      <edge source="A0251" target="A0266" id="255" weight="1" />
+      <edge source="A0251" target="A0261" id="256" weight="1" />
+      <edge source="A0252" target="A0249" id="257" weight="1" />
+      <edge source="A0254" target="A0255" id="258" weight="1" />
+      <edge source="A0255" target="A0249" id="259" weight="3" />
+      <edge source="A0255" target="A0015" id="260" weight="1" />
+      <edge source="A0258" target="A0249" id="261" weight="1" />
+      <edge source="A0259" target="A0256" id="262" weight="3" />
+      <edge source="A0259" target="A0255" id="263" weight="1" />
+      <edge source="A0259" target="A0249" id="264" weight="6" />
+      <edge source="A0259" target="A0251" id="265" weight="3" />
+      <edge source="A0259" target="A0253" id="266" weight="2" />
+      <edge source="A0259" target="A0257" id="267" weight="1" />
+      <edge source="A0259" target="A0260" id="268" weight="3" />
+      <edge source="A0259" target="A0261" id="269" weight="2" />
+      <edge source="A0261" target="A0249" id="270" weight="3" />
+      <edge source="A0262" target="A0260" id="271" weight="1" />
+      <edge source="A0262" target="A0294" id="272" weight="1" />
+      <edge source="A0263" target="A0249" id="273" weight="1" />
+      <edge source="A0263" target="A0277" id="274" weight="1" />
+      <edge source="A0264" target="A0265" id="275" weight="1" />
+      <edge source="A0267" target="A0265" id="276" weight="1" />
+      <edge source="A0267" target="A0261" id="277" weight="1" />
+      <edge source="A0268" target="A0266" id="278" weight="1" />
+      <edge source="A0269" target="A0249" id="279" weight="1" />
+      <edge source="A0270" target="A0249" id="280" weight="1" />
+      <edge source="A0271" target="A0272" id="281" weight="1" />
+      <edge source="A0273" target="A0249" id="282" weight="1" />
+      <edge source="A0274" target="A0249" id="283" weight="1" />
+      <edge source="A0275" target="A0272" id="284" weight="1" />
+      <edge source="A0276" target="A0270" id="285" weight="1" />
+      <edge source="A0278" target="A0270" id="286" weight="2" />
+      <edge source="A0279" target="A0272" id="287" weight="1" />
+      <edge source="A0280" target="A0270" id="288" weight="1" />
+      <edge source="A0282" target="A0272" id="289" weight="1" />
+      <edge source="A0283" target="A0230" id="290" weight="1" />
+      <edge source="A0283" target="A0219" id="291" weight="1" />
+      <edge source="A0283" target="A0317" id="292" weight="1" />
+      <edge source="A0283" target="A0387" id="293" weight="1" />
+      <edge source="A0284" target="A0285" id="294" weight="1" />
+      <edge source="A0286" target="A0285" id="295" weight="1" />
+      <edge source="A0288" target="A0289" id="296" weight="1" />
+      <edge source="A0288" target="A0310" id="297" weight="1" />
+      <edge source="A0288" target="A0301" id="298" weight="1" />
+      <edge source="A0288" target="A0360" id="299" weight="1" />
+      <edge source="A0288" target="A0219" id="300" weight="1" />
+      <edge source="A0290" target="A0287" id="301" weight="1" />
+      <edge source="A0291" target="A0029" id="302" weight="1" />
+      <edge source="A0292" target="A0293" id="303" weight="1" />
+      <edge source="A0295" target="A0294" id="304" weight="1" />
+      <edge source="A0296" target="A0294" id="305" weight="1" />
+      <edge source="A0297" target="A0298" id="306" weight="1" />
+      <edge source="A0299" target="A0015" id="307" weight="1" />
+      <edge source="A0300" target="A0015" id="308" weight="1" />
+      <edge source="A0300" target="A0301" id="309" weight="1" />
+      <edge source="A0300" target="A0302" id="310" weight="1" />
+      <edge source="A0300" target="A0299" id="311" weight="1" />
+      <edge source="A0303" target="A0304" id="312" weight="1" />
+      <edge source="A0305" target="A0306" id="313" weight="1" />
+      <edge source="A0307" target="A0298" id="314" weight="1" />
+      <edge source="A0308" target="A0306" id="315" weight="1" />
+      <edge source="A0309" target="A0301" id="316" weight="1" />
+      <edge source="A0310" target="A0311" id="317" weight="1" />
+      <edge source="A0310" target="A0015" id="318" weight="1" />
+      <edge source="A0312" target="A0302" id="319" weight="1" />
+      <edge source="A0313" target="A0015" id="320" weight="1" />
+      <edge source="A0314" target="A0302" id="321" weight="1" />
+      <edge source="A0315" target="A0316" id="322" weight="1" />
+      <edge source="A0315" target="A0302" id="323" weight="2" />
+      <edge source="A0315" target="A0294" id="324" weight="1" />
+      <edge source="A0317" target="A0310" id="325" weight="1" />
+      <edge source="A0322" target="A0310" id="326" weight="4" />
+      <edge source="A0324" target="A0318" id="327" weight="1" />
+      <edge source="A0324" target="A0325" id="328" weight="1" />
+      <edge source="A0326" target="A0310" id="329" weight="1" />
+      <edge source="A0327" target="A0317" id="330" weight="1" />
+      <edge source="A0328" target="A0329" id="331" weight="1" />
+      <edge source="A0330" target="A0310" id="332" weight="1" />
+      <edge source="A0330" target="A0318" id="333" weight="2" />
+      <edge source="A0330" target="A0217" id="334" weight="1" />
+      <edge source="A0330" target="A0298" id="335" weight="1" />
+      <edge source="A0330" target="A0367" id="336" weight="1" />
+      <edge source="A0331" target="A0310" id="337" weight="1" />
+      <edge source="A0332" target="A0324" id="338" weight="1" />
+      <edge source="A0333" target="A0318" id="339" weight="3" />
+      <edge source="A0334" target="A0317" id="340" weight="1" />
+      <edge source="A0335" target="A0317" id="341" weight="1" />
+      <edge source="A0336" target="A0318" id="342" weight="1" />
+      <edge source="A0337" target="A0294" id="343" weight="1" />
+      <edge source="A0338" target="A0317" id="344" weight="1" />
+      <edge source="A0338" target="A0310" id="345" weight="1" />
+      <edge source="A0339" target="A0317" id="346" weight="1" />
+      <edge source="A0340" target="A0217" id="347" weight="1" />
+      <edge source="A0341" target="A0318" id="348" weight="3" />
+      <edge source="A0342" target="A0310" id="349" weight="1" />
+      <edge source="A0343" target="A0344" id="350" weight="1" />
+      <edge source="A0343" target="A0319" id="351" weight="2" />
+      <edge source="A0345" target="A0330" id="352" weight="1" />
+      <edge source="A0346" target="A0342" id="353" weight="3" />
+      <edge source="A0346" target="A0347" id="354" weight="1" />
+      <edge source="A0346" target="A0348" id="355" weight="1" />
+      <edge source="A0346" target="A0330" id="356" weight="1" />
+      <edge source="A0346" target="A0217" id="357" weight="1" />
+      <edge source="A0346" target="A0326" id="358" weight="1" />
+      <edge source="A0346" target="A0344" id="359" weight="1" />
+      <edge source="A0346" target="A0324" id="360" weight="1" />
+      <edge source="A0346" target="A0349" id="361" weight="1" />
+      <edge source="A0346" target="A0350" id="362" weight="1" />
+      <edge source="A0346" target="A0319" id="363" weight="3" />
+      <edge source="A0346" target="A0322" id="364" weight="2" />
+      <edge source="A0346" target="A0351" id="365" weight="1" />
+      <edge source="A0346" target="A0321" id="366" weight="2" />
+      <edge source="A0346" target="A0323" id="367" weight="2" />
+      <edge source="A0346" target="A0352" id="368" weight="1" />
+      <edge source="A0353" target="A0317" id="369" weight="1" />
+      <edge source="A0354" target="A0317" id="370" weight="1" />
+      <edge source="A0355" target="A0304" id="371" weight="1" />
+      <edge source="A0356" target="A0318" id="372" weight="1" />
+      <edge source="A0357" target="A0358" id="373" weight="1" />
+      <edge source="A0359" target="A0319" id="374" weight="1" />
+      <edge source="A0359" target="A0390" id="375" weight="1" />
+      <edge source="A0360" target="A0301" id="376" weight="1" />
+      <edge source="A0361" target="A0310" id="377" weight="1" />
+      <edge source="A0362" target="A0317" id="378" weight="1" />
+      <edge source="A0364" target="A0318" id="379" weight="1" />
+      <edge source="A0365" target="A0366" id="380" weight="1" />
+      <edge source="A0368" target="A0310" id="381" weight="1" />
+      <edge source="A0369" target="A0318" id="382" weight="1" />
+      <edge source="A0370" target="A0317" id="383" weight="1" />
+      <edge source="A0371" target="A0372" id="384" weight="1" />
+      <edge source="A0373" target="A0015" id="385" weight="1" />
+      <edge source="A0374" target="A0317" id="386" weight="1" />
+      <edge source="A0375" target="A0366" id="387" weight="1" />
+      <edge source="A0375" target="A0311" id="388" weight="1" />
+      <edge source="A0375" target="A0363" id="389" weight="2" />
+      <edge source="A0375" target="A0316" id="390" weight="1" />
+      <edge source="A0375" target="A0302" id="391" weight="1" />
+      <edge source="A0375" target="A0348" id="392" weight="1" />
+      <edge source="A0375" target="A0217" id="393" weight="1" />
+      <edge source="A0375" target="A0321" id="394" weight="2" />
+      <edge source="A0376" target="A0318" id="395" weight="1" />
+      <edge source="A0376" target="A0310" id="396" weight="1" />
+      <edge source="A0376" target="A0301" id="397" weight="1" />
+      <edge source="A0377" target="A0318" id="398" weight="1" />
+      <edge source="A0377" target="A0317" id="399" weight="1" />
+      <edge source="A0378" target="A0330" id="400" weight="1" />
+      <edge source="A0379" target="A0318" id="401" weight="1" />
+      <edge source="A0380" target="A0317" id="402" weight="1" />
+      <edge source="A0381" target="A0317" id="403" weight="1" />
+      <edge source="A0382" target="A0330" id="404" weight="1" />
+      <edge source="A0382" target="A0363" id="405" weight="3" />
+      <edge source="A0383" target="A0318" id="406" weight="1" />
+      <edge source="A0384" target="A0219" id="407" weight="1" />
+      <edge source="A0385" target="A0318" id="408" weight="1" />
+      <edge source="A0386" target="A0318" id="409" weight="1" />
+      <edge source="A0388" target="A0317" id="410" weight="1" />
+      <edge source="A0389" target="A0390" id="411" weight="1" />
+      <edge source="A0389" target="A0391" id="412" weight="1" />
+      <edge source="A0389" target="A0219" id="413" weight="1" />
+      <edge source="A0392" target="A0317" id="414" weight="1" />
+      <edge source="A0393" target="A0317" id="415" weight="2" />
+      <edge source="A0394" target="A0068" id="416" weight="1" />
+      <edge source="A0395" target="A0318" id="417" weight="2" />
+      <edge source="A0395" target="A0389" id="418" weight="1" />
+      <edge source="A0396" target="A0219" id="419" weight="1" />
+      <edge source="A0397" target="A0318" id="420" weight="1" />
+      <edge source="A0398" target="A0318" id="421" weight="1" />
+      <edge source="A0398" target="A0399" id="422" weight="1" />
+      <edge source="A0400" target="A0318" id="423" weight="1" />
+      <edge source="A0401" target="A0402" id="424" weight="1" />
+      <edge source="A0403" target="A0402" id="425" weight="1" />
+      <edge source="A0404" target="A0228" id="426" weight="1" />
+    </edges>
   </graph>
 </gexf>

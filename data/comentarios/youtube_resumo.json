@@ -1,7 +1,7 @@
 {
  "rede": "youtube",
- "gerado_em": "2026-11-22T21:21:31Z",
- "run_id": "45071626874",
+ "gerado_em": "2026-11-22T23:15:23Z",
+ "run_id": "45082213196",
  "janela": "núcleo",
  "metodo": "Uso: python scripts/collect_comentarios.py --rede youtube|instagram|tiktok [--por-post 50] Universo por publicação = número de comentários que a plataforma informa no acervo de posts (YouTube e TikTok); o\nInstagram não informou (⛔). Lido = comentários recebidos. Cobertura \"completa\" só quando lido ≥ universo.",
  "temas_procurados": {
@@ -51,177 +51,205 @@
   ]
  },
  "por_influenciadora": {
+  "hyatt-omar": {
+   "publicacoes": 0,
+   "universo": 0,
+   "lidos": 0,
+   "comentaristas_distintos": 0,
+   "temas": {},
+   "nuvem": [],
+   "nota": "sem publicações no núcleo nesta rede"
+  },
+  "carima-orra": {
+   "publicacoes": 0,
+   "universo": 0,
+   "lidos": 0,
+   "comentaristas_distintos": 0,
+   "temas": {},
+   "nuvem": [],
+   "nota": "sem publicações no núcleo nesta rede"
+  },
+  "fabiola-oliveira": {
+   "publicacoes": 0,
+   "universo": 0,
+   "lidos": 0,
+   "comentaristas_distintos": 0,
+   "temas": {},
+   "nuvem": [],
+   "nota": "sem publicações no núcleo nesta rede"
+  },
   "mariam-chami": {
    "publicacoes": 16,
-   "universo": 2696,
-   "lidos": 2098,
-   "comentaristas_distintos": 1771,
+   "universo": 2698,
+   "lidos": 2698,
+   "respostas_lidas": 599,
+   "comentaristas_distintos": 1947,
    "temas": {
-    "israel_guerra": 29,
-    "islamofobia_preconceito": 48,
-    "gaza_palestina": 11,
+    "islamofobia_preconceito": 74,
+    "gaza_palestina": 18,
+    "israel_guerra": 45,
     "acordo_hamas": 1
    },
    "nuvem": [
     [
      "sao",
-     191
+     282
     ],
     [
      "religiao",
-     167
-    ],
-    [
-     "explicacao",
-     157
-    ],
-    [
-     "arabe",
-     127
+     262
     ],
     [
      "pais",
-     119
+     174
     ],
     [
-     "arabes",
-     117
-    ],
-    [
-     "pessoas",
-     114
-    ],
-    [
-     "linda",
-     109
-    ],
-    [
-     "parabens",
-     105
+     "explicacao",
+     162
     ],
     [
      "paises",
-     100
+     160
     ],
     [
      "brasil",
-     99
+     158
     ],
     [
-     "bom",
-     81
+     "arabe",
+     151
     ],
     [
-     "muculmanos",
-     81
+     "arabes",
+     142
+    ],
+    [
+     "pessoas",
+     140
     ],
     [
      "mulheres",
-     70
+     128
+    ],
+    [
+     "linda",
+     113
+    ],
+    [
+     "muculmanos",
+     108
+    ],
+    [
+     "parabens",
+     108
+    ],
+    [
+     "bom",
+     92
+    ],
+    [
+     "mulher",
+     85
+    ],
+    [
+     "sobre",
+     84
+    ],
+    [
+     "sou",
+     82
+    ],
+    [
+     "isla",
+     81
     ],
     [
      "sempre",
-     68
+     80
+    ],
+    [
+     "maioria",
+     77
+    ],
+    [
+     "mundo",
+     75
+    ],
+    [
+     "onde",
+     74
+    ],
+    [
+     "qualquer",
+     74
+    ],
+    [
+     "muculmana",
+     73
+    ],
+    [
+     "sim",
+     73
+    ],
+    [
+     "muculmano",
+     72
     ],
     [
      "aula",
-     65
+     67
     ],
     [
      "amei",
      64
     ],
     [
-     "sou",
+     "cristaos",
      63
     ],
     [
-     "isla",
-     59
-    ],
-    [
-     "maioria",
-     59
-    ],
-    [
-     "muculmano",
-     58
-    ],
-    [
-     "mundo",
-     58
-    ],
-    [
-     "muculmana",
-     57
-    ],
-    [
-     "mulher",
-     57
-    ],
-    [
-     "sabia",
-     56
-    ],
-    [
      "entender",
-     55
-    ],
-    [
-     "explicar",
-     52
-    ],
-    [
-     "maravilhosa",
-     51
-    ],
-    [
-     "sobre",
-     51
-    ],
-    [
-     "excelente",
-     50
-    ],
-    [
-     "desenhar",
-     48
-    ],
-    [
-     "didatica",
-     46
-    ],
-    [
-     "onde",
-     46
-    ],
-    [
-     "ignorancia",
-     45
-    ],
-    [
-     "qualquer",
-     45
-    ],
-    [
-     "mulcumanos",
-     44
-    ],
-    [
-     "boa",
-     43
-    ],
-    [
-     "vcs",
-     42
-    ],
-    [
-     "paises arabes",
-     41
+     63
     ],
     [
      "pessoa",
-     40
+     63
+    ],
+    [
+     "ver",
+     63
+    ],
+    [
+     "sabia",
+     60
+    ],
+    [
+     "explicar",
+     57
+    ],
+    [
+     "jesus",
+     56
+    ],
+    [
+     "ignorancia",
+     55
+    ],
+    [
+     "verdade",
+     55
+    ],
+    [
+     "quer",
+     54
+    ],
+    [
+     "religioes",
+     54
+    ],
+    [
+     "boa",
+     52
     ]
    ]
   }
@@ -232,12 +260,12 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=3LrfrJ1dqSU",
    "universo": 1513,
-   "lidos": 1273,
-   "cobertura": "amostra",
+   "lidos": 1513,
+   "cobertura": "completa",
    "temas": {
-    "israel_guerra": 23,
-    "islamofobia_preconceito": 38,
-    "gaza_palestina": 9,
+    "gaza_palestina": 11,
+    "israel_guerra": 28,
+    "islamofobia_preconceito": 42,
     "acordo_hamas": 1
    }
   },
@@ -246,8 +274,8 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=-FmjzKCM1oI",
    "universo": 41,
-   "lidos": 40,
-   "cobertura": "amostra",
+   "lidos": 41,
+   "cobertura": "completa",
    "temas": {
     "islamofobia_preconceito": 1
    }
@@ -257,8 +285,8 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=CdDwtrUqdyw",
    "universo": 28,
-   "lidos": 26,
-   "cobertura": "amostra",
+   "lidos": 28,
+   "cobertura": "completa",
    "temas": {}
   },
   {
@@ -266,12 +294,12 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=ksA1velHT0g",
    "universo": 401,
-   "lidos": 204,
-   "cobertura": "amostra",
+   "lidos": 401,
+   "cobertura": "completa",
    "temas": {
-    "gaza_palestina": 1,
-    "islamofobia_preconceito": 6,
-    "israel_guerra": 1
+    "islamofobia_preconceito": 19,
+    "gaza_palestina": 6,
+    "israel_guerra": 3
    }
   },
   {
@@ -279,8 +307,8 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=SEruKLf1gGc",
    "universo": 15,
-   "lidos": 13,
-   "cobertura": "amostra",
+   "lidos": 15,
+   "cobertura": "completa",
    "temas": {}
   },
   {
@@ -288,17 +316,19 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=2ynx5nKfx5Y",
    "universo": 62,
-   "lidos": 52,
-   "cobertura": "amostra",
-   "temas": {}
+   "lidos": 62,
+   "cobertura": "completa",
+   "temas": {
+    "islamofobia_preconceito": 1
+   }
   },
   {
    "post_id": "gx0zZUsxHI0",
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=gx0zZUsxHI0",
    "universo": 73,
-   "lidos": 69,
-   "cobertura": "amostra",
+   "lidos": 73,
+   "cobertura": "completa",
    "temas": {}
   },
   {
@@ -306,8 +336,8 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=JZoo0BGf6uI",
    "universo": 26,
-   "lidos": 23,
-   "cobertura": "amostra",
+   "lidos": 26,
+   "cobertura": "completa",
    "temas": {}
   },
   {
@@ -315,11 +345,11 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=OAMEao-4gns",
    "universo": 191,
-   "lidos": 79,
-   "cobertura": "amostra",
+   "lidos": 191,
+   "cobertura": "completa",
    "temas": {
-    "islamofobia_preconceito": 3,
-    "israel_guerra": 2
+    "israel_guerra": 11,
+    "islamofobia_preconceito": 10
    }
   },
   {
@@ -335,9 +365,9 @@
    "post_id": "nfalbVp3Hq0",
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=nfalbVp3Hq0",
-   "universo": 133,
-   "lidos": 132,
-   "cobertura": "amostra",
+   "universo": 134,
+   "lidos": 134,
+   "cobertura": "completa",
    "temas": {}
   },
   {
@@ -365,8 +395,8 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=clrKQDhxuoc",
    "universo": 19,
-   "lidos": 16,
-   "cobertura": "amostra",
+   "lidos": 19,
+   "cobertura": "completa",
    "temas": {
     "israel_guerra": 1
    }
@@ -375,11 +405,12 @@
    "post_id": "CPlUhw9v01k",
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=CPlUhw9v01k",
-   "universo": 149,
-   "lidos": 129,
-   "cobertura": "amostra",
+   "universo": 150,
+   "lidos": 150,
+   "cobertura": "completa",
    "temas": {
-    "gaza_palestina": 1
+    "gaza_palestina": 1,
+    "islamofobia_preconceito": 1
    }
   },
   {
@@ -387,15 +418,15 @@
    "ator_id": "mariam-chami",
    "url": "https://www.youtube.com/watch?v=rX_OgbYS8qg",
    "universo": 17,
-   "lidos": 14,
-   "cobertura": "amostra",
+   "lidos": 17,
+   "cobertura": "completa",
    "temas": {
     "israel_guerra": 1
    }
   }
  ],
  "execucao": {
-  "chamadas_api": 32,
+  "chamadas_api": 62,
   "custo_usd": 0
  },
  "erros": []
