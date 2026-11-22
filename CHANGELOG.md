@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: índice de engajamento relativo (caderno 04)
+
+**O que mudou.** Novo `scripts/build_engajamento.py`, que grava `data/engajamento.json`: índice = interações da publicação ÷ mediana da mesma influenciadora, na mesma rede, na linha de base. Interações por rede: YouTube, curtidas + comentários; Instagram, só curtidas (o ator não devolve comentários); TikTok e X, curtidas + comentários + compartilhamentos. Com menos de 3 publicações na base, o índice fica ⛔. O caderno 04 traz o resumo por influenciadora e rede, um gráfico por rede (escala logarítmica, 1× e 31/07 marcados) e as 10 publicações mais acima do habitual. O índice é regerado nos workflows de coleta.
+
+**Resultado.** Índice mediano no núcleo: Mariam, YouTube 3,74× (15 de 16 acima), TikTok 2,25×, Instagram 0,81×; Hyatt, Instagram 0,83× e TikTok 0,96×; Carima, Instagram 0,74× e TikTok 0,51×; Fabíola, TikTok 4,14× (base de só 5) e Instagram ⛔ (base de 1). Maior pico: Carima, TikTok, 14/08 (hijab em Copacabana), 462× o habitual. Nenhuma dessas publicações trata do acordo.
+
+**Pendência apontada pelo responsável às 18h12.** O caderno dizia "próxima etapa", mas os dados já estavam coletados.
+
+**Executado.** 30 testes unitários; `node --check`; caderno 04 aberto no Chrome headless.
+
 ## 22/11/2026: X das quatro confirmado; posts do X e citações de terceiros no X
 
 **O que mudou.** `atores.json`: X confirmado para @eumariamchami, @hyattomar_, @CarimaOrra e @fabiola_oliver (links do responsável às 18h08). `collect_apify_posts.py --rede x` usa xquik~x-tweet-scraper com a busca do X `from:perfil since:2026-06-01 until:2026-08-15 -filter:retweets`; o universo é o `statusesCount` do perfil. Novo `collect_terceiros_x.py`: busca nome entre aspas OU @ de cada uma, sem a própria conta e sem reposts, só no núcleo, dentro da etapa `terceiros_transcricoes`. Texto e autor vão só para o privado (`data/terceiros/x_mencoes.csv`); ao público vão contagens por tipo (@ ou só nome), por dia e de autores distintos. `quando()` passa a ler a data do X ("Fri Jul 31 10:00:00 +0000 2026"). O caderno 06 mostra as menções no X; panorama, caderno 03 e saúde incluem o X.

@@ -310,7 +310,33 @@ async function dizem(rede) {
       <p class="inf-nota">Termos procurados: ${tema.join(", ")}. Transcrição automática (Whisper small), sujeita a erro de escuta. Uma menção não é posição: a posição só é atribuída depois da codificação humana com o livro de códigos (kappa ≥ 0,70), ainda ⛔ não feita.</p>
       ${trechos ? `<h2 class="tk-h2" style="margin-top:22px">Trechos em que a fala cita um termo</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th>Termo</th><th>Trecho</th><th></th></tr></thead><tbody>${trechos}</tbody></table></div><p class="inf-nota">Os trechos mostram o contexto: nenhum deles trata do acordo de 31/07.</p>` : ""}`;
   }
-  $("p4Corpo").innerHTML = vazio(M ? "⛔ Índice ainda não calculado: o script de engajamento é a próxima etapa sobre os vídeos já coletados." : "⛔ Nenhuma coleta executada ainda.");
+  {
+    const E = await json("data/engajamento.json");
+    if (!E) $("p4Corpo").innerHTML = vazio("⛔ Índice ainda não calculado.");
+    else {
+      const redesE = [...new Set(E.grupos.map(g => g.rede))], corA = Object.fromEntries(Object.keys(nomes).map((a, i) => [a, COR[i % COR.length]]));
+      const ps = E.publicacoes.filter(p => p.indice != null), maxI = Math.max(2, ...ps.map(p => p.indice));
+      const ly = v => Math.log10(Math.max(v, 0.05)), y0 = ly(0.05), y1 = ly(maxI * 1.2);
+      const t0 = Date.parse("2026-07-23T00:00:00Z"), t1 = Date.parse("2026-08-15T00:00:00Z"), ESQ = 60, LARG = 860, HH = 170;
+      const graf = rede => { const pp = ps.filter(p => p.rede === rede); if (!pp.length) return "";
+        const Y = v => 20 + (1 - (ly(v) - y0) / (y1 - y0)) * HH, X = t => ESQ + (t - t0) / (t1 - t0) * LARG;
+        let s_ = `<svg viewBox="0 0 ${ESQ + LARG + 20} ${HH + 50}" style="width:100%;height:auto;font:11px sans-serif">`;
+        [0.1, 0.5, 1, 2, 5, 10, 50, 100, 500].filter(v => v <= maxI * 1.2).forEach(v => s_ += `<line x1="${ESQ}" x2="${ESQ + LARG}" y1="${Y(v)}" y2="${Y(v)}" stroke="${v === 1 ? "#9c2b20" : "#eef1f3"}" ${v === 1 ? 'stroke-dasharray="4 3"' : ""}/><text x="${ESQ - 6}" y="${Y(v) + 4}" text-anchor="end" fill="#7d8997">${v}×</text>`);
+        const x31 = X(Date.parse("2026-07-31T12:00:00Z")); s_ += `<line x1="${x31}" x2="${x31}" y1="14" y2="${HH + 22}" stroke="#9c2b20"/><text x="${x31 + 4}" y="14" fill="#9c2b20">31/07</text>`;
+        ["2026-07-23", "2026-08-01", "2026-08-14"].forEach(d => s_ += `<text x="${X(Date.parse(d + "T12:00:00Z"))}" y="${HH + 42}" text-anchor="middle" fill="#7d8997">${d.slice(8)}/${d.slice(5, 7)}</text>`);
+        pp.forEach(p => s_ += `<a href="${esc(p.url)}" target="_blank" rel="noopener"><circle cx="${X(Date.parse(p.publicado_em)).toFixed(1)}" cy="${Y(p.indice).toFixed(1)}" r="5" fill="${corA[p.ator_id]}" fill-opacity=".75"><title>${esc(nomes[p.ator_id])} · ${dataBR(p.publicado_em)} · índice ${p.indice.toLocaleString("pt-BR")} · ${n(p.interacoes)} interações · ${esc(p.texto)}</title></circle></a>`);
+        return `<h2 class="tk-h2" style="margin-top:18px">${REDES[rede]}</h2>${s_}</svg>`; };
+      const leg = `<div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180">${Object.keys(nomes).map(a => `<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${corA[a]};margin-right:6px"></b>${esc(nomes[a])}</span>`).join("")}</div>`;
+      const top = [...ps].sort((a, b) => b.indice - a.indice).slice(0, 10);
+      $("p4Corpo").innerHTML = `<div class="eyebrow">Índice por influenciadora e rede · núcleo contra a linha de base</div><h2 class="tk-h2">Resumo</h2>
+        <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Rede</th><th>Interações contadas</th><th class="inf-num">Base (publicações)</th><th class="inf-num">Mediana da base</th><th class="inf-num">Núcleo (publicações)</th><th class="inf-num">Índice mediano no núcleo</th><th class="inf-num">Acima do habitual</th></tr></thead><tbody>${E.grupos.map(g => `<tr><td>${esc(g.nome)}</td><td>${REDES[g.rede]}</td><td>${g.componentes.join(" + ")}</td><td class="inf-num">${n(g.base_publicacoes)}</td><td class="inf-num">${g.base_mediana_interacoes != null ? n(Math.round(g.base_mediana_interacoes)) : "⛔"}</td><td class="inf-num">${n(g.nucleo_publicacoes)}</td><td class="inf-num">${g.nucleo_indice_mediano != null ? g.nucleo_indice_mediano.toLocaleString("pt-BR") + "×" : "⛔"}</td><td class="inf-num">${g.nucleo_com_indice ? n(g.nucleo_acima_de_1) + " de " + n(g.nucleo_com_indice) : "—"}</td></tr>`).join("")}</tbody></table></div>
+        <p class="inf-nota">⛔ = linha de base com menos de 3 publicações com interação: o índice não é calculado (nunca estimado). Cada índice compara a publicação só com a própria base da influenciadora naquela rede; não compare índices entre redes, porque cada rede informa interações diferentes (o Instagram, aqui, só curtidas).</p>
+        <h2 class="tk-h2" style="margin-top:22px">Cada publicação do núcleo</h2>${leg}${redesE.map(graf).join("")}
+        <p class="inf-nota">Eixo vertical em escala logarítmica; linha tracejada = 1× (igual ao habitual). Clique abre a publicação.</p>
+        <h2 class="tk-h2" style="margin-top:22px">As 10 publicações mais acima do habitual</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th class="inf-num">Índice</th><th class="inf-num">Interações</th><th>Legenda</th><th></th></tr></thead><tbody>${top.map(p => `<tr><td>${dataBR(p.publicado_em)}</td><td>${esc(nomes[p.ator_id])}</td><td>${REDES[p.rede]}</td><td class="inf-num">${p.indice.toLocaleString("pt-BR")}×</td><td class="inf-num">${n(p.interacoes)}</td><td style="max-width:380px">${esc(p.texto || "—")}</td><td><a href="${esc(p.url)}" target="_blank" rel="noopener">abrir</a></td></tr>`).join("")}</tbody></table></div>
+        <p class="inf-nota">${esc(E.metodo)}</p>`;
+    }
+  }
 
   // Caderno 07: Trends
   const serieCSV = async nome => { const t = MTr?.pasta ? await texto(`${MTr.pasta}/${nome}`) : null; if (!t) return null;

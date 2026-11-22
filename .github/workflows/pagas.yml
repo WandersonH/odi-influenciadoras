@@ -71,7 +71,7 @@ jobs:
       - name: O que dizem (temas por rede)
         if: always()
         continue-on-error: true
-        run: python scripts/build_o_que_dizem.py
+        run: python scripts/build_o_que_dizem.py && python scripts/build_engajamento.py
       - name: Gravar (público)
         if: always()
         run: |
