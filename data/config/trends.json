@@ -17,7 +17,9 @@
       "Organização",
       "organização",
       "Movimento",
-      "Partido"
+      "Partido",
+      "Assunto",
+      "assunto"
      ]
     },
     {
@@ -28,7 +30,9 @@
       "território",
       "Região",
       "região",
-      "Lugar"
+      "Lugar",
+      "Assunto",
+      "assunto"
      ]
     }
    ]

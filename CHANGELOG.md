@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: primeira coleta do Trends (run 45066153210) e correção dos tópicos
+
+**Resultado** (`data/manifest/trends_latest.json`). Palavras do tema e nomes das influenciadoras: ok nos dois períodos. Tópicos: bloqueados, porque o Google classifica "Faixa de Gaza" como "Assunto" e a configuração esperava "Território". Na série do estudo (índice 0–100 relativo à consulta), Hamas teve pico em 21/06 (37) e ficou em 19 em 31/07; Gaza teve pico em 20/06 (100) e 22 em 31/07. Mariam Chami teve pico em 09/06 (100) e 0 em 31/07. Hyatt Omar, Carima Orra e Fabíola Oliveira ficaram em 0 o período todo (volume abaixo do mínimo do Trends).
+
+**Correção.** "Assunto" foi aceito como tipo dos tópicos. Nova coleta disparada logo após este commit.
+
 ## 22/11/2026: Google Trends (Brasil) e resultado das legendas do YouTube pela Apify
 
 **Trends.** O coletor do ODI Espanha (`collect_trends.py`, `net.py`) foi copiado e ajustado para o Brasil (pt-BR, UTC-3, geo BR), com workflow `trends.yml` de disparo manual. `data/config/trends.json` tem três grupos: tópicos (Hamas, Faixa de Gaza), palavras do tema (Hamas, desarmamento, Gaza, Palestina, cessar-fogo) e os nomes das quatro influenciadoras. São dois períodos: o estudo inteiro (01/06 a 14/08) e só o núcleo (23/07 a 14/08). O Trends ainda não tinha sido coletado porque o coletor não existia neste repositório; o responsável perguntou às 17h22.
