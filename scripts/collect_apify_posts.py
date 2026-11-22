@@ -53,12 +53,23 @@ def inteiro(v):
 
 
 def quando(v):
+    """Data em UTC no formato AAAA-MM-DDTHH:MM:SSZ (aceita epoch em segundos ou ISO com fração e fuso)."""
     if v in (None, ""):
         return ""
     if isinstance(v, (int, float)) or str(v).isdigit():
         return datetime.fromtimestamp(int(v), timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    s = str(v).replace("+00:00", "Z")
-    return s[:19] + "Z" if len(s) >= 19 and not s.endswith("Z") else s[:20] if s.endswith("Z") else s
+    s = str(v).strip().replace("Z", "+00:00")
+    try:
+        d = datetime.fromisoformat(s)
+    except ValueError:
+        return str(v)
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=timezone.utc)
+    return d.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+TIPOS_IG = {"1": "imagem", "2": "vídeo", "8": "carrossel", "image": "imagem", "video": "vídeo",
+            "sidecar": "carrossel", "graphimage": "imagem", "graphvideo": "vídeo", "graphsidecar": "carrossel"}
 
 
 def carregar(nome):
@@ -74,7 +85,7 @@ def gasto_etapa(etapa: str, raiz: Path = RAIZ) -> float:
     return round(tot, 4)
 
 
-def pedido(rede, perfis, etapa, n, desde):
+def pedido(rede, perfis, etapa, n, desde, ator=""):
     """Uma execução por rede com todos os perfis (a Apify exige teto mínimo de US$ 0,50 por execução)."""
     us = [p.lstrip("@") for p in perfis]
     if rede == "instagram":
@@ -83,6 +94,11 @@ def pedido(rede, perfis, etapa, n, desde):
                                 "displayUrl", "ownerUsername", "videoDuration", "videoPlayCount", "type"]}
         if etapa != "teste":
             p["onlyPostsNewerThan"] = desde[:10]
+        return p
+    if ator.startswith("apidojo~"):
+        p = {"usernames": us, "maxItems": n * len(us)}
+        if etapa != "teste":
+            p["since"] = desde[:10]
         return p
     p = {"profiles": us, "resultsPerPage": n, "profileSorting": "latest", "profileScrapeSections": ["videos"],
          "shouldDownloadVideos": False, "shouldDownloadCovers": False, "shouldDownloadSubtitles": False}
@@ -97,18 +113,20 @@ def linha(rede, x, ator_id, perfil, janelas, agora):
         pub = quando(g(x, "timestamp"))
         url = g(x, "url") or f"https://www.instagram.com/p/{pid}/"
         texto = g(x, "caption") or ""
-        tipo = str(g(x, "type") or "")
+        tipo = TIPOS_IG.get(str(g(x, "type") or "").lower(), str(g(x, "type") or ""))
         views = inteiro(g(x, "videoPlayCount", "videoViewCount"))
         likes = inteiro(g(x, "likesCount"))
         coms, shares = inteiro(g(x, "commentsCount")), ""
     else:
-        pid = str(g(x, "id") or "")
-        pub = quando(g(x, "createTimeISO", "createTime"))
-        url = g(x, "webVideoUrl") or ""
-        texto = g(x, "text") or ""
+        pid = str(g(x, "id", "video.id", "awemeId") or "")
+        pub = quando(g(x, "createTimeISO", "createTime", "uploadedAt", "create_time"))
+        url = g(x, "webVideoUrl", "postPage", "url") or ""
+        texto = g(x, "text", "title", "desc", "description") or ""
         tipo = "vídeo"
-        views, likes = inteiro(g(x, "playCount")), inteiro(g(x, "diggCount"))
-        coms, shares = inteiro(g(x, "commentCount")), inteiro(g(x, "shareCount"))
+        views = inteiro(g(x, "playCount", "views", "stats.playCount"))
+        likes = inteiro(g(x, "diggCount", "likes", "stats.diggCount"))
+        coms = inteiro(g(x, "commentCount", "comments", "stats.commentCount"))
+        shares = inteiro(g(x, "shareCount", "shares", "stats.shareCount"))
     base, nuc = janelas["base"], janelas["nucleo"]
     janela = ("nucleo" if nuc["inicio"] <= pub <= nuc["fim"] else
               "base" if base["inicio"] <= pub <= base["fim"] else "fora")
@@ -121,16 +139,26 @@ def linha(rede, x, ator_id, perfil, janelas, agora):
 def universo(rede, itens):
     """Total de publicações que a plataforma informa para o perfil, se o ator trouxer."""
     for x in itens:
-        v = g(x, "authorMeta.video") if rede == "tiktok" else g(x, "ownerPostsCount", "owner.postsCount")
-        if v not in (None, ""):
-            return inteiro(v), ("authorMeta.video (TikTok)" if rede == "tiktok" else "postsCount do perfil (Instagram)")
+        if rede == "tiktok":
+            for campo in ("authorMeta.video", "channel.videos", "author.videoCount", "authorStats.videoCount"):
+                v = g(x, campo)
+                if v not in (None, ""):
+                    return inteiro(v), f"{campo} (TikTok)"
+        else:
+            v = g(x, "ownerPostsCount", "owner.postsCount")
+            if v not in (None, ""):
+                return inteiro(v), "postsCount do perfil (Instagram)"
     return None, None
 
 
 def dono(rede, x):
     if not isinstance(x, dict) or x.get("error"):
         return None
-    return str((g(x, "ownerUsername") if rede == "instagram" else g(x, "authorMeta.name")) or "").lower() or None
+    if rede == "instagram":
+        d = g(x, "ownerUsername")
+    else:
+        d = g(x, "authorMeta.name", "channel.username", "author.uniqueId", "author.unique_id", "author.username")
+    return str(d or "").lower() or None
 
 
 def e_do_perfil(rede, x, perfil):
@@ -158,10 +186,13 @@ def main(argv=None, executar=None, raiz=RAIZ):
     ap = argparse.ArgumentParser()
     ap.add_argument("--rede", required=True, choices=["instagram", "tiktok"])
     ap.add_argument("--etapa", required=True, choices=["teste", "posts"])
+    ap.add_argument("--ator", default="", help="força outro ator (ex.: teste comparativo)")
     a = ap.parse_args(argv)
 
     coleta, atores, projeto = carregar("coleta.json"), carregar("atores.json"), carregar("projeto.json")
-    cfg_apify, cfg_rede = coleta["apify"], coleta["redes"][a.rede]
+    cfg_apify, cfg_rede = coleta["apify"], dict(coleta["redes"][a.rede])
+    if a.ator:
+        cfg_rede["ator"] = a.ator
     teto = float(cfg_apify.get("etapas", {}).get(a.etapa, 0))
     if not cfg_apify.get("autorizacao") or teto <= 0:
         print(f"{a.rede}: etapa {a.etapa} sem teto autorizado em coleta.json: nada roda.")
@@ -177,8 +208,8 @@ def main(argv=None, executar=None, raiz=RAIZ):
     gasto = gasto_etapa(a.etapa, raiz)
     resto = round(teto - gasto, 4)
     # a etapa de teste é dividida entre as duas redes
-    redes_na_etapa = 2 if a.etapa == "teste" else 1
-    orcamento_rede = round(min(resto, teto / redes_na_etapa), 4)
+    # a etapa de teste não tem divisão fixa entre redes: vale o que resta, até US$ 0,50 por execução
+    orcamento_rede = round(min(resto, 0.5) if a.etapa == "teste" else resto, 4)
     print(f"{a.rede}: etapa {a.etapa}, teto {teto}, já gasto {gasto}, para esta rede até {orcamento_rede}")
     if orcamento_rede <= 0.01 or not perfis:
         print(f"{a.rede}: sem orçamento restante na etapa ou sem perfis confirmados: nada roda.")
@@ -193,7 +224,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
     linhas, por_perfil, brutos, custo, erros = [], [], {}, 0.0, []
     run_id = None
     try:
-        run, itens = executar(cfg_rede["ator"], pedido(a.rede, [p for _, p in perfis], a.etapa, n, desde), cap)
+        run, itens = executar(cfg_rede["ator"], pedido(a.rede, [p for _, p in perfis], a.etapa, n, desde, cfg_rede["ator"]), cap)
         custo = apify.custo_run(run)
         run_id = run.get("id")
     except apify.ErroDepoisDaExecucao as e:
@@ -238,7 +269,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
                  "posts_gravados": {"novos": novos, "total_no_acervo": total}, "erros": erros}
     (raiz / "data/manifest").mkdir(parents=True, exist_ok=True)
     txt = json.dumps(manifesto, ensure_ascii=False, indent=1)
-    (raiz / f"data/manifest/apify_{a.rede}_{a.etapa}_{stamp}.json").write_text(txt, encoding="utf-8")
+    (raiz / f"data/manifest/apify_{a.rede}_{a.etapa}_{cfg_rede['ator'].split('~')[0]}_{stamp}.json").write_text(txt, encoding="utf-8")
     (raiz / f"data/manifest/{a.rede}_latest.json").write_text(txt, encoding="utf-8")
     ok = sum(1 for p in por_perfil if p.get("lidos"))
     print(f"{a.rede}: {ok} de {len(perfis)} perfis com posts; {novos} novos ({total} no acervo); custo US$ {round(custo, 4)}; {len(erros)} erro(s)")

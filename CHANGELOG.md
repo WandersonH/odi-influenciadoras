@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: resultado do teste pago (run 45063550727), correções e teste de ator mais barato no TikTok
+
+**Resultado do teste** (manifestos `instagram_latest.json` e `tiktok_latest.json` desse run): 15 itens mais recentes por perfil.
+- Instagram (esdrasdw, execução Nhg2oM10cgWdHAZNQ): 60 itens; 54 das próprias influenciadoras e 6 de outros perfis, deixados fora do acervo. O manifesto registra custo 0,0: o valor real não foi medido (a execução não devolveu cobrança). Universo ⛔: o ator não informa o total de posts do perfil.
+- TikTok (clockworks, execução txaO3NUnCk9NkL8Ma): 60 itens, US$ 0,223, ou cerca de US$ 3,70 por mil, muito acima do previsto. Universo informado: Mariam 3.627, Hyatt 226, Carima 570 e Fabíola 941 vídeos.
+
+**Correções.** Datas do TikTok com fração de segundo eram gravadas cortadas ("…:34."); `quando()` agora converte de verdade para UTC. O tipo do Instagram vinha como código (1, 2, 8) e agora sai como imagem, vídeo ou carrossel. As 114 linhas já gravadas tiveram data, tipo e janela reescritos no lugar, sem apagar nenhuma. A etapa de teste deixa de ser dividida meio a meio entre as redes: cada execução usa o que resta, até US$ 0,50.
+
+**Novo.** Opção `--ator` e suporte a `apidojo~tiktok-profile-scraper` (o Atlas mediu US$ 0,0003 por item). Teste comparativo no TikTok disparado logo após este commit, dentro do teto da etapa de teste (restam US$ 0,777).
+
+**Executado.** 15 testes unitários aprovados.
+
 ## 22/11/2026: teste pago recusado pela Apify (sem custo) e correção
 
 **O que aconteceu.** Run 45063428772: as duas redes foram recusadas na entrada, antes de executar; custo de US$ 0,00 nos manifestos `apify_instagram_teste_20261122T195502Z.json` e `apify_tiktok_teste_20261122T195503Z.json`. Instagram: o campo `videoViewCount` não é aceito em `selectedFields`. TikTok: o teto de US$ 0,125 por execução estava abaixo do mínimo de US$ 0,50 exigido pela Apify.

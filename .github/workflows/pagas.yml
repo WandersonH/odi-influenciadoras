@@ -15,6 +15,10 @@ on:
         type: choice
         options: [teste, posts]
         default: teste
+      ator:
+        description: "ator Apify (vazio = o de coleta.json)"
+        type: string
+        default: ""
 
 concurrency:
   group: coleta-influenciadoras
@@ -54,7 +58,8 @@ jobs:
           case "${{ github.event.inputs.rede }}" in ambas) redes="instagram tiktok";; *) redes="${{ github.event.inputs.rede }}";; esac
           rc=0
           for r in $redes; do
-            python scripts/collect_apify_posts.py --rede "$r" --etapa "${{ github.event.inputs.etapa }}" > o.txt 2>&1 || rc=1
+            extra=""; if [ -n "${{ github.event.inputs.ator }}" ]; then extra="--ator ${{ github.event.inputs.ator }}"; fi
+            python scripts/collect_apify_posts.py --rede "$r" --etapa "${{ github.event.inputs.etapa }}" $extra > o.txt 2>&1 || rc=1
             while IFS= read -r l; do echo "::notice title=$r::$(echo "$l" | cut -c1-900)"; done < o.txt
           done
           rm -f o.txt; exit $rc
