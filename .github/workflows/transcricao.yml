@@ -69,13 +69,13 @@ jobs:
       - name: O que dizem (temas por rede)
         if: always()
         continue-on-error: true
-        run: python scripts/build_o_que_dizem.py
+        run: pip install -q numpy networkx && python scripts/build_o_que_dizem.py && python scripts/build_engajamento.py && python scripts/build_redes.py && python scripts/build_corpus.py
       - name: Gravar
         if: always()
         run: |
           git config user.name "odi-influenciadoras-coletor"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/transcricoes data/manifest data/youtube/conteudo.json data/instagram/conteudo.json data/tiktok/conteudo.json
+          git add -A data
           git diff --cached --quiet && exit 0
           git commit -q -m "Transcrição ${{ matrix.rede }} (run ${{ github.run_id }})"
           for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done

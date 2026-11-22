@@ -48,7 +48,7 @@ jobs:
       - name: O que dizem (temas por rede)
         if: always()
         continue-on-error: true
-        run: python scripts/build_o_que_dizem.py && python scripts/build_engajamento.py
+        run: pip install -q numpy networkx && python scripts/build_o_que_dizem.py && python scripts/build_engajamento.py && python scripts/build_redes.py && python scripts/build_corpus.py
       - name: Gravar a coleta (público)
         if: always()
         run: |

@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: redes para o Gephi (caderno 08) e corpus IRaMuTeQ com CHD e similitude (caderno 09)
+
+**Redes.** Novo `scripts/build_redes.py`: rede bipartida das influenciadoras com os @ e # que elas mesmas marcam no recorte, em todas as redes. Comunidades por Louvain (resolução 1,0, semente 42). Exporta GEXF, GraphML e CSV de nós e de arestas completas, sem corte. Resultado: 74 nós, 85 arestas, 4 comunidades, modularidade 0,375. Mariam e Hyatt partilham #arabe, #islam, #hijab, #muculmana, @hudabeauty e @sephorabrasil; Mariam e Carima partilham @naturabroficial, @oboticario e #naturaessencialsafran. Fabíola não marca ninguém (nó isolado). As redes de terceiros e de comentaristas, e o índice E-I, ficam ⛔ até a revisão de homônimos e a coleta de comentários.
+
+**Corpus.** `chd_reinert.py`, `similitude.py`, `redes_caso.py` e `data/config/lexique_pt.txt` copiados do ODI Atlas sem mudança no método. `build_conteudo.py` é um módulo mínimo com as mesmas norm, STOP e EMOJI_TAG do Atlas. Novo `scripts/build_corpus.py`: legenda + fala de 251 textos, 71 deles com fala; exporta `data/corpus/influenciadoras_iramuteq.txt` com as variáveis *infl_, *rede_, *janela_ e *fala_; gera 636 segmentos de cerca de 40 palavras. CHD: 9 classes e 70% de segmentos classificados, abaixo dos 75% de Camargo & Justo, o que fica sinalizado na página. Similitude em GEXF. Nenhuma classe trata do acordo, de Hamas ou de Gaza. A classe 9 (mulher, islã, hijab, oprimida, governo, obrigar) é a mais próxima de posicionamento e está associada a Mariam.
+
+**Pedidos do responsável** às 18h14: os cadernos 08 e 09 continuavam em ⛔ com os dados já disponíveis.
+
+**Executado.** Os dois scripts rodaram localmente; `node --check`; cadernos 08 e 09 abertos no Chrome headless; testes unitários. Os workflows passam a regerar rede e corpus.
+
 ## 22/11/2026: X com o período nos campos do ator
 
 **O que aconteceu.** Nos posts do X com `since:` na busca, com e sem `until:` (runs 45070655413 e 45070885494), vieram 0 itens. Nas menções de terceiros (run 45070739356), vieram só 2. Sem filtro de data (run 45070964861, teste), vieram 60 posts das quatro por US$ 0,0002. A página de entrada do ator (apify.com/xquik/x-tweet-scraper/input-schema) traz campos próprios `since` e `until`.

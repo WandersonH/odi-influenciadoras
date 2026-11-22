@@ -100,14 +100,14 @@
   <div class="paper-ribbon"><span>CADERNO 08 / REDES</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Gephi · ForceAtlas 2 e OpenOrd</div><h1>Quem se conecta a quem.</h1>
     <p>Comunidades por Modularity (Louvain, resolução 1,0, semente 42), polarização pelo índice E-I de Krackhardt e Stern. Download em GEXF, GraphML e NodeXL, como nos casos do ODI Atlas.</p></div>
-  <div class="card"><div class="inf-vazio">⛔ Sem rede: depende das publicações, comentários e menções coletados.</div></div>
+  <div class="card" id="p8Corpo"></div>
 </section>
 
 <section class="panel" id="corpus" aria-label="Corpus">
   <div class="paper-ribbon"><span>CADERNO 09 / CORPUS</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">IRaMuTeQ</div><h1>Classes de discurso e palavras que andam juntas.</h1>
     <p>CHD (método de Reinert) e análise de similitude sobre o corpus público, no formato **** do IRaMuTeQ, com variáveis de influenciadora, rede, janela e posição.</p></div>
-  <div class="card"><div class="inf-vazio">⛔ Sem corpus: depende de transcrições e textos coletados.</div></div>
+  <div class="card" id="p9Corpo"></div>
 </section>
 
 <section class="panel" id="metodo" aria-label="Método">
@@ -378,6 +378,60 @@ async function dizem(rede) {
         <div class="kpi"><div class="klabel">Citam uma influenciadora</div><div class="kval">${n(MC.citam_influenciadora)}</div><div class="knote">nome na afirmação, no título ou em quem disse</div></div></div>
         ${lista.length ? `<div class="tablewrap" style="margin-top:14px"><table class="datatable"><thead><tr><th>Checagem</th><th>Janela</th><th>Agência</th><th>Rótulo</th><th>Afirmação</th><th>Quem disse</th><th></th></tr></thead><tbody>${lista.slice(0, 60).map(x => `<tr><td>${x.data_checagem ? dataBR(x.data_checagem + "T12:00:00Z") : "—"}</td><td>${rotJ[x.janela] || x.janela}</td><td>${esc(x.agencia || "")}</td><td>${esc(x.rotulo || "")}</td><td style="max-width:420px">${esc((x.afirmacao || "").slice(0, 220))}${x.cita_influenciadora?.length ? ` <span class="inf-sit pend">${esc(x.cita_influenciadora.join(", "))}</span>` : ""}</td><td>${esc(x.quem_disse || "—")}</td><td>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">abrir</a>` : ""}</td></tr>`).join("")}</tbody></table></div>` : vazio("Nenhuma checagem encontrada para as consultas no período.")}
         <p class="inf-nota">Consultas: ${MC.consultas.map(c => `${esc(c.consulta)} (${c.lidos})`).join(" · ")}. O estudo não dá veredito: o rótulo é o da agência. Nome de pessoa comum em "quem disse" é omitido.</p>`;
+  }
+
+  // Cadernos 08 e 09: rede e corpus
+  const desenhaRede = (nos, arestas, cor, raio, rot, W = 900, H = 560) => {
+    if (!nos.length) return "";
+    const xs = nos.map(n => n.x), ys = nos.map(n => n.y), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const X = x => 30 + (x - x0) / Math.max(1e-6, x1 - x0) * (W - 60), Y = y => 30 + (y - y0) / Math.max(1e-6, y1 - y0) * (H - 60);
+    const P = Object.fromEntries(nos.map(n => [n.id, n]));
+    const maxW = Math.max(1, ...arestas.map(a => a[2]));
+    let g = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;font:10px sans-serif;background:#fbfdff">`;
+    arestas.forEach(([a, b, w]) => { if (P[a] && P[b]) g += `<line x1="${X(P[a].x)}" y1="${Y(P[a].y)}" x2="${X(P[b].x)}" y2="${Y(P[b].y)}" stroke="#9fb2c4" stroke-opacity=".55" stroke-width="${(0.6 + 3 * w / maxW).toFixed(1)}"/>`; });
+    nos.forEach(nd => g += `<circle cx="${X(nd.x)}" cy="${Y(nd.y)}" r="${raio(nd)}" fill="${cor(nd)}" fill-opacity=".85"><title>${esc(rot(nd))}</title></circle>`);
+    nos.forEach(nd => { if (raio(nd) >= 5) g += `<text x="${X(nd.x) + raio(nd) + 2}" y="${Y(nd.y) + 3}" fill="#273447">${esc(rot(nd))}</text>`; });
+    return g + "</svg>";
+  };
+  {
+    const R8 = await json("data/redes/marcacoes.json");
+    if (!R8) $("p8Corpo").innerHTML = vazio("⛔ Rede ainda não gerada.");
+    else {
+      const paleta = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b", "#6b4fa0", "#8a5a0b", "#2a8a8a"];
+      const E8 = R8.estatisticas, maxP = Math.max(1, ...R8.nos.map(n => n.peso));
+      $("p8Corpo").innerHTML = `<div class="eyebrow">Rede de marcações e hashtags · 01/06 a 14/08/2026 · todas as redes</div><h2 class="tk-h2">Com quem e com que temas cada uma se liga</h2>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Nós</div><div class="kval">${n(E8.nos)}</div><div class="knote">influenciadoras, @ marcados e #hashtags</div></div><div class="kpi"><div class="klabel">Arestas</div><div class="kval">${n(E8.arestas)}</div><div class="knote">${esc(E8.corte)}</div></div><div class="kpi"><div class="klabel">Comunidades</div><div class="kval">${n(E8.comunidades)}</div><div class="knote">Louvain, resolução 1,0, semente 42 · modularidade ${E8.modularidade ?? "—"}</div></div><div class="kpi"><div class="klabel">Densidade</div><div class="kval">${E8.densidade}</div><div class="knote">ligações existentes ÷ possíveis</div></div></div>
+        <div style="margin-top:14px">${desenhaRede(R8.nos, R8.arestas, nd => nd.tipo === "influenciadora" ? "#172238" : paleta[(nd.comunidade - 1) % paleta.length], nd => nd.tipo === "influenciadora" ? 11 : (2.5 + 9 * Math.sqrt(nd.peso / maxP)).toFixed(1), nd => nd.rotulo)}</div>
+        <p class="inf-nota">Círculos escuros: as influenciadoras. Cores: comunidades (Louvain). Espessura da linha: número de publicações. Desenho para leitura rápida; a análise de referência é no Gephi (ForceAtlas 2, Modularity 1,0) com o arquivo abaixo.</p>
+        <h2 class="tk-h2" style="margin-top:18px">Marcações e hashtags partilhadas por 2 ou mais</h2>
+        <div class="tablewrap"><table class="datatable"><thead><tr><th>@ ou #</th><th>Usado por</th></tr></thead><tbody>${R8.partilhados.map(p => `<tr><td>${esc(p.no)}</td><td>${esc(p.influenciadoras.join(", "))}</td></tr>`).join("") || '<tr><td colspan="2">nenhum</td></tr>'}</tbody></table></div>
+        <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/marcacoes.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/marcacoes.graphml" download>GraphML</a> · <a href="data/redes/marcacoes_nos.csv" download>nós (CSV, NodeXL)</a> · <a href="data/redes/marcacoes_arestas.csv" download>arestas completas, sem corte (CSV)</a></p>
+        <p class="inf-nota">${esc(R8.metodo)}</p>
+        <div class="inf-vazio" style="margin-top:12px">⛔ Ainda não geradas: a rede de quem cita quem nas menções de terceiros (depende da revisão de homônimos) e a de comentaristas (depende da coleta de comentários). O índice E-I de polarização só faz sentido nessas duas.</div>`;
+    }
+    const C9 = await json("data/corpus/chd.json");
+    if (!C9) $("p9Corpo").innerHTML = vazio("⛔ Corpus ainda não gerado.");
+    else {
+      const ap = C9.aproveitamento || {}, paleta = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b", "#6b4fa0", "#8a5a0b", "#2a8a8a", "#c4302b", "#4a5b71", "#7d8997"];
+      const sim = C9.similitude && C9.similitude.nos ? C9.similitude : null, mx = sim ? Math.max(1, ...sim.nos.map(x => x.freq)) : 1;
+      const corI = Object.fromEntries(Object.keys(nomes).map((a, i) => [a, COR[i % COR.length]]));
+      $("p9Corpo").innerHTML = `<div class="eyebrow">IRaMuTeQ · CHD de Reinert e similitude · legenda + fala transcrita</div><h2 class="tk-h2">O corpus</h2>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Textos</div><div class="kval">${n(C9.textos)}</div><div class="knote">${n(C9.textos_com_fala)} com fala transcrita · ${Object.entries(C9.textos_por_rede).map(([r, q]) => REDES[r] + " " + q).join(" · ")}</div></div>
+        <div class="kpi"><div class="klabel">Segmentos</div><div class="kval">${n(C9.segmentos_total)}</div><div class="knote">~40 palavras, padrão do IRaMuTeQ</div></div>
+        <div class="kpi"><div class="klabel">Classificados</div><div class="kval">${n(C9.pct_classificados)}%</div><div class="knote">${n(C9.segmentos_classificados)} segmentos · ${C9.pct_classificados >= 75 ? "acima" : "⛔ abaixo"} dos 75% de Camargo & Justo</div></div>
+        <div class="kpi"><div class="klabel">Classes</div><div class="kval">${n(C9.classes.length)}</div><div class="knote">${n(C9.formas_ativas)} formas ativas · nomes a dar pelo pesquisador</div></div></div>
+        <p class="inf-nota"><b>Baixar:</b> <a href="data/corpus/influenciadoras_iramuteq.txt" download>corpus no formato do IRaMuTeQ (**** *infl_ *rede_ *janela_ *fala_)</a> · <a href="data/corpus/similitude.gexf" download>similitude (GEXF, Gephi)</a></p>
+        <h2 class="tk-h2" style="margin-top:18px">Classes da CHD</h2>
+        <div class="inf-duas">${C9.classes.map((c, i) => { const vs = Object.entries(c.variaveis).filter(([, v]) => v.chi2 >= 3.84).sort((a, b) => b[1].chi2 - a[1].chi2);
+          return `<div class="card" style="border-top:4px solid ${paleta[i % paleta.length]}"><div class="eyebrow" style="color:${paleta[i % paleta.length]}">Classe ${c.classe} · ${c.pct}% dos segmentos classificados</div>
+            <div class="inf-cloud" style="--c:${paleta[i % paleta.length]}">${c.formas.slice(0, 18).map(f => `<span style="font-size:${(11 + 12 * Math.sqrt(f[1] / Math.max(1, c.formas[0][1]))).toFixed(1)}px" title="χ² ${f[1]} · ${f[2]} segmentos">${esc(f[0])}</span>`).join(" ")}</div>
+            <p class="inf-nota" style="margin-top:4px">Associada a: ${vs.length ? vs.map(([k, v]) => `${esc(k.startsWith("influenciadora:") ? nomes[k.split(":")[1]] : k === "janela:nucleo" ? "núcleo" : "linha de base")} (χ² ${v.chi2})`).join(", ") : "nenhuma variável com χ² ≥ 3,84"}</p>
+            ${c.segmentos_caracteristicos.slice(0, 2).map(sg => `<a class="inf-item" href="${esc(sg.url)}" target="_blank" rel="noopener"><p>“${esc(sg.texto)}”</p><small>${esc(nomes[sg.cand] || sg.cand)} · ${REDES[sg.rede] || sg.rede}</small></a>`).join("")}</div>`; }).join("")}</div>
+        ${sim ? `<h2 class="tk-h2" style="margin-top:20px">Análise de similitude</h2>${desenhaRede(sim.nos, sim.arestas, nd => nd.especifica_de ? corI[nd.especifica_de] || "#7d8997" : "#9fb2c4", nd => (2 + 9 * Math.sqrt(nd.freq / mx)).toFixed(1), nd => nd.id)}
+          <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.keys(nomes).map(a => `<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${corI[a]};margin-right:6px"></b>forma específica de ${esc(nomes[a])}</span>`).join("")}<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#9fb2c4;margin-right:6px"></b>comum</span></div>
+          <p class="inf-nota">Árvore máxima das ${n(sim.formas)} formas mais frequentes, índice de coocorrência (padrão do IRaMuTeQ). Cor: influenciadora em que a forma é mais específica (χ² ≥ 3,84).</p>` : ""}
+        <p class="inf-nota">${esc(C9.metodo)} Lematização: ${esc((C9.lematizacao || {}).dicionario || "")}.</p>`;
+    }
   }
 
   // Caderno 06: só contagens
