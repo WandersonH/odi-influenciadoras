@@ -1,0 +1,75 @@
+name: Coleta gratuita — YouTube (ODI Influenciadoras)
+
+# Só disparo manual por enquanto. Sem agendamento até o responsável autorizar.
+# YouTube: YouTube Data API v3 com o segredo YOUTUBE_API_KEY (chave nova, deste projeto).
+# Sem o segredo, a coleta é pulada com aviso (não é falha).
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: coleta-influenciadoras
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  youtube:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Repositório privado (menções de terceiros)
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning title=Repositório privado::segredo ausente ou sem acesso ao odi-secret-infl — menções de terceiros NÃO serão guardadas nesta execução"
+          fi
+      - name: YouTube (API oficial, sem custo em US$)
+        id: youtube
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          if [ -z "$YOUTUBE_API_KEY" ]; then echo "::notice title=YouTube::segredo YOUTUBE_API_KEY ausente — YouTube pulado"; exit 0; fi
+          rc=0; python scripts/collect_youtube.py > y.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=YouTube::$(echo "$l" | cut -c1-900)"; done < y.txt
+          rm -f y.txt; exit $rc
+      - name: Gravar a coleta (público)
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Coleta YouTube (run ${{ github.run_id }})"
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Gravar menções de terceiros (privado)
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          mkdir -p "${{ steps.interno.outputs.dir }}/data"
+          if [ -f data/terceiros_youtube.csv ]; then cp data/terceiros_youtube.csv "${{ steps.interno.outputs.dir }}/data/"; fi
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Menções de terceiros YouTube (run ${{ github.run_id }})"
+          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.youtube.outcome == 'failure'
+        run: |
+          echo "::error title=Coleta YouTube::falhou (ver anotações e manifesto)"
+          exit 1

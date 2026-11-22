@@ -1,0 +1,22 @@
+{
+ "nota": "Projeto ODI Influenciadoras: posicionamento de influenciadoras muçulmanas brasileiras sobre o acordo de desarmamento do Hamas. Janelas em UTC. Terceiros só na janela do núcleo (pedido do responsável em 22/11/2026: 'só o recorte').",
+ "estudo": "Posicionamento de influenciadoras muçulmanas brasileiras sobre o acordo de desarmamento gradual do Hamas, com grau de interação e menções de terceiros.",
+ "evento": {
+  "data": "2026-07-31",
+  "descricao": "Hamas declara aceitar desarmamento gradual",
+  "fontes": ["AFP (via O Povo)", "AP (via PBS)", "Band", "Al Jazeera"],
+  "fontes_nota": "Confirmadas em 22/11/2026; URLs completas a registrar na seção 12 do plano."
+ },
+ "janelas": {
+  "base": {
+   "inicio": "2026-06-01T00:00:00Z",
+   "fim": "2026-07-22T23:59:59Z",
+   "papel": "linha de base: mediana das interações por influenciadora e rede, para o índice de engajamento relativo"
+  },
+  "nucleo": {
+   "inicio": "2026-07-23T00:00:00Z",
+   "fim": "2026-08-14T23:59:59Z",
+   "papel": "janela do evento; menções de terceiros só aqui"
+  }
+ }
+}

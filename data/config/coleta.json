@@ -1,0 +1,17 @@
+{
+ "nota": "Coletas e tetos. A coleta do YouTube é gratuita em US$ (só cota diária da API). Nenhuma coleta paga roda sem teto maior que zero e frase de autorização (quem, quando, o quê) em 'autorizacao'. O custo fica nos manifestos e nunca aparece na página.",
+ "youtube": {
+  "segredo": "YOUTUBE_API_KEY",
+  "custo_usd": 0,
+  "cota_diaria": 10000,
+  "custo_unidades": {"channels.list": 1, "playlistItems.list": 1, "videos.list": 1, "search.list": 100},
+  "max_paginas_uploads": 40,
+  "max_paginas_terceiros": 2
+ },
+ "apify": {
+  "segredo": "APIFY_TOKEN_INFL",
+  "teto_usd": 0,
+  "autorizacao": "",
+  "nota": "Teto 0 e sem autorização: nenhum ator Apify roda. Conta Apify dedicada a este projeto; nenhuma consulta de saldo ou de limites."
+ }
+}

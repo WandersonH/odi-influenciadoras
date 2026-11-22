@@ -1,0 +1,46 @@
+{
+ "nota": "Influenciadoras deste estudo. Só perfil com \"confirmado\": true é coletado. 'fonte' diz onde o endereço foi conferido. Perfil sem confirmação é candidato e fica fora da coleta até alguém abrir o perfil e confirmar.",
+ "levantamento": "22/11/2026. YouTube: endereços informados pelo responsável no chat (confirmados por ele). TikTok: @mariamchami_ não existe; @carimaorra está vazio; os perfis lidos no navegador do responsável foram @mariamchami1 e @carimaorra1. Instagram: nenhum endereço confirmado nesta data; a bio do TikTok de Carima Orra aponta para o Instagram dela (handle a extrair).",
+ "atores": [
+  {
+   "id": "mariam-chami",
+   "nome": "Mariam Chami",
+   "tipo": "pessoa",
+   "perfis": {
+    "youtube": {"perfil": "@mariamchami_", "url": "https://www.youtube.com/@mariamchami_", "confirmado": true, "fonte": "Endereço informado pelo responsável em 22/11/2026 (mensagem no chat).", "conferido_em": "2026-11-22"},
+    "instagram": {"perfil": "@mariamchami_", "url": null, "confirmado": false, "fonte": "", "nota": "Candidato a conferir: o responsável indicou o handle, mas não há leitura da página."},
+    "tiktok": {"perfil": "@mariamchami1", "url": "https://www.tiktok.com/@mariamchami1", "confirmado": false, "fonte": "Busca e leitura da página no navegador do responsável, 22/11/2026; ainda sem confirmação de titularidade.", "nota": "Não coletar até confirmação."}
+   }
+  },
+  {
+   "id": "hyatt-omar",
+   "nome": "Hyatt Omar",
+   "tipo": "pessoa",
+   "perfis": {
+    "youtube": {"perfil": "@hyattomar8118", "url": "https://www.youtube.com/@hyattomar8118", "confirmado": true, "fonte": "Endereço informado pelo responsável em 22/11/2026 (mensagem no chat).", "conferido_em": "2026-11-22"},
+    "instagram": {"perfil": null, "url": null, "confirmado": false, "fonte": "", "nota": "A confirmar: o responsável ainda não informou o perfil."},
+    "tiktok": {"perfil": null, "url": null, "confirmado": false, "fonte": "", "nota": "A confirmar."}
+   }
+  },
+  {
+   "id": "carima-orra",
+   "nome": "Carima Orra",
+   "tipo": "pessoa",
+   "perfis": {
+    "youtube": {"perfil": "@carimaorra", "url": "https://www.youtube.com/@carimaorra", "confirmado": true, "fonte": "Endereço informado pelo responsável em 22/11/2026 (mensagem no chat).", "conferido_em": "2026-11-22"},
+    "instagram": {"perfil": null, "url": null, "confirmado": false, "fonte": "", "nota": "Handle a extrair da bio do TikTok (@carimaorra1), lida em 22/11/2026."},
+    "tiktok": {"perfil": "@carimaorra1", "url": "https://www.tiktok.com/@carimaorra1", "confirmado": false, "fonte": "Busca e leitura da página no navegador do responsável, 22/11/2026; @carimaorra estava vazio.", "nota": "Não coletar até confirmação."}
+   }
+  },
+  {
+   "id": "fabiola-oliveira",
+   "nome": "Fabíola Oliveira",
+   "tipo": "pessoa",
+   "perfis": {
+    "youtube": {"perfil": "@fabiolaoliver", "url": "https://www.youtube.com/@fabiolaoliver", "confirmado": true, "fonte": "Endereço informado pelo responsável em 22/11/2026 (mensagem no chat). O nome exibido na conta é 'Oliveira'.", "conferido_em": "2026-11-22"},
+    "instagram": {"perfil": null, "url": null, "confirmado": false, "fonte": "", "nota": "A confirmar."},
+    "tiktok": {"perfil": "@fabiolaoliver", "url": "https://www.tiktok.com/@fabiolaoliver", "confirmado": false, "fonte": "Mantido do pedido inicial; ainda sem leitura de página.", "nota": "Não coletar até confirmação."}
+   }
+  }
+ ]
+}
