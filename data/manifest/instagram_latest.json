@@ -1,71 +1,71 @@
 {
  "rede": "instagram",
- "etapa": "teste",
+ "etapa": "posts",
  "ator": "esdrasdw~instagram-content-scraper",
- "run_id": "45063550727",
- "gerado_em": "2026-11-22T19:56:22Z",
- "run_apify": "Nhg2oM10cgWdHAZNQ",
- "itens_recebidos": 60,
- "teto_etapa_usd": 1.0,
+ "run_id": "45064535261",
+ "gerado_em": "2026-11-22T20:06:42Z",
+ "run_apify": "zy5eI85W6wGJeXfng",
+ "itens_recebidos": 337,
+ "teto_etapa_usd": 1.5,
  "gasto_antes_usd": 0.0,
- "cap_por_execucao_usd": 0.5,
+ "cap_por_execucao_usd": 1.5,
  "custo_usd": 0.0,
  "perfis": [
   {
    "ator": "mariam-chami",
    "perfil": "@mariamchami_",
-   "lidos": 15,
+   "lidos": 182,
    "universo": null,
    "universo_fonte": "⛔ não informado pelo ator",
-   "mais_antigo": "2026-11-09T23:44:57Z",
+   "mais_antigo": "2026-06-01T23:21:15Z",
    "mais_recente": "2026-11-21T23:35:54Z",
-   "na_base": 0,
-   "no_nucleo": 0,
-   "cobertura": "amostra de teste (mais recentes)"
+   "na_base": 48,
+   "no_nucleo": 21,
+   "cobertura": "completa (parou pela data inicial)"
   },
   {
    "ator": "hyatt-omar",
    "perfil": "@hyattomar",
-   "lidos": 15,
+   "lidos": 39,
    "universo": null,
    "universo_fonte": "⛔ não informado pelo ator",
-   "mais_antigo": "2024-01-23T15:08:37Z",
+   "mais_antigo": "2026-06-02T22:01:59Z",
    "mais_recente": "2026-11-18T23:05:34Z",
-   "na_base": 0,
-   "no_nucleo": 0,
-   "cobertura": "amostra de teste (mais recentes)"
+   "na_base": 8,
+   "no_nucleo": 5,
+   "cobertura": "completa (parou pela data inicial)"
   },
   {
    "ator": "carima-orra",
    "perfil": "@carimaorra",
-   "lidos": 15,
+   "lidos": 102,
    "universo": null,
    "universo_fonte": "⛔ não informado pelo ator",
-   "mais_antigo": "2022-01-14T19:16:43Z",
+   "mais_antigo": "2026-06-11T13:41:48Z",
    "mais_recente": "2026-11-22T18:26:28Z",
-   "na_base": 0,
-   "no_nucleo": 0,
-   "cobertura": "amostra de teste (mais recentes)"
+   "na_base": 31,
+   "no_nucleo": 20,
+   "cobertura": "completa (parou pela data inicial)"
   },
   {
    "ator": "fabiola-oliveira",
    "perfil": "@fabiolaoliver",
-   "lidos": 9,
+   "lidos": 5,
    "universo": null,
    "universo_fonte": "⛔ não informado pelo ator",
-   "mais_antigo": "2026-02-03T13:49:19Z",
+   "mais_antigo": "2026-06-12T23:57:44Z",
    "mais_recente": "2026-11-22T14:25:18Z",
    "na_base": 1,
    "no_nucleo": 2,
-   "cobertura": "amostra de teste (mais recentes)"
+   "cobertura": "completa (parou pela data inicial)"
   }
  ],
  "bruto": "repositório privado",
  "posts_gravados": {
-  "novos": 54,
-  "total_no_acervo": 54
+  "novos": 133,
+  "total_no_acervo": 187
  },
  "erros": [
-  "6 item(ns) de outro perfil ou sem dono identificado, fora do acervo"
+  "9 item(ns) de outro perfil ou sem dono identificado, fora do acervo"
  ]
 }
