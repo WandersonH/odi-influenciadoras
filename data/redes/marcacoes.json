@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-22T21:17:48Z",
+ "gerado_em_utc": "2026-11-22T21:19:41Z",
  "metodo": "Rede \"marcações e hashtags\": bipartida, com as quatro influenciadoras e o que elas marcam nas próprias publicações do\nrecorte (01/06 a 14/08/2026), em todas as redes coletadas:\n  influenciadora → @perfil marcado (marcas, parceiros, outras influenciadoras)  e  influenciadora → #hashtag.\nPeso da aresta = número de publicações. Mostra com quem e com que temas cada uma se liga; perfis e hashtags partilhados\naproximam as influenciadoras. Comunidades: Louvain (networkx.community.louvain_communities, resolução 1,0, semente 42), como no plano; posições para\no desenho na página (spring layout por componente, redes_caso._layout do Atlas). No Gephi: ForceAtlas 2 para as\ncomunidades e Modularity com resolução 1,0. Os @ marcados são perfis citados pelas próprias influenciadoras em\npublicações públicas; nenhum dado de comentarista entra aqui.",
  "nos": [
   {
@@ -9,8 +9,8 @@
    "grau": 51,
    "peso": 215,
    "comunidade": 1,
-   "x": 0.7334,
-   "y": 1.0925
+   "x": 0.6699,
+   "y": 0.9085
   },
   {
    "id": "hyatt-omar",
@@ -19,8 +19,8 @@
    "grau": 26,
    "peso": 58,
    "comunidade": 2,
-   "x": 1.5111,
-   "y": 0.608
+   "x": 1.5765,
+   "y": 1.3145
   },
   {
    "id": "carima-orra",
@@ -29,8 +29,8 @@
    "grau": 8,
    "peso": 20,
    "comunidade": 3,
-   "x": 1.2522,
-   "y": 1.6835
+   "x": 1.4648,
+   "y": 0.6126
   },
   {
    "id": "fabiola-oliveira",
@@ -49,8 +49,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.5985,
-   "y": 0.9562
+   "x": 0.7969,
+   "y": 0.718
   },
   {
    "id": "#hajj2026",
@@ -59,8 +59,8 @@
    "grau": 1,
    "peso": 6,
    "comunidade": 1,
-   "x": 0.565,
-   "y": 1.1347
+   "x": 0.4823,
+   "y": 0.9302
   },
   {
    "id": "#hijab",
@@ -69,8 +69,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.2929,
-   "y": 0.9975
+   "x": 1.0857,
+   "y": 1.3169
   },
   {
    "id": "@turkishairlines",
@@ -79,8 +79,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3458,
-   "y": 0.8913
+   "x": 0.3736,
+   "y": 0.522
   },
   {
    "id": "@naturabroficial",
@@ -89,8 +89,8 @@
    "grau": 2,
    "peso": 4,
    "comunidade": 3,
-   "x": 1.0075,
-   "y": 1.5055
+   "x": 1.1306,
+   "y": 0.7273
   },
   {
    "id": "#naturaessencialsafran",
@@ -99,8 +99,8 @@
    "grau": 2,
    "peso": 6,
    "comunidade": 3,
-   "x": 0.9931,
-   "y": 1.3531
+   "x": 1.0137,
+   "y": 0.756
   },
   {
    "id": "@leilinha_arabi",
@@ -109,18 +109,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.5392,
-   "y": 1.8542
-  },
-  {
-   "id": "@lattafa_brazil",
-   "rotulo": "@lattafa_brazil",
-   "tipo": "perfil marcado",
-   "grau": 1,
-   "peso": 4,
-   "comunidade": 1,
-   "x": 0.7823,
-   "y": 1.3301
+   "x": 1.7405,
+   "y": 0.3667
   },
   {
    "id": "@hamde_atelie",
@@ -129,28 +119,18 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4427,
-   "y": 1.1997
+   "x": 0.3836,
+   "y": 1.1046
   },
   {
-   "id": "#isla",
-   "rotulo": "#isla",
-   "tipo": "hashtag",
+   "id": "@lattafa_brazil",
+   "rotulo": "@lattafa_brazil",
+   "tipo": "perfil marcado",
    "grau": 1,
-   "peso": 2,
-   "comunidade": 2,
-   "x": 1.7458,
-   "y": 0.3648
-  },
-  {
-   "id": "#fifa",
-   "rotulo": "#fifa",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 5,
-   "comunidade": 2,
-   "x": 1.6788,
-   "y": 0.6559
+   "peso": 4,
+   "comunidade": 1,
+   "x": 0.4015,
+   "y": 0.8694
   },
   {
    "id": "#copa",
@@ -159,18 +139,28 @@
    "grau": 1,
    "peso": 7,
    "comunidade": 2,
-   "x": 1.6197,
-   "y": 0.5497
+   "x": 1.7195,
+   "y": 1.3176
   },
   {
-   "id": "#bet",
-   "rotulo": "#bet",
+   "id": "#isla",
+   "rotulo": "#isla",
    "tipo": "hashtag",
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.477,
-   "y": 0.2751
+   "x": 1.7958,
+   "y": 1.6503
+  },
+  {
+   "id": "#fifa",
+   "rotulo": "#fifa",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 5,
+   "comunidade": 2,
+   "x": 1.7098,
+   "y": 1.4585
   },
   {
    "id": "#bebida",
@@ -179,8 +169,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.5749,
-   "y": 0.2341
+   "x": 1.9632,
+   "y": 1.1452
   },
   {
    "id": "#muçulmano",
@@ -189,8 +179,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.8616,
-   "y": 0.7191
+   "x": 1.8605,
+   "y": 1.1395
   },
   {
    "id": "#alcool",
@@ -199,8 +189,18 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.8374,
-   "y": 0.3808
+   "x": 1.7107,
+   "y": 1.7041
+  },
+  {
+   "id": "#bet",
+   "rotulo": "#bet",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 2,
+   "x": 1.9849,
+   "y": 1.4651
   },
   {
    "id": "#copadomundo",
@@ -209,28 +209,8 @@
    "grau": 2,
    "peso": 4,
    "comunidade": 2,
-   "x": 1.1536,
-   "y": 0.8466
-  },
-  {
-   "id": "#worldcup",
-   "rotulo": "#worldcup",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 5,
-   "comunidade": 2,
-   "x": 1.5484,
-   "y": 0.4392
-  },
-  {
-   "id": "#marrocos",
-   "rotulo": "#marrocos",
-   "tipo": "hashtag",
-   "grau": 2,
-   "peso": 3,
-   "comunidade": 2,
-   "x": 1.2185,
-   "y": 0.6934
+   "x": 1.1296,
+   "y": 1.158
   },
   {
    "id": "#morocco",
@@ -239,8 +219,28 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.8681,
-   "y": 0.6333
+   "x": 1.9804,
+   "y": 1.2628
+  },
+  {
+   "id": "#worldcup",
+   "rotulo": "#worldcup",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 5,
+   "comunidade": 2,
+   "x": 1.6109,
+   "y": 1.5164
+  },
+  {
+   "id": "#marrocos",
+   "rotulo": "#marrocos",
+   "tipo": "hashtag",
+   "grau": 2,
+   "peso": 3,
+   "comunidade": 2,
+   "x": 1.215,
+   "y": 1.3225
   },
   {
    "id": "@usedohabr",
@@ -249,8 +249,8 @@
    "grau": 1,
    "peso": 6,
    "comunidade": 3,
-   "x": 1.3717,
-   "y": 1.8076
+   "x": 1.6563,
+   "y": 0.576
   },
   {
    "id": "#roubo",
@@ -259,8 +259,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.7908,
-   "y": 0.784
+   "x": 1.5975,
+   "y": 1.7046
   },
   {
    "id": "#argentina",
@@ -269,8 +269,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.7261,
-   "y": 0.2722
+   "x": 2.0,
+   "y": 1.3594
   },
   {
    "id": "@lojacasaoriente",
@@ -279,8 +279,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.4637,
-   "y": 1.949
+   "x": 1.8334,
+   "y": 0.4953
   },
   {
    "id": "#hadiya",
@@ -289,8 +289,8 @@
    "grau": 2,
    "peso": 5,
    "comunidade": 3,
-   "x": 0.9799,
-   "y": 1.4264
+   "x": 1.0304,
+   "y": 0.6666
   },
   {
    "id": "@oboticario",
@@ -299,8 +299,8 @@
    "grau": 2,
    "peso": 4,
    "comunidade": 3,
-   "x": 1.0809,
-   "y": 1.4331
+   "x": 1.1115,
+   "y": 0.6213
   },
   {
    "id": "#publicidade",
@@ -309,8 +309,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.3477,
-   "y": 2.0
+   "x": 1.8757,
+   "y": 0.6403
   },
   {
    "id": "#publi",
@@ -319,18 +319,8 @@
    "grau": 1,
    "peso": 4,
    "comunidade": 1,
-   "x": 0.877,
-   "y": 1.2655
-  },
-  {
-   "id": "@hudabeauty",
-   "rotulo": "@hudabeauty",
-   "tipo": "perfil marcado",
-   "grau": 2,
-   "peso": 2,
-   "comunidade": 2,
-   "x": 1.1155,
-   "y": 0.7321
+   "x": 0.5951,
+   "y": 1.182
   },
   {
    "id": "@sephorabrasil",
@@ -339,8 +329,18 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.0454,
-   "y": 0.5987
+   "x": 1.2441,
+   "y": 0.9048
+  },
+  {
+   "id": "@hudabeauty",
+   "rotulo": "@hudabeauty",
+   "tipo": "perfil marcado",
+   "grau": 2,
+   "peso": 2,
+   "comunidade": 2,
+   "x": 1.3043,
+   "y": 0.9411
   },
   {
    "id": "#arrumesecomigo",
@@ -349,8 +349,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.8921,
-   "y": 0.5515
+   "x": 1.8955,
+   "y": 1.6164
   },
   {
    "id": "#arabe",
@@ -359,8 +359,8 @@
    "grau": 2,
    "peso": 3,
    "comunidade": 2,
-   "x": 1.3054,
-   "y": 0.847
+   "x": 1.2439,
+   "y": 1.237
   },
   {
    "id": "#fatiha",
@@ -369,28 +369,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 2,
-   "x": 1.7265,
-   "y": 0.5051
-  },
-  {
-   "id": "#makeup",
-   "rotulo": "#makeup",
-   "tipo": "hashtag",
-   "grau": 2,
-   "peso": 3,
-   "comunidade": 2,
-   "x": 1.2556,
-   "y": 0.775
-  },
-  {
-   "id": "#hudabeauty",
-   "rotulo": "#hudabeauty",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 2,
-   "comunidade": 2,
-   "x": 1.855,
-   "y": 0.4728
+   "x": 1.841,
+   "y": 1.3696
   },
   {
    "id": "#maquiagem",
@@ -399,28 +379,28 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.6334,
-   "y": 0.3051
+   "x": 1.822,
+   "y": 1.0216
   },
   {
-   "id": "#curiosidades",
-   "rotulo": "#curiosidades",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 10,
-   "comunidade": 1,
-   "x": 0.7947,
-   "y": 1.1911
-  },
-  {
-   "id": "#religiao",
-   "rotulo": "#religiao",
+   "id": "#hudabeauty",
+   "rotulo": "#hudabeauty",
    "tipo": "hashtag",
    "grau": 1,
    "peso": 2,
-   "comunidade": 1,
-   "x": 0.3022,
-   "y": 1.0884
+   "comunidade": 2,
+   "x": 1.8967,
+   "y": 1.5215
+  },
+  {
+   "id": "#makeup",
+   "rotulo": "#makeup",
+   "tipo": "hashtag",
+   "grau": 2,
+   "peso": 3,
+   "comunidade": 2,
+   "x": 1.29,
+   "y": 1.1519
   },
   {
    "id": "#muculmanos",
@@ -429,8 +409,28 @@
    "grau": 1,
    "peso": 17,
    "comunidade": 1,
-   "x": 0.6566,
-   "y": 1.0686
+   "x": 0.6737,
+   "y": 1.0049
+  },
+  {
+   "id": "#curiosidades",
+   "rotulo": "#curiosidades",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 10,
+   "comunidade": 1,
+   "x": 0.556,
+   "y": 0.8389
+  },
+  {
+   "id": "#religiao",
+   "rotulo": "#religiao",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 1,
+   "x": 0.304,
+   "y": 1.2257
   },
   {
    "id": "#provandocomidas",
@@ -439,18 +439,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.668,
-   "y": 0.8082
-  },
-  {
-   "id": "#viagem",
-   "rotulo": "#viagem",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 30,
-   "comunidade": 1,
-   "x": 0.7607,
-   "y": 1.036
+   "x": 0.6747,
+   "y": 1.2607
   },
   {
    "id": "#turquia",
@@ -459,18 +449,18 @@
    "grau": 1,
    "peso": 8,
    "comunidade": 1,
-   "x": 0.7117,
-   "y": 0.9501
+   "x": 0.5365,
+   "y": 1.0017
   },
   {
-   "id": "#arrumesecmg",
-   "rotulo": "#arrumesecmg",
+   "id": "#viagem",
+   "rotulo": "#viagem",
    "tipo": "hashtag",
    "grau": 1,
-   "peso": 2,
+   "peso": 30,
    "comunidade": 1,
-   "x": 0.6723,
-   "y": 1.5092
+   "x": 0.736,
+   "y": 0.9321
   },
   {
    "id": "#modamodesta",
@@ -479,8 +469,18 @@
    "grau": 1,
    "peso": 6,
    "comunidade": 1,
-   "x": 0.7006,
-   "y": 1.2576
+   "x": 0.5776,
+   "y": 1.0891
+  },
+  {
+   "id": "#arrumesecmg",
+   "rotulo": "#arrumesecmg",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 1,
+   "x": 0.1904,
+   "y": 1.0225
   },
   {
    "id": "#turkishairlines",
@@ -489,8 +489,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4292,
-   "y": 1.0946
+   "x": 0.4727,
+   "y": 0.6197
   },
   {
    "id": "@turkish",
@@ -499,18 +499,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.6748,
-   "y": 1.3844
-  },
-  {
-   "id": "#mariamnohajj",
-   "rotulo": "#mariamnohajj",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 15,
-   "comunidade": 1,
-   "x": 0.8323,
-   "y": 1.0867
+   "x": 0.47,
+   "y": 1.1969
   },
   {
    "id": "#peregrinacao",
@@ -519,8 +509,18 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3017,
-   "y": 1.189
+   "x": 0.2278,
+   "y": 0.6885
+  },
+  {
+   "id": "#mariamnohajj",
+   "rotulo": "#mariamnohajj",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 15,
+   "comunidade": 1,
+   "x": 0.7441,
+   "y": 0.8403
   },
   {
    "id": "@naturabr",
@@ -529,8 +529,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.6955,
-   "y": 0.6996
+   "x": 0.5701,
+   "y": 0.4412
   },
   {
    "id": "#maeefilha",
@@ -539,8 +539,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.5673,
-   "y": 1.485
+   "x": 0.3998,
+   "y": 1.309
   },
   {
    "id": "#arabiasaudita",
@@ -549,8 +549,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.9282,
-   "y": 1.1506
+   "x": 0.7255,
+   "y": 1.1209
   },
   {
    "id": "#medina",
@@ -559,8 +559,8 @@
    "grau": 1,
    "peso": 8,
    "comunidade": 1,
-   "x": 0.6387,
-   "y": 1.1933
+   "x": 0.6505,
+   "y": 0.7609
   },
   {
    "id": "#mesquita",
@@ -569,8 +569,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.5379,
-   "y": 1.0359
+   "x": 0.5219,
+   "y": 0.7301
   },
   {
    "id": "#brasil",
@@ -579,8 +579,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.5742,
-   "y": 1.3462
+   "x": 0.3339,
+   "y": 0.9958
   },
   {
    "id": "#oracao",
@@ -589,8 +589,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.7825,
-   "y": 1.4894
+   "x": 0.5326,
+   "y": 1.3514
   },
   {
    "id": "#casaltiktok",
@@ -599,8 +599,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3069,
-   "y": 0.9907
+   "x": 0.2904,
+   "y": 0.5959
   },
   {
    "id": "#islam",
@@ -609,8 +609,8 @@
    "grau": 2,
    "peso": 10,
    "comunidade": 1,
-   "x": 0.9508,
-   "y": 0.9616
+   "x": 0.906,
+   "y": 1.0286
   },
   {
    "id": "@lattafa",
@@ -619,8 +619,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3441,
-   "y": 1.2841
+   "x": 0.1844,
+   "y": 0.796
   },
   {
    "id": "#comidaarabe",
@@ -629,8 +629,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.5046,
-   "y": 1.2782
+   "x": 0.3125,
+   "y": 0.8384
   },
   {
    "id": "#abaya",
@@ -639,8 +639,8 @@
    "grau": 1,
    "peso": 4,
    "comunidade": 1,
-   "x": 0.5754,
-   "y": 0.883
+   "x": 0.6149,
+   "y": 0.623
   },
   {
    "id": "#muculmana",
@@ -649,8 +649,8 @@
    "grau": 2,
    "peso": 6,
    "comunidade": 2,
-   "x": 1.0661,
-   "y": 0.8801
+   "x": 1.0453,
+   "y": 1.0955
   },
   {
    "id": "#respeito",
@@ -659,8 +659,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.5732,
-   "y": 0.7107
+   "x": 0.7846,
+   "y": 0.4781
   },
   {
    "id": "#arabes",
@@ -669,8 +669,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3997,
-   "y": 1.3685
+   "x": 0.2304,
+   "y": 1.133
   },
   {
    "id": "#muculmanas",
@@ -679,8 +679,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.4829,
-   "y": 0.7555
+   "x": 0.6771,
+   "y": 0.4506
   },
   {
    "id": "#fulla",
@@ -689,8 +689,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.4733,
-   "y": 1.437
+   "x": 0.1774,
+   "y": 0.9122
   },
   {
    "id": "#casamentoarabe",
@@ -699,8 +699,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.7944,
-   "y": 0.8943
+   "x": 0.7112,
+   "y": 0.6647
   },
   {
    "id": "@huda",
@@ -709,8 +709,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.238,
-   "y": 0.9328
+   "x": 1.0595,
+   "y": 1.4058
   },
   {
    "id": "#grwm",
@@ -719,8 +719,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.0927,
-   "y": 0.6553
+   "x": 1.2191,
+   "y": 1.0596
   },
   {
    "id": "#perrenguechique",
@@ -729,8 +729,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4445,
-   "y": 0.9645
+   "x": 0.3813,
+   "y": 0.722
   },
   {
    "id": "#japao",
@@ -739,8 +739,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.4103,
-   "y": 0.8166
+   "x": 0.4707,
+   "y": 0.4702
   }
  ],
  "arestas": [
@@ -771,13 +771,13 @@
   ],
   [
    "mariam-chami",
-   "@lattafa_brazil",
-   4
+   "@hamde_atelie",
+   3
   ],
   [
    "mariam-chami",
-   "@hamde_atelie",
-   3
+   "@lattafa_brazil",
+   4
   ],
   [
    "mariam-chami",
@@ -796,13 +796,18 @@
   ],
   [
    "mariam-chami",
+   "@sephorabrasil",
+   1
+  ],
+  [
+   "mariam-chami",
    "@hudabeauty",
    1
   ],
   [
    "mariam-chami",
-   "@sephorabrasil",
-   1
+   "#muculmanos",
+   17
   ],
   [
    "mariam-chami",
@@ -816,18 +821,8 @@
   ],
   [
    "mariam-chami",
-   "#muculmanos",
-   17
-  ],
-  [
-   "mariam-chami",
    "#provandocomidas",
    3
-  ],
-  [
-   "mariam-chami",
-   "#viagem",
-   30
   ],
   [
    "mariam-chami",
@@ -836,13 +831,18 @@
   ],
   [
    "mariam-chami",
-   "#arrumesecmg",
-   2
+   "#viagem",
+   30
   ],
   [
    "mariam-chami",
    "#modamodesta",
    6
+  ],
+  [
+   "mariam-chami",
+   "#arrumesecmg",
+   2
   ],
   [
    "mariam-chami",
@@ -856,13 +856,13 @@
   ],
   [
    "mariam-chami",
-   "#mariamnohajj",
-   15
+   "#peregrinacao",
+   2
   ],
   [
    "mariam-chami",
-   "#peregrinacao",
-   2
+   "#mariamnohajj",
+   15
   ],
   [
    "mariam-chami",
@@ -931,13 +931,13 @@
   ],
   [
    "mariam-chami",
-   "#hijab",
-   1
+   "#muculmana",
+   4
   ],
   [
    "mariam-chami",
-   "#muculmana",
-   4
+   "#hijab",
+   1
   ],
   [
    "mariam-chami",
@@ -1006,6 +1006,11 @@
   ],
   [
    "hyatt-omar",
+   "#copa",
+   7
+  ],
+  [
+   "hyatt-omar",
    "#isla",
    2
   ],
@@ -1013,16 +1018,6 @@
    "hyatt-omar",
    "#fifa",
    5
-  ],
-  [
-   "hyatt-omar",
-   "#copa",
-   7
-  ],
-  [
-   "hyatt-omar",
-   "#bet",
-   2
   ],
   [
    "hyatt-omar",
@@ -1041,7 +1036,17 @@
   ],
   [
    "hyatt-omar",
+   "#bet",
+   2
+  ],
+  [
+   "hyatt-omar",
    "#copadomundo",
+   2
+  ],
+  [
+   "hyatt-omar",
+   "#morocco",
    2
   ],
   [
@@ -1052,11 +1057,6 @@
   [
    "hyatt-omar",
    "#marrocos",
-   2
-  ],
-  [
-   "hyatt-omar",
-   "#morocco",
    2
   ],
   [
@@ -1086,8 +1086,8 @@
   ],
   [
    "hyatt-omar",
-   "#makeup",
-   2
+   "@sephorabrasil",
+   1
   ],
   [
    "hyatt-omar",
@@ -1096,17 +1096,17 @@
   ],
   [
    "hyatt-omar",
+   "#maquiagem",
+   2
+  ],
+  [
+   "hyatt-omar",
    "#hudabeauty",
    2
   ],
   [
    "hyatt-omar",
-   "@sephorabrasil",
-   1
-  ],
-  [
-   "hyatt-omar",
-   "#maquiagem",
+   "#makeup",
    2
   ],
   [
@@ -1156,12 +1156,12 @@
   ],
   [
    "carima-orra",
-   "#publicidade",
+   "#hadiya",
    2
   ],
   [
    "carima-orra",
-   "#hadiya",
+   "#publicidade",
    2
   ],
   [
