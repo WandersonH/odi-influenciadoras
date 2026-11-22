@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: teste do apidojo no TikTok (run 45063770407)
+
+**Resultado** (`apify_tiktok_teste_apidojo_20261122T195900Z.json`, execução NchRIPfoMBH9XlZ7I): pedi 60 itens para quatro perfis e vieram 10, todos de Mariam. As outras três ficaram com 0. Universo de Mariam: 3.627 (`channel.videos`), o mesmo do clockworks.
+
+**Problema de medição.** Três execuções registraram custo 0,0 (Instagram Nhg2oM10cgWdHAZNQ, apidojo NchRIPfoMBH9XlZ7I e uma do clockworks não, essa mediu US$ 0,223). O custo é lido da resposta da execução logo ao terminar, e a cobrança ainda não aparece nela. Gasto medido na etapa de teste: US$ 0,223; o real é um pouco maior. Pelos preços de referência, Instagram (60 itens) e apidojo (10 itens) somam menos de US$ 0,01, mas isso é estimativa.
+
+**Pendente.** Reler a execução depois de terminada (GET /actor-runs/{id}, que não é consulta de saldo) para gravar o custo cobrado. Decidir o ator do TikTok para a etapa de posts.
+
 ## 22/11/2026: resultado do teste pago (run 45063550727), correções e teste de ator mais barato no TikTok
 
 **Resultado do teste** (manifestos `instagram_latest.json` e `tiktok_latest.json` desse run): 15 itens mais recentes por perfil.
