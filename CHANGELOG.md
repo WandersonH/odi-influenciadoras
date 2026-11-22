@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: X sem posts no recorte (contas paradas) e checagens coletadas
+
+**X** (run 45071140887, com os campos since/until do ator): 0 posts no recorte, US$ 0,0001. Conferido no teste sem filtro (run 45070964861): o post mais recente de cada conta é anterior ao recorte (Mariam, 30/09/2016; Carima, 31/03/2020; Fabíola, 09/06/2025; Hyatt, 01/10/2025). O zero é real: as contas estão paradas no X. A cobertura com 0 lidos deixa de aparecer como "completa".
+
+**Checagens** (Fact Check Tools, depois de o responsável ativar a API às 18h08): 17 checagens únicas desde 01/06 (Gaza 11, Palestina 6, Hamas 2), nenhuma checada no núcleo e nenhuma citando as influenciadoras. Universo ⛔: a API não informa o total.
+
 ## 22/11/2026: redes para o Gephi (caderno 08) e corpus IRaMuTeQ com CHD e similitude (caderno 09)
 
 **Redes.** Novo `scripts/build_redes.py`: rede bipartida das influenciadoras com os @ e # que elas mesmas marcam no recorte, em todas as redes. Comunidades por Louvain (resolução 1,0, semente 42). Exporta GEXF, GraphML e CSV de nós e de arestas completas, sem corte. Resultado: 74 nós, 85 arestas, 4 comunidades, modularidade 0,375. Mariam e Hyatt partilham #arabe, #islam, #hijab, #muculmana, @hudabeauty e @sephorabrasil; Mariam e Carima partilham @naturabroficial, @oboticario e #naturaessencialsafran. Fabíola não marca ninguém (nó isolado). As redes de terceiros e de comentaristas, e o índice E-I, ficam ⛔ até a revisão de homônimos e a coleta de comentários.
