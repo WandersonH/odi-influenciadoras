@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "stage": "coleta-trends",
+  "run_started_utc": "2026-11-22T20:23:23Z",
+  "config": {
+    "nota": "Google Trends, Brasil. Os valores vão de 0 a 100 e são relativos dentro de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google e pode variar um pouco quando repetida. 'eleitoral' aqui é o nome herdado do coletor do Atlas para o período do estudo (linha de base + núcleo).",
+    "geo": "BR",
+    "periodos": [
+      "eleitoral",
+      "2026-07-23 2026-08-14"
+    ],
+    "pausa_segundos": 5,
+    "grupos": [
+      {
+        "nome": "tema_topicos",
+        "termos": [
+          {
+            "rotulo": "Hamas",
+            "busca": "Hamas",
+            "tipo_contem": [
+              "Organização",
+              "organização",
+              "Movimento",
+              "Partido"
+            ]
+          },
+          {
+            "rotulo": "Faixa de Gaza",
+            "busca": "Faixa de Gaza",
+            "tipo_contem": [
+              "Território",
+              "território",
+              "Região",
+              "região",
+              "Lugar"
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "tema_palavras",
+        "termos": [
+          "Hamas",
+          "desarmamento",
+          "Gaza",
+          "Palestina",
+          "cessar-fogo"
+        ]
+      },
+      {
+        "nome": "influenciadoras_palavras",
+        "termos": [
+          "Mariam Chami",
+          "Hyatt Omar",
+          "Carima Orra",
+          "Fabíola Oliveira"
+        ]
+      }
+    ],
+    "periodo_eleitoral": {
+      "inicio": "2026-06-01",
+      "fim": "2026-08-14",
+      "nota": "Período do estudo: linha de base (01/06) até o fim do núcleo (14/08/2026). O segundo período cobre só o núcleo."
+    }
+  },
+  "aviso_metodologico": "Valores 0-100 relativos dentro de cada consulta (grupo x período). Não são volumes; não compare entre consultas diferentes.",
+  "consultas": [
+    {
+      "grupo": "tema_palavras",
+      "termos": [
+        "Hamas",
+        "desarmamento",
+        "Gaza",
+        "Palestina",
+        "cessar-fogo"
+      ],
+      "itens": [
+        {
+          "rotulo": "Hamas",
+          "consulta": "Hamas",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "desarmamento",
+          "consulta": "desarmamento",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Gaza",
+          "consulta": "Gaza",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Palestina",
+          "consulta": "Palestina",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "cessar-fogo",
+          "consulta": "cessar-fogo",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "eleitoral",
+      "janela_trends": "2026-06-01 2026-08-14",
+      "geo": "BR",
+      "serie_pontos": 75,
+      "uf_linhas": 27,
+      "status": "ok"
+    },
+    {
+      "grupo": "tema_palavras",
+      "termos": [
+        "Hamas",
+        "desarmamento",
+        "Gaza",
+        "Palestina",
+        "cessar-fogo"
+      ],
+      "itens": [
+        {
+          "rotulo": "Hamas",
+          "consulta": "Hamas",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "desarmamento",
+          "consulta": "desarmamento",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Gaza",
+          "consulta": "Gaza",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Palestina",
+          "consulta": "Palestina",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "cessar-fogo",
+          "consulta": "cessar-fogo",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "2026-07-23 2026-08-14",
+      "janela_trends": "2026-07-23 2026-08-14",
+      "geo": "BR",
+      "serie_pontos": 23,
+      "uf_linhas": 27,
+      "status": "ok"
+    },
+    {
+      "grupo": "influenciadoras_palavras",
+      "termos": [
+        "Mariam Chami",
+        "Hyatt Omar",
+        "Carima Orra",
+        "Fabíola Oliveira"
+      ],
+      "itens": [
+        {
+          "rotulo": "Mariam Chami",
+          "consulta": "Mariam Chami",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Hyatt Omar",
+          "consulta": "Hyatt Omar",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Carima Orra",
+          "consulta": "Carima Orra",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Fabíola Oliveira",
+          "consulta": "Fabíola Oliveira",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "eleitoral",
+      "janela_trends": "2026-06-01 2026-08-14",
+      "geo": "BR",
+      "serie_pontos": 75,
+      "uf_linhas": 27,
+      "status": "ok"
+    },
+    {
+      "grupo": "influenciadoras_palavras",
+      "termos": [
+        "Mariam Chami",
+        "Hyatt Omar",
+        "Carima Orra",
+        "Fabíola Oliveira"
+      ],
+      "itens": [
+        {
+          "rotulo": "Mariam Chami",
+          "consulta": "Mariam Chami",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Hyatt Omar",
+          "consulta": "Hyatt Omar",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Carima Orra",
+          "consulta": "Carima Orra",
+          "modo": "palavra"
+        },
+        {
+          "rotulo": "Fabíola Oliveira",
+          "consulta": "Fabíola Oliveira",
+          "modo": "palavra"
+        }
+      ],
+      "periodo": "2026-07-23 2026-08-14",
+      "janela_trends": "2026-07-23 2026-08-14",
+      "geo": "BR",
+      "serie_pontos": 0,
+      "uf_linhas": 27,
+      "status": "ok"
+    }
+  ],
+  "blocked": [
+    "grupo tema_topicos: ValueError: tópico não encontrado para 'Faixa de Gaza' com tipo contendo ['Território', 'território', 'Região', 'região', 'Lugar']; opções: [('Faixa de Gaza', 'Assunto'), ('Genocídio na Faixa de Gaza', 'Assunto'), ('Sequestros na Faixa de Gaza em 2023', 'Assunto'), ('Fome na Faixa de Gaza', 'Catástrofe'), ('Bloqueio à Faixa de Gaza', 'Conflito militar')]"
+  ],
+  "run_finished_utc": "2026-11-22T20:24:43Z",
+  "status": "bloqueado"
+}
