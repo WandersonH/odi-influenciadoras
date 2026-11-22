@@ -59,16 +59,19 @@ def main() -> int:
     from googlenewsdecoder import gnewsdecoder
     import trafilatura
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    linhas = []
+    linhas, erros_link = [], []
     for m in ms:
-        url, texto, status = "", None, ""
+        url, texto, status, erro = "", None, "", ""
         try:
             d = gnewsdecoder(m["link_google"], interval=1)
-            url = d.get("decoded_url") if d.get("status") else ""
-        except Exception:  # noqa: BLE001
-            url = ""
+            ok = d.get("status") if "status" in d else d.get("success")  # a biblioteca usa "status" ou "success" conforme a versão
+            url = d.get("decoded_url") or "" if ok else ""
+            erro = "" if ok else str(d.get("message") or "")[:200]
+        except Exception as e:  # noqa: BLE001
+            url, erro = "", f"{type(e).__name__}: {str(e)[:160]}"
         if not url:
             status = "sem_link"
+            erros_link.append(erro)
         else:
             try:
                 html = trafilatura.fetch_url(url)
@@ -100,6 +103,7 @@ def main() -> int:
            "materias": len(linhas), "por_status": cont,
            "por_veiculo": {v: {"materias": sum(1 for x in linhas if x["veiculo"] == v), "com_texto": sum(1 for x in linhas if x["veiculo"] == v and x["status"] == "ok")}
                            for v in sorted({x["veiculo"] for x in linhas})},
+           "erros_de_link_exemplos": sorted({e for e in erros_link if e})[:5],
            "custo_usd": 0}
     p = RAIZ / "data/manifest"
     p.mkdir(parents=True, exist_ok=True)

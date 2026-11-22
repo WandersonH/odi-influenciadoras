@@ -14,7 +14,7 @@ O responsável pediu às 20h24 ("um iramuteq das matérias seria bom"). O RSS do
 - **Privacidade e direito autoral:** o texto das matérias, o corpus `.txt` e os trechos característicos ficam só no privado. No público vão as formas, as classes, as variáveis, a similitude (GEXF) e as contagens por status.
 - **Página:** bloco novo no caderno 07, com o número de matérias no corpus e o que ficou fora, e por quê.
 - **Testes:** 3 novos em `tests/test_imprensa.py`.
-- **Execução:** a primeira coleta foi disparada logo depois deste commit. O resultado está no próximo registro.
+- **Execução:** o run 45083326115 converteu 0 de 51 matérias distintas. O erro foi meu: a biblioteca devolve o resultado em `success`, e o código lia `status`, então descartou tudo. Corrigido; o manifesto passa a guardar exemplos de erro de conversão. Nova coleta disparada.
 
 ## 22/11/2026: rede da imprensa no caderno 07 (Gephi)
 
