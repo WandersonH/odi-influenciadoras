@@ -3,17 +3,17 @@
  "etapa": "terceiros_transcricoes",
  "tipo": "menções de terceiros",
  "ator": "xquik~x-tweet-scraper",
- "run_apify": "7mfrzsHG7zJ7si8js",
- "run_id": "45070739356",
- "gerado_em": "2026-11-22T21:12:05Z",
+ "run_apify": "rtnJAadp3ccK1q37g",
+ "run_id": "45071871689",
+ "gerado_em": "2026-11-22T21:39:47Z",
  "janela": "núcleo",
  "itens_recebidos": 2,
  "cap_por_execucao_usd": 0.5,
- "custo_usd": 0.0002,
+ "custo_usd": 0.0003,
  "influenciadoras": [
   {
    "ator": "mariam-chami",
-   "consulta": "(\"Mariam Chami\" OR @eumariamchami) -from:eumariamchami since:2026-07-23 until:2026-08-15 -filter:retweets",
+   "consulta": "(\"Mariam Chami\" OR @eumariamchami) -from:eumariamchami -filter:retweets",
    "lidos": 0,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
@@ -25,7 +25,7 @@
   },
   {
    "ator": "hyatt-omar",
-   "consulta": "(\"Hyatt Omar\" OR @hyattomar_) -from:hyattomar_ since:2026-07-23 until:2026-08-15 -filter:retweets",
+   "consulta": "(\"Hyatt Omar\" OR @hyattomar_) -from:hyattomar_ -filter:retweets",
    "lidos": 0,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
@@ -37,7 +37,7 @@
   },
   {
    "ator": "carima-orra",
-   "consulta": "(\"Carima Orra\" OR @CarimaOrra) -from:CarimaOrra since:2026-07-23 until:2026-08-15 -filter:retweets",
+   "consulta": "(\"Carima Orra\" OR @CarimaOrra) -from:CarimaOrra -filter:retweets",
    "lidos": 0,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {},
@@ -49,7 +49,7 @@
   },
   {
    "ator": "fabiola-oliveira",
-   "consulta": "(\"Fabíola Oliveira\" OR @fabiola_oliver) -from:fabiola_oliver since:2026-07-23 until:2026-08-15 -filter:retweets",
+   "consulta": "(\"Fabíola Oliveira\" OR @fabiola_oliver) -from:fabiola_oliver -filter:retweets",
    "lidos": 1,
    "universo": "⛔ o X não informa o total da busca",
    "por_tipo": {
