@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3">
+<graph defaultedgetype="undirected">
+<attributes class="node"><attribute id="0" title="tipo" type="string"/><attribute id="1" title="peso" type="double"/><attribute id="2" title="comunidade" type="string"/></attributes>
+<nodes>
+<node id="gaza" label="gaza"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="267"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="hamas" label="hamas"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="204"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="israel" label="israel"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="200"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="palestino" label="palestino"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="173"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="acordo" label="acordo"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="171"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="israelense" label="israelense"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="169"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="trump" label="trump"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="120"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="afirmar" label="afirmar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="103"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="desarmamento" label="desarmamento"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="102"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="palestina" label="palestina"><attvalues><attvalue for="0" value="nucleo"/><attvalue for="1" value="100"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="paz" label="paz"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="100"/><attvalue for="2" value="G8"/></attvalues></node>
+<node id="grupo" label="grupo"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="96"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="faixa" label="faixa"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="95"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="forca" label="forca"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="88"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="retirar" label="retirar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="87"/><attvalue for="2" value="G11"/></attvalues></node>
+<node id="ataque" label="ataque"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="85"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="dizer" label="dizer"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="72"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="conselho" label="conselho"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="69"/><attvalue for="2" value="G8"/></attvalues></node>
+<node id="territorio" label="territorio"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="69"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="arma" label="arma"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="64"/><attvalue for="2" value="G12"/></attvalues></node>
+<node id="novo" label="novo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="63"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="autoridade" label="autoridade"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="61"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="cessar" label="cessar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="61"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="internacional" label="internacional"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="61"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="fogo" label="fogo"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="60"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="estar" label="estar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="57"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="feira" label="feira"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="56"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="plano" label="plano"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="54"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="presidente" label="presidente"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="52"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="militar" label="militar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="49"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="saude" label="saude"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="49"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="unido" label="unido"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="49"/><attvalue for="2" value="G10"/></attvalues></node>
+<node id="ano" label="ano"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="45"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="anunciar" label="anunciar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="45"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="fase" label="fase"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="45"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="negociacao" label="negociacao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="43"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="outubro" label="outubro"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="43"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="social" label="social"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="43"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="governo" label="governo"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="41"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="prever" label="prever"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="41"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="estado" label="estado"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="39"/><attvalue for="2" value="G10"/></attvalues></node>
+<node id="yoa" label="yoa"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="39"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="administracao" label="administracao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="38"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="vez" label="vez"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="38"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="amjad" label="amjad"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="37"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="tropa" label="tropa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="37"/><attvalue for="2" value="G11"/></attvalues></node>
+<node id="ficar" label="ficar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="36"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="ocupacao" label="ocupacao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="36"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="americano" label="americano"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="35"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="donald" label="donald"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="35"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="guerra" label="guerra"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="35"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="implementacao" label="implementacao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="35"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="seguranca" label="seguranca"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="35"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="terapeuta" label="terapeuta"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="34"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="deixar" label="deixar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="32"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="informar" label="informar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="32"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="nacional" label="nacional"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="32"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="incluir" label="incluir"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="31"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="morto" label="morto"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="31"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="processo" label="processo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="31"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="comite" label="comite"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="30"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="condicao" label="condicao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="30"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="continuar" label="continuar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="30"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="dia" label="dia"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="30"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="estabilizacao" label="estabilizacao"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="30"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="falar" label="falar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="30"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="medida" label="medida"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="30"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="aceitar" label="aceitar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="29"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="civil" label="civil"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="exercito" label="exercito"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="netanyahu" label="netanyahu"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="politica" label="politica"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="afp" label="afp"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="confirmar" label="confirmar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="controlo" label="controlo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="fonte" label="fonte"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="mediador" label="mediador"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="28"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="trabalhar" label="trabalhar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="27"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="acrescentar" label="acrescentar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="al" label="al"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="entregar" label="entregar"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="26"/><attvalue for="2" value="G12"/></attvalues></node>
+<node id="ncag" label="ncag"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="passo" label="passo"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="ponto" label="ponto"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="reconstrucao" label="reconstrucao"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="anuncio" label="anuncio"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="rede" label="rede"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="chegar" label="chegar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="24"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="cisjordania" label="cisjordania"><attvalues><attvalue for="0" value="nucleo"/><attvalue for="1" value="24"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="policial" label="policial"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="24"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="pratico" label="pratico"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="24"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="completo" label="completo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="defesa" label="defesa"><attvalues><attvalue for="0" value="nucleo"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="etapa" label="etapa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="medico" label="medico"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="casa" label="casa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="cidade" label="cidade"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="crianca" label="crianca"><attvalues><attvalue for="0" value="nucleo"/><attvalue for="1" value="22"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="cumprir" label="cumprir"><attvalues><attvalue for="0" value="dia"/><attvalue for="1" value="22"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="lado" label="lado"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G3"/></attvalues></node>
+</nodes><edges>
+<edge id="0" source="gaza" target="hamas" weight="152"/>
+<edge id="1" source="gaza" target="israel" weight="136"/>
+<edge id="2" source="gaza" target="acordo" weight="119"/>
+<edge id="3" source="gaza" target="israelense" weight="103"/>
+<edge id="4" source="gaza" target="faixa" weight="94"/>
+<edge id="5" source="gaza" target="palestino" weight="91"/>
+<edge id="6" source="gaza" target="trump" weight="88"/>
+<edge id="7" source="gaza" target="paz" weight="79"/>
+<edge id="8" source="gaza" target="retirar" weight="73"/>
+<edge id="9" source="gaza" target="afirmar" weight="67"/>
+<edge id="10" source="gaza" target="ataque" weight="63"/>
+<edge id="11" source="gaza" target="forca" weight="57"/>
+<edge id="12" source="gaza" target="arma" weight="50"/>
+<edge id="13" source="gaza" target="cessar" weight="48"/>
+<edge id="14" source="gaza" target="autoridade" weight="47"/>
+<edge id="15" source="gaza" target="novo" weight="44"/>
+<edge id="16" source="gaza" target="territorio" weight="43"/>
+<edge id="17" source="gaza" target="plano" weight="40"/>
+<edge id="18" source="gaza" target="internacional" weight="38"/>
+<edge id="19" source="gaza" target="feira" weight="38"/>
+<edge id="20" source="gaza" target="dizer" weight="37"/>
+<edge id="21" source="gaza" target="unido" weight="37"/>
+<edge id="22" source="gaza" target="anunciar" weight="37"/>
+<edge id="23" source="gaza" target="outubro" weight="37"/>
+<edge id="24" source="gaza" target="administracao" weight="36"/>
+<edge id="25" source="gaza" target="fase" weight="32"/>
+<edge id="26" source="gaza" target="guerra" weight="30"/>
+<edge id="27" source="gaza" target="comite" weight="28"/>
+<edge id="28" source="gaza" target="governo" weight="27"/>
+<edge id="29" source="gaza" target="implementacao" weight="27"/>
+<edge id="30" source="gaza" target="saude" weight="26"/>
+<edge id="31" source="gaza" target="seguranca" weight="26"/>
+<edge id="32" source="gaza" target="militar" weight="25"/>
+<edge id="33" source="gaza" target="americano" weight="25"/>
+<edge id="34" source="gaza" target="ncag" weight="25"/>
+<edge id="35" source="gaza" target="informar" weight="24"/>
+<edge id="36" source="gaza" target="ano" weight="23"/>
+<edge id="37" source="gaza" target="deixar" weight="23"/>
+<edge id="38" source="gaza" target="incluir" weight="22"/>
+<edge id="39" source="gaza" target="civil" weight="22"/>
+<edge id="40" source="gaza" target="afp" weight="22"/>
+<edge id="41" source="gaza" target="morto" weight="21"/>
+<edge id="42" source="gaza" target="confirmar" weight="21"/>
+<edge id="43" source="gaza" target="fonte" weight="21"/>
+<edge id="44" source="gaza" target="passo" weight="21"/>
+<edge id="45" source="gaza" target="medida" weight="20"/>
+<edge id="46" source="gaza" target="netanyahu" weight="20"/>
+<edge id="47" source="gaza" target="completo" weight="19"/>
+<edge id="48" source="gaza" target="reconstrucao" weight="18"/>
+<edge id="49" source="gaza" target="social" weight="17"/>
+<edge id="50" source="gaza" target="acrescentar" weight="17"/>
+<edge id="51" source="gaza" target="continuar" weight="16"/>
+<edge id="52" source="gaza" target="al" weight="16"/>
+<edge id="53" source="gaza" target="processo" weight="15"/>
+<edge id="54" source="gaza" target="etapa" weight="15"/>
+<edge id="55" source="gaza" target="politica" weight="14"/>
+<edge id="56" source="gaza" target="trabalhar" weight="14"/>
+<edge id="57" source="gaza" target="ponto" weight="14"/>
+<edge id="58" source="gaza" target="rede" weight="14"/>
+<edge id="59" source="gaza" target="cidade" weight="14"/>
+<edge id="60" source="gaza" target="dia" weight="13"/>
+<edge id="61" source="gaza" target="medico" weight="13"/>
+<edge id="62" source="gaza" target="controlo" weight="12"/>
+<edge id="63" source="gaza" target="crianca" weight="12"/>
+<edge id="64" source="hamas" target="desarmamento" weight="81"/>
+<edge id="65" source="hamas" target="grupo" weight="68"/>
+<edge id="66" source="hamas" target="negociacao" weight="28"/>
+<edge id="67" source="hamas" target="prever" weight="28"/>
+<edge id="68" source="hamas" target="aceitar" weight="25"/>
+<edge id="69" source="hamas" target="nacional" weight="22"/>
+<edge id="70" source="hamas" target="mediador" weight="22"/>
+<edge id="71" source="hamas" target="ficar" weight="13"/>
+<edge id="72" source="israel" target="estar" weight="20"/>
+<edge id="73" source="israel" target="cumprir" weight="20"/>
+<edge id="74" source="israel" target="anuncio" weight="18"/>
+<edge id="75" source="israel" target="defesa" weight="15"/>
+<edge id="76" source="palestino" target="terapeuta" weight="19"/>
+<edge id="77" source="palestino" target="ocupacao" weight="15"/>
+<edge id="78" source="palestino" target="condicao" weight="14"/>
+<edge id="79" source="palestino" target="vez" weight="12"/>
+<edge id="80" source="acordo" target="chegar" weight="18"/>
+<edge id="81" source="israelense" target="palestina" weight="37"/>
+<edge id="82" source="israelense" target="exercito" weight="26"/>
+<edge id="83" source="israelense" target="cisjordania" weight="15"/>
+<edge id="84" source="israelense" target="casa" weight="12"/>
+<edge id="85" source="israelense" target="lado" weight="9"/>
+<edge id="86" source="trump" target="presidente" weight="42"/>
+<edge id="87" source="trump" target="donald" weight="35"/>
+<edge id="88" source="paz" target="conselho" weight="67"/>
+<edge id="89" source="forca" target="estabilizacao" weight="29"/>
+<edge id="90" source="forca" target="policial" weight="24"/>
+<edge id="91" source="retirar" target="tropa" weight="29"/>
+<edge id="92" source="arma" target="entregar" weight="24"/>
+<edge id="93" source="cessar" target="fogo" weight="59"/>
+<edge id="94" source="estar" target="yoa" weight="12"/>
+<edge id="95" source="unido" target="estado" weight="38"/>
+<edge id="96" source="yoa" target="amjad" weight="23"/>
+<edge id="97" source="yoa" target="falar" weight="10"/>
+<edge id="98" source="terapeuta" target="pratico" weight="15"/>
+</edges>
+</graph>
+</gexf>

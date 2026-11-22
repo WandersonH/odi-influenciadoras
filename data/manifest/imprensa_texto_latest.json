@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-11-22T23:27:30Z",
- "run_id": "45083326115",
+ "gerado_em": "2026-11-22T23:30:14Z",
+ "run_id": "45083550703",
  "fonte_coleta": {
   "run_id": "45076870902",
   "gerado_em": "2026-11-22T22:17:35Z"
@@ -9,60 +9,63 @@
  "universo": "⛔ o Google Notícias não informa o total; base = matérias distintas entre os 10 primeiros por termo do tema",
  "materias": 51,
  "por_status": {
-  "sem_link": 51
+  "ok": 39,
+  "falha_download": 4,
+  "curto": 2,
+  "sem_link": 6
  },
  "por_veiculo": {
   "ADUFC": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Agência Brasil": {
    "materias": 4,
-   "com_texto": 0
+   "com_texto": 3
   },
   "BBC": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Brasil de Fato": {
    "materias": 5,
-   "com_texto": 0
+   "com_texto": 3
   },
   "CNN Brasil": {
    "materias": 2,
-   "com_texto": 0
+   "com_texto": 2
   },
   "CartaCapital": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "DW.com": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Estadão": {
    "materias": 2,
-   "com_texto": 0
+   "com_texto": 2
   },
   "Euronews": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Exame": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Folha de S.Paulo": {
    "materias": 4,
-   "com_texto": 0
+   "com_texto": 4
   },
   "G1": {
    "materias": 2,
-   "com_texto": 0
+   "com_texto": 2
   },
   "ICL Notícias": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Jornal da USP": {
    "materias": 1,
@@ -70,7 +73,7 @@
   },
   "Metrópoles": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Médicos Sem Fronteiras": {
    "materias": 2,
@@ -82,19 +85,19 @@
   },
   "Notícias - Canção Nova": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "O GLOBO": {
    "materias": 4,
-   "com_texto": 0
+   "com_texto": 4
   },
   "Outras Palavras": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Poder360": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Portal da Assembleia Legislativa de Minas Gerais": {
    "materias": 2,
@@ -106,15 +109,15 @@
   },
   "Sete Margens": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Sinteal": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "TV Cultura": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Times Brasil": {
    "materias": 1,
@@ -122,7 +125,7 @@
   },
   "UN News": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "UOL Notícias": {
    "materias": 1,
@@ -130,16 +133,19 @@
   },
   "VEJA": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   },
   "Vatican News": {
    "materias": 2,
-   "com_texto": 0
+   "com_texto": 2
   },
   "Vermelho": {
    "materias": 1,
-   "com_texto": 0
+   "com_texto": 1
   }
  },
+ "erros_de_link_exemplos": [
+  "Failed to fetch data attributes from Google News."
+ ],
  "custo_usd": 0
 }
