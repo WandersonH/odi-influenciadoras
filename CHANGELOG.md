@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: menções no X sem datas (run 45076755782) e nova tentativa com datas
+
+**Resultado.** Busca separada por nome e por @, sem datas: 1.716 itens, US$ 0,26. Mencionam as influenciadoras: Mariam 313, Hyatt 651, Carima 34, Fabíola 126. Só 1 está no núcleo. A leitura vai do mais recente para trás e, ao que parece, não chegou a julho e agosto. O manifesto passa a registrar o período lido por influenciadora.
+
+**O que mudou.** Opção `--com-datas`: as mesmas buscas separadas, com o núcleo nos campos since/until do ator. É o padrão na etapa "posts" do workflow.
+
 ## 22/11/2026: imprensa, rede de circulação do caso Hamas, estatísticas na página, destaques e método completo
 
 **Imprensa** (`collect_imprensa.py`, run 45076870902, sem custo): os 10 primeiros do Google Notícias (RSS, Brasil) para 6 termos do tema e para os 4 nomes, em dois recortes: dia do anúncio (30/07 a 02/08) e núcleo. No dia do anúncio aparecem G1, BBC, CNN Brasil, Folha, Agência Brasil e Brasil de Fato. Nenhuma matéria cita Mariam, Hyatt ou Carima; os resultados de "Fabíola Oliveira" são de homônimos. Universo ⛔.

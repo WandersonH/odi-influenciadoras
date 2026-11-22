@@ -58,7 +58,7 @@ jobs:
           case "${{ github.event.inputs.rede }}" in ambas) redes="instagram tiktok";; *) redes="${{ github.event.inputs.rede }}";; esac
           rc=0
           if [ "$redes" = "terceiros_x" ]; then
-            python scripts/collect_terceiros_x.py > o.txt 2>&1 || rc=1
+            python scripts/collect_terceiros_x.py ${{ github.event.inputs.etapa == 'teste' && '' || '--com-datas' }} > o.txt 2>&1 || rc=1
             while IFS= read -r l; do echo "::notice title=terceiros X::$(echo "$l" | cut -c1-900)"; done < o.txt
             rm -f o.txt; exit $rc
           fi

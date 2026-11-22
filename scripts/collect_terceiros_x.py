@@ -49,6 +49,7 @@ def tipo_mencao(texto: str, nome: str, handle: str) -> str:
 
 def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--com-datas", action="store_true", help="período do núcleo nos campos since/until do ator")
     ap.add_argument("--max-por-influenciadora", type=int, default=600, help="itens por busca (2 buscas por influenciadora)")
     a = ap.parse_args(argv)
     coleta = json.loads((raiz / "data/config/coleta.json").read_text(encoding="utf-8"))["apify"]
@@ -75,8 +76,12 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     erros, itens, custo, run_id = [], [], 0.0, None
     try:
         termos = [q for v in qs.values() for q in v]
-        run, itens = executar(ATOR, {"searchTerms": termos, "maxItems": a.max_por_influenciadora * len(termos),
-                                     "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest"}, cap)
+        pedido = {"searchTerms": termos, "maxItems": a.max_por_influenciadora * len(termos),
+                  "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest"}
+        if a.com_datas:  # período nos campos do ator, buscas separadas (sem OR)
+            pedido["since"] = nuc["inicio"][:10]
+            pedido["until"] = (date.fromisoformat(nuc["fim"][:10]) + timedelta(days=1)).isoformat()
+        run, itens = executar(ATOR, pedido, cap)
         custo, run_id = apify.custo_run(run), run.get("id")
     except apify.ErroDepoisDaExecucao as e:
         custo = apify.custo_run(e.run)
@@ -105,7 +110,8 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
                          "visualizacoes": inteiro(g(x, "viewCount")), "curtidas": inteiro(g(x, "likeCount")),
                          "respostas": inteiro(g(x, "replyCount")), "reposts": inteiro(g(x, "retweetCount")), "coletado_em": agora})
         linhas += meus
-        resumo.append({"ator": aid, "consulta": qs[aid], "lidos": len(meus), "universo": "⛔ o X não informa o total da busca",
+        datas_lidas = sorted(quando(g(x, "createdAt"))[:10] for x in itens if isinstance(x, dict) and (nome.lower() in str(g(x, "fullText", "text") or "").lower() or f"@{h.lower()}" in str(g(x, "fullText", "text") or "").lower()))
+        resumo.append({"ator": aid, "consulta": qs[aid], "lidos": len(meus), "periodo_lido": [datas_lidas[0], datas_lidas[-1]] if datas_lidas else None, "universo": "⛔ o X não informa o total da busca",
                        "por_tipo": dict(Counter(m["tipo_mencao"] for m in meus)),
                        "por_dia": dict(sorted(Counter(m["publicado_em"][:10] for m in meus).items())),
                        "autores_distintos": len({m["autor"].lower() for m in meus}),
