@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: YouTube transcrito (run 45068995637) e página atualizada
+
+**Resultado.** 16 de 16 vídeos de Mariam Chami no núcleo transcritos (cerca de 26 min de áudio; Whisper small, a partir do áudio baixado pelo responsável). Nenhuma fala trata do acordo, de Hamas, desarmamento, Gaza, Israel ou cessar-fogo. Aparecem: Palestina numa lista de países árabes (23/07), "já nos chamaram de terrorista" num vídeo sobre ser muçulmana no Brasil (26/07) e Líbano num vestido e num perfume (02/08 e 08/08).
+
+**Página.** O caderno 02 passa a ler também `data/transcricoes/youtube.csv`. A pendência agora conta qualquer vídeo sem transcrição: resta 1, o do Instagram (Dbb6xCOx3Q-), cujo áudio não foi lido.
+
+**Executado.** `node --check` e página aberta no Chrome headless; testes unitários.
+
 ## 22/11/2026: YouTube transcrito a partir de áudio baixado pelo responsável
 
 **O que aconteceu.** O YouTube bloqueia o download vindo do GitHub e do ambiente de nuvem. O responsável baixou o áudio dos 16 vídeos de Mariam no núcleo pelo Terminal do próprio Mac (yt-dlp; corrigido antes o erro de certificado do Python dele), em `~/Downloads/trascricao` (16 arquivos m4a, cerca de 25 MB). Os arquivos foram guardados no repositório privado (`odi-secret-infl-/audio/youtube`, commit f70b797).

@@ -153,10 +153,10 @@ function lerCSV(t) {
     json("data/manifest/instagram_latest.json"), json("data/manifest/tiktok_latest.json"), texto("data/instagram/posts.csv"), texto("data/tiktok/posts.csv")]);
   const videos = csv ? lerCSV(csv) : [];
   const postsIG = ci ? lerCSV(ci) : [], postsTT = ct ? lerCSV(ct) : [];
-  const [MTr, trI, trT, MtrI, MtrT, MtrY] = await Promise.all([json("data/manifest/trends_latest.json"), texto("data/transcricoes/instagram.csv"), texto("data/transcricoes/tiktok.csv"),
+  const [MTr, trI, trT, trY, MtrI, MtrT, MtrY] = await Promise.all([json("data/manifest/trends_latest.json"), texto("data/transcricoes/instagram.csv"), texto("data/transcricoes/tiktok.csv"), texto("data/transcricoes/youtube.csv"),
     json("data/manifest/transcricao_instagram_latest.json"), json("data/manifest/transcricao_tiktok_latest.json"), json("data/manifest/transcricao_youtube_latest.json")]);
   const fala = {};
-  for (const r of [...(trI ? lerCSV(trI) : []), ...(trT ? lerCSV(trT) : [])]) if (r.status === "ok") fala[r.post_id] = r.texto;
+  for (const r of [...(trI ? lerCSV(trI) : []), ...(trT ? lerCSV(trT) : []), ...(trY ? lerCSV(trY) : [])]) if (r.status === "ok") fala[r.post_id] = r.texto;
   const apifyOk = m => m && m.etapa === "posts";
   const nomes = Object.fromEntries((atores?.atores || []).map(a => [a.id, a.nome]));
 
@@ -211,8 +211,8 @@ function lerCSV(t) {
     const linhas = (atores?.atores || []).map(a => {
       const ps = todos.filter(p => p.ator_id === a.id);
       const leg = ps.filter(p => acha(p.texto).length), comFala = ps.filter(p => fala[p.post_id] != null), fal = comFala.filter(p => acha(fala[p.post_id]).length);
-      const ytSem = ps.filter(p => p.rede === "YouTube").length;
-      return `<tr><td>${esc(a.nome)}</td><td class="inf-num">${n(ps.length)}</td><td class="inf-num">${n(leg.length)}</td><td class="inf-num">${n(comFala.length)}</td><td class="inf-num">${n(fal.length)}</td><td>${ytSem ? `<span class="inf-sit bloq">⛔ ${ytSem} vídeo(s) do YouTube sem transcrição</span>` : '<span class="inf-sit ok">todas as falas lidas</span>'}</td></tr>`;
+      const semFala = ps.filter(p => fala[p.post_id] == null && !(p.rede === "Instagram" && ["imagem", "carrossel"].includes(p.tipo)));
+      return `<tr><td>${esc(a.nome)}</td><td class="inf-num">${n(ps.length)}</td><td class="inf-num">${n(leg.length)}</td><td class="inf-num">${n(comFala.length)}</td><td class="inf-num">${n(fal.length)}</td><td>${semFala.length ? `<span class="inf-sit pend">${semFala.length} vídeo(s) sem transcrição</span>` : '<span class="inf-sit ok">todas as falas lidas</span>'}</td></tr>`;
     }).join("");
     const trechos = todos.filter(p => fala[p.post_id] && acha(fala[p.post_id]).length).map(p => {
       const t = fala[p.post_id], k = acha(t)[0], i = Math.max(0, semA(t).indexOf(semA(k)) - 140);
