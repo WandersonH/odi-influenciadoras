@@ -1,6 +1,6 @@
 {
- "run_id": "45062903853",
- "gerado_em": "2026-11-22T19:49:20Z",
+ "run_id": "45081857459",
+ "gerado_em": "2026-11-22T23:11:18Z",
  "janelas": {
   "base": {
    "inicio": "2026-06-01T00:00:00Z",
@@ -26,7 +26,7 @@
    "ator": "mariam-chami",
    "canal": "Mariam Chami",
    "canal_id": "UCxWW2GA5GDRJ7AXiauZVnkA",
-   "universo_canal": 2036,
+   "universo_canal": 2037,
    "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
    "lidos_base": 71,
    "lidos_nucleo": 16,
@@ -82,9 +82,9 @@
    "ator": "hyatt-omar",
    "termo": "\"Hyatt Omar\"",
    "janela": "núcleo",
-   "lidos": 50,
-   "paginas": 2,
-   "estimativa_api": 1401,
+   "lidos": 0,
+   "paginas": 1,
+   "estimativa_api": 0,
    "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
    "revisao_homonimos": "pendente"
   },
@@ -107,11 +107,21 @@
    "estimativa_api": 279,
    "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
    "revisao_homonimos": "pendente"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "termo": "\"Fabiola Oliver\"",
+   "janela": "núcleo",
+   "lidos": 0,
+   "paginas": 1,
+   "estimativa_api": 0,
+   "universo": "não informado pela API (estimativa acima é aproximada e não é universo)",
+   "revisao_homonimos": "pendente"
   }
  ],
  "terceiros_destino": "repositório privado",
  "videos_gravados": {
-  "novos": 87,
+  "novos": 0,
   "total_no_acervo": 87
  },
  "erros": []

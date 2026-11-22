@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T23:08:36Z",
+ "gerado_em": "2026-11-22T23:11:30Z",
  "janela": "núcleo",
  "regra": "Regra de homônimos do plano (seção 5): uma menção só conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto. O resto fica 'a conferir' e fora da contagem.",
  "contexto": [
@@ -24,7 +24,7 @@
    "fontes": {
     "YouTube (busca por nome)": {
      "lidos": 5,
-     "descricoes_lidas": 0,
+     "descricoes_lidas": 5,
      "confirmadas_lista": [],
      "confirmadas": 0,
      "a_conferir": 2,
@@ -37,10 +37,10 @@
        "url": ""
       },
       {
-       "canal": "canal pequeno C002",
-       "titulo": "",
+       "canal": "Caio Modesto",
+       "titulo": "FUI PROCESSADO POR UMA INFLUENCIADORA MUÇULMANA",
        "publicado_em": "2026-08-12",
-       "url": ""
+       "url": "https://www.youtube.com/watch?v=Enp4gKn0NCU"
       }
      ]
     },
@@ -69,16 +69,85 @@
    "fontes": {
     "YouTube (busca por nome)": {
      "lidos": 50,
-     "descricoes_lidas": 0,
+     "descricoes_lidas": 50,
+     "confirmadas_lista": [],
+     "confirmadas": 0,
+     "a_conferir": 6,
+     "sem_nome_no_titulo": 44,
+     "a_conferir_com_contexto": [
+      {
+       "canal": "canal pequeno C005",
+       "titulo": "",
+       "publicado_em": "2026-07-26",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C010",
+       "titulo": "",
+       "publicado_em": "2026-07-27",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C014",
+       "titulo": "",
+       "publicado_em": "2026-08-01",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C016",
+       "titulo": "",
+       "publicado_em": "2026-08-01",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C019",
+       "titulo": "",
+       "publicado_em": "2026-08-04",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C022",
+       "titulo": "",
+       "publicado_em": "2026-08-07",
+       "url": ""
+      }
+     ]
+    },
+    "X (API, xquik)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "X (busca avançada no navegador)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "Imprensa (Google Notícias, 10 primeiros)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "veiculos_confirmados": []
+    }
+   },
+   "confirmadas_total": 0,
+   "a_conferir_total": 6
+  },
+  "carima-orra": {
+   "nome": "Carima Orra",
+   "fontes": {
+    "YouTube (busca por nome)": {
+     "lidos": 2,
+     "descricoes_lidas": 2,
      "confirmadas_lista": [],
      "confirmadas": 0,
      "a_conferir": 1,
-     "sem_nome_no_titulo": 49,
+     "sem_nome_no_titulo": 1,
      "a_conferir_com_contexto": [
       {
-       "canal": "canal pequeno C015",
+       "canal": "canal pequeno C038",
        "titulo": "",
-       "publicado_em": "2026-07-27",
+       "publicado_em": "2026-08-03",
        "url": ""
       }
      ]
@@ -103,72 +172,48 @@
    "confirmadas_total": 0,
    "a_conferir_total": 1
   },
-  "carima-orra": {
-   "nome": "Carima Orra",
-   "fontes": {
-    "YouTube (busca por nome)": {
-     "lidos": 2,
-     "descricoes_lidas": 0,
-     "confirmadas_lista": [],
-     "confirmadas": 0,
-     "a_conferir": 0,
-     "sem_nome_no_titulo": 2,
-     "a_conferir_com_contexto": []
-    },
-    "X (API, xquik)": {
-     "lidos": 0,
-     "confirmadas": 0,
-     "a_conferir": 0
-    },
-    "X (busca avançada no navegador)": {
-     "lidos": 0,
-     "confirmadas": 0,
-     "a_conferir": 0
-    },
-    "Imprensa (Google Notícias, 10 primeiros)": {
-     "lidos": 0,
-     "confirmadas": 0,
-     "a_conferir": 0,
-     "veiculos_confirmados": []
-    }
-   },
-   "confirmadas_total": 0,
-   "a_conferir_total": 0
-  },
   "fabiola-oliveira": {
    "nome": "Fabíola Oliveira",
    "fontes": {
     "YouTube (busca por nome)": {
      "lidos": 93,
-     "descricoes_lidas": 0,
-     "confirmadas_lista": [],
-     "confirmadas": 0,
-     "a_conferir": 4,
-     "sem_nome_no_titulo": 89,
+     "descricoes_lidas": 93,
+     "confirmadas_lista": [
+      {
+       "canal": "canal pequeno C043",
+       "titulo": "",
+       "publicado_em": "2026-08-06",
+       "url": "",
+       "como": "confirmada (nome + contexto)"
+      }
+     ],
+     "confirmadas": 1,
+     "a_conferir": 14,
+     "sem_nome_no_titulo": 78,
      "a_conferir_com_contexto": [
       {
-       "canal": "canal pequeno C054",
-       "titulo": "",
+       "canal": "Kim Kataguiri",
+       "titulo": "TERRORISTA MATA PESSOAS E ESQUERDISTA SE PREOCUPA COM ISLAMOFOBIA!",
        "publicado_em": "2026-07-28",
-       "url": ""
+       "url": "https://www.youtube.com/watch?v=KSQr0py4Nz8"
       },
       {
-       "canal": "canal pequeno C060",
+       "canal": "canal pequeno C045",
        "titulo": "",
        "publicado_em": "2026-08-08",
        "url": ""
       },
       {
-       "canal": "canal pequeno C061",
-       "titulo": "",
+       "canal": "Stand Tall Israel",
+       "titulo": "“Islamophobia Does Not Exist” | Imam Tawhidi",
        "publicado_em": "2026-08-10",
-       "url": ""
+       "url": "https://www.youtube.com/watch?v=Yi4W4TD16fA"
       },
       {
-       "canal": "canal pequeno C064",
-       "titulo": "",
+       "canal": "MercifulServant",
+       "titulo": "2026 CRISIS - EXTREME ISLAMOPHOBIA RISING",
        "publicado_em": "2026-08-14",
-       "url": ""
+       "url": "https://www.youtube.com/watch?v=E3GFF6WFK0w"
       }
      ]
     },
@@ -189,8 +234,8 @@
      "veiculos_confirmados": []
     }
    },
-   "confirmadas_total": 0,
-   "a_conferir_total": 6
+   "confirmadas_total": 1,
+   "a_conferir_total": 16
   }
  }
 }
