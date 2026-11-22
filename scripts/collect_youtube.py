@@ -98,6 +98,7 @@ def listar_uploads(api, canal_id, inicio, fim, max_paginas):
     """Lista os uploads do canal entre inicio e fim. Para quando passa da data inicial."""
     playlist = "UU" + canal_id[2:]
     itens, token, paginas = [], None, 0
+    ultimo = None  # data do upload mais recente do canal (primeiro item da lista)
     cobertura = "incompleta (limite de páginas)"
     while paginas < max_paginas:
         d = api.get("playlistItems.list", part="snippet,contentDetails",
@@ -106,6 +107,8 @@ def listar_uploads(api, canal_id, inicio, fim, max_paginas):
         parou = False
         for it in d.get("items", []):
             pub = it["contentDetails"].get("videoPublishedAt") or it["snippet"]["publishedAt"]
+            if ultimo is None or pub > ultimo:
+                ultimo = pub
             if pub < inicio:
                 parou = True
                 break
@@ -118,7 +121,7 @@ def listar_uploads(api, canal_id, inicio, fim, max_paginas):
         if not token:
             cobertura = "completa (fim da lista de uploads)"
             break
-    return itens, cobertura, paginas
+    return itens, cobertura, paginas, ultimo
 
 
 def estatisticas(api, ids):
@@ -207,7 +210,7 @@ def main():
             if canal is None:
                 raise ErroAPI("canal não encontrado para " + perfil["perfil"])
             proprios.add(canal["channel_id"])
-            uploads, cobertura, paginas = listar_uploads(
+            uploads, cobertura, paginas, ultimo = listar_uploads(
                 api, canal["channel_id"], base["inicio"], nuc["fim"], yt["max_paginas_uploads"])
             stats = estatisticas(api, [u["video_id"] for u in uploads])
         except ErroAPI as e:
@@ -240,6 +243,8 @@ def main():
             "universo_fonte": "channels.list statistics.videoCount (total informado pelo YouTube para o canal)",
             "lidos_base": lidos["base"], "lidos_nucleo": lidos["nucleo"],
             "cobertura": cobertura, "paginas": paginas,
+            "ultimo_video_em": ultimo,
+            "ultimo_video_fonte": "playlistItems.list (lista de uploads do canal, item mais recente)",
         })
 
     terceiros_linhas, terceiros_resumo = [], []

@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: data do último vídeo dos canais sem vídeo no recorte
+
+O responsável questionou às 20h20 a nota "sem publicações no núcleo nesta rede" (comentários do YouTube de Hyatt, Carima e Fabíola). O dado está certo, mas faltava o porquê. Conferido no feed oficial de cada canal (`/feeds/videos.xml`, no Chrome do responsável), o último vídeo publicado é:
+- Hyatt: 11/08/2020 (canal com 5 vídeos);
+- Carima: 10/11/2025 (32 vídeos);
+- Fabíola: 05/03/2026 (145 vídeos);
+- Mariam: 22/11/2026.
+
+`collect_youtube.py` passa a gravar `ultimo_video_em` e a fonte no manifesto. A página mostra essa data no panorama, na nota do engajamento e na tabela de comentários. Recoleta gratuita disparada para preencher o campo.
+
 ## 22/11/2026: mensagem do panorama durante a republicação
 
 O responsável viu, às 20h19, o caderno 01 dizer "Nenhuma coleta executada ainda". O arquivo `data/manifest/youtube_latest.json` estava íntegro no repositório. Na página publicada, conferida no Chrome logo depois, ele foi lido com status 200 e o panorama apareceu normal. A falha foi passageira: três commits seguidos (0caf3bd, 87fa738 e o run de comentários) fizeram o GitHub Pages republicar o site, e a página não leu o manifesto nesse intervalo. A mensagem antiga dizia que não havia coleta, o que era falso. Agora diz que o manifesto não pôde ser lido, explica a republicação e pede para recarregar.

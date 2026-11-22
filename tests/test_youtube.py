@@ -43,7 +43,7 @@ class TestListarUploads(unittest.TestCase):
             "nextPageToken": "PROXIMA",
         }
         api = FilaApi({"playlistItems.list": [pagina]})
-        itens, cobertura, paginas = cy.listar_uploads(
+        itens, cobertura, paginas, _ult = cy.listar_uploads(
             api, "UCabcdefghijklmnopqrstuv", "2026-06-01T00:00:00Z", "2026-08-14T23:59:59Z", 40)
         self.assertEqual([i["video_id"] for i in itens], ["a", "b"])
         self.assertTrue(cobertura.startswith("completa (parou pela data inicial"))
@@ -53,7 +53,7 @@ class TestListarUploads(unittest.TestCase):
     def test_limite_de_paginas_nao_vira_completa(self):
         pagina = {"items": [{"contentDetails": {"videoId": "a", "videoPublishedAt": "2026-08-02T10:00:00Z"}, "snippet": {"publishedAt": "2026-08-02T10:00:00Z", "title": "a"}}], "nextPageToken": "X"}
         api = FilaApi({"playlistItems.list": [pagina]})
-        _, cobertura, _ = cy.listar_uploads(api, "UCabcdefghijklmnopqrstuv", "2026-06-01T00:00:00Z", "2026-08-14T23:59:59Z", 1)
+        _, cobertura, _, _u = cy.listar_uploads(api, "UCabcdefghijklmnopqrstuv", "2026-06-01T00:00:00Z", "2026-08-14T23:59:59Z", 1)
         self.assertTrue(cobertura.startswith("incompleta"))
 
 
