@@ -34,3 +34,18 @@ class TestImprensa(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRedeImprensa(unittest.TestCase):
+    def test_so_tema_e_sem_repetir_entre_recortes(self):
+        import importlib, sys as _s
+        from pathlib import Path as _P
+        _s.path.insert(0, str(_P(__file__).resolve().parents[1] / "scripts"))
+        bri = importlib.import_module("build_rede_imprensa")
+        res = {"consultas": [
+            {"recorte": "dia do anúncio", "grupo": "tema", "consulta": "Hamas", "resultados": [{"veiculo": "G1", "titulo": "a", "link": "L1"}]},
+            {"recorte": "núcleo", "grupo": "tema", "consulta": "Hamas", "resultados": [{"veiculo": "G1", "titulo": "a", "link": "L1"}, {"veiculo": "BBC", "titulo": "b", "link": "L2"}]},
+            {"recorte": "núcleo", "grupo": "influenciadora", "consulta": "Fabíola Oliveira", "resultados": [{"veiculo": "X", "titulo": "c", "link": "L3"}]},
+        ]}
+        n = bri.noticias_do_tema(res)
+        self.assertEqual(sorted(x["link"] for x in n), ["L1", "L2"])

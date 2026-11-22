@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: rede da imprensa no caderno 07 (Gephi)
+
+O responsável pediu às 20h22 ("falta rede gephi no caderno 07 das matérias"). Novo `scripts/build_rede_imprensa.py`: monta a rede veículo × termo com a `redes_caso.circulacao()` do Atlas e calcula as estatísticas do Atlas (`estatisticas_redes.py`: Louvain com semente 42, E-I e centralidades).
+- **Entrada:** `data/imprensa/resultados.json`, run 45076870902. São os 10 primeiros do Google Notícias por termo.
+- **O que entra:** só as buscas do tema. As buscas pelos nomes ficam de fora porque não há matéria sobre elas: os resultados de "Fabíola Oliveira" são de homônimos.
+- **Sem repetição:** a mesma matéria que aparece nos dois recortes para o mesmo termo conta uma vez.
+- **Executado localmente:** 75 matérias distintas de 32 veículos em 6 termos (55 do dia do anúncio e 20 só do restante do núcleo). A rede tem 38 nós e 57 arestas, em um componente.
+- **Veículos com mais matérias:** Brasil de Fato 13, Agência Brasil 7, G1 7, Folha 6.
+- **Universo:** ⛔.
+
+Saídas: `data/redes/imprensa.{json,gexf,graphml}` e os CSVs de estatísticas, centralidades e comunidades. O `imprensa.yml` passa a gerar a rede a cada coleta. A página mostra a rede, os indicadores, a tabela de veículos, as estatísticas do Atlas e os arquivos para baixar. Novo teste em `tests/test_imprensa.py`.
+
 ## 22/11/2026: data do último vídeo dos canais sem vídeo no recorte
 
 O responsável questionou às 20h20 a nota "sem publicações no núcleo nesta rede" (comentários do YouTube de Hyatt, Carima e Fabíola). O dado está certo, mas faltava o porquê. Conferido no feed oficial de cada canal (`/feeds/videos.xml`, no Chrome do responsável), o último vídeo publicado é:

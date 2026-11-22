@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-22">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="tipo" type="string" />
+      <attribute id="1" title="peso" type="long" />
+    </attributes>
+    <nodes>
+      <node id="imprensa:G1" label="G1">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="notícia: Hamas desarmamento" label="notícia: Hamas desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:BBC" label="BBC">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Folha de S.Paulo" label="Folha de S.Paulo">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Agência Brasil" label="Agência Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="imprensa:CNN Brasil" label="CNN Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="imprensa:DW.com" label="DW.com">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Poder360" label="Poder360">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Estadão" label="Estadão">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="notícia: Hamas aceita desarmamento" label="notícia: Hamas aceita desarmamento">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Exame" label="Exame">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Metrópoles" label="Metrópoles">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Vermelho" label="Vermelho">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:ICL Notícias" label="ICL Notícias">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:UOL Notícias" label="UOL Notícias">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Euronews" label="Euronews">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: acordo Hamas Israel" label="notícia: acordo Hamas Israel">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="imprensa:VEJA" label="VEJA">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Brasil de Fato" label="Brasil de Fato">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="imprensa:CartaCapital" label="CartaCapital">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:O GLOBO" label="O GLOBO">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="4" />
+        </attvalues>
+      </node>
+      <node id="notícia: Gaza" label="notícia: Gaza">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Times Brasil" label="Times Brasil">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:ND Mais" label="ND Mais">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: Palestina" label="notícia: Palestina">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Outras Palavras" label="Outras Palavras">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Sinteal" label="Sinteal">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="notícia: cessar-fogo Gaza" label="notícia: cessar-fogo Gaza">
+        <attvalues>
+          <attvalue for="0" value="termo" />
+          <attvalue for="1" value="15" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Jornal da USP" label="Jornal da USP">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Médicos Sem Fronteiras" label="Médicos Sem Fronteiras">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="3" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Vatican News" label="Vatican News">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Portal da Assembleia Legislativa de Minas Gerais" label="Portal da Assembleia Legislativa de Minas Gerais">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="2" />
+        </attvalues>
+      </node>
+      <node id="imprensa:ADUFC" label="ADUFC">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Notícias - Canção Nova" label="Notícias - Canção Nova">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:UN News" label="UN News">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:TV Cultura" label="TV Cultura">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Sete Margens" label="Sete Margens">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+      <node id="imprensa:Público" label="Público">
+        <attvalues>
+          <attvalue for="0" value="veículo de imprensa" />
+          <attvalue for="1" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="imprensa:G1" target="notícia: Hamas desarmamento" id="0" weight="2" />
+      <edge source="imprensa:G1" target="notícia: Hamas aceita desarmamento" id="1" weight="1" />
+      <edge source="imprensa:G1" target="notícia: acordo Hamas Israel" id="2" weight="1" />
+      <edge source="imprensa:G1" target="notícia: Gaza" id="3" weight="1" />
+      <edge source="imprensa:G1" target="notícia: cessar-fogo Gaza" id="4" weight="2" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:BBC" id="5" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Folha de S.Paulo" id="6" weight="2" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Agência Brasil" id="7" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:CNN Brasil" id="8" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:DW.com" id="9" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Poder360" id="10" weight="1" />
+      <edge source="notícia: Hamas desarmamento" target="imprensa:Estadão" id="11" weight="1" />
+      <edge source="imprensa:BBC" target="notícia: acordo Hamas Israel" id="12" weight="1" />
+      <edge source="imprensa:BBC" target="notícia: Hamas aceita desarmamento" id="13" weight="1" />
+      <edge source="imprensa:Folha de S.Paulo" target="notícia: acordo Hamas Israel" id="14" weight="1" />
+      <edge source="imprensa:Folha de S.Paulo" target="notícia: cessar-fogo Gaza" id="15" weight="2" />
+      <edge source="imprensa:Folha de S.Paulo" target="notícia: Hamas aceita desarmamento" id="16" weight="1" />
+      <edge source="imprensa:Agência Brasil" target="notícia: Hamas aceita desarmamento" id="17" weight="1" />
+      <edge source="imprensa:Agência Brasil" target="notícia: acordo Hamas Israel" id="18" weight="2" />
+      <edge source="imprensa:Agência Brasil" target="notícia: Gaza" id="19" weight="2" />
+      <edge source="imprensa:Agência Brasil" target="notícia: cessar-fogo Gaza" id="20" weight="1" />
+      <edge source="imprensa:CNN Brasil" target="notícia: Hamas aceita desarmamento" id="21" weight="1" />
+      <edge source="imprensa:CNN Brasil" target="notícia: acordo Hamas Israel" id="22" weight="1" />
+      <edge source="imprensa:CNN Brasil" target="notícia: cessar-fogo Gaza" id="23" weight="1" />
+      <edge source="imprensa:Estadão" target="notícia: Hamas aceita desarmamento" id="24" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Exame" id="25" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Metrópoles" id="26" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Vermelho" id="27" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:ICL Notícias" id="28" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:UOL Notícias" id="29" weight="1" />
+      <edge source="notícia: Hamas aceita desarmamento" target="imprensa:Euronews" id="30" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:VEJA" id="31" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:Brasil de Fato" id="32" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:CartaCapital" id="33" weight="1" />
+      <edge source="notícia: acordo Hamas Israel" target="imprensa:O GLOBO" id="34" weight="1" />
+      <edge source="imprensa:VEJA" target="notícia: cessar-fogo Gaza" id="35" weight="1" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: Gaza" id="36" weight="5" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: Palestina" id="37" weight="3" />
+      <edge source="imprensa:Brasil de Fato" target="notícia: cessar-fogo Gaza" id="38" weight="4" />
+      <edge source="imprensa:O GLOBO" target="notícia: Gaza" id="39" weight="2" />
+      <edge source="imprensa:O GLOBO" target="notícia: Palestina" id="40" weight="1" />
+      <edge source="notícia: Gaza" target="imprensa:Times Brasil" id="41" weight="1" />
+      <edge source="notícia: Gaza" target="imprensa:ND Mais" id="42" weight="1" />
+      <edge source="notícia: Gaza" target="imprensa:Jornal da USP" id="43" weight="1" />
+      <edge source="notícia: Gaza" target="imprensa:Médicos Sem Fronteiras" id="44" weight="2" />
+      <edge source="notícia: Gaza" target="imprensa:Vatican News" id="45" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Outras Palavras" id="46" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Sinteal" id="47" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Portal da Assembleia Legislativa de Minas Gerais" id="48" weight="2" />
+      <edge source="notícia: Palestina" target="imprensa:ADUFC" id="49" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Notícias - Canção Nova" id="50" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:Vatican News" id="51" weight="1" />
+      <edge source="notícia: Palestina" target="imprensa:UN News" id="52" weight="1" />
+      <edge source="notícia: cessar-fogo Gaza" target="imprensa:Médicos Sem Fronteiras" id="53" weight="1" />
+      <edge source="notícia: cessar-fogo Gaza" target="imprensa:TV Cultura" id="54" weight="1" />
+      <edge source="notícia: cessar-fogo Gaza" target="imprensa:Sete Margens" id="55" weight="1" />
+      <edge source="notícia: cessar-fogo Gaza" target="imprensa:Público" id="56" weight="1" />
+    </edges>
+  </graph>
+</gexf>

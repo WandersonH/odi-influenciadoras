@@ -1,0 +1,21 @@
+caso,rede,medida,posicao,no,valor,comunidade
+redes,imprensa,grau ponderado,1,notícia: Gaza,16.0,4
+redes,imprensa,grau ponderado,2,notícia: cessar-fogo Gaza,15.0,1
+redes,imprensa,grau ponderado,3,Brasil de Fato,13.0,4
+redes,imprensa,grau ponderado,4,notícia: Hamas aceita desarmamento,12.0,2
+redes,imprensa,grau ponderado,5,notícia: Palestina,12.0,3
+redes,imprensa,PageRank,1,notícia: Gaza,0.091554,4
+redes,imprensa,PageRank,2,notícia: Hamas aceita desarmamento,0.088653,2
+redes,imprensa,PageRank,3,notícia: cessar-fogo Gaza,0.086237,1
+redes,imprensa,PageRank,4,notícia: Palestina,0.085672,3
+redes,imprensa,PageRank,5,Brasil de Fato,0.07095,4
+redes,imprensa,intermediação (betweenness),1,notícia: Hamas aceita desarmamento,0.332581,2
+redes,imprensa,intermediação (betweenness),2,notícia: Palestina,0.307862,3
+redes,imprensa,intermediação (betweenness),3,notícia: Gaza,0.268976,4
+redes,imprensa,intermediação (betweenness),4,notícia: cessar-fogo Gaza,0.248418,1
+redes,imprensa,intermediação (betweenness),5,notícia: acordo Hamas Israel,0.219791,1
+redes,imprensa,autovetor (eigenvector),1,Brasil de Fato,0.546524,4
+redes,imprensa,autovetor (eigenvector),2,notícia: Gaza,0.474053,4
+redes,imprensa,autovetor (eigenvector),3,notícia: cessar-fogo Gaza,0.398359,1
+redes,imprensa,autovetor (eigenvector),4,notícia: Palestina,0.23733,3
+redes,imprensa,autovetor (eigenvector),5,Agência Brasil,0.218234,1

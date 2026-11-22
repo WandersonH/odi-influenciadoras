@@ -396,6 +396,7 @@ async function dizem(rede) {
   // Caderno 07: imprensa
   {
     const IM = await json("data/imprensa/resultados.json");
+    const RI = await json("data/redes/imprensa.json");
     if (!IM) $("p7Imprensa").innerHTML = `<div class="eyebrow">Imprensa</div>${vazio("⛔ Matérias ainda não coletadas.")}`;
     else {
       const recs = [...new Set(IM.consultas.map(c => c.recorte))];
@@ -403,7 +404,16 @@ async function dizem(rede) {
         ${recs.map(r => `<h2 class="tk-h2" style="margin-top:16px">${r === "dia do anúncio" ? "Dia do anúncio (30/07 a 02/08)" : "Núcleo (23/07 a 14/08)"}</h2>
           ${IM.consultas.filter(c => c.recorte === r).map(c => `<details ${c.grupo === "tema" && c.consulta.startsWith("Hamas desarmamento") ? "open" : ""} style="margin:6px 0;font-size:12.5px"><summary><b>${esc(c.consulta)}</b> · ${n(c.lidos)} resultado(s)${c.grupo === "influenciadora" && c.lidos ? ' · <span class="inf-sit pend">conferir homônimos</span>' : ""}${c.grupo === "influenciadora" && !c.lidos ? " · nenhuma matéria" : ""}</summary>
             ${c.resultados.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>#</th><th>Data</th><th>Veículo</th><th>Título</th></tr></thead><tbody>${c.resultados.map(x => `<tr><td>${x.posicao}</td><td>${x.publicado_em ? dataBR(x.publicado_em) : "—"}</td><td>${esc(x.veiculo)}</td><td><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.titulo)}</a></td></tr>`).join("")}</tbody></table></div>` : ""}</details>`).join("")}`).join("")}
-        <p class="inf-nota">${esc(IM.metodo)} Universo: ${esc(IM.universo)}. Nas buscas pelos nomes, os resultados de "Fabíola Oliveira" são de outras pessoas com o mesmo nome (homônimos): nenhuma matéria cita as influenciadoras.</p>`;
+        <p class="inf-nota">${esc(IM.metodo)} Universo: ${esc(IM.universo)}. Nas buscas pelos nomes, os resultados de "Fabíola Oliveira" são de outras pessoas com o mesmo nome (homônimos): nenhuma matéria cita as influenciadoras.</p>
+        ${RI && RI.desenho ? (() => { const D_ = RI.desenho, corI = {"veículo de imprensa": "#165ebd", termo: "#172238"}, mx = Math.max(1, ...D_.nos.map(x => x.n));
+          return `<h2 class="tk-h2" style="margin-top:20px">Rede da imprensa: veículo × termo de busca</h2>
+          <div class="kpigrid"><div class="kpi"><div class="klabel">Matérias distintas</div><div class="kval">${n(RI.materias)}</div><div class="knote">10 primeiros por termo · universo ⛔</div></div><div class="kpi"><div class="klabel">Veículos</div><div class="kval">${n(RI.veiculos)}</div><div class="knote">${n(RI.termos.length)} termos do tema</div></div><div class="kpi"><div class="klabel">Influenciadoras na rede</div><div class="kval">${n(RI.influenciadoras_na_rede.length)}</div><div class="knote">nenhuma matéria as cita</div></div></div>
+          <div style="margin-top:14px">${desenhaRede(D_.nos, D_.arestas, nd => corI[nd.tipo] || "#7d8997", nd => (nd.tipo === "termo" ? 9 : 2.5 + 10 * Math.sqrt(nd.n / mx)).toFixed(1), nd => nd.rotulo)}</div>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.entries(corI).map(([k, c]) => `<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c};margin-right:6px"></b>${k}</span>`).join("")}</div>
+          <div class="tablewrap" style="margin-top:12px"><table class="datatable"><thead><tr><th>Veículo</th><th class="inf-num">Matérias</th><th class="inf-num">Termos em que aparece</th></tr></thead><tbody>${RI.top_veiculos.map(t => `<tr><td>${esc(t.veiculo)}</td><td class="inf-num">${n(t.materias)}</td><td class="inf-num">${n(t.termos)}</td></tr>`).join("")}</tbody></table></div>
+          ${tabEstat(RI)}
+          <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/imprensa.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/imprensa.graphml" download>GraphML</a> · <a href="data/redes/imprensa_estatisticas.csv" download>estatísticas (CSV)</a> · <a href="data/redes/imprensa_centralidades.csv" download>centralidades (CSV)</a> · <a href="data/redes/imprensa_comunidades.csv" download>comunidades (CSV)</a></p>
+          <p class="inf-nota">${esc(RI.metodo)}</p>`; })() : vazio("⛔ Rede da imprensa ainda não gerada.")}`;
     }
   }
 

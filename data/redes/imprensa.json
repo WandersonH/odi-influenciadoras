@@ -1,0 +1,991 @@
+{
+ "gerado_em": "2026-11-22T23:23:30Z",
+ "run_id": "local",
+ "fonte_coleta": {
+  "run_id": "45076870902",
+  "gerado_em": "2026-11-22T22:17:35Z"
+ },
+ "metodo": "Fonte: data/imprensa/resultados.json (collect_imprensa.py): os 10 primeiros resultados do Google Notícias (RSS,\nBrasil) por termo, nos recortes \"dia do anúncio\" (30/07 a 02/08) e \"núcleo\" (23/07 a 14/08/2026). Entram só as\nbuscas do tema (Hamas, desarmamento, Gaza…). As buscas pelos nomes das influenciadoras ficam de fora porque nenhuma\nmatéria as cita: os resultados de \"Fabíola Oliveira\" são de homônimos. Uma matéria que aparece nos dois recortes\npara o mesmo termo conta uma vez. Rede: redes_caso.circulacao() do ODI Atlas, sem mudança (veículo ligado ao termo\npelo qual apareceu; peso = número de matérias). Estatísticas: estatisticas_redes.py do Atlas (Gephi Statistics,\nLouvain semente 42, E-I, centralidades). Universo ⛔: o Google Notícias não informa quantas matérias existem; a\namostra é a dos 10 primeiros por termo, na ordem do Google.",
+ "universo": "⛔ o Google Notícias não informa o total; amostra = 10 primeiros por termo",
+ "materias": 75,
+ "veiculos": 32,
+ "termos": [
+  "Gaza",
+  "Hamas aceita desarmamento",
+  "Hamas desarmamento",
+  "Palestina",
+  "acordo Hamas Israel",
+  "cessar-fogo Gaza"
+ ],
+ "por_recorte": {
+  "dia do anúncio": 55,
+  "núcleo": 20
+ },
+ "influenciadoras_na_rede": [],
+ "top_veiculos": [
+  {
+   "veiculo": "Brasil de Fato",
+   "materias": 13,
+   "termos": 4
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "materias": 7,
+   "termos": 5
+  },
+  {
+   "veiculo": "G1",
+   "materias": 7,
+   "termos": 5
+  },
+  {
+   "veiculo": "Folha de S.Paulo",
+   "materias": 6,
+   "termos": 4
+  },
+  {
+   "veiculo": "CNN Brasil",
+   "materias": 4,
+   "termos": 4
+  },
+  {
+   "veiculo": "O GLOBO",
+   "materias": 4,
+   "termos": 3
+  },
+  {
+   "veiculo": "BBC",
+   "materias": 3,
+   "termos": 3
+  },
+  {
+   "veiculo": "Médicos Sem Fronteiras",
+   "materias": 3,
+   "termos": 2
+  },
+  {
+   "veiculo": "Estadão",
+   "materias": 2,
+   "termos": 2
+  },
+  {
+   "veiculo": "Portal da Assembleia Legislativa de Minas Gerais",
+   "materias": 2,
+   "termos": 1
+  },
+  {
+   "veiculo": "VEJA",
+   "materias": 2,
+   "termos": 2
+  },
+  {
+   "veiculo": "Vatican News",
+   "materias": 2,
+   "termos": 2
+  },
+  {
+   "veiculo": "ADUFC",
+   "materias": 1,
+   "termos": 1
+  },
+  {
+   "veiculo": "CartaCapital",
+   "materias": 1,
+   "termos": 1
+  },
+  {
+   "veiculo": "DW.com",
+   "materias": 1,
+   "termos": 1
+  }
+ ],
+ "desenho": {
+  "nos": [
+   {
+    "id": "imprensa:G1",
+    "rotulo": "G1",
+    "tipo": "veículo de imprensa",
+    "n": 7,
+    "grupo": 0,
+    "x": 0.9699,
+    "y": 0.8079
+   },
+   {
+    "id": "notícia: Hamas desarmamento",
+    "rotulo": "notícia: Hamas desarmamento",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 0,
+    "x": 0.9053,
+    "y": 0.5938
+   },
+   {
+    "id": "imprensa:BBC",
+    "rotulo": "BBC",
+    "tipo": "veículo de imprensa",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.1019,
+    "y": 0.6247
+   },
+   {
+    "id": "imprensa:Folha de S.Paulo",
+    "rotulo": "Folha de S.Paulo",
+    "tipo": "veículo de imprensa",
+    "n": 6,
+    "grupo": 0,
+    "x": 1.0407,
+    "y": 0.748
+   },
+   {
+    "id": "imprensa:Agência Brasil",
+    "rotulo": "Agência Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 7,
+    "grupo": 3,
+    "x": 0.9524,
+    "y": 0.8738
+   },
+   {
+    "id": "imprensa:CNN Brasil",
+    "rotulo": "CNN Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 4,
+    "grupo": 3,
+    "x": 1.1322,
+    "y": 0.738
+   },
+   {
+    "id": "imprensa:DW.com",
+    "rotulo": "DW.com",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 0.7252,
+    "y": 0.3193
+   },
+   {
+    "id": "imprensa:Poder360",
+    "rotulo": "Poder360",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 0.6227,
+    "y": 0.4262
+   },
+   {
+    "id": "imprensa:Estadão",
+    "rotulo": "Estadão",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.9849,
+    "y": 0.3521
+   },
+   {
+    "id": "notícia: Hamas aceita desarmamento",
+    "rotulo": "notícia: Hamas aceita desarmamento",
+    "tipo": "termo",
+    "n": 12,
+    "grupo": 0,
+    "x": 1.1877,
+    "y": 0.4549
+   },
+   {
+    "id": "imprensa:Exame",
+    "rotulo": "Exame",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.4975,
+    "y": 0.4094
+   },
+   {
+    "id": "imprensa:Metrópoles",
+    "rotulo": "Metrópoles",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.2143,
+    "y": 0.1285
+   },
+   {
+    "id": "imprensa:Vermelho",
+    "rotulo": "Vermelho",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.329,
+    "y": 0.1299
+   },
+   {
+    "id": "imprensa:ICL Notícias",
+    "rotulo": "ICL Notícias",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.4851,
+    "y": 0.2857
+   },
+   {
+    "id": "imprensa:UOL Notícias",
+    "rotulo": "UOL Notícias",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.3922,
+    "y": 0.2199
+   },
+   {
+    "id": "imprensa:Euronews",
+    "rotulo": "Euronews",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 0,
+    "x": 1.0956,
+    "y": 0.1382
+   },
+   {
+    "id": "notícia: acordo Hamas Israel",
+    "rotulo": "notícia: acordo Hamas Israel",
+    "tipo": "termo",
+    "n": 10,
+    "grupo": 3,
+    "x": 1.0738,
+    "y": 0.9709
+   },
+   {
+    "id": "imprensa:VEJA",
+    "rotulo": "VEJA",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 3,
+    "x": 0.8763,
+    "y": 1.0
+   },
+   {
+    "id": "imprensa:Brasil de Fato",
+    "rotulo": "Brasil de Fato",
+    "tipo": "veículo de imprensa",
+    "n": 13,
+    "grupo": 1,
+    "x": 0.9567,
+    "y": 1.2845
+   },
+   {
+    "id": "imprensa:CartaCapital",
+    "rotulo": "CartaCapital",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 3,
+    "x": 1.3769,
+    "y": 1.0872
+   },
+   {
+    "id": "imprensa:O GLOBO",
+    "rotulo": "O GLOBO",
+    "tipo": "veículo de imprensa",
+    "n": 4,
+    "grupo": 1,
+    "x": 0.9372,
+    "y": 1.344
+   },
+   {
+    "id": "notícia: Gaza",
+    "rotulo": "notícia: Gaza",
+    "tipo": "termo",
+    "n": 16,
+    "grupo": 1,
+    "x": 0.8031,
+    "y": 1.1867
+   },
+   {
+    "id": "imprensa:Times Brasil",
+    "rotulo": "Times Brasil",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 0.5527,
+    "y": 1.3942
+   },
+   {
+    "id": "imprensa:ND Mais",
+    "rotulo": "ND Mais",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 0.4794,
+    "y": 1.2853
+   },
+   {
+    "id": "notícia: Palestina",
+    "rotulo": "notícia: Palestina",
+    "tipo": "termo",
+    "n": 12,
+    "grupo": 2,
+    "x": 0.9586,
+    "y": 1.6626
+   },
+   {
+    "id": "imprensa:Outras Palavras",
+    "rotulo": "Outras Palavras",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 2,
+    "x": 0.7399,
+    "y": 1.8949
+   },
+   {
+    "id": "imprensa:Sinteal",
+    "rotulo": "Sinteal",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 2,
+    "x": 0.9932,
+    "y": 2.0
+   },
+   {
+    "id": "notícia: cessar-fogo Gaza",
+    "rotulo": "notícia: cessar-fogo Gaza",
+    "tipo": "termo",
+    "n": 15,
+    "grupo": 1,
+    "x": 1.0218,
+    "y": 1.0259
+   },
+   {
+    "id": "imprensa:Jornal da USP",
+    "rotulo": "Jornal da USP",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 0.4709,
+    "y": 1.1528
+   },
+   {
+    "id": "imprensa:Médicos Sem Fronteiras",
+    "rotulo": "Médicos Sem Fronteiras",
+    "tipo": "veículo de imprensa",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.8934,
+    "y": 1.1754
+   },
+   {
+    "id": "imprensa:Vatican News",
+    "rotulo": "Vatican News",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.7856,
+    "y": 1.5101
+   },
+   {
+    "id": "imprensa:Portal da Assembleia Legislativa de Minas Gerais",
+    "rotulo": "Portal da Assembleia Legislativa de Minas Gerais",
+    "tipo": "veículo de imprensa",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.9511,
+    "y": 1.8382
+   },
+   {
+    "id": "imprensa:ADUFC",
+    "rotulo": "ADUFC",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 2,
+    "x": 1.2042,
+    "y": 1.8449
+   },
+   {
+    "id": "imprensa:Notícias - Canção Nova",
+    "rotulo": "Notícias - Canção Nova",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 2,
+    "x": 0.8506,
+    "y": 1.9854
+   },
+   {
+    "id": "imprensa:UN News",
+    "rotulo": "UN News",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 2,
+    "x": 1.1188,
+    "y": 1.9489
+   },
+   {
+    "id": "imprensa:TV Cultura",
+    "rotulo": "TV Cultura",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 1.3395,
+    "y": 0.9845
+   },
+   {
+    "id": "imprensa:Sete Margens",
+    "rotulo": "Sete Margens",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 0.7047,
+    "y": 0.9473
+   },
+   {
+    "id": "imprensa:Público",
+    "rotulo": "Público",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 1.2749,
+    "y": 1.226
+   }
+  ],
+  "arestas": [
+   [
+    "imprensa:G1",
+    "notícia: Hamas desarmamento",
+    2
+   ],
+   [
+    "imprensa:G1",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: Gaza",
+    1
+   ],
+   [
+    "imprensa:G1",
+    "notícia: cessar-fogo Gaza",
+    2
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:BBC",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Folha de S.Paulo",
+    2
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Agência Brasil",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:CNN Brasil",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:DW.com",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Poder360",
+    1
+   ],
+   [
+    "notícia: Hamas desarmamento",
+    "imprensa:Estadão",
+    1
+   ],
+   [
+    "imprensa:BBC",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:BBC",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:Folha de S.Paulo",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:Folha de S.Paulo",
+    "notícia: cessar-fogo Gaza",
+    2
+   ],
+   [
+    "imprensa:Folha de S.Paulo",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: acordo Hamas Israel",
+    2
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: Gaza",
+    2
+   ],
+   [
+    "imprensa:Agência Brasil",
+    "notícia: cessar-fogo Gaza",
+    1
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: acordo Hamas Israel",
+    1
+   ],
+   [
+    "imprensa:CNN Brasil",
+    "notícia: cessar-fogo Gaza",
+    1
+   ],
+   [
+    "imprensa:Estadão",
+    "notícia: Hamas aceita desarmamento",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Exame",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Metrópoles",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Vermelho",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:ICL Notícias",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:UOL Notícias",
+    1
+   ],
+   [
+    "notícia: Hamas aceita desarmamento",
+    "imprensa:Euronews",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:VEJA",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:Brasil de Fato",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:CartaCapital",
+    1
+   ],
+   [
+    "notícia: acordo Hamas Israel",
+    "imprensa:O GLOBO",
+    1
+   ],
+   [
+    "imprensa:VEJA",
+    "notícia: cessar-fogo Gaza",
+    1
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: Gaza",
+    5
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: Palestina",
+    3
+   ],
+   [
+    "imprensa:Brasil de Fato",
+    "notícia: cessar-fogo Gaza",
+    4
+   ],
+   [
+    "imprensa:O GLOBO",
+    "notícia: Gaza",
+    2
+   ],
+   [
+    "imprensa:O GLOBO",
+    "notícia: Palestina",
+    1
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:Times Brasil",
+    1
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:ND Mais",
+    1
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:Jornal da USP",
+    1
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:Médicos Sem Fronteiras",
+    2
+   ],
+   [
+    "notícia: Gaza",
+    "imprensa:Vatican News",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Outras Palavras",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Sinteal",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Portal da Assembleia Legislativa de Minas Gerais",
+    2
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:ADUFC",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Notícias - Canção Nova",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Vatican News",
+    1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:UN News",
+    1
+   ],
+   [
+    "notícia: cessar-fogo Gaza",
+    "imprensa:Médicos Sem Fronteiras",
+    1
+   ],
+   [
+    "notícia: cessar-fogo Gaza",
+    "imprensa:TV Cultura",
+    1
+   ],
+   [
+    "notícia: cessar-fogo Gaza",
+    "imprensa:Sete Margens",
+    1
+   ],
+   [
+    "notícia: cessar-fogo Gaza",
+    "imprensa:Público",
+    1
+   ]
+  ],
+  "total_nos": 38,
+  "total_arestas": 57,
+  "comunidades": 4
+ },
+ "total_nos": 38,
+ "total_arestas": 57,
+ "estatisticas_atlas": {
+  "rede": "imprensa",
+  "dirigida": false,
+  "nos": 38,
+  "arestas": 57,
+  "densidade": 0.081081,
+  "grau_medio": 3.0,
+  "grau_ponderado_medio": 3.947,
+  "componentes": 1,
+  "nos_maior_componente": 38,
+  "pct_nos_maior_componente": 100.0,
+  "clustering_medio": 0.0,
+  "assortatividade_grau": -0.8668,
+  "diametro_maior_componente": 6,
+  "caminho_medio_maior_componente": 3.186,
+  "modularidade_q": 0.3964,
+  "comunidades": 4,
+  "comunidades_1pct_ou_mais": 4,
+  "pct_maior": 36.84,
+  "pct_segunda": 23.68,
+  "pct_terceira": 21.05,
+  "pct_nos_em_comunidades_1pct": 100.0,
+  "gc_densidade": 0.081081,
+  "gc_modularidade_q": 0.3964,
+  "gc_comunidades": 4,
+  "gc_comunidades_1pct_ou_mais": 4,
+  "gc_pct_maior": 36.84,
+  "gc_pct_segunda": 23.68,
+  "gc_polarizacao_ei_2_maiores": -0.65,
+  "polarizacao_ei_2_maiores": -0.65
+ },
+ "centralidades": [
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "grau ponderado",
+   "posicao": 1,
+   "no": "notícia: Gaza",
+   "valor": 16.0,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "grau ponderado",
+   "posicao": 2,
+   "no": "notícia: cessar-fogo Gaza",
+   "valor": 15.0,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "grau ponderado",
+   "posicao": 3,
+   "no": "Brasil de Fato",
+   "valor": 13.0,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "grau ponderado",
+   "posicao": 4,
+   "no": "notícia: Hamas aceita desarmamento",
+   "valor": 12.0,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "grau ponderado",
+   "posicao": 5,
+   "no": "notícia: Palestina",
+   "valor": 12.0,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "PageRank",
+   "posicao": 1,
+   "no": "notícia: Gaza",
+   "valor": 0.091554,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "PageRank",
+   "posicao": 2,
+   "no": "notícia: Hamas aceita desarmamento",
+   "valor": 0.088653,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "PageRank",
+   "posicao": 3,
+   "no": "notícia: cessar-fogo Gaza",
+   "valor": 0.086237,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "PageRank",
+   "posicao": 4,
+   "no": "notícia: Palestina",
+   "valor": 0.085672,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "PageRank",
+   "posicao": 5,
+   "no": "Brasil de Fato",
+   "valor": 0.07095,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "intermediação (betweenness)",
+   "posicao": 1,
+   "no": "notícia: Hamas aceita desarmamento",
+   "valor": 0.332581,
+   "comunidade": 2
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "intermediação (betweenness)",
+   "posicao": 2,
+   "no": "notícia: Palestina",
+   "valor": 0.307862,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "intermediação (betweenness)",
+   "posicao": 3,
+   "no": "notícia: Gaza",
+   "valor": 0.268976,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "intermediação (betweenness)",
+   "posicao": 4,
+   "no": "notícia: cessar-fogo Gaza",
+   "valor": 0.248418,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "intermediação (betweenness)",
+   "posicao": 5,
+   "no": "notícia: acordo Hamas Israel",
+   "valor": 0.219791,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 1,
+   "no": "Brasil de Fato",
+   "valor": 0.546524,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 2,
+   "no": "notícia: Gaza",
+   "valor": 0.474053,
+   "comunidade": 4
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 3,
+   "no": "notícia: cessar-fogo Gaza",
+   "valor": 0.398359,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 4,
+   "no": "notícia: Palestina",
+   "valor": 0.23733,
+   "comunidade": 3
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "medida": "autovetor (eigenvector)",
+   "posicao": 5,
+   "no": "Agência Brasil",
+   "valor": 0.218234,
+   "comunidade": 1
+  }
+ ],
+ "comunidades_atlas": [
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "comunidade": 1,
+   "nos": 14,
+   "pct_nos": 36.84,
+   "pct_peso_interno": 33.33,
+   "nos_de_maior_grau": "notícia: cessar-fogo Gaza | notícia: acordo Hamas Israel | notícia: Hamas desarmamento | G1 | Agência Brasil"
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "comunidade": 2,
+   "nos": 9,
+   "pct_nos": 23.68,
+   "pct_peso_interno": 10.67,
+   "nos_de_maior_grau": "notícia: Hamas aceita desarmamento | BBC | Estadão | Vermelho | Exame"
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "comunidade": 3,
+   "nos": 8,
+   "pct_nos": 21.05,
+   "pct_peso_interno": 10.67,
+   "nos_de_maior_grau": "notícia: Palestina | Portal da Assembleia Legislativa de Minas Gerais | Vatican News | ADUFC | Outras Palavras"
+  },
+  {
+   "caso": "redes",
+   "rede": "imprensa",
+   "comunidade": 4,
+   "nos": 7,
+   "pct_nos": 18.42,
+   "pct_peso_interno": 16.0,
+   "nos_de_maior_grau": "notícia: Gaza | Brasil de Fato | O GLOBO | Médicos Sem Fronteiras | ND Mais"
+  }
+ ]
+}

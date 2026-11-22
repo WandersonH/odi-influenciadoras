@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="peso" attr.type="long"/>
+<key id="d1" for="node" attr.name="tipo" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="undirected"><node id="imprensa:G1">
+  <data key="d0">G1</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">7</data>
+</node>
+<node id="notícia: Hamas desarmamento">
+  <data key="d0">notícia: Hamas desarmamento</data>
+  <data key="d1">termo</data>
+  <data key="d2">10</data>
+</node>
+<node id="imprensa:BBC">
+  <data key="d0">BBC</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">3</data>
+</node>
+<node id="imprensa:Folha de S.Paulo">
+  <data key="d0">Folha de S.Paulo</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">6</data>
+</node>
+<node id="imprensa:Agência Brasil">
+  <data key="d0">Agência Brasil</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">7</data>
+</node>
+<node id="imprensa:CNN Brasil">
+  <data key="d0">CNN Brasil</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">4</data>
+</node>
+<node id="imprensa:DW.com">
+  <data key="d0">DW.com</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Poder360">
+  <data key="d0">Poder360</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Estadão">
+  <data key="d0">Estadão</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">2</data>
+</node>
+<node id="notícia: Hamas aceita desarmamento">
+  <data key="d0">notícia: Hamas aceita desarmamento</data>
+  <data key="d1">termo</data>
+  <data key="d2">12</data>
+</node>
+<node id="imprensa:Exame">
+  <data key="d0">Exame</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Metrópoles">
+  <data key="d0">Metrópoles</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Vermelho">
+  <data key="d0">Vermelho</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:ICL Notícias">
+  <data key="d0">ICL Notícias</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:UOL Notícias">
+  <data key="d0">UOL Notícias</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Euronews">
+  <data key="d0">Euronews</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="notícia: acordo Hamas Israel">
+  <data key="d0">notícia: acordo Hamas Israel</data>
+  <data key="d1">termo</data>
+  <data key="d2">10</data>
+</node>
+<node id="imprensa:VEJA">
+  <data key="d0">VEJA</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">2</data>
+</node>
+<node id="imprensa:Brasil de Fato">
+  <data key="d0">Brasil de Fato</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">13</data>
+</node>
+<node id="imprensa:CartaCapital">
+  <data key="d0">CartaCapital</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:O GLOBO">
+  <data key="d0">O GLOBO</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">4</data>
+</node>
+<node id="notícia: Gaza">
+  <data key="d0">notícia: Gaza</data>
+  <data key="d1">termo</data>
+  <data key="d2">16</data>
+</node>
+<node id="imprensa:Times Brasil">
+  <data key="d0">Times Brasil</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:ND Mais">
+  <data key="d0">ND Mais</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="notícia: Palestina">
+  <data key="d0">notícia: Palestina</data>
+  <data key="d1">termo</data>
+  <data key="d2">12</data>
+</node>
+<node id="imprensa:Outras Palavras">
+  <data key="d0">Outras Palavras</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Sinteal">
+  <data key="d0">Sinteal</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="notícia: cessar-fogo Gaza">
+  <data key="d0">notícia: cessar-fogo Gaza</data>
+  <data key="d1">termo</data>
+  <data key="d2">15</data>
+</node>
+<node id="imprensa:Jornal da USP">
+  <data key="d0">Jornal da USP</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Médicos Sem Fronteiras">
+  <data key="d0">Médicos Sem Fronteiras</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">3</data>
+</node>
+<node id="imprensa:Vatican News">
+  <data key="d0">Vatican News</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">2</data>
+</node>
+<node id="imprensa:Portal da Assembleia Legislativa de Minas Gerais">
+  <data key="d0">Portal da Assembleia Legislativa de Minas Gerais</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">2</data>
+</node>
+<node id="imprensa:ADUFC">
+  <data key="d0">ADUFC</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Notícias - Canção Nova">
+  <data key="d0">Notícias - Canção Nova</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:UN News">
+  <data key="d0">UN News</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:TV Cultura">
+  <data key="d0">TV Cultura</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Sete Margens">
+  <data key="d0">Sete Margens</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<node id="imprensa:Público">
+  <data key="d0">Público</data>
+  <data key="d1">veículo de imprensa</data>
+  <data key="d2">1</data>
+</node>
+<edge source="imprensa:G1" target="notícia: Hamas desarmamento">
+  <data key="d3">2</data>
+</edge>
+<edge source="imprensa:G1" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:G1" target="notícia: acordo Hamas Israel">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:G1" target="notícia: Gaza">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:G1" target="notícia: cessar-fogo Gaza">
+  <data key="d3">2</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:BBC">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:Folha de S.Paulo">
+  <data key="d3">2</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:Agência Brasil">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:CNN Brasil">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:DW.com">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:Poder360">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas desarmamento" target="imprensa:Estadão">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:BBC" target="notícia: acordo Hamas Israel">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:BBC" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Folha de S.Paulo" target="notícia: acordo Hamas Israel">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Folha de S.Paulo" target="notícia: cessar-fogo Gaza">
+  <data key="d3">2</data>
+</edge>
+<edge source="imprensa:Folha de S.Paulo" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Agência Brasil" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Agência Brasil" target="notícia: acordo Hamas Israel">
+  <data key="d3">2</data>
+</edge>
+<edge source="imprensa:Agência Brasil" target="notícia: Gaza">
+  <data key="d3">2</data>
+</edge>
+<edge source="imprensa:Agência Brasil" target="notícia: cessar-fogo Gaza">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:CNN Brasil" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:CNN Brasil" target="notícia: acordo Hamas Israel">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:CNN Brasil" target="notícia: cessar-fogo Gaza">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Estadão" target="notícia: Hamas aceita desarmamento">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:Exame">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:Metrópoles">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:Vermelho">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:ICL Notícias">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:UOL Notícias">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Hamas aceita desarmamento" target="imprensa:Euronews">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: acordo Hamas Israel" target="imprensa:VEJA">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: acordo Hamas Israel" target="imprensa:Brasil de Fato">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: acordo Hamas Israel" target="imprensa:CartaCapital">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: acordo Hamas Israel" target="imprensa:O GLOBO">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:VEJA" target="notícia: cessar-fogo Gaza">
+  <data key="d3">1</data>
+</edge>
+<edge source="imprensa:Brasil de Fato" target="notícia: Gaza">
+  <data key="d3">5</data>
+</edge>
+<edge source="imprensa:Brasil de Fato" target="notícia: Palestina">
+  <data key="d3">3</data>
+</edge>
+<edge source="imprensa:Brasil de Fato" target="notícia: cessar-fogo Gaza">
+  <data key="d3">4</data>
+</edge>
+<edge source="imprensa:O GLOBO" target="notícia: Gaza">
+  <data key="d3">2</data>
+</edge>
+<edge source="imprensa:O GLOBO" target="notícia: Palestina">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Gaza" target="imprensa:Times Brasil">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Gaza" target="imprensa:ND Mais">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Gaza" target="imprensa:Jornal da USP">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Gaza" target="imprensa:Médicos Sem Fronteiras">
+  <data key="d3">2</data>
+</edge>
+<edge source="notícia: Gaza" target="imprensa:Vatican News">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:Outras Palavras">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:Sinteal">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:Portal da Assembleia Legislativa de Minas Gerais">
+  <data key="d3">2</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:ADUFC">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:Notícias - Canção Nova">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:Vatican News">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: Palestina" target="imprensa:UN News">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: cessar-fogo Gaza" target="imprensa:Médicos Sem Fronteiras">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: cessar-fogo Gaza" target="imprensa:TV Cultura">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: cessar-fogo Gaza" target="imprensa:Sete Margens">
+  <data key="d3">1</data>
+</edge>
+<edge source="notícia: cessar-fogo Gaza" target="imprensa:Público">
+  <data key="d3">1</data>
+</edge>
+</graph></graphml>
