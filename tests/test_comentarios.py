@@ -18,7 +18,7 @@ class TestComentarios(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
         (self.tmp / "data/config").mkdir(parents=True)
-        for f in ("coleta.json", "temas.json"):
+        for f in ("coleta.json", "temas.json", "atores.json"):
             shutil.copy(RAIZ / "data/config" / f, self.tmp / "data/config" / f)
         (self.tmp / "data/tiktok").mkdir(parents=True)
         with (self.tmp / "data/tiktok/posts.csv").open("w", encoding="utf-8", newline="") as f:

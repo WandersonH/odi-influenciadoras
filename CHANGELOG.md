@@ -1,5 +1,27 @@
 # Changelog
 
+## 22/11/2026: revisão crítica de todo o trabalho e correção das lacunas
+
+Pedido do responsável às 20h03 ("revise criticamente todo trabalho executado e veja gaps"). Lacunas encontradas e o que foi feito:
+
+1. **Perfis sem X** (caderno 01): o cartão listava só YouTube, Instagram e TikTok. Corrigido.
+2. **X no panorama** aparecia como "parcial ⛔": passa a "sem posts no período (conta parada)".
+3. **X e YouTube sem posts fora do engajamento sem explicação** (caderno 04): nota com o motivo de cada ausência.
+4. **Comentários do YouTube com uma influenciadora só** (caderno 05): Hyatt, Carima e Fabíola não têm vídeo no núcleo. Agora aparecem com essa explicação, em vez de sumir.
+5. **Respostas dos comentários do YouTube não eram lidas** (2.098 de 2.696): o coletor passa a ler todas as respostas (comments.list), como o coletor completo do Atlas. Recoleta disparada.
+6. **Acervo do YouTube sem título**: o caderno 03 não tinha texto dos vídeos da base. O coletor passa a guardar o título. Recoleta disparada.
+7. **Saúde da coleta desatualizada** (caderno 10): imprensa, comentários, checagens, circulação e terceiros apareciam como "não executada". A tabela passa a ler os manifestos.
+8. **Menções de terceiros sem a regra de homônimos do plano** (caderno 06): novo `build_terceiros.py`. Uma menção conta com @ ou nome + termo de contexto, em YouTube (título e descrição, pela API), X (API e navegador) e imprensa. Canal com menos de 10 mil inscritos aparece como código. Achado: vídeos a conferir, como "FUI PROCESSADO POR UMA INFLUENCIADORA MUÇULMANA" (12/08, busca pela Mariam) e "TERRORISTA MATA PESSOAS E ESQUERDISTA SE PREOCUPA COM ISLAMOFOBIA!" (Kim Kataguiri, 28/07, busca pela Fabíola). A variante "Fabiola Oliver" entra nas buscas.
+9. **X pela busca avançada no navegador** (pedido às 19h50): 8 buscas no núcleo, no Chrome do responsável, sem custo. Nenhuma menção às quatro; os 2 resultados de "Fabíola Oliveira" são homônimos. Texto no privado (`data/terceiros/x_navegador.csv`), contagens em `data/manifest/terceiros_x_navegador.json`.
+10. **Redes de comentários do plano não feitas** (palavras e respostas): novo `build_rede_comentarios.py` com `redes_caso.palavras()` e `respostas()` do Atlas e as estatísticas do Atlas. Palavras: YouTube 458 nós, Instagram 215, TikTok 167. A rede de respostas depende da recoleta (item 5).
+11. **Filtro de tema do caderno 03 parecia não filtrar** (apontado às 20h04): agora filtra também a tabela de temas e lista todas as publicações do tema escolhido.
+12. **Trends por estado coletado e não mostrado**: tabela por UF no caderno 07.
+13. **Etiqueta do topo** só citava o YouTube: corrigida.
+
+**Ainda pendente (depende de pessoas ou de decisão):** codificação humana e kappa (livro de códigos a validar); revisão humana dos vídeos "a conferir"; descrição e tópicos dos repositórios (o proxy desta sessão não deixa editar configurações); confirmação de CEP com o PPGCOM.
+
+**Executado.** 35 testes unitários; `node --check`; página inteira renderizada no Chrome headless, com todos os cadernos preenchidos.
+
 ## 22/11/2026: menções no X — teste do apidojo~tweet-scraper
 
 **Contexto.** Com o período nos campos since/until (run 45077239872), o xquik devolveu de novo só 2 itens. Sem datas, devolve as menções recentes, mas não chega ao núcleo.

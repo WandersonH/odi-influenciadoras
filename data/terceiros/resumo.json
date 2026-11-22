@@ -1,0 +1,196 @@
+{
+ "gerado_em": "2026-11-22T23:08:36Z",
+ "janela": "núcleo",
+ "regra": "Regra de homônimos do plano (seção 5): uma menção só conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto. O resto fica 'a conferir' e fora da contagem.",
+ "contexto": [
+  "isla",
+  "islam",
+  "muculman",
+  "hijab",
+  "revertida",
+  "palestin",
+  "arabe",
+  "religiao",
+  "mesquita",
+  "alcorao",
+  "allah",
+  "influenciadora"
+ ],
+ "universo": "⛔ nenhuma busca informa o total",
+ "metodo": "Regra: uma menção conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto\n(data/config/palavras.json → contexto_homonimos: islã, muçulmana, hijab, revertida, Palestina, árabe…). O resto fica\n\"a conferir\" (homônimo provável), fora da contagem, até conferência humana.",
+ "por_influenciadora": {
+  "mariam-chami": {
+   "nome": "Mariam Chami",
+   "fontes": {
+    "YouTube (busca por nome)": {
+     "lidos": 5,
+     "descricoes_lidas": 0,
+     "confirmadas_lista": [],
+     "confirmadas": 0,
+     "a_conferir": 2,
+     "sem_nome_no_titulo": 3,
+     "a_conferir_com_contexto": [
+      {
+       "canal": "canal pequeno C001",
+       "titulo": "",
+       "publicado_em": "2026-08-07",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C002",
+       "titulo": "",
+       "publicado_em": "2026-08-12",
+       "url": ""
+      }
+     ]
+    },
+    "X (API, xquik)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "X (busca avançada no navegador)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "Imprensa (Google Notícias, 10 primeiros)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "veiculos_confirmados": []
+    }
+   },
+   "confirmadas_total": 0,
+   "a_conferir_total": 2
+  },
+  "hyatt-omar": {
+   "nome": "Hyatt Omar",
+   "fontes": {
+    "YouTube (busca por nome)": {
+     "lidos": 50,
+     "descricoes_lidas": 0,
+     "confirmadas_lista": [],
+     "confirmadas": 0,
+     "a_conferir": 1,
+     "sem_nome_no_titulo": 49,
+     "a_conferir_com_contexto": [
+      {
+       "canal": "canal pequeno C015",
+       "titulo": "",
+       "publicado_em": "2026-07-27",
+       "url": ""
+      }
+     ]
+    },
+    "X (API, xquik)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "X (busca avançada no navegador)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "Imprensa (Google Notícias, 10 primeiros)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "veiculos_confirmados": []
+    }
+   },
+   "confirmadas_total": 0,
+   "a_conferir_total": 1
+  },
+  "carima-orra": {
+   "nome": "Carima Orra",
+   "fontes": {
+    "YouTube (busca por nome)": {
+     "lidos": 2,
+     "descricoes_lidas": 0,
+     "confirmadas_lista": [],
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "sem_nome_no_titulo": 2,
+     "a_conferir_com_contexto": []
+    },
+    "X (API, xquik)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "X (busca avançada no navegador)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0
+    },
+    "Imprensa (Google Notícias, 10 primeiros)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "veiculos_confirmados": []
+    }
+   },
+   "confirmadas_total": 0,
+   "a_conferir_total": 0
+  },
+  "fabiola-oliveira": {
+   "nome": "Fabíola Oliveira",
+   "fontes": {
+    "YouTube (busca por nome)": {
+     "lidos": 93,
+     "descricoes_lidas": 0,
+     "confirmadas_lista": [],
+     "confirmadas": 0,
+     "a_conferir": 4,
+     "sem_nome_no_titulo": 89,
+     "a_conferir_com_contexto": [
+      {
+       "canal": "canal pequeno C054",
+       "titulo": "",
+       "publicado_em": "2026-07-28",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C060",
+       "titulo": "",
+       "publicado_em": "2026-08-08",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C061",
+       "titulo": "",
+       "publicado_em": "2026-08-10",
+       "url": ""
+      },
+      {
+       "canal": "canal pequeno C064",
+       "titulo": "",
+       "publicado_em": "2026-08-14",
+       "url": ""
+      }
+     ]
+    },
+    "X (API, xquik)": {
+     "lidos": 1,
+     "confirmadas": 0,
+     "a_conferir": 1
+    },
+    "X (busca avançada no navegador)": {
+     "lidos": 2,
+     "confirmadas": 0,
+     "a_conferir": 1
+    },
+    "Imprensa (Google Notícias, 10 primeiros)": {
+     "lidos": 9,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "veiculos_confirmados": []
+    }
+   },
+   "confirmadas_total": 0,
+   "a_conferir_total": 6
+  }
+ }
+}

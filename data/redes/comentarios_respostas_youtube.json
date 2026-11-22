@@ -1,0 +1,16 @@
+{
+ "gerado_em": "2026-11-22T23:09:13Z",
+ "metodo": "- Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),\n  formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.\n- Respostas: quem responde a quem nos comentários do YouTube (o único com respostas lidas); autores SEMPRE como código\n  (A0001…), nunca nome.\nLê o privado (INFL_INTERNO_DIR, data/comentarios/<rede>.csv); grava no público só palavras, códigos e contagens:\ndata/redes/comentarios_palavras_<rede>.json/.gexf, comentarios_respostas_youtube.json/.gexf.",
+ "desenho": null,
+ "estatisticas_atlas": {},
+ "centralidades": [],
+ "comunidades_atlas": [],
+ "rede": "youtube",
+ "comentarios": 2098,
+ "respostas_lidas": 0,
+ "autores_na_rede": 0,
+ "respostas_entre_autores": 0,
+ "pares": 0,
+ "mais_respondidos": [],
+ "concentracao_top10_pct": null
+}

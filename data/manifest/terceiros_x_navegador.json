@@ -1,0 +1,65 @@
+{
+ "fonte": "Busca avançada do X (aba Mais recentes), no Chrome do responsável logado, via Claude in Chrome, 22/11/2026 20h01",
+ "janela": "núcleo (since:2026-07-23 until:2026-08-15)",
+ "custo_usd": 0,
+ "metodo": "Uma busca por nome entre aspas e uma pelo @ de cada influenciadora, excluindo a própria conta (-from:), rolando a página até não aparecerem posts novos. Amostra manual: o X não informa o total (⛔) e pode ocultar resultados.",
+ "consultas": [
+  {
+   "consulta": "@eumariamchami -from:...",
+   "ator": "mariam-chami",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "\"Mariam Chami\" -from:...",
+   "ator": "mariam-chami",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "@hyattomar_ -from:...",
+   "ator": "hyatt-omar",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "\"Hyatt Omar\" -from:...",
+   "ator": "hyatt-omar",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "@CarimaOrra -from:...",
+   "ator": "carima-orra",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "\"Carima Orra\" -from:...",
+   "ator": "carima-orra",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "@fabiola_oliver -from:...",
+   "ator": "fabiola-oliveira",
+   "lidos": 0,
+   "mencoes_confirmadas": 0,
+   "homonimos": 0
+  },
+  {
+   "consulta": "\"Fabíola Oliveira\" -from:...",
+   "ator": "fabiola-oliveira",
+   "lidos": 2,
+   "mencoes_confirmadas": 0,
+   "homonimos": 2
+  }
+ ],
+ "resultado": "Nenhuma menção às quatro no núcleo. Os 2 resultados de \"Fabíola Oliveira\" são homônimos (uma juíza citada em notícia; uma usuária com o mesmo nome). Texto e autor no repositório privado (data/terceiros/x_navegador.csv)."
+}

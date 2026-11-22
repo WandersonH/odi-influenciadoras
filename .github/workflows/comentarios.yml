@@ -53,6 +53,15 @@ jobs:
             while IFS= read -r l; do echo "::notice title=$r::$(echo "$l" | cut -c1-900)"; done < o.txt
           done
           rm -f o.txt; exit $rc
+      - name: Redes dos comentários e menções de terceiros (agregados para o público)
+        if: always() && steps.interno.outputs.dir != ''
+        continue-on-error: true
+        env:
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          pip install -q networkx numpy scipy
+          python scripts/build_rede_comentarios.py && python scripts/build_terceiros.py
       - name: Gravar (público)
         if: always()
         run: |

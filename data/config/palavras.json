@@ -1,16 +1,58 @@
 {
  "nota": "Famílias de palavras-chave. Rascunho: a validação pelo livro de códigos (kappa ≥ 0,70) ainda não foi feita. Termos são comparados sem acento e sem maiúsculas.",
  "familias_video": {
-  "nucleo": ["hamas", "desarmamento", "desarmar"],
-  "tema_amplo": ["gaza", "palestina", "cessar-fogo", "cessar fogo"],
-  "arabe": ["حماس", "نزع السلاح", "غزة", "فلسطين"],
-  "controle": ["receita", "maquiagem", "viagem"]
+  "nucleo": [
+   "hamas",
+   "desarmamento",
+   "desarmar"
+  ],
+  "tema_amplo": [
+   "gaza",
+   "palestina",
+   "cessar-fogo",
+   "cessar fogo"
+  ],
+  "arabe": [
+   "حماس",
+   "نزع السلاح",
+   "غزة",
+   "فلسطين"
+  ],
+  "controle": [
+   "receita",
+   "maquiagem",
+   "viagem"
+  ]
  },
  "terceiros": {
-  "mariam-chami": ["\"Mariam Chami\""],
-  "hyatt-omar": ["\"Hyatt Omar\""],
-  "carima-orra": ["\"Carima Orra\""],
-  "fabiola-oliveira": ["\"Fabíola Oliveira\""]
+  "mariam-chami": [
+   "\"Mariam Chami\""
+  ],
+  "hyatt-omar": [
+   "\"Hyatt Omar\""
+  ],
+  "carima-orra": [
+   "\"Carima Orra\""
+  ],
+  "fabiola-oliveira": [
+   "\"Fabíola Oliveira\"",
+   "\"Fabiola Oliver\""
+  ]
  },
- "terceiros_nota": "Cada resultado de terceiros exige revisão manual de homônimos antes de contar como menção. Termos com nome comum (ex.: Oliveira) geram ruído."
+ "terceiros_nota": "Cada resultado de terceiros exige revisão manual de homônimos antes de contar como menção. Termos com nome comum (ex.: Oliveira) geram ruído.",
+ "contexto_homonimos": [
+  "isla",
+  "islam",
+  "muculman",
+  "hijab",
+  "revertida",
+  "palestin",
+  "arabe",
+  "religiao",
+  "mesquita",
+  "alcorao",
+  "allah",
+  "influenciadora"
+ ],
+ "contexto_nota": "Regra de homônimos do plano (seção 5): uma menção só conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto. O resto fica 'a conferir' e fora da contagem."
 }

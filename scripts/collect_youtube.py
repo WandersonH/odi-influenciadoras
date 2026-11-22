@@ -30,7 +30,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 API = "https://www.googleapis.com/youtube/v3/"
 CUSTO = {"channels.list": 1, "playlistItems.list": 1, "videos.list": 1, "search.list": 100}
 CAMPOS_VIDEOS = [
-    "video_id", "ator_id", "canal", "publicado_em", "janela", "visualizacoes",
+    "video_id", "ator_id", "canal", "titulo", "publicado_em", "janela", "visualizacoes",
     "curtidas", "comentarios", "url", "toca_nucleo", "toca_tema_amplo",
     "toca_arabe", "toca_controle", "coletado_em",
 ]
@@ -225,7 +225,7 @@ def main():
             flags = {f: any(normalizar(k) in texto for k in termos)
                      for f, termos in palavras["familias_video"].items()}
             linhas_videos.append({
-                "video_id": u["video_id"], "ator_id": ator["id"], "canal": canal["titulo"],
+                "video_id": u["video_id"], "ator_id": ator["id"], "canal": canal["titulo"], "titulo": s["titulo"],
                 "publicado_em": u["publicado_em"], "janela": janela,
                 "visualizacoes": s["visualizacoes"], "curtidas": s["curtidas"],
                 "comentarios": s["comentarios"],

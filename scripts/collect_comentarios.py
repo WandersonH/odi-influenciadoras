@@ -45,7 +45,7 @@ FONTES = {"youtube": ("data/youtube/videos.csv", "video_id"), "instagram": ("dat
           "tiktok": ("data/tiktok/posts.csv", "post_id")}
 COD = {"instagram": re.compile(r"instagram\.com/(?:[\w.]+/)?(?:p|reel|reels|tv)/([\w-]+)"), "tiktok": re.compile(r"/video/(\d+)")}
 TEMAS_COMENTARIO = ("acordo_hamas", "gaza_palestina", "israel_guerra", "islamofobia_preconceito")
-CAMPOS = ["comment_id", "rede", "ator_id", "post_id", "autor", "texto", "curtidas", "publicado_em", "coletado_em"]
+CAMPOS = ["comment_id", "parent_id", "rede", "ator_id", "post_id", "autor", "texto", "curtidas", "publicado_em", "coletado_em"]
 
 
 def ler(p: Path) -> list[dict]:
@@ -62,26 +62,59 @@ def num(v):
         return None
 
 
+def _get_yt(rota, q):
+    with urllib.request.urlopen(f"https://www.googleapis.com/youtube/v3/{rota}?" + urllib.parse.urlencode(q), timeout=60) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
 def youtube(posts, chave, max_paginas=40):
+    """Comentários de primeiro nível (commentThreads.list) e TODAS as respostas (comments.list com parentId quando a
+    conversa tem mais respostas do que as que vêm junto), como no coletor completo do ODI Atlas."""
     out, chamadas, erros = [], 0, []
     for p in posts:
         token = None
         for _ in range(max_paginas):
-            q = {"part": "snippet", "videoId": p["post_id"], "maxResults": 100, "order": "time", "textFormat": "plainText", "key": chave}
+            q = {"part": "snippet,replies", "videoId": p["post_id"], "maxResults": 100, "order": "time", "textFormat": "plainText", "key": chave}
             if token:
                 q["pageToken"] = token
             try:
-                with urllib.request.urlopen("https://www.googleapis.com/youtube/v3/commentThreads?" + urllib.parse.urlencode(q), timeout=60) as r:
-                    d = json.loads(r.read().decode("utf-8"))
+                d = _get_yt("commentThreads", q)
             except urllib.error.HTTPError as e:
                 erros.append(f"{p['post_id']}: HTTP {e.code}")
                 break
             chamadas += 1
             for it in d.get("items", []):
                 s = it["snippet"]["topLevelComment"]["snippet"]
-                out.append({"comment_id": it["id"], "post_id": p["post_id"], "autor": s.get("authorDisplayName", ""),
+                out.append({"comment_id": it["id"], "parent_id": "", "post_id": p["post_id"], "autor": s.get("authorDisplayName", ""),
                             "texto": " ".join(str(s.get("textOriginal") or s.get("textDisplay") or "").split()),
                             "curtidas": s.get("likeCount", 0), "publicado_em": s.get("publishedAt", "")})
+                total_resp = it["snippet"].get("totalReplyCount", 0)
+                vindas = (it.get("replies") or {}).get("comments", [])
+                if total_resp and len(vindas) >= total_resp:
+                    respostas = vindas
+                elif total_resp:
+                    respostas, tk = [], None
+                    for _ in range(20):
+                        qq = {"part": "snippet", "parentId": it["id"], "maxResults": 100, "textFormat": "plainText", "key": chave}
+                        if tk:
+                            qq["pageToken"] = tk
+                        try:
+                            dd = _get_yt("comments", qq)
+                        except urllib.error.HTTPError as e:
+                            erros.append(f"{it['id']}: respostas HTTP {e.code}")
+                            break
+                        chamadas += 1
+                        respostas += dd.get("items", [])
+                        tk = dd.get("nextPageToken")
+                        if not tk:
+                            break
+                else:
+                    respostas = []
+                for rp in respostas:
+                    rs = rp["snippet"]
+                    out.append({"comment_id": rp["id"], "parent_id": it["id"], "post_id": p["post_id"], "autor": rs.get("authorDisplayName", ""),
+                                "texto": " ".join(str(rs.get("textOriginal") or rs.get("textDisplay") or "").split()),
+                                "curtidas": rs.get("likeCount", 0), "publicado_em": rs.get("publishedAt", "")})
             token = d.get("nextPageToken")
             if not token:
                 break
@@ -191,11 +224,17 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
                          "cobertura": "⛔ universo não informado" if p["universo"] is None else "completa" if len(cs) >= p["universo"] else "amostra",
                          "temas": dict(tem)})
     por_infl = {}
+    todos_atores = [x["id"] for x in json.loads((raiz / "data/config/atores.json").read_text(encoding="utf-8"))["atores"]]
+    for aid in todos_atores:
+        if aid not in set(dono.values()):
+            por_infl[aid] = {"publicacoes": 0, "universo": 0, "lidos": 0, "comentaristas_distintos": 0, "temas": {}, "nuvem": [],
+                             "nota": f"sem publicações no núcleo nesta rede"}
     for aid in sorted(set(dono.values())):
         cs = [c for c in todos if c["ator_id"] == aid]
         ps = [p for p in por_post if p["ator_id"] == aid]
         uni = [p["universo"] for p in ps]
         por_infl[aid] = {"publicacoes": len(ps), "universo": None if any(u is None for u in uni) else sum(uni), "lidos": len(cs),
+                         "respostas_lidas": sum(1 for c in cs if c.get("parent_id")),
                          "comentaristas_distintos": len({c["autor"].lower() for c in cs if c["autor"]}),
                          "temas": dict(Counter(k for c in cs for k in temas_de(c["texto"]))),
                          "nuvem": tx.nuvem([c["texto"] for c in cs], set(), top=40)}

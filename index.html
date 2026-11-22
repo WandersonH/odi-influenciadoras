@@ -104,6 +104,7 @@
     <p>Comunidades por Modularity (Louvain, resolução 1,0, semente 42), polarização pelo índice E-I de Krackhardt e Stern. Download em GEXF, GraphML e NodeXL, como nos casos do ODI Atlas.</p></div>
   <div class="card" id="p8Circ"></div>
   <div class="card" id="p8Corpo"></div>
+  <div class="card" id="p8Coment"></div>
 </section>
 
 <section class="panel" id="corpus" aria-label="Corpus">
@@ -209,12 +210,13 @@ async function dizem(rede) {
       <p class="inf-nota">"⛔ não informado" quer dizer que a plataforma não entregou o número, não que seja zero. Interação mediana: (curtidas + comentários + compartilhamentos) ÷ visualizações, só nas publicações com visualizações. ${DZ.rede === "youtube" ? "No YouTube o acervo ainda não guarda título nem descrição: os temas vêm só da fala transcrita (vídeos do núcleo)." : ""}</p></div>
     <div class="card"><div class="eyebrow">Filtro</div><h2 class="tk-h2">Tema</h2>
       <div class="inf-chips" id="dzChips"><button class="inf-chip ${!DZ.tema ? "on" : ""}" data-t="">Todos os temas</button>${temas.map(t => `<button class="inf-chip ${DZ.tema === t ? "on" : ""}" data-t="${t}">${esc(TEMA[t] || t)} · ${n(tot(t))}</button>`).join("")}</div>
-      <p class="inf-nota">O filtro vale para as linhas do tempo e as listas; nuvens e tabela de temas são sempre do conjunto inteiro.</p></div>
+      <p class="inf-nota">${DZ.tema ? `Filtro ativo: <b>${esc(TEMA[DZ.tema] || DZ.tema)}</b>. A tabela de temas mostra só esse tema, as linhas do tempo e as listas só as publicações dele, e abaixo aparecem todas as publicações com esse tema. As nuvens continuam sendo do conjunto inteiro.` : "Escolha um tema para filtrar tabela, linhas do tempo e listas."}</p></div>
+    ${DZ.tema ? `<div class="card"><div class="eyebrow">Todas as publicações com o tema · ${esc(TEMA[DZ.tema] || DZ.tema)}</div><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Janela</th><th>Legenda</th><th class="inf-num">Audiência</th><th></th></tr></thead><tbody>${ids.flatMap(a => D.atores[a].publicacoes.filter(passa).map(p => ({...p, a}))).sort((x, y) => x.publicado_em.localeCompare(y.publicado_em)).map(p => `<tr><td>${dataBR(p.publicado_em)}</td><td>${esc(D.atores[p.a].nome)}</td><td>${p.janela === "nucleo" ? "núcleo" : "base"}</td><td style="max-width:440px">${esc((p.texto || "(sem legenda; tema achado na fala)").slice(0, 220))}</td><td class="inf-num">${n(aud(p))}</td><td><a href="${esc(p.url)}" target="_blank" rel="noopener">abrir</a></td></tr>`).join("") || '<tr><td colspan="6">nenhuma</td></tr>'}</tbody></table></div></div>` : ""}
     <div class="card"><div class="eyebrow">Linha do tempo · semana a semana</div><h2 class="tk-h2">Quando cada uma publica${DZ.tema ? " sobre " + esc((TEMA[DZ.tema] || DZ.tema).toLowerCase()) : ""}</h2><div class="inf-tl">${svg}</div>
       <p class="inf-nota">Cada bolha é uma semana; a área cresce com o número de publicações (maior semana: ${n(maxN)}). Faixa azul: núcleo; linha vermelha: 31/07, anúncio do Hamas.</p></div>
     <div class="card"><div class="eyebrow">Linha do tempo · cada publicação</div><h2 class="tk-h2">As publicações no tempo, pelo tamanho da audiência</h2><div class="inf-tl">${svg2}</div>
       <p class="inf-nota">Cada bolha é uma publicação; a área cresce com as visualizações (ou curtidas, quando não há visualizações). A maior tem ${n(maxA)}. O clique abre a publicação; a posição vertical só evita sobreposição.</p></div>
-    <div class="card"><div class="eyebrow">Temas</div><h2 class="tk-h2">Publicações por tema e por influenciadora</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Tema</th>${ids.map(a => `<th style="color:${cor[a]}">${esc(D.atores[a].nome)}</th>`).join("")}</tr></thead><tbody>${temas.map(t => `<tr><td>${esc(TEMA[t] || t)}</td>${ids.map(a => { const q = D.atores[a].por_tema[t] || 0; return `<td>${n(q)} <small>${pct(q, D.atores[a].total_publicacoes)}</small></td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="card"><div class="eyebrow">Temas</div><h2 class="tk-h2">Publicações por tema e por influenciadora</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Tema</th>${ids.map(a => `<th style="color:${cor[a]}">${esc(D.atores[a].nome)}</th>`).join("")}</tr></thead><tbody>${temas.filter(t => !DZ.tema || t === DZ.tema).map(t => `<tr ${t === DZ.tema ? 'style="background:#f2f7fd;font-weight:700"' : ""}><td>${esc(TEMA[t] || t)}</td>${ids.map(a => { const q = D.atores[a].por_tema[t] || 0; return `<td>${n(q)} <small>${pct(q, D.atores[a].total_publicacoes)}</small></td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
       <p class="inf-nota">Percentual sobre as publicações da influenciadora nesta rede; a soma passa de 100% porque uma publicação pode ter vários temas. Dicionário ${esc(D.dicionario.versao)}: ${n(cd.com_tema)} de ${n(cd.publicacoes)} publicações (${n(cd.pct_com_tema)}%) receberam ao menos um tema; ${n(cd.com_fala_transcrita)} com fala transcrita.</p></div>
     <div class="sectionlabel"><h2>Palavras e hashtags</h2><p>Nº de publicações em que o termo aparece (legenda e fala)</p></div>
     <div class="inf-duas">${ids.map(a => `<div class="card"><div class="eyebrow" style="color:${cor[a]}">${esc(D.atores[a].nome)}</div>${nuvem(a)}${tags(a)}</div>`).join("")}</div>
@@ -239,11 +241,11 @@ async function dizem(rede) {
   const nomes = Object.fromEntries((atores?.atores || []).map(a => [a.id, a.nome]));
 
   // Perfis
-  const redes = ["youtube", "instagram", "tiktok"];
+  const redes = ["youtube", "instagram", "tiktok", "x"];
   $("p1Atores").innerHTML = (atores?.atores || []).map(a => `<div class="card"><h3>${esc(a.nome)}</h3>${redes.map(r => {
     const p = a.perfis[r] || {};
     const sit = p.confirmado ? '<span class="inf-sit ok">confirmado</span>' : p.perfil ? '<span class="inf-sit pend">candidato a conferir</span>' : '<span class="inf-sit bloq">⛔ não informado</span>';
-    return `<div class="inf-perfil"><span><strong>${r === "youtube" ? "YouTube" : r === "instagram" ? "Instagram" : "TikTok"}</strong> ${p.confirmado ? esc(p.perfil) : ""}</span>${sit}</div>`;
+    return `<div class="inf-perfil"><span><strong>${{youtube: "YouTube", instagram: "Instagram", tiktok: "TikTok", x: "X"}[r]}</strong> ${p.confirmado ? esc(p.perfil.startsWith("@") ? p.perfil : "@" + p.perfil) : ""}</span>${sit}</div>`;
   }).join("")}</div>`).join("") || vazio("⛔ Configuração de atores não encontrada.");
 
   // Panorama
@@ -252,7 +254,7 @@ async function dizem(rede) {
     $("p1Kpis").innerHTML = "";
     $("p1Tabela").outerHTML = vazio("⛔ Nenhuma coleta executada ainda. A primeira coleta (YouTube, gratuita) roda quando o segredo YOUTUBE_API_KEY estiver cadastrado e o workflow for disparado.");
   } else {
-    $("chipColeta").textContent = "● Última coleta YouTube: " + dataBR(M.gerado_em);
+    $("chipColeta").textContent = "● Coletas de 22/11/2026 · ver saúde no caderno 10";
     $("p1Data").textContent = "LEITURA DE " + dataBR(M.gerado_em);
     const ok = M.atores.filter(a => a.canal);
     const nucleo = videos.filter(v => v.janela === "nucleo").concat(apifyOk(MI) ? postsIG.filter(v => v.janela === "nucleo") : [], apifyOk(MT) ? postsTT.filter(v => v.janela === "nucleo") : [], apifyOk(MX) ? postsX.filter(v => v.janela === "nucleo") : []);
@@ -268,7 +270,7 @@ async function dizem(rede) {
     $("p1Tabela").innerHTML = `<thead><tr><th>Influenciadora</th><th>Rede</th><th class="inf-num">Universo</th><th class="inf-num">Lidos base</th><th class="inf-num">Lidos núcleo</th><th>Cobertura</th></tr></thead><tbody>${M.atores.map(a => a.canal
       ? `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td class="inf-num">${a.universo_canal == null ? "⛔" : n(a.universo_canal)}</td><td class="inf-num">${n(a.lidos_base)}</td><td class="inf-num">${n(a.lidos_nucleo)}</td><td>${a.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`
       : `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td colspan="4">⛔ ${esc(a.status || "")}</td></tr>`).join("")}${
-      [["Instagram", MI], ["TikTok", MT], ["X", MX]].map(([rede, m]) => apifyOk(m) ? m.perfis.map(p => `<tr><td>${esc(nomes[p.ator] || p.ator)}</td><td>${rede}</td><td class="inf-num">${p.universo == null ? "⛔" : n(p.universo)}</td><td class="inf-num">${n(p.na_base)}</td><td class="inf-num">${n(p.no_nucleo)}</td><td>${p.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`).join("") : `<tr><td colspan="2">${rede}</td><td colspan="4">⛔ posts do recorte ainda não coletados</td></tr>`).join("")}</tbody>`;
+      [["Instagram", MI], ["TikTok", MT], ["X", MX]].map(([rede, m]) => apifyOk(m) ? m.perfis.map(p => `<tr><td>${esc(nomes[p.ator] || p.ator)}</td><td>${rede}</td><td class="inf-num">${p.universo == null ? "⛔" : n(p.universo)}</td><td class="inf-num">${n(p.na_base)}</td><td class="inf-num">${n(p.no_nucleo)}</td><td>${p.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : p.cobertura.startsWith("nenhuma") ? '<span class="inf-sit pend">sem posts no período (conta parada)</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`).join("") : `<tr><td colspan="2">${rede}</td><td colspan="4">⛔ posts do recorte ainda não coletados</td></tr>`).join("")}</tbody>`;
   }
 
   dizem();
@@ -324,7 +326,7 @@ async function dizem(rede) {
       const top = [...ps].sort((a, b) => b.indice - a.indice).slice(0, 10);
       $("p4Corpo").innerHTML = `<div class="eyebrow">Índice por influenciadora e rede · núcleo contra a linha de base</div><h2 class="tk-h2">Resumo</h2>
         <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Rede</th><th>Interações contadas</th><th class="inf-num">Base (publicações)</th><th class="inf-num">Mediana da base</th><th class="inf-num">Núcleo (publicações)</th><th class="inf-num">Índice mediano no núcleo</th><th class="inf-num">Acima do habitual</th></tr></thead><tbody>${E.grupos.map(g => `<tr><td>${esc(g.nome)}</td><td>${REDES[g.rede]}</td><td>${g.componentes.join(" + ")}</td><td class="inf-num">${n(g.base_publicacoes)}</td><td class="inf-num">${g.base_mediana_interacoes != null ? n(Math.round(g.base_mediana_interacoes)) : "⛔"}</td><td class="inf-num">${n(g.nucleo_publicacoes)}</td><td class="inf-num">${g.nucleo_indice_mediano != null ? g.nucleo_indice_mediano.toLocaleString("pt-BR") + "×" : "⛔"}</td><td class="inf-num">${g.nucleo_com_indice ? n(g.nucleo_acima_de_1) + " de " + n(g.nucleo_com_indice) : "—"}</td></tr>`).join("")}</tbody></table></div>
-        <p class="inf-nota">⛔ = linha de base com menos de 3 publicações com interação: o índice não é calculado (nunca estimado). Cada índice compara a publicação só com a própria base da influenciadora naquela rede; não compare índices entre redes, porque cada rede informa interações diferentes (o Instagram, aqui, só curtidas).</p>
+        <p class="inf-nota"><b>Fora desta tabela:</b> X (as quatro contas não publicaram no recorte: último post de Mariam em 2016, Carima em 2020, Fabíola em 06/2025, Hyatt em 10/2025) e YouTube de Hyatt, Carima e Fabíola (nenhum vídeo entre 01/06 e 14/08). ⛔ = linha de base com menos de 3 publicações com interação: o índice não é calculado (nunca estimado). Cada índice compara a publicação só com a própria base da influenciadora naquela rede; não compare índices entre redes, porque cada rede informa interações diferentes (o Instagram, aqui, só curtidas).</p>
         <h2 class="tk-h2" style="margin-top:22px">Cada publicação do núcleo</h2>${leg}${redesE.map(graf).join("")}
         <p class="inf-nota">Eixo vertical em escala logarítmica; linha tracejada = 1× (igual ao habitual). Clique abre a publicação.</p>
         <h2 class="tk-h2" style="margin-top:22px">As 10 publicações mais acima do habitual</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th class="inf-num">Índice</th><th class="inf-num">Interações</th><th>Legenda</th><th></th></tr></thead><tbody>${top.map(p => `<tr><td>${dataBR(p.publicado_em)}</td><td>${esc(nomes[p.ator_id])}</td><td>${REDES[p.rede]}</td><td class="inf-num">${p.indice.toLocaleString("pt-BR")}×</td><td class="inf-num">${n(p.interacoes)}</td><td style="max-width:380px">${esc(p.texto || "—")}</td><td><a href="${esc(p.url)}" target="_blank" rel="noopener">abrir</a></td></tr>`).join("")}</tbody></table></div>
@@ -356,6 +358,9 @@ async function dizem(rede) {
       const d31 = rows.find(r => r.timestamp_utc.startsWith("2026-07-31")) || {};
       blocos.push(`<h2 class="tk-h2" style="margin-top:18px">${titulo}</h2>${grafico(rows, termos)}<p class="inf-nota">Em 31/07: ${termos.map(t => `${esc(t)} ${d31[t] ?? "—"}`).join(" · ")}. Pico do período: ${termos.map(t => { const b = rows.reduce((a, r) => (+r[t] > +a[t] ? r : a), rows[0]); return `${esc(t)} ${b[t]} em ${dataBR(b.timestamp_utc)}`; }).join(" · ")}.</p>`);
     }
+    const uf = await serieCSV("tema_topicos__2026-07-23_2026-08-14__uf.csv");
+    if (uf && uf.length) { const tt = Object.keys(uf[0]).filter(k => !["geo_code", "geo_nome"].includes(k));
+      blocos.push(`<h2 class="tk-h2" style="margin-top:18px">Por estado · núcleo (23/07 a 14/08) · tópicos</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Estado</th>${tt.map(t => `<th class="inf-num">${esc(t)}</th>`).join("")}</tr></thead><tbody>${[...uf].sort((a, b) => (+b[tt[0]] || 0) - (+a[tt[0]] || 0)).map(r => `<tr><td>${esc(r.geo_nome)}</td>${tt.map(t => `<td class="inf-num">${r[t] || "0"}</td>`).join("")}</tr>`).join("")}</tbody></table></div><p class="inf-nota">Índice relativo entre os estados (100 = estado com maior proporção de buscas sobre o tópico); estados pequenos podem chegar a 100 com poucas buscas.</p>`); }
     $("p7Corpo").innerHTML = `<div class="eyebrow">Google Trends · Brasil · 01/06 a 14/08/2026 · coleta de ${dataBR(MTr.run_started_utc)}</div>${blocos.join("")}<p class="inf-nota">Índice de 0 a 100 relativo a cada consulta: não é volume de buscas e não se compara entre gráficos. Zero significa volume abaixo do mínimo que o Trends mostra.</p>`;
   }
 
@@ -418,6 +423,23 @@ async function dizem(rede) {
     }
   }
 
+  // Caderno 08: redes dos comentários
+  {
+    const RP = {};
+    for (const r of ["todas", "youtube", "instagram", "tiktok"]) RP[r] = await json(`data/redes/comentarios_palavras_${r}.json`);
+    const RR = await json("data/redes/comentarios_respostas_youtube.json");
+    const paleta = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b", "#6b4fa0", "#8a5a0b", "#2a8a8a", "#c4302b"];
+    const blocoP = (r, R) => { if (!R || !R.desenho) return ""; const mx = Math.max(1, ...R.desenho.nos.map(x => x.n));
+      return `<details ${r === "todas" ? "open" : ""} style="margin:10px 0"><summary style="font-size:13px"><b>${r === "todas" ? "Todas as redes" : REDES[r]}</b> · ${n(R.comentarios)} comentários · ${n(R.estatisticas_atlas.nos)} palavras · ${n(R.estatisticas_atlas.arestas)} ligações · Q ${R.estatisticas_atlas.modularidade_q ?? "—"}</summary>
+        ${desenhaSim({nos: R.desenho.nos.map(x => ({id: x.rotulo, freq: x.n, grupo: x.grupo, x: x.x, y: x.y, especifica_de: null})), arestas: R.desenho.arestas.map(([a, b, w]) => [a, b, w])}, {})}
+        ${tabEstat(R)}<p class="inf-nota"><a href="data/redes/comentarios_palavras_${r}.gexf" download>GEXF (Gephi)</a></p></details>`; };
+    $("p8Coment").innerHTML = `<div class="eyebrow">Redes dos comentários · núcleo · só palavras e códigos no público</div><h2 class="tk-h2">Que temas a audiência traz (palavras que aparecem juntas no mesmo comentário)</h2>
+      ${["todas", "youtube", "instagram", "tiktok"].map(r => blocoP(r, RP[r])).join("") || vazio("⛔ Redes de comentários ainda não geradas.")}
+      <h2 class="tk-h2" style="margin-top:20px">Quem responde a quem (YouTube)</h2>
+      ${RR && RR.autores_na_rede ? `<p class="inf-nota" style="margin-top:0">${n(RR.autores_na_rede)} autores (código A0001…), ${n(RR.respostas_entre_autores)} respostas entre autores; os 10 mais respondidos concentram ${RR.concentracao_top10_pct}% das respostas.</p>${tabEstat(RR)}` : vazio("⛔ Rede de respostas ainda sem dados: as respostas dos comentários do YouTube entram na próxima coleta de comentários.")}
+      <p class="inf-nota">${esc((RP.todas || {}).metodo || "")}</p>`;
+  }
+
   // Caderno 10: método
   {
     const MT10 = await json("data/config/metodologia.json");
@@ -446,7 +468,7 @@ async function dizem(rede) {
       if (!C) return `<h2 class="tk-h2" style="margin-top:18px">${REDES[r]}</h2>${vazio("⛔ Comentários ainda não coletados nesta rede.")}`;
       const pi = C.por_influenciadora;
       return `<h2 class="tk-h2" style="margin-top:18px">${REDES[r]} <small style="font:400 12px sans-serif;color:#6b7a8c">· coleta de ${dataBR(C.gerado_em)}</small></h2>
-        <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Publicações</th><th class="inf-num">Universo</th><th class="inf-num">Lidos</th><th class="inf-num">Comentaristas</th>${Object.values(temaRot).map(t => `<th class="inf-num">${t}</th>`).join("")}</tr></thead><tbody>${Object.entries(pi).map(([a, v]) => `<tr><td>${esc(nomes[a] || a)}</td><td class="inf-num">${n(v.publicacoes)}</td><td class="inf-num">${v.universo == null ? "⛔" : n(v.universo)}</td><td class="inf-num">${n(v.lidos)}</td><td class="inf-num">${n(v.comentaristas_distintos)}</td>${Object.keys(temaRot).map(k => `<td class="inf-num">${n(v.temas[k] || 0)} <small>${pct(v.temas[k] || 0, v.lidos)}</small></td>`).join("")}</tr>`).join("")}</tbody></table></div>
+        <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Publicações</th><th class="inf-num">Universo</th><th class="inf-num">Lidos</th><th class="inf-num">Comentaristas</th>${Object.values(temaRot).map(t => `<th class="inf-num">${t}</th>`).join("")}</tr></thead><tbody>${Object.entries(pi).map(([a, v]) => `<tr><td>${esc(nomes[a] || a)}</td>${v.nota ? `<td colspan="${4 + Object.keys(temaRot).length}" style="color:#6b7a8c">${esc(v.nota)}</td>` : `<td class="inf-num">${n(v.publicacoes)}</td><td class="inf-num">${v.universo == null ? "⛔" : n(v.universo)}</td><td class="inf-num">${n(v.lidos)}${v.respostas_lidas ? `<br><small>${n(v.respostas_lidas)} respostas</small>` : ""}</td><td class="inf-num">${n(v.comentaristas_distintos)}</td>${Object.keys(temaRot).map(k => `<td class="inf-num">${n(v.temas[k] || 0)} <small>${pct(v.temas[k] || 0, v.lidos)}</small></td>`).join("")}`}</tr>`).join("")}</tbody></table></div>
         <div class="inf-duas">${Object.entries(pi).filter(([, v]) => v.nuvem && v.nuvem.length).map(([a, v], i) => { const mx = v.nuvem[0][1]; return `<div class="card"><div class="eyebrow" style="color:${COR[i % COR.length]}">${esc(nomes[a] || a)} · palavras dos comentários</div><div class="inf-cloud" style="--c:${COR[i % COR.length]}">${v.nuvem.slice(0, 35).map(([t, q]) => `<span style="font-size:${(11 + 13 * Math.sqrt(q / mx)).toFixed(1)}px" title="${n(q)} comentários">${esc(t)}</span>`).join(" ")}</div></div>`; }).join("")}</div>
         ${C.erros && C.erros.length ? `<p class="inf-nota">Erros: ${esc(C.erros.slice(0, 3).join(" · "))}</p>` : ""}`;
     }).join("");
@@ -527,22 +549,35 @@ async function dizem(rede) {
 
   // Caderno 06: só contagens
   const T3X = M3X?.influenciadoras || [];
-  const blocoX = !M3X ? vazio("⛔ Menções no X ainda não coletadas.") : `<div class="eyebrow">X · núcleo · coleta de ${dataBR(M3X.gerado_em)}</div><h2 class="tk-h2">Quem citou o nome ou o @ delas no X</h2>
+  const blocoX = !M3X ? vazio("⛔ Menções no X ainda não coletadas.") : `<div class="eyebrow">X · núcleo · coleta de ${dataBR(M3X.gerado_em)}</div><h2 class="tk-h2" style="font-size:16px">Menções lidas pela API no núcleo</h2>
     <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Menções lidas</th><th class="inf-num">Autores distintos</th><th>Pelo @</th><th>Só pelo nome</th><th class="inf-num">Visualizações somadas</th><th>Universo</th><th>Pico</th><th>Revisão de homônimos</th></tr></thead><tbody>${T3X.map(r => { const dias = Object.entries(r.por_dia || {}); const pico = dias.sort((a, b) => b[1] - a[1])[0];
       return `<tr><td>${esc(nomes[r.ator] || r.ator)}</td><td class="inf-num">${n(r.lidos)}</td><td class="inf-num">${n(r.autores_distintos)}</td><td>${n((r.por_tipo.arroba || 0) + (r.por_tipo["arroba e nome"] || 0))}</td><td>${n(r.por_tipo.nome || 0)}</td><td class="inf-num">${n(r.visualizacoes_somadas)}</td><td>⛔</td><td>${pico ? dataBR(pico[0] + "T12:00:00Z") + " (" + n(pico[1]) + ")" : "—"}</td><td><span class="inf-sit ${/pendente/.test(r.revisao_homonimos) ? "pend" : "ok"}">${esc(r.revisao_homonimos)}</span></td></tr>`; }).join("")}</tbody></table></div>
     <p class="inf-nota">Busca do próprio X: nome entre aspas ou @ da influenciadora, sem a própria conta e sem reposts, de 23/07 a 14/08/2026. O X não informa quantos posts existem para a busca (universo ⛔). Texto e autor ficam só no repositório privado; aqui, só contagens.</p>`;
   const T = M?.terceiros || [];
-  $("p6Corpo").innerHTML = blocoX + `<h2 class="tk-h2" style="margin-top:24px">YouTube</h2>` + (T.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Termo</th><th class="inf-num">Vídeos lidos</th><th>Universo</th><th>Revisão de homônimos</th></tr></thead><tbody>${T.map(t => `<tr><td>${esc(nomes[t.ator] || t.ator)}</td><td>${esc(t.termo)}</td><td class="inf-num">${n(t.lidos)}</td><td>⛔ não informado pela API</td><td><span class="inf-sit pend">${esc(t.revisao_homonimos)}</span></td></tr>`).join("")}</tbody></table></div><p class="inf-nota">Contagens antes da revisão de homônimos: ainda não são menções confirmadas.</p>` : vazio("⛔ Menções de terceiros ainda não coletadas."));
+  const T6 = await json("data/terceiros/resumo.json"), XN = await json("data/manifest/terceiros_x_navegador.json");
+  const bloco6 = !T6 ? "" : `<div class="eyebrow">Todas as fontes · núcleo (23/07 a 14/08) · regra de homônimos do plano</div><h2 class="tk-h2">Quem falou delas, depois da regra de homônimos</h2>
+    <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Fonte</th><th class="inf-num">Itens lidos</th><th class="inf-num">Menções confirmadas</th><th class="inf-num">A conferir</th></tr></thead><tbody>${Object.values(T6.por_influenciadora).map(v => Object.entries(v.fontes).map(([f, x], i) => `<tr><td>${i ? "" : `<b>${esc(v.nome)}</b>`}</td><td>${esc(f)}</td><td class="inf-num">${n(x.lidos)}</td><td class="inf-num">${n(x.confirmadas)}</td><td class="inf-num">${n(x.a_conferir)}</td></tr>`).join("")).join("")}</tbody></table></div>
+    <p class="inf-nota">${esc(T6.regra)} Termos de contexto: ${esc(T6.contexto.join(", "))}. No YouTube a regra é aplicada ao título e à descrição de cada vídeo. Universo: ${esc(T6.universo)}.</p>
+    ${Object.values(T6.por_influenciadora).some(v => (v.fontes["YouTube (busca por nome)"].a_conferir_com_contexto || []).length) ? `<h2 class="tk-h2" style="margin-top:16px">Vídeos a conferir por uma pessoa</h2><p class="inf-nota" style="margin-top:0">A busca do YouTube achou o nome na descrição ou na fala, e o título traz termo de contexto (islã, muçulmana, islamofobia…). Precisam de leitura humana antes de contar.</p><div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Data</th><th>Canal</th><th>Vídeo</th></tr></thead><tbody>${Object.values(T6.por_influenciadora).flatMap(v => (v.fontes["YouTube (busca por nome)"].a_conferir_com_contexto || []).map(x => `<tr><td>${esc(v.nome)}</td><td>${dataBR(x.publicado_em + "T12:00:00Z")}</td><td>${esc(x.canal)}</td><td>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.titulo)}</a>` : "(canal pequeno: título e link só no privado)"}</td></tr>`)).join("")}</tbody></table></div>` : ""}`;
+  const blocoXN = !XN ? "" : `<h2 class="tk-h2" style="margin-top:24px">X pela busca avançada (navegador)</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Busca</th><th class="inf-num">Lidos</th><th class="inf-num">Confirmadas</th><th class="inf-num">Homônimos</th></tr></thead><tbody>${XN.consultas.map(c => `<tr><td>${esc(nomes[c.ator])} · ${esc(c.consulta.replace(" -from:...", ""))}</td><td class="inf-num">${n(c.lidos)}</td><td class="inf-num">${n(c.mencoes_confirmadas)}</td><td class="inf-num">${n(c.homonimos)}</td></tr>`).join("")}</tbody></table></div><p class="inf-nota">${esc(XN.metodo)} ${esc(XN.resultado)} Fonte: ${esc(XN.fonte)}.</p>`;
+  $("p6Corpo").innerHTML = bloco6 + blocoXN + `<h2 class="tk-h2" style="margin-top:24px">X pela API (xquik)</h2>` + blocoX + `<h2 class="tk-h2" style="margin-top:24px">YouTube: contagem bruta da busca</h2>` + (T.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Termo</th><th class="inf-num">Vídeos lidos</th><th>Universo</th><th>Revisão de homônimos</th></tr></thead><tbody>${T.map(t => `<tr><td>${esc(nomes[t.ator] || t.ator)}</td><td>${esc(t.termo)}</td><td class="inf-num">${n(t.lidos)}</td><td>⛔ não informado pela API</td><td><span class="inf-sit pend">${esc(t.revisao_homonimos)}</span></td></tr>`).join("")}</tbody></table></div><p class="inf-nota">Contagens antes da revisão de homônimos: ainda não são menções confirmadas.</p>` : vazio("⛔ Menções de terceiros ainda não coletadas."));
 
   // Caderno 10: saúde
   $("p10Saude").innerHTML = `<thead><tr><th>Fonte</th><th>Última execução</th><th>Situação</th></tr></thead><tbody>
     <tr><td>YouTube (API oficial)</td><td>${M ? dataBR(M.gerado_em) + " · run " + esc(M.run_id) : "—"}</td><td>${M ? (M.erros.length ? `<span class="inf-sit pend">${M.erros.length} erro(s)</span>` : '<span class="inf-sit ok">ok</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
     ${[["Instagram", MI], ["TikTok", MT], ["X", MX]].map(([f, m]) => `<tr><td>${f} (Apify)</td><td>${m ? dataBR(m.gerado_em) + " · run " + esc(m.run_id) + " · etapa " + esc(m.etapa) : "—"}</td><td>${apifyOk(m) ? '<span class="inf-sit ok">recorte coletado</span>' : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
-    <tr><td>Checagens (Fact Check Tools)</td><td id="saudeCheck">—</td><td>—</td></tr>
     <tr><td>Google Trends</td><td>${MTr ? dataBR(MTr.run_started_utc) : "—"}</td><td>${MTr ? (MTr.status === "ok" ? '<span class="inf-sit ok">ok</span>' : '<span class="inf-sit pend">parcial</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
     ${[["Transcrição Instagram", MtrI], ["Transcrição TikTok", MtrT], ["Transcrição YouTube", MtrY]].map(([f, m]) => `<tr><td>${f}</td><td>${m ? dataBR(m.gerado_em) + " · " + esc(m.modelo) : "—"}</td><td>${m ? (m.transcritos === m.universo_videos ? `<span class="inf-sit ok">${m.transcritos} de ${m.universo_videos}</span>` : `<span class="inf-sit ${m.transcritos ? "pend" : "bloq"}">${m.transcritos} de ${m.universo_videos}</span>`) : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
     <tr><td>Menções no X (Apify)</td><td>${M3X ? dataBR(M3X.gerado_em) : "—"}</td><td>${M3X ? (M3X.erros.length ? '<span class="inf-sit pend">com erro</span>' : '<span class="inf-sit ok">ok</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
-    ${["Imprensa (Google Notícias)", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;
+    ${await (async () => { const L = [];
+      const im = await json("data/manifest/imprensa_latest.json"); L.push(["Imprensa (Google Notícias)", im ? dataBR(im.gerado_em) : "—", im ? `${im.consultas.length} consultas` : null]);
+      for (const r of ["youtube", "instagram", "tiktok"]) { const c = await json(`data/comentarios/${r}_resumo.json`); L.push([`Comentários ${REDES[r]}`, c ? dataBR(c.gerado_em) : "—", c ? `${Object.values(c.por_influenciadora).reduce((a, v) => a + v.lidos, 0)} lidos` : null]); }
+      const ch = await json("data/manifest/checagens_latest.json"); L.push(["Checagens (Fact Check Tools)", ch ? dataBR(ch.gerado_em) : "—", ch ? `${ch.checagens_unicas} checagens · ${ch.status}` : null]);
+      const ci = await json("data/redes/circulacao_hamas.json"); L.push(["Rede de circulação (YouTube + imprensa)", ci ? dataBR(ci.gerado_em) : "—", ci ? `${ci.youtube.videos} vídeos · ${ci.imprensa.noticias} notícias` : null]);
+      const tn = await json("data/manifest/terceiros_x_navegador.json"); L.push(["Menções no X (navegador)", tn ? "22/11/2026" : "—", tn ? "8 buscas" : null]);
+      const tr = await json("data/terceiros/resumo.json"); L.push(["Terceiros com regra de homônimos", tr ? dataBR(tr.gerado_em) : "—", tr ? "ok" : null]);
+      return L.map(([f, d, st]) => `<tr><td>${f}</td><td>${d}</td><td>${st ? `<span class="inf-sit ok">${esc(st)}</span>` : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join(""); })()}
+    </tbody>`;
 })();
 </script>
 </body></html>
