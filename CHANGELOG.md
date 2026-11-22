@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: transcrições de Instagram e TikTok (run 45065517835) e tópicos do Trends (run 45066425369)
+
+**Transcrição** (Whisper small, sem custo): Instagram, 29 de 30 vídeos do núcleo (1 falha de áudio no download; 18 publicações sem vídeo ficaram fora); TikTok, 28 de 28. Nenhuma fala cita Hamas, desarmamento, Gaza, Israel, cessar-fogo, guerra ou genocídio. Menções a Palestina e Oriente Médio só fora do tema do acordo: Carima Orra (Instagram, 09/08) conta que o Instagram já derrubou o perfil dela "por conta das coisas que eu falava sobre a Palestina"; Mariam Chami (TikTok, 28/07) cita um prato palestino; Mariam (Instagram, 31/07) usa um vestido do Líbano; Fabíola Oliveira (TikTok, 27/07) fala de costumes do Oriente Médio. YouTube: 16 vídeos de Mariam sem transcrição (download bloqueado e sem legenda pela Apify).
+
+**Trends, tópicos.** Hamas (tópico, índice relativo à consulta): pico em 21/06 (100); 39 em 30/07, 67 em 31/07, 57 em 01/08. Faixa de Gaza: pico em 21/06 (42) e 27 em 31/07.
+
 ## 22/11/2026: primeira coleta do Trends (run 45066153210) e correção dos tópicos
 
 **Resultado** (`data/manifest/trends_latest.json`). Palavras do tema e nomes das influenciadoras: ok nos dois períodos. Tópicos: bloqueados, porque o Google classifica "Faixa de Gaza" como "Assunto" e a configuração esperava "Território". Na série do estudo (índice 0–100 relativo à consulta), Hamas teve pico em 21/06 (37) e ficou em 19 em 31/07; Gaza teve pico em 20/06 (100) e 22 em 31/07. Mariam Chami teve pico em 09/06 (100) e 0 em 31/07. Hyatt Omar, Carima Orra e Fabíola Oliveira ficaram em 0 o período todo (volume abaixo do mínimo do Trends).
