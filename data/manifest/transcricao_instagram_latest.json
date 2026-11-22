@@ -1,136 +1,22 @@
 {
  "rede": "instagram",
  "janela": "nucleo",
- "run_id": "45065082432",
- "gerado_em": "2026-11-22T20:14:34Z",
+ "run_id": "45065517835",
+ "gerado_em": "2026-11-22T20:26:21Z",
  "modelo": "small",
  "custo_usd": 0,
  "universo_videos": 30,
  "publicacoes_sem_video": 18,
- "transcritos": 0,
- "novos_nesta_execucao": 0,
+ "transcritos": 29,
+ "novos_nesta_execucao": 29,
  "falhas": [
-  {
-   "post_id": "DbJs95_PFUG",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbJtobdRy_T",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbMWx8psBP-",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbMdAixxZ1I",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbPG5QqRFAw",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbRYBIlv9RY",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbRj7uLRQrc",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbT5nlbxoQ1",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbWd7UaRHOX",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbWfTqIPvsX",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbZXZFWxv0Q",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Dbb2wn1sIRv",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
   {
    "post_id": "Dbb6xCOx3Q-",
    "motivo": "download: ERROR: Postprocessing: WARNING: unable to obtain file audio codec with ffprobe"
-  },
-  {
-   "post_id": "DbeSsn3RtkS",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Dbg6ndrRQMu",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbmFHJLzd3a",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DboeyxvzQqf",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Dbot2E6TnnX",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbvlOUwgDj_",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbwWM9kzW_r",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DbyzdPIzZYZ",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db03svjoN_p",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db1l6CpM21G",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db36X8lqyHi",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db9KEJDzlwS",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db9du_bsn0a",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db_s0DJMWcB",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "Db_2H9wKrSh",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DcBoj4SRk_2",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
-  },
-  {
-   "post_id": "DcCVAKmvL23",
-   "motivo": "open() got an unexpected keyword argument 'metadata_errors'"
   }
  ],
  "parou_por_tempo": false,
- "fontes": []
+ "fontes": [
+  "Whisper small (faster-whisper, CPU)"
+ ]
 }
