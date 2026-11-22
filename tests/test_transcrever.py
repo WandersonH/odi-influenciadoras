@@ -62,6 +62,22 @@ class TestTranscrever(unittest.TestCase):
         with (self.tmp / "data/transcricoes/youtube.csv").open(encoding="utf-8") as f:
             self.assertEqual(next(csv.DictReader(f))["fonte"], "legenda do YouTube")
 
+    def test_apify_youtube_respeita_teto_e_grava_custo(self):
+        import shutil as sh
+        (self.tmp / "data/config").mkdir(parents=True, exist_ok=True)
+        sh.copy(Path(__file__).resolve().parent.parent / "data/config/coleta.json", self.tmp / "data/config/coleta.json")
+        caps = []
+
+        def executar(ator, p, c):
+            caps.append(c)
+            return {"id": "r", "usageTotalUsd": 0.003}, [{"videoId": "v", "segments": [{"text": "olá"}, {"text": "mundo"}]}]
+        out = tr.legendas_apify(["v", "w"], self.tmp, executar)
+        self.assertEqual(caps, [0.5])
+        self.assertEqual(out["v"]["texto"], "olá mundo")
+        self.assertNotIn("w", out)
+        m = json.loads(next((self.tmp / "data/manifest").glob("apify_youtube_transcricao_*.json")).read_text())
+        self.assertEqual((m["etapa"], m["custo_usd"], m["com_texto"]), ("terceiros_transcricoes", 0.003, 1))
+
 
 if __name__ == "__main__":
     unittest.main()

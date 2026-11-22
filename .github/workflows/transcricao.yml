@@ -4,6 +4,10 @@ name: Transcrição dos vídeos do núcleo (sem custo)
 on:
   workflow_dispatch:
     inputs:
+      youtube_apify:
+        description: "YouTube pela Apify (legendas; etapa terceiros e transcrições)"
+        type: boolean
+        default: false
       modelo:
         description: "modelo do Whisper"
         type: choice
@@ -21,7 +25,7 @@ jobs:
       fail-fast: false
       max-parallel: 3
       matrix:
-        rede: [tiktok, instagram, youtube]
+        rede: ${{ fromJSON(github.event.inputs.youtube_apify == 'true' && '["youtube"]' || '["tiktok", "instagram", "youtube"]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -41,8 +45,11 @@ jobs:
       - name: Transcrever
         id: t
         continue-on-error: true
+        env:
+          APIFY_TOKEN_INFL: ${{ secrets.APIFY_TOKEN_INFL }}
         run: |
-          rc=0; python scripts/transcrever.py --rede ${{ matrix.rede }} --modelo ${{ github.event.inputs.modelo }} --limite-minutos 300 > o.txt 2>&1 || rc=$?
+          extra=""; if [ "${{ matrix.rede }}" = "youtube" ] && [ "${{ github.event.inputs.youtube_apify }}" = "true" ]; then extra="--apify"; fi
+          rc=0; python scripts/transcrever.py --rede ${{ matrix.rede }} --modelo ${{ github.event.inputs.modelo }} --limite-minutos 300 $extra > o.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=${{ matrix.rede }}::$(echo "$l" | cut -c1-900)"; done < o.txt
           rm -f o.txt; exit $rc
       - name: Gravar

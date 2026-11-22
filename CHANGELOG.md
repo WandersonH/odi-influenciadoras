@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: legendas do YouTube pela Apify (etapa de terceiros e transcrições)
+
+**O que mudou.** `transcrever.py --rede youtube --apify` pede as legendas dos vídeos pendentes ao `seemuapps~youtube-transcript-scraper`, o mesmo ator do ODI Atlas (que mediu US$ 0,0001 por transcrição mais o início). O pedido usa a etapa `terceiros_transcricoes` (US$ 1,00), com teto de US$ 0,50 por execução, e grava o custo em `apify_youtube_transcricao_*.json`. O workflow ganhou a opção `youtube_apify`.
+
+**Por quê.** No run 45065082432 o YouTube bloqueou o download no runner do GitHub. Usar a Apify nesse caso já estava previsto no plano aprovado.
+
+**Executado.** 19 testes unitários aprovados. Disparado logo após este commit.
+
 ## 22/11/2026: primeira transcrição falhou (run 45065082432); correção
 
 **Resultado.** Instagram (30 vídeos; 18 publicações sem vídeo fora) e TikTok (28 vídeos): o download funcionou, mas todas as transcrições falharam com `open() got an unexpected keyword argument 'metadata_errors'`, uma incompatibilidade entre o faster-whisper e a versão nova do PyAV. YouTube (16 vídeos): legenda indisponível e download bloqueado pelo YouTube no runner do GitHub ("Sign in to confirm you're not a bot"), risco que já estava previsto no plano.
