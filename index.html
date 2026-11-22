@@ -15,6 +15,13 @@
 .inf-atores{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px}.inf-atores .card{margin-top:0}
 .inf-atores h3{margin:0 0 6px;font:700 19px/1.2 Georgia,'Times New Roman',serif;color:#172238}
 .inf-perfil{border-top:1px solid #edf1f5;padding:9px 0;font-size:12px;color:#4a5b71;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.inf-chips{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 12px;font-size:11.5px;color:#5e7180}
+.inf-chip{border:1px solid #d9e3ec;background:#fff;padding:6px 11px;font-size:11.5px;color:#33465a;cursor:pointer}.inf-chip.on{background:#165ebd;border-color:#165ebd;color:#fff}
+.inf-duas{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:15px;margin-top:15px}.inf-duas .card{margin-top:0}
+.inf-cloud{line-height:1.9;margin:8px 0}.inf-cloud span{margin-right:9px;color:var(--c);white-space:nowrap}
+.inf-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.inf-tags span{font-size:11px;background:#f2f7fd;border:1px solid #d5e3fa;padding:2px 7px;color:#33465a}
+.inf-item{display:block;border-top:1px solid #edf1f5;padding:9px 0;color:#273447;text-decoration:none}.inf-item p{margin:0 0 4px;font-size:12.5px;line-height:1.45}.inf-item small{color:#6b7a8c;font-size:11px}
+.inf-tl{overflow-x:auto}
 </style></head>
 <body><div class="layout"><aside class="side"><div class="mark" aria-label="Observatório de Desinformação e Intolerância Digital — ODI Influenciadoras"><div class="brand-head"><img class="odi-brand-img" alt="Identidade visual do Observatório de Desinformação e Intolerância Digital" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>ATLAS</strong><span>Observatório de Desinformação<br>e Intolerância Digital</span></div></div><div class="brand-footer"><span>INFLUENCIADORAS</span><span>2026</span></div></div><div class="navcaption">ÍNDICE / 10 CADERNOS</div><nav class="nav" id="nav">
 <button class="navbutton active" data-tab="panorama"><span class="navicon">◫</span> Panorama · universo e amostra</button>
@@ -51,8 +58,11 @@
 
 <section class="panel" id="dizem" aria-label="O que dizem">
   <div class="paper-ribbon"><span>CADERNO 03 / O QUE DIZEM</span><span>—</span></div>
-  <div class="intro"><div class="eyebrow">Acervo do núcleo</div><h1>Cada publicação do núcleo, com data e números.</h1>
-    <p>Publicações das próprias influenciadoras no YouTube, no Instagram e no TikTok entre 23/07 e 14/08/2026. A marcação de tema vem do título e da descrição (regras, não inteligência artificial); a posição só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
+  <div class="intro"><div class="eyebrow">Conteúdo por tema · por rede · legenda e fala transcrita</div><h1>Do que falam, com que palavras e quando.</h1>
+    <p>Mesmo método do caderno "O que dizem" do ODI Atlas e do ODI Espanha: cada publicação do recorte (01/06 a 14/08/2026) é classificada por um dicionário aberto de temas aplicado à legenda e à fala transcrita (regras, não inteligência artificial). O dicionário está em <b>rascunho</b>. As nuvens contam publicações, não ocorrências. A posição só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
+  <div class="inf-chips" id="dzRedes"></div>
+  <div id="dzCorpo"></div>
+  <div class="sectionlabel"><h2>Cada publicação do núcleo</h2><p>23/07 a 14/08 · todas as redes</p></div>
   <div class="card" id="p3Corpo"></div>
 </section>
 
@@ -149,6 +159,77 @@ function lerCSV(t) {
   return linhas.filter(l => l.length === cab.length).map(l => Object.fromEntries(cab.map((k, i) => [k, l[i]])));
 }
 
+const TEMA = {acordo_hamas: "Acordo / Hamas / desarmamento", gaza_palestina: "Gaza e Palestina", israel_guerra: "Israel e guerra",
+  islamofobia_preconceito: "Islamofobia e preconceito", religiao_isla: "Religião e islã", cultura_arabe: "Cultura árabe", moda_beleza: "Moda e beleza",
+  familia_maternidade: "Família e maternidade", culinaria: "Culinária", publicidade: "Publicidade", viagem: "Viagem", sem_tema: "Sem tema"};
+const COR = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b"], REDES = {youtube: "YouTube", instagram: "Instagram", tiktok: "TikTok"};
+const DZ = {rede: "instagram", tema: "", cache: {}};
+const pct = (a, b) => b ? Math.round(100 * a / b) + "%" : "—";
+async function dizem(rede) {
+  if (rede) { DZ.rede = rede; DZ.tema = ""; }
+  $("dzRedes").innerHTML = "<span>Rede:</span>" + Object.keys(REDES).map(r => `<button class="inf-chip ${r === DZ.rede ? "on" : ""}" data-r="${r}">${REDES[r]}</button>`).join("");
+  $("dzRedes").querySelectorAll("button").forEach(b => b.onclick = () => dizem(b.dataset.r));
+  if (DZ.cache[DZ.rede] === undefined) DZ.cache[DZ.rede] = await json(`data/${DZ.rede}/conteudo.json`);
+  const D = DZ.cache[DZ.rede], c = $("dzCorpo");
+  if (!D || !Object.keys(D.atores || {}).length) { c.innerHTML = vazio(`⛔ Sem conteúdo classificado para ${REDES[DZ.rede]}.`); return; }
+  const ids = Object.keys(D.atores), cor = Object.fromEntries(ids.map((a, i) => [a, COR[i % COR.length]]));
+  const passa = p => !DZ.tema || p.temas.includes(DZ.tema);
+  const tot = k => ids.reduce((s_, a) => s_ + (D.atores[a].por_tema[k] || 0), 0);
+  const numA = (a, k) => { const o = D.atores[a]; return o.com_o_numero[k] ? `${n(o.totais[k])}<br><small>informado em ${n(o.com_o_numero[k])} de ${n(o.total_publicacoes)}</small>` : "⛔ não informado"; };
+  const t0 = Date.parse(D.desde + "T00:00:00Z"), fim = Date.parse(D.ate + "T23:59:59Z"), SEM = 7 * 864e5, ESQ = 150;
+  const xEv = D.evento ? Date.parse(D.evento.data + "T12:00:00Z") : null, xNuc = Date.parse("2026-07-23T00:00:00Z");
+  // semana a semana
+  const grade = {}; let ult = Math.floor((fim - t0) / SEM);
+  ids.forEach(a => { grade[a] = {}; D.atores[a].publicacoes.filter(passa).forEach(p => { const w = Math.floor((Date.parse(p.publicado_em) - t0) / SEM); if (w >= 0 && w <= ult) grade[a][w] = (grade[a][w] || 0) + 1; }); });
+  const maxN = Math.max(1, ...ids.flatMap(a => Object.values(grade[a])));
+  const PX = 34, ALT = 42, W = ESQ + (ult + 1) * PX + 20, H = 30 + ids.length * ALT + 24;
+  let svg = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" style="font:11px sans-serif">`;
+  const xw = w => ESQ + w * PX + PX / 2, xt = t => ESQ + (t - t0) / SEM * PX;
+  svg += `<rect x="${xt(xNuc)}" y="18" width="${xt(fim) - xt(xNuc)}" height="${H - 40}" fill="#f2f7fd"/><text x="${xt(xNuc) + 4}" y="14" fill="#5e7180">núcleo</text>`;
+  for (let w = 0; w <= ult; w++) svg += `<text x="${xw(w)}" y="${H - 6}" text-anchor="middle" font-size="9" fill="#7d8997">${new Date(t0 + w * SEM).toISOString().slice(8, 10)}/${new Date(t0 + w * SEM).toISOString().slice(5, 7)}</text>`;
+  if (xEv) svg += `<line x1="${xt(xEv)}" x2="${xt(xEv)}" y1="18" y2="${H - 22}" stroke="#9c2b20" stroke-dasharray="4 3"/><text x="${xt(xEv) + 4}" y="28" fill="#9c2b20" font-size="10">31/07</text>`;
+  ids.forEach((a, i) => { const y = 30 + i * ALT + ALT / 2; svg += `<text x="0" y="${y + 4}" font-size="12" fill="#172238">${esc(D.atores[a].nome)}</text><line x1="${ESQ}" x2="${W - 10}" y1="${y}" y2="${y}" stroke="#eef1f3"/>`;
+    Object.entries(grade[a]).forEach(([w, q]) => svg += `<circle cx="${xw(+w)}" cy="${y}" r="${(2 + 13 * Math.sqrt(q / maxN)).toFixed(1)}" fill="${cor[a]}" fill-opacity=".72"><title>${esc(D.atores[a].nome)} · semana de ${dataBR(new Date(t0 + w * SEM).toISOString())}: ${n(q)} publicações</title></circle>`); });
+  svg += "</svg>";
+  // cada publicação pela audiência
+  const aud = p => p.visualizacoes ?? p.curtidas ?? 0, LARG = 880, ALT2 = 72, W2 = ESQ + LARG + 20, H2 = 30 + ids.length * ALT2 + 24;
+  const maxA = Math.max(1, ...ids.flatMap(a => D.atores[a].publicacoes.filter(passa).map(aud)));
+  const hx = s_ => { let h = 0; for (const ch of String(s_)) h = (h * 31 + ch.charCodeAt(0)) % 997; return h / 997; };
+  const xp = t => ESQ + (t - t0) / (fim - t0) * LARG;
+  let svg2 = `<svg viewBox="0 0 ${W2} ${H2}" width="${W2}" height="${H2}" style="font:11px sans-serif"><rect x="${xp(xNuc)}" y="18" width="${xp(fim) - xp(xNuc)}" height="${H2 - 40}" fill="#f2f7fd"/><text x="${xp(xNuc) + 4}" y="14" fill="#5e7180">núcleo</text>`;
+  ["2026-06-01", "2026-07-01", "2026-08-01"].forEach(d => svg2 += `<line x1="${xp(Date.parse(d))}" x2="${xp(Date.parse(d))}" y1="18" y2="${H2 - 22}" stroke="#e3e6e8"/><text x="${xp(Date.parse(d)) + 3}" y="${H2 - 6}" font-size="9" fill="#7d8997">${dataBR(d + "T12:00:00Z").slice(0, 5)}</text>`);
+  if (xEv) svg2 += `<line x1="${xp(xEv)}" x2="${xp(xEv)}" y1="18" y2="${H2 - 22}" stroke="#9c2b20" stroke-dasharray="4 3"/><text x="${xp(xEv) + 4}" y="28" fill="#9c2b20" font-size="10">31/07 · anúncio</text>`;
+  ids.forEach((a, i) => { const y0 = 30 + i * ALT2 + ALT2 / 2; svg2 += `<text x="0" y="${y0 + 4}" font-size="12" fill="#172238">${esc(D.atores[a].nome)}</text>`;
+    [...D.atores[a].publicacoes].filter(passa).sort((p, q) => aud(q) - aud(p)).forEach(p => { const x = xp(Date.parse(p.publicado_em)), y = y0 + (hx(p.post_id) - .5) * (ALT2 - 22);
+      svg2 += `<a href="${esc(p.url)}" target="_blank" rel="noopener"><circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(1.6 + 14 * Math.sqrt(aud(p) / maxA)).toFixed(1)}" fill="${cor[a]}" fill-opacity=".4" stroke="${cor[a]}" stroke-width=".6"><title>${dataBR(p.publicado_em)} · ${n(aud(p))} ${p.visualizacoes != null ? "visualizações" : "curtidas"} · ${esc((p.texto || "").slice(0, 110))}</title></circle></a>`; }); });
+  svg2 += "</svg>";
+  const temas = D.temas.filter(t => tot(t) > 0).sort((x, y) => (x === "sem_tema") - (y === "sem_tema") || tot(y) - tot(x));
+  const nuvem = a => { const l = D.atores[a].nuvem.slice(0, 45), mx = l.length ? l[0][1] : 1; return `<div class="inf-cloud" style="--c:${cor[a]}">${l.map(([t, q]) => `<span style="font-size:${(11 + 15 * Math.sqrt(q / mx)).toFixed(1)}px" title="${n(q)} publicações">${esc(t)}</span>`).join(" ") || '<span class="inf-nota">sem termos acima do mínimo (3 publicações)</span>'}</div>`; };
+  const tags = a => `<div class="inf-tags">${D.atores[a].hashtags.slice(0, 18).map(([t, q]) => `<span>#${esc(t)} · ${n(q)}</span>`).join("") || "<span>sem hashtags repetidas</span>"}</div>`;
+  const lista = a => { const ps = D.atores[a].publicacoes.filter(passa), top = [...ps].sort((x, y) => aud(y) - aud(x)).slice(0, 5);
+    return `<div class="card"><div class="eyebrow" style="color:${cor[a]}">${esc(D.atores[a].nome)} · ${n(ps.length)} publicações no filtro</div>${top.map(p => `<a class="inf-item" href="${esc(p.url)}" target="_blank" rel="noopener"><p>${esc((p.texto || "(sem legenda)").slice(0, 240))}${(p.texto || "").length > 240 ? "…" : ""}</p><small>${dataBR(p.publicado_em)} · ${p.janela === "nucleo" ? "núcleo" : "linha de base"} · ${p.visualizacoes != null ? n(p.visualizacoes) + " visualizações · " : ""}${p.curtidas != null ? n(p.curtidas) + " curtidas · " : ""}${p.temas.map(t => TEMA[t] || t).join(", ")}${p.tem_fala ? " · fala transcrita" : ""}</small></a>`).join("") || '<p class="inf-nota">nenhuma no filtro</p>'}</div>`; };
+  const cd = D.cobertura_do_dicionario || {};
+  c.innerHTML = `<div class="card"><div class="eyebrow">${REDES[DZ.rede]} · 01/06 a 14/08/2026</div><h2 class="tk-h2">Números do recorte</h2>
+      <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th>Publicações</th><th>Com fala transcrita</th><th>Visualizações</th><th>Curtidas</th><th>Comentários</th><th>Interação mediana</th><th>Base · núcleo</th></tr></thead><tbody>${ids.map(a => { const o = D.atores[a];
+        return `<tr><td><b style="color:${cor[a]}">${esc(o.nome)}</b></td><td>${n(o.total_publicacoes)}</td><td>${n(o.com_fala)}</td><td>${numA(a, "visualizacoes")}</td><td>${numA(a, "curtidas")}</td><td>${numA(a, "comentarios")}</td><td>${o.taxa_interacao_mediana != null ? (100 * o.taxa_interacao_mediana).toLocaleString("pt-BR", {maximumFractionDigits: 2}) + "%" : "—"}</td><td>${n(o.por_fase.base.publicacoes)} · ${n(o.por_fase.nucleo.publicacoes)}</td></tr>`; }).join("")}</tbody></table></div>
+      <p class="inf-nota">"⛔ não informado" quer dizer que a plataforma não entregou o número, não que seja zero. Interação mediana: (curtidas + comentários + compartilhamentos) ÷ visualizações, só nas publicações com visualizações. ${DZ.rede === "youtube" ? "No YouTube o acervo ainda não guarda título nem descrição: os temas vêm só da fala transcrita (vídeos do núcleo)." : ""}</p></div>
+    <div class="card"><div class="eyebrow">Filtro</div><h2 class="tk-h2">Tema</h2>
+      <div class="inf-chips" id="dzChips"><button class="inf-chip ${!DZ.tema ? "on" : ""}" data-t="">Todos os temas</button>${temas.map(t => `<button class="inf-chip ${DZ.tema === t ? "on" : ""}" data-t="${t}">${esc(TEMA[t] || t)} · ${n(tot(t))}</button>`).join("")}</div>
+      <p class="inf-nota">O filtro vale para as linhas do tempo e as listas; nuvens e tabela de temas são sempre do conjunto inteiro.</p></div>
+    <div class="card"><div class="eyebrow">Linha do tempo · semana a semana</div><h2 class="tk-h2">Quando cada uma publica${DZ.tema ? " sobre " + esc((TEMA[DZ.tema] || DZ.tema).toLowerCase()) : ""}</h2><div class="inf-tl">${svg}</div>
+      <p class="inf-nota">Cada bolha é uma semana; a área cresce com o número de publicações (maior semana: ${n(maxN)}). Faixa azul: núcleo; linha vermelha: 31/07, anúncio do Hamas.</p></div>
+    <div class="card"><div class="eyebrow">Linha do tempo · cada publicação</div><h2 class="tk-h2">As publicações no tempo, pelo tamanho da audiência</h2><div class="inf-tl">${svg2}</div>
+      <p class="inf-nota">Cada bolha é uma publicação; a área cresce com as visualizações (ou curtidas, quando não há visualizações). A maior tem ${n(maxA)}. O clique abre a publicação; a posição vertical só evita sobreposição.</p></div>
+    <div class="card"><div class="eyebrow">Temas</div><h2 class="tk-h2">Publicações por tema e por influenciadora</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Tema</th>${ids.map(a => `<th style="color:${cor[a]}">${esc(D.atores[a].nome)}</th>`).join("")}</tr></thead><tbody>${temas.map(t => `<tr><td>${esc(TEMA[t] || t)}</td>${ids.map(a => { const q = D.atores[a].por_tema[t] || 0; return `<td>${n(q)} <small>${pct(q, D.atores[a].total_publicacoes)}</small></td>`; }).join("")}</tr>`).join("")}</tbody></table></div>
+      <p class="inf-nota">Percentual sobre as publicações da influenciadora nesta rede; a soma passa de 100% porque uma publicação pode ter vários temas. Dicionário ${esc(D.dicionario.versao)}: ${n(cd.com_tema)} de ${n(cd.publicacoes)} publicações (${n(cd.pct_com_tema)}%) receberam ao menos um tema; ${n(cd.com_fala_transcrita)} com fala transcrita.</p></div>
+    <div class="sectionlabel"><h2>Palavras e hashtags</h2><p>Nº de publicações em que o termo aparece (legenda e fala)</p></div>
+    <div class="inf-duas">${ids.map(a => `<div class="card"><div class="eyebrow" style="color:${cor[a]}">${esc(D.atores[a].nome)}</div>${nuvem(a)}${tags(a)}</div>`).join("")}</div>
+    <div class="sectionlabel"><h2>Publicações de maior audiência</h2><p>5 por influenciadora, pelo filtro escolhido</p></div>
+    <div class="inf-duas">${ids.map(lista).join("")}</div>
+    <div class="card"><div class="eyebrow">Método e limites</div><p class="inf-nota" style="margin-top:0">${esc(D.metodo)}</p><p class="inf-nota"><b>Estado do dicionário:</b> ${esc(D.dicionario.estado)}</p><p class="inf-nota">Fonte: ${esc(D.fonte)}.</p></div>`;
+  c.querySelectorAll("#dzChips button").forEach(b => b.onclick = () => { DZ.tema = b.dataset.t; dizem(); });
+}
+
 (async () => {
   const [atores, M, csv, MI, MT, ci, ct] = await Promise.all([json("data/config/atores.json"), json("data/manifest/youtube_latest.json"), texto("data/youtube/videos.csv"),
     json("data/manifest/instagram_latest.json"), json("data/manifest/tiktok_latest.json"), texto("data/instagram/posts.csv"), texto("data/tiktok/posts.csv")]);
@@ -194,6 +275,7 @@ function lerCSV(t) {
       [["Instagram", MI], ["TikTok", MT]].map(([rede, m]) => apifyOk(m) ? m.perfis.map(p => `<tr><td>${esc(nomes[p.ator] || p.ator)}</td><td>${rede}</td><td class="inf-num">${p.universo == null ? "⛔" : n(p.universo)}</td><td class="inf-num">${n(p.na_base)}</td><td class="inf-num">${n(p.no_nucleo)}</td><td>${p.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}</td></tr>`).join("") : `<tr><td colspan="2">${rede}</td><td colspan="4">⛔ posts do recorte ainda não coletados</td></tr>`).join("")}</tbody>`;
   }
 
+  dizem();
   // Caderno 03: vídeos do núcleo
   const nuc = videos.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "YouTube"}))
     .concat(apifyOk(MI) ? postsIG.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "Instagram"})) : [],

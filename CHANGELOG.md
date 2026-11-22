@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: caderno "O que dizem" por rede, no método do ODI Atlas e do ODI Espanha; checagens bloqueadas (403)
+
+**O que mudou.** Novo `scripts/build_o_que_dizem.py`, porta do ODI Espanha, que gera `data/<rede>/conteudo.json`, e `scripts/texto.py` com palavras vazias do português falado. Novo dicionário `data/config/temas.json` v0 (rascunho), com 11 temas: acordo/Hamas, Gaza e Palestina, Israel e guerra, islamofobia, religião, cultura árabe, moda, família, culinária, publicidade e viagem. O dicionário é aplicado à legenda e à fala transcrita. Termos sem letra latina (árabe, emoji) são buscados literalmente: na primeira versão eles viravam texto vazio e casavam com tudo (72 falsos "acordo/Hamas" no YouTube). O caderno 03 ganhou filtro por rede e por tema, tabela de números, linha do tempo semana a semana e por publicação (núcleo sombreado, 31/07 marcado), tabela de temas, nuvens, hashtags e as 5 publicações de maior audiência. A lista de publicações do núcleo continua embaixo. Os três workflows de coleta passam a regerar o caderno.
+
+**Resultado** (recorte inteiro, 01/06 a 14/08): o tema "Acordo/Hamas" não aparece em nenhuma publicação. "Gaza e Palestina" aparece em 5: Mariam (YouTube 23/07, lista de países árabes; TikTok 28/07, prato palestino), Carima (Instagram 09/08, perfil derrubado por falar da Palestina; Instagram 19/06, base, por emoji) e Fabíola (Instagram 12/06, base, comentário sobre um homem com kufiya palestina).
+
+**Limites.** O acervo do YouTube não guarda título nem descrição; os temas vêm só da fala (vídeos do núcleo). O ator do Instagram não devolveu `commentsCount`, então os comentários do Instagram aparecem como ⛔ não informado.
+
+**Checagens** (run 45069732315): a Google Fact Check Tools API recusou as 10 consultas com HTTP 403 "Permission denied on the service". A API não está ativada no projeto do Google Cloud da chave do YouTube. Falta o responsável ativá-la ou cadastrar FACTCHECK_API_KEY.
+
+**Executado.** Builder rodado localmente; `node --check`; caderno 03 aberto no Chrome headless; testes unitários.
+
 ## 22/11/2026: checagens pela Google Fact Check Tools API
 
 **O que mudou.** Novo `scripts/collect_checagens.py`, porta do coletor do ODI Atlas, com workflow `checagens.yml` de disparo manual. As consultas cobrem o tema (Hamas, desarmamento Hamas, Gaza, Palestina, cessar-fogo Gaza, Israel Hamas acordo) e o nome das quatro influenciadoras, desde 01/06/2026 (maxAgeDays). A janela de cada checagem é marcada pela data em que foi publicada. Nome de pessoa comum em "quem disse" é omitido. O caderno 07 ganhou a seção de checagens.

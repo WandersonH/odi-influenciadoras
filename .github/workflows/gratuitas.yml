@@ -45,6 +45,10 @@ jobs:
           rc=0; python scripts/collect_youtube.py > y.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=YouTube::$(echo "$l" | cut -c1-900)"; done < y.txt
           rm -f y.txt; exit $rc
+      - name: O que dizem (temas por rede)
+        if: always()
+        continue-on-error: true
+        run: python scripts/build_o_que_dizem.py
       - name: Gravar a coleta (público)
         if: always()
         run: |

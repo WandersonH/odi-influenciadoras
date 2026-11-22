@@ -1,0 +1,177 @@
+{
+ "versao": "v0",
+ "estado": "RASCUNHO a validar pelos pesquisadores. Montado em 22/11/2026 a partir da pergunta do estudo e das legendas e transcrições do acervo; ainda sem codificação humana nem teste de concordância.",
+ "nota": "Dicionário aberto de temas aplicado à legenda e à fala transcrita de cada publicação (normalizado: minúsculas, sem acento). Uma publicação pode ter vários temas. Classificação por regras, NÃO por IA: auditável e replicável, mas não entende ironia nem contexto. Termos com * casam por prefixo. Mesmo método do caderno 'O que dizem' do ODI Atlas e do ODI Espanha.",
+ "temas": {
+  "acordo_hamas": [
+   "hamas",
+   "desarma*",
+   "acordo de paz",
+   "acordo de cessar",
+   "cessar-fogo",
+   "cessar fogo",
+   "tregua",
+   "حماس",
+   "نزع السلاح"
+  ],
+  "gaza_palestina": [
+   "gaza",
+   "palestin*",
+   "faixa de gaza",
+   "cisjordania",
+   "genocid*",
+   "free palestine",
+   "غزة",
+   "فلسطين",
+   "🍉",
+   "🇵🇸"
+  ],
+  "israel_guerra": [
+   "israel*",
+   "sionis*",
+   "netanyahu",
+   "guerra",
+   "bombarde*",
+   "refem",
+   "refens",
+   "ocupacao"
+  ],
+  "islamofobia_preconceito": [
+   "islamofob*",
+   "preconceito",
+   "terroris*",
+   "mulher bomba",
+   "xenofob*",
+   "racismo",
+   "discrimina*",
+   "intoleran*",
+   "odio"
+  ],
+  "religiao_isla": [
+   "isla",
+   "islam*",
+   "muculman*",
+   "alcorao",
+   "allah",
+   "mesquita*",
+   "ramad*",
+   "oracao",
+   "rezar",
+   "deen",
+   "hijab",
+   "veu",
+   "modest*"
+  ],
+  "cultura_arabe": [
+   "arabe*",
+   "libano",
+   "libanes*",
+   "siria",
+   "sirio*",
+   "marrocos",
+   "egito",
+   "jordania",
+   "dabke",
+   "esfiha",
+   "quibe",
+   "tabule",
+   "homus",
+   "hummus",
+   "sumac",
+   "shawarma",
+   "kafta"
+  ],
+  "moda_beleza": [
+   "look",
+   "roupa*",
+   "vestido*",
+   "maquiag*",
+   "make",
+   "skincare",
+   "perfume*",
+   "cabelo",
+   "moda",
+   "estilo",
+   "unha*",
+   "batom"
+  ],
+  "familia_maternidade": [
+   "filho*",
+   "filha*",
+   "marido",
+   "esposo",
+   "casamento",
+   "noiv*",
+   "gravidez",
+   "gravida",
+   "bebe",
+   "mae",
+   "pai",
+   "familia",
+   "sogra",
+   "irma*",
+   "irmao*"
+  ],
+  "culinaria": [
+   "receita*",
+   "cozinha*",
+   "prato*",
+   "comida*",
+   "almoco",
+   "jantar",
+   "restaurante*",
+   "doce*",
+   "bolo"
+  ],
+  "publicidade": [
+   "publi",
+   "#publi",
+   "publicidade",
+   "parceria",
+   "cupom",
+   "desconto",
+   "codigo",
+   "patrocin*",
+   "loja",
+   "compre",
+   "comprar",
+   "link na bio",
+   "#ad",
+   "publipost"
+  ],
+  "viagem": [
+   "viagem",
+   "viajar",
+   "hotel",
+   "aeroporto",
+   "turismo",
+   "dubai",
+   "istambul",
+   "turquia",
+   "arabia",
+   "meca",
+   "umrah"
+  ]
+ },
+ "adversarios": [],
+ "pede_voto": [],
+ "fases": [
+  {
+   "id": "base",
+   "rotulo": "Linha de base",
+   "de": "2026-06-01",
+   "ate": "2026-07-22"
+  },
+  {
+   "id": "nucleo",
+   "rotulo": "Núcleo (23/07 a 14/08)",
+   "de": "2026-07-23",
+   "ate": "2026-08-14"
+  }
+ ],
+ "fases_nota": "linha de base (01/06 a 22/07) e núcleo (23/07 a 14/08); o anúncio do Hamas foi em 31/07/2026.",
+ "evento": {
+  "data": "2026-07-31",
+  "rotulo": "31/07 · anúncio do Hamas"
+ }
+}

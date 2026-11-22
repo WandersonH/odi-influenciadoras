@@ -63,6 +63,10 @@ jobs:
             while IFS= read -r l; do echo "::notice title=$r::$(echo "$l" | cut -c1-900)"; done < o.txt
           done
           rm -f o.txt; exit $rc
+      - name: O que dizem (temas por rede)
+        if: always()
+        continue-on-error: true
+        run: python scripts/build_o_que_dizem.py
       - name: Gravar (público)
         if: always()
         run: |
