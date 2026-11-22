@@ -36,23 +36,31 @@ class TestTeto(Base):
         self.assertEqual(rc, 1)
         self.assertEqual(chamado, [])
 
-    def test_cap_respeita_metade_do_teste_por_rede_e_gasto_anterior(self):
-        (self.tmp / "data/manifest").mkdir(parents=True)
-        (self.tmp / "data/manifest/apify_tiktok_teste_x.json").write_text(json.dumps({"etapa": "teste", "custo_usd": 0.7}))
-        caps = []
+    def test_uma_execucao_por_rede_com_metade_do_teste(self):
+        caps, pedidos = [], []
 
         def executar(ator, p, c):
-            caps.append(c)
+            caps.append(c); pedidos.append(p)
             return {"id": "r", "status": "SUCCEEDED", "usageTotalUsd": 0.01}, [
-                {"shortCode": "abc", "timestamp": "2026-08-01T10:00:00.000Z", "ownerUsername": p["directUrls"][0].rstrip("/").split("/")[-1], "likesCount": 5}]
+                {"shortCode": "abc", "timestamp": "2026-08-01T10:00:00.000Z", "ownerUsername": "hyattomar", "likesCount": 5},
+                {"shortCode": "zzz", "timestamp": "2026-08-01T10:00:00.000Z", "ownerUsername": "outra"}]
         rc = cap.main(["--rede", "instagram", "--etapa", "teste"], executar=executar, raiz=self.tmp)
         self.assertEqual(rc, 0)
-        # teto 1,00 - gasto 0,70 = 0,30 restante (< metade 0,50) dividido por 4 perfis
-        self.assertEqual(caps, [0.075] * 4)
+        self.assertEqual(caps, [0.5])
+        self.assertEqual(len(pedidos[0]["directUrls"]), 4)
         m = json.loads((self.tmp / "data/manifest/instagram_latest.json").read_text())
-        self.assertEqual(m["custo_usd"], 0.04)
-        self.assertEqual(m["perfis"][0]["no_nucleo"], 1)
-        self.assertEqual(m["perfis"][0]["universo_fonte"], "⛔ não informado pelo ator")
+        self.assertEqual(m["custo_usd"], 0.01)
+        hy = [p for p in m["perfis"] if p["ator"] == "hyatt-omar"][0]
+        self.assertEqual((hy["lidos"], hy["no_nucleo"]), (1, 1))
+        self.assertEqual(hy["universo_fonte"], "⛔ não informado pelo ator")
+        self.assertIn("1 item(ns) de outro perfil", m["erros"][0])
+
+    def test_nao_roda_abaixo_do_minimo_da_apify(self):
+        (self.tmp / "data/manifest").mkdir(parents=True)
+        (self.tmp / "data/manifest/apify_tiktok_teste_x.json").write_text(json.dumps({"etapa": "teste", "custo_usd": 0.7}))
+        chamado = []
+        rc = cap.main(["--rede", "instagram", "--etapa", "teste"], executar=lambda *a: chamado.append(a), raiz=self.tmp)
+        self.assertEqual((rc, chamado), (1, []))
 
 
 class TestLinha(unittest.TestCase):

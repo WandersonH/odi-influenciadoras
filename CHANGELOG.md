@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: teste pago recusado pela Apify (sem custo) e correção
+
+**O que aconteceu.** Run 45063428772: as duas redes foram recusadas na entrada, antes de executar; custo de US$ 0,00 nos manifestos `apify_instagram_teste_20261122T195502Z.json` e `apify_tiktok_teste_20261122T195503Z.json`. Instagram: o campo `videoViewCount` não é aceito em `selectedFields`. TikTok: o teto de US$ 0,125 por execução estava abaixo do mínimo de US$ 0,50 exigido pela Apify.
+
+**O que mudou.** Passa a ser uma execução por rede com os quatro perfis juntos (teto de US$ 0,50 cada; o teste continua somando no máximo US$ 1,00), e os itens são separados por dono. Com menos de US$ 0,50 sobrando na etapa, nada roda. Os campos do Instagram agora são os mesmos do ODI Espanha, mais `videoPlayCount`.
+
+**Executado.** 13 testes unitários aprovados. Novo disparo do teste logo após este commit.
+
 ## 22/11/2026: orçamento de US$ 10 autorizado e coletor pago de Instagram e TikTok
 
 **O que mudou.** `data/config/coleta.json`: teto de US$ 10 por etapa (teste 1,00; posts 1,50; terceiros e transcrições 1,00; comentários 5,00; reserva 1,50), com a autorização do responsável. Novo `scripts/collect_apify_posts.py` (Instagram: esdrasdw~instagram-content-scraper; TikTok: clockworks~tiktok-scraper), `scripts/apify.py` (copiado do ODI Espanha, sem consulta de saldo) e o workflow `pagas.yml`, com disparo manual.

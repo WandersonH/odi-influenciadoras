@@ -74,16 +74,17 @@ def gasto_etapa(etapa: str, raiz: Path = RAIZ) -> float:
     return round(tot, 4)
 
 
-def pedido(rede, ator, perfil, etapa, n, desde):
-    u = perfil.lstrip("@")
+def pedido(rede, perfis, etapa, n, desde):
+    """Uma execução por rede com todos os perfis (a Apify exige teto mínimo de US$ 0,50 por execução)."""
+    us = [p.lstrip("@") for p in perfis]
     if rede == "instagram":
-        p = {"directUrls": [f"https://www.instagram.com/{u}/"], "resultsType": "posts", "resultsLimit": n,
-             "selectedFields": ["shortCode", "id", "url", "timestamp", "caption", "likesCount", "commentsCount",
-                                "videoViewCount", "videoPlayCount", "type", "ownerUsername"]}
+        p = {"directUrls": [f"https://www.instagram.com/{u}/" for u in us], "resultsType": "posts", "resultsLimit": n,
+             "selectedFields": ["shortCode", "id", "url", "timestamp", "caption", "title", "likesCount", "commentsCount",
+                                "displayUrl", "ownerUsername", "videoDuration", "videoPlayCount", "type"]}
         if etapa != "teste":
             p["onlyPostsNewerThan"] = desde[:10]
         return p
-    p = {"profiles": [u], "resultsPerPage": n, "profileSorting": "latest", "profileScrapeSections": ["videos"],
+    p = {"profiles": us, "resultsPerPage": n, "profileSorting": "latest", "profileScrapeSections": ["videos"],
          "shouldDownloadVideos": False, "shouldDownloadCovers": False, "shouldDownloadSubtitles": False}
     if etapa != "teste":
         p["oldestPostDateUnified"] = desde[:10]
@@ -126,11 +127,14 @@ def universo(rede, itens):
     return None, None
 
 
-def e_do_perfil(rede, x, perfil):
+def dono(rede, x):
     if not isinstance(x, dict) or x.get("error"):
-        return False
-    dono = str(g(x, "ownerUsername") if rede == "instagram" else g(x, "authorMeta.name") or "").lower()
-    return not dono or dono == perfil.lstrip("@").lower()
+        return None
+    return str((g(x, "ownerUsername") if rede == "instagram" else g(x, "authorMeta.name")) or "").lower() or None
+
+
+def e_do_perfil(rede, x, perfil):
+    return dono(rede, x) == perfil.lstrip("@").lower()
 
 
 def gravar_merge(caminho, linhas):
@@ -179,45 +183,44 @@ def main(argv=None, executar=None, raiz=RAIZ):
     if orcamento_rede <= 0.01 or not perfis:
         print(f"{a.rede}: sem orçamento restante na etapa ou sem perfis confirmados: nada roda.")
         return 1
-    cap = round(orcamento_rede / len(perfis), 4)
+    cap = orcamento_rede
+    if cap < 0.5:
+        print(f"{a.rede}: restam US$ {cap} na etapa, abaixo do mínimo de US$ 0,50 por execução da Apify: nada roda.")
+        return 1
     n = cfg_rede.get("itens_teste", 15) if a.etapa == "teste" else 1000
     desde = projeto["janelas"]["base"]["inicio"]
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     linhas, por_perfil, brutos, custo, erros = [], [], {}, 0.0, []
-
+    run_id = None
+    try:
+        run, itens = executar(cfg_rede["ator"], pedido(a.rede, [p for _, p in perfis], a.etapa, n, desde), cap)
+        custo = apify.custo_run(run)
+        run_id = run.get("id")
+    except apify.ErroDepoisDaExecucao as e:
+        custo, itens = apify.custo_run(e.run), []
+        erros.append(str(e))
+    except Exception as e:  # noqa: BLE001
+        itens = []
+        erros.append(apify.erro_curto(e))
+    brutos = itens
     for ator_id, perfil in perfis:
-        p = pedido(a.rede, cfg_rede["ator"], perfil, a.etapa, n, desde)
-        try:
-            run, itens = executar(cfg_rede["ator"], p, cap)
-        except apify.ErroDepoisDaExecucao as e:
-            c = apify.custo_run(e.run)
-            custo += c
-            erros.append(f"{ator_id}: {e}")
-            por_perfil.append({"ator": ator_id, "perfil": perfil, "status": "executou, resultado não baixado", "custo_usd": c})
-            continue
-        except Exception as e:  # noqa: BLE001
-            erros.append(f"{ator_id}: {apify.erro_curto(e)}")
-            por_perfil.append({"ator": ator_id, "perfil": perfil, "status": "falhou: " + apify.erro_curto(e), "custo_usd": 0})
-            continue
-        c = apify.custo_run(run)
-        custo += c
-        validos = [x for x in itens if e_do_perfil(a.rede, x, perfil)]
-        brutos[ator_id] = itens
-        ls = [linha(a.rede, x, ator_id, perfil, projeto["janelas"], agora) for x in validos]
+        meus = [x for x in itens if e_do_perfil(a.rede, x, perfil)]
+        ls = [linha(a.rede, x, ator_id, perfil, projeto["janelas"], agora) for x in meus]
         ls = [l for l in ls if l["post_id"]]
         linhas += [l for l in ls if a.etapa == "teste" or l["janela"] != "fora"]
-        uni, fonte = universo(a.rede, itens)
+        uni, fonte = universo(a.rede, meus)
         datas = sorted(l["publicado_em"] for l in ls if l["publicado_em"])
         por_perfil.append({
-            "ator": ator_id, "perfil": perfil, "run_apify": run.get("id"), "status": run.get("status"),
-            "itens_recebidos": len(itens), "lidos": len(ls),
+            "ator": ator_id, "perfil": perfil, "lidos": len(ls),
             "universo": uni, "universo_fonte": fonte or "⛔ não informado pelo ator",
             "mais_antigo": datas[0] if datas else None, "mais_recente": datas[-1] if datas else None,
             "na_base": sum(1 for l in ls if l["janela"] == "base"), "no_nucleo": sum(1 for l in ls if l["janela"] == "nucleo"),
             "cobertura": ("amostra de teste (mais recentes)" if a.etapa == "teste" else
                           "completa (parou pela data inicial)" if datas and len(ls) < n else "parcial ⛔ (parou no limite)"),
-            "custo_usd": c,
         })
+    outros = sum(1 for x in itens if dono(a.rede, x) not in {p.lstrip("@").lower() for _, p in perfis})
+    if outros:
+        erros.append(f"{outros} item(ns) de outro perfil ou sem dono identificado, fora do acervo")
 
     novos, total = gravar_merge(raiz / f"data/{a.rede}/posts.csv", linhas)
     interno = os.environ.get("INFL_INTERNO_DIR", "")
@@ -230,7 +233,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
     else:
         destino = "não gravado (privado indisponível)"
     manifesto = {"rede": a.rede, "etapa": a.etapa, "ator": cfg_rede["ator"], "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
-                 "gerado_em": agora, "teto_etapa_usd": teto, "gasto_antes_usd": gasto, "cap_por_execucao_usd": cap,
+                 "gerado_em": agora, "run_apify": run_id, "itens_recebidos": len(itens), "teto_etapa_usd": teto, "gasto_antes_usd": gasto, "cap_por_execucao_usd": cap,
                  "custo_usd": round(custo, 4), "perfis": por_perfil, "bruto": destino,
                  "posts_gravados": {"novos": novos, "total_no_acervo": total}, "erros": erros}
     (raiz / "data/manifest").mkdir(parents=True, exist_ok=True)
