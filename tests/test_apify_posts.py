@@ -94,7 +94,8 @@ class TestLinha(unittest.TestCase):
 
     def test_x_pedido_e_linha(self):
         p = cap.pedido("x", ["eumariamchami"], "posts", 2000, "2026-06-01T00:00:00Z", "xquik~x-tweet-scraper", "2026-08-14T23:59:59Z")
-        self.assertEqual(p["searchTerms"], ["from:eumariamchami since:2026-06-01 -filter:retweets"])
+        self.assertEqual(p["searchTerms"], ["from:eumariamchami -filter:retweets"])
+        self.assertEqual((p["since"], p["until"], p["maxItemsPerTarget"]), ("2026-06-01", "2026-08-15", 2000))
         x = {"id": "9", "createdAt": "Fri Jul 31 10:00:00 +0000 2026", "fullText": "oi", "viewCount": 100, "likeCount": 3,
              "replyCount": 1, "retweetCount": 2, "quoteCount": 1, "url": "u", "author": {"userName": "EuMariamChami", "statusesCount": 500}}
         l = cap.linha("x", x, "m", "eumariamchami", self.J, "agora")

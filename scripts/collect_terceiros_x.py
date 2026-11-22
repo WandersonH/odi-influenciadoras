@@ -34,9 +34,9 @@ CAMPOS = ["chave", "ator_id", "post_id", "autor", "autor_seguidores", "publicado
           "visualizacoes", "curtidas", "respostas", "reposts", "coletado_em"]
 
 
-def consulta(nome: str, handle: str, inicio: str, fim: str) -> str:
-    until = (date.fromisoformat(fim[:10]) + timedelta(days=1)).isoformat()  # until: é exclusivo no X
-    return f'("{nome}" OR @{handle}) -from:{handle} since:{inicio[:10]} until:{until} -filter:retweets'
+def consulta(nome: str, handle: str, inicio: str = "", fim: str = "") -> str:
+    """Período vai nos campos since/until do ator (o operador since: na busca voltou vazio no run 45070655413)."""
+    return f'("{nome}" OR @{handle}) -from:{handle} -filter:retweets'
 
 
 def tipo_mencao(texto: str, nome: str, handle: str) -> str:
@@ -73,7 +73,10 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     erros, itens, custo, run_id = [], [], 0.0, None
     try:
-        run, itens = executar(ATOR, {"searchTerms": list(qs.values()), "maxItems": a.max_por_influenciadora * len(qs), "queryType": "Latest"}, cap)
+        until = (date.fromisoformat(nuc["fim"][:10]) + timedelta(days=1)).isoformat()  # until do ator é exclusivo
+        run, itens = executar(ATOR, {"searchTerms": list(qs.values()), "maxItems": a.max_por_influenciadora * len(qs),
+                                     "maxItemsPerTarget": a.max_por_influenciadora, "queryType": "Latest",
+                                     "since": nuc["inicio"][:10], "until": until}, cap)
         custo, run_id = apify.custo_run(run), run.get("id")
     except apify.ErroDepoisDaExecucao as e:
         custo = apify.custo_run(e.run)

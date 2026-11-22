@@ -26,7 +26,7 @@ class TestTerceirosX(unittest.TestCase):
 
     def test_consulta(self):
         self.assertEqual(tx3.consulta("Mariam Chami", "eumariamchami", "2026-07-23T00:00:00Z", "2026-08-14T23:59:59Z"),
-                         '("Mariam Chami" OR @eumariamchami) -from:eumariamchami since:2026-07-23 until:2026-08-15 -filter:retweets')
+                         '("Mariam Chami" OR @eumariamchami) -from:eumariamchami -filter:retweets')
 
     def test_publico_so_contagens_privado_texto(self):
         import os

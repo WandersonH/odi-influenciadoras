@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: X com o período nos campos do ator
+
+**O que aconteceu.** Nos posts do X com `since:` na busca, com e sem `until:` (runs 45070655413 e 45070885494), vieram 0 itens. Nas menções de terceiros (run 45070739356), vieram só 2. Sem filtro de data (run 45070964861, teste), vieram 60 posts das quatro por US$ 0,0002. A página de entrada do ator (apify.com/xquik/x-tweet-scraper/input-schema) traz campos próprios `since` e `until`.
+
+**O que mudou.** Posts e menções passam a usar esses campos, com `maxItemsPerTarget`. Os posts do teste (60, mais recentes, fora do recorte) ficam no acervo com janela "fora".
+
+**Executado.** Testes unitários. Posts e menções disparados de novo.
+
 ## 22/11/2026: índice de engajamento relativo (caderno 04)
 
 **O que mudou.** Novo `scripts/build_engajamento.py`, que grava `data/engajamento.json`: índice = interações da publicação ÷ mediana da mesma influenciadora, na mesma rede, na linha de base. Interações por rede: YouTube, curtidas + comentários; Instagram, só curtidas (o ator não devolve comentários); TikTok e X, curtidas + comentários + compartilhamentos. Com menos de 3 publicações na base, o índice fica ⛔. O caderno 04 traz o resumo por influenciadora e rede, um gráfico por rede (escala logarítmica, 1× e 31/07 marcados) e as 10 publicações mais acima do habitual. O índice é regerado nos workflows de coleta.

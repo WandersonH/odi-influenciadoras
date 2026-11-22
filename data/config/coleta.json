@@ -42,8 +42,8 @@
    "ator": "xquik~x-tweet-scraper",
    "preco_fonte": "ODI Espanha/ODI Atlas: US$ 0,00015 por linha (README do ator, 17/10/2026)",
    "itens_teste": 15,
-   "leitura": "Busca do próprio X: from:perfil since:2026-06-01, sem reposts (sem until, que voltou vazio no run 45070655413); o recorte até 14/08 é filtrado pela data. Entram posts, respostas e citações do perfil.",
-   "max_itens_por_perfil": 1000
+   "leitura": "Busca do próprio X from:perfil -filter:retweets, com o período nos campos since (2026-06-01) e until (2026-08-15, exclusivo) do ator. O operador since: dentro da busca voltou vazio nos runs 45070655413 e 45070885494.",
+   "max_itens_por_perfil": 1500
   }
  }
 }

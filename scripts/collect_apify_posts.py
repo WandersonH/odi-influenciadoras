@@ -99,12 +99,15 @@ def pedido(rede, perfis, etapa, n, desde, ator="", ate=""):
             p["onlyPostsNewerThan"] = desde[:10]
         return p
     if rede == "x":
-        until = (date.fromisoformat(ate[:10]) + timedelta(days=1)).isoformat() if ate else None  # until: é exclusivo no X
-        # sem until: no run 45070655413 a busca com since+until antigos voltou vazia; o recorte é filtrado depois, pela data
-        qs = [f"from:{u} since:{desde[:10]} -filter:retweets" for u in us]
-        if etapa == "teste":
-            qs = [f"from:{u} -filter:retweets" for u in us]
-        return {"searchTerms": qs, "maxItems": n * len(us), "queryType": "Latest"}
+        # o período vai nos campos since/until do ator (o operador since: dentro da busca voltou vazio nos runs
+        # 45070655413 e 45070885494); until do ator é exclusivo, como no X
+        p = {"searchTerms": [f"from:{u} -filter:retweets" for u in us], "maxItems": n * len(us), "maxItemsPerTarget": n,
+             "queryType": "Latest"}
+        if etapa != "teste":
+            p["since"] = desde[:10]
+            if ate:
+                p["until"] = (date.fromisoformat(ate[:10]) + timedelta(days=1)).isoformat()
+        return p
     if ator.startswith("apidojo~"):
         p = {"usernames": us, "maxItems": n * len(us)}
         if etapa != "teste":
