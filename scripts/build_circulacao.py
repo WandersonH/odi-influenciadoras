@@ -15,6 +15,7 @@ Saídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatístic
 from __future__ import annotations
 
 import csv
+import html
 import json
 import os
 import sys
@@ -46,7 +47,7 @@ def coletar_youtube(chave):
         estimativas[t] = d.get("pageInfo", {}).get("totalResults")
         for it in d.get("items", []):
             v = vids.setdefault(it["id"]["videoId"], {"video_id": it["id"]["videoId"], "canal_id": it["snippet"]["channelId"],
-                                                       "canal": it["snippet"]["channelTitle"], "titulo": it["snippet"]["title"],
+                                                       "canal": html.unescape(it["snippet"]["channelTitle"]), "titulo": html.unescape(it["snippet"]["title"]),
                                                        "publicado_em": it["snippet"]["publishedAt"], "termos": []})
             v["termos"].append(t)
     ids = list(vids)

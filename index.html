@@ -43,6 +43,7 @@
     <h1>Quatro influenciadoras muçulmanas brasileiras e o acordo de desarmamento do Hamas.<br><em>Linha de base de 01/06 a 22/07/2026; núcleo de 23/07 a 14/08/2026.</em></h1>
     <p>Em 31/07/2026 o Hamas declarou aceitar o desarmamento gradual. Este caderno mostra, para cada influenciadora e rede, quanto a plataforma informa que existe, quanto foi lido e até onde a leitura chegou.</p></div>
   <div class="kpigrid" id="p1Kpis"></div>
+  <div id="p1Destaques"></div>
   <div class="card" style="margin-top:17px"><div class="eyebrow">Universo e amostra</div><h2 class="tk-h2">Quanto existe, quanto foi lido e como</h2>
     <div class="tablewrap"><table class="datatable" id="p1Tabela"></table></div>
     <p class="inf-nota">X: as quatro contas estão paradas no X — o post mais recente de cada uma é anterior ao recorte (Mariam 2016, Carima 2020, Fabíola 06/2025, Hyatt 10/2025), conferido sem filtro de data no run 45070964861. Linhas de Instagram e TikTok: "lidos" = publicações no período, com o filtro de data do ator. O Instagram não informa o total de publicações do perfil (⛔). Universo = total de vídeos que o próprio YouTube ou TikTok informa para o perfil (toda a vida da conta), com a data da leitura. Cobertura <b>completa</b> só quando a leitura parou pela data inicial da linha de base; <b>parcial ⛔</b> quando parou no limite. Universo que a plataforma não informa aparece como ⛔ e nunca é estimado. Redes sem perfil confirmado não são coletadas.</p></div>
@@ -77,6 +78,7 @@
   <div class="paper-ribbon"><span>CADERNO 05 / COMENTÁRIOS</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Só agregados no público</div><h1>Quanto se comentou e em que tom.</h1>
     <p>Volume, contador da plataforma × comentários lidos, intolerância (islamofobia, antissemitismo), posição do comentarista, CHD e similitude. Texto e autor ficam só no repositório privado.</p></div>
+  <div id="p5Destaque"></div>
   <div class="card" id="p5Corpo"></div>
 </section>
 
@@ -93,13 +95,14 @@
     <p>Interesse de busca no Brasil e por estado; matérias de 30/07 a 07/08 e os termos que definiram as palavras-chave.</p></div>
   <div class="card" id="p7Corpo"></div>
   <div class="card" id="p7Checagens"></div>
-  <div class="card"><div class="eyebrow">Imprensa</div><div class="inf-vazio">⛔ Matérias ainda não coletadas.</div></div>
+  <div class="card" id="p7Imprensa"></div>
 </section>
 
 <section class="panel" id="redes" aria-label="Redes">
   <div class="paper-ribbon"><span>CADERNO 08 / REDES</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Gephi · ForceAtlas 2 e OpenOrd</div><h1>Quem se conecta a quem.</h1>
     <p>Comunidades por Modularity (Louvain, resolução 1,0, semente 42), polarização pelo índice E-I de Krackhardt e Stern. Download em GEXF, GraphML e NodeXL, como nos casos do ODI Atlas.</p></div>
+  <div class="card" id="p8Circ"></div>
   <div class="card" id="p8Corpo"></div>
 </section>
 
@@ -112,17 +115,8 @@
 
 <section class="panel" id="metodo" aria-label="Método">
   <div class="paper-ribbon"><span>CADERNO 10 / MÉTODO, FONTES E SAÚDE DA COLETA</span><span>—</span></div>
-  <div class="intro"><div class="eyebrow">Como foi feito</div><h1>Pergunta, recorte, coleta e limites.</h1></div>
-  <div class="card"><div class="eyebrow">Pergunta</div><h2 class="tk-h2">O que o estudo quer saber</h2>
-    <p>Se quatro influenciadoras muçulmanas brasileiras se posicionaram sobre o acordo de desarmamento gradual aceito pelo Hamas em 31/07/2026, com que grau de interação, e quem falou delas no período.</p></div>
-  <div class="card"><div class="eyebrow">Regras herdadas do ODI Atlas</div><h2 class="tk-h2">Universo, amostra e privacidade</h2>
-    <ul class="inf-nota" style="font-size:12.5px">
-      <li>Toda amostra aparece com o universo; universo não informado é ⛔, nunca estimado.</li>
-      <li>Cobertura completa só quando a leitura parou pela data inicial do período.</li>
-      <li>Só perfil confirmado por pessoa é coletado.</li>
-      <li>Menções de terceiros e comentários: texto e autor só no repositório privado; ao público, contagens.</li>
-      <li>Coleta paga só com teto autorizado; o custo não aparece nesta página.</li>
-    </ul></div>
+  <div class="intro"><div class="eyebrow">Como foi feito</div><h1>Pergunta, recorte, desenho, coleta, análises e limites.</h1><p>Método e metodologia no mesmo desenho dos casos do ODI Atlas, a partir do plano aprovado em 22/11/2026. Cada desvio da execução está registrado no CHANGELOG do repositório.</p></div>
+  <div id="p10Metodo"></div>
   <div class="card"><div class="eyebrow">Saúde da coleta</div><h2 class="tk-h2">Última execução por fonte</h2><div class="tablewrap"><table class="datatable" id="p10Saude"></table></div></div>
 </section>
 </main></div>
@@ -380,10 +374,73 @@ async function dizem(rede) {
         <p class="inf-nota">Consultas: ${MC.consultas.map(c => `${esc(c.consulta)} (${c.lidos})`).join(" · ")}. O estudo não dá veredito: o rótulo é o da agência. Nome de pessoa comum em "quem disse" é omitido.</p>`;
   }
 
+  // Estatísticas de rede no formato do ODI Atlas (painel Statistics do Gephi)
+  const ROT_EST = {nos: "Nós", arestas: "Arestas", densidade: "Densidade", grau_medio: "Grau médio", grau_ponderado_medio: "Grau ponderado médio", componentes: "Componentes",
+    pct_nos_maior_componente: "% de nós no maior componente", clustering_medio: "Clustering médio", assortatividade_grau: "Assortatividade de grau",
+    diametro_maior_componente: "Diâmetro (maior componente)", caminho_medio_maior_componente: "Caminho médio (maior componente)", modularidade_q: "Modularidade Q (Louvain)",
+    comunidades: "Comunidades", pct_maior: "% de nós na maior", pct_segunda: "% na segunda", pct_terceira: "% na terceira", polarizacao_ei_2_maiores: "E-I das duas maiores (−1 bolhas · +1 cruzado)",
+    gc_modularidade_q: "Q no maior componente", gc_polarizacao_ei_2_maiores: "E-I no maior componente"};
+  const tabEstat = R => { const e_ = R.estatisticas_atlas || {}, cent = R.centralidades || [], coms = R.comunidades_atlas || [];
+    const medidas = [...new Set(cent.map(c => c.medida))];
+    return `<h2 class="tk-h2" style="margin-top:18px">Estatísticas (as do Gephi, calculadas como no ODI Atlas)</h2>
+      <div class="tablewrap"><table class="datatable"><tbody>${Object.entries(ROT_EST).filter(([k]) => e_[k] != null).map(([k, r]) => `<tr><td>${r}</td><td class="inf-num">${typeof e_[k] === "number" ? e_[k].toLocaleString("pt-BR") : esc(e_[k])}</td></tr>`).join("")}</tbody></table></div>
+      ${coms.length ? `<h2 class="tk-h2" style="margin-top:16px">Comunidades (Louvain, resolução 1,0, semente 42)</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Comunidade</th><th class="inf-num">Nós</th><th class="inf-num">% dos nós</th><th class="inf-num">% do peso interno</th><th>Nós de maior grau</th></tr></thead><tbody>${coms.map(c => `<tr><td>${c.comunidade}</td><td class="inf-num">${n(c.nos)}</td><td class="inf-num">${c.pct_nos}%</td><td class="inf-num">${c.pct_peso_interno ?? "—"}%</td><td>${esc(c.nos_de_maior_grau)}</td></tr>`).join("")}</tbody></table></div>` : ""}
+      ${medidas.length ? `<h2 class="tk-h2" style="margin-top:16px">Centralidades: os 5 maiores por medida</h2><div class="inf-duas">${medidas.map(m => `<div class="card"><div class="eyebrow">${esc(m)}</div><ol style="font-size:12.5px;line-height:1.7;margin:6px 0 0;padding-left:18px">${cent.filter(c => c.medida === m).map(c => `<li>${esc(c.no)} <small style="color:#7d8997">${c.valor.toLocaleString("pt-BR", {maximumFractionDigits: 4})} · com. ${c.comunidade}</small></li>`).join("")}</ol></div>`).join("")}</div>` : ""}`; };
+
+  // Caderno 07: imprensa
+  {
+    const IM = await json("data/imprensa/resultados.json");
+    if (!IM) $("p7Imprensa").innerHTML = `<div class="eyebrow">Imprensa</div>${vazio("⛔ Matérias ainda não coletadas.")}`;
+    else {
+      const recs = [...new Set(IM.consultas.map(c => c.recorte))];
+      $("p7Imprensa").innerHTML = `<div class="eyebrow">Imprensa · Google Notícias · 10 primeiros por termo · coleta de ${dataBR(IM.gerado_em)}</div><h2 class="tk-h2">O que a imprensa publicou, na ordem do Google</h2>
+        ${recs.map(r => `<h2 class="tk-h2" style="margin-top:16px">${r === "dia do anúncio" ? "Dia do anúncio (30/07 a 02/08)" : "Núcleo (23/07 a 14/08)"}</h2>
+          ${IM.consultas.filter(c => c.recorte === r).map(c => `<details ${c.grupo === "tema" && c.consulta.startsWith("Hamas desarmamento") ? "open" : ""} style="margin:6px 0;font-size:12.5px"><summary><b>${esc(c.consulta)}</b> · ${n(c.lidos)} resultado(s)${c.grupo === "influenciadora" && c.lidos ? ' · <span class="inf-sit pend">conferir homônimos</span>' : ""}${c.grupo === "influenciadora" && !c.lidos ? " · nenhuma matéria" : ""}</summary>
+            ${c.resultados.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>#</th><th>Data</th><th>Veículo</th><th>Título</th></tr></thead><tbody>${c.resultados.map(x => `<tr><td>${x.posicao}</td><td>${x.publicado_em ? dataBR(x.publicado_em) : "—"}</td><td>${esc(x.veiculo)}</td><td><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.titulo)}</a></td></tr>`).join("")}</tbody></table></div>` : ""}</details>`).join("")}`).join("")}
+        <p class="inf-nota">${esc(IM.metodo)} Universo: ${esc(IM.universo)}. Nas buscas pelos nomes, os resultados de "Fabíola Oliveira" são de outras pessoas com o mesmo nome (homônimos): nenhuma matéria cita as influenciadoras.</p>`;
+    }
+  }
+
+  // Caderno 08: circulação do caso Hamas
+  {
+    const CI = await json("data/redes/circulacao_hamas.json");
+    if (!CI) $("p8Circ").innerHTML = vazio("⛔ Rede de circulação ainda não gerada.");
+    else {
+      const D_ = CI.desenho, corT = {"canal do YouTube": "#c4302b", "veículo de imprensa": "#165ebd", termo: "#172238"}, mx = D_ ? Math.max(1, ...D_.nos.map(x => x.n)) : 1;
+      $("p8Circ").innerHTML = `<div class="eyebrow">Rede de circulação do caso Hamas · 30/07 a 02/08/2026 · YouTube e imprensa</div><h2 class="tk-h2">Quem publicou sobre o acordo no dia do anúncio</h2>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Vídeos no YouTube</div><div class="kval">${n(CI.youtube.videos)}</div><div class="knote">${n(CI.youtube.canais)} canais · universo ⛔ (busca sem total)</div></div><div class="kpi"><div class="klabel">Notícias</div><div class="kval">${n(CI.imprensa.noticias)}</div><div class="knote">${n(CI.imprensa.veiculos)} veículos · 10 primeiros do Google por termo</div></div><div class="kpi"><div class="klabel">Influenciadoras na rede</div><div class="kval">${CI.influenciadoras_na_rede.length ? n(CI.influenciadoras_na_rede.length) : "0"}</div><div class="knote">${CI.influenciadoras_na_rede.length ? esc(CI.influenciadoras_na_rede.map(a => nomes[a]).join(", ")) : "nenhum canal delas publicou sobre o acordo"}</div></div></div>
+        ${D_ ? `<div style="margin-top:14px">${desenhaRede(D_.nos, D_.arestas, nd => corT[nd.tipo] || "#7d8997", nd => (nd.tipo === "termo" ? 9 : 2.5 + 10 * Math.sqrt(nd.n / mx)).toFixed(1), nd => nd.rotulo)}</div>
+          <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.entries(corT).map(([k, c]) => `<span><b style="display:inline-block;width:10px;height:10px;border-radius:50%;background:${c};margin-right:6px"></b>${k}</span>`).join("")}</div>` : ""}
+        <h2 class="tk-h2" style="margin-top:16px">Canais de maior audiência</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Canal</th><th class="inf-num">Inscritos</th><th class="inf-num">Visualizações</th><th>Vídeo</th></tr></thead><tbody>${CI.top_canais.map(t => `<tr><td>${esc(t.canal)}</td><td class="inf-num">${n(t.inscritos)}</td><td class="inf-num">${n(t.visualizacoes)}</td><td>${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.titulo)}</a>` : "—"}</td></tr>`).join("")}</tbody></table></div>
+        ${tabEstat(CI)}
+        <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/circulacao_hamas.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/circulacao_hamas.graphml" download>GraphML</a> · <a href="data/redes/circulacao_estatisticas.csv" download>estatísticas (CSV)</a> · <a href="data/redes/circulacao_centralidades.csv" download>centralidades (CSV)</a> · <a href="data/redes/circulacao_comunidades.csv" download>comunidades (CSV)</a></p>
+        <p class="inf-nota">${esc(CI.metodo)} Canais com menos de 10 mil inscritos aparecem como código (P0001…), como nos casos do Atlas.</p>`;
+    }
+  }
+
+  // Caderno 10: método
+  {
+    const MT10 = await json("data/config/metodologia.json");
+    const tab = t => `<div class="tablewrap" style="margin-top:10px"><table class="datatable"><thead><tr>${t.cab.map(c => `<th>${esc(c)}</th>`).join("")}</tr></thead><tbody>${t.linhas.map(l => `<tr>${l.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    $("p10Metodo").innerHTML = !MT10 ? vazio("⛔ Metodologia não encontrada.") : MT10.secoes.map(sec => `<div class="card"><h2 class="tk-h2">${esc(sec.titulo)}</h2>
+      ${(sec.paragrafos || []).map(p => `<p style="font-size:13.5px;line-height:1.65;color:#273447">${p}</p>`).join("")}
+      ${sec.tabela ? tab(sec.tabela) : ""}
+      ${sec.lista ? `${sec.lista_titulo ? `<p style="font-size:13px;margin:14px 0 4px"><b>${esc(sec.lista_titulo)}</b></p>` : ""}<ul style="font-size:13px;line-height:1.65;color:#273447;padding-left:20px">${sec.lista.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</div>`).join("") + `<p class="inf-nota">${esc(MT10.fonte)}</p>`;
+  }
+
   // Caderno 05: comentários (só contagens)
   {
     const CM = {};
     for (const r of ["youtube", "instagram", "tiktok"]) CM[r] = await json(`data/comentarios/${r}_resumo.json`);
+    const yt = CM.youtube && CM.youtube.por_influenciadora["mariam-chami"];
+    if (yt) {
+      const t_ = yt.temas, dest = `<div class="card" style="margin-top:17px;border-left:5px solid #9c2b20;background:#fff8f6"><div class="eyebrow" style="color:#9c2b20">Destaque · comentários</div>
+        <h2 class="tk-h2">Elas não falaram do acordo; parte do público levou o tema para elas</h2>
+        <p style="font-size:14px;line-height:1.65;color:#273447;margin:6px 0 0">No YouTube da Mariam Chami, entre ${n(yt.lidos)} comentários lidos dos vídeos do núcleo (universo de ${n(yt.universo)}), <b>${n(t_.islamofobia_preconceito || 0)}</b> tocam em islamofobia e preconceito, <b>${n(t_.israel_guerra || 0)}</b> em Israel e guerra, <b>${n(t_.gaza_palestina || 0)}</b> em Gaza e Palestina e <b>${n(t_.acordo_hamas || 0)}</b> no acordo — embora nenhum dos 16 vídeos trate do tema, nem na fala transcrita. No Instagram e no TikTok das quatro o movimento é menor (detalhes no caderno 05).</p>
+        <p class="inf-nota">Leitura automática pelo dicionário de temas, antes da codificação humana; texto e autor dos comentários ficam só no repositório privado.</p></div>`;
+      $("p5Destaque").innerHTML = dest;
+      $("p1Destaques").innerHTML = dest;
+    }
     const temaRot = {acordo_hamas: "Acordo/Hamas", gaza_palestina: "Gaza e Palestina", israel_guerra: "Israel e guerra", islamofobia_preconceito: "Islamofobia e preconceito"};
     const blocos = Object.entries(CM).map(([r, C]) => {
       if (!C) return `<h2 class="tk-h2" style="margin-top:18px">${REDES[r]}</h2>${vazio("⛔ Comentários ainda não coletados nesta rede.")}`;
@@ -414,7 +471,7 @@ async function dizem(rede) {
   }
 
   // Cadernos 08 e 09: rede e corpus
-  const desenhaRede = (nos, arestas, cor, raio, rot, W = 900, H = 560) => {
+  function desenhaRede(nos, arestas, cor, raio, rot, W = 900, H = 560) {
     if (!nos.length) return "";
     const xs = nos.map(n => n.x), ys = nos.map(n => n.y), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
     const X = x => 30 + (x - x0) / Math.max(1e-6, x1 - x0) * (W - 60), Y = y => 30 + (y - y0) / Math.max(1e-6, y1 - y0) * (H - 60);
@@ -425,7 +482,7 @@ async function dizem(rede) {
     nos.forEach(nd => g += `<circle cx="${X(nd.x)}" cy="${Y(nd.y)}" r="${Number(raio(nd))}" fill="${cor(nd)}" fill-opacity=".85"><title>${esc(rot(nd))}</title></circle>`);
     nos.forEach(nd => { const r_ = Number(raio(nd)); if (r_ >= 5) g += `<text x="${(X(nd.x) + r_ + 3).toFixed(1)}" y="${(Y(nd.y) + 3).toFixed(1)}" fill="#273447" style="paint-order:stroke;stroke:#fbfdff;stroke-width:3px">${esc(rot(nd))}</text>`; });
     return g + "</svg>";
-  };
+  }
   {
     const R8 = await json("data/redes/marcacoes.json");
     if (!R8) $("p8Corpo").innerHTML = vazio("⛔ Rede ainda não gerada.");
@@ -438,7 +495,8 @@ async function dizem(rede) {
         <p class="inf-nota">Círculos escuros: as influenciadoras. Cores: comunidades (Louvain). Espessura da linha: número de publicações. Desenho para leitura rápida; a análise de referência é no Gephi (ForceAtlas 2, Modularity 1,0) com o arquivo abaixo.</p>
         <h2 class="tk-h2" style="margin-top:18px">Marcações e hashtags partilhadas por 2 ou mais</h2>
         <div class="tablewrap"><table class="datatable"><thead><tr><th>@ ou #</th><th>Usado por</th></tr></thead><tbody>${R8.partilhados.map(p => `<tr><td>${esc(p.no)}</td><td>${esc(p.influenciadoras.join(", "))}</td></tr>`).join("") || '<tr><td colspan="2">nenhum</td></tr>'}</tbody></table></div>
-        <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/marcacoes.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/marcacoes.graphml" download>GraphML</a> · <a href="data/redes/marcacoes_nos.csv" download>nós (CSV, NodeXL)</a> · <a href="data/redes/marcacoes_arestas.csv" download>arestas completas, sem corte (CSV)</a></p>
+        ${tabEstat(R8)}
+        <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/marcacoes.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/marcacoes.graphml" download>GraphML</a> · <a href="data/redes/marcacoes_nos.csv" download>nós (CSV, NodeXL)</a> · <a href="data/redes/marcacoes_arestas.csv" download>arestas completas, sem corte (CSV)</a> · <a href="data/redes/estatisticas_redes.csv" download>estatísticas (CSV)</a> · <a href="data/redes/centralidades_redes.csv" download>centralidades (CSV)</a> · <a href="data/redes/comunidades_redes.csv" download>comunidades (CSV)</a></p>
         <p class="inf-nota">${esc(R8.metodo)}</p>
         <div class="inf-vazio" style="margin-top:12px">⛔ Ainda não geradas: a rede de quem cita quem nas menções de terceiros (depende da revisão de homônimos) e a de comentaristas (depende da coleta de comentários). O índice E-I de polarização só faz sentido nessas duas.</div>`;
     }

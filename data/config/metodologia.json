@@ -1,0 +1,319 @@
+{
+ "titulo": "Método e metodologia",
+ "fonte": "Plano aprovado pelo responsável em 22/11/2026 (documento 'ODI Influenciadoras — Plano de coleta, método e páginas'), mesmo desenho dos casos do ODI Atlas (data/config/metodologia_casos.json de lá). Desvios da execução registrados ao fim de cada seção e no CHANGELOG.md.",
+ "secoes": [
+  {
+   "titulo": "1. Objeto e pergunta",
+   "paragrafos": [
+    "<b>Pergunta.</b> Quatro influenciadoras muçulmanas brasileiras se posicionaram sobre o anúncio do Hamas, em 31/07/2026, de que aceitava o acordo de desarmamento gradual? Se sim, como, com que engajamento em relação ao normal de cada uma, e como terceiros (podcasts, cortes, imprensa) trataram delas no mesmo período?",
+    "<b>Por que importa.</b> As quatro falam de islã para um público brasileiro majoritariamente não muçulmano, e três exibem 🇵🇸 na bio do TikTok. O acordo é um teste: um fato político que divide a própria comunidade (aceitação, ceticismo, rejeição). Medir se e como falam, e quanto isso engaja, mostra o limite entre a influência sobre cultura e religião e a tomada de posição política.",
+    "<b>O evento.</b> Trump anunciou o acordo na noite de 30/07; o Hamas confirmou a aceitação em 31/07. O acordo prevê desarmamento gradual, armas sob um comitê palestino (NCAG) e retirada progressiva de Israel. Fontes: <a href='https://www.opovo.com.br/noticias/mundo/2026/07/31/hamas-aceita-acordo-para-seu-desarmamento-e-retirada-de-israel-de-gaza.html' target='_blank' rel='noopener'>AFP via O Povo</a>; <a href='https://pbs.org/newshour/world/hamas-says-it-will-disarm-if-israel-halts-strikes-and-withdraws-from-gaza-but-obstacles-remain' target='_blank' rel='noopener'>AP via PBS</a>."
+   ],
+   "lista_titulo": "Hipóteses de trabalho (a testar, não a confirmar)",
+   "lista": [
+    "H1 — O posicionamento sai mais por stories e vídeo curto do que pelo feed.",
+    "H2 — Posts sobre Gaza engajam acima da linha de base de cada uma e atraem mais comentários hostis (islamofobia, antissemitismo) que os posts de cultura.",
+    "H3 — Quem já tem o tema organizado (Fabíola: listas 'Palestina' e 'Sionismo' no TikTok) se posiciona mais cedo e de modo mais explícito."
+   ]
+  },
+  {
+   "titulo": "2. Recorte",
+   "tabela": {
+    "cab": [
+     "Janela",
+     "Período (UTC)",
+     "Para quê"
+    ],
+    "linhas": [
+     [
+      "Linha de base",
+      "01/06 a 22/07/2026",
+      "Engajamento típico de cada perfil, régua do índice do caderno 04"
+     ],
+     [
+      "Núcleo",
+      "23/07 a 14/08/2026",
+      "Uma semana antes do anúncio e duas depois: expectativa, dia e repercussão"
+     ],
+     [
+      "Terceiros",
+      "23/07 a 14/08/2026",
+      "Só o núcleo (decisão do responsável, 22/11/2026)"
+     ]
+    ]
+   },
+   "paragrafos": [
+    "Uma semana antes porque o acordo foi negociado em público durante julho; duas depois porque é o ciclo de repercussão de um fato internacional. Perfis: só entra na coleta o endereço confirmado por uma pessoa, com a fonte registrada em data/config/atores.json (YouTube, Instagram, TikTok e X das quatro, confirmados pelo responsável em 22/11/2026)."
+   ]
+  },
+  {
+   "titulo": "3. Desenho amostral, universo e amostra",
+   "tabela": {
+    "cab": [
+     "Frente",
+     "Desenho",
+     "Universo (o que a plataforma informa)",
+     "Cobertura"
+    ],
+    "linhas": [
+     [
+      "Publicações das quatro",
+      "Censo da janela: todo post de cada perfil confirmado entre 01/06 e 14/08",
+      "Total de publicações do perfil (YouTube e TikTok informam; Instagram ⛔; X: statusesCount)",
+      "Completa só quando a leitura parou pela data inicial, não pelo limite"
+     ],
+     [
+      "Comentários",
+      "Todas as publicações do núcleo: YouTube completo (API); Instagram e TikTok até 50 por publicação",
+      "Contador de comentários de cada publicação (Instagram ⛔)",
+      "Lido ÷ contador, por publicação"
+     ],
+     [
+      "Terceiros",
+      "Amostra não probabilística por nome e @ (YouTube, X)",
+      "⛔ desconhecido: as buscas não informam total real",
+      "Aviso quando a busca bate no limite"
+     ],
+     [
+      "Imprensa",
+      "10 primeiros resultados do Google Notícias por termo e recorte",
+      "⛔ o Google não informa o total",
+      "Posição na ordem do Google, na data da coleta"
+     ],
+     [
+      "Trends",
+      "Índice relativo 0–100 por consulta",
+      "Não é volume",
+      "—"
+     ]
+    ]
+   },
+   "lista_titulo": "Regras herdadas do ODI Atlas e do ODI Espanha",
+   "lista": [
+    "Toda amostra aparece com o universo, a fonte do universo e o percentual lido. Universo não informado é ⛔, nunca estimado nem zero.",
+    "Dado ausente é bloqueio (⛔), não sucesso.",
+    "Percentuais de análise valem para a amostra lida, não para o universo.",
+    "Manifesto por execução (data/manifest): pedido, lido, cobertura, erro e custo. O custo nunca aparece na página.",
+    "Busca por termo: filtro posterior pelo texto; homônimos em conferência humana, nunca no dado.",
+    "Limite declarado da busca por termo: o que é dito sobre elas sem o nome ou o @ fica de fora (Tufekci, 2014)."
+   ]
+  },
+  {
+   "titulo": "4. Coleta",
+   "tabela": {
+    "cab": [
+     "Rede",
+     "Fonte",
+     "O que foi lido",
+     "Situação"
+    ],
+    "linhas": [
+     [
+      "YouTube",
+      "YouTube Data API v3 (grátis)",
+      "Canal, vídeos da base e do núcleo, todos os comentários dos vídeos do núcleo, menções de terceiros (search.list)",
+      "Coletado"
+     ],
+     [
+      "Instagram",
+      "Apify esdrasdw~instagram-content-scraper",
+      "Posts e reels da janela (legenda, data, curtidas, visualizações dos reels)",
+      "Coletado; o ator não devolve nº de comentários nem total de posts (⛔)"
+     ],
+     [
+      "Instagram, comentários",
+      "Apify datadoping~instagram-comments-and-replies-scraper",
+      "Até 50 por publicação do núcleo, ordem popular",
+      "Coletado"
+     ],
+     [
+      "TikTok",
+      "Apify clockworks~tiktok-scraper",
+      "Vídeos da janela (legenda, data, plays, curtidas, comentários, compartilhamentos)",
+      "Coletado"
+     ],
+     [
+      "TikTok, comentários",
+      "Apify clockworks~tiktok-comments-scraper",
+      "Até 50 por vídeo do núcleo",
+      "Coletado"
+     ],
+     [
+      "X",
+      "Apify xquik~x-tweet-scraper",
+      "Posts das quatro e menções por nome e @",
+      "As quatro contas estão paradas no X (último post antes do recorte)"
+     ],
+     [
+      "Transcrição",
+      "yt-dlp + faster-whisper (small), no GitHub; áudio do YouTube baixado pelo responsável (o YouTube bloqueia o GitHub)",
+      "Fala de 73 dos 74 vídeos do núcleo",
+      "Coletado"
+     ],
+     [
+      "Google Trends",
+      "Coletor do ODI Atlas",
+      "Brasil, 01/06 a 14/08 e só o núcleo: tópicos, palavras do tema e nomes",
+      "Coletado"
+     ],
+     [
+      "Imprensa",
+      "Google Notícias (RSS)",
+      "10 primeiros por termo: dia do anúncio (30/07–02/08) e núcleo",
+      "Coletado"
+     ],
+     [
+      "Checagens",
+      "Google Fact Check Tools API",
+      "Checagens sobre o tema e sobre as quatro desde 01/06",
+      "Coletado"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "5. Palavras-chave e dicionário de temas",
+   "paragrafos": [
+    "Nas publicações das quatro os termos não filtram a coleta (ela é censo): marcam o que trata do tema. Em terceiros e na imprensa, filtram. Dicionário aberto por regras (data/config/temas.json, versão v0, rascunho a validar), aplicado à legenda e à fala transcrita; termo com * casa por prefixo; termos em árabe e emojis são buscados literalmente."
+   ],
+   "tabela": {
+    "cab": [
+     "Família",
+     "Termos",
+     "Por que"
+    ],
+    "linhas": [
+     [
+      "Núcleo do evento",
+      "Hamas; desarmamento; acordo de paz; cessar-fogo; trégua; حماس; نزع السلاح",
+      "Nomeiam o fato de 31/07; separam o acordo da cobertura geral da guerra"
+     ],
+     [
+      "Tema amplo",
+      "Gaza; Palestina; genocídio; Israel; sionismo; guerra; ocupação; 🍉; 🇵🇸",
+      "Captam posicionamento que não cita o acordo; nunca somados ao núcleo"
+     ],
+     [
+      "Contexto",
+      "Islã; muçulmana; hijab; islamofobia; terrorismo; preconceito",
+      "Separam o tema religioso e identitário do político"
+     ],
+     [
+      "Controle",
+      "Moda; família; culinária; publicidade; viagem",
+      "Mostram do que elas falam quando não falam do tema"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "6. Classificação (Bardin)",
+   "paragrafos": [
+    "Cada publicação do núcleo recebe códigos de um livro de códigos, codificado por pessoas; a máquina só faz a pré-codificação. Amostra estratificada por influenciadora e rede, sorteada uma vez com semente fixa; dois codificadores cegos; concordância por kappa de Cohen, meta κ ≥ 0,70; divergências resolvidas por um terceiro. Nos comentários, o livro de intolerância do ODI Atlas com islamofobia e antissemitismo, e a posição do comentarista (apoio, ataque, debate, sem relação). <b>Estado: ⛔ codificação humana ainda não feita</b>; os cadernos 02 e 05 mostram só a leitura automática."
+   ],
+   "tabela": {
+    "cab": [
+     "Dimensão",
+     "Categorias"
+    ],
+    "linhas": [
+     [
+      "A. Menção",
+      "Cita o acordo de 31/07 · fala de Gaza/Palestina sem citar o acordo · menção não política · sem relação"
+     ],
+     [
+      "B. Posição (A = acordo ou Gaza)",
+      "Favorável · cética ou crítica · contrária · informativa · humanitária sem posição"
+     ],
+     [
+      "C. Enquadramento",
+      "Religioso · político-diplomático · humanitário · identitário · denúncia de islamofobia ou da mídia"
+     ],
+     [
+      "D. Formato",
+      "Fala própria · repost ou dueto · só legenda com emoji/hashtag · convite a doação ou ato"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "7. Análises",
+   "paragrafos": [
+    "<b>Engajamento relativo (caderno 04).</b> Índice = interações da publicação ÷ mediana das interações da mesma influenciadora, na mesma rede, na linha de base. Mediana, e não média, para que um viral antigo não distorça a régua. Interações = o que cada rede informa (YouTube: curtidas + comentários; Instagram: curtidas; TikTok e X: curtidas + comentários + compartilhamentos). Linha de base com menos de 3 publicações: ⛔.",
+    "<b>Redes (caderno 08).</b> Pacote do ODI Atlas: rede de marcações e hashtags das quatro e rede de circulação do caso Hamas no dia do anúncio (redes_caso.circulacao: quem publicou × termo; peso = visualizações). Estatísticas do painel do Gephi (estatisticas_redes.py): densidade, grau, componentes, clustering, diâmetro, assortatividade; Modularity por Louvain (Blondel et al., 2008), resolução 1,0, semente 42; E-I de Krackhardt e Stern (1988) entre as duas maiores comunidades; top 5 por grau, PageRank, intermediação e autovetor. ForceAtlas 2 para comunidades e OpenOrd para polarização, no Gephi, com os GEXF da página. Uma comunidade não é, sozinha, uma bolha; citar ou marcar não é apoiar.",
+    "<b>IRaMuTeQ (caderno 09).</b> Corpus no formato do IRaMuTeQ (**** *infl_ *rede_ *janela_ *fala_), legenda + fala transcrita. CHD de Reinert (1990) pelo chd_reinert.py do ODI Atlas, com o lexique_pt.txt do IRaMuTeQ (o mesmo do Atlas), classe mínima de 5%, χ² ≥ 3,84; aproveitamento mínimo de referência de 75% (Camargo & Justo, 2013). Análise de similitude (Marchand & Ratinaud, 2012): árvore máxima de coocorrência das 100 formas mais frequentes. Validação: o mesmo corpus no IRaMuTeQ desktop."
+   ]
+  },
+  {
+   "titulo": "8. Ética e privacidade",
+   "lista": [
+    "As quatro aparecem com nome: perfis públicos de criadoras de conteúdo (80 mil a 2,3 milhões de seguidores no TikTok).",
+    "Comentaristas e terceiros com menos de 10 mil seguidores só como código; texto e autor ficam no repositório privado.",
+    "Nada de dado sensível inferido: religião e origem só como as próprias se declaram.",
+    "Homônimos fora do dado até conferência humana.",
+    "Comitê de ética: pesquisa com dados públicos costuma dispensar o CEP (Resolução CNS 510/2016), mas a decisão é do PPGCOM — a confirmar antes de publicar."
+   ]
+  },
+  {
+   "titulo": "9. Limites",
+   "tabela": {
+    "cab": [
+     "Limite",
+     "Efeito",
+     "Como é tratado"
+    ],
+    "linhas": [
+     [
+      "Stories de 24 h não são recuperáveis",
+      "Ausência no feed não prova silêncio",
+      "Dito no caderno 02"
+     ],
+     [
+      "Posts apagados ou arquivados depois de 31/07",
+      "Subcontagem do posicionamento",
+      "Declarado; sem forma de recuperar"
+     ],
+     [
+      "Contadores lidos em novembro",
+      "Engajamento acumulado em ~4 meses",
+      "Linha de base lida na mesma data: comparação justa"
+     ],
+     [
+      "Busca de terceiros e imprensa sem total",
+      "Universo ⛔",
+      "Lido e limite registrados por busca"
+     ],
+     [
+      "Instagram sem nº de comentários",
+      "Índice do Instagram só com curtidas",
+      "Declarado no caderno 04"
+     ],
+     [
+      "Transcrição automática",
+      "Erros de escuta",
+      "Trechos mostrados com contexto; leitura humana antes de interpretar"
+     ],
+     [
+      "Árabe fora do IRaMuTeQ",
+      "CHD só em português",
+      "Declarado"
+     ]
+    ]
+   }
+  },
+  {
+   "titulo": "Referências",
+   "lista": [
+    "BARDIN, Laurence. Análise de conteúdo. São Paulo: Edições 70, 2011.",
+    "BLONDEL, Vincent D. et al. Fast unfolding of communities in large networks. Journal of Statistical Mechanics, 2008.",
+    "CAMARGO, Brígido V.; JUSTO, Ana M. IRaMuTeQ: um software gratuito para análise de dados textuais. Temas em Psicologia, v. 21, n. 2, 2013.",
+    "KRACKHARDT, David; STERN, Robert N. Informal networks and organizational crises. Social Psychology Quarterly, v. 51, n. 2, 1988.",
+    "MARCHAND, Pascal; RATINAUD, Pierre. L'analyse de similitude appliquée aux corpus textuels. JADT, 2012.",
+    "MELLON, Jonathan. Internet search data and issue salience. Journal of Elections, Public Opinion and Parties, v. 24, n. 1, 2014.",
+    "RECUERO, Raquel. Introdução à análise de redes sociais online. Salvador: EDUFBA, 2017.",
+    "REINERT, Max. Alceste, une méthodologie d'analyse des données textuelles. Bulletin de Méthodologie Sociologique, n. 26, 1990.",
+    "TUFEKCI, Zeynep. Big questions for social media big data. ICWSM, 2014."
+   ]
+  }
+ ]
+}

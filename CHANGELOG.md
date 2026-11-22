@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: imprensa, rede de circulação do caso Hamas, estatísticas na página, destaques e método completo
+
+**Imprensa** (`collect_imprensa.py`, run 45076870902, sem custo): os 10 primeiros do Google Notícias (RSS, Brasil) para 6 termos do tema e para os 4 nomes, em dois recortes: dia do anúncio (30/07 a 02/08) e núcleo. No dia do anúncio aparecem G1, BBC, CNN Brasil, Folha, Agência Brasil e Brasil de Fato. Nenhuma matéria cita Mariam, Hyatt ou Carima; os resultados de "Fabíola Oliveira" são de homônimos. Universo ⛔.
+
+**Rede de circulação** (`build_circulacao.py`, mesmo run, cerca de 404 unidades de cota): YouTube search.list de 30/07 a 02/08 em 4 termos, com 87 vídeos de 60 canais (CBN News, Rede Gospel, BBC News, Band Jornalismo, SBT News, Jovem Pan…), mais 55 notícias de 22 veículos. Rede pela `redes_caso.circulacao()` do Atlas: 92 nós, 189 arestas, Q 0,234, 3 comunidades. Nenhum canal das influenciadoras está na rede. Pedido do responsável às 19h14.
+
+**Página.** O caderno 07 ganhou a seção de imprensa (por recorte e termo, com alerta de homônimos). O caderno 08 ganhou a circulação (desenho, canais de maior audiência, estatísticas, comunidades, centralidades e downloads) e as estatísticas do Atlas na rede de marcações. Os cadernos 01 e 05 ganharam um destaque dos comentários (o público levou o tema ao YouTube da Mariam). O caderno 10 foi reescrito com o método completo (`data/config/metodologia.json`, a partir do plano aprovado): pergunta, hipóteses, recorte, desenho amostral, coleta e situação real de cada frente, dicionário, livro de códigos, análises, ética, limites e referências. Pedidos do responsável às 19h14 e 19h15.
+
+**Correções.** Erro de ordem no script (função usada antes de definida) deixava em branco os cadernos a partir do 08 na versão local; títulos do YouTube com entidades HTML (&#39;).
+
+**Executado.** 34 testes unitários; `node --check`; cadernos 01, 07, 08 e 10 abertos no Chrome headless.
+
 ## 22/11/2026: similitude no desenho do Atlas, estatísticas de rede do Atlas e menções no X refeitas
 
 **Similitude.** O desenho estava quebrado: o raio virava texto e a soma com a posição jogava os rótulos para a margem (apontado pelo responsável às 19h14). Agora segue o desenho do ODI Atlas e do IRaMuTeQ: a palavra é o nó, o tamanho é a frequência, a espessura é a coocorrência e a cor é a influenciadora em que a forma é específica, com halo por comunidade (Louvain). Na cópia de `similitude.py`, a árvore usa Kamada-Kawai, porque o spring amontoava o centro.
