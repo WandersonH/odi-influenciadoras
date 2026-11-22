@@ -250,9 +250,9 @@ async function dizem(rede) {
 
   // Panorama
   if (!M) {
-    $("chipColeta").textContent = "⛔ Nenhuma coleta executada";
+    $("chipColeta").textContent = "⛔ Manifesto do YouTube não lido";
     $("p1Kpis").innerHTML = "";
-    $("p1Tabela").outerHTML = vazio("⛔ Nenhuma coleta executada ainda. A primeira coleta (YouTube, gratuita) roda quando o segredo YOUTUBE_API_KEY estiver cadastrado e o workflow for disparado.");
+    $("p1Tabela").outerHTML = vazio("⛔ A página não conseguiu ler data/manifest/youtube_latest.json. Isso acontece por um ou dois minutos enquanto o GitHub Pages publica uma atualização dos dados: recarregue a página. Se continuar, a coleta do YouTube não está no repositório.");
   } else {
     $("chipColeta").textContent = "● Coletas de 22/11/2026 · ver saúde no caderno 10";
     $("p1Data").textContent = "LEITURA DE " + dataBR(M.gerado_em);

@@ -1,5 +1,9 @@
 # Changelog
 
+## 22/11/2026: mensagem do panorama durante a republicação
+
+O responsável viu, às 20h19, o caderno 01 dizer "Nenhuma coleta executada ainda". O arquivo `data/manifest/youtube_latest.json` estava íntegro no repositório. Na página publicada, conferida no Chrome logo depois, ele foi lido com status 200 e o panorama apareceu normal. A falha foi passageira: três commits seguidos (0caf3bd, 87fa738 e o run de comentários) fizeram o GitHub Pages republicar o site, e a página não leu o manifesto nesse intervalo. A mensagem antiga dizia que não havia coleta, o que era falso. Agora diz que o manifesto não pôde ser lido, explica a republicação e pede para recarregar.
+
 ## 22/11/2026: resultado das recoletas da revisão crítica
 
 - **Acervo do YouTube com título** (run 45081857459, `gratuitas.yml`): 4 de 4 canais lidos; 87 vídeos no acervo, todos com título em `data/youtube/videos.csv`. O workflow regerou o que dizem, o engajamento, as redes e o corpus (o corpus ganhou 240 linhas). Com os títulos, um vídeo da Mariam passa a cair no tema Gaza. Em nenhuma rede há publicação sobre o acordo (0 em YouTube, Instagram e TikTok).
