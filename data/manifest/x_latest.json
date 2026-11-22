@@ -2,13 +2,13 @@
  "rede": "x",
  "etapa": "posts",
  "ator": "xquik~x-tweet-scraper",
- "run_id": "45070655413",
- "gerado_em": "2026-11-22T21:11:22Z",
- "run_apify": "m7C218wrHhwQLD9je",
+ "run_id": "45070885494",
+ "gerado_em": "2026-11-22T21:13:32Z",
+ "run_apify": "dA7hQipCTzgh6dgal",
  "itens_recebidos": 0,
  "teto_etapa_usd": 1.5,
- "gasto_antes_usd": 0.546,
- "cap_por_execucao_usd": 0.954,
+ "gasto_antes_usd": 0.5461,
+ "cap_por_execucao_usd": 0.9539,
  "custo_usd": 0.0001,
  "perfis": [
   {

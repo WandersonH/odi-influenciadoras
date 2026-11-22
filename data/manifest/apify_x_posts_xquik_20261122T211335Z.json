@@ -1,0 +1,69 @@
+{
+ "rede": "x",
+ "etapa": "posts",
+ "ator": "xquik~x-tweet-scraper",
+ "run_id": "45070885494",
+ "gerado_em": "2026-11-22T21:13:32Z",
+ "run_apify": "dA7hQipCTzgh6dgal",
+ "itens_recebidos": 0,
+ "teto_etapa_usd": 1.5,
+ "gasto_antes_usd": 0.5461,
+ "cap_por_execucao_usd": 0.9539,
+ "custo_usd": 0.0001,
+ "perfis": [
+  {
+   "ator": "mariam-chami",
+   "perfil": "eumariamchami",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial)"
+  },
+  {
+   "ator": "hyatt-omar",
+   "perfil": "hyattomar_",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial)"
+  },
+  {
+   "ator": "carima-orra",
+   "perfil": "CarimaOrra",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial)"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "perfil": "fabiola_oliver",
+   "lidos": 0,
+   "universo": null,
+   "universo_fonte": "⛔ não informado pelo ator",
+   "mais_antigo": null,
+   "mais_recente": null,
+   "na_base": 0,
+   "no_nucleo": 0,
+   "cobertura": "completa (parou pela data inicial)"
+  }
+ ],
+ "bruto": "repositório privado",
+ "posts_gravados": {
+  "novos": 0,
+  "total_no_acervo": 0
+ },
+ "erros": []
+}
