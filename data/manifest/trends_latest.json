@@ -290,5 +290,6 @@
   ],
   "blocked": [],
   "run_finished_utc": "2026-11-22T20:28:16Z",
-  "status": "ok"
+  "status": "ok",
+  "pasta": "data/trends/2026-11-22/202626"
 }

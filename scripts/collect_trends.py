@@ -213,6 +213,7 @@ def main(argv=None) -> int:
                 man["blocked"].append(f"{tag}: {c['error']}")
     man["run_finished_utc"] = now_utc()
     man["status"] = "bloqueado" if man["blocked"] else "ok"
+    man["pasta"] = str(outdir.relative_to(root))  # a página estática lê os CSVs desta pasta
     txt = json.dumps(man, ensure_ascii=False, indent=2)
     (outdir / "manifesto.json").write_text(txt, encoding="utf-8")
     (root / "data" / "manifest").mkdir(parents=True, exist_ok=True)

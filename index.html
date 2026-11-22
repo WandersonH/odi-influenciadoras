@@ -81,7 +81,8 @@
   <div class="paper-ribbon"><span>CADERNO 07 / TRENDS E IMPRENSA</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Google Trends · Google Notícias</div><h1>O tamanho do assunto fora das redes delas.</h1>
     <p>Interesse de busca no Brasil e por estado; matérias de 30/07 a 07/08 e os termos que definiram as palavras-chave.</p></div>
-  <div class="card"><div class="inf-vazio">⛔ Ainda não coletado. Coletores de Trends e imprensa são a próxima etapa gratuita.</div></div>
+  <div class="card" id="p7Corpo"></div>
+  <div class="card"><div class="eyebrow">Imprensa</div><div class="inf-vazio">⛔ Matérias ainda não coletadas.</div></div>
 </section>
 
 <section class="panel" id="redes" aria-label="Redes">
@@ -128,7 +129,9 @@ document.querySelectorAll(".navbutton").forEach(b => b.addEventListener("click",
   document.querySelectorAll(".navbutton").forEach(x => x.classList.toggle("active", x === b));
   document.querySelectorAll(".panel").forEach(p => p.classList.toggle("active", p.id === b.dataset.tab));
   window.scrollTo(0, 0);
+  history.replaceState(null, "", "#" + b.dataset.tab);
 }));
+{ const b = location.hash && document.querySelector(`.navbutton[data-tab="${location.hash.slice(1)}"]`); if (b) b.click(); }
 
 function lerCSV(t) {
   const linhas = []; let campo = "", linha = [], aspas = false;
@@ -150,6 +153,10 @@ function lerCSV(t) {
     json("data/manifest/instagram_latest.json"), json("data/manifest/tiktok_latest.json"), texto("data/instagram/posts.csv"), texto("data/tiktok/posts.csv")]);
   const videos = csv ? lerCSV(csv) : [];
   const postsIG = ci ? lerCSV(ci) : [], postsTT = ct ? lerCSV(ct) : [];
+  const [MTr, trI, trT, MtrI, MtrT, MtrY] = await Promise.all([json("data/manifest/trends_latest.json"), texto("data/transcricoes/instagram.csv"), texto("data/transcricoes/tiktok.csv"),
+    json("data/manifest/transcricao_instagram_latest.json"), json("data/manifest/transcricao_tiktok_latest.json"), json("data/manifest/transcricao_youtube_latest.json")]);
+  const fala = {};
+  for (const r of [...(trI ? lerCSV(trI) : []), ...(trT ? lerCSV(trT) : [])]) if (r.status === "ok") fala[r.post_id] = r.texto;
   const apifyOk = m => m && m.etapa === "posts";
   const nomes = Object.fromEntries((atores?.atores || []).map(a => [a.id, a.nome]));
 
@@ -193,8 +200,57 @@ function lerCSV(t) {
     .sort((a, b) => a.publicado_em.localeCompare(b.publicado_em));
   $("p3Corpo").innerHTML = nuc.length ? `<div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th>Publicação</th><th>Legenda</th><th class="inf-num">Visualizações</th><th class="inf-num">Curtidas</th><th class="inf-num">Comentários</th></tr></thead><tbody>${nuc.map(v => `<tr><td>${dataBR(v.publicado_em)}</td><td>${esc(nomes[v.ator_id] || v.ator_id)}</td><td>${v.rede}</td><td><a href="${esc(v.url)}" target="_blank" rel="noopener">abrir</a></td><td style="max-width:420px">${v.texto ? esc(v.texto.slice(0, 220)) + (v.texto.length > 220 ? "…" : "") : "—"}</td><td class="inf-num">${n(v.visualizacoes)}</td><td class="inf-num">${n(v.curtidas)}</td><td class="inf-num">${n(v.comentarios)}</td></tr>`).join("")}</tbody></table></div>` : vazio(M ? "Nenhum vídeo das influenciadoras no núcleo (23/07 a 14/08) na leitura do YouTube." : "⛔ Nenhuma coleta executada ainda.");
 
-  $("p2Corpo").innerHTML = vazio("⛔ Posição ainda não codificada. Depende da coleta das publicações e da validação do livro de códigos (kappa ≥ 0,70).");
+  {
+    const semA = t => (t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    const tema = ["hamas", "desarmamento", "desarmar", "gaza", "palestina", "palestino", "israel", "cessar-fogo", "cessar fogo", "genocidio", "حماس", "غزة", "فلسطين"];
+    const acha = t => tema.filter(k => semA(t).includes(semA(k)));
+    const todos = [
+      ...videos.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "YouTube", post_id: v.video_id, texto: ""})),
+      ...(apifyOk(MI) ? postsIG.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "Instagram"})) : []),
+      ...(apifyOk(MT) ? postsTT.filter(v => v.janela === "nucleo").map(v => ({...v, rede: "TikTok"})) : [])];
+    const linhas = (atores?.atores || []).map(a => {
+      const ps = todos.filter(p => p.ator_id === a.id);
+      const leg = ps.filter(p => acha(p.texto).length), comFala = ps.filter(p => fala[p.post_id] != null), fal = comFala.filter(p => acha(fala[p.post_id]).length);
+      const ytSem = ps.filter(p => p.rede === "YouTube").length;
+      return `<tr><td>${esc(a.nome)}</td><td class="inf-num">${n(ps.length)}</td><td class="inf-num">${n(leg.length)}</td><td class="inf-num">${n(comFala.length)}</td><td class="inf-num">${n(fal.length)}</td><td>${ytSem ? `<span class="inf-sit bloq">⛔ ${ytSem} vídeo(s) do YouTube sem transcrição</span>` : '<span class="inf-sit ok">todas as falas lidas</span>'}</td></tr>`;
+    }).join("");
+    const trechos = todos.filter(p => fala[p.post_id] && acha(fala[p.post_id]).length).map(p => {
+      const t = fala[p.post_id], k = acha(t)[0], i = Math.max(0, semA(t).indexOf(semA(k)) - 140);
+      return `<tr><td>${dataBR(p.publicado_em)}</td><td>${esc(nomes[p.ator_id] || p.ator_id)}</td><td>${p.rede}</td><td><b>${esc(k)}</b></td><td style="max-width:520px">…${esc(t.slice(i, i + 320))}…</td><td><a href="${esc(p.url)}" target="_blank" rel="noopener">abrir</a></td></tr>`;
+    }).join("");
+    $("p2Corpo").innerHTML = `<div class="eyebrow">Leitura automática · antes da codificação humana</div><h2 class="tk-h2">Quem citou o tema no núcleo</h2>
+      <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Publicações no núcleo</th><th class="inf-num">Legenda cita o tema</th><th class="inf-num">Vídeos com fala transcrita</th><th class="inf-num">Fala cita o tema</th><th>Pendência</th></tr></thead><tbody>${linhas}</tbody></table></div>
+      <p class="inf-nota">Termos procurados: ${tema.join(", ")}. Transcrição automática (Whisper small), sujeita a erro de escuta. Uma menção não é posição: a posição só é atribuída depois da codificação humana com o livro de códigos (kappa ≥ 0,70), ainda ⛔ não feita.</p>
+      ${trechos ? `<h2 class="tk-h2" style="margin-top:22px">Trechos em que a fala cita um termo</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th>Termo</th><th>Trecho</th><th></th></tr></thead><tbody>${trechos}</tbody></table></div><p class="inf-nota">Os trechos mostram o contexto: nenhum deles trata do acordo de 31/07.</p>` : ""}`;
+  }
   $("p4Corpo").innerHTML = vazio(M ? "⛔ Índice ainda não calculado: o script de engajamento é a próxima etapa sobre os vídeos já coletados." : "⛔ Nenhuma coleta executada ainda.");
+
+  // Caderno 07: Trends
+  const serieCSV = async nome => { const t = MTr?.pasta ? await texto(`${MTr.pasta}/${nome}`) : null; if (!t) return null;
+    const ls = t.trim().split("\n").map(l => l.split(";")); const cab = ls.shift(); return ls.map(l => Object.fromEntries(cab.map((k, i) => [k, l[i]]))); };
+  const grafico = (rows, termos) => {
+    const W = 860, H = 230, P = 34, cores = ["#165ebd", "#c4302b", "#1f6b3a", "#8a5a0b", "#6b4fa0"];
+    const x = i => P + i * (W - 2 * P) / Math.max(1, rows.length - 1), y = v => H - P - v * (H - 2 * P) / 100;
+    const i31 = rows.findIndex(r => r.timestamp_utc.startsWith("2026-07-31")), i23 = rows.findIndex(r => r.timestamp_utc.startsWith("2026-07-23"));
+    let svg = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;font:11px sans-serif">`;
+    if (i23 >= 0) svg += `<rect x="${x(i23)}" y="${P - 10}" width="${x(rows.length - 1) - x(i23)}" height="${H - 2 * P + 10}" fill="#f2f7fd"/><text x="${x(i23) + 4}" y="${P - 14}" fill="#5e7180">núcleo</text>`;
+    [0, 50, 100].forEach(v => svg += `<line x1="${P}" x2="${W - P}" y1="${y(v)}" y2="${y(v)}" stroke="#e3e9ef"/><text x="4" y="${y(v) + 4}" fill="#7d8997">${v}</text>`);
+    if (i31 >= 0) svg += `<line x1="${x(i31)}" x2="${x(i31)}" y1="${P - 10}" y2="${H - P}" stroke="#9c2b20" stroke-dasharray="4 3"/><text x="${x(i31) + 4}" y="${H - P - 6}" fill="#9c2b20">31/07 · anúncio</text>`;
+    termos.forEach((t, k) => svg += `<polyline fill="none" stroke="${cores[k % 5]}" stroke-width="1.8" points="${rows.map((r, i) => `${x(i)},${y(+r[t] || 0)}`).join(" ")}"/>`);
+    [0, Math.floor(rows.length / 2), rows.length - 1].forEach(i => svg += `<text x="${x(i)}" y="${H - 8}" text-anchor="middle" fill="#7d8997">${dataBR(rows[i].timestamp_utc)}</text>`);
+    return svg + `</svg><div class="esp-leg" style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180">${termos.map((t, k) => `<span><b style="display:inline-block;width:10px;height:10px;background:${cores[k % 5]};margin-right:6px"></b>${esc(t)}</span>`).join("")}</div>`;
+  };
+  if (!MTr) $("p7Corpo").innerHTML = vazio("⛔ Trends ainda não coletado.");
+  else {
+    const blocos = [];
+    for (const [arq, titulo] of [["tema_topicos__eleitoral__serie.csv", "Tópicos: Hamas e Faixa de Gaza"], ["tema_palavras__eleitoral__serie.csv", "Palavras do tema"], ["influenciadoras_palavras__eleitoral__serie.csv", "Nomes das influenciadoras"]]) {
+      const rows = await serieCSV(arq); if (!rows || !rows.length) { blocos.push(`<h2 class="tk-h2">${titulo}</h2>${vazio("⛔ O Trends não devolveu série nesta coleta: volume de buscas abaixo do mínimo que ele mostra para esses nomes no período.")}`); continue; }
+      const termos = Object.keys(rows[0]).filter(k => !["timestamp_utc", "rotulo", "parcial"].includes(k));
+      const d31 = rows.find(r => r.timestamp_utc.startsWith("2026-07-31")) || {};
+      blocos.push(`<h2 class="tk-h2" style="margin-top:18px">${titulo}</h2>${grafico(rows, termos)}<p class="inf-nota">Em 31/07: ${termos.map(t => `${esc(t)} ${d31[t] ?? "—"}`).join(" · ")}. Pico do período: ${termos.map(t => { const b = rows.reduce((a, r) => (+r[t] > +a[t] ? r : a), rows[0]); return `${esc(t)} ${b[t]} em ${dataBR(b.timestamp_utc)}`; }).join(" · ")}.</p>`);
+    }
+    $("p7Corpo").innerHTML = `<div class="eyebrow">Google Trends · Brasil · 01/06 a 14/08/2026 · coleta de ${dataBR(MTr.run_started_utc)}</div>${blocos.join("")}<p class="inf-nota">Índice de 0 a 100 relativo a cada consulta: não é volume de buscas e não se compara entre gráficos. Zero significa volume abaixo do mínimo que o Trends mostra.</p>`;
+  }
 
   // Caderno 06: só contagens
   const T = M?.terceiros || [];
@@ -204,7 +260,9 @@ function lerCSV(t) {
   $("p10Saude").innerHTML = `<thead><tr><th>Fonte</th><th>Última execução</th><th>Situação</th></tr></thead><tbody>
     <tr><td>YouTube (API oficial)</td><td>${M ? dataBR(M.gerado_em) + " · run " + esc(M.run_id) : "—"}</td><td>${M ? (M.erros.length ? `<span class="inf-sit pend">${M.erros.length} erro(s)</span>` : '<span class="inf-sit ok">ok</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
     ${[["Instagram", MI], ["TikTok", MT]].map(([f, m]) => `<tr><td>${f} (Apify)</td><td>${m ? dataBR(m.gerado_em) + " · run " + esc(m.run_id) + " · etapa " + esc(m.etapa) : "—"}</td><td>${apifyOk(m) ? '<span class="inf-sit ok">recorte coletado</span>' : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
-    ${["X", "Imprensa (Google Notícias)", "Google Trends", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;
+    <tr><td>Google Trends</td><td>${MTr ? dataBR(MTr.run_started_utc) : "—"}</td><td>${MTr ? (MTr.status === "ok" ? '<span class="inf-sit ok">ok</span>' : '<span class="inf-sit pend">parcial</span>') : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>
+    ${[["Transcrição Instagram", MtrI], ["Transcrição TikTok", MtrT], ["Transcrição YouTube", MtrY]].map(([f, m]) => `<tr><td>${f}</td><td>${m ? dataBR(m.gerado_em) + " · " + esc(m.modelo) : "—"}</td><td>${m ? (m.transcritos === m.universo_videos ? `<span class="inf-sit ok">${m.transcritos} de ${m.universo_videos}</span>` : `<span class="inf-sit ${m.transcritos ? "pend" : "bloq"}">${m.transcritos} de ${m.universo_videos}</span>`) : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join("")}
+    ${["X", "Imprensa (Google Notícias)", "Comentários"].map(f => `<tr><td>${f}</td><td>—</td><td><span class="inf-sit bloq">⛔ não executada</span></td></tr>`).join("")}</tbody>`;
 })();
 </script>
 </body></html>

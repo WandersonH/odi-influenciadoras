@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: página lê Trends e transcrições (cadernos 02, 07 e 10)
+
+**O que mudou.** O caderno 02 mostra, por influenciadora, as publicações do núcleo, quantas têm o tema na legenda, quantos vídeos tiveram a fala transcrita, quantas falas citam um termo e os trechos com contexto. Isso ainda não é posição codificada. O caderno 07 traz os gráficos do Trends com o núcleo sombreado e 31/07 marcado. O caderno 10 registra a saúde do Trends e das transcrições. `collect_trends.py` grava `pasta` no manifesto para a página achar os CSVs (preenchido à mão no manifesto atual). A página abre o caderno pelo endereço (`#trends`, `#posicao`).
+
+**Por quê.** O responsável perguntou às 17h38 por que a página não mostrava esses dados: a coleta tinha sido ligada sem ligar a página.
+
+**Observação.** Os números do Trends na página são da segunda coleta (run 45066425369). As palavras do tema variam um pouco em relação à primeira (Hamas em 31/07: 19 na primeira, 22 na segunda), o que é esperado: cada consulta do Trends é uma amostra. Na segunda coleta, os nomes das influenciadoras não tiveram série (0 pontos).
+
+**Executado.** `node --check`; cadernos 02 e 07 abertos no Chrome headless servido localmente; testes unitários.
+
 ## 22/11/2026: transcrições de Instagram e TikTok (run 45065517835) e tópicos do Trends (run 45066425369)
 
 **Transcrição** (Whisper small, sem custo): Instagram, 29 de 30 vídeos do núcleo (1 falha de áudio no download; 18 publicações sem vídeo ficaram fora); TikTok, 28 de 28. Nenhuma fala cita Hamas, desarmamento, Gaza, Israel, cessar-fogo, guerra ou genocídio. Menções a Palestina e Oriente Médio só fora do tema do acordo: Carima Orra (Instagram, 09/08) conta que o Instagram já derrubou o perfil dela "por conta das coisas que eu falava sobre a Palestina"; Mariam Chami (TikTok, 28/07) cita um prato palestino; Mariam (Instagram, 31/07) usa um vestido do Líbano; Fabíola Oliveira (TikTok, 27/07) fala de costumes do Oriente Médio. YouTube: 16 vídeos de Mariam sem transcrição (download bloqueado e sem legenda pela Apify).
