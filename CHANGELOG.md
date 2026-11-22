@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: coletor de comentários do núcleo
+
+**O que mudou.** Novo `scripts/collect_comentarios.py`, com o workflow `comentarios.yml`. YouTube pela API oficial (todos os comentários, sem custo); Instagram (datadoping) e TikTok (clockworks), atores do ODI Atlas, com até 50 comentários por publicação. Usa a etapa "comentarios" do teto (US$ 5,00): até US$ 3,60 no Instagram e US$ 1,20 no TikTok. Texto e autor vão só para o privado; o público recebe `data/comentarios/<rede>_resumo.json`, com universo × lido por publicação, comentaristas distintos, nuvem e quantos comentários citam acordo/Hamas, Gaza e Palestina, Israel ou islamofobia.
+
+**Por quê.** O responsável apontou às 18h13 que o caderno 05 dizia que dependia de teto, que já estava aprovado.
+
+**Executado.** 32 testes unitários aprovados. Coleta disparada logo após este commit.
+
 ## 22/11/2026: X sem posts no recorte (contas paradas) e checagens coletadas
 
 **X** (run 45071140887, com os campos since/until do ator): 0 posts no recorte, US$ 0,0001. Conferido no teste sem filtro (run 45070964861): o post mais recente de cada conta é anterior ao recorte (Mariam, 30/09/2016; Carima, 31/03/2020; Fabíola, 09/06/2025; Hyatt, 01/10/2025). O zero é real: as contas estão paradas no X. A cobertura com 0 lidos deixa de aparecer como "completa".

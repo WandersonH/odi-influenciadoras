@@ -1,0 +1,79 @@
+name: Comentários do núcleo (YouTube grátis; Instagram e TikTok pela Apify, com teto)
+
+# Texto e autor dos comentários só no repositório privado odi-secret-infl-; ao público, contagens.
+on:
+  workflow_dispatch:
+    inputs:
+      rede:
+        description: "rede"
+        type: choice
+        options: [todas, youtube, instagram, tiktok]
+        default: todas
+
+concurrency:
+  group: coleta-influenciadoras
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  comentarios:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl-.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning title=Repositório privado::sem acesso — comentários NÃO serão lidos"
+          fi
+      - name: Comentários
+        id: c
+        continue-on-error: true
+        env:
+          APIFY_TOKEN_INFL: ${{ secrets.APIFY_TOKEN_INFL }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          case "${{ github.event.inputs.rede }}" in todas) redes="youtube tiktok instagram";; *) redes="${{ github.event.inputs.rede }}";; esac
+          rc=0
+          for r in $redes; do
+            python scripts/collect_comentarios.py --rede "$r" > o.txt 2>&1 || rc=1
+            while IFS= read -r l; do echo "::notice title=$r::$(echo "$l" | cut -c1-900)"; done < o.txt
+          done
+          rm -f o.txt; exit $rc
+      - name: Gravar (público)
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Comentários ${{ github.event.inputs.rede }} (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Gravar (privado)
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Comentários (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.c.outcome == 'failure'
+        run: exit 1
