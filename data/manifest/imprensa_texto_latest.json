@@ -1,0 +1,145 @@
+{
+ "gerado_em": "2026-11-22T23:27:30Z",
+ "run_id": "45083326115",
+ "fonte_coleta": {
+  "run_id": "45076870902",
+  "gerado_em": "2026-11-22T22:17:35Z"
+ },
+ "metodo": "Entrada: data/imprensa/resultados.json (collect_imprensa.py), só as buscas do tema. Cada matéria distinta (pelo\nlink) é lida uma vez. O link do Google Notícias é convertido no endereço do veículo (googlenewsdecoder) e o texto\nda página é extraído com trafilatura (sem menus, comentários nem anúncios).",
+ "universo": "⛔ o Google Notícias não informa o total; base = matérias distintas entre os 10 primeiros por termo do tema",
+ "materias": 51,
+ "por_status": {
+  "sem_link": 51
+ },
+ "por_veiculo": {
+  "ADUFC": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Agência Brasil": {
+   "materias": 4,
+   "com_texto": 0
+  },
+  "BBC": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Brasil de Fato": {
+   "materias": 5,
+   "com_texto": 0
+  },
+  "CNN Brasil": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "CartaCapital": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "DW.com": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Estadão": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "Euronews": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Exame": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Folha de S.Paulo": {
+   "materias": 4,
+   "com_texto": 0
+  },
+  "G1": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "ICL Notícias": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Jornal da USP": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Metrópoles": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Médicos Sem Fronteiras": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "ND Mais": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Notícias - Canção Nova": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "O GLOBO": {
+   "materias": 4,
+   "com_texto": 0
+  },
+  "Outras Palavras": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Poder360": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Portal da Assembleia Legislativa de Minas Gerais": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "Público": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Sete Margens": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Sinteal": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "TV Cultura": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Times Brasil": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "UN News": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "UOL Notícias": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "VEJA": {
+   "materias": 1,
+   "com_texto": 0
+  },
+  "Vatican News": {
+   "materias": 2,
+   "com_texto": 0
+  },
+  "Vermelho": {
+   "materias": 1,
+   "com_texto": 0
+  }
+ },
+ "custo_usd": 0
+}
