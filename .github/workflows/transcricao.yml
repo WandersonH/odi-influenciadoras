@@ -1,0 +1,57 @@
+name: Transcrição dos vídeos do núcleo (sem custo)
+
+# Legenda do YouTube quando existe; senão áudio (yt-dlp) + faster-whisper na CPU do runner. Sem Apify.
+on:
+  workflow_dispatch:
+    inputs:
+      modelo:
+        description: "modelo do Whisper"
+        type: choice
+        options: [small, base, medium]
+        default: small
+
+permissions:
+  contents: write
+
+jobs:
+  transcrever:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        rede: [tiktok, instagram, youtube]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependências
+        run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y ffmpeg
+          pip install -q yt-dlp faster-whisper youtube-transcript-api
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Cache do modelo
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ github.event.inputs.modelo }}
+      - name: Transcrever
+        id: t
+        continue-on-error: true
+        run: |
+          rc=0; python scripts/transcrever.py --rede ${{ matrix.rede }} --modelo ${{ github.event.inputs.modelo }} --limite-minutos 300 > o.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=${{ matrix.rede }}::$(echo "$l" | cut -c1-900)"; done < o.txt
+          rm -f o.txt; exit $rc
+      - name: Gravar
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/transcricoes data/manifest
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Transcrição ${{ matrix.rede }} (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1

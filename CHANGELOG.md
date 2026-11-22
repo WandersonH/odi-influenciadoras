@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: transcrição dos vídeos do núcleo (sem custo)
+
+**O que mudou.** Novo `scripts/transcrever.py` e workflow `transcricao.yml` (uma tarefa por rede, em paralelo). No YouTube, usa primeiro a legenda do próprio vídeo; sem ela, e no Instagram e no TikTok, baixa o áudio com yt-dlp e transcreve com faster-whisper na CPU do runner, detectando o idioma. Imagem e carrossel ficam fora (não têm fala) e são contados no manifesto. Retoma de onde parou e grava a cada vídeo.
+
+**Por quê.** As legendas do núcleo não citam o tema; para saber se elas falaram do acordo é preciso ouvir os vídeos. O responsável autorizou às 17h11. Sem custo em US$; a Apify (US$ 1,00 da etapa de terceiros e transcrições) só entra se alguma plataforma bloquear o download.
+
+**Executado.** 18 testes unitários aprovados (só vídeos do núcleo, retomada, legenda do YouTube antes do áudio). Workflow disparado logo após este commit.
+
 ## 22/11/2026: posts do recorte coletados (run 45064535261) e página com Instagram e TikTok
 
 **Resultado** (`instagram_latest.json` e `tiktok_latest.json`, etapa posts):
