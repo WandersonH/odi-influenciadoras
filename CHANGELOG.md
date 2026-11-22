@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: TikTok das quatro confirmado
+
+**O que mudou.** `data/config/atores.json`: TikTok confirmado para Mariam Chami (@mariamchami1), Carima Orra (@carimaorra1), Fabíola Oliveira (@fabiolaoliver) e Hyatt Omar (@hyattomar).
+
+**Por quê.** O responsável enviou os quatro links no chat às 16h47.
+
+**Executado.** Testes unitários (6, aprovados). Nenhuma coleta de TikTok rodou: é paga (Apify) e o teto continua em 0.
+
+**Pendente.** Teto e autorização para o teste pago; escolha do ator de perfil do TikTok no teste.
+
 ## 22/11/2026: Instagram das quatro confirmado
 
 **O que mudou.** `data/config/atores.json`: Instagram de Mariam Chami (@mariamchami_), Hyatt Omar (@hyattomar), Carima Orra (@carimaorra) e Fabíola Oliveira (@fabiolaoliver) passa de candidato para confirmado.

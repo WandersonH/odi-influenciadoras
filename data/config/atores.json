@@ -1,6 +1,6 @@
 {
  "nota": "Influenciadoras deste estudo. Só perfil com \"confirmado\": true é coletado. 'fonte' diz onde o endereço foi conferido. Perfil sem confirmação é candidato e fica fora da coleta até alguém abrir o perfil e confirmar.",
- "levantamento": "22/11/2026. YouTube: endereços informados pelo responsável no chat (confirmados por ele). TikTok: @mariamchami_ não existe; @carimaorra está vazio; os perfis lidos no navegador do responsável foram @mariamchami1 e @carimaorra1. Instagram: os quatro endereços foram informados pelo responsável na segunda mensagem do chat (22/11/2026) e confirmados por ele às 16h43.",
+ "levantamento": "22/11/2026. YouTube: endereços informados pelo responsável no chat (confirmados por ele). TikTok: @mariamchami_ não existe; @carimaorra está vazio; os perfis lidos no navegador do responsável foram @mariamchami1 e @carimaorra1. Instagram: os quatro endereços foram informados pelo responsável na segunda mensagem do chat (22/11/2026) e confirmados por ele às 16h43. TikTok: os quatro links foram enviados pelo responsável às 16h47 (@mariamchami1, @carimaorra1, @fabiolaoliver, @hyattomar).",
  "atores": [
   {
    "id": "mariam-chami",
@@ -24,9 +24,9 @@
     "tiktok": {
      "perfil": "@mariamchami1",
      "url": "https://www.tiktok.com/@mariamchami1",
-     "confirmado": false,
-     "fonte": "Busca e leitura da página no navegador do responsável, 22/11/2026; ainda sem confirmação de titularidade.",
-     "nota": "Não coletar até confirmação."
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 22/11/2026 às 16h47 (links enviados no chat).",
+     "conferido_em": "2026-11-22"
     }
    }
   },
@@ -50,11 +50,11 @@
      "conferido_em": "2026-11-22"
     },
     "tiktok": {
-     "perfil": null,
-     "url": null,
-     "confirmado": false,
-     "fonte": "",
-     "nota": "A confirmar."
+     "perfil": "@hyattomar",
+     "url": "https://www.tiktok.com/@hyattomar",
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 22/11/2026 às 16h47 (links enviados no chat).",
+     "conferido_em": "2026-11-22"
     }
    }
   },
@@ -80,9 +80,9 @@
     "tiktok": {
      "perfil": "@carimaorra1",
      "url": "https://www.tiktok.com/@carimaorra1",
-     "confirmado": false,
-     "fonte": "Busca e leitura da página no navegador do responsável, 22/11/2026; @carimaorra estava vazio.",
-     "nota": "Não coletar até confirmação."
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 22/11/2026 às 16h47 (links enviados no chat).",
+     "conferido_em": "2026-11-22"
     }
    }
   },
@@ -108,9 +108,9 @@
     "tiktok": {
      "perfil": "@fabiolaoliver",
      "url": "https://www.tiktok.com/@fabiolaoliver",
-     "confirmado": false,
-     "fonte": "Mantido do pedido inicial; ainda sem leitura de página.",
-     "nota": "Não coletar até confirmação."
+     "confirmado": true,
+     "fonte": "Endereço informado pelo responsável em 22/11/2026 às 16h47 (links enviados no chat).",
+     "conferido_em": "2026-11-22"
     }
    }
   }
