@@ -23,7 +23,7 @@ import glob
 import json
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -62,7 +62,10 @@ def quando(v):
     try:
         d = datetime.fromisoformat(s)
     except ValueError:
-        return str(v)
+        try:  # formato do X: "Fri Jul 31 10:00:00 +0000 2026"
+            d = datetime.strptime(str(v).strip(), "%a %b %d %H:%M:%S %z %Y")
+        except ValueError:
+            return str(v)
     if d.tzinfo is None:
         d = d.replace(tzinfo=timezone.utc)
     return d.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -95,6 +98,12 @@ def pedido(rede, perfis, etapa, n, desde, ator="", ate=""):
         if etapa != "teste":
             p["onlyPostsNewerThan"] = desde[:10]
         return p
+    if rede == "x":
+        until = (date.fromisoformat(ate[:10]) + timedelta(days=1)).isoformat() if ate else None  # until: é exclusivo no X
+        qs = [f"from:{u} since:{desde[:10]}" + (f" until:{until}" if until and etapa != "teste" else "") + " -filter:retweets" for u in us]
+        if etapa == "teste":
+            qs = [f"from:{u} -filter:retweets" for u in us]
+        return {"searchTerms": qs, "maxItems": n * len(us), "queryType": "Latest"}
     if ator.startswith("apidojo~"):
         p = {"usernames": us, "maxItems": n * len(us)}
         if etapa != "teste":
@@ -119,6 +128,16 @@ def linha(rede, x, ator_id, perfil, janelas, agora):
         views = inteiro(g(x, "videoPlayCount", "videoViewCount"))
         likes = inteiro(g(x, "likesCount"))
         coms, shares = inteiro(g(x, "commentsCount")), ""
+    elif rede == "x":
+        pid = str(g(x, "id", "id_str", "tweetId") or "")
+        pub = quando(g(x, "createdAt", "created_at", "date"))
+        url = g(x, "url", "twitterUrl") or ""
+        texto = g(x, "fullText", "text") or ""
+        tipo = ("resposta" if g(x, "isReply", "inReplyToId") else "citação" if g(x, "isQuote", "quotedTweet") else "post")
+        views, likes = inteiro(g(x, "viewCount", "views")), inteiro(g(x, "likeCount", "favoriteCount"))
+        coms = inteiro(g(x, "replyCount"))
+        rt, qt = inteiro(g(x, "retweetCount")), inteiro(g(x, "quoteCount"))
+        shares = "" if rt == "" and qt == "" else (rt or 0) + (qt or 0)
     else:
         pid = str(g(x, "id", "video.id", "awemeId") or "")
         pub = quando(g(x, "createTimeISO", "createTime", "uploadedAt", "create_time"))
@@ -141,6 +160,12 @@ def linha(rede, x, ator_id, perfil, janelas, agora):
 def universo(rede, itens):
     """Total de publicações que a plataforma informa para o perfil, se o ator trouxer."""
     for x in itens:
+        if rede == "x":
+            for campo in ("author.statusesCount", "author.statuses_count"):
+                v = g(x, campo)
+                if v not in (None, ""):
+                    return inteiro(v), f"{campo} (X: posts, respostas e reposts de toda a vida da conta)"
+            continue
         if rede == "tiktok":
             for campo in ("authorMeta.video", "channel.videos", "author.videoCount", "authorStats.videoCount"):
                 v = g(x, campo)
@@ -154,10 +179,12 @@ def universo(rede, itens):
 
 
 def dono(rede, x):
-    if not isinstance(x, dict) or x.get("error"):
+    if not isinstance(x, dict) or x.get("error") or x.get("noResults"):
         return None
     if rede == "instagram":
         d = g(x, "ownerUsername")
+    elif rede == "x":
+        d = g(x, "author.userName", "author.username", "author.screen_name", "user.screen_name")
     else:
         d = g(x, "authorMeta.name", "channel.username", "author.uniqueId", "author.unique_id", "author.username")
     return str(d or "").lower() or None
@@ -186,7 +213,7 @@ def gravar_merge(caminho, linhas):
 
 def main(argv=None, executar=None, raiz=RAIZ):
     ap = argparse.ArgumentParser()
-    ap.add_argument("--rede", required=True, choices=["instagram", "tiktok"])
+    ap.add_argument("--rede", required=True, choices=["instagram", "tiktok", "x"])
     ap.add_argument("--etapa", required=True, choices=["teste", "posts"])
     ap.add_argument("--ator", default="", help="força outro ator (ex.: teste comparativo)")
     a = ap.parse_args(argv)
@@ -220,7 +247,7 @@ def main(argv=None, executar=None, raiz=RAIZ):
     if cap < 0.5:
         print(f"{a.rede}: restam US$ {cap} na etapa, abaixo do mínimo de US$ 0,50 por execução da Apify: nada roda.")
         return 1
-    n = cfg_rede.get("itens_teste", 15) if a.etapa == "teste" else 1000
+    n = cfg_rede.get("itens_teste", 15) if a.etapa == "teste" else cfg_rede.get("max_itens_por_perfil", 1000)
     desde = projeto["janelas"]["base"]["inicio"]
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     linhas, por_perfil, brutos, custo, erros = [], [], {}, 0.0, []

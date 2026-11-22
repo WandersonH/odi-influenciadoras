@@ -37,6 +37,13 @@
    "ator": "clockworks~tiktok-scraper",
    "preco_fonte": "Atlas testou clockworks~tiktok-scraper no diagnóstico de atores de TikTok; preço a medir no manifesto do teste",
    "itens_teste": 15
+  },
+  "x": {
+   "ator": "xquik~x-tweet-scraper",
+   "preco_fonte": "ODI Espanha/ODI Atlas: US$ 0,00015 por linha (README do ator, 17/10/2026)",
+   "itens_teste": 15,
+   "leitura": "Busca do próprio X: from:perfil since:2026-06-01 until:2026-08-15, sem reposts. Entram posts, respostas e citações do perfil.",
+   "max_itens_por_perfil": 2000
   }
  }
 }

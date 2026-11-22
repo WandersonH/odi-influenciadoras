@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: X das quatro confirmado; posts do X e citações de terceiros no X
+
+**O que mudou.** `atores.json`: X confirmado para @eumariamchami, @hyattomar_, @CarimaOrra e @fabiola_oliver (links do responsável às 18h08). `collect_apify_posts.py --rede x` usa xquik~x-tweet-scraper com a busca do X `from:perfil since:2026-06-01 until:2026-08-15 -filter:retweets`; o universo é o `statusesCount` do perfil. Novo `collect_terceiros_x.py`: busca nome entre aspas OU @ de cada uma, sem a própria conta e sem reposts, só no núcleo, dentro da etapa `terceiros_transcricoes`. Texto e autor vão só para o privado (`data/terceiros/x_mencoes.csv`); ao público vão contagens por tipo (@ ou só nome), por dia e de autores distintos. `quando()` passa a ler a data do X ("Fri Jul 31 10:00:00 +0000 2026"). O caderno 06 mostra as menções no X; panorama, caderno 03 e saúde incluem o X.
+
+**Por quê.** O responsável enviou os perfis e lembrou que as citações dos nomes por terceiros não tinham sido coletadas fora do YouTube.
+
+**Gasto até aqui** (painel da Apify, informado pelo responsável às 18h10): US$ 0,81 de US$ 10, quase todo no TikTok (clockworks: 0,223 + 0,546).
+
+**Executado.** 29 testes unitários aprovados; `node --check`. Posts do X e menções no X disparados logo após este commit.
+
 ## 22/11/2026: caderno "O que dizem" por rede, no método do ODI Atlas e do ODI Espanha; checagens bloqueadas (403)
 
 **O que mudou.** Novo `scripts/build_o_que_dizem.py`, porta do ODI Espanha, que gera `data/<rede>/conteudo.json`, e `scripts/texto.py` com palavras vazias do português falado. Novo dicionário `data/config/temas.json` v0 (rascunho), com 11 temas: acordo/Hamas, Gaza e Palestina, Israel e guerra, islamofobia, religião, cultura árabe, moda, família, culinária, publicidade e viagem. O dicionário é aplicado à legenda e à fala transcrita. Termos sem letra latina (árabe, emoji) são buscados literalmente: na primeira versão eles viravam texto vazio e casavam com tudo (72 falsos "acordo/Hamas" no YouTube). O caderno 03 ganhou filtro por rede e por tema, tabela de números, linha do tempo semana a semana e por publicação (núcleo sombreado, 31/07 marcado), tabela de temas, nuvens, hashtags e as 5 publicações de maior audiência. A lista de publicações do núcleo continua embaixo. Os três workflows de coleta passam a regerar o caderno.

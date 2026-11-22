@@ -90,6 +90,17 @@ class TestLinha(unittest.TestCase):
         self.assertEqual(cap.quando("2026-06-26T00:17:34.000Z"), "2026-06-26T00:17:34Z")
         self.assertEqual(cap.quando("2026-06-26T00:17:34-03:00"), "2026-06-26T03:17:34Z")
         self.assertEqual(cap.quando(1785542400), "2026-08-01T00:00:00Z")
+        self.assertEqual(cap.quando("Fri Jul 31 10:00:00 +0000 2026"), "2026-07-31T10:00:00Z")
+
+    def test_x_pedido_e_linha(self):
+        p = cap.pedido("x", ["eumariamchami"], "posts", 2000, "2026-06-01T00:00:00Z", "xquik~x-tweet-scraper", "2026-08-14T23:59:59Z")
+        self.assertEqual(p["searchTerms"], ["from:eumariamchami since:2026-06-01 until:2026-08-15 -filter:retweets"])
+        x = {"id": "9", "createdAt": "Fri Jul 31 10:00:00 +0000 2026", "fullText": "oi", "viewCount": 100, "likeCount": 3,
+             "replyCount": 1, "retweetCount": 2, "quoteCount": 1, "url": "u", "author": {"userName": "EuMariamChami", "statusesCount": 500}}
+        l = cap.linha("x", x, "m", "eumariamchami", self.J, "agora")
+        self.assertEqual((l["janela"], l["visualizacoes"], l["compartilhamentos"]), ("nucleo", 100, 3))
+        self.assertTrue(cap.e_do_perfil("x", x, "eumariamchami"))
+        self.assertEqual(cap.universo("x", [x])[0], 500)
 
     def test_apidojo_campos_e_dono(self):
         x = {"id": "9", "uploadedAt": 1785542400, "title": "t", "views": 50, "likes": 4, "comments": 1, "shares": 0,

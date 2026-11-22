@@ -25,8 +25,8 @@ import texto as tx  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 FONTES = {"youtube": ("data/youtube/videos.csv", "video_id"), "instagram": ("data/instagram/posts.csv", "post_id"),
-          "tiktok": ("data/tiktok/posts.csv", "post_id")}
-ROTULO = {"youtube": "YouTube", "instagram": "Instagram", "tiktok": "TikTok"}
+          "tiktok": ("data/tiktok/posts.csv", "post_id"), "x": ("data/x/posts.csv", "post_id")}
+ROTULO = {"youtube": "YouTube", "instagram": "Instagram", "tiktok": "TikTok", "x": "X"}
 
 
 def ler(p: Path) -> list[dict]:
