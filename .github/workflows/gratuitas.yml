@@ -29,10 +29,10 @@ jobs:
         env:
           TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
         run: |
-          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl.git" "$RUNNER_TEMP/interno"; then
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl-.git" "$RUNNER_TEMP/interno"; then
             echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
           else
-            echo "::warning title=Repositório privado::segredo ausente ou sem acesso ao odi-secret-infl — menções de terceiros NÃO serão guardadas nesta execução"
+            echo "::warning title=Repositório privado::segredo ausente ou sem acesso ao odi-secret-infl- — menções de terceiros NÃO serão guardadas nesta execução"
           fi
       - name: YouTube (API oficial, sem custo em US$)
         id: youtube
