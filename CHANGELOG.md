@@ -1,5 +1,16 @@
 # Changelog
 
+## 22/11/2026: resultado das recoletas da revisão crítica
+
+- **Acervo do YouTube com título** (run 45081857459, `gratuitas.yml`): 4 de 4 canais lidos; 87 vídeos no acervo, todos com título em `data/youtube/videos.csv`. O workflow regerou o que dizem, o engajamento, as redes e o corpus (o corpus ganhou 240 linhas). Com os títulos, um vídeo da Mariam passa a cair no tema Gaza. Em nenhuma rede há publicação sobre o acordo (0 em YouTube, Instagram e TikTok).
+- **Comentários do YouTube com respostas**: o run 45081868200 leu os comentários, mas o push público falhou. O motivo foi um conflito em `data/terceiros/resumo.json`, gravado ao mesmo tempo pelo run 45081857459. O CSV privado chegou ao privado (commit e25feb7). O run 45082213196 foi disparado de novo e gravou o público (commit 0caf3bd).
+  - Mariam: 16 vídeos no núcleo; universo de 2.698 comentários (soma de `commentCount`, que inclui respostas), 2.698 lidos, entre eles 599 respostas. A cobertura é completa.
+  - 1.947 comentaristas distintos.
+  - Temas: islamofobia 74, Israel 45, Gaza 18, acordo 1.
+  - Hyatt, Carima e Fabíola não têm vídeo no núcleo.
+  - Rede de respostas: 404 autores e 427 arestas (540 respostas entre autores). Os autores ficam codificados no público.
+- **Pendente (humano)**: revisar os itens "a conferir" de terceiros; codificação humana e kappa; description e topics dos repositórios; CEP.
+
 ## 22/11/2026: revisão crítica de todo o trabalho e correção das lacunas
 
 Pedido do responsável às 20h03 ("revise criticamente todo trabalho executado e veja gaps"). Lacunas encontradas e o que foi feito:
