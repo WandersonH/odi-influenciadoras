@@ -1,0 +1,914 @@
+{
+ "gerado_em": "2026-11-23T01:58:29Z",
+ "run_id": "45097514303",
+ "metodo": "Motivo: o Google Trends não devolveu série para os nomes (volume abaixo do mínimo que ele mostra). O autocompletar mostra as buscas que o Google associa ao nome hoje, a partir do volume de buscas de todos os usuários. Consulta: suggestqueries.google.com (client=firefox, hl=pt-BR, gl=br), para o nome entre aspas e sem aspas, e para \"nome + letra\" de a a z (técnica de varredura do autocompletar). Cada sugestão conta quantas consultas a devolveram. Limites: retrato do dia da coleta, não do período do evento; o Google não informa volume nem universo (⛔); filtra sugestões que considera sensíveis. Saída: data/buscas/sugestoes.json (agregados do Google, sem dado pessoal).",
+ "universo": "⛔ o Google não informa volume nem quantas sugestões existem",
+ "por_influenciadora": {
+  "mariam-chami": {
+   "nome": "Mariam Chami",
+   "consultas_feitas": 28,
+   "consultas_previstas": 28,
+   "sugestoes": [
+    [
+     "mariam chami antes e depois",
+     5
+    ],
+    [
+     "mariam chami sem hijab",
+     4
+    ],
+    [
+     "mariam chami é brasileira",
+     4
+    ],
+    [
+     "mariam chami cabelo",
+     3
+    ],
+    [
+     "mariam chami idade",
+     3
+    ],
+    [
+     "mariam chami masterchef",
+     3
+    ],
+    [
+     "mariam chami molho de alho",
+     3
+    ],
+    [
+     "mariam chami mora onde",
+     3
+    ],
+    [
+     "mariam chami participou do masterchef",
+     3
+    ],
+    [
+     "mariam chami pasta de alho",
+     3
+    ],
+    [
+     "mariam chami processos",
+     3
+    ],
+    [
+     "mariam chami programa de televisão",
+     3
+    ],
+    [
+     "mariam chami wikipedia",
+     3
+    ],
+    [
+     "mariam chami é sunita ou xiita",
+     3
+    ],
+    [
+     "mariam chami buddy valastro",
+     2
+    ],
+    [
+     "mariam chami caio modesto",
+     2
+    ],
+    [
+     "mariam chami cake boss",
+     2
+    ],
+    [
+     "mariam chami data de nascimento",
+     2
+    ],
+    [
+     "mariam chami marido",
+     2
+    ],
+    [
+     "mariam chami nome completo",
+     2
+    ],
+    [
+     "mariam chami pao arabe",
+     2
+    ],
+    [
+     "mariam chami red bull",
+     2
+    ],
+    [
+     "mariam chami sem veu",
+     2
+    ],
+    [
+     "mariam chami tem filhos",
+     2
+    ],
+    [
+     "mariam chami tem irmãos",
+     2
+    ],
+    [
+     "mariam chami é rica",
+     2
+    ],
+    [
+     "mariam chami é sunita",
+     2
+    ],
+    [
+     "homus mariam chami",
+     1
+    ],
+    [
+     "influencer mariam chami",
+     1
+    ],
+    [
+     "mariam chami",
+     1
+    ],
+    [
+     "mariam chami adolescente",
+     1
+    ],
+    [
+     "mariam chami antes",
+     1
+    ],
+    [
+     "mariam chami babaganoush",
+     1
+    ],
+    [
+     "mariam chami biografia",
+     1
+    ],
+    [
+     "mariam chami burkini",
+     1
+    ],
+    [
+     "mariam chami casamento",
+     1
+    ],
+    [
+     "mariam chami cnpj",
+     1
+    ],
+    [
+     "mariam chami criança",
+     1
+    ],
+    [
+     "mariam chami e marido",
+     1
+    ],
+    [
+     "mariam chami esfiha",
+     1
+    ],
+    [
+     "mariam chami facebook",
+     1
+    ],
+    [
+     "mariam chami falafel",
+     1
+    ],
+    [
+     "mariam chami familia",
+     1
+    ],
+    [
+     "mariam chami filhos",
+     1
+    ],
+    [
+     "mariam chami hijab",
+     1
+    ],
+    [
+     "mariam chami instagram",
+     1
+    ],
+    [
+     "mariam chami irma",
+     1
+    ],
+    [
+     "mariam chami jusbrasil",
+     1
+    ],
+    [
+     "mariam chami mae",
+     1
+    ],
+    [
+     "mariam chami masterchef 2",
+     1
+    ],
+    [
+     "mariam chami nacionalidade",
+     1
+    ],
+    [
+     "mariam chami nasceu onde",
+     1
+    ],
+    [
+     "mariam chami onde mora",
+     1
+    ],
+    [
+     "mariam chami onde nasceu",
+     1
+    ],
+    [
+     "mariam chami origem",
+     1
+    ],
+    [
+     "mariam chami pai",
+     1
+    ],
+    [
+     "mariam chami pais",
+     1
+    ],
+    [
+     "mariam chami perfume",
+     1
+    ],
+    [
+     "mariam chami podcast",
+     1
+    ],
+    [
+     "mariam chami polemica",
+     1
+    ],
+    [
+     "mariam chami quem é",
+     1
+    ],
+    [
+     "mariam chami receitas",
+     1
+    ],
+    [
+     "mariam chami restaurante",
+     1
+    ],
+    [
+     "mariam chami shawarma",
+     1
+    ],
+    [
+     "mariam chami sorveteria",
+     1
+    ],
+    [
+     "mariam chami tiktok",
+     1
+    ],
+    [
+     "mariam chami youtube",
+     1
+    ],
+    [
+     "mariam chami é de onde",
+     1
+    ],
+    [
+     "mariam chami é xiita ou sunita",
+     1
+    ],
+    [
+     "mariam el chami",
+     1
+    ]
+   ]
+  },
+  "hyatt-omar": {
+   "nome": "Hyatt Omar",
+   "consultas_feitas": 28,
+   "consultas_previstas": 28,
+   "sugestoes": [
+    [
+     "hyatt haj omar",
+     3
+    ],
+    [
+     "hyatt jabal omar",
+     3
+    ],
+    [
+     "hyatt jabal omar makkah email",
+     3
+    ],
+    [
+     "hyatt jabal omar regency",
+     3
+    ],
+    [
+     "hyatt omar idade",
+     3
+    ],
+    [
+     "hyatt omar khayyam",
+     3
+    ],
+    [
+     "hyatt omar lattes",
+     3
+    ],
+    [
+     "jabal omar hyatt regency makkah",
+     3
+    ],
+    [
+     "omar hyatt regency",
+     3
+    ],
+    [
+     "hyatt jabal omar breakfast",
+     2
+    ],
+    [
+     "hyatt jabal omar breakfast price",
+     2
+    ],
+    [
+     "hyatt jabal omar breakfast time",
+     2
+    ],
+    [
+     "hyatt jabal omar email",
+     2
+    ],
+    [
+     "hyatt jabal omar gym",
+     2
+    ],
+    [
+     "hyatt jabal omar hotel",
+     2
+    ],
+    [
+     "hyatt jabal omar makkah",
+     2
+    ],
+    [
+     "hyatt omaha",
+     2
+    ],
+    [
+     "hyatt omar",
+     2
+    ],
+    [
+     "hyatt regency jabal omar makkah",
+     2
+    ],
+    [
+     "hyatt regency jabal omar makkah hotel",
+     2
+    ],
+    [
+     "omar hyatt flint michigan",
+     2
+    ],
+    [
+     "grand hyatt jabal omar makkah",
+     1
+    ],
+    [
+     "hyatt jabal omar spa",
+     1
+    ],
+    [
+     "hyatt regency jabal e omar",
+     1
+    ],
+    [
+     "hyatt regency jabal omar booking",
+     1
+    ],
+    [
+     "hyatt regency jabal omar breakfast",
+     1
+    ],
+    [
+     "hyatt regency jabal omar contact",
+     1
+    ],
+    [
+     "hyatt regency jabal omar email",
+     1
+    ],
+    [
+     "hyatt regency jabal omar email address",
+     1
+    ],
+    [
+     "hyatt regency jabal omar gym",
+     1
+    ],
+    [
+     "hyatt regency jabal omar hotel",
+     1
+    ],
+    [
+     "hyatt regency jabal omar mecca",
+     1
+    ],
+    [
+     "hyatt regency jabal omar number",
+     1
+    ],
+    [
+     "hyatt regency jabal omar phone number",
+     1
+    ],
+    [
+     "hyatt regency jabal omar spa",
+     1
+    ],
+    [
+     "hyatt regency jabal omar swimming clothes",
+     1
+    ],
+    [
+     "hyatt regency jabal omar to haram",
+     1
+    ],
+    [
+     "hyatt regency makkah jabal omar ibrahim al khalil road makkah",
+     1
+    ],
+    [
+     "hyatt regency omar jabal",
+     1
+    ],
+    [
+     "hyatt regency omar makkah",
+     1
+    ],
+    [
+     "jabal al omar hyatt",
+     1
+    ],
+    [
+     "jabal omar hyatt food court",
+     1
+    ],
+    [
+     "jabal omar hyatt hotel makkah",
+     1
+    ],
+    [
+     "jabal omar hyatt makkah hotel",
+     1
+    ],
+    [
+     "jabal omar hyatt regency hotel makkah",
+     1
+    ],
+    [
+     "jabal omar hyatt regency makkah email address",
+     1
+    ],
+    [
+     "jabal omar hyatt regency makkah ibrahim al khalil road makkah",
+     1
+    ],
+    [
+     "jabal omar hyatt regency makkah photos",
+     1
+    ],
+    [
+     "jabal omar hyatt regency makkah prices",
+     1
+    ],
+    [
+     "jabal omar hyatt regency makkah reviews",
+     1
+    ],
+    [
+     "omar abbas hayat",
+     1
+    ],
+    [
+     "omar hatoum hyatt",
+     1
+    ],
+    [
+     "omar hayat crc",
+     1
+    ],
+    [
+     "omar hyatt regency makkah",
+     1
+    ],
+    [
+     "omar kabbaj hyatt",
+     1
+    ],
+    [
+     "omar kabbaj hyatt regency",
+     1
+    ]
+   ]
+  },
+  "carima-orra": {
+   "nome": "Carima Orra",
+   "consultas_feitas": 28,
+   "consultas_previstas": 28,
+   "sugestoes": [
+    [
+     "carima orra o que aconteceu",
+     5
+    ],
+    [
+     "carima orra sem hijab live",
+     5
+    ],
+    [
+     "carima orra sem hijab",
+     4
+    ],
+    [
+     "carima orra idade",
+     3
+    ],
+    [
+     "carima orra instagram",
+     3
+    ],
+    [
+     "carima orra marido",
+     3
+    ],
+    [
+     "doha carima orra",
+     3
+    ],
+    [
+     "carima orra",
+     2
+    ]
+   ]
+  },
+  "fabiola-oliveira": {
+   "nome": "Fabíola Oliveira",
+   "consultas_feitas": 28,
+   "consultas_previstas": 28,
+   "sugestoes": [
+    [
+     "fabiola oliveira de andrade e silva",
+     5
+    ],
+    [
+     "fabíola oliveira david idade",
+     4
+    ],
+    [
+     "fabiola oliveira atriz da globo",
+     3
+    ],
+    [
+     "fabiola oliveira instagram",
+     3
+    ],
+    [
+     "fabiola oliveira jornalista",
+     3
+    ],
+    [
+     "fabiola oliveira metropoles",
+     3
+    ],
+    [
+     "fabiola oliveira reis",
+     3
+    ],
+    [
+     "fabiola oliveira silva",
+     3
+    ],
+    [
+     "fabíola oliveira david",
+     3
+    ],
+    [
+     "fabiola de oliveira batista fortes",
+     2
+    ],
+    [
+     "fabiola de oliveira ramos dermatologista",
+     2
+    ],
+    [
+     "fabiola helena oliveira de souza",
+     2
+    ],
+    [
+     "fabiola helena oliveira de souza crm 1531",
+     2
+    ],
+    [
+     "fabiola monteiro oliveira bolgheroni",
+     2
+    ],
+    [
+     "fabiola oliveira beija flor",
+     2
+    ],
+    [
+     "fabiola oliveira da cunha",
+     2
+    ],
+    [
+     "fabiola oliveira ex modelo",
+     2
+    ],
+    [
+     "fabiola oliveira lobo peres de freitas",
+     2
+    ],
+    [
+     "fabiola oliveira mae de gabriel david",
+     2
+    ],
+    [
+     "fabiola oliveira silva juiza",
+     2
+    ],
+    [
+     "fabiola roberta oliveira goes",
+     2
+    ],
+    [
+     "fabiola rodrigues oliveira do nascimento",
+     2
+    ],
+    [
+     "fabíola chrystian oliveira martins",
+     2
+    ],
+    [
+     "fabíola de oliveira lima canabarro",
+     2
+    ],
+    [
+     "alexsandra fabiola caldas oliveira",
+     1
+    ],
+    [
+     "antonia fabiola oliveira carlos",
+     1
+    ],
+    [
+     "coluna fabiola oliveira",
+     1
+    ],
+    [
+     "dra fabíola cristina oliveira calvi",
+     1
+    ],
+    [
+     "fabiola aparecida de oliveira sousa",
+     1
+    ],
+    [
+     "fabiola ariadne rodrigues oliveira",
+     1
+    ],
+    [
+     "fabiola casanova e camila oliveira",
+     1
+    ],
+    [
+     "fabiola cristina de oliveira bento aquino",
+     1
+    ],
+    [
+     "fabiola cristina oliveira",
+     1
+    ],
+    [
+     "fabiola de oliveira",
+     1
+    ],
+    [
+     "fabiola de oliveira batista",
+     1
+    ],
+    [
+     "fabiola de oliveira brum",
+     1
+    ],
+    [
+     "fabiola de oliveira gerpe",
+     1
+    ],
+    [
+     "fabiola de oliveira lima",
+     1
+    ],
+    [
+     "fabiola de oliveira mayer",
+     1
+    ],
+    [
+     "fabiola de oliveira miranda",
+     1
+    ],
+    [
+     "fabiola de oliveira nutricionista",
+     1
+    ],
+    [
+     "fabiola de oliveira paes leme",
+     1
+    ],
+    [
+     "fabiola de oliveira ramos",
+     1
+    ],
+    [
+     "fabiola de oliveira ramos dermatologista instagram",
+     1
+    ],
+    [
+     "fabiola de oliveira souza",
+     1
+    ],
+    [
+     "fabiola ferreira oliveira",
+     1
+    ],
+    [
+     "fabiola gomes de oliveira ebner",
+     1
+    ],
+    [
+     "fabiola houtet de carvalho oliveira",
+     1
+    ],
+    [
+     "fabiola martins campos de oliveira genari",
+     1
+    ],
+    [
+     "fabiola oliveira",
+     1
+    ],
+    [
+     "fabiola oliveira belem",
+     1
+    ],
+    [
+     "fabiola oliveira brasil",
+     1
+    ],
+    [
+     "fabiola oliveira britney",
+     1
+    ],
+    [
+     "fabiola oliveira da silva",
+     1
+    ],
+    [
+     "fabiola oliveira de lima",
+     1
+    ],
+    [
+     "fabiola oliveira de oliveira",
+     1
+    ],
+    [
+     "fabiola oliveira dubladora",
+     1
+    ],
+    [
+     "fabiola oliveira facebook",
+     1
+    ],
+    [
+     "fabiola oliveira fofoqueira",
+     1
+    ],
+    [
+     "fabiola oliveira horster",
+     1
+    ],
+    [
+     "fabiola oliveira idade",
+     1
+    ],
+    [
+     "fabiola oliveira linkedin",
+     1
+    ],
+    [
+     "fabiola oliveira manaus",
+     1
+    ],
+    [
+     "fabiola oliveira marido",
+     1
+    ],
+    [
+     "fabiola oliveira mocidade",
+     1
+    ],
+    [
+     "fabiola oliveira rainha da mocidade",
+     1
+    ],
+    [
+     "fabiola oliveira ramos",
+     1
+    ],
+    [
+     "fabiola oliveira reporter",
+     1
+    ],
+    [
+     "fabiola oliveira santos",
+     1
+    ],
+    [
+     "fabiola oliveira tiktok",
+     1
+    ],
+    [
+     "fabiola oliveira uol",
+     1
+    ],
+    [
+     "fabiola oliveira viana do castelo",
+     1
+    ],
+    [
+     "fabiola patricia de oliveira lima",
+     1
+    ],
+    [
+     "fabiola queiroz de oliveira juiza federal",
+     1
+    ],
+    [
+     "fabiola raquel tenorio oliveira",
+     1
+    ],
+    [
+     "fabiola reipert e fabia oliveira",
+     1
+    ],
+    [
+     "fabiola rente oliveira",
+     1
+    ],
+    [
+     "fabiola ritzmann de oliveira santiago",
+     1
+    ],
+    [
+     "fabiola souza de oliveira flores navarro",
+     1
+    ],
+    [
+     "fabíola augusta de oliveira bello cavalcanti",
+     1
+    ],
+    [
+     "fabíola karla de oliveira normando",
+     1
+    ],
+    [
+     "fabíola oliveira",
+     1
+    ],
+    [
+     "fabíola oliveira fofoca",
+     1
+    ],
+    [
+     "fabíola silva de oliveira vilas boas",
+     1
+    ],
+    [
+     "vereadora fabiola oliveira",
+     1
+    ]
+   ]
+  }
+ },
+ "erros": [],
+ "custo_usd": 0
+}
