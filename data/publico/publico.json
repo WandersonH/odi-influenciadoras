@@ -1,6 +1,6 @@
 {
- "gerado_em": "2026-11-23T03:58:26Z",
- "run_id": "45109015337",
+ "gerado_em": "2026-11-23T04:46:32Z",
+ "run_id": "local",
  "metodo": "Só contagens e códigos anônimos vão ao público (os mesmos do corpus de comentários: A0001 no YouTube, IG0001, TT0001).\n1. Público em comum: por rede, autores distintos que comentaram nas publicações do núcleo de cada influenciadora e\n   quantos comentaram em duas ou mais. A comparação é dentro da mesma rede: o mesmo @ em redes diferentes não prova que\n   é a mesma pessoa, e por isso não entra.\n2. Criação das contas (YouTube): data de criação do canal de cada autor (channels.list snippet.publishedAt), por faixa,\n   com destaque para os canais criados na linha de base (01/06 a 22/07/2026) e no núcleo (23/07 a 14/08/2026).\n3. País declarado (YouTube): snippet.country, campo opcional; o universo é o total de canais lidos.\n4. Ficha das quatro: TikTok (seguidores, curtidas, vídeos, criação da conta, do item mais recente lido pela Apify na coleta\n   de publicações; sem custo novo) e YouTube (channels.list). Instagram: o coletor de publicações não traz seguidores (⛔).",
  "comum": {
   "youtube": {
@@ -2426,6 +2426,31 @@
     }
    }
   },
-  "instagram": "⛔ o coletor de publicações do Instagram não traz o número de seguidores"
+  "instagram": {
+   "fonte": "Página pública de cada perfil no Instagram, aberta no Chrome do responsável em 23/11/2026, 1h47: número exato de seguidores no atributo title do contador do cabeçalho; publicações pela descrição da página (og:description). Leitura manual, sem coleta paga.",
+   "coletado_em": "2026-11-23",
+   "perfis": {
+    "mariam-chami": {
+     "perfil": "@mariamchami_",
+     "seguidores": 1679394,
+     "publicacoes": 3179
+    },
+    "carima-orra": {
+     "perfil": "@carimaorra",
+     "seguidores": 352424,
+     "publicacoes": 3110
+    },
+    "fabiola-oliveira": {
+     "perfil": "@fabiolaoliver",
+     "seguidores": 99198,
+     "publicacoes": 1493
+    },
+    "hyatt-omar": {
+     "perfil": "@hyattomar",
+     "seguidores": 209509,
+     "publicacoes": 709
+    }
+   }
+  }
  }
 }

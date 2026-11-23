@@ -1,0 +1,10 @@
+{
+ "fonte": "Página pública de cada perfil no Instagram, aberta no Chrome do responsável em 23/11/2026, 1h47: número exato de seguidores no atributo title do contador do cabeçalho; publicações pela descrição da página (og:description). Leitura manual, sem coleta paga.",
+ "coletado_em": "2026-11-23",
+ "perfis": {
+  "mariam-chami": {"perfil": "@mariamchami_", "seguidores": 1679394, "publicacoes": 3179},
+  "carima-orra": {"perfil": "@carimaorra", "seguidores": 352424, "publicacoes": 3110},
+  "fabiola-oliveira": {"perfil": "@fabiolaoliver", "seguidores": 99198, "publicacoes": 1493},
+  "hyatt-omar": {"perfil": "@hyattomar", "seguidores": 209509, "publicacoes": 709}
+ }
+}

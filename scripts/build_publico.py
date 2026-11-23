@@ -146,8 +146,10 @@ def main(root: Path = RAIZ) -> int:
                                    "coletado_em": max((c.get("coletado_em") or "" for c in canais), default="")}
     tt = ficha_tiktok(interno)
     yt_p = root / "data/publico/canais_proprios.json"
+    ig_p = root / "data/publico/instagram_perfis.json"  # leitura manual da página pública de cada perfil
     saida["ficha"] = {"tiktok": tt, "youtube": json.loads(yt_p.read_text(encoding="utf-8")) if yt_p.exists() else None,
-                      "instagram": "⛔ o coletor de publicações do Instagram não traz o número de seguidores"}
+                      "instagram": (json.loads(ig_p.read_text(encoding="utf-8")) if ig_p.exists() else
+                                    "⛔ o coletor de publicações do Instagram não traz o número de seguidores")}
     (root / "data/publico").mkdir(parents=True, exist_ok=True)
     (root / "data/publico/publico.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
     for rede, c in saida["comum"].items():

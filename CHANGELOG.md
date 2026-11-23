@@ -1,5 +1,22 @@
 # Changelog
 
+## 23/11/2026: seguidores do Instagram na ficha das quatro
+
+O responsável perguntou à 1h45 por que a coluna do Instagram estava ⛔. O motivo: o coletor de publicações (esdrasdw) não traz o número de seguidores. Em vez de uma coleta paga, abri a página pública de cada perfil no Chrome dele e li os números.
+- **Seguidores:** número exato no atributo `title` do contador do cabeçalho.
+- **Publicações:** número da descrição da página.
+- **Resultado:**
+
+| Perfil | Seguidores | Publicações |
+|---|---|---|
+| @mariamchami_ | 1.679.394 | 3.179 |
+| @carimaorra | 352.424 | 3.110 |
+| @hyattomar | 209.509 | 709 |
+| @fabiolaoliver | 99.198 | 1.493 |
+
+- **Arquivo novo `data/publico/instagram_perfis.json`**, com fonte e data. `build_publico.py` lê esse arquivo, e a ficha do caderno 05 ganha seguidores e publicações do Instagram.
+- **Sem custo.** Os números são de 23/11/2026, não de julho.
+
 ## 23/11/2026: quem falou delas no TikTok e no Instagram
 
 O responsável pediu à 1h20: “quero que rode quem falou delas nas demais redes”. Antes cobertos: YouTube, X e imprensa.
