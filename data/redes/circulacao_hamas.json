@@ -1,6 +1,2997 @@
 {
- "gerado_em": "2026-11-22T22:17:42Z",
- "run_id": "45076870902",
+ "itens": [
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza | AFP",
+   "url": "https://www.youtube.com/watch?v=kcYObcVZt98",
+   "data": "2026-07-31",
+   "visualizacoes": 25088,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza | AFP",
+   "url": "https://www.youtube.com/watch?v=kcYObcVZt98",
+   "data": "2026-07-31",
+   "visualizacoes": 25088,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza | AFP",
+   "url": "https://www.youtube.com/watch?v=kcYObcVZt98",
+   "data": "2026-07-31",
+   "visualizacoes": 25088,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza | AFP",
+   "url": "https://www.youtube.com/watch?v=kcYObcVZt98",
+   "data": "2026-07-31",
+   "visualizacoes": 25088,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia plano para o desarmamento do Hamas em Gaza | Jornal da Noite",
+   "url": "https://www.youtube.com/watch?v=tXX2nMnCXlg",
+   "data": "2026-07-31",
+   "visualizacoes": 2246,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia plano para o desarmamento do Hamas em Gaza | Jornal da Noite",
+   "url": "https://www.youtube.com/watch?v=tXX2nMnCXlg",
+   "data": "2026-07-31",
+   "visualizacoes": 2246,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia plano para o desarmamento do Hamas em Gaza | Jornal da Noite",
+   "url": "https://www.youtube.com/watch?v=tXX2nMnCXlg",
+   "data": "2026-07-31",
+   "visualizacoes": 2246,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
+   "url": "https://www.youtube.com/watch?v=yMDZkev12es",
+   "data": "2026-08-01",
+   "visualizacoes": 33779,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
+   "url": "https://www.youtube.com/watch?v=yMDZkev12es",
+   "data": "2026-08-01",
+   "visualizacoes": 33779,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
+   "url": "https://www.youtube.com/watch?v=yMDZkev12es",
+   "data": "2026-08-01",
+   "visualizacoes": 33779,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
+   "url": "https://www.youtube.com/watch?v=yMDZkev12es",
+   "data": "2026-08-01",
+   "visualizacoes": 33779,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita plano de desarmamento anunciado por Trump | Jornal da Band",
+   "url": "https://www.youtube.com/watch?v=_B1-bZIXs-E",
+   "data": "2026-07-31",
+   "visualizacoes": 8739,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita plano de desarmamento anunciado por Trump | Jornal da Band",
+   "url": "https://www.youtube.com/watch?v=_B1-bZIXs-E",
+   "data": "2026-07-31",
+   "visualizacoes": 8739,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita plano de desarmamento anunciado por Trump | Jornal da Band",
+   "url": "https://www.youtube.com/watch?v=_B1-bZIXs-E",
+   "data": "2026-07-31",
+   "visualizacoes": 8739,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita plano de desarmamento anunciado por Trump | Jornal da Band",
+   "url": "https://www.youtube.com/watch?v=_B1-bZIXs-E",
+   "data": "2026-07-31",
+   "visualizacoes": 8739,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Acordo é fundamental para novo governo em Gaza, diz Trump sobre desarmamento do Hamas | PRIME TIME",
+   "url": "https://www.youtube.com/watch?v=TD4Or4H1fEY",
+   "data": "2026-07-31",
+   "visualizacoes": 5008,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Acordo é fundamental para novo governo em Gaza, diz Trump sobre desarmamento do Hamas | PRIME TIME",
+   "url": "https://www.youtube.com/watch?v=TD4Or4H1fEY",
+   "data": "2026-07-31",
+   "visualizacoes": 5008,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Acordo é fundamental para novo governo em Gaza, diz Trump sobre desarmamento do Hamas | PRIME TIME",
+   "url": "https://www.youtube.com/watch?v=TD4Or4H1fEY",
+   "data": "2026-07-31",
+   "visualizacoes": 5008,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza",
+   "url": "https://www.youtube.com/watch?v=Vor3eKXfqSI",
+   "data": "2026-07-31",
+   "visualizacoes": 1692,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza",
+   "url": "https://www.youtube.com/watch?v=Vor3eKXfqSI",
+   "data": "2026-07-31",
+   "visualizacoes": 1692,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza",
+   "url": "https://www.youtube.com/watch?v=Vor3eKXfqSI",
+   "data": "2026-07-31",
+   "visualizacoes": 1692,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Hamas aceita acordo de desarmamento e retirada israelense de Gaza",
+   "url": "https://www.youtube.com/watch?v=Vor3eKXfqSI",
+   "data": "2026-07-31",
+   "visualizacoes": 1692,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Euronews em Português",
+   "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+   "url": "https://www.youtube.com/watch?v=hZ6s7VK-DY8",
+   "data": "2026-07-31",
+   "visualizacoes": 4837,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Euronews em Português",
+   "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+   "url": "https://www.youtube.com/watch?v=hZ6s7VK-DY8",
+   "data": "2026-07-31",
+   "visualizacoes": 4837,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Euronews em Português",
+   "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+   "url": "https://www.youtube.com/watch?v=hZ6s7VK-DY8",
+   "data": "2026-07-31",
+   "visualizacoes": 4837,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Euronews em Português",
+   "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+   "url": "https://www.youtube.com/watch?v=hZ6s7VK-DY8",
+   "data": "2026-07-31",
+   "visualizacoes": 4837,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Netanyahu fará de tudo para implodir acordo de desarmamento do Hamas, diz especialista | WW",
+   "url": "https://www.youtube.com/watch?v=gjogYk3J92k",
+   "data": "2026-08-01",
+   "visualizacoes": 2030,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Netanyahu fará de tudo para implodir acordo de desarmamento do Hamas, diz especialista | WW",
+   "url": "https://www.youtube.com/watch?v=gjogYk3J92k",
+   "data": "2026-08-01",
+   "visualizacoes": 2030,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Netanyahu fará de tudo para implodir acordo de desarmamento do Hamas, diz especialista | WW",
+   "url": "https://www.youtube.com/watch?v=gjogYk3J92k",
+   "data": "2026-08-01",
+   "visualizacoes": 2030,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Netanyahu fará de tudo para implodir acordo de desarmamento do Hamas, diz especialista | WW",
+   "url": "https://www.youtube.com/watch?v=gjogYk3J92k",
+   "data": "2026-08-01",
+   "visualizacoes": 2030,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento, mas exige recuo de Israel",
+   "url": "https://www.youtube.com/watch?v=6-vMma5OM6A",
+   "data": "2026-08-01",
+   "visualizacoes": 2302,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento, mas exige recuo de Israel",
+   "url": "https://www.youtube.com/watch?v=6-vMma5OM6A",
+   "data": "2026-08-01",
+   "visualizacoes": 2302,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento, mas exige recuo de Israel",
+   "url": "https://www.youtube.com/watch?v=6-vMma5OM6A",
+   "data": "2026-08-01",
+   "visualizacoes": 2302,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Hamas aceita desarmamento, mas exige recuo de Israel",
+   "url": "https://www.youtube.com/watch?v=6-vMma5OM6A",
+   "data": "2026-08-01",
+   "visualizacoes": 2302,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0001",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 6659,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0001",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 6659,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0001",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 6659,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0001",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 6659,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "InfoMoney",
+   "titulo": "Hamas confirma acordo sobre desarmamento em Gaza | InfoMoney News",
+   "url": "https://www.youtube.com/watch?v=6UF0jvocbbk",
+   "data": "2026-07-31",
+   "visualizacoes": 10360,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "InfoMoney",
+   "titulo": "Hamas confirma acordo sobre desarmamento em Gaza | InfoMoney News",
+   "url": "https://www.youtube.com/watch?v=6UF0jvocbbk",
+   "data": "2026-07-31",
+   "visualizacoes": 10360,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "InfoMoney",
+   "titulo": "Hamas confirma acordo sobre desarmamento em Gaza | InfoMoney News",
+   "url": "https://www.youtube.com/watch?v=6UF0jvocbbk",
+   "data": "2026-07-31",
+   "visualizacoes": 10360,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "InfoMoney",
+   "titulo": "Hamas confirma acordo sobre desarmamento em Gaza | InfoMoney News",
+   "url": "https://www.youtube.com/watch?v=6UF0jvocbbk",
+   "data": "2026-07-31",
+   "visualizacoes": 10360,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Brasil de Fato",
+   "titulo": "Gaza: Hamas exige comprometimento de Israel antes de desarmamento | Conexão BdF - 2ª Edição",
+   "url": "https://www.youtube.com/watch?v=AA6N2ZggZw0",
+   "data": "2026-07-31",
+   "visualizacoes": 498,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Brasil de Fato",
+   "titulo": "Gaza: Hamas exige comprometimento de Israel antes de desarmamento | Conexão BdF - 2ª Edição",
+   "url": "https://www.youtube.com/watch?v=AA6N2ZggZw0",
+   "data": "2026-07-31",
+   "visualizacoes": 498,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Brasil de Fato",
+   "titulo": "Gaza: Hamas exige comprometimento de Israel antes de desarmamento | Conexão BdF - 2ª Edição",
+   "url": "https://www.youtube.com/watch?v=AA6N2ZggZw0",
+   "data": "2026-07-31",
+   "visualizacoes": 498,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rádio CBN",
+   "titulo": "Trump anuncia acordo para desarmamento completo do Hamas na Faixa de Gaza",
+   "url": "https://www.youtube.com/watch?v=TGibKqhcbXA",
+   "data": "2026-07-31",
+   "visualizacoes": 414,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rádio CBN",
+   "titulo": "Trump anuncia acordo para desarmamento completo do Hamas na Faixa de Gaza",
+   "url": "https://www.youtube.com/watch?v=TGibKqhcbXA",
+   "data": "2026-07-31",
+   "visualizacoes": 414,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rádio CBN",
+   "titulo": "Trump anuncia acordo para desarmamento completo do Hamas na Faixa de Gaza",
+   "url": "https://www.youtube.com/watch?v=TGibKqhcbXA",
+   "data": "2026-07-31",
+   "visualizacoes": 414,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=-0NKBu4WSzE",
+   "data": "2026-07-31",
+   "visualizacoes": 903,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=-0NKBu4WSzE",
+   "data": "2026-07-31",
+   "visualizacoes": 903,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=-0NKBu4WSzE",
+   "data": "2026-07-31",
+   "visualizacoes": 903,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=-0NKBu4WSzE",
+   "data": "2026-07-31",
+   "visualizacoes": 903,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0002",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 262,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0002",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 262,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0002",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 262,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Eric Deters Show",
+   "titulo": "HAMAS Agrees To Disarmament In Compliance With Trump Plan #hamas #youtubeshorts #trump",
+   "url": "https://www.youtube.com/watch?v=3EhJUTcvqnI",
+   "data": "2026-07-31",
+   "visualizacoes": 1285,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Eric Deters Show",
+   "titulo": "HAMAS Agrees To Disarmament In Compliance With Trump Plan #hamas #youtubeshorts #trump",
+   "url": "https://www.youtube.com/watch?v=3EhJUTcvqnI",
+   "data": "2026-07-31",
+   "visualizacoes": 1285,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Eric Deters Show",
+   "titulo": "HAMAS Agrees To Disarmament In Compliance With Trump Plan #hamas #youtubeshorts #trump",
+   "url": "https://www.youtube.com/watch?v=3EhJUTcvqnI",
+   "data": "2026-07-31",
+   "visualizacoes": 1285,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
+   "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI",
+   "data": "2026-07-31",
+   "visualizacoes": 28775,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
+   "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI",
+   "data": "2026-07-31",
+   "visualizacoes": 28775,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
+   "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI",
+   "data": "2026-07-31",
+   "visualizacoes": 28775,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
+   "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI",
+   "data": "2026-07-31",
+   "visualizacoes": 28775,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia o desarmamento completo do Hamas em Gaza | Bora Brasil",
+   "url": "https://www.youtube.com/watch?v=QtEnTzBw-ZU",
+   "data": "2026-07-31",
+   "visualizacoes": 1948,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia o desarmamento completo do Hamas em Gaza | Bora Brasil",
+   "url": "https://www.youtube.com/watch?v=QtEnTzBw-ZU",
+   "data": "2026-07-31",
+   "visualizacoes": 1948,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Band Jornalismo",
+   "titulo": "Trump anuncia o desarmamento completo do Hamas em Gaza | Bora Brasil",
+   "url": "https://www.youtube.com/watch?v=QtEnTzBw-ZU",
+   "data": "2026-07-31",
+   "visualizacoes": 1948,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Professor Ricardo Marcílio",
+   "titulo": "ACORDO HISTÓRICO EM GAZA! Desarmamento do Hamas? Paz definitiva na Palestina?!",
+   "url": "https://www.youtube.com/watch?v=VaRrOq8ELlw",
+   "data": "2026-07-31",
+   "visualizacoes": 37201,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Professor Ricardo Marcílio",
+   "titulo": "ACORDO HISTÓRICO EM GAZA! Desarmamento do Hamas? Paz definitiva na Palestina?!",
+   "url": "https://www.youtube.com/watch?v=VaRrOq8ELlw",
+   "data": "2026-07-31",
+   "visualizacoes": 37201,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Professor Ricardo Marcílio",
+   "titulo": "ACORDO HISTÓRICO EM GAZA! Desarmamento do Hamas? Paz definitiva na Palestina?!",
+   "url": "https://www.youtube.com/watch?v=VaRrOq8ELlw",
+   "data": "2026-07-31",
+   "visualizacoes": 37201,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Professor Ricardo Marcílio",
+   "titulo": "ACORDO HISTÓRICO EM GAZA! Desarmamento do Hamas? Paz definitiva na Palestina?!",
+   "url": "https://www.youtube.com/watch?v=VaRrOq8ELlw",
+   "data": "2026-07-31",
+   "visualizacoes": 37201,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "globonews",
+   "titulo": "Donald Trump anuncia acordo para desarmamento do Hamas | Conexão",
+   "url": "https://www.youtube.com/watch?v=-1EvZdfQMXk",
+   "data": "2026-07-31",
+   "visualizacoes": 937,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "globonews",
+   "titulo": "Donald Trump anuncia acordo para desarmamento do Hamas | Conexão",
+   "url": "https://www.youtube.com/watch?v=-1EvZdfQMXk",
+   "data": "2026-07-31",
+   "visualizacoes": 937,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "globonews",
+   "titulo": "Donald Trump anuncia acordo para desarmamento do Hamas | Conexão",
+   "url": "https://www.youtube.com/watch?v=-1EvZdfQMXk",
+   "data": "2026-07-31",
+   "visualizacoes": 937,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "globonews",
+   "titulo": "Donald Trump anuncia acordo para desarmamento do Hamas | Conexão",
+   "url": "https://www.youtube.com/watch?v=-1EvZdfQMXk",
+   "data": "2026-07-31",
+   "visualizacoes": 937,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Trump anuncia acordo para 'desarmamento total' do Hamas | AFP",
+   "url": "https://www.youtube.com/watch?v=cZep6y8afLY",
+   "data": "2026-07-31",
+   "visualizacoes": 4477,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Trump anuncia acordo para 'desarmamento total' do Hamas | AFP",
+   "url": "https://www.youtube.com/watch?v=cZep6y8afLY",
+   "data": "2026-07-31",
+   "visualizacoes": 4477,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Trump anuncia acordo para 'desarmamento total' do Hamas | AFP",
+   "url": "https://www.youtube.com/watch?v=cZep6y8afLY",
+   "data": "2026-07-31",
+   "visualizacoes": 4477,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "AFP Português",
+   "titulo": "Trump anuncia acordo para 'desarmamento total' do Hamas | AFP",
+   "url": "https://www.youtube.com/watch?v=cZep6y8afLY",
+   "data": "2026-07-31",
+   "visualizacoes": 4477,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "g1",
+   "titulo": "JN: Trump diz que fechou acordo para desarmamento completo do Hamas em Gaza",
+   "url": "https://www.youtube.com/watch?v=I0xBWj-CneA",
+   "data": "2026-07-31",
+   "visualizacoes": 4226,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "g1",
+   "titulo": "JN: Trump diz que fechou acordo para desarmamento completo do Hamas em Gaza",
+   "url": "https://www.youtube.com/watch?v=I0xBWj-CneA",
+   "data": "2026-07-31",
+   "visualizacoes": 4226,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "g1",
+   "titulo": "JN: Trump diz que fechou acordo para desarmamento completo do Hamas em Gaza",
+   "url": "https://www.youtube.com/watch?v=I0xBWj-CneA",
+   "data": "2026-07-31",
+   "visualizacoes": 4226,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "TV A Crítica",
+   "titulo": "CONSELHO DA PAZ ANUNCIA ACORDO DE DESARMAMENTO COM O HAMAS",
+   "url": "https://www.youtube.com/watch?v=SRzoqtI-Bi0",
+   "data": "2026-07-31",
+   "visualizacoes": 847,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "TV A Crítica",
+   "titulo": "CONSELHO DA PAZ ANUNCIA ACORDO DE DESARMAMENTO COM O HAMAS",
+   "url": "https://www.youtube.com/watch?v=SRzoqtI-Bi0",
+   "data": "2026-07-31",
+   "visualizacoes": 847,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "TV A Crítica",
+   "titulo": "CONSELHO DA PAZ ANUNCIA ACORDO DE DESARMAMENTO COM O HAMAS",
+   "url": "https://www.youtube.com/watch?v=SRzoqtI-Bi0",
+   "data": "2026-07-31",
+   "visualizacoes": 847,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=1fSPmiiGDSY",
+   "data": "2026-08-01",
+   "visualizacoes": 4517,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=1fSPmiiGDSY",
+   "data": "2026-08-01",
+   "visualizacoes": 4517,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=1fSPmiiGDSY",
+   "data": "2026-08-01",
+   "visualizacoes": 4517,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Hamas aceita proposta de desarmamento e negociações dependem de Israel",
+   "url": "https://www.youtube.com/watch?v=1fSPmiiGDSY",
+   "data": "2026-08-01",
+   "visualizacoes": 4517,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornal da Gazeta",
+   "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+   "url": "https://www.youtube.com/watch?v=ZgfYg8fPLzI",
+   "data": "2026-07-31",
+   "visualizacoes": 4704,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornal da Gazeta",
+   "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+   "url": "https://www.youtube.com/watch?v=ZgfYg8fPLzI",
+   "data": "2026-07-31",
+   "visualizacoes": 4704,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornal da Gazeta",
+   "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+   "url": "https://www.youtube.com/watch?v=ZgfYg8fPLzI",
+   "data": "2026-07-31",
+   "visualizacoes": 4704,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornal da Gazeta",
+   "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+   "url": "https://www.youtube.com/watch?v=ZgfYg8fPLzI",
+   "data": "2026-07-31",
+   "visualizacoes": 4704,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0003",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-02",
+   "visualizacoes": 997,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0003",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-02",
+   "visualizacoes": 997,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0003",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-02",
+   "visualizacoes": 997,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede Gospel de Televisão",
+   "titulo": "HAMAS ACEITOU DESARMAMENTO TOTAL, ANUNCIA DONALD TRUMP",
+   "url": "https://www.youtube.com/watch?v=5do3ABvJ4Wg",
+   "data": "2026-07-31",
+   "visualizacoes": 88878,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede Gospel de Televisão",
+   "titulo": "HAMAS ACEITOU DESARMAMENTO TOTAL, ANUNCIA DONALD TRUMP",
+   "url": "https://www.youtube.com/watch?v=5do3ABvJ4Wg",
+   "data": "2026-07-31",
+   "visualizacoes": 88878,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede Gospel de Televisão",
+   "titulo": "HAMAS ACEITOU DESARMAMENTO TOTAL, ANUNCIA DONALD TRUMP",
+   "url": "https://www.youtube.com/watch?v=5do3ABvJ4Wg",
+   "data": "2026-07-31",
+   "visualizacoes": 88878,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O POVO",
+   "titulo": "Hamas anuncia acordo para desarmamento e retirada de Israel da Faixa de Gaza | #OP News",
+   "url": "https://www.youtube.com/watch?v=eCqalNFoMgc",
+   "data": "2026-07-31",
+   "visualizacoes": 1818,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O POVO",
+   "titulo": "Hamas anuncia acordo para desarmamento e retirada de Israel da Faixa de Gaza | #OP News",
+   "url": "https://www.youtube.com/watch?v=eCqalNFoMgc",
+   "data": "2026-07-31",
+   "visualizacoes": 1818,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O POVO",
+   "titulo": "Hamas anuncia acordo para desarmamento e retirada de Israel da Faixa de Gaza | #OP News",
+   "url": "https://www.youtube.com/watch?v=eCqalNFoMgc",
+   "data": "2026-07-31",
+   "visualizacoes": 1818,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O POVO",
+   "titulo": "Hamas anuncia acordo para desarmamento e retirada de Israel da Faixa de Gaza | #OP News",
+   "url": "https://www.youtube.com/watch?v=eCqalNFoMgc",
+   "data": "2026-07-31",
+   "visualizacoes": 1818,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
+   "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs",
+   "data": "2026-07-31",
+   "visualizacoes": 13868,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
+   "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs",
+   "data": "2026-07-31",
+   "visualizacoes": 13868,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
+   "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs",
+   "data": "2026-07-31",
+   "visualizacoes": 13868,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
+   "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs",
+   "data": "2026-07-31",
+   "visualizacoes": 13868,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0004",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 1,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0004",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 1,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0004",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 1,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan  - 3 em 1",
+   "titulo": "Trump afirma que Israel está satisfeito com acordo para desarmamento do Hamas",
+   "url": "https://www.youtube.com/watch?v=6PqB97HNZys",
+   "data": "2026-07-31",
+   "visualizacoes": 7205,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan  - 3 em 1",
+   "titulo": "Trump afirma que Israel está satisfeito com acordo para desarmamento do Hamas",
+   "url": "https://www.youtube.com/watch?v=6PqB97HNZys",
+   "data": "2026-07-31",
+   "visualizacoes": 7205,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan  - 3 em 1",
+   "titulo": "Trump afirma que Israel está satisfeito com acordo para desarmamento do Hamas",
+   "url": "https://www.youtube.com/watch?v=6PqB97HNZys",
+   "data": "2026-07-31",
+   "visualizacoes": 7205,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan  - 3 em 1",
+   "titulo": "Trump afirma que Israel está satisfeito com acordo para desarmamento do Hamas",
+   "url": "https://www.youtube.com/watch?v=6PqB97HNZys",
+   "data": "2026-07-31",
+   "visualizacoes": 7205,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Trump anuncia acordo de desarmamento do Hamas e 43 mortos em crise migratória em Ceuta",
+   "url": "https://www.youtube.com/watch?v=bl6ruX5aqq4",
+   "data": "2026-07-31",
+   "visualizacoes": 1471,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Trump anuncia acordo de desarmamento do Hamas e 43 mortos em crise migratória em Ceuta",
+   "url": "https://www.youtube.com/watch?v=bl6ruX5aqq4",
+   "data": "2026-07-31",
+   "visualizacoes": 1471,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rede TVT",
+   "titulo": "Trump anuncia acordo de desarmamento do Hamas e 43 mortos em crise migratória em Ceuta",
+   "url": "https://www.youtube.com/watch?v=bl6ruX5aqq4",
+   "data": "2026-07-31",
+   "visualizacoes": 1471,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O TEMPO",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas; acordo está próximo? | Primeira Análise",
+   "url": "https://www.youtube.com/watch?v=iBohh5qkSbY",
+   "data": "2026-07-31",
+   "visualizacoes": 3173,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O TEMPO",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas; acordo está próximo? | Primeira Análise",
+   "url": "https://www.youtube.com/watch?v=iBohh5qkSbY",
+   "data": "2026-07-31",
+   "visualizacoes": 3173,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O TEMPO",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas; acordo está próximo? | Primeira Análise",
+   "url": "https://www.youtube.com/watch?v=iBohh5qkSbY",
+   "data": "2026-07-31",
+   "visualizacoes": 3173,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O TEMPO",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas; acordo está próximo? | Primeira Análise",
+   "url": "https://www.youtube.com/watch?v=iBohh5qkSbY",
+   "data": "2026-07-31",
+   "visualizacoes": 3173,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "NOW Canal",
+   "titulo": "Trump anuncia desarmamento do Hamas: «Temos de tomar as coisas com um grão de sal»",
+   "url": "https://www.youtube.com/watch?v=jZRDwT42GpY",
+   "data": "2026-07-31",
+   "visualizacoes": 649,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "NOW Canal",
+   "titulo": "Trump anuncia desarmamento do Hamas: «Temos de tomar as coisas com um grão de sal»",
+   "url": "https://www.youtube.com/watch?v=jZRDwT42GpY",
+   "data": "2026-07-31",
+   "visualizacoes": 649,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "NOW Canal",
+   "titulo": "Trump anuncia desarmamento do Hamas: «Temos de tomar as coisas com um grão de sal»",
+   "url": "https://www.youtube.com/watch?v=jZRDwT42GpY",
+   "data": "2026-07-31",
+   "visualizacoes": 649,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan News",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas em Gaza",
+   "url": "https://www.youtube.com/watch?v=nH9fFsuwHIg",
+   "data": "2026-07-31",
+   "visualizacoes": 25741,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan News",
+   "titulo": "Trump anuncia acordo para desarmamento do Hamas em Gaza",
+   "url": "https://www.youtube.com/watch?v=nH9fFsuwHIg",
+   "data": "2026-07-31",
+   "visualizacoes": 25741,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Cientista político analisa impasse entre Hamas e Israel para plano de paz de Trump | #NewsSabado",
+   "url": "https://www.youtube.com/watch?v=Zi5Ontx4xFA",
+   "data": "2026-08-01",
+   "visualizacoes": 8977,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Cientista político analisa impasse entre Hamas e Israel para plano de paz de Trump | #NewsSabado",
+   "url": "https://www.youtube.com/watch?v=Zi5Ontx4xFA",
+   "data": "2026-08-01",
+   "visualizacoes": 8977,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Cientista político analisa impasse entre Hamas e Israel para plano de paz de Trump | #NewsSabado",
+   "url": "https://www.youtube.com/watch?v=Zi5Ontx4xFA",
+   "data": "2026-08-01",
+   "visualizacoes": 8977,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0005",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 514,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0005",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 514,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0005",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 514,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0006",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 0,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0006",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 0,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0006",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 0,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0006",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 0,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Terra Brasil",
+   "titulo": "Trump diz que Israel está ‘muito feliz’ com acordo para desarmamento do Hamas: ‘Situação complexa’",
+   "url": "https://www.youtube.com/watch?v=LjELlEqgr-s",
+   "data": "2026-07-31",
+   "visualizacoes": 2340,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Terra Brasil",
+   "titulo": "Trump diz que Israel está ‘muito feliz’ com acordo para desarmamento do Hamas: ‘Situação complexa’",
+   "url": "https://www.youtube.com/watch?v=LjELlEqgr-s",
+   "data": "2026-07-31",
+   "visualizacoes": 2340,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Terra Brasil",
+   "titulo": "Trump diz que Israel está ‘muito feliz’ com acordo para desarmamento do Hamas: ‘Situação complexa’",
+   "url": "https://www.youtube.com/watch?v=LjELlEqgr-s",
+   "data": "2026-07-31",
+   "visualizacoes": 2340,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC News (Australia)",
+   "titulo": "Hamas to down weapons and Israeli forces to exit Gaza, says Trump | ABC NEWS",
+   "url": "https://www.youtube.com/watch?v=qqqclE4zTpQ",
+   "data": "2026-07-31",
+   "visualizacoes": 2906,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC News (Australia)",
+   "titulo": "Hamas to down weapons and Israeli forces to exit Gaza, says Trump | ABC NEWS",
+   "url": "https://www.youtube.com/watch?v=qqqclE4zTpQ",
+   "data": "2026-07-31",
+   "visualizacoes": 2906,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC30 Action News",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=QvoQk6NddPY",
+   "data": "2026-07-31",
+   "visualizacoes": 4061,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC30 Action News",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=QvoQk6NddPY",
+   "data": "2026-07-31",
+   "visualizacoes": 4061,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC30 Action News",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=QvoQk6NddPY",
+   "data": "2026-07-31",
+   "visualizacoes": 4061,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "africanews",
+   "titulo": "Hamas agrees to completely disarm in plan including Israeli withdrawal",
+   "url": "https://www.youtube.com/watch?v=1ewWDwe6qZw",
+   "data": "2026-07-31",
+   "visualizacoes": 4593,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Acordo prevê desarmamento do Hamas e retirada de Israel",
+   "url": "https://www.youtube.com/watch?v=Rt-a1Z1mlLw",
+   "data": "2026-08-02",
+   "visualizacoes": 1615,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Acordo prevê desarmamento do Hamas e retirada de Israel",
+   "url": "https://www.youtube.com/watch?v=Rt-a1Z1mlLw",
+   "data": "2026-08-02",
+   "visualizacoes": 1615,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Acordo prevê desarmamento do Hamas e retirada de Israel",
+   "url": "https://www.youtube.com/watch?v=Rt-a1Z1mlLw",
+   "data": "2026-08-02",
+   "visualizacoes": 1615,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jornalismo TV Cultura",
+   "titulo": "Acordo prevê desarmamento do Hamas e retirada de Israel",
+   "url": "https://www.youtube.com/watch?v=Rt-a1Z1mlLw",
+   "data": "2026-08-02",
+   "visualizacoes": 1615,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "6abc Philadelphia",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=fGsTxqkxzrY",
+   "data": "2026-07-31",
+   "visualizacoes": 3660,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "6abc Philadelphia",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=fGsTxqkxzrY",
+   "data": "2026-07-31",
+   "visualizacoes": 3660,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "6abc Philadelphia",
+   "titulo": "Trump announces Hamas disarmament agreement as part of Gaza peace plan",
+   "url": "https://www.youtube.com/watch?v=fGsTxqkxzrY",
+   "data": "2026-07-31",
+   "visualizacoes": 3660,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "News24",
+   "titulo": "Trump hails Hamas disarmament deal as 'giant breakthrough'",
+   "url": "https://www.youtube.com/watch?v=giJ-8fYrqw8",
+   "data": "2026-07-31",
+   "visualizacoes": 12199,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "News24",
+   "titulo": "Trump hails Hamas disarmament deal as 'giant breakthrough'",
+   "url": "https://www.youtube.com/watch?v=giJ-8fYrqw8",
+   "data": "2026-07-31",
+   "visualizacoes": 12199,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "News24",
+   "titulo": "Trump hails Hamas disarmament deal as 'giant breakthrough'",
+   "url": "https://www.youtube.com/watch?v=giJ-8fYrqw8",
+   "data": "2026-07-31",
+   "visualizacoes": 12199,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Mapas e Motivos | Notícias",
+   "titulo": "Bloqueio terrestre ao Irã! Trump anuncia o DESARMAMENTO do Hamas! - Pechiy",
+   "url": "https://www.youtube.com/watch?v=vspYLjfXge4",
+   "data": "2026-07-31",
+   "visualizacoes": 129,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Mapas e Motivos | Notícias",
+   "titulo": "Bloqueio terrestre ao Irã! Trump anuncia o DESARMAMENTO do Hamas! - Pechiy",
+   "url": "https://www.youtube.com/watch?v=vspYLjfXge4",
+   "data": "2026-07-31",
+   "visualizacoes": 129,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Al Jazeera English",
+   "titulo": "Three-year roadmap proposed for Hamas disarmament in Gaza",
+   "url": "https://www.youtube.com/watch?v=xiujeIx-Las",
+   "data": "2026-07-31",
+   "visualizacoes": 3605,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "BBC News",
+   "titulo": "Hamas agrees to Donald Trump's plan to disarm in Gaza - what now? #Israel #Gaza #BBCNews",
+   "url": "https://www.youtube.com/watch?v=SE80LBOWs_Y",
+   "data": "2026-07-31",
+   "visualizacoes": 48516,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "NDTV World",
+   "titulo": "Trump Announces \"Historic\" Deal For Hamas' \"Complete Disarmament\" In Gaza",
+   "url": "https://www.youtube.com/watch?v=Py3TdZiGRcc",
+   "data": "2026-07-31",
+   "visualizacoes": 968,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Al Arabiya English",
+   "titulo": "UN Chief Welcomes Hamas Disarmament Deal",
+   "url": "https://www.youtube.com/watch?v=Ksuf_MonirA",
+   "data": "2026-07-31",
+   "visualizacoes": 608,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Al Arabiya English",
+   "titulo": "UN Chief Welcomes Hamas Disarmament Deal",
+   "url": "https://www.youtube.com/watch?v=Ksuf_MonirA",
+   "data": "2026-07-31",
+   "visualizacoes": 608,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0007",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 2,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0008",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 640,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0009",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 1185,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0009",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 126,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0010",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 790,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0010",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 790,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0011",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 6732,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0012",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-07-31",
+   "visualizacoes": 509,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Trump anuncia acordo entre Israel e Hamas, mas plano gera dúvidas | #NewsPrimeiraEdição",
+   "url": "https://www.youtube.com/watch?v=uedRukQkPx4",
+   "data": "2026-07-31",
+   "visualizacoes": 2293,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Trump anuncia acordo entre Israel e Hamas, mas plano gera dúvidas | #NewsPrimeiraEdição",
+   "url": "https://www.youtube.com/watch?v=uedRukQkPx4",
+   "data": "2026-07-31",
+   "visualizacoes": 2293,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Itatiaia",
+   "titulo": "O QUE SE SABE SOBRE O ACORDO ENTRE HAMAS E ISRAEL ANUNCIADO POR TRUMP?",
+   "url": "https://www.youtube.com/watch?v=sHLz-zNALoo",
+   "data": "2026-07-31",
+   "visualizacoes": 22587,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Itatiaia",
+   "titulo": "HAMAS ACEITA ACORDO DE DESARMAMENTO E RETIRADA ISRAELENSE DE GAZA",
+   "url": "https://www.youtube.com/watch?v=stdFWk6TaI0",
+   "data": "2026-08-01",
+   "visualizacoes": 64718,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Entenda como Trump deve conduzir acordo de paz entre Hamas e Israel | FORA DA ORDEM",
+   "url": "https://www.youtube.com/watch?v=h6LQ2U3HQsY",
+   "data": "2026-07-31",
+   "visualizacoes": 601,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Jovem Pan News",
+   "titulo": "Oriente Médio: Ministro de Israel lamenta pacto com Hamas e classifica acordo como inaceitável",
+   "url": "https://www.youtube.com/watch?v=w3iBXS5_5Ns",
+   "data": "2026-07-31",
+   "visualizacoes": 8998,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Trump diz que Israel ficou “muito feliz” com plano para desarmar Hamas | CNN 360°",
+   "url": "https://www.youtube.com/watch?v=FfJM5HEkSDw",
+   "data": "2026-07-31",
+   "visualizacoes": 15637,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Análise: Hamas e Israel impõem condições para avanço de acordo | WW",
+   "url": "https://www.youtube.com/watch?v=4RWRe12A8NE",
+   "data": "2026-08-01",
+   "visualizacoes": 8886,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "SBT News",
+   "titulo": "Trump anuncia acordo para desarmar Hamas em Gaza | #PoderExpresso",
+   "url": "https://www.youtube.com/watch?v=CFduyTQ_uZ0",
+   "data": "2026-07-31",
+   "visualizacoes": 16044,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Rádio CBN",
+   "titulo": "Faixa de Gaza: O que o Hamas exige para cumprir acordo de desarmamento anunciado por Trump",
+   "url": "https://www.youtube.com/watch?v=wkaYRr-YGts",
+   "data": "2026-07-31",
+   "visualizacoes": 1266,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "BM&C ",
+   "titulo": "Netanyahu e Trump: O que o acordo sobre o Hamas esconde nos bastidores? | BM&C NEWS",
+   "url": "https://www.youtube.com/watch?v=SKcObP3LjGE",
+   "data": "2026-07-31",
+   "visualizacoes": 325,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Israel só vai se retirar de Gaza se Hamas se desarmar antes, diz oficial | BASTIDORES CNN",
+   "url": "https://www.youtube.com/watch?v=c5G8BJ4P32g",
+   "data": "2026-07-31",
+   "visualizacoes": 5604,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "g1",
+   "titulo": "JG: Trump comemora acordo de paz para Gaza, mas Israel e Hamas divergem sobre proposta",
+   "url": "https://www.youtube.com/watch?v=oG2aO5zpqEc",
+   "data": "2026-08-01",
+   "visualizacoes": 8492,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Hamas aproveitou guerra para ampliar tensão entre EUA e Israel; veja análise | FORA DA ORDEM",
+   "url": "https://www.youtube.com/watch?v=i5Qj7uoVa_c",
+   "data": "2026-07-31",
+   "visualizacoes": 2180,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Israel e Hamas voltam ao velho jogo de empurra; veja análise | HORA H",
+   "url": "https://www.youtube.com/watch?v=AtStqrVO4UA",
+   "data": "2026-07-31",
+   "visualizacoes": 4533,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Opera Mundi",
+   "titulo": "Fatos que você precisa saber sobre o Hamas | Os Altmans",
+   "url": "https://www.youtube.com/watch?v=BaUisElMERQ",
+   "data": "2026-08-02",
+   "visualizacoes": 44286,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "7NEWS Australia",
+   "titulo": "Hamas agrees to disarm after US peace deal | 7NEWS",
+   "url": "https://www.youtube.com/watch?v=YIX3QZ8cHdo",
+   "data": "2026-07-31",
+   "visualizacoes": 7276,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "FRANCE 24 English",
+   "titulo": "Trump presses Israel to accept deal with Hamas • FRANCE 24 English",
+   "url": "https://www.youtube.com/watch?v=c1O2VpwR9ok",
+   "data": "2026-08-01",
+   "visualizacoes": 2703,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Instituto Brasil-Israel",
+   "titulo": "[AO VIVO] Hamas vai entregar as armas? | Expresso Israel com Daniela Kresch e João Torquato",
+   "url": "https://www.youtube.com/watch?v=sfTgzsyFQWE",
+   "data": "2026-08-01",
+   "visualizacoes": 693,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "euronews",
+   "titulo": "Hamas agrees to 'historic' disarmament deal, Israel minister deems it 'unacceptable'",
+   "url": "https://www.youtube.com/watch?v=vlNt17OsYFE",
+   "data": "2026-07-31",
+   "visualizacoes": 3902,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "ABC10",
+   "titulo": "Trump announces Hamas disarmament agreement as terms remain disputed",
+   "url": "https://www.youtube.com/watch?v=gv4vbcZA2OU",
+   "data": "2026-07-31",
+   "visualizacoes": 4681,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CBC News",
+   "titulo": "Hamas agrees to disarm under Trump's new Gaza peace deal, if Israel withdraws forces",
+   "url": "https://www.youtube.com/watch?v=I5QkL6Uvdzw",
+   "data": "2026-07-31",
+   "visualizacoes": 6811,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "News24",
+   "titulo": "Israel 'sceptical' Hamas will honour Trump deal",
+   "url": "https://www.youtube.com/watch?v=eMQqmI5-MWE",
+   "data": "2026-07-31",
+   "visualizacoes": 2043,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CNN Brasil",
+   "titulo": "Guerra no Irã: Hamas aceita se desarmar, mas impasse continua; veja análise | CNN PRIME TIME",
+   "url": "https://www.youtube.com/watch?v=fo13LltTRU8",
+   "data": "2026-07-31",
+   "visualizacoes": 3503,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CBN News",
+   "titulo": "Trump Pressures Israel Not to Derail Hamas Disarmament Deal",
+   "url": "https://www.youtube.com/watch?v=TwEPPFbFz3g",
+   "data": "2026-07-31",
+   "visualizacoes": 246337,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Associated Press",
+   "titulo": "Hamas says it will disarm if Israel halts strikes and withdraws from Gaza",
+   "url": "https://www.youtube.com/watch?v=Jtk2jr5nbj4",
+   "data": "2026-07-31",
+   "visualizacoes": 11544,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Al Jazeera English",
+   "titulo": "Trump announces Hamas to disarm paving way for Israel to withdraw from Gaza | AJ #shorts",
+   "url": "https://www.youtube.com/watch?v=VmZF4w5-o4U",
+   "data": "2026-07-30",
+   "visualizacoes": 7102,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "O POVO",
+   "titulo": "🔴AO VIVO: Trump anuncia acordo para desarmamento do Hamas; IA na educação | Debates do Povo 31/8",
+   "url": "https://www.youtube.com/watch?v=y_B1e-TpZGc",
+   "data": "2026-07-31",
+   "visualizacoes": 572,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "canal pequeno P0013",
+   "titulo": "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+   "url": "",
+   "data": "2026-08-01",
+   "visualizacoes": 3,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "CTV News",
+   "titulo": "Trump says deal reached for disarmament of Hamas in Gaza",
+   "url": "https://www.youtube.com/watch?v=eyGbB2o1FJ4",
+   "data": "2026-07-31",
+   "visualizacoes": 13561,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "Al Arabiya English",
+   "titulo": "Who Should Oversee Hamas’s Disarmament?",
+   "url": "https://www.youtube.com/watch?v=OQHPsDGaprI",
+   "data": "2026-07-31",
+   "visualizacoes": 206,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "vídeo",
+   "fonte": "The Hill",
+   "titulo": "BREAKING: Trump announces Hamas agreed to disarmament deal",
+   "url": "https://www.youtube.com/watch?v=4xbvp50BRtc",
+   "data": "2026-07-31",
+   "visualizacoes": 1656,
+   "termo": "desarmamento do Hamas"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "BBC",
+   "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Folha de S.Paulo",
+   "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Agência Brasil",
+   "titulo": "Trump fala em acordo para desarmamento do Hamas",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "CNN Brasil",
+   "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "DW.com",
+   "titulo": "Hamas diz aceitar plano de desarmamento anunciado por Trump",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOclB5Wl82QTh0T2JyOTBUSzJ5Vm9YS2VOZVFjdVVfUUVROFNCcmNhSFZ2aDZRN19ZbEtQbFhYOUhtMHZiV3hMUU1LVDhzQVpFUVZNVnlfbVg0dE9vSnRkb2I5ZkFxUF9EQ3RWdWxXSm00aXEtWldVallETXBxbDdITkZxRjdnZnRZUW9lQlNtQzh0LXItMFdTVTNNY9IBmwFBVV95cUxPQXBRWmxnS1ktanZTVG13Sk8tcWhOUXFUTUY3cW5lYmJ6QkhJNFRQRTFSeGxxV2p1TjYtcmNPU3AxRVpWUHRmVEYtQ3ctYXhieFQxcjVWV2I4dzNVOVlYcHAzbUF5dWx0dlVxdi04cXJDUW1mY2FqTkdFN3dpOWVZT3NPVEwtNkpQVTlnbEg4SVZvemwtRmo2OWZZaw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Poder360",
+   "titulo": "Entenda as etapas do plano de Trump para o desarmamento do Hamas",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcVh5V1BYRTA1NUszandaczV6NEVuNldkanZlSTlhNkYwT3piczhRWjFJa2xJQWxpUkVYeW1PUTI0OThYMFZoNnFPRXdncUszb05YLWNwS0k1cmxWcDlMVUtsdDZjWHd1TTh3T2V2UG55QXUySGhPbXktd0NVbHZtNVVaSGFncFNTM3ROMzlaMGxjd25UdWpCckxBVDNvNWVVclJUQzJLajFHR2dvdkhNVmxfTQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Estadão",
+   "titulo": "Acordo de desarmamento é uma manobra política do Hamas em que Trump embarcou por conveniência",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQV3M4YTh0S2Qxell1aFE1Y3lsMjhUcFdzdGFYdkswSDlQeDZBMU5LR21LNkFDVE9FYnl2cVVyNHRtQnBTSnhyUXpncmUyZk04VzVjWGFRR0xqTl96N1dlM3l4Ykt3b2dQTkQzWGVGMFBBeXJLc3dwdHhCbXJzVDN4ZjAxZW9kaDhISXo0a21ZSm4wQ0tDRENHX3daNkRDeU11aFJ0VHNNdXA4UzdYQVpPM1p0dGVxc3VPV1FnOHRNZVB5aHVVMWd2aDV5MG42dTlRQWxXVlgxbmRaMVc2SDBrM2ZnVG_SAeoBQVVfeXFMTkJIU3Z1dEJGeTFuUnlwUFF0RVYxQ29UQkNvbkRHcjFoWjRfbl82eGpYR2I3enk3WGZLVVVTUzNFc1hocS1jS0JYaXNGQjA1WGlJTU9tbHhQYWUyckZMd2dJdHpxMHFuSHh0dHdZZ3ZjRnVqay1wTEIwWk5KOWpSMmZyM2Y1UWd2anJ4ck44bm9MNnpwbU9nb2ViSkdZbDFiUlE0Y2pMcVdSTWs4S1VlT0NfWWF1cmE1X3RfMkNzUFI2d0FObFo1ZHViSjNrM2drUjU0U0NkQXI3NlAzSTNCdS1TYlVoTlhrX1d3?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "O que se sabe sobre o acordo para o desarmamento do Hamas e a retirada israelense de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdkdmc25NZ2M0YjJfcHRFazRUeUV1cm9RdkR6b0FiQjBHNWlZMlhEbTY3UDVDR2JMdkR1dEpNa1FrS05kTHlKUnhVZGljMEREMUpaRkVTVkhvR3Q4Skl6UjVtT2Q3Rkdpbkl0V2pBY3JrLVJNRmlXYm1sTE5sRWdVdURqVjBCRUlJLW83TXlIM29NYXZFUnhRTUV2a2c5U2N4TUJubDFWT1p3V2dGZ0lueGdIMkl4RnpmR1EyVzB4SVdHUUdUS09SV1lDVGJreFhOOEZaV29KNUPSAecBQVVfeXFMUG5qZUcwUWFfdkVmdF9jM1RYMjhYLUpoVm93THhRY3RDbFhTZXYwUWR0aElMc1VEOTUtc0cya0JlS3RhM0hRbzR5aGUxU1Vndk91QW1CX0phNE4yd2IxUXVZZ3AyV1BtRzd6enE3NXhFQmtnQzEtSGhFMUhMTnowc0owajFoVkVKTmdGaTZ3eWN5bzdiekRqd0Ytdkc3UHZsV3JfWFNvRDB0eEkwa0dzNzRRa1ZMUnI2djZJR1J2bnZfaXdGWUpfV2JhWjU3TEdKUW1ZYlYxSjFrWWZ3T0ZlRm02WmlRT040?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Folha de S.Paulo",
+   "titulo": "Trump anuncia conclusão de acordo para desarmamento do Hamas em Gaza; grupo confirma",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSm5Sc3N2aGV3cmxaMDFDLW5mU3FsLXhXY2MzTGlpVG5uX25meUhhOFdjLTJhejZGMVVzc1lyd3BJVVo1ZGcwbURYalNILUdEejR2WmxlMkQtUzFlb2FpNEVnVUF5LTdJWVg4TXZVSEhtT1BkVEMwalEzYllUSDJtSDJybkhqVmdGNDR1TDYtZW1RT1pYVUdKMENKQ29TdWhXaTRlUExBNG5wS29nVUJxRnZWZC0zTEF1RkE?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "CNN Brasil",
+   "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Agência Brasil",
+   "titulo": "Trump fala em acordo para desarmamento do Hamas",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Exame",
+   "titulo": "Hamas aceita acordo para encerrar guerra em Gaza e prevê desarmamento",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeDlxVDFyRFRVNlRvbFVSZm42aEhxSFBDSGFuQnRHdFZHMW45Q0MxekpiMGFuTS05MHVSMmZES21OM19NUExWOHJuSmc0SU85U3VaTXpSNFpjV2xVSmVDUFdpLWZRelpWWjlWbU94V3dmVzJuOUhtUmJJSHlLeFRSbVdLdy1lRFdPWGFtRk02bF9VNWlHT3dreUln?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Metrópoles",
+   "titulo": "Hamas aceita plano de desarmamento em Gaza anunciado por Trump",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS0ZRMmJ3QlQ0dGNDVURieWFZbzM0c0Q1bUtqeWtXaE5Fc2JQYUNKS2toeEdKZExBWHhwR2ZKc2F1ZkItNTJEU2FDTzhTbXlsTW5vcTVfTWJpbEZ6cDFNc253MkFpYWtwU2lLR2FaTGhOVjJBZnRWWDVyT0NBX01sbnE0YjhSN0dmNUttd2pHT0tVUXN5OVFSTVE5bw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Vermelho",
+   "titulo": "Hamas aceita acordo que prevê desarmamento e retirada de tropas de Israel",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUE8zUUVhTGhnc08xVDJEZ2JVTVJFQkhzelEzRjBBTklzcWlRdnhqazlUV3JEMXpPUDQyaFdhWEdlSnFldUlKa3NiNGdlRGVWWFk1aVJLS1BNalRjVnJyNFJES0diT1FFSS1tWjYzN0FFcHJRU0x2UXI4cUdUcGF3dXhDZDNPT1BFa1RQWERpd1ZEVEYzTmM3Tm1TSVBZbEZtSjN3aTNfbzlodlo2ekE?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Estadão",
+   "titulo": "Hamas aceita acordo de desarmamento e Trump diz que Israel está ‘muito satisfeito’",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY2ZGQmNJWXBrcFZZTTVVS0FnUHczMnVvc0VRd0t5SXF6N0Z1azJQZEZHTU1MRGhjSXg0SVRQUTMxS0J4WDRzRHRiQVpVTGM5Q1dwVHBLZjI4akpMLXZfb0RWUENHcDdMcFk3cEhoWHlnRnB4MkJSYnJqdEpuR1h3VnE2b0FKMnJ5UGFNV1ptZzJNeVZuUjJXT0hjcVF6OVF1dFVWZEZzZm1HSUtXbVZ2cDB30gG3AUFVX3lxTE9rdG9aeHVXM2hhVmdPd2Y3Y3RPaTVHMFZETlozVGJJYkRpeGRyb3Q4b0JVekwyOHdqRTZhS2paV1luNWtZaVpRbmd2dUlnbVRERGRLLUJHRjhPLWtGRmUzbDJFR2QwZDh1UmZrMDFwN2l0emE1Y014ZDRLdnZjbk9veTVDYklKNTBReXZ1QlVmcGNFUjBGRWtsQkRRSHJEV0IzM21obDBDbTJUQzJMcHNQUEw0VnFPYw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "ICL Notícias",
+   "titulo": "Hamas aceita acordo para desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WNjc0Yno0ZnlRWHdRbS0ya19ZS1plamlLRnd0RllObGM4SGo3bmRLckNwVmg4cmdYUnltVVFmY3BnVEx3enppeFpJU2d1alFHZzc1TzhOQXV1dTlDMmhUQXJJWHNVRmxZdnZwUVQ4NHJ1dlU?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "UOL Notícias",
+   "titulo": "Israel diz ter sérias preocupações com acordo de desarmamento do Hamas",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMlJxVU82VG1TWU92NF9MY2lwVElHWUJuNFVkYjYtQ1lqTFFpb0o3OFJNd3JBejZJMDVvOXl6ZjUxUVluNTBWZHc3Wmw0cVViUFVxMFR1VW9xUHVka1lacGlDcm1OUDRsR3FVWjhMNVhSWHVrVl9jU0N2VHBOeFB5djk5VDR1ZFRRakhWcXZmOEJYQzVQb1lUVklHal9mRFJtUnQzRFR0S2tadnlwaEpqZkFEcmVGNDJNcHZZaDkybWRPR3d5WTlSMGF1cDN2Szg?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Euronews",
+   "titulo": "Hamas aceita acordo de desarmamento “histórico” que inclui a retirada israelita de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRnN6LTcxTXpmUUNPZFhGZlY1Sl9UTTE5X001YkRHdUc2MU5FblVUM0Z2X2taWFlkdkg1SWoxMmlGaEFyQk1KYWdzTmpla2Npa1liekJPTFhINGlnXzQxXzVkWGZna0szTVBYQ2FNREQtR1o3U2pWdkNYc2JDbDJBb3liRDVIaHUybUREWXBLX0NJLVM1TUd3WEFEamFIZG00MVJxdGY2QzBEVEZySmpvdWk4X1FRUlBsdzhaN1poRkMtMzg?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Hamas aceita desarmamento"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Folha de S.Paulo",
+   "titulo": "Hamas condiciona desarmamento anunciado por Trump a cumprimento de acordo por Israel",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUmpoaTcyVmNrR0ZIRmZjVEo5WnhyQkZwM3RTY0x4VlY1UXZJWVlQS1dNTnFydVNPWVctUWJsbDFBcTVXOEs1TFYwNVFTejR2MWJENzlmYUVrLUlLekRKYV9BN0dOYzQ0dG9kQlNiendOdmsydE9kNmxWVlNYU2JNa2RiSzVrd3c5cGQ0eEpzbzUwMWlLZVBoLXJtS1QtZzNWcHVRQWt2N2NHMFNyV2F3UFc3NllQa1FPYzF1TGcxT0M2dDEtWXRGdkZ3YU9mTGM?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Agência Brasil",
+   "titulo": "Israel precisa aprovar acordo de Trump antes que Hamas o implemente",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWl6NEEwWWNuSW5tejhOZUtUenRYYkpXVmRISnJOdTZqWUd0bTByaEZvOTM3V2h3dkRqRWJpdHNFLUlEZ19lV1dqWXE5dURDV0prbG4wMFpRaEVXTUMtRnhrbWdDOXRCeVlucXQzSXhwWFQ2TGUxc2xyaDhESGFWNERCanlJOVptVmZLZ0Q3S09KUnF3VFNlb1hmTmh3eHN4Z2dtSThDMnQ1TG50dnpnRHR1UmM1aFp5UTdfaTlTNkxWc2NjZzJMYnZR?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "BBC",
+   "titulo": "O que se sabe sobre acordo para 'desarmamento total' do Hamas em Gaza anunciado por Trump e confirmado pelo grupo palestino",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE82RXNfSVdRajByU3RBM0hyTF9MZXdBdXpTU0ROaUdRR0g4OXN0ZXFQLUJXRVVfbE1GalR0MUlXdU5EekJ6NU95ODltaThRejNzZWYxVWctZ2dFbGdTd3Jidnl30gFnQVVfeXFMUHFUQnFCNW5uTEVWQ0JIRm5oVGJKLXZYNklPM3lIbVdGTVF6bUFmek8tVkZRV1UzeF85VHd5Q1NuMnRaQUltWVdHU0tiazZtY25DMWJkV3M5N1V4V2xtYlo0RnZfZW5rZw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "CNN Brasil",
+   "titulo": "Hamas diz concordar com desarmamento mas cobra Israel para cumprir acordo",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTJUYkZMa0N3R3owWm02blliZ1o2U2pqMWtCWXQzTTczY2tZZ2J0SldYbElzbVVZMFVPQWNENHAtZ0U4Uy1QTXhneG5yVmxublR1M2wxa0tVUm9Fb1dKd1NOM2ZsNW5LX1JRcUlpM1kzUmJhSFU0THdDdDJ6eG9FYTZFYklxQmMwMVBTdUVrYlIxb0cxVF96LUU5SXc0d3JPTERiaDZoaGNya3dIN3kxaThDZklESTdN?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "VEJA",
+   "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "CartaCapital",
+   "titulo": "Trump diz ter fechado acordo para 'desarmamento total' do Hamas e retirada israelense de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZnF3NmpzVmFCU3lvZ2pmeUIycWxXLXFvYTdfZkx4YlZzRnVRM250ZkJlQWJjZ3BLTXkwZTRtbmFCcDBITC1PWURRUEZfYlVJWnozeGkwSjJ0ZFBBZTFzNFE5blVkZThEbllNUUttMENSeThUdXBWa092Rk1vTUVaM1VwQlRaTkNVV0lRQTV1X2xCcW1TTmZUajJ0Z2xOdG5zeGpjcDA5a255LVIyUFdkWHFaSDhSZjFpaFRvejZ4TlZNcXRrTmNkN1h3?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Agência Brasil",
+   "titulo": "Trump fala em acordo para desarmamento do Hamas",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWDF5Zk16NWRTaTN0VERWMC1OUFlLdHNrMVNWTEo0dXdsM3VDdVNhV3lBN0RzWW5FcTNnX3F2dXUybVE5cjRaYzl3eWpEMjA5SF80eXljcGxpOWFWRVRpcVdaLUtoNXNtdUdlX0tPcmNlbDJRX0FsYURhWjA5SGZIcGwzLU5CRk5uczJjaFNzR0txX0ppRThwU3BnbC1xN01BbUFCdHppNERpRC1mcFJF?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "O GLOBO",
+   "titulo": "Trump anuncia acordo para desarmar Hamas; grupo confirma entendimento",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXZidGZIckxwS01sNGpLYmU4NTRoRlVDZ1hObl9DdV84bEtyNWhKQ2t0ZjFnWGUtZnZnd3VyR3ZjeElBQTk3NmQ1OVlKaTQxNC03ZU1UWlBJRThvUE15OHg4X3RlZGxxR25LY2ZVaUFFZU91aWJ5WGxfTS05NkIwQ3Z5WlVJX1FIZk15TjZlQWNEOE81d0FYRDEyVmtsMWNOSGs2RU1CM1p6UHpwVmZaNUktM3NpbWR1c0poQnctbkpPLWoxTWhEUGVGd2drRThmRWhqa1M1UjUzQdIB6AFBVV95cUxOVHQ3SE9CWE9tanFFSEVEX1c2akpUNVhTdDZMRXRCM0R0QlJrVGhXU0xFMXpxSmhzTDVGb1ZnOU5uQVBJYldHYlNjbWtsWEJWMUhOWU9TYTVHSV9Sb3FsM0xJc255eVM4ZHVTdDA3NmxVNFRRRVNBa3hwQVhOZmhwSTV0MWlZQjlNUWZYWl91Q1dkMFk0TGxYeWNSQ29ONU5yV0ZMeVdrSmE4ZnRjeEdzX0VaVTBDU0ZoTkdMU25qVC1NZG9Tb1BXOTNuX3ZLWlFxTHlmZTJGY0YxSC1uSDEzTC1pRzM5RjZo?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "acordo Hamas Israel"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "O GLOBO",
+   "titulo": "Defesa Civil de Gaza recupera restos mortais de 112 palestinos, incluindo 40 crianças",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQVBMaVVwRFU5bUlMdDVjR1pEaDAtRzhITUxGWlpubWtHcEJGalZEUzFJaXkyQWpYczdqa2Q4UXBtUVB0TUZISE5yMGZ2bGRPRE85U2NYQi1TUDczRXozWVdFSjFfdkJhd2hubV9DUWNJZ3MzLS1WY0V5b09WM2RqeHkwb2RCNS1RLWZpdHR5LWxiZ09VdFVtVXYyQzFCM1BvX3FXc1FURmlaYm9kd24yakN2NDd3TGZIOVFldWZGQTZwODBWclpuMVNtemVGS2Z4VTA4dDFvY9IB5gFBVV95cUxPa3cwU2JQUlloeVgwTFZkRW43ZUt4ZExrczBUc0JmeDZweWZiaU1aLURxNnRTcHVLUzV3RW5OY1hDb240Sm1BMHRsUFprWE4tVVkyWk9veTdHcklNOWVmaTdkOFp6NzVZYnA5UmZqUW94UHI1WmZORnR6bGFOdktPX29OaEpLS3pjVW41TTJsVDkxWHBFUXdoeEthenVmZWlOUEVXbnRFUXR2anREQk5pZzlmM0pPQVBIdlVQTUNzYWVvbVIzVXdyRDhmT2JMMDY1b2tFbjJxUUNsSi01eWJLYmowaHp2Zw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "‘Com a corda no pescoço’: como Netanyahu usa ataques em Gaza para sustentar projeto político",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcHQ2VGpHVUJhelhIQWpwVkk2Y2dBUXJlUGRCcTBta01Fd0Y4dmhBWDU2UGRFM051V01oVzdxeTdkcXdDUjhQUnhTT3o2UVNkeDZYODdMX2JzNDEzSjFQWExZN0dXQmpldUhqWUVldE9ybFMwcEp6OUtabFJBZGVuY0s3TW51dWhJeld0S3BYMHRVcGFyT3J5ZjdiVmtkVzBMS2pyYkxfcUR6Y0VwRC1IRGhlcldQbzZ5OEloeWRMRkhMUkNwS0VBMnNFdGtHUQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "O GLOBO",
+   "titulo": "Israel volta a atacar Gaza horas após Hamas concordar com desarmamento",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQU2RSVkptMUdUemRFSzhyRGlLTVZCWWstR2Y4ajdwVmFnMThOVzNKOUxqLTdpTlF3NjNUOUJGWldaU29pQ2d2M3ZmalFTY0NCOHZ6cnFlNkVqTUFZUVR3ckZlamNQWWFzTFdQQmdPZ2ZsRDdlV0M2emU2dndFbWhGVFpvUXcwWjk3eHhTZHFXMW5tZGhIdm01dTF1a1JIMlVxU0xDVEd4ckNNN1oxUG5JcUo1QTZyaWlVdFVjMDVCU1ZLbGVT0gHTAUFVX3lxTE5YbFJiWnNqckdhUjNsQnVya2xScUkxSGR2UVpfRmxYZ3FzQTdOMlFSR3BFN1lmcU83Zl9pLW9yUHo5X1lFQk9GX0hyQ3NmU2VBVkVyQURVV1UtX1Q0WHFvUzlsR19jRlhtb0FhZWZSVmNkT01NcEp3T1hDLUpYcmE1cy1wbkdqSF9QVm5GdExtNXhjbEdja1lEVDJUQnZjZW9kQXZ3eWtRd0RYWi1vUS1UWFdrQzZxbl9Nc1k0YVhWaDZ6amx5cjFyZ19MY1dyejFSdFU?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Times Brasil",
+   "titulo": "Hamas diz aceitar desarmamento, mas Israel não confirma acordo em Gaza",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSWx2dlVMSmdoTFhwN3lMUVlmLVEzaXctcENaZHdYNXdyY21TZDBQUHFVLVk4MHJRd1hwVGV3QW8yME9qUTc0WHZkeFVEa3lqNlliNHZtTHVhMnBtdnQtSzhkbHZHQkxXbUd6Z1luOXJIYTNFVWhGb3lDNjQxQmVOanRBN3Q2dS1NYVlSX2JzWkc3M2Jnbkt5cGVOMVB1TVgzOTVvNE1oM0ZtZw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Operações militares de Israel em Gaza fazem parte de um projeto político e não vão cessar, avalia especialista",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2ZzRWFUeVg1UlJqSnU4TGFicDIzZU04ekhFdFp1NnYyNF9HbEJpV2VnVUpVeV96SnhFMFpTYmFyZXBsRllaYzFFa1hCZVFPMHlOeUdmQmV3cEtNS2dEc2F6bFdFSjNNNFdOaFNacXdJazFxNGFGZnJJNFpTMW0zeGY4SHBQcmZIX29DYndVdlZNbjFpUnUwYkhkWGpjeFV2N3NYb2hGdmdhSW1GRUt5Z1pvdXdOOENQQmFTSXlKelFHb3V1M1MwdTFGUVc1QWFMRGp6MG00a2VDVEg0ektjZUZVNzgxMDhL?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "ND Mais",
+   "titulo": "Trump anunciou dois acordos históricos na mesma semana — e os dois podem desmoronar pelo mesmo motivo",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVk5UQW1ValIyc2NkeG42THFRWUktc3ZZLVNyVFROb2dDanczd3JWMkpyUDNvTkFhZnVCM2dVS3IxaUNRZTdDRGQ0NHRQSWxBVXNZTGpyR3pDUllpZkhCQnVfN2ltOGFSVllQNXhMWG5Lc3V1eUtSNnljRGpickRLczJNUUxUeE9jMVkyb25lUzZ5eVRGQWwxQUJjMTRGcjdJVU55bDZQcnhEVlpDOXAyT2p3TC04bHJ3N3YwbUZhVGNSdzhVdVhF?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Palestina"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Outras Palavras",
+   "titulo": "Psicanálise sob Ocupação : A resistência palestina no divã",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZG9iNkY0RXY2RGQwZW5EaDdVbWk4MGlmbXp4ajNHdmR0LTQ1aE1IaUNiaFg0QjRMbjJCVDZDTHhMTDVKVWxDWkxNZjg2eXA3amJWNTQtN1ZuaFVHNWM2R3dsUWRZRzhLbVFWTW4zUFFQa3NmRENsLVdkN05TUkVPY2R2TzgyWWVzVVk3elQ5UkpKUDY0eXQ5aEpIR1duQjREUWx3SkhvYw?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Palestina"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Sinteal",
+   "titulo": "Palestina: Sinteal se reúne com gestão da Educação para discutir pautas da categoria",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNWhQZWRYXzVBT2tNcFJZeUtmQWZVRUlKUHJXMjQ0M2pMajVGYXJVd0t2cmtDbVFRdU40Vzh0SWQwWHFkZ1RfREh4VzR0c2lVaVIwRVFCc1B0OWk3Q1JzOWJQWU5PWGhYcTF5N0tTNEVSMTU2S29YT0FEWmYxcUduMHZKM19SMzBYNG16Y3RyWktNVGltRVd6UmcwLW5SbE80Wlh4c2Vad0hNOUZFN1d1VEpic3hTb2pORDJj?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Palestina"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Palestina"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "Palestina"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "CNN Brasil",
+   "titulo": "Ataque israelense deixa cratera em hospital de Gaza, apesar de cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNajBDOXZDSE01dkpZYnBlSlBPTVBOQ2dqR3c5X1hxRG1yNnVhZFJGVEJrOXBTeHpwdjNna2Nsb2pLOHFDWWJFOC1EVWxSX3NoNG5oRUR4dzFrT25tZW5fWkg0Mk8yczZIdzEyenFWNTVFSU5XTnV3QU5oSEdhWEVTN1hXUDBzeG9TSmZ1S1UySlRacmQ3d0pnQWQ1QnZsVFBNQk9UZ1BkMVlDTHhBVHlmdGhYTFVtdnpr?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas condiciona desmilitarização à retirada de Israel de Gaza e cumprimento do cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX2x6VHR0eUVoTDNiVjlfVC1uZWhhMlJDemhqaFlVbWR5WkNmTzAzVGpNelVvTFVBVzJOZDh6Y1NzMDRLZHFPMHVsSXVWcW41UXRKd2RKaGFGRk5fbGFhT25qMXZ3Q1B4UUVSRnI4NjNCUnVQOFN1Q3NVMUZSUlhDY1UzLTYtSkNtVmxPRzQybGstbHgtWW5RVmtHM0tuR1hjbUlSOGNaVzhHd3lnWVVtMkJ3VGJaaU1vVzBMRU5aTmtPczZ1eW40UVo2UmJJTVF1?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Folha de S.Paulo",
+   "titulo": "Ataques de Israel matam 18 palestinos em Gaza, apesar de anúncio de avanço no cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTDBZVHk3RzJ4ZVFJZWxOaXVweWhoYlpBbEdILTViZzVZVE5CSVY5MWs3bWotcXJPbEZYUWJfdWNLb0pYRHZ0WkFNMWZlcFZMOFhVc3FNR1ZoTFZHTENxaDVUWURHc1hYSWsxR3JfNmJLVy15UjdSMnVxWC05dlVrdVF3LUwtaTFlTWZlSzFrN01BRU1HWlpPN2dITzBaMzV4OGE4YzM0MXppbEg2UDhxWlNOTTdma2dpeTRTbWVIanNGYlNnZlpQeWpYY2xwb2tKOFE4?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "O que se sabe sobre o acordo para o desarmamento do Hamas e a retirada israelense de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdkdmc25NZ2M0YjJfcHRFazRUeUV1cm9RdkR6b0FiQjBHNWlZMlhEbTY3UDVDR2JMdkR1dEpNa1FrS05kTHlKUnhVZGljMEREMUpaRkVTVkhvR3Q4Skl6UjVtT2Q3Rkdpbkl0V2pBY3JrLVJNRmlXYm1sTE5sRWdVdURqVjBCRUlJLW83TXlIM29NYXZFUnhRTUV2a2c5U2N4TUJubDFWT1p3V2dGZ0lueGdIMkl4RnpmR1EyVzB4SVdHUUdUS09SV1lDVGJreFhOOEZaV29KNUPSAecBQVVfeXFMUG5qZUcwUWFfdkVmdF9jM1RYMjhYLUpoVm93THhRY3RDbFhTZXYwUWR0aElMc1VEOTUtc0cya0JlS3RhM0hRbzR5aGUxU1Vndk91QW1CX0phNE4yd2IxUXVZZ3AyV1BtRzd6enE3NXhFQmtnQzEtSGhFMUhMTnowc0owajFoVkVKTmdGaTZ3eWN5bzdiekRqd0Ytdkc3UHZsV3JfWFNvRDB0eEkwa0dzNzRRa1ZMUnI2djZJR1J2bnZfaXdGWUpfV2JhWjU3TEdKUW1ZYlYxSjFrWWZ3T0ZlRm02WmlRT040?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "VEJA",
+   "titulo": "O que se sabe sobre novo acordo para paz em Gaza e as obrigações do Hamas e Israel",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaThJbm1Bc2ZQNklET0NzVWpkcy1WYmxhTmhyT1pTel8yZGhPSldJajBPd09fcWV3bnJwcTdiOXRZQi1sNk1RTUxLVVVqajJnVkU5ZGdCejJrSElaRU9UbGp3RHF2UlVrcVotQ0d3RVdueUVSQnNxUXhxQVI3T2pkYXdLSFlzczB4R1h6cExTaEdSOGp4dFFLUTMxaHp0eTA2d1hDQy05RHBPZjdDZng1LWRmdm5PQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Folha de S.Paulo",
+   "titulo": "Israel bombardeia Gaza após Trump anunciar acordo para avançar cessar-fogo",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPS3lSR3ZyN2FJWGNYYkg5THpDQVk4WFFLTEZYVnNJSzJlQmdzWE9xWkloX2pVUmEwZWcxX3Q0dEhqRC1ucnJHdDNXckVkUlJkdkRsaVFlTFV1T29DMzBmREpYaGgzN19zWkJoUXpyWE5sdmNIZUxfdDlSRWhqQ2hVZF85a0VyckExVEFrTEZTei04UUVZYmE0MERHN09LdlVsZ3dCTG5xYXQ2V0JiRDljWm5LdkVpVUtHMEtOQ18yUjhoUQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Hamas confirma acordo para desmilitarização e reconstrução de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM2lNVmI1dGhXYkc4ZzBJVDVHZXFGSE53YnUzRFV5NmtlZlpHZ0dFTTlnNDFOT3dOUmlPWXliR2thdWZ0MWhrNDdqOXFhZUZzSTVfNlA4d1VRczM5UDNpb2syRU1QaGRGaG5rUzVzRHBKaU1WakNLbmV4M3FMeVpySXB0dTRNZmdwTE1TRDVoelFTOUJteDlaQ0NlYzdFYUI4eklBNjk1NFg1b3RRM2tZ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "G1",
+   "titulo": "Hamas confirma acordo para seu desarmamento e retirada de Israel de Gaza",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlRoRWNhaG45dnBBWWU2bFN6SnpXTTFGREpmYTJnZUJUTnJXWUIzT1lSNFdWQWdOWUhvaG1wWVc3WDI2RkhzbjY5VFNsNmRhZ0VLOUpRVGZSOUk0YnFDLUluN3hDVUE4RXJ1Zk5fZ1RtUk16ZlZmaEoycXpzbzloRFU1dGliUjZLd0RodnpxMjdQaXh5NjdhSXJFV015bE1YUldJWW5WZVJXOHN6WW5WWWsxRzFGTHVXQU1xSUpnY9IBzgFBVV95cUxOZzl2SWhuaFdCZU5mcUhrb1BuLUlwNXlTY0tGS2ZDT0dLN1RtQVFtUEpZb01kNHNmdTdSOGU5X3VpRFBBeF9fSF9jQllVTERLb2NOa3JYdURKUzEtQ0h5ODJYUkxRRktmdnptMmpHNDdUb3VfcFNKQjBNRjhzbElrcUdaejhsRjBKNlZTdzYzU1h0blJUNy1zSmhZc1FMQ0lqT2xBWVVxSjZzTHNTbjF6UG90MmJmVlEwVnM4Ti1QS2ZLeXlSb2tGRmFnVExDQQ?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Operações militares de Israel em Gaza fazem parte de um projeto político e não vão cessar, avalia especialista",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU2ZzRWFUeVg1UlJqSnU4TGFicDIzZU04ekhFdFp1NnYyNF9HbEJpV2VnVUpVeV96SnhFMFpTYmFyZXBsRllaYzFFa1hCZVFPMHlOeUdmQmV3cEtNS2dEc2F6bFdFSjNNNFdOaFNacXdJazFxNGFGZnJJNFpTMW0zeGY4SHBQcmZIX29DYndVdlZNbjFpUnUwYkhkWGpjeFV2N3NYb2hGdmdhSW1GRUt5Z1pvdXdOOENQQmFTSXlKelFHb3V1M1MwdTFGUVc1QWFMRGp6MG00a2VDVEg0ektjZUZVNzgxMDhL?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  },
+  {
+   "tipo": "notícia",
+   "fonte": "Brasil de Fato",
+   "titulo": "Israel bombardeia Gaza e deixa pelo menos dois mortos horas após Hamas concordar com desarmamento",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcF8zVElOdk56ejJwVHkwTTA1XzZ2a0hGUGFWY2xMRVNTaUpuWHl1MUpiWk1xS3VmUlJUck5HRmNiWjc2TUF6OG5Gc2NPbl9NRlc1S2N1WUdMTXZmRVVwUEZMU2IwYzV4SGRhOURPcXNCZWNiNkdVVXRWWW84Nk5jb3drTFRaUkdBYmlITlc3UTBZREJhUU84eWV5STRhaklfdWUzdncxb1J1R2ptM0x5MUZiMFlLYmg4X1pDR3V5MVZyeHNQejMzTjFFZ1o0Qm1HNnJ4UXdNVzg?oc=5",
+   "data": "",
+   "visualizacoes": null,
+   "termo": "cessar-fogo Gaza"
+  }
+ ],
+ "itens_por_no": {
+  "yt:UCamgdcs45ToPrIV7wmT7iYg": [
+   0,
+   1,
+   2,
+   3,
+   73,
+   74,
+   75,
+   76
+  ],
+  "busca: Hamas desarmamento": [
+   0,
+   4,
+   7,
+   11,
+   15,
+   18,
+   22,
+   26,
+   30,
+   34,
+   38,
+   42,
+   45,
+   48,
+   52,
+   55,
+   58,
+   62,
+   65,
+   69,
+   73,
+   77,
+   80,
+   83,
+   87,
+   91,
+   94,
+   97,
+   101,
+   105,
+   108,
+   112,
+   115,
+   119,
+   122,
+   124,
+   127,
+   130,
+   134,
+   137,
+   139,
+   142,
+   143,
+   147,
+   150,
+   153,
+   155,
+   156,
+   157,
+   158
+  ],
+  "busca: Hamas aceita desarmamento": [
+   1,
+   5,
+   8,
+   12,
+   16,
+   19,
+   23,
+   27,
+   31,
+   35,
+   39,
+   43,
+   46,
+   49,
+   53,
+   56,
+   59,
+   63,
+   66,
+   70,
+   74,
+   78,
+   81,
+   84,
+   88,
+   92,
+   95,
+   98,
+   102,
+   106,
+   109,
+   113,
+   116,
+   120,
+   128,
+   131,
+   135,
+   138,
+   140,
+   144,
+   148,
+   151,
+   160,
+   161,
+   162,
+   163,
+   164,
+   166,
+   167,
+   168
+  ],
+  "busca: acordo Hamas Israel": [
+   2,
+   9,
+   13,
+   20,
+   24,
+   28,
+   32,
+   36,
+   40,
+   50,
+   60,
+   67,
+   71,
+   75,
+   85,
+   89,
+   99,
+   103,
+   107,
+   110,
+   117,
+   125,
+   132,
+   145,
+   169,
+   170,
+   171,
+   172,
+   173,
+   174,
+   175,
+   176,
+   177,
+   178,
+   179,
+   180,
+   181,
+   182,
+   183,
+   184,
+   185,
+   186,
+   187,
+   188,
+   189,
+   190,
+   191,
+   192,
+   193,
+   194
+  ],
+  "busca: desarmamento do Hamas": [
+   3,
+   6,
+   10,
+   14,
+   17,
+   21,
+   25,
+   29,
+   33,
+   37,
+   41,
+   44,
+   47,
+   51,
+   54,
+   57,
+   61,
+   64,
+   68,
+   72,
+   76,
+   79,
+   82,
+   86,
+   90,
+   93,
+   96,
+   100,
+   104,
+   111,
+   114,
+   118,
+   121,
+   123,
+   126,
+   129,
+   133,
+   136,
+   141,
+   146,
+   149,
+   152,
+   154,
+   159,
+   165,
+   195,
+   196,
+   197,
+   198,
+   199
+  ],
+  "yt:UCoa-D_VfMkFrCYodrOC9-mA": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   30,
+   31,
+   32,
+   33,
+   62,
+   63,
+   64
+  ],
+  "yt:UCvdwhh_fDyWccR42-rReZLw": [
+   15,
+   16,
+   17,
+   26,
+   27,
+   28,
+   29,
+   101,
+   102,
+   103,
+   104,
+   172,
+   174,
+   175,
+   179,
+   181,
+   182,
+   191
+  ],
+  "yt:UCmQTY7b5w61WlmBbJ5a8XrQ": [
+   18,
+   19,
+   20,
+   21,
+   112,
+   113,
+   114
+  ],
+  "yt:UCUmEPYxmnyQDeRUcFkslmQw": [
+   22,
+   23,
+   24,
+   25
+  ],
+  "P0001": [
+   34,
+   35,
+   36,
+   37
+  ],
+  "yt:UCxm0tptjIc76-i26EKQ9NpA": [
+   38,
+   39,
+   40,
+   41
+  ],
+  "yt:UCOnuheHbS2DgZiAZFL0-Sbg": [
+   42,
+   43,
+   44
+  ],
+  "yt:UCbiGwU0-W1XCDUrt3BTVrag": [
+   45,
+   46,
+   47,
+   177
+  ],
+  "yt:UCXdXYG8dUmEv6jhEji_lSHg": [
+   48,
+   49,
+   50,
+   51,
+   83,
+   84,
+   85,
+   86,
+   143,
+   144,
+   145,
+   146
+  ],
+  "P0002": [
+   52,
+   53,
+   54
+  ],
+  "yt:UCOsYwlfhlRTPCQARdkNtjZg": [
+   55,
+   56,
+   57
+  ],
+  "yt:UC376n347Ob5Lwzq2WGzF1AA": [
+   58,
+   59,
+   60,
+   61,
+   124,
+   125,
+   126,
+   168,
+   169,
+   176
+  ],
+  "yt:UCT6Imb3GXhF8GmjpIk6y2lg": [
+   65,
+   66,
+   67,
+   68
+  ],
+  "yt:UCp6RRaz93Pt2xYZoEye_rLA": [
+   69,
+   70,
+   71,
+   72
+  ],
+  "yt:UCaGmdJSSiR7fkh2A-c6emsA": [
+   77,
+   78,
+   79,
+   180
+  ],
+  "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw": [
+   80,
+   81,
+   82
+  ],
+  "yt:UCNl_i-ggJbZNyOLlhE7yyhw": [
+   87,
+   88,
+   89,
+   90
+  ],
+  "P0003": [
+   91,
+   92,
+   93
+  ],
+  "yt:UC9_P8UgE6lExmkrzH4g2L8A": [
+   94,
+   95,
+   96
+  ],
+  "yt:UCj-RTZE-V3Q6jleatRR9k2A": [
+   97,
+   98,
+   99,
+   100,
+   195
+  ],
+  "P0004": [
+   105,
+   106,
+   107
+  ],
+  "yt:UCEsbaUdrM_87K-2um30hf8Q": [
+   108,
+   109,
+   110,
+   111
+  ],
+  "yt:UCx7Ohl0Ln516T5pu5M8_SMA": [
+   115,
+   116,
+   117,
+   118
+  ],
+  "yt:UCsEC-wMKyvx5EIxKHsG0q3g": [
+   119,
+   120,
+   121
+  ],
+  "yt:UCP391YRAjSOdM_bwievgaZA": [
+   122,
+   123,
+   173
+  ],
+  "P0005": [
+   127,
+   128,
+   129
+  ],
+  "P0006": [
+   130,
+   131,
+   132,
+   133
+  ],
+  "yt:UCWeXgaH6wwyTRAkA3n6sRxg": [
+   134,
+   135,
+   136
+  ],
+  "yt:UCVgO39Bk5sMo66-6o6Spn6Q": [
+   137,
+   138
+  ],
+  "yt:UCEs-K_xio8n6PKKbTCZpaSA": [
+   139,
+   140,
+   141
+  ],
+  "yt:UC1_E8NeF5QHY2dtdLRBCCLA": [
+   142
+  ],
+  "yt:UCw77677G3EAODp61b0izs7w": [
+   147,
+   148,
+   149
+  ],
+  "yt:UCO0akufu9MOzyz3nvGIXAAw": [
+   150,
+   151,
+   152,
+   190
+  ],
+  "yt:UC0nvfUHh42VwMeaqEy6EPFg": [
+   153,
+   154
+  ],
+  "yt:UCNye-wNBqNL5ZzHSJj3l8Bg": [
+   155,
+   194
+  ],
+  "yt:UC16niRr50-MSBwiO3YDb3RA": [
+   156
+  ],
+  "yt:UCXBD5iG5cr4ZYZ99K-fmDHg": [
+   157
+  ],
+  "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ": [
+   158,
+   159,
+   198
+  ],
+  "P0007": [
+   160
+  ],
+  "P0008": [
+   161
+  ],
+  "P0009": [
+   162,
+   163
+  ],
+  "P0010": [
+   164,
+   165
+  ],
+  "P0011": [
+   166
+  ],
+  "P0012": [
+   167
+  ],
+  "yt:UC9T0ZAarQHL4cJGFzORVsFg": [
+   170,
+   171
+  ],
+  "yt:UCoja0MNI4SIvXqJR3szbSfw": [
+   178
+  ],
+  "yt:UCOjUlJ4EpPxuhtT0zEVw25A": [
+   183
+  ],
+  "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw": [
+   184
+  ],
+  "yt:UCQfwfsi5VrQ8yKZ-UWmAEFg": [
+   185
+  ],
+  "yt:UCBRmJmB9dVPwPIpc6FeQeNg": [
+   186
+  ],
+  "yt:UCSrZ3UV4jOidv8ppoVuvW9Q": [
+   187
+  ],
+  "yt:UCT350j4u6alUKyF9eu2bGug": [
+   188
+  ],
+  "yt:UCuFFtHWoLl5fauMMD5Ww2jA": [
+   189
+  ],
+  "yt:UCYI_ychRnL7sJrG6PUSBpQA": [
+   192
+  ],
+  "yt:UC52X5wxOL_s5yw0dQk7NtgA": [
+   193
+  ],
+  "P0013": [
+   196
+  ],
+  "yt:UCi7Zk9baY1tvdlgxIML8MXg": [
+   197
+  ],
+  "yt:UCPWXiRWZ29zrxPFIQT7eHSA": [
+   199
+  ],
+  "imprensa:G1": [
+   200,
+   208,
+   210,
+   222,
+   235,
+   248,
+   252
+  ],
+  "notícia: Hamas desarmamento": [
+   200,
+   201,
+   202,
+   203,
+   204,
+   205,
+   206,
+   207,
+   208,
+   209
+  ],
+  "imprensa:BBC": [
+   201,
+   223
+  ],
+  "imprensa:Folha de S.Paulo": [
+   202,
+   209,
+   220,
+   247,
+   250
+  ],
+  "imprensa:Agência Brasil": [
+   203,
+   212,
+   221,
+   228
+  ],
+  "imprensa:CNN Brasil": [
+   204,
+   211,
+   224,
+   245
+  ],
+  "imprensa:DW.com": [
+   205
+  ],
+  "imprensa:Poder360": [
+   206
+  ],
+  "imprensa:Estadão": [
+   207,
+   216
+  ],
+  "notícia: Hamas aceita desarmamento": [
+   210,
+   211,
+   212,
+   213,
+   214,
+   215,
+   216,
+   217,
+   218,
+   219
+  ],
+  "imprensa:Exame": [
+   213
+  ],
+  "imprensa:Metrópoles": [
+   214
+  ],
+  "imprensa:Vermelho": [
+   215
+  ],
+  "imprensa:ICL Notícias": [
+   217
+  ],
+  "imprensa:UOL Notícias": [
+   218
+  ],
+  "imprensa:Euronews": [
+   219
+  ],
+  "notícia: acordo Hamas Israel": [
+   220,
+   221,
+   222,
+   223,
+   224,
+   225,
+   226,
+   227,
+   228,
+   229
+  ],
+  "imprensa:VEJA": [
+   225,
+   249
+  ],
+  "imprensa:Brasil de Fato": [
+   226,
+   231,
+   233,
+   236,
+   237,
+   238,
+   240,
+   243,
+   244,
+   246,
+   251,
+   253,
+   254
+  ],
+  "imprensa:CartaCapital": [
+   227
+  ],
+  "imprensa:O GLOBO": [
+   229,
+   230,
+   232
+  ],
+  "notícia: Gaza": [
+   230,
+   231,
+   232,
+   233,
+   234,
+   235,
+   236,
+   237,
+   238,
+   239
+  ],
+  "imprensa:Times Brasil": [
+   234
+  ],
+  "imprensa:ND Mais": [
+   239
+  ],
+  "notícia: Palestina": [
+   240,
+   241,
+   242,
+   243,
+   244
+  ],
+  "imprensa:Outras Palavras": [
+   241
+  ],
+  "imprensa:Sinteal": [
+   242
+  ],
+  "notícia: cessar-fogo Gaza": [
+   245,
+   246,
+   247,
+   248,
+   249,
+   250,
+   251,
+   252,
+   253,
+   254
+  ]
+ },
+ "gerado_em": "2026-11-23T02:17:27Z",
+ "run_id": "45099323058",
  "metodo": "Pedido do responsável (22/11/2026, 19h14): \"uma rede de circulação do Hamas com canais [que] publicaram notícias no dia\".\n- YouTube (API oficial, sem custo): search.list por termo do caso, publishedAfter 2026-07-30 e publishedBefore 2026-08-03,\n  ordem de relevância, até 50 vídeos por termo; visualizações (videos.list) e inscritos do canal (channels.list).\n- Imprensa: os 10 primeiros do Google Notícias no recorte \"dia do anúncio\" (data/imprensa/resultados.json).\n- Rede: redes_caso.circulacao(): quem publicou (canal do YouTube ou veículo) × termo que o\n  trouxe; peso = visualizações (ou 1 por notícia). Canal com menos de 10 mil inscritos aparece como código (P0001…).\n- Estatísticas: estatisticas_redes.py (Gephi Statistics, Louvain semente 42, E-I, centralidades).\n- Cruzamento: se algum canal da rede é de uma das influenciadoras (canal próprio) — resposta direta à pergunta do estudo.\nUniverso: a busca do YouTube não informa o total (pageInfo.totalResults é estimativa: não é universo, ⛔).\nSaídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatísticas.",
  "recorte": {
   "de": "2026-07-30T00:00:00Z",
@@ -13,13 +3004,13 @@
   "desarmamento do Hamas"
  ],
  "youtube": {
-  "videos": 87,
-  "canais": 60,
+  "videos": 88,
+  "canais": 59,
   "estimativa_api_por_termo": {
-   "Hamas desarmamento": 66550,
-   "Hamas aceita desarmamento": 35053,
+   "Hamas desarmamento": 66286,
+   "Hamas aceita desarmamento": 66287,
    "acordo Hamas Israel": 1000000,
-   "desarmamento do Hamas": 35053
+   "desarmamento do Hamas": 66287
   },
   "universo": "⛔ a busca do YouTube não informa o total (a estimativa da API não é universo)",
   "cota_unidades": 404
@@ -33,7 +3024,7 @@
   {
    "canal": "CBN News",
    "inscritos": 2900000,
-   "visualizacoes": 246333,
+   "visualizacoes": 246337,
    "titulo": "Trump Pressures Israel Not to Derail Hamas Disarmament Deal",
    "publicado_em": "2026-07-31T12:52:12Z",
    "url": "https://www.youtube.com/watch?v=TwEPPFbFz3g"
@@ -47,12 +3038,28 @@
    "url": "https://www.youtube.com/watch?v=5do3ABvJ4Wg"
   },
   {
+   "canal": "Itatiaia",
+   "inscritos": 3730000,
+   "visualizacoes": 64718,
+   "titulo": "HAMAS ACEITA ACORDO DE DESARMAMENTO E RETIRADA ISRAELENSE DE GAZA",
+   "publicado_em": "2026-08-01T11:00:16Z",
+   "url": "https://www.youtube.com/watch?v=stdFWk6TaI0"
+  },
+  {
    "canal": "BBC News",
    "inscritos": 20300000,
-   "visualizacoes": 48513,
+   "visualizacoes": 48516,
    "titulo": "Hamas agrees to Donald Trump's plan to disarm in Gaza - what now? #Israel #Gaza #BBCNews",
    "publicado_em": "2026-07-31T19:26:05Z",
    "url": "https://www.youtube.com/watch?v=SE80LBOWs_Y"
+  },
+  {
+   "canal": "Opera Mundi",
+   "inscritos": 584000,
+   "visualizacoes": 44286,
+   "titulo": "Fatos que você precisa saber sobre o Hamas | Os Altmans",
+   "publicado_em": "2026-08-02T16:37:45Z",
+   "url": "https://www.youtube.com/watch?v=BaUisElMERQ"
   },
   {
    "canal": "Professor Ricardo Marcílio",
@@ -65,23 +3072,15 @@
   {
    "canal": "Band Jornalismo",
    "inscritos": 7490000,
-   "visualizacoes": 33778,
+   "visualizacoes": 33779,
    "titulo": "Hamas aceita desarmamento anunciado por Trump, mas impõe condições",
    "publicado_em": "2026-08-01T04:39:20Z",
    "url": "https://www.youtube.com/watch?v=yMDZkev12es"
   },
   {
-   "canal": "CBN News",
-   "inscritos": 2900000,
-   "visualizacoes": 28873,
-   "titulo": "Trump Pressures Israel Not to Derail Hamas Disarmament Deal",
-   "publicado_em": "2026-07-31T16:26:41Z",
-   "url": "https://www.youtube.com/watch?v=KqMlFRGi6tQ"
-  },
-  {
    "canal": "SBT News",
    "inscritos": 8330000,
-   "visualizacoes": 28771,
+   "visualizacoes": 28775,
    "titulo": "Hamas condiciona desarmamento à saída de Israel de Gaza; conflito pode ter fim | #SBTBrasil",
    "publicado_em": "2026-07-31T23:45:56Z",
    "url": "https://www.youtube.com/watch?v=u3Z1RRTh2UI"
@@ -111,14 +3110,6 @@
    "url": "https://www.youtube.com/watch?v=sHLz-zNALoo"
   },
   {
-   "canal": "ABC News",
-   "inscritos": 20000000,
-   "visualizacoes": 21603,
-   "titulo": "President Trump announces Hamas disarmament agreement as part of Gaza peace plan",
-   "publicado_em": "2026-07-31T12:23:06Z",
-   "url": "https://www.youtube.com/watch?v=mV2ARK5ruP0"
-  },
-  {
    "canal": "SBT News",
    "inscritos": 8330000,
    "visualizacoes": 16044,
@@ -135,20 +3126,20 @@
    "url": "https://www.youtube.com/watch?v=FfJM5HEkSDw"
   },
   {
-   "canal": "7NEWS Australia",
-   "inscritos": 2280000,
-   "visualizacoes": 14558,
-   "titulo": "Hamas agrees to disarm after peace deal reached",
-   "publicado_em": "2026-07-31T02:43:46Z",
-   "url": "https://www.youtube.com/watch?v=IMYhYFwZ35s"
-  },
-  {
    "canal": "CNN Brasil",
    "inscritos": 7280000,
    "visualizacoes": 13868,
    "titulo": "Trump diz que acordo para desarmamento do Hamas foi alcançado | CNN NOVO DIA",
    "publicado_em": "2026-07-31T11:56:47Z",
    "url": "https://www.youtube.com/watch?v=mDwwgGwlDOs"
+  },
+  {
+   "canal": "CTV News",
+   "inscritos": 2440000,
+   "visualizacoes": 13561,
+   "titulo": "Trump says deal reached for disarmament of Hamas in Gaza",
+   "publicado_em": "2026-07-31T03:35:18Z",
+   "url": "https://www.youtube.com/watch?v=eyGbB2o1FJ4"
   }
  ],
  "desenho": {
@@ -159,71 +3150,71 @@
     "tipo": "canal do YouTube",
     "n": 118260,
     "grupo": 0,
-    "x": 0.9912,
-    "y": 1.0044
+    "x": 0.9953,
+    "y": 0.9999
    },
    {
     "id": "busca: Hamas desarmamento",
     "rotulo": "busca: Hamas desarmamento",
     "tipo": "termo",
-    "n": 432216,
+    "n": 432226,
     "grupo": 0,
-    "x": 0.9943,
-    "y": 1.0001
+    "x": 0.9913,
+    "y": 1.0231
    },
    {
     "id": "busca: Hamas aceita desarmamento",
     "rotulo": "busca: Hamas aceita desarmamento",
     "tipo": "termo",
-    "n": 427593,
+    "n": 351366,
     "grupo": 0,
-    "x": 0.9999,
-    "y": 1.0184
+    "x": 0.9949,
+    "y": 1.0297
    },
    {
     "id": "busca: acordo Hamas Israel",
     "rotulo": "busca: acordo Hamas Israel",
     "tipo": "termo",
-    "n": 718049,
+    "n": 716702,
     "grupo": 2,
-    "x": 0.9731,
-    "y": 0.9853
+    "x": 1.0028,
+    "y": 0.9848
    },
    {
     "id": "busca: desarmamento do Hamas",
     "rotulo": "busca: desarmamento do Hamas",
     "tipo": "termo",
-    "n": 416804,
+    "n": 388425,
     "grupo": 0,
-    "x": 0.9942,
-    "y": 0.9974
+    "x": 0.9867,
+    "y": 1.0214
    },
    {
     "id": "yt:UCoa-D_VfMkFrCYodrOC9-mA",
     "rotulo": "Band Jornalismo",
     "tipo": "canal do YouTube",
-    "n": 191858,
+    "n": 191862,
     "grupo": 0,
-    "x": 0.9895,
-    "y": 1.0017
+    "x": 0.9948,
+    "y": 1.0025
    },
    {
     "id": "yt:UCvdwhh_fDyWccR42-rReZLw",
     "rotulo": "CNN Brasil",
     "tipo": "canal do YouTube",
-    "n": 113874,
+    "n": 119560,
     "grupo": 2,
-    "x": 0.9827,
-    "y": 0.9967
+    "x": 0.9991,
+    "y": 1.0037
    },
    {
     "id": "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
     "rotulo": "Rede TVT",
     "tipo": "canal do YouTube",
-    "n": 11173,
+    "n": 11181,
     "grupo": 0,
-    "x": 1.034,
-    "y": 1.0276
+    "x": 1.0283,
+    "y": 1.0284
    },
    {
     "id": "yt:UCUmEPYxmnyQDeRUcFkslmQw",
@@ -231,8 +3222,8 @@
     "tipo": "canal do YouTube",
     "n": 19348,
     "grupo": 0,
-    "x": 1.0077,
-    "y": 0.9696
+    "x": 0.9612,
+    "y": 1.0088
    },
    {
     "id": "P0001",
@@ -240,8 +3231,8 @@
     "tipo": "canal do YouTube",
     "n": 26636,
     "grupo": 0,
-    "x": 0.9923,
-    "y": 1.0253
+    "x": 0.9989,
+    "y": 1.0251
    },
    {
     "id": "yt:UCxm0tptjIc76-i26EKQ9NpA",
@@ -249,8 +3240,8 @@
     "tipo": "canal do YouTube",
     "n": 41440,
     "grupo": 0,
-    "x": 0.9941,
-    "y": 1.0066
+    "x": 1.0009,
+    "y": 1.0013
    },
    {
     "id": "yt:UCOnuheHbS2DgZiAZFL0-Sbg",
@@ -258,8 +3249,8 @@
     "tipo": "canal do YouTube",
     "n": 1494,
     "grupo": 0,
-    "x": 1.0956,
-    "y": 1.0979
+    "x": 1.1099,
+    "y": 1.0314
    },
    {
     "id": "yt:UCbiGwU0-W1XCDUrt3BTVrag",
@@ -267,8 +3258,8 @@
     "tipo": "canal do YouTube",
     "n": 2508,
     "grupo": 2,
-    "x": 1.0214,
-    "y": 0.8984
+    "x": 1.0845,
+    "y": 0.9659
    },
    {
     "id": "yt:UCXdXYG8dUmEv6jhEji_lSHg",
@@ -276,17 +3267,17 @@
     "tipo": "canal do YouTube",
     "n": 28140,
     "grupo": 0,
-    "x": 1.003,
-    "y": 0.9919
+    "x": 0.987,
+    "y": 0.9788
    },
    {
     "id": "P0002",
     "rotulo": "perfil pequeno P0002",
     "tipo": "canal do YouTube",
-    "n": 524,
+    "n": 786,
     "grupo": 0,
-    "x": 0.8413,
-    "y": 1.125
+    "x": 0.9278,
+    "y": 1.1387
    },
    {
     "id": "yt:UCOsYwlfhlRTPCQARdkNtjZg",
@@ -294,17 +3285,17 @@
     "tipo": "canal do YouTube",
     "n": 3855,
     "grupo": 0,
-    "x": 1.0858,
-    "y": 1.0036
+    "x": 0.9164,
+    "y": 1.0425
    },
    {
     "id": "yt:UC376n347Ob5Lwzq2WGzF1AA",
     "rotulo": "SBT News",
     "tipo": "canal do YouTube",
-    "n": 169329,
+    "n": 162661,
     "grupo": 0,
-    "x": 0.9839,
-    "y": 0.9965
+    "x": 0.9954,
+    "y": 0.9957
    },
    {
     "id": "yt:UCT6Imb3GXhF8GmjpIk6y2lg",
@@ -312,8 +3303,8 @@
     "tipo": "canal do YouTube",
     "n": 148804,
     "grupo": 0,
-    "x": 0.9861,
-    "y": 0.9985
+    "x": 0.9953,
+    "y": 1.006
    },
    {
     "id": "yt:UCp6RRaz93Pt2xYZoEye_rLA",
@@ -321,8 +3312,8 @@
     "tipo": "canal do YouTube",
     "n": 3748,
     "grupo": 0,
-    "x": 1.0427,
-    "y": 1.0634
+    "x": 0.9574,
+    "y": 1.08
    },
    {
     "id": "yt:UCaGmdJSSiR7fkh2A-c6emsA",
@@ -330,8 +3321,8 @@
     "tipo": "canal do YouTube",
     "n": 21170,
     "grupo": 2,
-    "x": 0.9663,
-    "y": 1.0304
+    "x": 1.0271,
+    "y": 0.9968
    },
    {
     "id": "yt:UCnLSKfHkgZ6ujEYCO9jq7Sw",
@@ -339,8 +3330,8 @@
     "tipo": "canal do YouTube",
     "n": 2541,
     "grupo": 0,
-    "x": 1.0822,
-    "y": 0.9573
+    "x": 1.0778,
+    "y": 1.0542
    },
    {
     "id": "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
@@ -348,17 +3339,17 @@
     "tipo": "canal do YouTube",
     "n": 18816,
     "grupo": 0,
-    "x": 1.0253,
-    "y": 0.9768
+    "x": 0.9631,
+    "y": 0.9984
    },
    {
     "id": "P0003",
     "rotulo": "perfil pequeno P0003",
     "tipo": "canal do YouTube",
-    "n": 1994,
+    "n": 2991,
     "grupo": 0,
-    "x": 1.1001,
-    "y": 0.942
+    "x": 1.0386,
+    "y": 1.0723
    },
    {
     "id": "yt:UC9_P8UgE6lExmkrzH4g2L8A",
@@ -366,26 +3357,26 @@
     "tipo": "canal do YouTube",
     "n": 266634,
     "grupo": 0,
-    "x": 0.9967,
-    "y": 1.0065
+    "x": 0.9912,
+    "y": 1.023
    },
    {
     "id": "yt:UCj-RTZE-V3Q6jleatRR9k2A",
     "rotulo": "O POVO",
     "tipo": "canal do YouTube",
-    "n": 7272,
+    "n": 7844,
     "grupo": 0,
-    "x": 1.0098,
-    "y": 1.068
+    "x": 0.9971,
+    "y": 1.0575
    },
    {
     "id": "P0004",
     "rotulo": "perfil pequeno P0004",
     "tipo": "canal do YouTube",
     "n": 3,
-    "grupo": 2,
-    "x": 1.3943,
-    "y": 0.0
+    "grupo": 0,
+    "x": 1.3206,
+    "y": 0.0777
    },
    {
     "id": "yt:UCEsbaUdrM_87K-2um30hf8Q",
@@ -393,8 +3384,8 @@
     "tipo": "canal do YouTube",
     "n": 28820,
     "grupo": 0,
-    "x": 1.0198,
-    "y": 1.015
+    "x": 0.9791,
+    "y": 1.0017
    },
    {
     "id": "yt:UCx7Ohl0Ln516T5pu5M8_SMA",
@@ -402,8 +3393,8 @@
     "tipo": "canal do YouTube",
     "n": 12692,
     "grupo": 0,
-    "x": 1.0416,
-    "y": 0.983
+    "x": 0.9585,
+    "y": 0.984
    },
    {
     "id": "yt:UCsEC-wMKyvx5EIxKHsG0q3g",
@@ -411,44 +3402,44 @@
     "tipo": "canal do YouTube",
     "n": 1947,
     "grupo": 0,
-    "x": 1.1212,
-    "y": 1.0191
+    "x": 0.8888,
+    "y": 1.0036
    },
    {
     "id": "yt:UCP391YRAjSOdM_bwievgaZA",
     "rotulo": "Jovem Pan News",
     "tipo": "canal do YouTube",
-    "n": 86221,
+    "n": 60480,
     "grupo": 0,
-    "x": 0.999,
-    "y": 1.0109
+    "x": 0.9942,
+    "y": 1.0152
    },
    {
     "id": "P0005",
     "rotulo": "perfil pequeno P0005",
     "tipo": "canal do YouTube",
-    "n": 1028,
+    "n": 1542,
     "grupo": 0,
-    "x": 1.1269,
-    "y": 1.0701
+    "x": 0.971,
+    "y": 1.1186
    },
    {
     "id": "yt:UCWeXgaH6wwyTRAkA3n6sRxg",
     "rotulo": "Terra Brasil",
     "tipo": "canal do YouTube",
-    "n": 4680,
+    "n": 7020,
     "grupo": 0,
-    "x": 1.043,
-    "y": 0.9489
+    "x": 0.9323,
+    "y": 1.0034
    },
    {
     "id": "yt:UCVgO39Bk5sMo66-6o6Spn6Q",
     "rotulo": "ABC News (Australia)",
     "tipo": "canal do YouTube",
-    "n": 2906,
+    "n": 5812,
     "grupo": 0,
-    "x": 1.0397,
-    "y": 1.0938
+    "x": 0.9439,
+    "y": 1.0536
    },
    {
     "id": "yt:UCEs-K_xio8n6PKKbTCZpaSA",
@@ -456,35 +3447,35 @@
     "tipo": "canal do YouTube",
     "n": 12183,
     "grupo": 0,
-    "x": 1.0066,
-    "y": 1.0639
+    "x": 0.9578,
+    "y": 1.0379
    },
    {
     "id": "yt:UC1_E8NeF5QHY2dtdLRBCCLA",
     "rotulo": "africanews",
     "tipo": "canal do YouTube",
-    "n": 9186,
+    "n": 4593,
     "grupo": 0,
-    "x": 0.9836,
-    "y": 1.0531
+    "x": 1.0681,
+    "y": 1.017
    },
    {
     "id": "yt:UCw77677G3EAODp61b0izs7w",
     "rotulo": "6abc Philadelphia",
     "tipo": "canal do YouTube",
-    "n": 7320,
+    "n": 10980,
     "grupo": 0,
-    "x": 1.0528,
-    "y": 1.0332
+    "x": 1.0287,
+    "y": 1.0327
    },
    {
     "id": "yt:UCO0akufu9MOzyz3nvGIXAAw",
     "rotulo": "News24",
     "tipo": "canal do YouTube",
-    "n": 26441,
+    "n": 38640,
     "grupo": 0,
-    "x": 1.0192,
-    "y": 0.9763
+    "x": 0.9735,
+    "y": 1.0373
    },
    {
     "id": "yt:UC0nvfUHh42VwMeaqEy6EPFg",
@@ -492,152 +3483,107 @@
     "tipo": "canal do YouTube",
     "n": 258,
     "grupo": 0,
-    "x": 0.8335,
-    "y": 1.1939
+    "x": 0.8454,
+    "y": 1.1841
    },
    {
     "id": "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
     "rotulo": "Al Jazeera English",
     "tipo": "canal do YouTube",
-    "n": 10704,
+    "n": 10707,
     "grupo": 2,
-    "x": 0.9352,
-    "y": 1.0134
+    "x": 1.0366,
+    "y": 0.9744
    },
    {
     "id": "yt:UC16niRr50-MSBwiO3YDb3RA",
     "rotulo": "BBC News",
     "tipo": "canal do YouTube",
-    "n": 145539,
+    "n": 48516,
     "grupo": 0,
-    "x": 0.9883,
-    "y": 1.0035
+    "x": 1.0001,
+    "y": 1.0209
    },
    {
     "id": "yt:UCXBD5iG5cr4ZYZ99K-fmDHg",
     "rotulo": "NDTV World",
     "tipo": "canal do YouTube",
-    "n": 1936,
+    "n": 968,
     "grupo": 0,
-    "x": 0.9201,
-    "y": 1.0946
+    "x": 0.8622,
+    "y": 0.9816
    },
    {
     "id": "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
     "rotulo": "Al Arabiya English",
     "tipo": "canal do YouTube",
-    "n": 1824,
+    "n": 1422,
     "grupo": 0,
-    "x": 1.1114,
-    "y": 1.0493
+    "x": 0.8778,
+    "y": 1.0528
    },
    {
     "id": "P0007",
     "rotulo": "perfil pequeno P0007",
     "tipo": "canal do YouTube",
-    "n": 1280,
-    "grupo": 2,
-    "x": 0.8579,
-    "y": 1.0368
+    "n": 2,
+    "grupo": 0,
+    "x": 2.0,
+    "y": 1.5141
    },
    {
     "id": "P0008",
     "rotulo": "perfil pequeno P0008",
     "tipo": "canal do YouTube",
-    "n": 1311,
+    "n": 640,
     "grupo": 0,
-    "x": 0.886,
-    "y": 1.0843
+    "x": 1.1195,
+    "y": 1.1168
    },
    {
     "id": "P0009",
     "rotulo": "perfil pequeno P0009",
     "tipo": "canal do YouTube",
-    "n": 1580,
+    "n": 1311,
     "grupo": 0,
-    "x": 0.883,
-    "y": 1.0136
+    "x": 1.0109,
+    "y": 1.1409
    },
    {
     "id": "P0010",
     "rotulo": "perfil pequeno P0010",
     "tipo": "canal do YouTube",
-    "n": 509,
+    "n": 1580,
     "grupo": 0,
-    "x": 1.1907,
-    "y": 0.9684
-   },
-   {
-    "id": "yt:UCfMy1UCSxAoMq3jWacKcohg",
-    "rotulo": "Geopol Maps",
-    "tipo": "canal do YouTube",
-    "n": 6564,
-    "grupo": 0,
-    "x": 0.9856,
-    "y": 1.0774
-   },
-   {
-    "id": "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
-    "rotulo": "euronews",
-    "tipo": "canal do YouTube",
-    "n": 9018,
-    "grupo": 2,
-    "x": 0.941,
-    "y": 1.0181
-   },
-   {
-    "id": "yt:UC_gUM8rL-Lrg6O3adPW9K1g",
-    "rotulo": "WION",
-    "tipo": "canal do YouTube",
-    "n": 3921,
-    "grupo": 0,
-    "x": 1.0778,
-    "y": 0.9956
-   },
-   {
-    "id": "yt:UCK3U5q7b8U8yffUlblyrpRQ",
-    "rotulo": "Correio Braziliense",
-    "tipo": "canal do YouTube",
-    "n": 552,
-    "grupo": 0,
-    "x": 0.9808,
-    "y": 1.1984
+    "x": 1.0474,
+    "y": 1.1055
    },
    {
     "id": "P0011",
     "rotulo": "perfil pequeno P0011",
     "tipo": "canal do YouTube",
-    "n": 549,
+    "n": 6732,
     "grupo": 0,
-    "x": 1.0567,
-    "y": 1.1973
+    "x": 1.0115,
+    "y": 1.0759
    },
    {
-    "id": "yt:UCMmpLL2ucRHAXbNHiCPyIyg",
-    "rotulo": "ARY News",
+    "id": "P0012",
+    "rotulo": "perfil pequeno P0012",
     "tipo": "canal do YouTube",
-    "n": 10156,
+    "n": 509,
     "grupo": 0,
-    "x": 0.9637,
-    "y": 1.0596
+    "x": 1.0728,
+    "y": 1.1689
    },
    {
     "id": "yt:UC9T0ZAarQHL4cJGFzORVsFg",
     "rotulo": "Itatiaia",
     "tipo": "canal do YouTube",
-    "n": 45174,
+    "n": 87305,
     "grupo": 2,
-    "x": 1.011,
-    "y": 0.9803
-   },
-   {
-    "id": "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
-    "rotulo": "7NEWS Australia",
-    "tipo": "canal do YouTube",
-    "n": 21834,
-    "grupo": 2,
-    "x": 0.9456,
-    "y": 0.9518
+    "x": 1.0043,
+    "y": 0.9709
    },
    {
     "id": "yt:UCoja0MNI4SIvXqJR3szbSfw",
@@ -645,8 +3591,26 @@
     "tipo": "canal do YouTube",
     "n": 325,
     "grupo": 2,
-    "x": 0.8385,
-    "y": 0.8201
+    "x": 0.9422,
+    "y": 0.7906
+   },
+   {
+    "id": "yt:UCOjUlJ4EpPxuhtT0zEVw25A",
+    "rotulo": "Opera Mundi",
+    "tipo": "canal do YouTube",
+    "n": 44286,
+    "grupo": 2,
+    "x": 1.0237,
+    "y": 0.9671
+   },
+   {
+    "id": "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
+    "rotulo": "7NEWS Australia",
+    "tipo": "canal do YouTube",
+    "n": 7276,
+    "grupo": 2,
+    "x": 1.0034,
+    "y": 0.9343
    },
    {
     "id": "yt:UCQfwfsi5VrQ8yKZ-UWmAEFg",
@@ -654,17 +3618,26 @@
     "tipo": "canal do YouTube",
     "n": 2703,
     "grupo": 2,
-    "x": 0.891,
-    "y": 0.9397
+    "x": 1.0155,
+    "y": 0.8966
    },
    {
-    "id": "yt:UCYI_ychRnL7sJrG6PUSBpQA",
-    "rotulo": "CBN News",
+    "id": "yt:UCBRmJmB9dVPwPIpc6FeQeNg",
+    "rotulo": "Instituto Brasil-Israel",
     "tipo": "canal do YouTube",
-    "n": 275206,
+    "n": 693,
     "grupo": 2,
-    "x": 0.9726,
-    "y": 0.9905
+    "x": 1.0218,
+    "y": 0.8361
+   },
+   {
+    "id": "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
+    "rotulo": "euronews",
+    "tipo": "canal do YouTube",
+    "n": 3902,
+    "grupo": 2,
+    "x": 1.0414,
+    "y": 0.9134
    },
    {
     "id": "yt:UCT350j4u6alUKyF9eu2bGug",
@@ -672,26 +3645,26 @@
     "tipo": "canal do YouTube",
     "n": 4681,
     "grupo": 2,
-    "x": 0.944,
-    "y": 0.9151
-   },
-   {
-    "id": "yt:UCBi2mrWuNuyYy4gbM6fU18Q",
-    "rotulo": "ABC News",
-    "tipo": "canal do YouTube",
-    "n": 21603,
-    "grupo": 2,
-    "x": 0.9437,
-    "y": 0.9762
+    "x": 0.9803,
+    "y": 0.9137
    },
    {
     "id": "yt:UCuFFtHWoLl5fauMMD5Ww2jA",
     "rotulo": "CBC News",
     "tipo": "canal do YouTube",
-    "n": 6810,
+    "n": 6811,
     "grupo": 2,
-    "x": 0.9253,
-    "y": 0.9717
+    "x": 1.0302,
+    "y": 0.9274
+   },
+   {
+    "id": "yt:UCYI_ychRnL7sJrG6PUSBpQA",
+    "rotulo": "CBN News",
+    "tipo": "canal do YouTube",
+    "n": 246337,
+    "grupo": 2,
+    "x": 1.0036,
+    "y": 0.9764
    },
    {
     "id": "yt:UC52X5wxOL_s5yw0dQk7NtgA",
@@ -699,17 +3672,17 @@
     "tipo": "canal do YouTube",
     "n": 11544,
     "grupo": 2,
-    "x": 0.9408,
-    "y": 0.9485
+    "x": 1.0227,
+    "y": 0.9404
    },
    {
-    "id": "yt:UCef1-8eOpJgud7szVPlZQAQ",
-    "rotulo": "CNN-News18",
+    "id": "P0013",
+    "rotulo": "perfil pequeno P0013",
     "tipo": "canal do YouTube",
-    "n": 2675,
+    "n": 3,
     "grupo": 0,
-    "x": 0.9473,
-    "y": 1.0896
+    "x": 0.133,
+    "y": 0.5327
    },
    {
     "id": "yt:UCi7Zk9baY1tvdlgxIML8MXg",
@@ -717,8 +3690,17 @@
     "tipo": "canal do YouTube",
     "n": 13561,
     "grupo": 0,
-    "x": 0.9877,
-    "y": 0.9555
+    "x": 0.95,
+    "y": 1.0187
+   },
+   {
+    "id": "yt:UCPWXiRWZ29zrxPFIQT7eHSA",
+    "rotulo": "The Hill",
+    "tipo": "canal do YouTube",
+    "n": 1656,
+    "grupo": 0,
+    "x": 0.9041,
+    "y": 1.0935
    },
    {
     "id": "imprensa:G1",
@@ -726,8 +3708,8 @@
     "tipo": "veículo de imprensa",
     "n": 7,
     "grupo": 1,
-    "x": 2.7745,
-    "y": 0.6781
+    "x": 2.7969,
+    "y": 0.6468
    },
    {
     "id": "notícia: Hamas desarmamento",
@@ -735,8 +3717,8 @@
     "tipo": "termo",
     "n": 10,
     "grupo": 1,
-    "x": 2.7511,
-    "y": 0.474
+    "x": 2.9308,
+    "y": 0.7894
    },
    {
     "id": "imprensa:BBC",
@@ -744,8 +3726,8 @@
     "tipo": "veículo de imprensa",
     "n": 2,
     "grupo": 1,
-    "x": 2.7875,
-    "y": 0.6179
+    "x": 2.8227,
+    "y": 0.775
    },
    {
     "id": "imprensa:Folha de S.Paulo",
@@ -753,8 +3735,8 @@
     "tipo": "veículo de imprensa",
     "n": 5,
     "grupo": 1,
-    "x": 2.6523,
-    "y": 0.5851
+    "x": 2.7452,
+    "y": 0.7699
    },
    {
     "id": "imprensa:Agência Brasil",
@@ -762,8 +3744,8 @@
     "tipo": "veículo de imprensa",
     "n": 4,
     "grupo": 1,
-    "x": 2.8341,
-    "y": 0.5453
+    "x": 2.923,
+    "y": 0.5384
    },
    {
     "id": "imprensa:CNN Brasil",
@@ -771,8 +3753,8 @@
     "tipo": "veículo de imprensa",
     "n": 4,
     "grupo": 1,
-    "x": 2.8658,
-    "y": 0.6226
+    "x": 2.9099,
+    "y": 0.6152
    },
    {
     "id": "imprensa:DW.com",
@@ -780,8 +3762,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.6039,
-    "y": 0.28
+    "x": 2.9237,
+    "y": 1.057
    },
    {
     "id": "imprensa:Poder360",
@@ -789,8 +3771,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.725,
-    "y": 0.2346
+    "x": 3.0889,
+    "y": 1.0101
    },
    {
     "id": "imprensa:Estadão",
@@ -798,8 +3780,8 @@
     "tipo": "veículo de imprensa",
     "n": 2,
     "grupo": 1,
-    "x": 2.9454,
-    "y": 0.385
+    "x": 3.1595,
+    "y": 0.7065
    },
    {
     "id": "notícia: Hamas aceita desarmamento",
@@ -807,8 +3789,8 @@
     "tipo": "termo",
     "n": 10,
     "grupo": 1,
-    "x": 3.091,
-    "y": 0.5069
+    "x": 3.1919,
+    "y": 0.4948
    },
    {
     "id": "imprensa:Exame",
@@ -816,8 +3798,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.2439,
-    "y": 0.6623
+    "x": 3.3287,
+    "y": 0.259
    },
    {
     "id": "imprensa:Metrópoles",
@@ -825,8 +3807,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.2439,
-    "y": 0.3226
+    "x": 3.4074,
+    "y": 0.3372
    },
    {
     "id": "imprensa:Vermelho",
@@ -834,8 +3816,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.1475,
-    "y": 0.288
+    "x": 3.4097,
+    "y": 0.641
    },
    {
     "id": "imprensa:ICL Notícias",
@@ -843,8 +3825,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.3,
-    "y": 0.4002
+    "x": 3.4599,
+    "y": 0.538
    },
    {
     "id": "imprensa:UOL Notícias",
@@ -852,8 +3834,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.3327,
-    "y": 0.4885
+    "x": 3.2087,
+    "y": 0.2427
    },
    {
     "id": "imprensa:Euronews",
@@ -861,8 +3843,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 3.3129,
-    "y": 0.5835
+    "x": 3.4618,
+    "y": 0.4298
    },
    {
     "id": "notícia: acordo Hamas Israel",
@@ -870,8 +3852,8 @@
     "tipo": "termo",
     "n": 10,
     "grupo": 1,
-    "x": 2.6534,
-    "y": 0.6717
+    "x": 2.6977,
+    "y": 0.5773
    },
    {
     "id": "imprensa:VEJA",
@@ -879,8 +3861,8 @@
     "tipo": "veículo de imprensa",
     "n": 2,
     "grupo": 1,
-    "x": 2.504,
-    "y": 0.7117
+    "x": 2.5601,
+    "y": 0.4923
    },
    {
     "id": "imprensa:Brasil de Fato",
@@ -888,8 +3870,8 @@
     "tipo": "veículo de imprensa",
     "n": 13,
     "grupo": 1,
-    "x": 2.6481,
-    "y": 0.9087
+    "x": 2.4933,
+    "y": 0.7953
    },
    {
     "id": "imprensa:CartaCapital",
@@ -897,8 +3879,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.4186,
-    "y": 0.5745
+    "x": 2.6206,
+    "y": 0.3032
    },
    {
     "id": "imprensa:O GLOBO",
@@ -906,8 +3888,8 @@
     "tipo": "veículo de imprensa",
     "n": 3,
     "grupo": 1,
-    "x": 2.4898,
-    "y": 0.8417
+    "x": 2.4331,
+    "y": 0.5604
    },
    {
     "id": "notícia: Gaza",
@@ -915,8 +3897,8 @@
     "tipo": "termo",
     "n": 10,
     "grupo": 1,
-    "x": 2.5551,
-    "y": 0.9354
+    "x": 2.4149,
+    "y": 0.696
    },
    {
     "id": "imprensa:Times Brasil",
@@ -924,8 +3906,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.3497,
-    "y": 1.0546
+    "x": 2.15,
+    "y": 0.7507
    },
    {
     "id": "imprensa:ND Mais",
@@ -933,8 +3915,8 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.4479,
-    "y": 1.1444
+    "x": 2.1579,
+    "y": 0.5983
    },
    {
     "id": "notícia: Palestina",
@@ -942,8 +3924,8 @@
     "tipo": "termo",
     "n": 5,
     "grupo": 1,
-    "x": 2.6723,
-    "y": 1.0888
+    "x": 2.4011,
+    "y": 1.0145
    },
    {
     "id": "imprensa:Outras Palavras",
@@ -951,8 +3933,17 @@
     "tipo": "veículo de imprensa",
     "n": 1,
     "grupo": 1,
-    "x": 2.696,
-    "y": 1.3093
+    "x": 2.426,
+    "y": 1.2617
+   },
+   {
+    "id": "imprensa:Sinteal",
+    "rotulo": "Sinteal",
+    "tipo": "veículo de imprensa",
+    "n": 1,
+    "grupo": 1,
+    "x": 2.2561,
+    "y": 1.2151
    },
    {
     "id": "notícia: cessar-fogo Gaza",
@@ -960,8 +3951,8 @@
     "tipo": "termo",
     "n": 10,
     "grupo": 1,
-    "x": 2.6791,
-    "y": 0.7603
+    "x": 2.6372,
+    "y": 0.7009
    }
   ],
   "arestas": [
@@ -988,7 +3979,7 @@
    [
     "busca: Hamas desarmamento",
     "yt:UCoa-D_VfMkFrCYodrOC9-mA",
-    49013
+    49014
    ],
    [
     "busca: Hamas desarmamento",
@@ -998,7 +3989,7 @@
    [
     "busca: Hamas desarmamento",
     "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
-    3161
+    3163
    ],
    [
     "busca: Hamas desarmamento",
@@ -1043,7 +4034,7 @@
    [
     "busca: Hamas desarmamento",
     "yt:UC376n347Ob5Lwzq2WGzF1AA",
-    37748
+    37752
    ],
    [
     "busca: Hamas desarmamento",
@@ -1158,7 +4149,7 @@
    [
     "busca: Hamas desarmamento",
     "yt:UC16niRr50-MSBwiO3YDb3RA",
-    48513
+    48516
    ],
    [
     "busca: Hamas desarmamento",
@@ -1173,7 +4164,7 @@
    [
     "busca: Hamas aceita desarmamento",
     "yt:UCoa-D_VfMkFrCYodrOC9-mA",
-    49013
+    49014
    ],
    [
     "busca: Hamas aceita desarmamento",
@@ -1183,7 +4174,7 @@
    [
     "busca: Hamas aceita desarmamento",
     "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
-    3161
+    3163
    ],
    [
     "busca: Hamas aceita desarmamento",
@@ -1217,13 +4208,18 @@
    ],
    [
     "busca: Hamas aceita desarmamento",
+    "P0002",
+    262
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
     "yt:UCOsYwlfhlRTPCQARdkNtjZg",
     1285
    ],
    [
     "busca: Hamas aceita desarmamento",
     "yt:UC376n347Ob5Lwzq2WGzF1AA",
-    37748
+    31068
    ],
    [
     "busca: Hamas aceita desarmamento",
@@ -1249,6 +4245,11 @@
     "busca: Hamas aceita desarmamento",
     "yt:UCNl_i-ggJbZNyOLlhE7yyhw",
     4704
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "P0003",
+    997
    ],
    [
     "busca: Hamas aceita desarmamento",
@@ -1282,8 +4283,18 @@
    ],
    [
     "busca: Hamas aceita desarmamento",
-    "yt:UCP391YRAjSOdM_bwievgaZA",
-    25741
+    "P0005",
+    514
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCWeXgaH6wwyTRAkA3n6sRxg",
+    2340
+   ],
+   [
+    "busca: Hamas aceita desarmamento",
+    "yt:UCVgO39Bk5sMo66-6o6Spn6Q",
+    2906
    ],
    [
     "busca: Hamas aceita desarmamento",
@@ -1292,73 +4303,53 @@
    ],
    [
     "busca: Hamas aceita desarmamento",
-    "yt:UC16niRr50-MSBwiO3YDb3RA",
-    48513
+    "yt:UCw77677G3EAODp61b0izs7w",
+    3660
    ],
    [
     "busca: Hamas aceita desarmamento",
-    "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
-    608
+    "yt:UCO0akufu9MOzyz3nvGIXAAw",
+    12199
    ],
    [
     "busca: Hamas aceita desarmamento",
     "P0007",
-    640
+    2
    ],
    [
     "busca: Hamas aceita desarmamento",
     "P0008",
-    1311
+    640
    ],
    [
     "busca: Hamas aceita desarmamento",
     "P0009",
-    790
+    1311
    ],
    [
     "busca: Hamas aceita desarmamento",
     "P0010",
-    509
-   ],
-   [
-    "busca: Hamas aceita desarmamento",
-    "yt:UCfMy1UCSxAoMq3jWacKcohg",
-    6564
-   ],
-   [
-    "busca: Hamas aceita desarmamento",
-    "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
-    2558
-   ],
-   [
-    "busca: Hamas aceita desarmamento",
-    "yt:UC_gUM8rL-Lrg6O3adPW9K1g",
-    3921
-   ],
-   [
-    "busca: Hamas aceita desarmamento",
-    "yt:UCK3U5q7b8U8yffUlblyrpRQ",
-    552
+    790
    ],
    [
     "busca: Hamas aceita desarmamento",
     "P0011",
-    549
+    6732
    ],
    [
     "busca: Hamas aceita desarmamento",
-    "yt:UCMmpLL2ucRHAXbNHiCPyIyg",
-    10156
+    "P0012",
+    509
    ],
    [
     "busca: acordo Hamas Israel",
     "yt:UCoa-D_VfMkFrCYodrOC9-mA",
-    44819
+    44820
    ],
    [
     "busca: acordo Hamas Israel",
     "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
-    1690
+    1692
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1368,7 +4359,7 @@
    [
     "busca: acordo Hamas Israel",
     "yt:UCvdwhh_fDyWccR42-rReZLw",
-    51156
+    56842
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1388,7 +4379,7 @@
    [
     "busca: acordo Hamas Israel",
     "yt:UC376n347Ob5Lwzq2WGzF1AA",
-    56085
+    56089
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1427,38 +4418,13 @@
    ],
    [
     "busca: acordo Hamas Israel",
-    "yt:UC16niRr50-MSBwiO3YDb3RA",
-    48513
-   ],
-   [
-    "busca: acordo Hamas Israel",
-    "P0007",
-    640
-   ],
-   [
-    "busca: acordo Hamas Israel",
-    "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
-    6460
-   ],
-   [
-    "busca: acordo Hamas Israel",
     "yt:UC9T0ZAarQHL4cJGFzORVsFg",
-    22587
+    87305
    ],
    [
     "busca: acordo Hamas Israel",
     "yt:UCP391YRAjSOdM_bwievgaZA",
     8998
-   ],
-   [
-    "busca: acordo Hamas Israel",
-    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
-    8492
-   ],
-   [
-    "busca: acordo Hamas Israel",
-    "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
-    21834
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1472,13 +4438,33 @@
    ],
    [
     "busca: acordo Hamas Israel",
+    "yt:UCaGmdJSSiR7fkh2A-c6emsA",
+    8492
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCOjUlJ4EpPxuhtT0zEVw25A",
+    44286
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UC5T7D-Dh1eDGtsAFCuwv_Sw",
+    7276
+   ],
+   [
+    "busca: acordo Hamas Israel",
     "yt:UCQfwfsi5VrQ8yKZ-UWmAEFg",
     2703
    ],
    [
     "busca: acordo Hamas Israel",
-    "yt:UCYI_ychRnL7sJrG6PUSBpQA",
-    275206
+    "yt:UCBRmJmB9dVPwPIpc6FeQeNg",
+    693
+   ],
+   [
+    "busca: acordo Hamas Israel",
+    "yt:UCSrZ3UV4jOidv8ppoVuvW9Q",
+    3902
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1487,13 +4473,8 @@
    ],
    [
     "busca: acordo Hamas Israel",
-    "yt:UCBi2mrWuNuyYy4gbM6fU18Q",
-    21603
-   ],
-   [
-    "busca: acordo Hamas Israel",
     "yt:UCuFFtHWoLl5fauMMD5Ww2jA",
-    6810
+    6811
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1502,8 +4483,8 @@
    ],
    [
     "busca: acordo Hamas Israel",
-    "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
-    7099
+    "yt:UCYI_ychRnL7sJrG6PUSBpQA",
+    246337
    ],
    [
     "busca: acordo Hamas Israel",
@@ -1511,9 +4492,14 @@
     11544
    ],
    [
+    "busca: acordo Hamas Israel",
+    "yt:UCNye-wNBqNL5ZzHSJj3l8Bg",
+    7102
+   ],
+   [
     "busca: desarmamento do Hamas",
     "yt:UCoa-D_VfMkFrCYodrOC9-mA",
-    49013
+    49014
    ],
    [
     "busca: desarmamento do Hamas",
@@ -1523,7 +4509,7 @@
    [
     "busca: desarmamento do Hamas",
     "yt:UCmQTY7b5w61WlmBbJ5a8XrQ",
-    3161
+    3163
    ],
    [
     "busca: desarmamento do Hamas",
@@ -1568,7 +4554,7 @@
    [
     "busca: desarmamento do Hamas",
     "yt:UC376n347Ob5Lwzq2WGzF1AA",
-    37748
+    37752
    ],
    [
     "busca: desarmamento do Hamas",
@@ -1608,7 +4594,7 @@
    [
     "busca: desarmamento do Hamas",
     "yt:UCj-RTZE-V3Q6jleatRR9k2A",
-    1818
+    2390
    ],
    [
     "busca: desarmamento do Hamas",
@@ -1647,11 +4633,6 @@
    ],
    [
     "busca: desarmamento do Hamas",
-    "yt:UC1_E8NeF5QHY2dtdLRBCCLA",
-    4593
-   ],
-   [
-    "busca: desarmamento do Hamas",
     "yt:UCw77677G3EAODp61b0izs7w",
     3660
    ],
@@ -1667,33 +4648,28 @@
    ],
    [
     "busca: desarmamento do Hamas",
-    "yt:UCXBD5iG5cr4ZYZ99K-fmDHg",
-    968
-   ],
-   [
-    "busca: desarmamento do Hamas",
     "yt:UCIZJ9a6P_nxCFJTmL0gh_IQ",
-    608
+    814
    ],
    [
     "busca: desarmamento do Hamas",
-    "P0009",
+    "P0010",
     790
    ],
    [
     "busca: desarmamento do Hamas",
-    "yt:UC9T0ZAarQHL4cJGFzORVsFg",
-    22587
-   ],
-   [
-    "busca: desarmamento do Hamas",
-    "yt:UCef1-8eOpJgud7szVPlZQAQ",
-    2675
+    "P0013",
+    3
    ],
    [
     "busca: desarmamento do Hamas",
     "yt:UCi7Zk9baY1tvdlgxIML8MXg",
     13561
+   ],
+   [
+    "busca: desarmamento do Hamas",
+    "yt:UCPWXiRWZ29zrxPFIQT7eHSA",
+    1656
    ],
    [
     "imprensa:G1",
@@ -1889,43 +4865,48 @@
     "notícia: Palestina",
     "imprensa:Outras Palavras",
     1
+   ],
+   [
+    "notícia: Palestina",
+    "imprensa:Sinteal",
+    1
    ]
   ],
-  "total_nos": 92,
-  "total_arestas": 189,
+  "total_nos": 91,
+  "total_arestas": 187,
   "comunidades": 3
  },
- "total_nos": 92,
- "total_arestas": 189,
+ "total_nos": 91,
+ "total_arestas": 187,
  "estatisticas_rede": {
   "rede": "circulacao_hamas",
   "dirigida": false,
-  "nos": 92,
-  "arestas": 189,
-  "densidade": 0.045151,
-  "grau_medio": 4.109,
-  "grau_ponderado_medio": 43363.478,
+  "nos": 91,
+  "arestas": 187,
+  "densidade": 0.045665,
+  "grau_medio": 4.11,
+  "grau_ponderado_medio": 41511.604,
   "componentes": 2,
-  "nos_maior_componente": 64,
-  "pct_nos_maior_componente": 69.57,
+  "nos_maior_componente": 63,
+  "pct_nos_maior_componente": 69.23,
   "clustering_medio": 0.0,
-  "assortatividade_grau": -0.7096,
+  "assortatividade_grau": -0.7058,
   "diametro_maior_componente": 4,
-  "caminho_medio_maior_componente": 2.315,
-  "modularidade_q": 0.234,
+  "caminho_medio_maior_componente": 2.337,
+  "modularidade_q": 0.2865,
   "comunidades": 3,
   "comunidades_1pct_ou_mais": 3,
-  "pct_maior": 53.26,
-  "pct_segunda": 30.43,
-  "pct_terceira": 16.3,
+  "pct_maior": 51.65,
+  "pct_segunda": 30.77,
+  "pct_terceira": 17.58,
   "pct_nos_em_comunidades_1pct": 100.0,
-  "gc_densidade": 0.073909,
-  "gc_modularidade_q": 0.234,
+  "gc_densidade": 0.075269,
+  "gc_modularidade_q": 0.2864,
   "gc_comunidades": 2,
   "gc_comunidades_1pct_ou_mais": 2,
-  "gc_pct_maior": 76.56,
-  "gc_pct_segunda": 23.44,
-  "gc_polarizacao_ei_2_maiores": -0.56,
+  "gc_pct_maior": 74.6,
+  "gc_pct_segunda": 25.4,
+  "gc_polarizacao_ei_2_maiores": -0.6745,
   "polarizacao_ei_2_maiores": -1.0
  },
  "centralidades": [
@@ -1935,7 +4916,7 @@
    "medida": "grau ponderado",
    "posicao": 1,
    "no": "busca: acordo Hamas Israel",
-   "valor": 718049.0,
+   "valor": 716703.0,
    "comunidade": 3
   },
   {
@@ -1944,7 +4925,7 @@
    "medida": "grau ponderado",
    "posicao": 2,
    "no": "busca: Hamas desarmamento",
-   "valor": 432217.0,
+   "valor": 432227.0,
    "comunidade": 1
   },
   {
@@ -1952,8 +4933,8 @@
    "rede": "circulacao_hamas",
    "medida": "grau ponderado",
    "posicao": 3,
-   "no": "busca: Hamas aceita desarmamento",
-   "valor": 427594.0,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 388426.0,
    "comunidade": 1
   },
   {
@@ -1961,8 +4942,8 @@
    "rede": "circulacao_hamas",
    "medida": "grau ponderado",
    "posicao": 4,
-   "no": "busca: desarmamento do Hamas",
-   "valor": 416805.0,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 351367.0,
    "comunidade": 1
   },
   {
@@ -1970,9 +4951,9 @@
    "rede": "circulacao_hamas",
    "medida": "grau ponderado",
    "posicao": 5,
-   "no": "CBN News",
-   "valor": 275206.0,
-   "comunidade": 3
+   "no": "Rede Gospel de Televisão",
+   "valor": 266634.0,
+   "comunidade": 1
   },
   {
    "caso": "redes",
@@ -1980,7 +4961,7 @@
    "medida": "PageRank",
    "posicao": 1,
    "no": "busca: acordo Hamas Israel",
-   "valor": 0.103791,
+   "valor": 0.109003,
    "comunidade": 3
   },
   {
@@ -1988,8 +4969,8 @@
    "rede": "circulacao_hamas",
    "medida": "PageRank",
    "posicao": 2,
-   "no": "busca: Hamas aceita desarmamento",
-   "valor": 0.075245,
+   "no": "busca: Hamas desarmamento",
+   "valor": 0.075911,
    "comunidade": 1
   },
   {
@@ -1997,8 +4978,8 @@
    "rede": "circulacao_hamas",
    "medida": "PageRank",
    "posicao": 3,
-   "no": "busca: Hamas desarmamento",
-   "valor": 0.072226,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 0.069795,
    "comunidade": 1
   },
   {
@@ -2006,8 +4987,8 @@
    "rede": "circulacao_hamas",
    "medida": "PageRank",
    "posicao": 4,
-   "no": "busca: desarmamento do Hamas",
-   "valor": 0.071871,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 0.066926,
    "comunidade": 1
   },
   {
@@ -2016,7 +4997,7 @@
    "medida": "PageRank",
    "posicao": 5,
    "no": "Rede Gospel de Televisão",
-   "valor": 0.040579,
+   "valor": 0.042885,
    "comunidade": 1
   },
   {
@@ -2024,26 +5005,26 @@
    "rede": "circulacao_hamas",
    "medida": "intermediação (betweenness)",
    "posicao": 1,
-   "no": "busca: Hamas aceita desarmamento",
-   "valor": 0.153841,
-   "comunidade": 1
-  },
-  {
-   "caso": "redes",
-   "rede": "circulacao_hamas",
-   "medida": "intermediação (betweenness)",
-   "posicao": 2,
    "no": "busca: acordo Hamas Israel",
-   "valor": 0.146385,
+   "valor": 0.172038,
    "comunidade": 3
   },
   {
    "caso": "redes",
    "rede": "circulacao_hamas",
    "medida": "intermediação (betweenness)",
+   "posicao": 2,
+   "no": "busca: Hamas aceita desarmamento",
+   "valor": 0.132399,
+   "comunidade": 1
+  },
+  {
+   "caso": "redes",
+   "rede": "circulacao_hamas",
+   "medida": "intermediação (betweenness)",
    "posicao": 3,
-   "no": "busca: desarmamento do Hamas",
-   "valor": 0.124396,
+   "no": "busca: Hamas desarmamento",
+   "valor": 0.123834,
    "comunidade": 1
   },
   {
@@ -2051,8 +5032,8 @@
    "rede": "circulacao_hamas",
    "medida": "intermediação (betweenness)",
    "posicao": 4,
-   "no": "busca: Hamas desarmamento",
-   "valor": 0.114571,
+   "no": "busca: desarmamento do Hamas",
+   "valor": 0.110555,
    "comunidade": 1
   },
   {
@@ -2061,7 +5042,7 @@
    "medida": "intermediação (betweenness)",
    "posicao": 5,
    "no": "notícia: Hamas aceita desarmamento",
-   "valor": 0.036552,
+   "valor": 0.037373,
    "comunidade": 2
   },
   {
@@ -2070,7 +5051,7 @@
    "medida": "autovetor (eigenvector)",
    "posicao": 1,
    "no": "busca: acordo Hamas Israel",
-   "valor": 0.662788,
+   "valor": 0.667362,
    "comunidade": 3
   },
   {
@@ -2079,7 +5060,7 @@
    "medida": "autovetor (eigenvector)",
    "posicao": 2,
    "no": "CBN News",
-   "valor": 0.586234,
+   "valor": 0.558396,
    "comunidade": 3
   },
   {
@@ -2087,8 +5068,8 @@
    "rede": "circulacao_hamas",
    "medida": "autovetor (eigenvector)",
    "posicao": 3,
-   "no": "SBT News",
-   "valor": 0.171146,
+   "no": "Itatiaia",
+   "valor": 0.197903,
    "comunidade": 3
   },
   {
@@ -2096,8 +5077,8 @@
    "rede": "circulacao_hamas",
    "medida": "autovetor (eigenvector)",
    "posicao": 4,
-   "no": "Band Jornalismo",
-   "valor": 0.162569,
+   "no": "SBT News",
+   "valor": 0.176108,
    "comunidade": 1
   },
   {
@@ -2105,8 +5086,8 @@
    "rede": "circulacao_hamas",
    "medida": "autovetor (eigenvector)",
    "posicao": 5,
-   "no": "BBC News",
-   "valor": 0.149572,
+   "no": "Band Jornalismo",
+   "valor": 0.168949,
    "comunidade": 1
   }
  ],
@@ -2115,28 +5096,28 @@
    "caso": "redes",
    "rede": "circulacao_hamas",
    "comunidade": 1,
-   "nos": 49,
-   "pct_nos": 53.26,
-   "pct_peso_interno": 54.17,
-   "nos_de_maior_grau": "busca: Hamas desarmamento | busca: Hamas aceita desarmamento | busca: desarmamento do Hamas | Rede Gospel de Televisão | Band Jornalismo"
+   "nos": 47,
+   "pct_nos": 51.65,
+   "pct_peso_interno": 57.8,
+   "nos_de_maior_grau": "busca: Hamas desarmamento | busca: desarmamento do Hamas | busca: Hamas aceita desarmamento | Rede Gospel de Televisão | Band Jornalismo"
   },
   {
    "caso": "redes",
    "rede": "circulacao_hamas",
    "comunidade": 2,
    "nos": 28,
-   "pct_nos": 30.43,
+   "pct_nos": 30.77,
    "pct_peso_interno": 0.0,
-   "nos_de_maior_grau": "Brasil de Fato | notícia: cessar-fogo Gaza | notícia: Hamas desarmamento | notícia: acordo Hamas Israel | notícia: Hamas aceita desarmamento"
+   "nos_de_maior_grau": "Brasil de Fato | notícia: Gaza | notícia: Hamas aceita desarmamento | notícia: cessar-fogo Gaza | notícia: acordo Hamas Israel"
   },
   {
    "caso": "redes",
    "rede": "circulacao_hamas",
    "comunidade": 3,
-   "nos": 15,
-   "pct_nos": 16.3,
-   "pct_peso_interno": 23.83,
-   "nos_de_maior_grau": "busca: acordo Hamas Israel | CBN News | SBT News | CNN Brasil | 7NEWS Australia"
+   "nos": 16,
+   "pct_nos": 17.58,
+   "pct_peso_interno": 25.92,
+   "nos_de_maior_grau": "busca: acordo Hamas Israel | CBN News | CNN Brasil | Itatiaia | Opera Mundi"
   }
  ]
 }
