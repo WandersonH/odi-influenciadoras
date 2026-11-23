@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: caderno de dados públicos, primeira etapa (coleta e diagnóstico)
+
+O responsável pediu às 23h20 o caderno de dados públicos. As bases foram validadas antes, e os endereços conferidos no Chrome do responsável:
+- **IBGE, API de agregados:**
+  - Tabela 137 (1991–2010) com as categorias Islâmica (2000) e Islamismo (2010). A API devolveu 27.239 em 2000 e 35.167 em 2010 para o Brasil.
+  - Tabela 10201 (Censo 2022), só com os 10 grandes grupos. Nenhuma das 52 tabelas de religião abertas tem islamismo em 2022; ele está dentro de "outras religiosidades".
+- **Disque 100** (dados.gov.br, conjunto "ouvidoria-nacional-de-direitos-humanos--ondh"): 14 arquivos CSV de 2020 até o terceiro trimestre de 2026 (publicado em 05/10/2026), que cobre o núcleo.
+- **DataMigra / portal de microdados da imigração:** não abriu (erro de conexão no Chrome) e não está no catálogo do dados.gov.br. Fica ⛔ até haver acesso.
+- **SaferNet:** só indicadores anuais em PDF.
+
+Novo `scripts/collect_dados_publicos.py` e workflow `dados_publicos.yml`. O primeiro run, em modo diagnóstico, grava o cabeçalho e os valores das colunas do Disque 100. Só depois o filtro de intolerância religiosa é escrito sobre as colunas reais, sem supor nomes. A página vem na próxima etapa.
+
 ## 22/11/2026: rede de circulação refeita com a lista de cada nó (run 45099323058)
 
 `imprensa.yml` com `etapa=circulacao`. A busca do YouTube foi refeita e trouxe 88 vídeos de 59 canais; antes eram 87 vídeos de 60 canais. A diferença é da própria busca, que muda com o tempo. Somando as notícias, são 255 itens indexados por nó. Influenciadoras na rede: 0.

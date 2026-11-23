@@ -1,0 +1,148 @@
+#!/usr/bin/env python3
+"""Caderno de dados públicos: bases oficiais abertas que dão contexto ao estudo. Sem custo.
+
+1. IBGE, Censos Demográficos (API de agregados, servicodados.ibge.gov.br/api/v3):
+   - tabela 137 (População residente, por religião, 1991–2010): Islâmica (2000, categoria 95271) e Islamismo (2010,
+     categoria 100426), Brasil e estados;
+   - tabela 10201 (Censo 2022, 10 anos ou mais, grandes grupos de religião), Brasil e estados. Em 2022 o IBGE só abre os
+     grandes grupos: o islamismo fica dentro de "outras religiosidades" (o detalhe está nos microdados de acesso
+     controlado, nota metodológica 06/2026). Por isso 2022 não tem número de muçulmanos aqui (⛔).
+2. Disque 100 (Ouvidoria Nacional de Direitos Humanos, dados.gov.br, conjunto "ouvidoria-nacional-de-direitos-humanos--ondh"):
+   CSV por semestre ou trimestre. Primeiro run em modo --diagnostico: baixa o arquivo, grava o cabeçalho e a contagem dos
+   valores das colunas de religião, motivação e violação, para a regra de filtro ser escrita sobre as colunas reais.
+Saídas: data/dados_publicos/ibge.json, data/dados_publicos/disque100_diagnostico.json (e, depois, disque100.json).
+"""
+from __future__ import annotations
+
+import argparse
+import csv
+import io
+import json
+import os
+import re
+import sys
+import urllib.request
+import zipfile
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+RAIZ = Path(__file__).resolve().parents[1]
+IBGE = "https://servicodados.ibge.gov.br/api/v3/agregados"
+DISQUE100 = {
+    "2026-S1": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-primeiro-semestre-2026",
+    "2026-T3": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-terceiro-trimestre-2026",
+    "2025-S2": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-segundo-semestre-2025",
+}
+UA = {"User-Agent": "odi-influenciadoras-coletor/1.0 (+https://github.com/WandersonH/odi-influenciadoras)"}
+csv.field_size_limit(10_000_000)
+
+
+def get(url: str, timeout: int = 300) -> tuple[bytes, str, str]:
+    req = urllib.request.Request(url, headers=UA)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read(), r.geturl(), r.headers.get("Content-Type", "")
+
+
+def ibge_serie(tabela: int, periodos: str, variavel: int, nivel: str, classif: str) -> list:
+    url = f"{IBGE}/{tabela}/periodos/{periodos}/variaveis/{variavel}?localidades={nivel}[all]&classificacao={classif}"
+    dado, _, _ = get(url, 120)
+    return json.loads(dado)
+
+
+def achatar(res: list) -> list[dict]:
+    out = []
+    for v in res:
+        for r in v["resultados"]:
+            cat = next(iter(r["classificacoes"][0]["categoria"].values())) if r["classificacoes"] else "Total"
+            for s in r["series"]:
+                for ano, val in s["serie"].items():
+                    out.append({"variavel": v["variavel"], "categoria": cat, "local": s["localidade"]["nome"],
+                                "nivel": s["localidade"]["nivel"]["id"], "ano": ano,
+                                "valor": int(val) if str(val).isdigit() else None, "valor_bruto": val})
+    return out
+
+
+def coletar_ibge() -> dict:
+    t137 = []
+    for nivel in ("N1", "N3"):
+        t137 += achatar(ibge_serie(137, "2000|2010", 93, nivel, "133[95271,100426,95278]"))
+    t2022 = []
+    # a tabela 10201 tem variável própria: descobre pelo metadado em vez de supor
+    meta, _, _ = get(f"{IBGE}/10201/metadados", 120)
+    m = json.loads(meta)
+    var = m["variaveis"][0]["id"]
+    for nivel in ("N1", "N3"):
+        t2022 += achatar(ibge_serie(10201, "2022", var, nivel, "133[all]"))
+    return {"tabela_137": t137, "tabela_10201": t2022, "tabela_10201_nome": m["nome"], "tabela_10201_variavel": m["variaveis"][0]["nome"]}
+
+
+def ler_csv(dado: bytes) -> tuple[list[str], list[list[str]]]:
+    if dado[:2] == b"PK":
+        z = zipfile.ZipFile(io.BytesIO(dado))
+        nome = next(n for n in z.namelist() if n.lower().endswith(".csv"))
+        dado = z.read(nome)
+    for enc in ("utf-8-sig", "latin-1"):
+        try:
+            txt = dado.decode(enc)
+            break
+        except UnicodeDecodeError:
+            continue
+    amostra = txt[:5000]
+    sep = ";" if amostra.count(";") > amostra.count(",") else ","
+    linhas = list(csv.reader(io.StringIO(txt), delimiter=sep))
+    return linhas[0], linhas[1:]
+
+
+def diagnosticar_disque100() -> dict:
+    out = {}
+    for rotulo, url in DISQUE100.items():
+        try:
+            dado, final, tipo = get(url)
+            if b"<html" in dado[:2000].lower():
+                links = re.findall(rb'href="([^"]+?(?:\.csv|\.zip|@@download/file)[^"]*)"', dado)
+                if links:
+                    alvo = links[0].decode()
+                    alvo = alvo if alvo.startswith("http") else "https://www.gov.br" + alvo
+                    dado, final, tipo = get(alvo)
+            cab, linhas = ler_csv(dado)
+            cols = {}
+            for i, c in enumerate(cab):
+                if re.search(r"relig|motiv|viola|intoler|data|uf|tipo|grupo|cen[aá]rio|canal", c, re.I):
+                    cols[c] = Counter(l[i] for l in linhas if i < len(l)).most_common(25)
+            out[rotulo] = {"url_final": final, "content_type": tipo, "bytes": len(dado), "linhas": len(linhas),
+                           "cabecalho": cab, "exemplo": linhas[:2], "valores": cols}
+            print(f"{rotulo}: {len(linhas)} linhas, {len(cab)} colunas; colunas: {cab}")
+        except Exception as e:  # noqa: BLE001
+            out[rotulo] = {"erro": f"{type(e).__name__}: {str(e)[:200]}"}
+            print(f"{rotulo}: erro {e}")
+    return out
+
+
+def main(argv=None) -> int:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--diagnostico", action="store_true")
+    a = ap.parse_args(argv)
+    agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    d = RAIZ / "data/dados_publicos"
+    d.mkdir(parents=True, exist_ok=True)
+    rc = 0
+    try:
+        ib = coletar_ibge()
+        ib.update({"gerado_em": agora, "run_id": os.environ.get("GITHUB_RUN_ID", "local"), "fonte": IBGE,
+                   "metodo": __doc__.split("\n\n")[1].strip()})
+        (d / "ibge.json").write_text(json.dumps(ib, ensure_ascii=False, indent=1), encoding="utf-8")
+        br = [x for x in ib["tabela_137"] if x["nivel"] == "N1" and x["valor"] and x["categoria"] != "Total"]
+        print("IBGE 137 Brasil:", [(x["categoria"], x["ano"], x["valor"]) for x in br])
+        print("IBGE 10201 Brasil:", [(x["categoria"], x["valor"]) for x in ib["tabela_10201"] if x["nivel"] == "N1"])
+    except Exception as e:  # noqa: BLE001
+        print(f"IBGE: erro {type(e).__name__}: {e}")
+        rc = 1
+    if a.diagnostico:
+        dg = diagnosticar_disque100()
+        (d / "disque100_diagnostico.json").write_text(json.dumps({"gerado_em": agora, "arquivos": dg}, ensure_ascii=False, indent=1), encoding="utf-8")
+    return rc
+
+
+if __name__ == "__main__":
+    sys.exit(main())

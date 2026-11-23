@@ -1,0 +1,51 @@
+name: Dados públicos (IBGE e Disque 100, sem custo)
+
+on:
+  workflow_dispatch:
+    inputs:
+      diagnostico:
+        description: "sim = baixa o Disque 100 e grava cabeçalho e valores das colunas (para escrever o filtro)"
+        default: "sim"
+        type: choice
+        options: ["sim", "nao"]
+
+concurrency:
+  group: dados-publicos
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  dados:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Coleta
+        id: c
+        continue-on-error: true
+        run: |
+          rc=0
+          if [ "${{ github.event.inputs.diagnostico }}" = "sim" ]; then a="--diagnostico"; else a=""; fi
+          python scripts/collect_dados_publicos.py $a > o.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Dados públicos::$(echo "$l" | cut -c1-900)"; done < o.txt
+          rm -f o.txt; exit $rc
+      - name: Gravar
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Dados públicos (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.c.outcome == 'failure'
+        run: exit 1
