@@ -26,7 +26,14 @@ O responsável aprovou à 0h52 os quatro itens da avaliação da comparação de
   - o erro da API passa a ser impresso, com a chave mascarada;
   - o workflow imprime a saída mesmo quando o script falha;
   - sem canal identificado, nada é gravado.
-- **Pendente:** o segundo run de `publico.yml`.
+- **Segundo run (45109015337), sucesso:**
+  - 2.698 comentários lidos, todos com canal identificado: 1.947 autores e 1.947 canais com data de criação.
+  - 94 unidades de cota, sem erro.
+  - Criação dos canais: até 2019, 1.207; de 2020 a 2023, 484; 2024, 106; 2025, 100; 2026 até 31/05, 34; linha de base, 8; núcleo, 5; depois de 14/08, 3.
+  - 9 canais foram criados até 30 dias antes do primeiro comentário.
+  - País declarado em 87 dos 1.947 canais (Brasil 79).
+  - Ficha do YouTube: Mariam 205 mil inscritos; Carima 4.560; Hyatt 1.150; Fabíola 55.
+- **Conferido na página publicada:** 27 números clicáveis. Carima × Mariam no Instagram abre 11 autores (40 comentários); “criados até 30 dias” abre 9 autores (15 comentários); EUA abre 2.
 
 ## 23/11/2026: Disque 100 sai da página
 
