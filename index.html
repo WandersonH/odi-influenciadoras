@@ -587,7 +587,7 @@ async function dizem(rede) {
       let med = "taxa";
       const feats = GEO.features || [], fuf = (GEOUF && GEOUF.features) || [];
       const anel = ft => ft.geometry.type === "Polygon" ? [ft.geometry.coordinates] : ft.geometry.coordinates;
-      const todos = fuf.length ? fuf : feats, cs = todos.flatMap(ft => anel(ft).flat(1));
+      const todos = fuf.length ? fuf : feats, cs = todos.flatMap(ft => anel(ft).flat(2));  // polígono → anéis → pontos
       const xs = cs.map(c => c[0]), ys = cs.map(c => c[1]);
       const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys), k = Math.cos((y0 + y1) / 2 * Math.PI / 180);
       const W = 520, H = Math.round(W * (y1 - y0) / ((x1 - x0) * k)), X = lon => 6 + (lon - x0) / (x1 - x0) * (W - 12), Y = lat => 6 + (y1 - lat) / (y1 - y0) * (H - 12);

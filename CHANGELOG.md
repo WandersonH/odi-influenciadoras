@@ -14,7 +14,8 @@
   - O coletor baixa as tabelas 137 (2010) e 10201 (2022) por município, em `data/dados_publicos/municipios.json`, e as malhas de estados e municípios da API de malhas do IBGE.
   - Três medidas: islamismo por 100 mil habitantes, islamismo em pessoas e outras religiosidades em %. Escala em raiz quadrada com teto no percentil 98. A tabela continua por estado.
 - **Correção (erro meu):** o percentual de 2010 aparecia como "—" porque usei o código do total de outra tabela. O coletor agora lê o código do total no metadado da tabela 137.
-- `dados_publicos.yml` disparado depois deste commit para baixar o novo formato.
+- `dados_publicos.yml` (run 45100847812) baixou: 5.570 municípios (369 com muçulmano declarado em 2010), malha municipal de 3.521 KB e malha dos estados de 96 KB. Com o total corrigido, os muçulmanos eram 0,018% da população em 2010.
+- **Correção (erro meu):** o primeiro desenho do mapa saiu em branco, porque o cálculo dos limites lia anéis em vez de pontos. Corrigido.
 
 ## 22/11/2026: caderno 10, dados públicos (Método passa a ser o 11)
 
