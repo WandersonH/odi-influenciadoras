@@ -1,5 +1,14 @@
 # Changelog
 
+## 23/11/2026: OBMigra, microdados de gov.br/mj (diagnóstico)
+
+O responsável indicou à 0h18 a página de microdados da OBMigra no gov.br/mj como o caminho dos dados. Corrige o que eu tinha dito antes (que só havia 2010 a 2025, pelo DataMigra WEB): a página publica arquivos até 2026.
+- **SISMIGRA (registros de residência, Polícia Federal):** um arquivo de janeiro a julho de 2026, um por ano de 2021 a 2025, e os blocos 2019–2020, 2018 e 2010–2017.
+- **Solicitações de refúgio (Sisconare, CG-Conare):** um arquivo por mês de janeiro a julho de 2026, mais 2025, 2024 e o bloco 1994–2023.
+- Todos ficam no SharePoint da UnB. A página não informa formato, tamanho nem dicionário.
+- Daqui o acesso ao SharePoint é bloqueado (403 do proxy). Workflow novo `obmigra_diagnostico.yml`: lê só os cabeçalhos (tamanho, tipo, nome) de quatro arquivos (SISMIGRA 2026 e 2025, refúgio de junho e julho de 2026), sem baixar nem gravar. Disparado depois deste commit.
+- Pendente: o coletor, depois de conhecer o tamanho e o formato. O núcleo (23/07 a 14/08) só tem cobertura até 31/07, porque os arquivos param em julho; isso aparece na página como cobertura parcial.
+
 ## 22/11/2026: Disque 100, endereço real dos arquivos
 
 O responsável mandou os quatro links às 23h59 (2025-S1, 2025-S2, 2026-S1 e 2026-T3). Abrindo o do terceiro trimestre no Chrome dele, o gov.br redirecionou para `https://dadosabertos.mdh.gov.br/disque100-terceiro-trimestre-2026.csv`, que respondeu 503 (serviço indisponível). Nenhum arquivo foi baixado no computador dele.

@@ -1,0 +1,23 @@
+name: OBMigra (diagnóstico dos arquivos)
+# Só lê os cabeçalhos HTTP (tamanho, tipo, nome) dos microdados da OBMigra
+# publicados em gov.br/mj (SharePoint da UnB). Não baixa nem grava nada.
+on:
+  workflow_dispatch:
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cabeçalhos
+        run: |
+          set +e
+          declare -A U=(
+            [sismigra_2026_jan_jul]="https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQA_l-tGUDGFRJ6G31hTACZEARFWuK_GbWwvXvF2TcXN1L8?e=MyiykJ"
+            [sismigra_2025]="https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQCyyLiZ7_56S4E9k07Na3DmARch_VJCfCVmsksMs3EtCaA?e=iafrmE"
+            [refugio_2026_06]="https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQDhGxKU3vjSQZ6OMjt17oNjAXKY3dQgSCS3KZm64n03GaY?e=FlGyia"
+            [refugio_2026_07]="https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQCtg19QW5P2RZvUrIkC5HBGAe2Eta4kvtsx4XHuBsUIBBA?e=udPCZS"
+          )
+          for k in "${!U[@]}"; do
+            echo "== $k"
+            curl -sL -o /dev/null --max-time 60 -r 0-0 -D - "${U[$k]}&download=1" \
+              | grep -iE '^(HTTP|content-length|content-range|content-type|content-disposition)' 
+          done
