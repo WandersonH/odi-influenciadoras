@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: similitude do caderno 09 abre os trechos do corpus ao clicar
+
+O responsável pediu às 23h00: "quero o corpus quando eu clicar aqui", sobre a similitude.
+- **`build_corpus.py`:**
+  - Grava `data/corpus/segmentos.json`: os 710 segmentos do corpus, com influenciadora, rede, janela, data, link e texto. O texto é das próprias influenciadoras (legenda + fala transcrita), já público pela regra 10.
+  - Grava em `chd.json` o campo `similitude.segmentos_por_forma`, com os segmentos que contêm cada uma das 100 formas.
+  - Conferido: para as 100 formas, o número de segmentos bate com a frequência do nó. A CHD não mudou (7 classes, 61,4%).
+- **Página:**
+  - Palavra e halo da similitude abrem um painel com os segmentos daquela forma, a contagem por influenciadora e um aviso de que a forma é lematizada.
+  - O painel sobreposto virou função comum (`painel()`), usada também pelos comentários do caderno 05.
+  - As similitudes da imprensa e dos comentários não abrem trechos por aqui.
+
 ## 22/11/2026: "ATLAS" volta como logotipo; resultado das sugestões de busca (run com sucesso)
 
 - O responsável corrigiu às 22h58: "ATLAS" é o logotipo dos projetos e fica. Embaixo dele, no lugar do nome do observatório, entra o nome da pesquisa: "Influenciadoras muçulmanas e o acordo do Hamas". Isso também resolve o nome cortado na barra lateral.

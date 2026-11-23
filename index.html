@@ -506,6 +506,19 @@ async function dizem(rede) {
       ${sec.lista ? `${sec.lista_titulo ? `<p style="font-size:13px;margin:14px 0 4px"><b>${esc(sec.lista_titulo)}</b></p>` : ""}<ul style="font-size:13px;line-height:1.65;color:#273447;padding-left:20px">${sec.lista.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}</div>`).join("") + `<p class="inf-nota">${esc(MT10.fonte)}</p>`;
   }
 
+  // Painel sobreposto para ler trechos (comentários anonimizados, corpus das influenciadoras)
+  function painel() {
+    let el = document.getElementById("infPainel");
+    if (el) return el;
+    el = document.createElement("div");
+    el.id = "infPainel"; el.className = "inf-leitor"; el.hidden = true;
+    document.body.appendChild(el);
+    const fecha = () => { el.hidden = true; el.innerHTML = ""; };
+    el.addEventListener("click", ev => { if (ev.target === el || ev.target.closest(".inf-fecha")) fecha(); });
+    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !el.hidden) fecha(); });
+    return el;
+  }
+
   // Caderno 05: comentários (só contagens)
   {
     const CM = {};
@@ -531,13 +544,7 @@ async function dizem(rede) {
     $("p5Corpo").innerHTML = `<div class="eyebrow">Comentários das publicações do núcleo · clique num número de tema ou numa palavra para ler os comentários (autor anonimizado)</div><h2 class="tk-h2">Quanto se comentou e se alguém cobrou o tema</h2>${blocos}
       <p class="inf-nota">Universo = número de comentários que a plataforma informa para as publicações (o Instagram não informou: ⛔). YouTube: todos os comentários pela API oficial. Instagram e TikTok: até 50 por publicação (Apify), ordem da plataforma: é amostra. Os temas usam o mesmo dicionário do caderno 03; um comentário pode ter mais de um tema. Ao clicar num número ou numa palavra, a página abre os comentários correspondentes, anonimizados: o autor vira código (YT0001, IG0001, TT0001), todo @ de terceiro vira "@perfil" e links, e-mails e números longos são retirados. Nome e @ dos autores ficam só no repositório privado.</p>
       <div class="inf-vazio" style="margin-top:12px">⛔ Ainda por fazer sobre os comentários: classificação de intolerância e posição do comentarista pelo livro de códigos (com kappa), CHD e similitude dos comentários.</div>`;
-    const CORP = {};
-    const leitor = document.createElement("div");
-    leitor.id = "p5Leitor"; leitor.className = "inf-leitor"; leitor.hidden = true;
-    document.body.appendChild(leitor);
-    const fechaLeitor = () => { leitor.hidden = true; leitor.innerHTML = ""; };
-    leitor.addEventListener("click", ev => { if (ev.target === leitor || ev.target.closest(".inf-fecha")) fechaLeitor(); });
-    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !leitor.hidden) fechaLeitor(); });
+    const CORP = {}, leitor = painel();
     $("p5Corpo").addEventListener("click", async ev => {
       const el = ev.target.closest(".inf-abre"); if (!el) return;
       const {r, a, k, v} = el.dataset;
@@ -567,9 +574,10 @@ async function dizem(rede) {
     const halo = ["#dbe8fb", "#f6dcea", "#dcefe2", "#f8e1d6", "#e7e0f4", "#f4ecd2", "#d9f0ef", "#f3d9d8"];
     const cor = n => n.especifica_de ? (cores[n.especifica_de] || "#297de2") : "#69768a";
     let g = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;background:#fffdf8" role="img" aria-label="Análise de similitude">`;
-    S.nos.forEach(n => g += `<circle cx="${X(n.x).toFixed(1)}" cy="${Y(n.y).toFixed(1)}" r="${(22 + 26 * Math.sqrt(n.freq / fm)).toFixed(1)}" fill="${halo[n.grupo % halo.length]}" fill-opacity=".55"/>`);
+    const clic = S.segmentos_por_forma ? ' class="inf-forma" style="cursor:pointer"' : "";
+    S.nos.forEach(n => g += `<circle${clic} data-forma="${esc(n.id)}" cx="${X(n.x).toFixed(1)}" cy="${Y(n.y).toFixed(1)}" r="${(22 + 26 * Math.sqrt(n.freq / fm)).toFixed(1)}" fill="${halo[n.grupo % halo.length]}" fill-opacity=".55"/>`);
     S.arestas.forEach(([a, b, w]) => g += `<line x1="${X(by[a].x).toFixed(1)}" y1="${Y(by[a].y).toFixed(1)}" x2="${X(by[b].x).toFixed(1)}" y2="${Y(by[b].y).toFixed(1)}" stroke="#b8b1a1" stroke-width="${(0.6 + 4 * w / wm).toFixed(2)}"><title>${esc(a)} — ${esc(b)}: ${n(w)} segmentos</title></line>`);
-    S.nos.forEach(nd => g += `<text x="${X(nd.x).toFixed(1)}" y="${Y(nd.y).toFixed(1)}" text-anchor="middle" dominant-baseline="middle" style="font:700 ${(9 + 13 * Math.sqrt(nd.freq / fm)).toFixed(1)}px Georgia,serif;fill:${cor(nd)};paint-order:stroke;stroke:#fffdf8;stroke-width:3px"><title>${esc(nd.id)}: ${n(nd.freq)} segmentos${nd.especifica_de ? " · específica de " + esc(nomes[nd.especifica_de] || nd.especifica_de) + " (χ² " + nd.chi2 + ")" : " · comum"}</title>${esc(nd.id)}</text>`);
+    S.nos.forEach(nd => g += `<text${clic} data-forma="${esc(nd.id)}" x="${X(nd.x).toFixed(1)}" y="${Y(nd.y).toFixed(1)}" text-anchor="middle" dominant-baseline="middle" style="font:700 ${(9 + 13 * Math.sqrt(nd.freq / fm)).toFixed(1)}px Georgia,serif;fill:${cor(nd)};paint-order:stroke;stroke:#fffdf8;stroke-width:3px"><title>${esc(nd.id)}: ${n(nd.freq)} segmentos${nd.especifica_de ? " · específica de " + esc(nomes[nd.especifica_de] || nd.especifica_de) + " (χ² " + nd.chi2 + ")" : " · comum"}</title>${esc(nd.id)}</text>`);
     return g + "</svg>";
   }
 
@@ -623,8 +631,27 @@ async function dizem(rede) {
             ${c.segmentos_caracteristicos.slice(0, 2).map(sg => `<a class="inf-item" href="${esc(sg.url)}" target="_blank" rel="noopener"><p>“${esc(sg.texto)}”</p><small>${esc(nomes[sg.cand] || sg.cand)} · ${REDES[sg.rede] || sg.rede}</small></a>`).join("")}</div>`; }).join("")}</div>
         ${sim ? `<h2 class="tk-h2" style="margin-top:20px">Análise de similitude</h2>${desenhaSim(sim, corI)}
           <div style="display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:#5e7180;margin-top:6px">${Object.keys(nomes).map(a => `<span style="color:${corI[a]};font-weight:700">● específica de ${esc(nomes[a])}</span>`).join("")}<span style="color:#69768a;font-weight:700">● comum</span><span>· halo = comunidade (Louvain)</span></div>
-          <p class="inf-nota">Árvore máxima das ${n(sim.formas)} formas mais frequentes, índice de coocorrência (padrão do IRaMuTeQ). Cor: influenciadora em que a forma é mais específica (χ² ≥ 3,84).</p>` : ""}
+          <p class="inf-nota">Árvore máxima das ${n(sim.formas)} formas mais frequentes, índice de coocorrência (padrão do IRaMuTeQ). Cor: influenciadora em que a forma é mais específica (χ² ≥ 3,84). <b>Clique numa palavra para ler os trechos do corpus em que ela aparece.</b></p>` : ""}
         <p class="inf-nota">${esc(C9.metodo)} Lematização: ${esc((C9.lematizacao || {}).dicionario || "")}.</p>`;
+      if (sim && sim.segmentos_por_forma) {
+        let SEG = null;
+        $("p9Corpo").addEventListener("click", async ev => {
+          const el = ev.target.closest(".inf-forma"); if (!el) return;
+          const f = el.dataset.forma, P = painel();
+          P.hidden = false; P.innerHTML = `<div class="inf-leitor-caixa"><p>Carregando…</p></div>`;
+          SEG = SEG || await json("data/corpus/segmentos.json");
+          if (!SEG) { P.innerHTML = `<div class="inf-leitor-caixa"><button class="inf-fecha" type="button">Fechar ✕</button>${vazio("⛔ Segmentos do corpus não encontrados.")}</div>`; return; }
+          const ids = new Set(sim.segmentos_por_forma[f] || []), itens = SEG.filter(x => ids.has(x.i));
+          const porA = {}; itens.forEach(x => porA[x.a] = (porA[x.a] || 0) + 1);
+          P.innerHTML = `<div class="inf-leitor-caixa" role="dialog" aria-label="Trechos do corpus"><button class="inf-fecha" type="button">Fechar ✕</button>
+            <div class="eyebrow">Corpus das influenciadoras · similitude · forma “${esc(f)}”</div>
+            <h2 class="tk-h2" style="margin:4px 0 8px">${n(itens.length)} segmento${itens.length === 1 ? "" : "s"} com “${esc(f)}”</h2>
+            <p class="inf-nota" style="margin:0 0 6px">${Object.entries(porA).sort((a, b) => b[1] - a[1]).map(([a, q]) => `${esc(nomes[a] || a)} ${n(q)}`).join(" · ")}</p>
+            <p class="inf-nota" style="margin:0 0 10px">A forma é lematizada pelo dicionário do IRaMuTeQ: “${esc(f)}” reúne as flexões da palavra (verbo conjugado, plural, feminino). Segmentos de cerca de 40 palavras de legenda e fala transcrita, na ordem do corpus.</p>
+            ${itens.map(x => `<div class="inf-coment"><small><b>${esc(nomes[x.a] || x.a)}</b> · ${esc(REDES[x.r] || x.r)} · ${x.d ? dataBR(x.d + "T12:00:00Z") : "—"} · ${x.j === "nucleo" ? "núcleo" : "linha de base"} · <a href="${esc(x.u)}" target="_blank" rel="noopener">publicação</a></small><p>${esc(x.t)}</p></div>`).join("")}</div>`;
+          P.scrollTop = 0;
+        });
+      }
     }
   }
 

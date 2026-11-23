@@ -95,7 +95,8 @@ def main(root: Path = RAIZ) -> int:
     with (d / "influenciadoras_iramuteq.txt").open("w", encoding="utf-8") as f:
         for t in sorted(ts, key=lambda t: (t["ator_id"], t["publicado_em"])):
             f.write(f"**** *infl_{var(t['ator_id'])} *rede_{t['rede']} *janela_{t['janela']} *fala_{'sim' if t['fala'] else 'nao'}\n{t['texto']}\n\n")
-    segs = [{"post_id": t["post_id"], "rede": t["rede"], "cand": t["ator_id"], "janela": t["janela"], "url": t["url"], "texto": s}
+    segs = [{"post_id": t["post_id"], "rede": t["rede"], "cand": t["ator_id"], "janela": t["janela"], "url": t["url"],
+             "data": (t.get("publicado_em") or "")[:10], "texto": s}
             for t in ts for s in segmentar(t["texto"])]
     X, voc = cr.matriz([s["texto"] for s in segs])
     n_ativos = int((X.sum(1) > 0).sum())
@@ -141,10 +142,16 @@ def main(root: Path = RAIZ) -> int:
         import similitude as sim
         res = sim.ads(X, voc, [s["cand"] for s in segs])
         if res:
+            # para a página abrir os trechos ao clicar numa palavra: índices dos segmentos que contêm cada forma (lematizada)
+            col = {f: j for j, f in enumerate(voc)}
+            res["segmentos_por_forma"] = {nd["id"]: [int(i) for i in np.nonzero(X[:, col[nd["id"]]])[0]] for nd in res["nos"] if nd["id"] in col}
             out["similitude"] = res
             sim.gexf(res, d / "similitude.gexf")
     except Exception as e:  # noqa: BLE001
         out["similitude"] = {"erro": f"{type(e).__name__}: {str(e)[:160]}"}
+    # segmentos do corpus (texto das próprias influenciadoras: legenda + fala transcrita), na ordem da matriz
+    (d / "segmentos.json").write_text(json.dumps([{"i": i, "a": g["cand"], "r": g["rede"], "j": g["janela"], "d": g["data"], "u": g["url"], "t": g["texto"]}
+                                                  for i, g in enumerate(segs)], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (d / "chd.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"corpus: {len(ts)} textos ({out['textos_com_fala']} com fala), {len(segs)} segmentos, {n} classificados "
           f"({out['pct_classificados']}%), {len(voc)} formas, {len(classes)} classes")
