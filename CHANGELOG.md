@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: por que 2010? Diagnóstico dos microdados públicos do Censo 2022
+
+O responsável perguntou às 23h35: "por que estamos usando 2010?". Até aqui, porque o 2010 era o último Censo com o islamismo separado nas tabelas abertas do SIDRA. As 52 tabelas de religião foram conferidas, e as de 2022 só trazem os 10 grandes grupos.
+
+Na verificação, apareceu um caminho melhor. O IBGE publicou em agosto de 2026 os microdados de acesso público do Censo 2022: CSV por estado, cerca de 1 GB compactado (`ftp.ibge.gov.br/.../Microdados_de_acesso_Publico/csv/`). A nota metodológica 06/2026 fala numa classificação de religião mais detalhada nesses microdados.
+
+Novo modo `--censo2022` em `collect_dados_publicos.py` (opção `censo2022` em `dados_publicos.yml`): lê o layout público (xlsx) e o dicionário (PDF) e grava a variável de religião e as categorias dela em `data/dados_publicos/censo2022_diagnostico.json`.
+- Se o islamismo estiver lá, o próximo passo é a estimativa ponderada de 2022 (peso amostral) por estado e por município, com o erro amostral.
+- Se não estiver, 2010 continua sendo o último número aberto.
+
 ## 22/11/2026: mapa de emojis (caderno 05) e mapa por município (caderno 10)
 
 - **Mapa de emojis** (pedido às 23h27). Novo `scripts/build_emojis.py`, executado localmente:

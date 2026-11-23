@@ -140,9 +140,42 @@ def diagnosticar_disque100() -> dict:
     return out
 
 
+FTP22 = "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Microdados_e_Areas_de_Ponderacao/"
+
+
+def diagnosticar_censo2022() -> dict:
+    """Microdados de acesso público do Censo 2022 (ago/2026): a variável de religião traz o islamismo separado?
+    Lê o layout (xlsx) e o dicionário (PDF) e grava as linhas e o trecho que falam de religião."""
+    import urllib.parse
+    out = {}
+    lay, _, _ = get(FTP22 + "Documentacao/" + urllib.parse.quote("Layout e dicionário/Layout Microdados CD2022 - acesso Público.xlsx"), 300)
+    import openpyxl
+    wb = openpyxl.load_workbook(io.BytesIO(lay), read_only=True, data_only=True)
+    linhas = []
+    for ws in wb.worksheets:
+        for row in ws.iter_rows(values_only=True):
+            txt = " | ".join(str(c) for c in row if c is not None)
+            if re.search(r"relig|culto|peso|munic|v0001|v0002|ponder", txt, re.I):
+                linhas.append(f"[{ws.title}] {txt[:300]}")
+    out["layout_publico"] = linhas[:80]
+    dic, _, _ = get(FTP22 + "Documentacao/" + urllib.parse.quote("Layout e dicionário/Dicionário de Variáveis - Microdados CD2022.pdf"), 300)
+    from pypdf import PdfReader
+    texto = "\n".join((pg.extract_text() or "") for pg in PdfReader(io.BytesIO(dic)).pages)
+    trechos = [texto[max(0, m.start() - 300): m.start() + 2500] for m in re.finditer(r"(?i)religi[aã]o ou culto", texto)][:3]
+    out["dicionario_trechos"] = trechos
+    out["dicionario_menciona_islamismo"] = bool(re.search(r"(?i)islam", texto))
+    for l in linhas[:40]:
+        print(l)
+    print("dicionário menciona islamismo:", out["dicionario_menciona_islamismo"])
+    for t in trechos[:1]:
+        print(t[:2000].replace("\n", " / "))
+    return out
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--diagnostico", action="store_true")
+    ap.add_argument("--censo2022", action="store_true", help="diagnóstico da variável de religião nos microdados públicos do Censo 2022")
     a = ap.parse_args(argv)
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     d = RAIZ / "data/dados_publicos"
@@ -159,6 +192,14 @@ def main(argv=None) -> int:
     except Exception as e:  # noqa: BLE001
         print(f"IBGE: erro {type(e).__name__}: {e}")
         rc = 1
+    if a.censo2022:
+        try:
+            cg = diagnosticar_censo2022()
+            (d / "censo2022_diagnostico.json").write_text(json.dumps({"gerado_em": agora, **cg}, ensure_ascii=False, indent=1), encoding="utf-8")
+        except Exception as e:  # noqa: BLE001
+            print(f"Censo 2022: erro {type(e).__name__}: {e}")
+            rc = 1
+        return rc
     if a.diagnostico:
         dg = diagnosticar_disque100()
         (d / "disque100_diagnostico.json").write_text(json.dumps({"gerado_em": agora, "arquivos": dg}, ensure_ascii=False, indent=1), encoding="utf-8")
