@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T03:33:39Z",
+ "gerado_em": "2026-11-23T03:40:06Z",
  "fonte": "OBMigra / Ministério da Justiça e Segurança Pública, microdados do SISMIGRA (registros de residência, Polícia Federal)",
  "pagina": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA",
  "arquivo": {
@@ -268,6 +268,78 @@
      "0026",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     93
+    ],
+    [
+     "SEM OCUPACAO",
+     78
+    ],
+    [
+     "ESTUDANTE",
+     43
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     37
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     33
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     29
+    ],
+    [
+     "APOSENTADO, PENSIONISTA, OU ASSEMELHADO",
+     21
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     20
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     19
+    ],
+    [
+     "VENDEDOR VIAJANTE, PROPAGANDISTA, REPRESENTANTE COMERCIAL, COMISSIONISTA, OU ASSEMELHADO",
+     13
+    ],
+    [
+     "outras (27 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     56
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     233
+    ],
+    [
+     "SOLTEIRO",
+     187
+    ],
+    [
+     "VIUVO",
+     8
+    ],
+    [
+     "DIVORCIADO",
+     8
+    ],
+    [
+     "OUTROS",
+     5
+    ],
+    [
+     "DESCONHECIDO",
+     1
+    ]
    ]
   },
   "LÍBANO": {
@@ -499,6 +571,70 @@
      "0205",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     108
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     68
+    ],
+    [
+     "ESTUDANTE",
+     22
+    ],
+    [
+     "SEM OCUPACAO",
+     18
+    ],
+    [
+     "DIRETOR , GERENTE OU PROPRIETARIO, DE CASA COMERCIAL, ATACADISTA OU VAREJISTA, EXPORTADORA OU IMPORTADORA, OU ASSEMELHADO",
+     17
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     17
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     15
+    ],
+    [
+     "APOSENTADO, PENSIONISTA, OU ASSEMELHADO",
+     15
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     8
+    ],
+    [
+     "VENDEDOR VIAJANTE, PROPAGANDISTA, REPRESENTANTE COMERCIAL, COMISSIONISTA, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "outras (18 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     29
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     168
+    ],
+    [
+     "CASADO",
+     143
+    ],
+    [
+     "VIUVO",
+     8
+    ],
+    [
+     "DIVORCIADO",
+     3
+    ]
    ]
   },
   "ESTADO DA PALESTINA": {
@@ -693,6 +829,74 @@
     [
      "--",
      50
+    ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     63
+    ],
+    [
+     "SEM OCUPACAO",
+     45
+    ],
+    [
+     "ESTUDANTE",
+     40
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     19
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     15
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     11
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     6
+    ],
+    [
+     "VENDEDOR VIAJANTE, PROPAGANDISTA, REPRESENTANTE COMERCIAL, COMISSIONISTA, OU ASSEMELHADO",
+     4
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     3
+    ],
+    [
+     "outras (16 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     20
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     110
+    ],
+    [
+     "CASADO",
+     106
+    ],
+    [
+     "VIUVO",
+     4
+    ],
+    [
+     "DIVORCIADO",
+     3
+    ],
+    [
+     "OUTROS",
+     2
+    ],
+    [
+     "DESCONHECIDO",
+     1
     ]
    ]
   },
@@ -892,6 +1096,54 @@
     [
      "2025",
      88
+    ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     161
+    ],
+    [
+     "SEM OCUPACAO",
+     79
+    ],
+    [
+     "ESTUDANTE",
+     28
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     12
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     10
+    ],
+    [
+     "outras (11 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     12
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     179
+    ],
+    [
+     "CASADO",
+     104
+    ],
+    [
+     "VIUVO",
+     16
+    ],
+    [
+     "SEPARADO_JUDICIALMENTE",
+     2
+    ],
+    [
+     "DIVORCIADO",
+     1
     ]
    ]
   },
@@ -1131,6 +1383,74 @@
     [
      "0025",
      1
+    ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     81
+    ],
+    [
+     "SEM OCUPACAO",
+     64
+    ],
+    [
+     "ESTUDANTE",
+     42
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     24
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     21
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     11
+    ],
+    [
+     "ECONOMISTA, ATUARIO, CONTADOR, TECNICO EM CONTABILIDADE, AUDITOR, ESTATISTICO, ADMINISTRADOR, OU ASSEMELHADO",
+     11
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     11
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     8
+    ],
+    [
+     "ESCRITOR, JORNALISTA, TRADUTOR, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "outras (29 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     61
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     175
+    ],
+    [
+     "SOLTEIRO",
+     153
+    ],
+    [
+     "DIVORCIADO",
+     5
+    ],
+    [
+     "VIUVO",
+     4
+    ],
+    [
+     "OUTROS",
+     4
     ]
    ]
   },
@@ -1383,6 +1703,74 @@
      "2024",
      2
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     645
+    ],
+    [
+     "SEM OCUPACAO",
+     115
+    ],
+    [
+     "ESTUDANTE",
+     36
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     31
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     20
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     11
+    ],
+    [
+     "VENDEDOR VIAJANTE, PROPAGANDISTA, REPRESENTANTE COMERCIAL, COMISSIONISTA, OU ASSEMELHADO",
+     10
+    ],
+    [
+     "COZINHEIRO, MORDOMO, GOVERNANTA, CAMAREIRO, GARCAO, OU ASSEMELHADO",
+     9
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "BARBEIRO, CABELEIREIRO, ESTETICISTA, ESPECIALISTA DE INSTITUTO DE BELEZA, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "outras (27 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     63
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     630
+    ],
+    [
+     "CASADO",
+     274
+    ],
+    [
+     "DIVORCIADO",
+     37
+    ],
+    [
+     "OUTROS",
+     8
+    ],
+    [
+     "VIUVO",
+     1
+    ]
    ]
   },
   "TUNÍSIA": {
@@ -1598,6 +1986,74 @@
      "2024",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     375
+    ],
+    [
+     "SEM OCUPACAO",
+     43
+    ],
+    [
+     "ESTUDANTE",
+     18
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     14
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "COZINHEIRO, MORDOMO, GOVERNANTA, CAMAREIRO, GARCAO, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     6
+    ],
+    [
+     "ECONOMISTA, ATUARIO, CONTADOR, TECNICO EM CONTABILIDADE, AUDITOR, ESTATISTICO, ADMINISTRADOR, OU ASSEMELHADO",
+     3
+    ],
+    [
+     "OFICIAL, PILOTO, MAQUINISTA, MARINHEIRO, OU OUTRO TRABALHADOR, NA NAVEGACAO MARITIMA OU FLUVIAL",
+     3
+    ],
+    [
+     "outras (16 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     21
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     321
+    ],
+    [
+     "CASADO",
+     161
+    ],
+    [
+     "DIVORCIADO",
+     17
+    ],
+    [
+     "OUTROS",
+     4
+    ],
+    [
+     "VIUVO",
+     1
+    ]
    ]
   },
   "ARGÉLIA": {
@@ -1809,6 +2265,42 @@
      "2025",
      12
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     20
+    ],
+    [
+     "SEM OCUPACAO",
+     8
+    ],
+    [
+     "ESTUDANTE",
+     4
+    ],
+    [
+     "outras (11 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     13
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     27
+    ],
+    [
+     "CASADO",
+     16
+    ],
+    [
+     "DIVORCIADO",
+     1
+    ],
+    [
+     "OUTROS",
+     1
+    ]
    ]
   },
   "LÍBIA": {
@@ -1931,6 +2423,34 @@
     [
      "--",
      1
+    ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     9
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     6
+    ],
+    [
+     "ESTUDANTE",
+     5
+    ],
+    [
+     "outras (7 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     10
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     16
+    ],
+    [
+     "SOLTEIRO",
+     14
     ]
    ]
   },
@@ -2099,6 +2619,50 @@
      "2024",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     7
+    ],
+    [
+     "ESTUDANTE",
+     5
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     4
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     4
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     4
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     4
+    ],
+    [
+     "outras (10 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     12
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     24
+    ],
+    [
+     "SOLTEIRO",
+     15
+    ],
+    [
+     "DIVORCIADO",
+     1
+    ]
    ]
   },
   "IRAQUE": {
@@ -2221,6 +2785,38 @@
     [
      "--",
      4
+    ]
+   ],
+   "profissao": [
+    [
+     "ESTUDANTE",
+     6
+    ],
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     5
+    ],
+    [
+     "outras (7 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     9
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     14
+    ],
+    [
+     "CASADO",
+     4
+    ],
+    [
+     "VIUVO",
+     1
+    ],
+    [
+     "OUTROS",
+     1
     ]
    ]
   },
@@ -2417,6 +3013,74 @@
      "--",
      36
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     48
+    ],
+    [
+     "ESTUDANTE",
+     30
+    ],
+    [
+     "PROFESSOR, OU ASSEMELHADO",
+     9
+    ],
+    [
+     "SEM OCUPACAO",
+     7
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     6
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     6
+    ],
+    [
+     "APOSENTADO, PENSIONISTA, OU ASSEMELHADO",
+     6
+    ],
+    [
+     "MEDICO, CIRURGIAO, DENTISTA, OU ASSEMELHADO",
+     3
+    ],
+    [
+     "DIRETOR , GERENTE OU PROPRIETARIO, DE CASA COMERCIAL, ATACADISTA OU VAREJISTA, EXPORTADORA OU IMPORTADORA, OU ASSEMELHADO",
+     3
+    ],
+    [
+     "outras (22 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     29
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     90
+    ],
+    [
+     "SOLTEIRO",
+     59
+    ],
+    [
+     "DIVORCIADO",
+     3
+    ],
+    [
+     "VIUVO",
+     1
+    ],
+    [
+     "SEPARADO CONSENSUALMENTE",
+     1
+    ]
    ]
   },
   "ARÁBIA SAUDITA": {
@@ -2543,6 +3207,26 @@
     [
      "2026",
      3
+    ]
+   ],
+   "profissao": [
+    [
+     "outras (9 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     10
+    ]
+   ],
+   "estado_civil": [
+    [
+     "CASADO",
+     5
+    ],
+    [
+     "SOLTEIRO",
+     4
+    ],
+    [
+     "DIVORCIADO",
+     1
     ]
    ]
   },
@@ -2787,6 +3471,74 @@
      "2022",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     77
+    ],
+    [
+     "SEM OCUPACAO",
+     53
+    ],
+    [
+     "PROFISSIONAL LIBERAL, TECNICO, OU ASSEMELHADO, NAO CLASSIFICADO SOB OUTRA DEMOMINACAO",
+     28
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     26
+    ],
+    [
+     "ESTUDANTE",
+     13
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     11
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     10
+    ],
+    [
+     "DIRETOR , GERENTE OU PROPRIETARIO, DE CASA COMERCIAL, ATACADISTA OU VAREJISTA, EXPORTADORA OU IMPORTADORA, OU ASSEMELHADO",
+     9
+    ],
+    [
+     "APOSENTADO, PENSIONISTA, OU ASSEMELHADO",
+     7
+    ],
+    [
+     "ESCRITOR, JORNALISTA, TRADUTOR, OU ASSEMELHADO",
+     6
+    ],
+    [
+     "outras (32 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     72
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     157
+    ],
+    [
+     "CASADO",
+     145
+    ],
+    [
+     "DIVORCIADO",
+     4
+    ],
+    [
+     "VIUVO",
+     3
+    ],
+    [
+     "OUTROS",
+     3
+    ]
    ]
   },
   "PAQUISTÃO": {
@@ -3022,6 +3774,74 @@
      "2023",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "ESTUDANTE",
+     100
+    ],
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     82
+    ],
+    [
+     "SEM OCUPACAO",
+     27
+    ],
+    [
+     "DEPENDENTE DE TITULAR DE VITEM.",
+     14
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     14
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     6
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "ARQUITETO, ENGENHEIRO, AGRIMENSOR, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "MEDICO, CIRURGIAO, DENTISTA, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "PROGRAMADOR, ANALISTA, OU OUTRO TECNICO, NO PROCESSAMENTO ELETRONICO DE DADOS",
+     4
+    ],
+    [
+     "outras (16 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     24
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     157
+    ],
+    [
+     "CASADO",
+     123
+    ],
+    [
+     "OUTROS",
+     3
+    ],
+    [
+     "VIUVO",
+     2
+    ],
+    [
+     "DIVORCIADO",
+     1
+    ]
    ]
   },
   "BANGLADESH": {
@@ -3245,6 +4065,74 @@
      "2024",
      2
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     362
+    ],
+    [
+     "VENDEDOR VIAJANTE, PROPAGANDISTA, REPRESENTANTE COMERCIAL, COMISSIONISTA, OU ASSEMELHADO",
+     133
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     132
+    ],
+    [
+     "DEPENDENTE DE TITULAR DE VITEM.",
+     75
+    ],
+    [
+     "SEM OCUPACAO",
+     48
+    ],
+    [
+     "PADEIRO, CERVEJEIRO, ACOUGUEIRO, TRABALHADOR EM LATICINIOS, OU OUTRO TRABALHADOR, NA PRODUCAO DE ALIMENTOS OU BEBIDAS",
+     33
+    ],
+    [
+     "ESTUDANTE",
+     22
+    ],
+    [
+     "INDUSTRIARIO OU SEVENTE, NAO CLASSIFICADO SOB OUTRA DEMOMINACAO",
+     13
+    ],
+    [
+     "CORRETOR OU AGENTE DE SEGUROS, CORRETOR OU AGENTE DE IMOBILIARIO, CORRETOR, AGENTE DE VENDA DE SERVICOS, LEILOEIRO, AVALIADOR, OU ASSEMELHADO",
+     5
+    ],
+    [
+     "MENOR ( CRIANCA , NAO ESTUDANTE )",
+     5
+    ],
+    [
+     "outras (15 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     28
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     606
+    ],
+    [
+     "CASADO",
+     247
+    ],
+    [
+     "VIUVO",
+     1
+    ],
+    [
+     "DIVORCIADO",
+     1
+    ],
+    [
+     "OUTROS",
+     1
+    ]
    ]
   },
   "SENEGAL": {
@@ -3448,6 +4336,54 @@
      "2014",
      1
     ]
+   ],
+   "profissao": [
+    [
+     "OUTRA OCUPACAO NAO CLASSIFICADA",
+     26
+    ],
+    [
+     "ESTUDANTE",
+     13
+    ],
+    [
+     "SEM OCUPACAO",
+     9
+    ],
+    [
+     "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+     4
+    ],
+    [
+     "SACERDOTE, OU MEMBRO ASSELHADO DE ORDENS, OU SEITAS RELIGIOSAS",
+     4
+    ],
+    [
+     "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+     3
+    ],
+    [
+     "outras (3 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+     4
+    ]
+   ],
+   "estado_civil": [
+    [
+     "SOLTEIRO",
+     49
+    ],
+    [
+     "CASADO",
+     12
+    ],
+    [
+     "OUTROS",
+     1
+    ],
+    [
+     "DIVORCIADO",
+     1
+    ]
    ]
   }
  },
@@ -3529,5 +4465,52 @@
    1
   ]
  ],
- "nucleo_total": 1292
+ "nucleo_total": 1292,
+ "profissoes_distintas": 91,
+ "profissao_geral": [
+  [
+   "OUTRA OCUPACAO NAO CLASSIFICADA",
+   39187
+  ],
+  [
+   "SEM OCUPACAO",
+   28214
+  ],
+  [
+   "ESTUDANTE",
+   21513
+  ],
+  [
+   "MENOR ( CRIANCA , NAO ESTUDANTE )",
+   9222
+  ],
+  [
+   "VENDEDOR OU EMPREGADO DE CASA COMERCIAL, COMERCIARIO, VENDEDOR AMBULANTE, VENDEDOR A DOMICILIO, JORNALEIRO, OU ASSEMELHADO",
+   7740
+  ],
+  [
+   "DECORADOR, COSTUREIRO, ALFAIATE, MODISTA, PELETEIRO, TAPECEIRO, OU ASSEMELHADO",
+   6242
+  ],
+  [
+   "PRENDAS DOMESTICAS ( LIDES DO LAR )",
+   4391
+  ],
+  [
+   "PEDREIRO, SERVENTE, LADRILHEIRO, GESSEIRO, VIDRACEIRO, OU ASSEMELHADO, A OUTRO TRABALHADOR DA CONSTRUCAO CIVIL, NAO CLASSIFICADO SOB OUTRA DEMOMINACAO",
+   2871
+  ],
+  [
+   "PROFISSIONAL LIBERAL, TECNICO, OU ASSEMELHADO, NAO CLASSIFICADO SOB OUTRA DEMOMINACAO",
+   2053
+  ],
+  [
+   "COZINHEIRO, MORDOMO, GOVERNANTA, CAMAREIRO, GARCAO, OU ASSEMELHADO",
+   1921
+  ],
+  [
+   "outras (81 ocupações, cada uma abaixo do top 10 ou com menos de 3 registros)",
+   28126
+  ]
+ ]
 }

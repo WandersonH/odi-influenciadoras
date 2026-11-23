@@ -1,5 +1,15 @@
 # Changelog
 
+## 23/11/2026: OBMigra, profissão e estado civil
+
+O responsável notou à 0h39 que o SISMIGRA tem profissão. `build_obmigra.py` passa a gravar, por país, as profissões declaradas e o estado civil.
+- **Profissões:** grava as 10 mais citadas. Profissão com menos de 3 registros num país vai para “outras”, para não expor ninguém em célula pequena.
+- **Lista da Polícia Federal:** 91 categorias no arquivo. Nos 151.480 registros, as mais comuns são “outra ocupação não classificada”, “sem ocupação” e estudante.
+- **Página:**
+  - A tabela ganha a coluna “profissão mais citada”, que deixa de fora essas três e “criança”.
+  - O clique no país mostra a lista de profissões e o estado civil.
+- **Executado:** o mesmo CSV de jan–jul 2026 foi reprocessado, com o mesmo SHA-256. Há teste novo da regra de célula pequena.
+
 ## 23/11/2026: OBMigra, SISMIGRA de janeiro a julho de 2026 no caderno 10
 
 O SharePoint da UnB recusou o GitHub (401, run 45105347592). A segunda tentativa pelo GitHub, guardando cookies, foi barrada pelo sistema e não rodou. O arquivo veio pelo Chrome do responsável, com autorização dele (0h28): `sismigra_janeiro_julho_2026.zip`, CSV de 31,4 MB, modificado em 19/08/2026. Ele o enviou ao chat.

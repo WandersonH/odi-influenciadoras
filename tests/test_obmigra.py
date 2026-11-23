@@ -21,6 +21,14 @@ class T(unittest.TestCase):
         self.assertIn(["não informada", 1], r["paises"]["SÍRIA"]["idade"])
         self.assertEqual(r["paises"]["EGITO"]["grupo"], "contexto")
 
+    def test_profissao_celula_pequena(self):
+        xs = [dict(linha("SÍRIA"), PROFISSAO="ESTUDANTE") for _ in range(4)] + [dict(linha("SÍRIA"), PROFISSAO="PILOTO")]
+        r = b.profissoes(xs)
+        self.assertEqual(r[0], ["ESTUDANTE", 4])
+        self.assertTrue(r[-1][0].startswith("outras"))
+        self.assertEqual(r[-1][1], 1)
+        self.assertNotIn("PILOTO", [k for k, _ in r])
+
     def test_faixa(self):
         self.assertEqual(b.faixa("17"), "0 a 17")
         self.assertEqual(b.faixa("60"), "60 ou mais")

@@ -30,6 +30,16 @@ def conta(xs, campo, limite=None):
     return [[k, v] for k, v in c.most_common(limite)]
 
 
+MIN_CELULA = 3  # profissões com menos registros que isto num país vão para "outras"
+
+
+def profissoes(xs, limite=10):
+    c = collections.Counter((x.get("PROFISSAO") or "").strip() or "NÃO INFORMADO" for x in xs).most_common()
+    mostra = [[k, v] for k, v in c[:limite] if v >= MIN_CELULA]
+    resto = sum(v for k, v in c) - sum(v for k, v in mostra)
+    return mostra + ([[f"outras ({len(c) - len(mostra)} ocupações, cada uma abaixo do top {limite} ou com menos de {MIN_CELULA} registros)", resto]] if resto else [])
+
+
 def agrega(linhas, cfg):
     total = len(linhas)
     nat = collections.Counter(x["PAIS_NACIONALIDADE"] for x in linhas)
@@ -50,6 +60,8 @@ def agrega(linhas, cfg):
                 "idade": [[r, q] for r, q in sorted(collections.Counter(faixa(x["IDADE"]) for x in xs).items(),
                                                      key=lambda t: [f[2] for f in FAIXAS].index(t[0]) if t[0] != "não informada" else 99)],
                 "ano_entrada": conta(xs, "DATAENTRADA"),
+                "profissao": profissoes(xs),
+                "estado_civil": conta(xs, "ESTADO_CIVIL"),
             }
     nuc = [x for x in linhas if x["PAIS_NACIONALIDADE"] in cfg["nucleo"]]
     return {
@@ -60,6 +72,8 @@ def agrega(linhas, cfg):
         "paises": paises,
         "nucleo_por_uf": conta(nuc, "UNIDADE_FED_RESIDENCIA"),
         "nucleo_total": len(nuc),
+        "profissoes_distintas": len({x.get("PROFISSAO") for x in linhas}),
+        "profissao_geral": profissoes(linhas),
     }
 
 
