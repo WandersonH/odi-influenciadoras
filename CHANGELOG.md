@@ -1,5 +1,24 @@
 # Changelog
 
+## 22/11/2026: rede de circulação refeita com a lista de cada nó (run 45099323058)
+
+`imprensa.yml` com `etapa=circulacao`. A busca do YouTube foi refeita e trouxe 88 vídeos de 59 canais; antes eram 87 vídeos de 60 canais. A diferença é da própria busca, que muda com o tempo. Somando as notícias, são 255 itens indexados por nó. Influenciadoras na rede: 0.
+
+Os cliques foram conferidos na página publicada:
+- similitude do corpus: "saber" abre 77 segmentos;
+- classe 1 da CHD: "marcante" abre 13 segmentos, e a classe inteira, 43;
+- similitude da imprensa: "gaza" abre 34 matérias;
+- rede da imprensa: G1 abre 7 matérias;
+- circulação: AFP Português abre 8 itens;
+- marcações: Mariam Chami abre 102 publicações;
+- palavras dos comentários: "parabens" abre 149 comentários em todas as redes e 108 no YouTube;
+- respostas: o autor A0123 abre 4 comentários;
+- Google: 7 resultados.
+
+Os rótulos das redes estão em Courier New. Nenhum erro no console.
+
+Pendente: o desenho da circulação amontoa os canais do YouTube num canto (layout por componente). Corrigir o espaçamento.
+
 ## 22/11/2026: clicou, viu o corpus, em toda rede e análise; fonte padrão nas redes; "em alta" coletado
 
 **Pedidos do responsável**
