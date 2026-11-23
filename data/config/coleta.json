@@ -25,7 +25,8 @@
    "reserva": 1.5
   },
   "regra": "O coletor soma o custo dos manifestos da etapa e não roda se o teto da etapa já foi atingido; cada execução leva maxTotalChargeUsd = o que resta da etapa dividido pelo número de execuções previstas. Nenhuma consulta de saldo ou de limites da conta.",
-  "nota": "Conta Apify dedicada a este projeto."
+  "nota": "Conta Apify dedicada a este projeto.",
+  "autorizacao_reserva": "Wanderson Honorio, 23/11/2026 01h20 (chat): 'quero que rode quem falou delas nas demais redes'. Uso da reserva (US$ 1,50, já aprovada em 22/11) para os terceiros no Instagram, com teto de US$ 0,70 por execução; o TikTok usa a etapa terceiros_transcricoes."
  },
  "redes": {
   "instagram": {

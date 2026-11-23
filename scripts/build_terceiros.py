@@ -6,7 +6,9 @@ Regra: uma menção conta se trouxer o @ da influenciadora, ou o nome junto de u
 "a conferir" (homônimo provável), fora da contagem, até conferência humana.
 
 Fontes: YouTube (search.list por nome; título do vídeo, no privado), X pela API (xquik; privado), X pela busca do
-navegador (privado) e imprensa (Google Notícias, público). Lê o privado (INFL_INTERNO_DIR); grava no público só
+navegador (privado), TikTok e Instagram pela busca por nome na plataforma (Apify; privado) e imprensa (Google Notícias,
+público). No TikTok, o @ e o link do autor só aparecem para contas com 10 mil seguidores ou mais; no Instagram o
+coletor não traz seguidores, então o autor fica sempre no privado. Lê o privado (INFL_INTERNO_DIR); grava no público só
 contagens e, para canais e veículos com 10 mil+ inscritos ou imprensa, o nome.
 Saída: data/terceiros/resumo.json.
 """
@@ -70,6 +72,13 @@ def descricoes(ids: list[str]) -> dict:
 
 
 MIN_PUBLICO = 10000
+
+
+def inteiro_ou_none(v):
+    try:
+        return int(float(v))
+    except (TypeError, ValueError):
+        return None
 _COD = {}
 
 
@@ -95,6 +104,8 @@ def main(root: Path = RAIZ) -> int:
     yt = ler(priv / "terceiros_youtube.csv")
     xa = ler(priv / "terceiros/x_mencoes.csv")
     xn = ler(priv / "terceiros/x_navegador.csv")
+    redes_extra = {"TikTok (busca por nome)": ler(priv / "terceiros/tiktok_mencoes.csv"),
+                   "Instagram (busca por palavra)": ler(priv / "terceiros/instagram_mencoes.csv")}
     imp = json.loads((root / "data/imprensa/resultados.json").read_text(encoding="utf-8")) if (root / "data/imprensa/resultados.json").exists() else {"consultas": []}
     out = {}
     for a in atores:
@@ -127,6 +138,15 @@ def main(root: Path = RAIZ) -> int:
         fontes["X (busca avançada no navegador)"] = {"lidos": len(q_nome), "confirmadas": sum(c.startswith("confirmada") for c in cls),
                                                      "a_conferir": sum(c.startswith("a conferir") for c in cls),
                                                      "itens": [{"como": c, "data": (r.get("publicado_em") or r.get("data") or "")[:10], "fonte": "post de terceiro (texto e autor no privado)", "titulo": "", "url": ""} for r, c in zip(q_nome, cls)]}
+        # TikTok e Instagram (busca por nome na plataforma, pela Apify)
+        for rot, tab in redes_extra.items():
+            xs = [r for r in tab if r["ator_id"] == a["id"] and ini <= r["publicado_em"][:10] <= fim]
+            cls = [classificar(r["texto"] + (" @" + " @".join(handles) if r.get("tipo_mencao", "").startswith("arroba") else ""), nomes, handles, ctx) for r in xs]
+            seg = [inteiro_ou_none(r.get("autor_seguidores")) for r in xs]
+            fontes[rot] = {"lidos": len(xs), "confirmadas": sum(c.startswith("confirmada") for c in cls), "a_conferir": sum(c.startswith("a conferir") for c in cls),
+                           "itens": [{"como": c, "data": r["publicado_em"][:10], "visualizacoes": inteiro_ou_none(r.get("visualizacoes")),
+                                      "fonte": f"@{r['autor']}" if (sg or 0) >= MIN_PUBLICO else "conta de terceiro (autor no privado)",
+                                      "titulo": "", "url": r["url"] if (sg or 0) >= MIN_PUBLICO else ""} for r, c, sg in zip(xs, cls, seg)]}
         # imprensa (núcleo)
         res = [r for c in imp["consultas"] if c["recorte"] == "núcleo" and c["grupo"] == "influenciadora" and any(norm(n) in norm(c["consulta"]) for n in nomes) for r in c["resultados"]]
         cls = [classificar(r["titulo"], nomes, handles, ctx) for r in res]

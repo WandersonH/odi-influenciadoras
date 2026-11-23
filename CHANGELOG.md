@@ -1,5 +1,26 @@
 # Changelog
 
+## 23/11/2026: quem falou delas no TikTok e no Instagram
+
+O responsável pediu à 1h20: “quero que rode quem falou delas nas demais redes”. Antes cobertos: YouTube, X e imprensa.
+- **`scripts/collect_terceiros_redes.py --rede tiktok|instagram`:** uma execução por rede, com os quatro nomes.
+  - **TikTok:** `apidojo~tiktok-scraper`, busca por palavra-chave, ordem de relevância, últimos seis meses, até 300 por nome.
+    - Preço na loja: US$ 0,30 por mil posts.
+    - Etapa `terceiros_transcricoes`, já autorizada para “terceiros no TikTok”, com teto de US$ 0,50.
+  - **Instagram:** `apify~instagram-hashtag-scraper` em modo de busca por palavra (`keywordSearch`), até 60 por nome.
+    - Preço na loja: cerca de US$ 2,30–2,60 por mil.
+    - Não há filtro de data.
+    - Etapa `reserva`, com teto de US$ 0,70. A frase do responsável foi registrada em `coleta.json` (`autorizacao_reserva`).
+  - **Regra de contagem:** vale só publicação de outra conta com o nome (sem depender de acento) ou o @ no texto. No Instagram vale também a marcação. O núcleo é filtrado pela data.
+  - **Onde fica cada coisa:**
+    - privado: texto e autor (`data/terceiros/{tiktok,instagram}_mencoes.csv`) e o bruto;
+    - manifesto: o que a busca devolveu e o período que a leitura alcançou.
+- **`build_terceiros.py`:** duas fontes novas com a regra de homônimos. O @ e o link só aparecem para contas do TikTok com 10 mil seguidores ou mais.
+- **Página (caderno 06):** as fontes novas entram na tabela com clique. Há um bloco de cobertura por rede: publicações que citam, período lido, quantas caem no núcleo e universo ⛔.
+- **Workflow `pagas.yml`:** opções `terceiros_tiktok` e `terceiros_instagram`.
+- **Testes novos:** `tests/test_terceiros_redes.py`.
+- **Pendente:** os dois runs pagos e o `terceiros_resumo.yml`, disparados depois deste commit.
+
 ## 23/11/2026: OBMigra, detalhe do país em gráficos
 
 O responsável apontou à 1h14, com print do detalhe do Iraque, que as listas de texto deviam ser gráficos. O detalhe aberto pelo clique no caderno 10 passa a mostrar:
