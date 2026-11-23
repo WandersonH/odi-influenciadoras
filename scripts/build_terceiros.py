@@ -112,22 +112,28 @@ def main(root: Path = RAIZ) -> int:
                                                                    for (v, r), c in zip(meus.items(), cls) if c.startswith("confirmada")], "confirmadas": sum(c.startswith("confirmada") for c in cls),
                                              "a_conferir": sum(c.startswith("a conferir") for c in cls), "sem_nome_no_titulo": sum(c.startswith("sem") for c in cls),
                                              "a_conferir_com_contexto": [{"canal": pub[v], "titulo": r["titulo"] if pub_ok[v] else "", "publicado_em": r["publicado_em"][:10], "url": r["url"] if pub_ok[v] else ""}
-                                                                         for (v, r), c in zip(meus.items(), cls) if "termo de contexto" in c]}
+                                                                         for (v, r), c in zip(meus.items(), cls) if "termo de contexto" in c],
+                                             # todos os itens lidos, para o clique na página (título e link só de canal com 10 mil+ inscritos)
+                                             "itens": [{"como": c, "data": r["publicado_em"][:10], "fonte": pub[v], "titulo": r["titulo"] if pub_ok[v] else "",
+                                                        "url": r["url"] if pub_ok[v] else ""} for (v, r), c in zip(meus.items(), cls)]}
         # X API
         xs = [r for r in xa if r["ator_id"] == a["id"] and ini <= r["publicado_em"][:10] <= fim]
         cls = [classificar(r["texto"], nomes, handles, ctx) for r in xs]
-        fontes["X (API, xquik)"] = {"lidos": len(xs), "confirmadas": sum(c.startswith("confirmada") for c in cls), "a_conferir": sum(c.startswith("a conferir") for c in cls)}
+        fontes["X (API, xquik)"] = {"lidos": len(xs), "confirmadas": sum(c.startswith("confirmada") for c in cls), "a_conferir": sum(c.startswith("a conferir") for c in cls),
+                                    "itens": [{"como": c, "data": r["publicado_em"][:10], "fonte": "post de terceiro (texto e autor no privado)", "titulo": "", "url": ""} for r, c in zip(xs, cls)]}
         # X navegador
         q_nome = [r for r in xn if any(norm(n) in norm(r["consulta"]) for n in nomes) or any(norm(h) in norm(r["consulta"]) for h in handles)]
         cls = [classificar(r["texto"], nomes, handles, ctx) for r in q_nome]
         fontes["X (busca avançada no navegador)"] = {"lidos": len(q_nome), "confirmadas": sum(c.startswith("confirmada") for c in cls),
-                                                     "a_conferir": sum(c.startswith("a conferir") for c in cls)}
+                                                     "a_conferir": sum(c.startswith("a conferir") for c in cls),
+                                                     "itens": [{"como": c, "data": (r.get("publicado_em") or r.get("data") or "")[:10], "fonte": "post de terceiro (texto e autor no privado)", "titulo": "", "url": ""} for r, c in zip(q_nome, cls)]}
         # imprensa (núcleo)
         res = [r for c in imp["consultas"] if c["recorte"] == "núcleo" and c["grupo"] == "influenciadora" and any(norm(n) in norm(c["consulta"]) for n in nomes) for r in c["resultados"]]
         cls = [classificar(r["titulo"], nomes, handles, ctx) for r in res]
         fontes["Imprensa (Google Notícias, 10 primeiros)"] = {"lidos": len(res), "confirmadas": sum(c.startswith("confirmada") for c in cls),
                                                               "a_conferir": sum(c.startswith("a conferir") for c in cls),
-                                                              "veiculos_confirmados": sorted({r["veiculo"] for r, c in zip(res, cls) if c.startswith("confirmada")})}
+                                                              "veiculos_confirmados": sorted({r["veiculo"] for r, c in zip(res, cls) if c.startswith("confirmada")}),
+                                                              "itens": [{"como": c, "data": (r.get("publicado_em") or "")[:10], "fonte": r["veiculo"], "titulo": r["titulo"], "url": r["link"]} for r, c in zip(res, cls)]}
         out[a["id"]] = {"nome": a["nome"], "fontes": fontes, "confirmadas_total": sum(f["confirmadas"] for f in fontes.values()),
                         "a_conferir_total": sum(f["a_conferir"] for f in fontes.values())}
     d = root / "data/terceiros"

@@ -1,5 +1,14 @@
 # Changelog
 
+## 22/11/2026: caderno 06 com clique nos números ("não funciona o clique")
+
+O responsável apontou às 23h44 que a tabela "Quem falou delas" não tinha clique. A tabela tinha ficado fora da rodada de cliques; erro meu.
+- **`build_terceiros.py`:** grava, por fonte, a lista de itens com data, fonte e classificação da regra de homônimos.
+  - Título e link só aparecem para canais com 10 mil ou mais inscritos e para a imprensa.
+  - Posts de terceiros no X entram só com data e classificação; o texto fica no privado.
+- **Workflow novo `terceiros_resumo.yml`:** refaz só o resumo, sem coletar. Precisa da chave do YouTube para as descrições, e por isso não roda daqui. Disparado depois deste commit.
+- **Página:** cada número da tabela abre os itens. "Itens lidos" abre todos, "Menções confirmadas" só as confirmadas e "A conferir" só esses.
+
 ## 22/11/2026: mapa de emojis das publicações no caderno 03
 
 O responsável pediu às 23h43 o mapa de emojis também nas publicações delas. No caderno 03, cada influenciadora ganha, por rede, o mapa dos emojis das próprias publicações: legenda, e no YouTube o título. O tamanho é o número de publicações com o emoji. Ao clicar, abrem as publicações com o emoji, o nome dele, o sentimento e a posição no texto. Os dados vêm de `data/emojis.json`, já gerado; nada novo foi coletado.

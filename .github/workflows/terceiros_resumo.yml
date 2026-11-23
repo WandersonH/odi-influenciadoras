@@ -1,0 +1,48 @@
+name: Menções de terceiros — refaz o resumo público (sem coleta, sem custo)
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: terceiros-resumo
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  resumo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl-.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error title=Repositório privado::sem acesso"; exit 1
+          fi
+      - name: Resumo
+        env:
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/build_terceiros.py | while IFS= read -r l; do echo "::notice title=Terceiros::$(echo "$l" | cut -c1-900)"; done
+      - name: Gravar
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Terceiros: resumo (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
