@@ -11,6 +11,7 @@
 .inf-vazio{border:1px dashed #cedbe5;padding:22px;background:#fbfdff;color:#5b6b7c;font-size:13px;line-height:1.6}
 .inf-abre{cursor:pointer}[data-ctx] .inf-no{cursor:pointer}[data-ctx] span.inf-no:hover,[data-ctx] text.inf-no:hover{text-decoration:underline}button.inf-no{background:none;border:0;border-bottom:1px dotted currentColor;padding:0;font:inherit;color:#165ebd;cursor:pointer}button.inf-abre{background:none;border:0;border-bottom:1px dotted currentColor;padding:0;font:inherit;color:#165ebd;cursor:pointer}
 .inf-leitor{position:fixed;inset:0;background:rgba(23,34,56,.45);z-index:9999;display:flex;justify-content:center;align-items:flex-start;overflow:auto;padding:40px 12px}.inf-leitor[hidden]{display:none}.inf-leitor-caixa{background:#fffdf8;max-width:820px;width:100%;border-radius:10px;padding:22px 24px;position:relative;box-shadow:0 10px 40px rgba(0,0,0,.25)}.inf-fecha{position:absolute;top:12px;right:14px;background:none;border:1px solid #c9d2dc;border-radius:6px;padding:3px 9px;cursor:pointer;font-size:12px}.inf-coment{border-top:1px solid #e6e1d6;padding:9px 0}.inf-coment p{margin:4px 0 0;font-size:14px;line-height:1.5;color:#273447;white-space:pre-wrap}.inf-coment small{color:#6b7a8c}
+.inf-mapa-grade{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:18px;align-items:start}@media(max-width:1100px){.inf-mapa-grade{grid-template-columns:1fr}}
 .inf-regras{font-size:13px;line-height:1.55;margin:8px 0 0;padding-left:20px}.inf-regras li{margin:3px 0}
 .inf-nota{font-size:11.5px;color:#6b7a8c;margin:12px 0 0;line-height:1.55}
 .card+.card{margin-top:17px}h2.tk-h2{margin-top:0}
@@ -94,6 +95,7 @@
     <p>Volume, contador da plataforma × comentários lidos, intolerância (islamofobia, antissemitismo), posição do comentarista, CHD e similitude. Texto e autor ficam só no repositório privado.</p></div>
   <div id="p5Destaque"></div>
   <div class="card" id="p5Corpo"></div>
+  <div class="card" id="p5Emojis" style="margin-top:17px"></div>
 </section>
 
 <section class="panel" id="terceiros" aria-label="Quem fala delas">
@@ -562,8 +564,8 @@ async function dizem(rede) {
         <div class="kpi"><div class="klabel">2022 · islamismo</div><div class="kval">⛔</div><div class="knote">o IBGE não abre o número: está dentro de “outras religiosidades”</div></div>
         <div class="kpi"><div class="klabel">2022 · outras religiosidades</div><div class="kval">${n(out22)}</div><div class="knote">de ${n(tot22)} pessoas de 10 anos ou mais (${(100 * out22 / tot22).toLocaleString("pt-BR", {maximumFractionDigits: 1})}%) · tabela 10201</div></div></div>
         <h2 class="tk-h2" style="font-size:16px;margin-top:16px">Muçulmanos por estado em 2010 e “outras religiosidades” em 2022</h2>
-        <div class="tablewrap"><table class="datatable"><thead><tr><th>Estado</th><th class="inf-num">Islamismo 2010</th><th class="inf-num">% da população 2010</th><th class="inf-num">Outras religiosidades 2022</th><th class="inf-num">% (10 anos ou mais) 2022</th></tr></thead><tbody>${ufs.slice(0, 15).map(x => `<tr><td>${esc(x.local)}</td><td class="inf-num">${n(x.valor)}</td><td class="inf-num">${tot10uf[x.local] ? (100 * x.valor / tot10uf[x.local]).toLocaleString("pt-BR", {maximumFractionDigits: 3}) + "%" : "—"}</td><td class="inf-num">${n(ufs22[x.local])}</td><td class="inf-num">${tot22uf[x.local] ? (100 * ufs22[x.local] / tot22uf[x.local]).toLocaleString("pt-BR", {maximumFractionDigits: 1}) + "%" : "—"}</td></tr>`).join("")}</tbody></table></div>
-        <p class="inf-nota">Os 15 estados com mais muçulmanos em 2010. Censo é declaração da própria pessoa; 2000 e 2010 contam a população residente, 2022 as pessoas de 10 anos ou mais. “Outras religiosidades” de 2022 soma islamismo, judaísmo, budismo, tradições esotéricas e outras: não é o número de muçulmanos. O detalhe de 2022 está nos microdados de acesso controlado do IBGE (nota metodológica 06/2026). Fonte: ${esc(IB.fonte)}, tabelas 137 e 10201 (${esc(IB.tabela_10201_variavel || "")}).</p>`;
+        <div class="inf-mapa-grade"><div class="tablewrap"><table class="datatable"><thead><tr><th>Estado</th><th class="inf-num">Islamismo 2010</th><th class="inf-num">% da população 2010</th><th class="inf-num">Outras religiosidades 2022</th><th class="inf-num">% (10 anos ou mais) 2022</th></tr></thead><tbody>${ufs.slice(0, 15).map(x => `<tr><td>${esc(x.local)}</td><td class="inf-num">${n(x.valor)}</td><td class="inf-num">${tot10uf[x.local] ? (100 * x.valor / tot10uf[x.local]).toLocaleString("pt-BR", {maximumFractionDigits: 3}) + "%" : "—"}</td><td class="inf-num">${n(ufs22[x.local])}</td><td class="inf-num">${tot22uf[x.local] ? (100 * ufs22[x.local] / tot22uf[x.local]).toLocaleString("pt-BR", {maximumFractionDigits: 1}) + "%" : "—"}</td></tr>`).join("")}</tbody></table></div><div id="p10Mapa"></div></div>
+        <p class="inf-nota">Os 15 estados com mais muçulmanos em 2010; o mapa mostra os 27. Censo é declaração da própria pessoa; 2000 e 2010 contam a população residente, 2022 as pessoas de 10 anos ou mais. “Outras religiosidades” de 2022 soma islamismo, judaísmo, budismo, tradições esotéricas e outras: não é o número de muçulmanos. O detalhe de 2022 está nos microdados de acesso controlado do IBGE (nota metodológica 06/2026). Fonte: ${esc(IB.fonte)}, tabelas 137 e 10201 (${esc(IB.tabela_10201_variavel || "")}).</p>`;
     }
     h += `<h2 class="tk-h2" style="margin-top:24px">Denúncias de intolerância religiosa (Disque 100)</h2>
       ${vazio("⛔ Ainda não coletado. A base existe e cobre o período do estudo: o Ministério dos Direitos Humanos publica no dados.gov.br as denúncias do Disque 100 desde 2020, em CSV, e o arquivo do terceiro trimestre de 2026 (julho a setembro) saiu em 05/10/2026. O servidor do gov.br recusou a conexão vinda do GitHub nas três tentativas (run 45100048381); a próxima tentativa é pelo computador do responsável.")}
@@ -574,6 +576,38 @@ async function dizem(rede) {
       <div class="kpigrid"><div class="kpi"><div class="klabel">Denúncias únicas em 2024</div><div class="kval">954</div><div class="knote">intolerância religiosa</div></div><div class="kpi"><div class="klabel">Denúncias únicas em 2025</div><div class="kval">1.145</div><div class="knote">+20%</div></div><div class="kpi"><div class="klabel">2026</div><div class="kval">⛔</div><div class="knote">o indicador anual sai em fevereiro</div></div></div>
       <p class="inf-nota">Fonte: SaferNet, <a href="https://arquivos.safernet.org.br/pdfs/INDICADORES-DenunciasSaferNet2025.pdf" target="_blank" rel="noopener">indicadores da Central Nacional de Denúncias de 2025</a> (PDF). Dado anual e sem separar a religião atacada: serve de contexto, não mede o período do acordo.</p>`;
     $("p10Corpo").innerHTML = h;
+    const [GEO, GEOUF, MUN] = IB ? [await json("data/dados_publicos/malha_municipios.geojson"), await json("data/dados_publicos/malha_uf.geojson"), await json("data/dados_publicos/municipios.json")] : [null, null, null];
+    if (IB && !(GEO && MUN)) $("p10Mapa").innerHTML = vazio("⛔ Malha e dados por município ainda não baixados (próximo run de dados_publicos.yml).");
+    if (IB && GEO && MUN) {
+      const M_ = MUN.municipios;
+      const MED = {
+        taxa: {rot: "Islamismo 2010 · por 100 mil hab.", v: id => { const m = M_[id]; return m && m[2] ? 1e5 * (m[1] || 0) / m[2] : null; }, f: v => v.toLocaleString("pt-BR", {maximumFractionDigits: 1})},
+        pessoas: {rot: "Islamismo 2010 · pessoas", v: id => { const m = M_[id]; return m ? (m[1] || 0) : null; }, f: v => n(Math.round(v))},
+        outras: {rot: "Outras religiosidades 2022 · %", v: id => { const m = M_[id]; return m && m[4] ? 100 * (m[3] || 0) / m[4] : null; }, f: v => v.toLocaleString("pt-BR", {maximumFractionDigits: 1}) + "%"}};
+      let med = "taxa";
+      const feats = GEO.features || [], fuf = (GEOUF && GEOUF.features) || [];
+      const anel = ft => ft.geometry.type === "Polygon" ? [ft.geometry.coordinates] : ft.geometry.coordinates;
+      const todos = fuf.length ? fuf : feats, cs = todos.flatMap(ft => anel(ft).flat(1));
+      const xs = cs.map(c => c[0]), ys = cs.map(c => c[1]);
+      const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys), k = Math.cos((y0 + y1) / 2 * Math.PI / 180);
+      const W = 520, H = Math.round(W * (y1 - y0) / ((x1 - x0) * k)), X = lon => 6 + (lon - x0) / (x1 - x0) * (W - 12), Y = lat => 6 + (y1 - lat) / (y1 - y0) * (H - 12);
+      const caminho = ft => anel(ft).map(pl => pl.map(r => "M" + r.map(c => X(c[0]).toFixed(1) + "," + Y(c[1]).toFixed(1)).join("L") + "Z").join("")).join("");
+      const dMun = feats.map(ft => [String(ft.properties.codarea), caminho(ft)]), dUF = fuf.map(caminho).join("");
+      const desenha = () => {
+        const M = MED[med], vals = dMun.map(([id]) => M.v(id)).filter(v => v != null && v > 0).sort((a, b) => a - b);
+        const teto = vals.length ? vals[Math.floor(0.98 * (vals.length - 1))] : 1;  // percentil 98: município pequeno não estoura a escala
+        const cor = v => { if (v == null) return "#e9ecef"; if (v <= 0) return "#f7f8fa"; const t = Math.sqrt(Math.min(v, teto) / teto); const a = [222, 235, 250], b = [12, 60, 140]; return `rgb(${a.map((c, i) => Math.round(c + (b[i] - c) * t)).join(",")})`; };
+        let g = `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto" role="img" aria-label="${esc(M.rot)}">`;
+        dMun.forEach(([id, d]) => { const v = M.v(id), m = M_[id]; g += `<path d="${d}" fill="${cor(v)}" stroke="none"><title>${esc(m ? m[0] : id)}: ${v == null ? "sem dado" : M.f(v)}${med === "taxa" && m ? ` (${n(m[1] || 0)} pessoas)` : ""}</title></path>`; });
+        g += `<path d="${dUF}" fill="none" stroke="#4a5b71" stroke-width=".6"/></svg>`;
+        const com = Object.values(M_).filter(m => m[1]).length;
+        $("p10Mapa").innerHTML = `<div class="inf-chips" style="margin-bottom:6px">${Object.entries(MED).map(([k_, m]) => `<button type="button" class="inf-chip${k_ === med ? " on" : ""}" data-med="${k_}">${esc(m.rot)}</button>`).join("")}</div>${g}
+          <div style="display:flex;align-items:center;gap:8px;font-size:11px;color:#5e7180;margin-top:4px"><span>${M.f(0)}</span><span style="flex:1;height:8px;background:linear-gradient(90deg,rgb(222,235,250),rgb(12,60,140))"></span><span>${M.f(teto)} ou mais</span></div>
+          <p class="inf-nota" style="margin-top:4px">Por município (${n(Object.keys(M_).length)}; ${n(com)} com pelo menos um muçulmano declarado em 2010). Linhas: limites dos estados. Escala em raiz quadrada, com teto no percentil 98 para que municípios muito pequenos não apaguem o resto. Passe o cursor sobre o município para ver o nome e o valor. Malhas: API de malhas do IBGE, qualidade mínima.</p>`;
+        $("p10Mapa").querySelectorAll("[data-med]").forEach(b => b.onclick = () => { med = b.dataset.med; desenha(); });
+      };
+      desenha();
+    }
   }
 
   // Caderno 11: método
@@ -754,6 +788,52 @@ async function dizem(rede) {
         const ids = new Set(f === "__classe" ? (c.segmentos_da_classe || []) : ((c.segmentos_por_forma || {})[f] || [])), xs = SEG.filter(x => ids.has(x.i));
         abre(cab(`Corpus das influenciadoras · CHD · classe ${c.classe}`, f === "__classe" ? `${plural(xs.length, "segmento", "segmentos")} da classe ${c.classe}` : `${plural(xs.length, "segmento", "segmentos")} da classe ${c.classe} com “${esc(f)}”`, contaPor(xs, x => x.a, a => nomes[a] || a) + (f === "__classe" ? "" : "<br>" + NOTA_LEMA(f))), listaSeg(xs));
       }));
+    }
+  }
+
+
+  // Caderno 05: mapa de emojis (publicações e comentários)
+  {
+    const EM = await json("data/emojis.json");
+    if (!EM) $("p5Emojis").innerHTML = vazio("⛔ Mapa de emojis ainda não gerado.");
+    else {
+      let fonte = "Todas", ator = "Todas";
+      const TEMA_E = ["🇵🇸", "🍉", "🇮🇱", "🕊️", "☪️", "🕌", "🤲", "🧕", "💔", "🙏"];
+      const conta = e => fonte === "Todas" && ator === "Todas" ? e.ocorrencias : ator === "Todas" ? (e.por_fonte[fonte] || 0) : fonte === "Todas" ? (e.por_influenciadora[ator] || 0) : null;
+      const sent = v => v == null ? `<span title="fora do Emoji Sentiment Ranking">⛔ sem escore</span>` : `${v > 0 ? "+" : ""}${v.toLocaleString("pt-BR", {maximumFractionDigits: 2})} · ${v >= 0.3 ? "positivo" : v <= -0.1 ? "negativo" : "neutro ou ambíguo"}`;
+      const refsFiltradas = e => e.refs.filter(r => r[0] === "p" ? (fonte === "Todas" || fonte === "Publicações · " + REDES[EM.publicacoes[r[1]].r]) && (ator === "Todas" || EM.publicacoes[r[1]].a === ator)
+                                                     : (fonte === "Todas" || fonte === "Comentários · " + REDES[r[1]]) && (ator === "Todas" || r[3] === ator));
+      const pinta = () => {
+        const lista = EM.emojis.map(e => ({...e, n: conta(e)})).filter(e => e.n == null || e.n > 0);
+        const usaRefs = fonte !== "Todas" && ator !== "Todas";
+        const comN = lista.map(e => ({...e, n: usaRefs ? refsFiltradas(e).length : e.n})).filter(e => e.n > 0).sort((a, b) => b.n - a.n).slice(0, 90);
+        const mx = comN.length ? comN[0].n : 1, mn = comN.length ? comN[comN.length - 1].n : 1;
+        const chip = (val, cur, rot, k) => `<button type="button" class="inf-chip${val === cur ? " on" : ""}" data-${k}="${esc(val)}">${esc(rot)}</button>`;
+        $("p5Emojis").innerHTML = `<div class="eyebrow">Emojis · publicações (linha de base e núcleo) e comentários (núcleo) · sugestão automática, a validar</div><h2 class="tk-h2">Mapa de emojis</h2>
+          <div class="tablewrap"><table class="datatable"><thead><tr><th>Fonte</th><th class="inf-num">Universo informado</th><th class="inf-num">Textos lidos</th><th class="inf-num">Com emoji</th><th class="inf-num">Ocorrências</th></tr></thead><tbody>${EM.fontes.map(F => `<tr><td>${esc(F.fonte)}</td><td class="inf-num">${F.fonte.startsWith("Publicações") ? "—" : F.universo == null ? "⛔ não informado" : n(F.universo)}</td><td class="inf-num">${n(F.lidos)}</td><td class="inf-num">${n(F.com_emoji)} <small>${pct(F.com_emoji, F.lidos)}</small></td><td class="inf-num">${n(F.ocorrencias)}</td></tr>`).join("")}</tbody></table></div>
+          <div class="inf-chips" style="margin-top:12px">${["Todas", ...EM.fontes.map(F => F.fonte)].map(f => chip(f, fonte, f === "Todas" ? "Todas as fontes" : f, "fonte")).join("")}</div>
+          <div class="inf-chips">${["Todas", ...Object.keys(nomes)].map(a => chip(a, ator, a === "Todas" ? "Todas as influenciadoras" : nomes[a], "ator")).join("")}</div>
+          <div data-ctx="emo" class="em-cloud" style="margin:12px 0;line-height:1.15">${comN.map(e => { const r = mx === mn ? 1 : Math.sqrt((e.n - mn) / (mx - mn)); return `<button type="button" class="inf-no" data-no="${esc(e.chave)}" title="${esc(e.nome || "")} · ${n(e.n)} · clique para ler os textos" style="font-size:${(16 + 34 * r).toFixed(0)}px;background:none;border:0;padding:2px 3px;cursor:pointer;font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif">${e.e}</button>`; }).join("") || '<p class="inf-nota">Sem emojis neste recorte.</p>'}</div>
+          <p class="inf-nota">Tamanho = ocorrências no recorte escolhido. Emojis ligados ao tema: ${TEMA_E.map(t => { const e = EM.emojis.find(x => x.e === t || x.chave === t.replace(/️/g, "")); return `${t} ${e ? n(e.ocorrencias) : 0}`; }).join(" · ")} (todas as fontes).</p>
+          <div class="tablewrap" data-ctx="emo"><table class="datatable"><thead><tr><th>Emoji</th>${EM.fontes.map(F => `<th class="inf-num">${esc(F.fonte)}</th>`).join("")}<th>Sentimento</th><th>Posição mais comum</th></tr></thead><tbody>${EM.emojis.slice(0, 15).map(e => { const pm = Object.entries(e.posicao).sort((a, b) => b[1] - a[1])[0]; return `<tr><td><button type="button" class="inf-no" data-no="${esc(e.chave)}" style="font-size:20px;background:none;border:0;cursor:pointer">${e.e}</button> <small>${esc(e.nome || "")}</small></td>${EM.fontes.map(F => `<td class="inf-num">${n(e.por_fonte[F.fonte] || 0)}</td>`).join("")}<td>${sent(e.sentimento)}</td><td>${pm ? esc(pm[0]) + " " + pct(pm[1], e.ocorrencias) : "—"}</td></tr>`; }).join("")}</tbody></table></div>
+          <p class="inf-nota">${esc(EM.metodo)} Escore de sentimento disponível para ${EM.total.cobertura_sentimento_pct}% das ocorrências. ${esc(EM.aviso)}</p>`;
+        $("p5Emojis").querySelectorAll("[data-fonte]").forEach(b => b.onclick = () => { fonte = b.dataset.fonte; pinta(); });
+        $("p5Emojis").querySelectorAll("[data-ator]").forEach(b => b.onclick = () => { ator = b.dataset.ator; pinta(); });
+      };
+      pinta();
+      aoClicar("emo", async k => {
+        const e = EM.emojis.find(x => x.chave === k); if (!e) return;
+        abre("", "<p>Carregando…</p>");
+        const rs = refsFiltradas(e), pubs = [], coms = [];
+        for (const r of rs) {
+          if (r[0] === "p") { const p = EM.publicacoes[r[1]]; if (ator === "Todas" || p.a === ator) pubs.push(p); }
+          else { const C = await carrega(`data/comentarios/corpus_${r[1]}.json`); const x = C && C.itens[r[2]]; if (x && (ator === "Todas" || x.a === ator)) coms.push({...x, rede: r[1]}); }
+        }
+        const barra = Object.entries(e.posicao).map(([p, q]) => `${esc(p)} ${pct(q, e.ocorrencias)}`).join(" · ");
+        abre(cab(`Mapa de emojis · ${esc(fonte === "Todas" ? "todas as fontes" : fonte)} · ${esc(ator === "Todas" ? "todas as influenciadoras" : nomes[ator])}`, `<span style="font-size:30px;font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif">${e.e}</span> ${esc(e.nome || "")}`,
+          `${n(e.ocorrencias)} ocorrências em ${n(e.textos)} textos (todas as fontes) · sentimento: ${sent(e.sentimento)} · posição: ${barra} · repetido em sequência: ${e.repeticao_pct}% · por influenciadora: ${Object.entries(e.por_influenciadora).map(([a, q]) => `${esc(nomes[a] || a)} ${n(q)}`).join(" · ")}<br>${NOTA_COM}`),
+          (pubs.length ? `<h3 style="font:700 15px Georgia,serif;margin:12px 0 4px">${plural(pubs.length, "publicação delas", "publicações delas")}</h3>${listaPub(pubs)}` : "") + (coms.length ? `<h3 style="font:700 15px Georgia,serif;margin:12px 0 4px">${plural(coms.length, "comentário", "comentários")}</h3>${listaCom(coms)}` : "") || vazio("Nenhum texto neste recorte."));
+      });
     }
   }
 

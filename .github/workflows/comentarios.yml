@@ -60,8 +60,8 @@ jobs:
           INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
-          pip install -q networkx numpy scipy
-          python scripts/build_rede_comentarios.py && python scripts/build_terceiros.py && python scripts/build_corpus_comentarios.py
+          pip install -q networkx numpy scipy emoji
+          python scripts/build_rede_comentarios.py && python scripts/build_terceiros.py && python scripts/build_corpus_comentarios.py && python scripts/build_emojis.py
       - name: Gravar (público)
         if: always()
         run: |

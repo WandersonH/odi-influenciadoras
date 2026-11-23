@@ -1,5 +1,21 @@
 # Changelog
 
+## 22/11/2026: mapa de emojis (caderno 05) e mapa por município (caderno 10)
+
+- **Mapa de emojis** (pedido às 23h27). Novo `scripts/build_emojis.py`, executado localmente:
+  - Fontes: publicações delas (linha de base e núcleo) e comentários do núcleo, a partir do corpus anonimizado. São 5.305 textos lidos, 2.223 com emoji, 6.109 ocorrências e 199 emojis distintos.
+  - Mais usados: ❤️ 1.523, 👏 920, 😂 808, 😍 691.
+  - 🇵🇸 aparece 6 vezes: 3 em comentários do TikTok, 2 em publicações do Instagram e 1 em comentário do Instagram (Hyatt 3, Carima 2, Fabíola 1).
+  - Método: biblioteca emoji, variantes e tons de pele unidos, posição no texto (Paiva, 2016), repetição e sentimento do Emoji Sentiment Ranking (Kralj Novak et al., 2015; `data/config/emoji_sentiment_ranking_v1.csv`). Há escore para 84,9% das ocorrências; bandeiras ficam sem escore.
+  - Página: universo e lidos por fonte, filtros por fonte e por influenciadora, mapa de emojis, linha de emojis do tema e matriz dos 15 mais usados com sentimento e posição.
+  - O clique num emoji abre o detalhe e os textos: publicações delas e comentários anonimizados.
+  - Workflows `gratuitas.yml` e `comentarios.yml` regeram o mapa. Testes novos em `tests/test_emojis.py`.
+- **Mapa ao lado da tabela, por município** (pedidos às 23h31):
+  - O coletor baixa as tabelas 137 (2010) e 10201 (2022) por município, em `data/dados_publicos/municipios.json`, e as malhas de estados e municípios da API de malhas do IBGE.
+  - Três medidas: islamismo por 100 mil habitantes, islamismo em pessoas e outras religiosidades em %. Escala em raiz quadrada com teto no percentil 98. A tabela continua por estado.
+- **Correção (erro meu):** o percentual de 2010 aparecia como "—" porque usei o código do total de outra tabela. O coletor agora lê o código do total no metadado da tabela 137.
+- `dados_publicos.yml` disparado depois deste commit para baixar o novo formato.
+
 ## 22/11/2026: caderno 10, dados públicos (Método passa a ser o 11)
 
 - **IBGE** (run 45100048381, API de agregados):

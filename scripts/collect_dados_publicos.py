@@ -57,23 +57,44 @@ def achatar(res: list) -> list[dict]:
             cat = next(iter(r["classificacoes"][0]["categoria"].values())) if r["classificacoes"] else "Total"
             for s in r["series"]:
                 for ano, val in s["serie"].items():
-                    out.append({"variavel": v["variavel"], "categoria": cat, "local": s["localidade"]["nome"],
+                    out.append({"variavel": v["variavel"], "categoria": cat, "local": s["localidade"]["nome"], "local_id": s["localidade"]["id"],
                                 "nivel": s["localidade"]["nivel"]["id"], "ano": ano,
                                 "valor": int(val) if str(val).isdigit() else None, "valor_bruto": val})
     return out
 
 
 def coletar_ibge() -> dict:
+    meta137, _, _ = get(f"{IBGE}/137/metadados", 120)
+    cats = next(c for c in json.loads(meta137)["classificacoes"] if str(c["id"]) == "133")["categorias"]
+    total = next(k["id"] for k in cats if k["nome"].strip().lower() == "total")  # o código do total muda de tabela para tabela
     t137 = []
     for nivel in ("N1", "N3"):
-        t137 += achatar(ibge_serie(137, "2000|2010", 93, nivel, "133[95271,100426,95278]"))
+        t137 += achatar(ibge_serie(137, "2000|2010", 93, nivel, f"133[95271,100426,{total}]"))
     t2022 = []
     # a tabela 10201 tem variável própria: descobre pelo metadado em vez de supor
     meta, _, _ = get(f"{IBGE}/10201/metadados", 120)
-    m = json.loads(meta)
+    m = m22 = json.loads(meta)
     var = m["variaveis"][0]["id"]
     for nivel in ("N1", "N3"):
         t2022 += achatar(ibge_serie(10201, "2022", var, nivel, "133[all]"))
+    # malhas do IBGE (qualidade mínima) para o mapa da página: estados (contorno) e municípios (cor)
+    base = "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?qualidade=minima&formato=application/vnd.geo%2Bjson&intrarregiao="
+    for nivel, arq in (("UF", "malha_uf.geojson"), ("municipio", "malha_municipios.geojson")):
+        malha, _, _ = get(base + nivel, 300)
+        (RAIZ / "data/dados_publicos" / arq).write_bytes(malha)
+        print(f"malha {nivel}: {len(malha) // 1024} KB")
+    # municípios em formato compacto: código → [nome, islamismo 2010, população 2010, outras religiosidades 2022, 10+ anos 2022]
+    mun = {}
+    for x in achatar(ibge_serie(137, "2010", 93, "N6", f"133[100426,{total}]")):
+        mm = mun.setdefault(str(x["local_id"]), [x["local"], None, None, None, None])
+        mm[1 if x["categoria"] == "Islamismo" else 2] = x["valor"]
+    cats22 = next(c for c in m22["classificacoes"] if str(c["id"]) == "133")["categorias"]
+    ids22 = {k["nome"]: k["id"] for k in cats22}
+    for x in achatar(ibge_serie(10201, "2022", var, "N6", f"133[{ids22['Outras religiosidades']},{ids22['Total']}]")):
+        mm = mun.setdefault(str(x["local_id"]), [x["local"], None, None, None, None])
+        mm[3 if x["categoria"] == "Outras religiosidades" else 4] = x["valor"]
+    (RAIZ / "data/dados_publicos/municipios.json").write_text(json.dumps({"campos": ["nome", "islamismo_2010", "populacao_2010", "outras_religiosidades_2022", "pessoas_10_anos_ou_mais_2022"], "municipios": mun}, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"municípios: {len(mun)}; com muçulmanos em 2010: {sum(1 for v in mun.values() if v[1])}")
     return {"tabela_137": t137, "tabela_10201": t2022, "tabela_10201_nome": m["nome"], "tabela_10201_variavel": m["variaveis"][0]["nome"]}
 
 
