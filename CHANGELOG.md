@@ -1,5 +1,24 @@
 # Changelog
 
+## 22/11/2026: comentários abertos por tema e por palavra, anonimizados (caderno 05)
+
+O responsável pediu às 22h42 e 22h45: "ao clicar sobre o número exiba o corpus com nome anonimizado"; "mesma coisa nas palavras". A regra 10 do CLAUDE.md foi atualizada com essa exceção autorizada.
+- **Novo `scripts/build_corpus_comentarios.py`:** lê o CSV privado de cada rede e grava `data/comentarios/corpus_<rede>.json` com os comentários das publicações do núcleo, anonimizados:
+  - o autor vira código por rede (YT0001, IG0001, TT0001);
+  - todo @ de terceiro vira "@perfil", inclusive com acento (o primeiro run deixou passar um @ acentuado, conferido e corrigido antes do commit); o @ das quatro influenciadoras fica;
+  - links, e-mails e sequências de 8 ou mais dígitos são retirados;
+  - o ID do comentário na plataforma não vai junto.
+
+  Cada comentário leva os temas (mesma regra das contagens) e as palavras da nuvem que contém.
+- **Executado localmente** com o privado:
+  - YouTube: 2.698 comentários, 1.947 autores codificados.
+  - Instagram: 1.323 comentários, 999 autores.
+  - TikTok: 950 comentários, 898 autores.
+  - Conferido: os temas por influenciadora batem com as tabelas, e nenhum nome ou @ de autor aparece no texto público.
+- **Página:** o número de cada tema na tabela e cada palavra da nuvem abrem um painel com os comentários (até 400), com código do autor, data, se é resposta, curtidas, temas e link da publicação. Fecha com Esc ou clicando fora.
+- **Workflow:** `comentarios.yml` gera o corpus a cada coleta.
+- **Testes:** 3 novos em `tests/test_corpus_comentarios.py`.
+
 ## 22/11/2026: projeto sem referência a outros projetos; regras do "O que dizem" na página; nome da pesquisa na marca
 
 O responsável pediu às 22h41: o projeto é de outro pesquisador, então nada de "mesmo método do ODI Atlas e do ODI Espanha"; o método deve ser descrito por si, com as regras listadas. Às 22h43 pediu para manter o logotipo e trocar o nome do observatório pelo nome da pesquisa.
