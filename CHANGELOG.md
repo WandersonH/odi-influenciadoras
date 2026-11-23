@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: crescimento entre Censos no caderno 10
+
+O responsável sugeriu às 23h39 usar três Censos para ver o crescimento. Conferido na API: em 1991 a tabela 137 só tem "Religiões orientais" (368.578), sem o islamismo separado, e 2022 não tem número aberto. Não há terceiro Censo comparável.
+
+A série possível é 2000 → 2010. No Brasil, de 27.239 para 35.167 (+29,1%), enquanto a população residente cresceu 12,3%. A tabela por estado ganhou as colunas de 2000 e da variação, e o cartão de 2010 mostra o crescimento. A nota da página explica a ausência de 1991 e de 2022.
+
 ## 22/11/2026: resultado do diagnóstico do Censo 2022 (run 45101287033)
 
 Nos microdados de acesso público do Censo 2022, a religião é a variável P0410, com 9 categorias: Católica, Evangélicas, Espírita, Umbanda e Candomblé, Tradições indígenas, Outras religiosidades, Sem religião, Não sabe e Sem declaração. O islamismo continua dentro de "outras religiosidades". O detalhe está só nos microdados de acesso controlado, como diz a nota 06/2026. O peso amostral público é a P0110. A evidência está em `data/dados_publicos/censo2022_diagnostico.json`.
