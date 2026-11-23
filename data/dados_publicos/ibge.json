@@ -4485,8 +4485,8 @@
  ],
  "tabela_10201_nome": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados, por existência de conexão domiciliar à Internet e segundo a religião",
  "tabela_10201_variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
- "gerado_em": "2026-11-23T02:37:42Z",
- "run_id": "45101287033",
+ "gerado_em": "2026-11-23T03:00:03Z",
+ "run_id": "45103329132",
  "fonte": "https://servicodados.ibge.gov.br/api/v3/agregados",
  "metodo": "1. IBGE, Censos Demográficos (API de agregados, servicodados.ibge.gov.br/api/v3):\n   - tabela 137 (População residente, por religião, 1991–2010): Islâmica (2000, categoria 95271) e Islamismo (2010,\n     categoria 100426), Brasil e estados;\n   - tabela 10201 (Censo 2022, 10 anos ou mais, grandes grupos de religião), Brasil e estados. Em 2022 o IBGE só abre os\n     grandes grupos: o islamismo fica dentro de \"outras religiosidades\" (o detalhe está nos microdados de acesso\n     controlado, nota metodológica 06/2026). Por isso 2022 não tem número de muçulmanos aqui (⛔).\n2. Disque 100 (Ouvidoria Nacional de Direitos Humanos, dados.gov.br, conjunto \"ouvidoria-nacional-de-direitos-humanos--ondh\"):\n   CSV por semestre ou trimestre. Primeiro run em modo --diagnostico: baixa o arquivo, grava o cabeçalho e a contagem dos\n   valores das colunas de religião, motivação e violação, para a regra de filtro ser escrita sobre as colunas reais.\nSaídas: data/dados_publicos/ibge.json, data/dados_publicos/disque100_diagnostico.json (e, depois, disque100.json)."
 }
