@@ -27,6 +27,8 @@
 .inf-item{display:block;border-top:1px solid #edf1f5;padding:9px 0;color:#273447;text-decoration:none}.inf-item p{margin:0 0 4px;font-size:12.5px;line-height:1.45}.inf-item small{color:#6b7a8c;font-size:11px}
 .inf-tl{overflow-x:auto}
 </style><style id="inf-graf-css">.inf-grafs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px 26px;margin-top:6px}.inf-graf-tit{font:700 13px Georgia,serif;color:#16263a;margin:0 0 7px}.inf-barra{display:grid;grid-template-columns:minmax(90px,42%) 1fr auto;align-items:center;gap:8px;font-size:12px;margin:3px 0}.inf-barra-rot{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#273447}.inf-barra-trilho{height:11px;background:#eef2f6;border-radius:2px;overflow:hidden}.inf-barra-trilho i{display:block;height:100%}.inf-barra b{font-size:12px;min-width:26px;text-align:right}.inf-colunas{display:flex;align-items:flex-end;gap:8px;height:130px;padding-top:4px;border-bottom:1px solid #d6dde5}.inf-coluna{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;min-width:0}.inf-coluna span{width:70%;border-radius:2px 2px 0 0;min-height:2px}.inf-coluna b{font-size:11px;margin-bottom:2px}.inf-coluna small{font-size:10.5px;line-height:1.2;color:#5f6f80;text-align:center;position:relative;top:4px;height:0;width:100%}.inf-graf:has(.inf-colunas){padding-bottom:30px}.inf-pilha{display:flex;height:18px;border-radius:3px;overflow:hidden}.inf-pilha span{display:block;height:100%}.inf-pilha-leg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;margin-top:6px;color:#273447}.inf-pilha-leg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}</style>
+<style id="inf-pdf-css">.inf-pdf{position:relative;display:inline-block;margin-left:10px}.inf-pdf-btn{font:700 11px 'Courier New',monospace;letter-spacing:.04em;background:#172238;color:#fff;border:0;border-radius:3px;padding:7px 11px;cursor:pointer}.inf-pdf-btn:hover{background:#165ebd}.inf-pdf-menu{position:absolute;right:0;top:calc(100% + 4px);background:#fff;border:1px solid #cfd8e3;border-radius:4px;box-shadow:0 6px 18px rgba(23,34,56,.15);padding:6px;z-index:50;min-width:210px;display:flex;flex-direction:column;gap:2px}.inf-pdf-menu[hidden]{display:none}.inf-pdf-menu button{font:13px Georgia,serif;text-align:left;background:none;border:0;padding:7px 9px;border-radius:3px;cursor:pointer;color:#172238}.inf-pdf-menu button:hover{background:#eef3f9}.inf-pdf-menu small{font-size:11px;color:#5f6f80;padding:4px 9px 2px;line-height:1.3}.caso-print-head{display:none}
+@media print{.inf-pdf,.inf-leitor{display:none!important}body.print-caso .main{padding:0!important}body.print-caso .print-alvo .inf-abre{color:inherit;text-decoration:none;border:0;background:none;padding:0}body.print-caso .print-alvo .inf-duas,body.print-caso .print-alvo .inf-mapa-grade{display:block!important}}</style>
 </head>
 <body><div class="layout"><aside class="side"><div class="mark" aria-label="Influenciadoras muçulmanas brasileiras e o acordo do Hamas"><div class="brand-head"><img class="odi-brand-img" alt="Logotipo" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>ATLAS</strong><span>Influenciadoras muçulmanas<br>e o acordo do Hamas</span></div></div><div class="brand-footer"><span>INFLUENCIADORAS</span><span>2026</span></div></div><div class="navcaption">ÍNDICE / 11 CADERNOS</div><nav class="nav" id="nav">
 <button class="navbutton active" data-tab="panorama"><span class="navicon">◫</span> Panorama · universo e amostra</button>
@@ -41,7 +43,7 @@
 <button class="navbutton" data-tab="dados"><span class="navicon">▦</span> Dados públicos</button>
 <button class="navbutton" data-tab="metodo"><span class="navicon">ⓘ</span> Método, fontes e saúde da coleta</button>
 </nav><div class="sidefoot"><span>ESTUDO DE CASO</span></div></aside>
-<main class="main"><header class="header"><span class="crumb">EDIÇÃO DE PESQUISA  /  INFLUENCIADORAS MUÇULMANAS BRASILEIRAS  /  ACORDO DO HAMAS · 31/07/2026</span><div class="actions"><span class="datechip" id="chipColeta">● Lendo a coleta…</span></div></header>
+<main class="main"><header class="header"><span class="crumb">EDIÇÃO DE PESQUISA  /  INFLUENCIADORAS MUÇULMANAS BRASILEIRAS  /  ACORDO DO HAMAS · 31/07/2026</span><div class="actions"><span class="datechip" id="chipColeta">● Lendo a coleta…</span><span class="inf-pdf"><button type="button" class="inf-pdf-btn" id="pdfBtn" aria-haspopup="true" aria-expanded="false">⬇ Baixar PDF</button><span class="inf-pdf-menu" id="pdfMenu" hidden><button type="button" data-pdf="atual">Este caderno</button><button type="button" data-pdf="todos">Todos os 11 cadernos</button><small>Abre a impressão do navegador: escolha “Salvar como PDF”.</small></span></span></div></header>
 
 <section class="panel active" id="panorama" aria-label="Panorama">
   <div class="paper-ribbon"><span>CADERNO 01 / PANORAMA · UNIVERSO E AMOSTRA</span><span id="p1Data">—</span></div>
@@ -972,6 +974,45 @@ async function dizem(rede) {
       const tr = await json("data/terceiros/resumo.json"); L.push(["Terceiros com regra de homônimos", tr ? dataBR(tr.gerado_em) : "—", tr ? "ok" : null]);
       return L.map(([f, d, st]) => `<tr><td>${f}</td><td>${d}</td><td>${st ? `<span class="inf-sit ok">${esc(st)}</span>` : '<span class="inf-sit bloq">⛔ não executada</span>'}</td></tr>`).join(""); })()}
     </tbody>`;
+})();
+
+</script>
+<script>
+// Baixar PDF: usa a impressão do navegador ("Salvar como PDF"), com o caderno atual ou os 11, um por página
+(() => {
+  const btn = document.getElementById("pdfBtn"), menu = document.getElementById("pdfMenu");
+  if (!btn) return;
+  const fechaMenu = () => { menu.hidden = true; btn.setAttribute("aria-expanded", "false"); };
+  btn.addEventListener("click", ev => { ev.stopPropagation(); menu.hidden = !menu.hidden; btn.setAttribute("aria-expanded", String(!menu.hidden)); });
+  document.addEventListener("click", ev => { if (!menu.contains(ev.target)) fechaMenu(); });
+  const limpa = () => {
+    document.body.classList.remove("print-caso");
+    document.querySelectorAll(".panel.print-alvo").forEach(p => p.classList.remove("print-alvo"));
+    document.querySelectorAll(".caso-print-head").forEach(h => h.remove());
+    document.title = window.__tituloAntes || document.title;
+  };
+  window.addEventListener("afterprint", limpa);
+  menu.addEventListener("click", ev => {
+    const b = ev.target.closest("[data-pdf]"); if (!b) return;
+    fechaMenu();
+    const todos = b.dataset.pdf === "todos";
+    const alvos = todos ? [...document.querySelectorAll(".panel")] : [document.querySelector(".panel.active") || document.querySelector(".panel")];
+    const hoje = new Date().toLocaleDateString("pt-BR");
+    const chip = (document.getElementById("chipColeta") || {}).textContent || "";
+    alvos.forEach((p, i) => {
+      p.classList.add("print-alvo");
+      const nav = document.querySelector(`.navbutton[data-tab="${p.id}"]`);
+      const h = document.createElement("div"); h.className = "caso-print-head";
+      h.textContent = `Influenciadoras muçulmanas brasileiras e o acordo do Hamas · Caderno ${String([...document.querySelectorAll(".panel")].indexOf(p) + 1).padStart(2, "0")} — ${(nav ? nav.textContent : p.getAttribute("aria-label") || "").replace(/^\s*\S+\s/, "").trim()} · ${chip.replace("●", "").trim()} · PDF gerado em ${hoje} · ${location.origin + location.pathname}`;
+      p.prepend(h);
+    });
+    document.body.classList.add("print-caso");
+    window.__tituloAntes = document.title;
+    const cad = todos ? "cadernos-01-a-11" : "caderno-" + String([...document.querySelectorAll(".panel")].indexOf(alvos[0]) + 1).padStart(2, "0");
+    document.title = `influenciadoras-hamas_${cad}_${new Date().toISOString().slice(0, 10)}`;
+    window.dispatchEvent(new Event("resize"));
+    setTimeout(() => window.print(), 300);
+  });
 })();
 </script>
 </body></html>

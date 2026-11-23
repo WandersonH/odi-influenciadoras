@@ -1,5 +1,17 @@
 # Changelog
 
+## 23/11/2026: botão “Baixar PDF”
+
+O responsável pediu à 10h03 um botão para baixar PDF.
+- **Onde fica:** no cabeçalho, ao lado do selo da coleta. Tem duas opções: “Este caderno” e “Todos os 11 cadernos”.
+- **Como funciona:** usa a impressão do navegador (“Salvar como PDF”), sem biblioteca externa. As vantagens: o texto continua selecionável e a página não fica mais pesada.
+- **O que entra no PDF:**
+  - só os cadernos escolhidos, um por página;
+  - em cada um, uma linha de cabeçalho com o título do estudo, o caderno, a data da coleta, a data do PDF e o endereço da página;
+  - o nome do arquivo vem sugerido (`influenciadoras-hamas_caderno-NN_AAAA-MM-DD`).
+- **O que fica de fora:** menu lateral, botões e janela de corpus. Os números clicáveis viram texto comum.
+- **Estilo de impressão:** reaproveita o que já existia em `assets/odi.css` (`print-caso`, `print-alvo`, A4, margem de 12 mm).
+
 ## 23/11/2026: auditoria crítica, ajustes
 
 O responsável pediu à 2h01 uma avaliação crítica. À 2h07 respondeu item a item: Stories e Destaques, “ok”; comentários anonimizados, “fica assim” (sem mudança); Wayback, “teste e veja”; e os itens 1 e 6, “erro seu […] ajusta”.
