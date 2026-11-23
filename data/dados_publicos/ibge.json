@@ -1,0 +1,4044 @@
+{
+ "tabela_137": [
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2000",
+   "valor": 27239,
+   "valor_bruto": "27239"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2010",
+   "valor": 35167,
+   "valor_bruto": "35167"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 204,
+   "valor_bruto": "204"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 37,
+   "valor_bruto": "37"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 131,
+   "valor_bruto": "131"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 8,
+   "valor_bruto": "8"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 29,
+   "valor_bruto": "29"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 39,
+   "valor_bruto": "39"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 30,
+   "valor_bruto": "30"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 34,
+   "valor_bruto": "34"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "-"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 67,
+   "valor_bruto": "67"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 64,
+   "valor_bruto": "64"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 30,
+   "valor_bruto": "30"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 117,
+   "valor_bruto": "117"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 71,
+   "valor_bruto": "71"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 21,
+   "valor_bruto": "21"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 296,
+   "valor_bruto": "296"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 567,
+   "valor_bruto": "567"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 56,
+   "valor_bruto": "56"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 1268,
+   "valor_bruto": "1268"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 12062,
+   "valor_bruto": "12062"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 6025,
+   "valor_bruto": "6025"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 559,
+   "valor_bruto": "559"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 3007,
+   "valor_bruto": "3007"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 715,
+   "valor_bruto": "715"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 440,
+   "valor_bruto": "440"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 697,
+   "valor_bruto": "697"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": 666,
+   "valor_bruto": "666"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islâmica",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 175,
+   "valor_bruto": "175"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 24,
+   "valor_bruto": "24"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 417,
+   "valor_bruto": "417"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 117,
+   "valor_bruto": "117"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 118,
+   "valor_bruto": "118"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 102,
+   "valor_bruto": "102"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 17,
+   "valor_bruto": "17"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 126,
+   "valor_bruto": "126"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 78,
+   "valor_bruto": "78"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 141,
+   "valor_bruto": "141"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 45,
+   "valor_bruto": "45"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 76,
+   "valor_bruto": "76"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 97,
+   "valor_bruto": "97"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 4,
+   "valor_bruto": "4"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 22,
+   "valor_bruto": "22"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 443,
+   "valor_bruto": "443"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 1008,
+   "valor_bruto": "1008"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 76,
+   "valor_bruto": "76"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 1428,
+   "valor_bruto": "1428"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 14778,
+   "valor_bruto": "14778"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 8706,
+   "valor_bruto": "8706"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 774,
+   "valor_bruto": "774"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 3375,
+   "valor_bruto": "3375"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 863,
+   "valor_bruto": "863"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 502,
+   "valor_bruto": "502"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 684,
+   "valor_bruto": "684"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "Islamismo",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": 972,
+   "valor_bruto": "972"
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2000",
+   "valor": null,
+   "valor_bruto": "..."
+  },
+  {
+   "variavel": "População residente",
+   "categoria": "",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2010",
+   "valor": null,
+   "valor_bruto": "..."
+  }
+ ],
+ "tabela_10201": [
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 175681803,
+   "valor_bruto": "175681803"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 99803233,
+   "valor_bruto": "99803233"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 47213074,
+   "valor_bruto": "47213074"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 3247240,
+   "valor_bruto": "3247240"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 1838569,
+   "valor_bruto": "1838569"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 98904,
+   "valor_bruto": "98904"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 7024524,
+   "valor_bruto": "7024524"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 16206869,
+   "valor_bruto": "16206869"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 63576,
+   "valor_bruto": "63576"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Brasil",
+   "nivel": "N1",
+   "ano": "2022",
+   "valor": 185815,
+   "valor_bruto": "185815"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1342279,
+   "valor_bruto": "1342279"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 678425,
+   "valor_bruto": "678425"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3210427,
+   "valor_bruto": "3210427"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 498327,
+   "valor_bruto": "498327"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6787039,
+   "valor_bruto": "6787039"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 596801,
+   "valor_bruto": "596801"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1275515,
+   "valor_bruto": "1275515"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5697659,
+   "valor_bruto": "5697659"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2820922,
+   "valor_bruto": "2820922"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7587430,
+   "valor_bruto": "7587430"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2868112,
+   "valor_bruto": "2868112"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3419894,
+   "valor_bruto": "3419894"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7782414,
+   "valor_bruto": "7782414"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2653886,
+   "valor_bruto": "2653886"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1897548,
+   "valor_bruto": "1897548"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 12254723,
+   "valor_bruto": "12254723"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 18001335,
+   "valor_bruto": "18001335"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3313964,
+   "valor_bruto": "3313964"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 14081758,
+   "valor_bruto": "14081758"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 38892645,
+   "valor_bruto": "38892645"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 9936045,
+   "valor_bruto": "9936045"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6622163,
+   "valor_bruto": "6622163"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 9545267,
+   "valor_bruto": "9545267"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2331448,
+   "valor_bruto": "2331448"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3072210,
+   "valor_bruto": "3072210"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6070792,
+   "valor_bruto": "6070792"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Total",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2442774,
+   "valor_bruto": "2442774"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 550522,
+   "valor_bruto": "550522"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 264906,
+   "valor_bruto": "264906"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1521616,
+   "valor_bruto": "1521616"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 190106,
+   "valor_bruto": "190106"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3690124,
+   "valor_bruto": "3690124"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 305814,
+   "valor_bruto": "305814"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 748547,
+   "valor_bruto": "748547"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3670355,
+   "valor_bruto": "3670355"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2186451,
+   "valor_bruto": "2186451"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5343046,
+   "valor_bruto": "5343046"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1921949,
+   "valor_bruto": "1921949"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2360585,
+   "valor_bruto": "2360585"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4584601,
+   "valor_bruto": "4584601"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1703526,
+   "valor_bruto": "1703526"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1287749,
+   "valor_bruto": "1287749"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6987726,
+   "valor_bruto": "6987726"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 11433865,
+   "valor_bruto": "11433865"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1588658,
+   "valor_bruto": "1588658"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5487387,
+   "valor_bruto": "5487387"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 20339246,
+   "valor_bruto": "20339246"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6253532,
+   "valor_bruto": "6253532"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4259643,
+   "valor_bruto": "4259643"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5790126,
+   "valor_bruto": "5790126"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1211695,
+   "valor_bruto": "1211695"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1744867,
+   "valor_bruto": "1744867"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3154478,
+   "valor_bruto": "3154478"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Católica Apostólica Romana",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1222112,
+   "valor_bruto": "1222112"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 553370,
+   "valor_bruto": "553370"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 301370,
+   "valor_bruto": "301370"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1263859,
+   "valor_bruto": "1263859"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 172065,
+   "valor_bruto": "172065"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2395839,
+   "valor_bruto": "2395839"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 217896,
+   "valor_bruto": "217896"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 395728,
+   "valor_bruto": "395728"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1446395,
+   "valor_bruto": "1446395"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 438365,
+   "valor_bruto": "438365"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1575233,
+   "valor_bruto": "1575233"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 614376,
+   "valor_bruto": "614376"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 710823,
+   "valor_bruto": "710823"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1965509,
+   "valor_bruto": "1965509"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 607812,
+   "valor_bruto": "607812"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 346774,
+   "valor_bruto": "346774"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2863280,
+   "valor_bruto": "2863280"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4465959,
+   "valor_bruto": "4465959"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1173905,
+   "valor_bruto": "1173905"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4507970,
+   "valor_bruto": "4507970"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10630475,
+   "valor_bruto": "10630475"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2593788,
+   "valor_bruto": "2593788"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1551817,
+   "valor_bruto": "1551817"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2042670,
+   "valor_bruto": "2042670"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 757049,
+   "valor_bruto": "757049"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 922086,
+   "valor_bruto": "922086"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1979288,
+   "valor_bruto": "1979288"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Evangélicas",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 719371,
+   "valor_bruto": "719371"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7430,
+   "valor_bruto": "7430"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3769,
+   "valor_bruto": "3769"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 12146,
+   "valor_bruto": "12146"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3221,
+   "valor_bruto": "3221"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 25295,
+   "valor_bruto": "25295"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3087,
+   "valor_bruto": "3087"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6998,
+   "valor_bruto": "6998"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 11010,
+   "valor_bruto": "11010"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10329,
+   "valor_bruto": "10329"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 43133,
+   "valor_bruto": "43133"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 26287,
+   "valor_bruto": "26287"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 22087,
+   "valor_bruto": "22087"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 96269,
+   "valor_bruto": "96269"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 17278,
+   "valor_bruto": "17278"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 21301,
+   "valor_bruto": "21301"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 123234,
+   "valor_bruto": "123234"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 389021,
+   "valor_bruto": "389021"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 29961,
+   "valor_bruto": "29961"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 497392,
+   "valor_bruto": "497392"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1131178,
+   "valor_bruto": "1131178"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 104136,
+   "valor_bruto": "104136"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 107742,
+   "valor_bruto": "107742"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 274163,
+   "valor_bruto": "274163"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 39395,
+   "valor_bruto": "39395"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 33573,
+   "valor_bruto": "33573"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 127564,
+   "valor_bruto": "127564"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Espírita",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 80240,
+   "valor_bruto": "80240"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3733,
+   "valor_bruto": "3733"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1626,
+   "valor_bruto": "1626"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10427,
+   "valor_bruto": "10427"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1503,
+   "valor_bruto": "1503"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 21397,
+   "valor_bruto": "21397"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2881,
+   "valor_bruto": "2881"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1757,
+   "valor_bruto": "1757"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 19455,
+   "valor_bruto": "19455"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 12100,
+   "valor_bruto": "12100"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 27805,
+   "valor_bruto": "27805"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 8290,
+   "valor_bruto": "8290"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10288,
+   "valor_bruto": "10288"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 35733,
+   "valor_bruto": "35733"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10597,
+   "valor_bruto": "10597"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 14663,
+   "valor_bruto": "14663"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 123041,
+   "valor_bruto": "123041"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 89014,
+   "valor_bruto": "89014"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 13821,
+   "valor_bruto": "13821"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 364329,
+   "valor_bruto": "364329"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 570423,
+   "valor_bruto": "570423"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 58357,
+   "valor_bruto": "58357"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 52088,
+   "valor_bruto": "52088"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 305292,
+   "valor_bruto": "305292"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 14248,
+   "valor_bruto": "14248"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 13032,
+   "valor_bruto": "13032"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 31734,
+   "valor_bruto": "31734"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Umbanda e Candomblé",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 20936,
+   "valor_bruto": "20936"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 872,
+   "valor_bruto": "872"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3177,
+   "valor_bruto": "3177"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 11161,
+   "valor_bruto": "11161"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 8423,
+   "valor_bruto": "8423"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2621,
+   "valor_bruto": "2621"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 963,
+   "valor_bruto": "963"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4142,
+   "valor_bruto": "4142"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7217,
+   "valor_bruto": "7217"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 121,
+   "valor_bruto": "121"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2113,
+   "valor_bruto": "2113"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 456,
+   "valor_bruto": "456"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1696,
+   "valor_bruto": "1696"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7531,
+   "valor_bruto": "7531"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3059,
+   "valor_bruto": "3059"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 142,
+   "valor_bruto": "142"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4717,
+   "valor_bruto": "4717"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3370,
+   "valor_bruto": "3370"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1012,
+   "valor_bruto": "1012"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2535,
+   "valor_bruto": "2535"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10382,
+   "valor_bruto": "10382"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3601,
+   "valor_bruto": "3601"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2214,
+   "valor_bruto": "2214"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3217,
+   "valor_bruto": "3217"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2100,
+   "valor_bruto": "2100"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 10833,
+   "valor_bruto": "10833"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 645,
+   "valor_bruto": "645"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Tradições indígenas",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 582,
+   "valor_bruto": "582"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 52900,
+   "valor_bruto": "52900"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 27775,
+   "valor_bruto": "27775"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 146992,
+   "valor_bruto": "146992"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 38334,
+   "valor_bruto": "38334"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 166619,
+   "valor_bruto": "166619"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 19366,
+   "valor_bruto": "19366"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 34838,
+   "valor_bruto": "34838"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 129729,
+   "valor_bruto": "129729"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 51484,
+   "valor_bruto": "51484"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 188283,
+   "valor_bruto": "188283"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 81437,
+   "valor_bruto": "81437"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 102165,
+   "valor_bruto": "102165"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 275267,
+   "valor_bruto": "275267"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 61341,
+   "valor_bruto": "61341"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 53307,
+   "valor_bruto": "53307"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 552944,
+   "valor_bruto": "552944"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 581415,
+   "valor_bruto": "581415"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 123960,
+   "valor_bruto": "123960"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 823541,
+   "valor_bruto": "823541"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2100401,
+   "valor_bruto": "2100401"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 317366,
+   "valor_bruto": "317366"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 227960,
+   "valor_bruto": "227960"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 290327,
+   "valor_bruto": "290327"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 96082,
+   "valor_bruto": "96082"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 97427,
+   "valor_bruto": "97427"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 262781,
+   "valor_bruto": "262781"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Outras religiosidades",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 120483,
+   "valor_bruto": "120483"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 169829,
+   "valor_bruto": "169829"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 74834,
+   "valor_bruto": "74834"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 236405,
+   "valor_bruto": "236405"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 83687,
+   "valor_bruto": "83687"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 477045,
+   "valor_bruto": "477045"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 45682,
+   "valor_bruto": "45682"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 81873,
+   "valor_bruto": "81873"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 403808,
+   "valor_bruto": "403808"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 119704,
+   "valor_bruto": "119704"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 398274,
+   "valor_bruto": "398274"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 212315,
+   "valor_bruto": "212315"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 209614,
+   "valor_bruto": "209614"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 805512,
+   "valor_bruto": "805512"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 245305,
+   "valor_bruto": "245305"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 170684,
+   "valor_bruto": "170684"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1576011,
+   "valor_bruto": "1576011"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1019831,
+   "valor_bruto": "1019831"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 378399,
+   "valor_bruto": "378399"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2370745,
+   "valor_bruto": "2370745"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4048051,
+   "valor_bruto": "4048051"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 593941,
+   "valor_bruto": "593941"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 414985,
+   "valor_bruto": "414985"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 834124,
+   "valor_bruto": "834124"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 207097,
+   "valor_bruto": "207097"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 247393,
+   "valor_bruto": "247393"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 507518,
+   "valor_bruto": "507518"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem religião",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 274204,
+   "valor_bruto": "274204"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 576,
+   "valor_bruto": "576"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 96,
+   "valor_bruto": "96"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2706,
+   "valor_bruto": "2706"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 415,
+   "valor_bruto": "415"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1766,
+   "valor_bruto": "1766"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 442,
+   "valor_bruto": "442"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 368,
+   "valor_bruto": "368"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 783,
+   "valor_bruto": "783"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 294,
+   "valor_bruto": "294"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2970,
+   "valor_bruto": "2970"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 511,
+   "valor_bruto": "511"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 458,
+   "valor_bruto": "458"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2110,
+   "valor_bruto": "2110"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 934,
+   "valor_bruto": "934"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 431,
+   "valor_bruto": "431"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 8297,
+   "valor_bruto": "8297"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4713,
+   "valor_bruto": "4713"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1026,
+   "valor_bruto": "1026"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 7676,
+   "valor_bruto": "7676"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 15893,
+   "valor_bruto": "15893"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2411,
+   "valor_bruto": "2411"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1887,
+   "valor_bruto": "1887"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1851,
+   "valor_bruto": "1851"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1129,
+   "valor_bruto": "1129"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 780,
+   "valor_bruto": "780"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1389,
+   "valor_bruto": "1389"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Não sabe",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1666,
+   "valor_bruto": "1666"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Rondônia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3047,
+   "valor_bruto": "3047"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Acre",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 871,
+   "valor_bruto": "871"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Amazonas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5116,
+   "valor_bruto": "5116"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Roraima",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 574,
+   "valor_bruto": "574"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Pará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6333,
+   "valor_bruto": "6333"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Amapá",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 669,
+   "valor_bruto": "669"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Tocantins",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 1264,
+   "valor_bruto": "1264"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Maranhão",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 8907,
+   "valor_bruto": "8907"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Piauí",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2075,
+   "valor_bruto": "2075"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Ceará",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 6572,
+   "valor_bruto": "6572"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Rio Grande do Norte",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2490,
+   "valor_bruto": "2490"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Paraíba",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2178,
+   "valor_bruto": "2178"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Pernambuco",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 9882,
+   "valor_bruto": "9882"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Alagoas",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 4034,
+   "valor_bruto": "4034"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Sergipe",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2498,
+   "valor_bruto": "2498"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Bahia",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 15473,
+   "valor_bruto": "15473"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Minas Gerais",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 14147,
+   "valor_bruto": "14147"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Espírito Santo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3221,
+   "valor_bruto": "3221"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Rio de Janeiro",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 20182,
+   "valor_bruto": "20182"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "São Paulo",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 46596,
+   "valor_bruto": "46596"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Paraná",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 8914,
+   "valor_bruto": "8914"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Santa Catarina",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3826,
+   "valor_bruto": "3826"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Rio Grande do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3498,
+   "valor_bruto": "3498"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Mato Grosso do Sul",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2654,
+   "valor_bruto": "2654"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Mato Grosso",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 2219,
+   "valor_bruto": "2219"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Goiás",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 5395,
+   "valor_bruto": "5395"
+  },
+  {
+   "variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+   "categoria": "Sem declaração",
+   "local": "Distrito Federal",
+   "nivel": "N3",
+   "ano": "2022",
+   "valor": 3180,
+   "valor_bruto": "3180"
+  }
+ ],
+ "tabela_10201_nome": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados, por existência de conexão domiciliar à Internet e segundo a religião",
+ "tabela_10201_variavel": "Moradores com 10 anos ou mais de idade em domicílios particulares permanentes ocupados",
+ "gerado_em": "2026-11-23T02:24:52Z",
+ "run_id": "45100048381",
+ "fonte": "https://servicodados.ibge.gov.br/api/v3/agregados",
+ "metodo": "1. IBGE, Censos Demográficos (API de agregados, servicodados.ibge.gov.br/api/v3):\n   - tabela 137 (População residente, por religião, 1991–2010): Islâmica (2000, categoria 95271) e Islamismo (2010,\n     categoria 100426), Brasil e estados;\n   - tabela 10201 (Censo 2022, 10 anos ou mais, grandes grupos de religião), Brasil e estados. Em 2022 o IBGE só abre os\n     grandes grupos: o islamismo fica dentro de \"outras religiosidades\" (o detalhe está nos microdados de acesso\n     controlado, nota metodológica 06/2026). Por isso 2022 não tem número de muçulmanos aqui (⛔).\n2. Disque 100 (Ouvidoria Nacional de Direitos Humanos, dados.gov.br, conjunto \"ouvidoria-nacional-de-direitos-humanos--ondh\"):\n   CSV por semestre ou trimestre. Primeiro run em modo --diagnostico: baixa o arquivo, grava o cabeçalho e a contagem dos\n   valores das colunas de religião, motivação e violação, para a regra de filtro ser escrita sobre as colunas reais.\nSaídas: data/dados_publicos/ibge.json, data/dados_publicos/disque100_diagnostico.json (e, depois, disque100.json)."
+}

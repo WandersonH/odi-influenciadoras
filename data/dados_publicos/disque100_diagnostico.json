@@ -1,0 +1,14 @@
+{
+ "gerado_em": "2026-11-23T02:24:52Z",
+ "arquivos": {
+  "2026-S1": {
+   "erro": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "2026-T3": {
+   "erro": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  },
+  "2025-S2": {
+   "erro": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+  }
+ }
+}
