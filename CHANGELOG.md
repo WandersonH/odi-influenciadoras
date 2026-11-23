@@ -19,7 +19,8 @@ O responsável pediu à 1h20: “quero que rode quem falou delas nas demais rede
 - **Página (caderno 06):** as fontes novas entram na tabela com clique. Há um bloco de cobertura por rede: publicações que citam, período lido, quantas caem no núcleo e universo ⛔.
 - **Workflow `pagas.yml`:** opções `terceiros_tiktok` e `terceiros_instagram`.
 - **Testes novos:** `tests/test_terceiros_redes.py`.
-- **Pendente:** os dois runs pagos e o `terceiros_resumo.yml`, disparados depois deste commit.
+- **Run 45111607586 (TikTok, `apidojo~tiktok-scraper`):** a busca devolveu só 10 itens, o limite do plano gratuito do ator nesta conta, sem custo. Só um cita a Mariam, e é de 15/11, fora do núcleo. O TikTok passa para `clockworks~tiktok-scraper`: busca de vídeos (`searchQueries`, seção `/video`), 50 por nome, teto de US$ 0,70, sem os filtros cobrados. Preço na loja a partir de US$ 1,70 por mil resultados.
+- **Pendente:** o novo run do TikTok, o do Instagram e o `terceiros_resumo.yml`.
 
 ## 23/11/2026: OBMigra, detalhe do país em gráficos
 

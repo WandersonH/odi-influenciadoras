@@ -32,7 +32,15 @@ class T(unittest.TestCase):
         self.assertEqual(c.cita(y, "Mariam Chami", "mariamchami1"), "arroba")
         self.assertEqual(y["url"], "https://www.instagram.com/p/abc/")
 
+    def test_formato_clockworks(self):
+        x = {"id": "7", "text": "a Mariam Chami disse", "createTimeISO": "2026-08-01T10:00:00.000Z", "webVideoUrl": "https://t/7",
+             "authorMeta": {"name": "perfilx", "fans": 20000}, "playCount": 5, "mentions": ["@mariamchami1"]}
+        y = c.normaliza("tiktok", x)
+        self.assertEqual((y["autor"], y["autor_seguidores"], y["publicado_em"][:10]), ("perfilx", 20000, "2026-08-01"))
+        self.assertEqual(c.cita(y, "Mariam Chami", "mariamchami1"), "arroba e nome")
+
     def test_pedido(self):
+        self.assertEqual(c.pedido("tiktok", ["A"], 50, "clockworks~tiktok-scraper"), {"searchQueries": ["A"], "searchSection": "/video", "resultsPerPage": 50})
         self.assertEqual(c.pedido("tiktok", ["A", "B"], 10)["maxItems"], 20)
         self.assertTrue(c.pedido("instagram", ["A"], 5)["keywordSearch"])
 

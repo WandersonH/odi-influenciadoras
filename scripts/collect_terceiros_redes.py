@@ -2,9 +2,10 @@
 """Quem falou delas no TikTok e no Instagram: publicações de OUTRAS contas que citam as influenciadoras, só no núcleo
 (23/07 a 14/08/2026). Pago (Apify), com teto.
 
-- TikTok: apidojo~tiktok-scraper, busca por palavra-chave com o nome de cada uma (keywords), período dos últimos seis
-  meses (dateRange LAST_SIX_MONTHS), ordem de relevância. Etapa do teto: "terceiros_transcricoes" (autorizada em
-  22/11/2026: "terceiros no TikTok").
+- TikTok: clockworks~tiktok-scraper, busca de vídeos com o nome de cada uma (searchQueries, seção /video), na ordem
+  de relevância da própria busca, sem os filtros cobrados de data e ordem. Etapa do teto: "terceiros_transcricoes"
+  (autorizada em 22/11/2026: "terceiros no TikTok"). O apidojo~tiktok-scraper, mais barato, devolveu só 10 itens nesta
+  conta (run 45111607586).
 - Instagram: apify~instagram-hashtag-scraper em modo de busca por palavra (keywordSearch) com o nome de cada uma.
   O ator não tem filtro de data: a busca devolve o que o Instagram mostra, e o núcleo é filtrado depois. Etapa do teto:
   "reserva" (pedido do responsável em 23/11/2026, 1h20, registrado em coleta.json).
@@ -35,14 +36,18 @@ from collect_apify_posts import g, gasto_etapa, inteiro, quando  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 CONF = {
-    "tiktok": {"ator": "apidojo~tiktok-scraper", "etapa": "terceiros_transcricoes", "cap": 0.5, "por_nome": 300},
+    # apidojo~tiktok-scraper devolveu só 10 itens nesta conta (limite do plano gratuito do ator; run 45111607586)
+    "tiktok": {"ator": "clockworks~tiktok-scraper", "etapa": "terceiros_transcricoes", "cap": 0.7, "por_nome": 50},
     "instagram": {"ator": "apify~instagram-hashtag-scraper", "etapa": "reserva", "cap": 0.7, "por_nome": 60},
 }
 CAMPOS = ["chave", "ator_id", "post_id", "autor", "autor_seguidores", "publicado_em", "texto", "tipo_mencao", "url",
           "visualizacoes", "curtidas", "comentarios", "termo", "coletado_em"]
 
 
-def pedido(rede: str, nomes: list[str], n: int) -> dict:
+def pedido(rede: str, nomes: list[str], n: int, ator: str = "") -> dict:
+    if rede == "tiktok" and ator.startswith("clockworks"):
+        # sem os filtros cobrados de ordem e data: a ordem é a de relevância da própria busca
+        return {"searchQueries": nomes, "searchSection": "/video", "resultsPerPage": n}
     if rede == "tiktok":
         return {"keywords": nomes, "sortType": "RELEVANCE", "dateRange": "LAST_SIX_MONTHS", "resultsPerPage": n,
                 "maxItems": n * len(nomes)}
@@ -56,11 +61,16 @@ def normaliza(rede: str, x: dict) -> dict | None:
         pid = g(x, "id")
         if not pid:
             return None
-        return {"post_id": str(pid), "autor": str(g(x, "channel.username", "channel.name") or ""),
-                "autor_seguidores": inteiro(g(x, "channel.followers")), "publicado_em": quando(g(x, "uploadedAtFormatted", "uploadedAt")),
-                "texto": " ".join(str(g(x, "title") or "").split()), "url": g(x, "postPage") or "",
-                "visualizacoes": inteiro(g(x, "views")), "curtidas": inteiro(g(x, "likes")), "comentarios": inteiro(g(x, "comments")),
-                "marcados": [], "termo": str(g(x, "inputSource") or "")}
+        # aceita os dois formatos: clockworks (authorMeta, text, createTimeISO) e apidojo (channel, title, uploadedAt)
+        return {"post_id": str(pid), "autor": str(g(x, "authorMeta.name", "channel.username", "channel.name") or ""),
+                "autor_seguidores": inteiro(g(x, "authorMeta.fans", "channel.followers")),
+                "publicado_em": quando(g(x, "createTimeISO", "uploadedAtFormatted", "createTime", "uploadedAt")),
+                "texto": " ".join(str(g(x, "text", "title") or "").split()), "url": g(x, "webVideoUrl", "postPage") or "",
+                "visualizacoes": inteiro(g(x, "playCount", "views")), "curtidas": inteiro(g(x, "diggCount", "likes")),
+                "comentarios": inteiro(g(x, "commentCount", "comments")),
+                "marcados": [str(m.get("userUniqueId") or m.get("uniqueId") or "").lower() for m in (x.get("mentions") or []) if isinstance(m, dict)]
+                            + [str(m).lower().lstrip("@") for m in (x.get("mentions") or []) if isinstance(m, str)],
+                "termo": str(g(x, "searchQuery", "input", "inputSource") or "")}
     pid = g(x, "id", "shortCode")
     if not pid:
         return None
@@ -140,7 +150,7 @@ def main(argv=None, raiz: Path = RAIZ, executar=None) -> int:
     agora = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     erros, itens, custo, run_id = [], [], 0.0, None
-    pl = pedido(a.rede, [n for _, n, _ in alvos], cf["por_nome"])
+    pl = pedido(a.rede, [n for _, n, _ in alvos], cf["por_nome"], cf["ator"])
     try:
         run, itens = executar(cf["ator"], pl, cap)
         custo, run_id = apify.custo_run(run), run.get("id")
