@@ -1,5 +1,14 @@
 # Changelog
 
+## 23/11/2026: Disque 100 desativado até haver o arquivo
+
+O responsável pediu à 0h43: “desativa Disque 100 […] subimos quando tivermos o arquivo”. O motivo é que o run 45103329132 estourou o limite de 40 minutos sem baixar nenhum CSV, porque o servidor do ministério derruba o GitHub. Cada arquivo passa de 1 GB, e o computador do responsável não tem espaço para eles.
+- **`dados_publicos.yml`:** sai a opção `sim` (diagnóstico do Disque 100). O padrão passa a ser `nao` (só IBGE), e o nome do workflow fica “Dados públicos (IBGE, sem custo)”.
+- **Página (caderno 10):** o bloco do Disque 100 mostra ⛔ “desativado por enquanto”, com o motivo e os IDs dos runs.
+- **O que ficou como estava:**
+  - Nenhum dado foi apagado: `disque100_diagnostico.json`, com os erros de conexão, continua no repositório.
+  - A função de diagnóstico continua no coletor, para quando o arquivo vier.
+
 ## 23/11/2026: OBMigra, profissão e estado civil
 
 O responsável notou à 0h39 que o SISMIGRA tem profissão. `build_obmigra.py` passa a gravar, por país, as profissões declaradas e o estado civil.
