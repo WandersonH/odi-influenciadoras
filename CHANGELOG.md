@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: caderno 10, dados públicos (Método passa a ser o 11)
+
+- **IBGE** (run 45100048381, API de agregados):
+  - Tabela 137: 27.239 em 2000 (religião islâmica) e 35.167 em 2010 (islamismo), com os estados.
+  - Tabela 10201 (2022): 7.024.524 pessoas em "outras religiosidades", de 175.681.803 com 10 anos ou mais.
+  - A página mostra o islamismo de 2022 como ⛔ e explica por quê.
+- **Disque 100:** ⛔. O gov.br derrubou a conexão do GitHub nas três tentativas ("Connection reset by peer").
+  - Próximo passo: baixar os três arquivos (2º semestre de 2025, 1º semestre de 2026 e 3º trimestre de 2026) pelo computador do responsável, com autorização dele.
+- **OBMigra:** ⛔. O portal não abriu.
+- **SaferNet:** 954 denúncias de intolerância religiosa em 2024 e 1.145 em 2025, tirados do PDF oficial dos indicadores. Dado anual, sem a religião atacada.
+- **Página:** novo caderno 10 "Dados públicos". O índice passa a ter 11 cadernos, e a saúde da coleta passa ao caderno 11.
+
 ## 22/11/2026: caderno de dados públicos, primeira etapa (coleta e diagnóstico)
 
 O responsável pediu às 23h20 o caderno de dados públicos. As bases foram validadas antes, e os endereços conferidos no Chrome do responsável:
