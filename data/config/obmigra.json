@@ -1,0 +1,14 @@
+{
+  "pagina": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA",
+  "arquivos": {
+    "sismigra_janeiro_julho_2026": {
+      "link": "https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQA_l-tGUDGFRJ6G31hTACZEARFWuK_GbWwvXvF2TcXN1L8?e=MyiykJ",
+      "csv_no_zip": "sismigra_janeiro_julho_2026.csv",
+      "modificado_em": "2026-08-19",
+      "obtido": "baixado pelo responsável no Chrome em 23/11/2026, 0h28, com autorização dele, e enviado ao chat"
+    }
+  },
+  "nucleo": ["SÍRIA", "LÍBANO", "ESTADO DA PALESTINA", "AFEGANISTÃO"],
+  "contexto": ["EGITO", "MARROCOS", "TUNÍSIA", "ARGÉLIA", "LÍBIA", "JORDÂNIA", "IRAQUE", "IRÃ", "ARÁBIA SAUDITA", "TURQUIA", "PAQUISTÃO", "BANGLADESH", "SENEGAL"],
+  "nota": "Nacionalidade, não religião. 'Contexto' são países de população majoritariamente muçulmana, listados para comparação; o registro não informa a fé de ninguém."
+}

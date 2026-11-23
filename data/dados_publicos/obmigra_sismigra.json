@@ -1,0 +1,3533 @@
+{
+ "gerado_em": "2026-11-23T03:33:39Z",
+ "fonte": "OBMigra / Ministério da Justiça e Segurança Pública, microdados do SISMIGRA (registros de residência, Polícia Federal)",
+ "pagina": "https://www.gov.br/mj/pt-br/assuntos/seus-direitos/migracoes/portal-de-imigracao-laboral/obmigra-1/microdados/sismigra/SISMIGRA",
+ "arquivo": {
+  "nome": "sismigra_janeiro_julho_2026.csv",
+  "link": "https://unbbr-my.sharepoint.com/:u:/g/personal/obmigra_unb_br/IQA_l-tGUDGFRJ6G31hTACZEARFWuK_GbWwvXvF2TcXN1L8?e=MyiykJ",
+  "modificado_em": "2026-08-19",
+  "bytes": 32934155,
+  "sha256": "a6922eb884c1fe0749a00c0853ebd88cd584e50b92f0747a57f8af6fa211aa51",
+  "obtido": "baixado pelo responsável no Chrome em 23/11/2026, 0h28, com autorização dele, e enviado ao chat"
+ },
+ "periodo": "janeiro a julho de 2026",
+ "nota": "Nacionalidade, não religião. 'Contexto' são países de população majoritariamente muçulmana, listados para comparação; o registro não informa a fé de ninguém.",
+ "limite_temporal": "O arquivo traz só o ano do registro (DATAREGISTRO = 2026), sem mês nem dia: não dá para separar a linha de base (junho e julho) do resto do semestre, e o núcleo (23/07 a 14/08) não está coberto, porque o arquivo para em julho.",
+ "universo": 151480,
+ "lidos": 151480,
+ "anos_de_registro": [
+  [
+   "2026",
+   151480
+  ]
+ ],
+ "nacionalidades_distintas": 180,
+ "paises": {
+  "SÍRIA": {
+   "grupo": "nucleo",
+   "registros": 442,
+   "nascidos_no_pais": 410,
+   "uf": [
+    [
+     "SP",
+     305
+    ],
+    [
+     "PR",
+     56
+    ],
+    [
+     "RJ",
+     28
+    ],
+    [
+     "SC",
+     17
+    ],
+    [
+     "MG",
+     7
+    ],
+    [
+     "ES",
+     7
+    ],
+    [
+     "AP",
+     6
+    ],
+    [
+     "RS",
+     4
+    ],
+    [
+     "RR",
+     4
+    ],
+    [
+     "DF",
+     4
+    ],
+    [
+     "RN",
+     1
+    ],
+    [
+     "PB",
+     1
+    ],
+    [
+     "PA",
+     1
+    ],
+    [
+     "AM",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     171
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     58
+    ],
+    [
+     "BAURU (SP)",
+     28
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     25
+    ],
+    [
+     "CURITIBA (PR)",
+     21
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     19
+    ],
+    [
+     "MARÍLIA (SP)",
+     19
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     17
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     17
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     11
+    ],
+    [
+     "GUARULHOS (SP)",
+     10
+    ],
+    [
+     "SÃO JOSÉ DOS PINHAIS (PR)",
+     10
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (AP)",
+     6
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     235
+    ],
+    [
+     "TEMPORÁRIO",
+     114
+    ],
+    [
+     "NÃO APLICÁVEL",
+     93
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     241
+    ],
+    [
+     "ACOLHIDA HUMANITÁRIA",
+     97
+    ],
+    [
+     "NÃO APLICÁVEL",
+     93
+    ],
+    [
+     "ESTUDOS",
+     4
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     3
+    ],
+    [
+     "REFÚGIO/ASILO",
+     3
+    ],
+    [
+     "MISSÃO RELIGIOSA",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     233
+    ],
+    [
+     "Feminino",
+     208
+    ],
+    [
+     "Não Declarado",
+     1
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     73
+    ],
+    [
+     "18 a 29",
+     76
+    ],
+    [
+     "30 a 44",
+     125
+    ],
+    [
+     "45 a 59",
+     47
+    ],
+    [
+     "60 ou mais",
+     41
+    ],
+    [
+     "não informada",
+     80
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     213
+    ],
+    [
+     "2025",
+     143
+    ],
+    [
+     "--",
+     78
+    ],
+    [
+     "2017",
+     2
+    ],
+    [
+     "2024",
+     2
+    ],
+    [
+     "2000",
+     1
+    ],
+    [
+     "2015",
+     1
+    ],
+    [
+     "2022",
+     1
+    ],
+    [
+     "0026",
+     1
+    ]
+   ]
+  },
+  "LÍBANO": {
+   "grupo": "nucleo",
+   "registros": 322,
+   "nascidos_no_pais": 309,
+   "uf": [
+    [
+     "SP",
+     182
+    ],
+    [
+     "PR",
+     103
+    ],
+    [
+     "DF",
+     8
+    ],
+    [
+     "RJ",
+     7
+    ],
+    [
+     "MS",
+     5
+    ],
+    [
+     "BA",
+     4
+    ],
+    [
+     "GO",
+     3
+    ],
+    [
+     "SC",
+     3
+    ],
+    [
+     "ES",
+     2
+    ],
+    [
+     "PE",
+     2
+    ],
+    [
+     "MG",
+     2
+    ],
+    [
+     "PB",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     159
+    ],
+    [
+     "FOZ DO IGUAÇU (PR)",
+     78
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     25
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     22
+    ],
+    [
+     "NÃO ESPECIFICADO (DF)",
+     8
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (MS)",
+     5
+    ],
+    [
+     "NÃO ESPECIFICADO (BA)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (PE)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     2
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (PB)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     223
+    ],
+    [
+     "NÃO APLICÁVEL",
+     89
+    ],
+    [
+     "TEMPORÁRIO",
+     10
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     225
+    ],
+    [
+     "NÃO APLICÁVEL",
+     89
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     6
+    ],
+    [
+     "MISSÃO RELIGIOSA",
+     1
+    ],
+    [
+     "REFÚGIO/ASILO",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     172
+    ],
+    [
+     "Feminino",
+     150
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     41
+    ],
+    [
+     "18 a 29",
+     52
+    ],
+    [
+     "30 a 44",
+     69
+    ],
+    [
+     "45 a 59",
+     33
+    ],
+    [
+     "60 ou mais",
+     45
+    ],
+    [
+     "não informada",
+     82
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     144
+    ],
+    [
+     "2025",
+     84
+    ],
+    [
+     "--",
+     78
+    ],
+    [
+     "2024",
+     8
+    ],
+    [
+     "2023",
+     2
+    ],
+    [
+     "0026",
+     2
+    ],
+    [
+     "2017",
+     1
+    ],
+    [
+     "1111",
+     1
+    ],
+    [
+     "1996",
+     1
+    ],
+    [
+     "0205",
+     1
+    ]
+   ]
+  },
+  "ESTADO DA PALESTINA": {
+   "grupo": "nucleo",
+   "registros": 226,
+   "nascidos_no_pais": 164,
+   "uf": [
+    [
+     "SP",
+     131
+    ],
+    [
+     "PR",
+     38
+    ],
+    [
+     "SC",
+     12
+    ],
+    [
+     "DF",
+     11
+    ],
+    [
+     "ES",
+     9
+    ],
+    [
+     "GO",
+     6
+    ],
+    [
+     "MG",
+     6
+    ],
+    [
+     "MS",
+     5
+    ],
+    [
+     "RS",
+     4
+    ],
+    [
+     "RJ",
+     2
+    ],
+    [
+     "AM",
+     2
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     59
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     54
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     25
+    ],
+    [
+     "FOZ DO IGUAÇU (PR)",
+     13
+    ],
+    [
+     "GUARULHOS (SP)",
+     12
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     12
+    ],
+    [
+     "BRASÍLIA (DF)",
+     11
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (MS)",
+     5
+    ],
+    [
+     "CAMPINAS (SP)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     4
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     2
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     128
+    ],
+    [
+     "NÃO APLICÁVEL",
+     84
+    ],
+    [
+     "TEMPORÁRIO",
+     14
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     135
+    ],
+    [
+     "NÃO APLICÁVEL",
+     84
+    ],
+    [
+     "ESTUDOS",
+     4
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     3
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     119
+    ],
+    [
+     "Feminino",
+     107
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     58
+    ],
+    [
+     "18 a 29",
+     49
+    ],
+    [
+     "30 a 44",
+     52
+    ],
+    [
+     "45 a 59",
+     9
+    ],
+    [
+     "60 ou mais",
+     8
+    ],
+    [
+     "não informada",
+     50
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     102
+    ],
+    [
+     "2025",
+     74
+    ],
+    [
+     "--",
+     50
+    ]
+   ]
+  },
+  "AFEGANISTÃO": {
+   "grupo": "nucleo",
+   "registros": 302,
+   "nascidos_no_pais": 298,
+   "uf": [
+    [
+     "SP",
+     224
+    ],
+    [
+     "RJ",
+     30
+    ],
+    [
+     "MG",
+     17
+    ],
+    [
+     "GO",
+     8
+    ],
+    [
+     "SC",
+     8
+    ],
+    [
+     "PR",
+     7
+    ],
+    [
+     "RS",
+     3
+    ],
+    [
+     "RR",
+     1
+    ],
+    [
+     "CE",
+     1
+    ],
+    [
+     "PE",
+     1
+    ],
+    [
+     "PA",
+     1
+    ],
+    [
+     "BA",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     119
+    ],
+    [
+     "SANTO ANDRÉ (SP)",
+     25
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     20
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     19
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     17
+    ],
+    [
+     "PETRÓPOLIS (RJ)",
+     16
+    ],
+    [
+     "CAMPINAS (SP)",
+     15
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     14
+    ],
+    [
+     "GUARULHOS (SP)",
+     13
+    ],
+    [
+     "JUNDIAÍ (SP)",
+     13
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     8
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     8
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (RR)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "NÃO APLICÁVEL",
+     135
+    ],
+    [
+     "TEMPORÁRIO",
+     133
+    ],
+    [
+     "RESIDENTE",
+     34
+    ]
+   ],
+   "tipologia": [
+    [
+     "NÃO APLICÁVEL",
+     135
+    ],
+    [
+     "ACOLHIDA HUMANITÁRIA",
+     128
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     35
+    ],
+    [
+     "ESTUDOS",
+     4
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     164
+    ],
+    [
+     "Feminino",
+     138
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     52
+    ],
+    [
+     "18 a 29",
+     57
+    ],
+    [
+     "30 a 44",
+     42
+    ],
+    [
+     "45 a 59",
+     18
+    ],
+    [
+     "60 ou mais",
+     11
+    ],
+    [
+     "não informada",
+     122
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "--",
+     122
+    ],
+    [
+     "2026",
+     92
+    ],
+    [
+     "2025",
+     88
+    ]
+   ]
+  },
+  "EGITO": {
+   "grupo": "contexto",
+   "registros": 341,
+   "nascidos_no_pais": 296,
+   "uf": [
+    [
+     "SP",
+     241
+    ],
+    [
+     "PR",
+     38
+    ],
+    [
+     "SC",
+     28
+    ],
+    [
+     "GO",
+     6
+    ],
+    [
+     "RJ",
+     6
+    ],
+    [
+     "MG",
+     5
+    ],
+    [
+     "DF",
+     3
+    ],
+    [
+     "TO",
+     3
+    ],
+    [
+     "ES",
+     3
+    ],
+    [
+     "BA",
+     2
+    ],
+    [
+     "MA",
+     1
+    ],
+    [
+     "RO",
+     1
+    ],
+    [
+     "PA",
+     1
+    ],
+    [
+     "RR",
+     1
+    ],
+    [
+     "SE",
+     1
+    ],
+    [
+     "PE",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     95
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     50
+    ],
+    [
+     "CAMPINAS (SP)",
+     42
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     28
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     21
+    ],
+    [
+     "GUARULHOS (SP)",
+     19
+    ],
+    [
+     "FLORIANÓPOLIS (SC)",
+     15
+    ],
+    [
+     "FOZ DO IGUAÇU (PR)",
+     9
+    ],
+    [
+     "CURITIBA (PR)",
+     8
+    ],
+    [
+     "BAURU (SP)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     6
+    ],
+    [
+     "PALHOÇA (SC)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     5
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     239
+    ],
+    [
+     "NÃO APLICÁVEL",
+     81
+    ],
+    [
+     "TEMPORÁRIO",
+     21
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     239
+    ],
+    [
+     "NÃO APLICÁVEL",
+     81
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     14
+    ],
+    [
+     "ESTUDOS",
+     7
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     211
+    ],
+    [
+     "Feminino",
+     130
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     75
+    ],
+    [
+     "18 a 29",
+     47
+    ],
+    [
+     "30 a 44",
+     131
+    ],
+    [
+     "45 a 59",
+     28
+    ],
+    [
+     "60 ou mais",
+     10
+    ],
+    [
+     "não informada",
+     50
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     147
+    ],
+    [
+     "2025",
+     138
+    ],
+    [
+     "--",
+     46
+    ],
+    [
+     "2023",
+     4
+    ],
+    [
+     "1111",
+     2
+    ],
+    [
+     "2024",
+     1
+    ],
+    [
+     "0202",
+     1
+    ],
+    [
+     "2021",
+     1
+    ],
+    [
+     "0025",
+     1
+    ]
+   ]
+  },
+  "MARROCOS": {
+   "grupo": "contexto",
+   "registros": 950,
+   "nascidos_no_pais": 934,
+   "uf": [
+    [
+     "SP",
+     602
+    ],
+    [
+     "PR",
+     76
+    ],
+    [
+     "RS",
+     71
+    ],
+    [
+     "MG",
+     53
+    ],
+    [
+     "SC",
+     51
+    ],
+    [
+     "RJ",
+     23
+    ],
+    [
+     "GO",
+     13
+    ],
+    [
+     "DF",
+     10
+    ],
+    [
+     "ES",
+     9
+    ],
+    [
+     "CE",
+     8
+    ],
+    [
+     "BA",
+     7
+    ],
+    [
+     "MS",
+     6
+    ],
+    [
+     "PB",
+     5
+    ],
+    [
+     "AM",
+     3
+    ],
+    [
+     "RO",
+     2
+    ],
+    [
+     "NÃO INFORMADO",
+     2
+    ],
+    [
+     "AP",
+     2
+    ],
+    [
+     "PA",
+     2
+    ],
+    [
+     "RN",
+     1
+    ],
+    [
+     "PE",
+     1
+    ],
+    [
+     "AL",
+     1
+    ],
+    [
+     "MT",
+     1
+    ],
+    [
+     "SE",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     503
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     70
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     60
+    ],
+    [
+     "BELO HORIZONTE (MG)",
+     33
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     27
+    ],
+    [
+     "LAJEADO (RS)",
+     27
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     27
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     20
+    ],
+    [
+     "CHUÍ (RS)",
+     17
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     17
+    ],
+    [
+     "MARINGÁ (PR)",
+     16
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     14
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     13
+    ],
+    [
+     "FLORIANÓPOLIS (SC)",
+     13
+    ],
+    [
+     "LAGES (SC)",
+     11
+    ]
+   ],
+   "classificacao": [
+    [
+     "NÃO APLICÁVEL",
+     773
+    ],
+    [
+     "RESIDENTE",
+     161
+    ],
+    [
+     "TEMPORÁRIO",
+     16
+    ]
+   ],
+   "tipologia": [
+    [
+     "NÃO APLICÁVEL",
+     773
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     161
+    ],
+    [
+     "ESTUDOS",
+     12
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     4
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     692
+    ],
+    [
+     "Feminino",
+     258
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     43
+    ],
+    [
+     "18 a 29",
+     135
+    ],
+    [
+     "30 a 44",
+     119
+    ],
+    [
+     "45 a 59",
+     17
+    ],
+    [
+     "60 ou mais",
+     7
+    ],
+    [
+     "não informada",
+     629
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "--",
+     629
+    ],
+    [
+     "2026",
+     196
+    ],
+    [
+     "2025",
+     121
+    ],
+    [
+     "2020",
+     2
+    ],
+    [
+     "2024",
+     2
+    ]
+   ]
+  },
+  "TUNÍSIA": {
+   "grupo": "contexto",
+   "registros": 504,
+   "nascidos_no_pais": 494,
+   "uf": [
+    [
+     "SP",
+     353
+    ],
+    [
+     "PR",
+     56
+    ],
+    [
+     "RJ",
+     33
+    ],
+    [
+     "SC",
+     25
+    ],
+    [
+     "MG",
+     14
+    ],
+    [
+     "GO",
+     13
+    ],
+    [
+     "ES",
+     3
+    ],
+    [
+     "CE",
+     3
+    ],
+    [
+     "RO",
+     1
+    ],
+    [
+     "MT",
+     1
+    ],
+    [
+     "RS",
+     1
+    ],
+    [
+     "DF",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     270
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     63
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     34
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     23
+    ],
+    [
+     "CURITIBA (PR)",
+     22
+    ],
+    [
+     "SÃO JOSÉ DOS CAMPOS (SP)",
+     19
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     14
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     13
+    ],
+    [
+     "FLORIANÓPOLIS (SC)",
+     12
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     12
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     10
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (CE)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (RO)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (MT)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "NÃO APLICÁVEL",
+     424
+    ],
+    [
+     "RESIDENTE",
+     65
+    ],
+    [
+     "TEMPORÁRIO",
+     15
+    ]
+   ],
+   "tipologia": [
+    [
+     "NÃO APLICÁVEL",
+     424
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     68
+    ],
+    [
+     "ESTUDOS",
+     8
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     4
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     362
+    ],
+    [
+     "Feminino",
+     142
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     13
+    ],
+    [
+     "18 a 29",
+     51
+    ],
+    [
+     "30 a 44",
+     70
+    ],
+    [
+     "45 a 59",
+     8
+    ],
+    [
+     "60 ou mais",
+     4
+    ],
+    [
+     "não informada",
+     358
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "--",
+     355
+    ],
+    [
+     "2026",
+     93
+    ],
+    [
+     "2025",
+     50
+    ],
+    [
+     "1111",
+     3
+    ],
+    [
+     "2022",
+     1
+    ],
+    [
+     "2021",
+     1
+    ],
+    [
+     "2024",
+     1
+    ]
+   ]
+  },
+  "ARGÉLIA": {
+   "grupo": "contexto",
+   "registros": 45,
+   "nascidos_no_pais": 45,
+   "uf": [
+    [
+     "SP",
+     25
+    ],
+    [
+     "RJ",
+     2
+    ],
+    [
+     "PA",
+     2
+    ],
+    [
+     "SC",
+     2
+    ],
+    [
+     "RS",
+     2
+    ],
+    [
+     "AM",
+     2
+    ],
+    [
+     "PR",
+     2
+    ],
+    [
+     "AL",
+     1
+    ],
+    [
+     "TO",
+     1
+    ],
+    [
+     "RN",
+     1
+    ],
+    [
+     "ES",
+     1
+    ],
+    [
+     "MG",
+     1
+    ],
+    [
+     "MT",
+     1
+    ],
+    [
+     "GO",
+     1
+    ],
+    [
+     "CE",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     17
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     8
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (PA)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (AM)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (AL)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (TO)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (RN)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (MT)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "NÃO APLICÁVEL",
+     23
+    ],
+    [
+     "RESIDENTE",
+     19
+    ],
+    [
+     "TEMPORÁRIO",
+     3
+    ]
+   ],
+   "tipologia": [
+    [
+     "NÃO APLICÁVEL",
+     23
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     19
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     2
+    ],
+    [
+     "ESTUDOS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     35
+    ],
+    [
+     "Feminino",
+     10
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     3
+    ],
+    [
+     "18 a 29",
+     8
+    ],
+    [
+     "30 a 44",
+     14
+    ],
+    [
+     "45 a 59",
+     2
+    ],
+    [
+     "60 ou mais",
+     1
+    ],
+    [
+     "não informada",
+     17
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "--",
+     17
+    ],
+    [
+     "2026",
+     16
+    ],
+    [
+     "2025",
+     12
+    ]
+   ]
+  },
+  "LÍBIA": {
+   "grupo": "contexto",
+   "registros": 30,
+   "nascidos_no_pais": 24,
+   "uf": [
+    [
+     "SP",
+     23
+    ],
+    [
+     "DF",
+     5
+    ],
+    [
+     "ES",
+     1
+    ],
+    [
+     "SC",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "CAMPINAS (SP)",
+     14
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (DF)",
+     5
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     24
+    ],
+    [
+     "TEMPORÁRIO",
+     5
+    ],
+    [
+     "NÃO APLICÁVEL",
+     1
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     28
+    ],
+    [
+     "ESTUDOS",
+     1
+    ],
+    [
+     "NÃO APLICÁVEL",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     20
+    ],
+    [
+     "Feminino",
+     10
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     12
+    ],
+    [
+     "18 a 29",
+     3
+    ],
+    [
+     "30 a 44",
+     10
+    ],
+    [
+     "45 a 59",
+     4
+    ],
+    [
+     "não informada",
+     1
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     24
+    ],
+    [
+     "2025",
+     4
+    ],
+    [
+     "2024",
+     1
+    ],
+    [
+     "--",
+     1
+    ]
+   ]
+  },
+  "JORDÂNIA": {
+   "grupo": "contexto",
+   "registros": 40,
+   "nascidos_no_pais": 29,
+   "uf": [
+    [
+     "SP",
+     22
+    ],
+    [
+     "PR",
+     4
+    ],
+    [
+     "RS",
+     4
+    ],
+    [
+     "SC",
+     4
+    ],
+    [
+     "RJ",
+     2
+    ],
+    [
+     "ES",
+     2
+    ],
+    [
+     "DF",
+     1
+    ],
+    [
+     "GO",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "NÃO ESPECIFICADO (SP)",
+     17
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     4
+    ],
+    [
+     "SÃO PAULO (SP)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     2
+    ],
+    [
+     "CURITIBA (PR)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (DF)",
+     1
+    ],
+    [
+     "FLORIANÓPOLIS (SC)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (GO)",
+     1
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     33
+    ],
+    [
+     "NÃO APLICÁVEL",
+     6
+    ],
+    [
+     "TEMPORÁRIO",
+     1
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     33
+    ],
+    [
+     "NÃO APLICÁVEL",
+     6
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     23
+    ],
+    [
+     "Feminino",
+     17
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     9
+    ],
+    [
+     "18 a 29",
+     7
+    ],
+    [
+     "30 a 44",
+     15
+    ],
+    [
+     "45 a 59",
+     4
+    ],
+    [
+     "não informada",
+     5
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     21
+    ],
+    [
+     "2025",
+     13
+    ],
+    [
+     "--",
+     5
+    ],
+    [
+     "2024",
+     1
+    ]
+   ]
+  },
+  "IRAQUE": {
+   "grupo": "contexto",
+   "registros": 20,
+   "nascidos_no_pais": 18,
+   "uf": [
+    [
+     "SP",
+     16
+    ],
+    [
+     "PR",
+     2
+    ],
+    [
+     "PE",
+     1
+    ],
+    [
+     "SC",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (PE)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     14
+    ],
+    [
+     "NÃO APLICÁVEL",
+     5
+    ],
+    [
+     "TEMPORÁRIO",
+     1
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     14
+    ],
+    [
+     "NÃO APLICÁVEL",
+     5
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     15
+    ],
+    [
+     "Feminino",
+     5
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     7
+    ],
+    [
+     "18 a 29",
+     5
+    ],
+    [
+     "30 a 44",
+     2
+    ],
+    [
+     "45 a 59",
+     1
+    ],
+    [
+     "60 ou mais",
+     1
+    ],
+    [
+     "não informada",
+     4
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     10
+    ],
+    [
+     "2025",
+     6
+    ],
+    [
+     "--",
+     4
+    ]
+   ]
+  },
+  "IRÃ": {
+   "grupo": "contexto",
+   "registros": 154,
+   "nascidos_no_pais": 152,
+   "uf": [
+    [
+     "SP",
+     69
+    ],
+    [
+     "SC",
+     25
+    ],
+    [
+     "RJ",
+     21
+    ],
+    [
+     "PR",
+     12
+    ],
+    [
+     "MG",
+     9
+    ],
+    [
+     "PB",
+     7
+    ],
+    [
+     "AP",
+     4
+    ],
+    [
+     "RS",
+     4
+    ],
+    [
+     "BA",
+     1
+    ],
+    [
+     "SE",
+     1
+    ],
+    [
+     "ES",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     37
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     32
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     20
+    ],
+    [
+     "FLORIANÓPOLIS (SC)",
+     13
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     12
+    ],
+    [
+     "SÃO JOSÉ (SC)",
+     11
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (PB)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (AP)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (BA)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (SE)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     52
+    ],
+    [
+     "NÃO APLICÁVEL",
+     52
+    ],
+    [
+     "TEMPORÁRIO",
+     50
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     66
+    ],
+    [
+     "NÃO APLICÁVEL",
+     52
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     21
+    ],
+    [
+     "ESTUDOS",
+     15
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     91
+    ],
+    [
+     "Feminino",
+     63
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     11
+    ],
+    [
+     "18 a 29",
+     15
+    ],
+    [
+     "30 a 44",
+     70
+    ],
+    [
+     "45 a 59",
+     10
+    ],
+    [
+     "60 ou mais",
+     12
+    ],
+    [
+     "não informada",
+     36
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     76
+    ],
+    [
+     "2025",
+     42
+    ],
+    [
+     "--",
+     36
+    ]
+   ]
+  },
+  "ARÁBIA SAUDITA": {
+   "grupo": "contexto",
+   "registros": 10,
+   "nascidos_no_pais": 10,
+   "uf": [
+    [
+     "SP",
+     4
+    ],
+    [
+     "ES",
+     2
+    ],
+    [
+     "RS",
+     1
+    ],
+    [
+     "SC",
+     1
+    ],
+    [
+     "TO",
+     1
+    ],
+    [
+     "MG",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "NÃO ESPECIFICADO (SP)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     2
+    ],
+    [
+     "SÃO PAULO (SP)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (TO)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     5
+    ],
+    [
+     "TEMPORÁRIO",
+     3
+    ],
+    [
+     "NÃO APLICÁVEL",
+     2
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     5
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     2
+    ],
+    [
+     "NÃO APLICÁVEL",
+     2
+    ],
+    [
+     "ESTUDOS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     9
+    ],
+    [
+     "Feminino",
+     1
+    ]
+   ],
+   "idade": [
+    [
+     "18 a 29",
+     2
+    ],
+    [
+     "30 a 44",
+     7
+    ],
+    [
+     "45 a 59",
+     1
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2025",
+     7
+    ],
+    [
+     "2026",
+     3
+    ]
+   ]
+  },
+  "TURQUIA": {
+   "grupo": "contexto",
+   "registros": 312,
+   "nascidos_no_pais": 216,
+   "uf": [
+    [
+     "SP",
+     138
+    ],
+    [
+     "RJ",
+     85
+    ],
+    [
+     "SC",
+     27
+    ],
+    [
+     "DF",
+     15
+    ],
+    [
+     "PR",
+     12
+    ],
+    [
+     "PB",
+     6
+    ],
+    [
+     "RS",
+     6
+    ],
+    [
+     "MG",
+     5
+    ],
+    [
+     "AP",
+     5
+    ],
+    [
+     "ES",
+     3
+    ],
+    [
+     "GO",
+     2
+    ],
+    [
+     "SE",
+     2
+    ],
+    [
+     "PE",
+     1
+    ],
+    [
+     "MT",
+     1
+    ],
+    [
+     "PA",
+     1
+    ],
+    [
+     "AL",
+     1
+    ],
+    [
+     "RN",
+     1
+    ],
+    [
+     "BA",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "RIO DE JANEIRO (RJ)",
+     77
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     58
+    ],
+    [
+     "SÃO BERNARDO DO CAMPO (SP)",
+     37
+    ],
+    [
+     "SÃO PAULO (SP)",
+     36
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     20
+    ],
+    [
+     "BRASÍLIA (DF)",
+     15
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     12
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     8
+    ],
+    [
+     "NÃO ESPECIFICADO (PB)",
+     6
+    ],
+    [
+     "PALHOÇA (SC)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     5
+    ],
+    [
+     "NÃO ESPECIFICADO (AP)",
+     5
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     3
+    ],
+    [
+     "CAMPINAS (SP)",
+     3
+    ]
+   ],
+   "classificacao": [
+    [
+     "RESIDENTE",
+     185
+    ],
+    [
+     "TEMPORÁRIO",
+     97
+    ],
+    [
+     "NÃO APLICÁVEL",
+     29
+    ],
+    [
+     "PROVISÓRIO",
+     1
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     190
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     88
+    ],
+    [
+     "NÃO APLICÁVEL",
+     29
+    ],
+    [
+     "ESTUDOS",
+     4
+    ],
+    [
+     "OUTROS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     227
+    ],
+    [
+     "Feminino",
+     85
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     71
+    ],
+    [
+     "18 a 29",
+     63
+    ],
+    [
+     "30 a 44",
+     117
+    ],
+    [
+     "45 a 59",
+     31
+    ],
+    [
+     "60 ou mais",
+     10
+    ],
+    [
+     "não informada",
+     20
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     153
+    ],
+    [
+     "2025",
+     126
+    ],
+    [
+     "--",
+     20
+    ],
+    [
+     "2024",
+     10
+    ],
+    [
+     "2021",
+     2
+    ],
+    [
+     "2022",
+     1
+    ]
+   ]
+  },
+  "PAQUISTÃO": {
+   "grupo": "contexto",
+   "registros": 286,
+   "nascidos_no_pais": 280,
+   "uf": [
+    [
+     "SP",
+     95
+    ],
+    [
+     "DF",
+     46
+    ],
+    [
+     "RS",
+     30
+    ],
+    [
+     "PR",
+     29
+    ],
+    [
+     "MG",
+     26
+    ],
+    [
+     "RJ",
+     18
+    ],
+    [
+     "SC",
+     11
+    ],
+    [
+     "MS",
+     9
+    ],
+    [
+     "PE",
+     6
+    ],
+    [
+     "TO",
+     6
+    ],
+    [
+     "PA",
+     2
+    ],
+    [
+     "AM",
+     2
+    ],
+    [
+     "MT",
+     2
+    ],
+    [
+     "PB",
+     1
+    ],
+    [
+     "BA",
+     1
+    ],
+    [
+     "AL",
+     1
+    ],
+    [
+     "ES",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     53
+    ],
+    [
+     "BRASÍLIA (DF)",
+     45
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     32
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     30
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     28
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     16
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     15
+    ],
+    [
+     "NÃO ESPECIFICADO (SC)",
+     11
+    ],
+    [
+     "CAMPINAS (SP)",
+     10
+    ],
+    [
+     "VIÇOSA (MG)",
+     10
+    ],
+    [
+     "NÃO ESPECIFICADO (MS)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (PE)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (TO)",
+     6
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     3
+    ],
+    [
+     "NÃO ESPECIFICADO (PA)",
+     2
+    ]
+   ],
+   "classificacao": [
+    [
+     "TEMPORÁRIO",
+     126
+    ],
+    [
+     "NÃO APLICÁVEL",
+     86
+    ],
+    [
+     "RESIDENTE",
+     74
+    ]
+   ],
+   "tipologia": [
+    [
+     "REUNIÃO FAMILIAR",
+     103
+    ],
+    [
+     "NÃO APLICÁVEL",
+     86
+    ],
+    [
+     "ESTUDOS",
+     84
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     12
+    ],
+    [
+     "ACOLHIDA HUMANITÁRIA",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     191
+    ],
+    [
+     "Feminino",
+     95
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     41
+    ],
+    [
+     "18 a 29",
+     95
+    ],
+    [
+     "30 a 44",
+     88
+    ],
+    [
+     "45 a 59",
+     7
+    ],
+    [
+     "60 ou mais",
+     2
+    ],
+    [
+     "não informada",
+     53
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     184
+    ],
+    [
+     "--",
+     53
+    ],
+    [
+     "2025",
+     46
+    ],
+    [
+     "2019",
+     1
+    ],
+    [
+     "2016",
+     1
+    ],
+    [
+     "2023",
+     1
+    ]
+   ]
+  },
+  "BANGLADESH": {
+   "grupo": "contexto",
+   "registros": 856,
+   "nascidos_no_pais": 854,
+   "uf": [
+    [
+     "SP",
+     519
+    ],
+    [
+     "PR",
+     218
+    ],
+    [
+     "MG",
+     27
+    ],
+    [
+     "RS",
+     19
+    ],
+    [
+     "SC",
+     18
+    ],
+    [
+     "MS",
+     17
+    ],
+    [
+     "DF",
+     10
+    ],
+    [
+     "RJ",
+     9
+    ],
+    [
+     "ES",
+     9
+    ],
+    [
+     "SE",
+     2
+    ],
+    [
+     "RN",
+     2
+    ],
+    [
+     "GO",
+     2
+    ],
+    [
+     "BA",
+     2
+    ],
+    [
+     "AP",
+     1
+    ],
+    [
+     "RO",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "SÃO PAULO (SP)",
+     444
+    ],
+    [
+     "JAGUAPITÃ (PR)",
+     106
+    ],
+    [
+     "DOIS VIZINHOS (PR)",
+     74
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     60
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     27
+    ],
+    [
+     "TOLEDO (PR)",
+     22
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     16
+    ],
+    [
+     "APARECIDA DO TABOADO (MS)",
+     15
+    ],
+    [
+     "CAMPINAS (SP)",
+     15
+    ],
+    [
+     "LAJEADO (RS)",
+     11
+    ],
+    [
+     "BRASÍLIA (DF)",
+     10
+    ],
+    [
+     "CHAPECÓ (SC)",
+     10
+    ],
+    [
+     "NÃO ESPECIFICADO (RJ)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (ES)",
+     9
+    ],
+    [
+     "NÃO ESPECIFICADO (RS)",
+     8
+    ]
+   ],
+   "classificacao": [
+    [
+     "TEMPORÁRIO",
+     496
+    ],
+    [
+     "NÃO APLICÁVEL",
+     317
+    ],
+    [
+     "RESIDENTE",
+     43
+    ]
+   ],
+   "tipologia": [
+    [
+     "TRABALHO/INVESTIMENTOS",
+     467
+    ],
+    [
+     "NÃO APLICÁVEL",
+     317
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     44
+    ],
+    [
+     "ESTUDOS",
+     25
+    ],
+    [
+     "OUTROS",
+     2
+    ],
+    [
+     "MISSÃO RELIGIOSA",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     815
+    ],
+    [
+     "Feminino",
+     41
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     14
+    ],
+    [
+     "18 a 29",
+     380
+    ],
+    [
+     "30 a 44",
+     200
+    ],
+    [
+     "45 a 59",
+     35
+    ],
+    [
+     "60 ou mais",
+     3
+    ],
+    [
+     "não informada",
+     224
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "2026",
+     372
+    ],
+    [
+     "2025",
+     258
+    ],
+    [
+     "--",
+     224
+    ],
+    [
+     "2024",
+     2
+    ]
+   ]
+  },
+  "SENEGAL": {
+   "grupo": "contexto",
+   "registros": 63,
+   "nascidos_no_pais": 61,
+   "uf": [
+    [
+     "RS",
+     18
+    ],
+    [
+     "SP",
+     15
+    ],
+    [
+     "RJ",
+     7
+    ],
+    [
+     "MG",
+     5
+    ],
+    [
+     "PR",
+     4
+    ],
+    [
+     "CE",
+     4
+    ],
+    [
+     "DF",
+     4
+    ],
+    [
+     "MT",
+     2
+    ],
+    [
+     "PE",
+     1
+    ],
+    [
+     "AP",
+     1
+    ],
+    [
+     "RN",
+     1
+    ],
+    [
+     "SC",
+     1
+    ]
+   ],
+   "municipios": [
+    [
+     "NÃO ESPECIFICADO (RS)",
+     18
+    ],
+    [
+     "SÃO PAULO (SP)",
+     13
+    ],
+    [
+     "RIO DE JANEIRO (RJ)",
+     7
+    ],
+    [
+     "NÃO ESPECIFICADO (MG)",
+     5
+    ],
+    [
+     "NÃO ESPECIFICADO (PR)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (CE)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (DF)",
+     4
+    ],
+    [
+     "NÃO ESPECIFICADO (MT)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (SP)",
+     2
+    ],
+    [
+     "NÃO ESPECIFICADO (PE)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (AP)",
+     1
+    ],
+    [
+     "NÃO ESPECIFICADO (RN)",
+     1
+    ],
+    [
+     "PALHOÇA (SC)",
+     1
+    ]
+   ],
+   "classificacao": [
+    [
+     "NÃO APLICÁVEL",
+     36
+    ],
+    [
+     "TEMPORÁRIO",
+     18
+    ],
+    [
+     "RESIDENTE",
+     9
+    ]
+   ],
+   "tipologia": [
+    [
+     "NÃO APLICÁVEL",
+     36
+    ],
+    [
+     "ESTUDOS",
+     13
+    ],
+    [
+     "REUNIÃO FAMILIAR",
+     9
+    ],
+    [
+     "MISSÃO RELIGIOSA",
+     4
+    ],
+    [
+     "TRABALHO/INVESTIMENTOS",
+     1
+    ]
+   ],
+   "sexo": [
+    [
+     "Masculino",
+     48
+    ],
+    [
+     "Feminino",
+     15
+    ]
+   ],
+   "idade": [
+    [
+     "0 a 17",
+     1
+    ],
+    [
+     "18 a 29",
+     23
+    ],
+    [
+     "30 a 44",
+     15
+    ],
+    [
+     "não informada",
+     24
+    ]
+   ],
+   "ano_entrada": [
+    [
+     "--",
+     24
+    ],
+    [
+     "2026",
+     23
+    ],
+    [
+     "2025",
+     10
+    ],
+    [
+     "2022",
+     2
+    ],
+    [
+     "2024",
+     2
+    ],
+    [
+     "2023",
+     1
+    ],
+    [
+     "2014",
+     1
+    ]
+   ]
+  }
+ },
+ "nucleo_por_uf": [
+  [
+   "SP",
+   842
+  ],
+  [
+   "PR",
+   204
+  ],
+  [
+   "RJ",
+   67
+  ],
+  [
+   "SC",
+   40
+  ],
+  [
+   "MG",
+   32
+  ],
+  [
+   "DF",
+   23
+  ],
+  [
+   "ES",
+   18
+  ],
+  [
+   "GO",
+   17
+  ],
+  [
+   "RS",
+   11
+  ],
+  [
+   "MS",
+   10
+  ],
+  [
+   "AP",
+   6
+  ],
+  [
+   "RR",
+   5
+  ],
+  [
+   "BA",
+   5
+  ],
+  [
+   "PE",
+   3
+  ],
+  [
+   "AM",
+   3
+  ],
+  [
+   "PB",
+   2
+  ],
+  [
+   "PA",
+   2
+  ],
+  [
+   "RN",
+   1
+  ],
+  [
+   "CE",
+   1
+  ]
+ ],
+ "nucleo_total": 1292
+}

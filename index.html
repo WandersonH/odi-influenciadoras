@@ -564,7 +564,26 @@ async function dizem(rede) {
 
   // Caderno 10: dados públicos (bases oficiais de contexto)
   {
-    const IB = await json("data/dados_publicos/ibge.json");
+    const IB = await json("data/dados_publicos/ibge.json"), OBM = await json("data/dados_publicos/obmigra_sismigra.json");
+    const NOME_PAIS = p => ({"ESTADO DA PALESTINA": "Palestina"}[p] || p.charAt(0) + p.slice(1).toLowerCase());
+    const obmigraHTML = O => {
+      if (!O) return vazio("⛔ Microdados do SISMIGRA ainda não processados (scripts/build_obmigra.py).");
+      const P = Object.entries(O.paises), lin = ([p, v]) => `<tr><td>${esc(NOME_PAIS(p))}</td><td class="inf-num"><button type="button" class="inf-abre inf-no" data-no="${esc(p)}" title="Ver o detalhe">${n(v.registros)}</button></td><td class="inf-num">${(100 * v.registros / O.universo).toLocaleString("pt-BR", {maximumFractionDigits: 2})}%</td><td>${esc((v.uf[0] || [""])[0])} ${v.uf[0] ? n(v.uf[0][1]) : ""}${v.uf[1] ? ` · ${esc(v.uf[1][0])} ${n(v.uf[1][1])}` : ""}</td><td>${esc(((v.tipologia[0] || [""])[0]).toLowerCase())}</td></tr>`;
+      const tab = g => `<table class="datatable"><thead><tr><th>Nacionalidade</th><th class="inf-num">Registros</th><th class="inf-num">% do total</th><th>Estados com mais registros</th><th>Motivo mais comum</th></tr></thead><tbody>${P.filter(([, v]) => v.grupo === g).sort((a, b) => b[1].registros - a[1].registros).map(lin).join("")}</tbody></table>`;
+      return `<div class="eyebrow">${esc(O.fonte)} · ${esc(O.periodo)} · arquivo de ${dataBR(O.arquivo.modificado_em + "T12:00:00Z")}</div>
+        <div class="kpigrid"><div class="kpi"><div class="klabel">Registros de residência no período</div><div class="kval">${n(O.universo)}</div><div class="knote">universo: todas as linhas do arquivo publicado, todas lidas · ${n(O.nacionalidades_distintas)} nacionalidades</div></div>
+        <div class="kpi"><div class="klabel">Síria, Líbano, Palestina e Afeganistão</div><div class="kval">${n(O.nucleo_total)}</div><div class="knote">${(100 * O.nucleo_total / O.universo).toLocaleString("pt-BR", {maximumFractionDigits: 2})}% dos registros · ${O.nucleo_por_uf.slice(0, 3).map(([u, q]) => `${esc(u)} ${n(q)}`).join(" · ")}</div></div>
+        <div class="kpi"><div class="klabel">Período do estudo</div><div class="kval">parcial</div><div class="knote">o arquivo só traz o ano do registro: junho, julho e o núcleo não se separam</div></div></div>
+        <div class="tablewrap" data-ctx="obm"><h2 class="tk-h2" style="font-size:16px;margin-top:12px">As quatro nacionalidades acompanhadas</h2>${tab("nucleo")}
+        <h2 class="tk-h2" style="font-size:16px;margin-top:12px">Para comparar: outros países de maioria muçulmana</h2>${tab("contexto")}</div>
+        <p class="inf-nota">Clique num número para ver estados, municípios, motivo do registro, classificação, sexo, idade e ano de entrada. Nacionalidade não é religião: o registro não informa a fé de ninguém, e “de maioria muçulmana” descreve o país, não a pessoa. ${esc(O.limite_temporal)} Fonte: <a href="${esc(O.pagina)}" target="_blank" rel="noopener">página de microdados do SISMIGRA</a>, arquivo ${esc(O.arquivo.nome)} (SHA-256 ${esc(O.arquivo.sha256.slice(0, 12))}…). Os anos anteriores (2010 a 2025) e as solicitações de refúgio por mês de 2026 estão publicados na mesma página e ainda não foram processados.</p>`;
+    };
+    if (OBM) aoClicar("obm", p => {
+      const v = OBM.paises[p]; if (!v) return;
+      const bloco = (t, xs) => `<h3 class="tk-h2" style="font-size:14px;margin:12px 0 4px">${t}</h3><p style="margin:0">${xs.map(([k, q]) => `${esc(k)} <b>${n(q)}</b>`).join(" · ")}</p>`;
+      abre(cab(`SISMIGRA · ${esc(OBM.periodo)}`, `${esc(NOME_PAIS(p))}: ${plural(v.registros, "registro", "registros")}`, `${n(v.nascidos_no_pais)} nascidos no próprio país. Contagens do arquivo inteiro; nenhum dado individual é mostrado.`),
+        bloco("Estado de residência", v.uf) + bloco("Municípios com mais registros", v.municipios) + bloco("Motivo do registro (tipologia do amparo)", v.tipologia) + bloco("Classificação", v.classificacao) + bloco("Sexo", v.sexo) + bloco("Idade", v.idade) + bloco("Ano de entrada no Brasil", v.ano_entrada));
+    });
     let h = "";
     if (!IB) h += vazio("⛔ IBGE ainda não coletado (workflow dados_publicos.yml).");
     else {
@@ -590,7 +609,7 @@ async function dizem(rede) {
       ${vazio("⛔ Ainda não coletado. A base existe e cobre o período do estudo: o Ministério dos Direitos Humanos publica no dados.gov.br as denúncias do Disque 100 desde 2020, em CSV, e o arquivo do terceiro trimestre de 2026 (julho a setembro) saiu em 05/10/2026. O servidor do gov.br recusou a conexão vinda do GitHub nas três tentativas (run 45100048381); a próxima tentativa é pelo computador do responsável.")}
       <p class="inf-nota">O que esta parte vai mostrar: denúncias de intolerância religiosa por mês, da linha de base (junho e julho) ao núcleo (23/07 a 14/08), e quantas têm vítima muçulmana, se a base trouxer a religião da vítima em cada denúncia (a conferir no cabeçalho do arquivo).</p>
       <h2 class="tk-h2" style="margin-top:24px">Imigração e refúgio por nacionalidade (OBMigra / Ministério da Justiça)</h2>
-      ${vazio("⛔ Não coletado: o portal de microdados da imigração não abriu (erro de conexão em 22/11/2026) e a base não está no catálogo do dados.gov.br. Mede nacionalidade, não religião: serviria para dimensionar as comunidades síria, libanesa, palestina e afegã.")}
+      ${obmigraHTML(OBM)}
       <h2 class="tk-h2" style="margin-top:24px">Intolerância religiosa na internet (SaferNet)</h2>
       <div class="kpigrid"><div class="kpi"><div class="klabel">Denúncias únicas em 2024</div><div class="kval">954</div><div class="knote">intolerância religiosa</div></div><div class="kpi"><div class="klabel">Denúncias únicas em 2025</div><div class="kval">1.145</div><div class="knote">+20%</div></div><div class="kpi"><div class="klabel">2026</div><div class="kval">⛔</div><div class="knote">o indicador anual sai em fevereiro</div></div></div>
       <p class="inf-nota">Fonte: SaferNet, <a href="https://arquivos.safernet.org.br/pdfs/INDICADORES-DenunciasSaferNet2025.pdf" target="_blank" rel="noopener">indicadores da Central Nacional de Denúncias de 2025</a> (PDF). Dado anual e sem separar a religião atacada: serve de contexto, não mede o período do acordo.</p>`;

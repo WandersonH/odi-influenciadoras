@@ -1,5 +1,24 @@
 # Changelog
 
+## 23/11/2026: OBMigra, SISMIGRA de janeiro a julho de 2026 no caderno 10
+
+O SharePoint da UnB recusou o GitHub (401, run 45105347592). A segunda tentativa pelo GitHub, guardando cookies, foi barrada pelo sistema e não rodou. O arquivo veio pelo Chrome do responsável, com autorização dele (0h28): `sismigra_janeiro_julho_2026.zip`, CSV de 31,4 MB, modificado em 19/08/2026. Ele o enviou ao chat.
+- **`scripts/build_obmigra.py`:** lê o CSV inteiro e grava só contagens em `data/dados_publicos/obmigra_sismigra.json`.
+  - Contagens por país: estado, municípios, tipologia do amparo, classificação, sexo, faixa de idade e ano de entrada.
+  - O arquivo traz o SHA-256 `a6922eb884c1fe0749a00c0853ebd88cd584e50b92f0747a57f8af6fa211aa51`.
+  - O CSV bruto vai comprimido só para o repositório privado (`data/obmigra/`).
+- **Config `data/config/obmigra.json`:**
+  - Quatro nacionalidades acompanhadas: Síria, Líbano, Palestina (“Estado da Palestina” no arquivo) e Afeganistão.
+  - Treze países de maioria muçulmana para comparação.
+  - Nota: nacionalidade não é religião.
+- **Executado de verdade:** 151.480 registros lidos, ou seja, o universo do arquivo inteiro.
+  - As quatro nacionalidades somam 1.292 registros: SP 842, PR 204.
+  - Por país: Síria 442, Líbano 322, Palestina 226, Afeganistão 302.
+- **Limite:** `DATAREGISTRO` traz só o ano (2026 em todas as linhas). Não há mês: junho, julho e o núcleo não se separam, e o núcleo depois de 31/07 não está coberto. A página mostra “parcial”.
+- **Página:** o bloco OBMigra do caderno 10 deixa de ser ⛔. Tem cartões e duas tabelas, e cada número abre o detalhe do país.
+- **Teste novo:** `tests/test_obmigra.py`.
+- **Pendente:** SISMIGRA 2010–2025 (série histórica) e refúgio por mês de 2026 (esse tem mês e cobriria junho e julho). Os dois dependem do mesmo caminho manual de download.
+
 ## 23/11/2026: OBMigra, microdados de gov.br/mj (diagnóstico)
 
 O responsável indicou à 0h18 a página de microdados da OBMigra no gov.br/mj como o caminho dos dados. Corrige o que eu tinha dito antes (que só havia 2010 a 2025, pelo DataMigra WEB): a página publica arquivos até 2026.
