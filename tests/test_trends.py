@@ -24,3 +24,28 @@ class TestTrends(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestRelacionados(unittest.TestCase):
+    def test_relacionados_do_tema_ligados(self):
+        import json
+        from pathlib import Path
+        cfg = json.loads((Path(__file__).resolve().parents[1] / "data/config/trends.json").read_text(encoding="utf-8"))
+        rel = cfg.get("relacionados", {})
+        self.assertIn("tema_topicos", rel.get("grupos", []))
+        self.assertIn("tema_palavras", rel.get("grupos", []))
+        self.assertIn("2026-07-23 2026-08-14", rel.get("periodos", []))
+
+    def test_write_related_principais_e_em_alta(self):
+        import csv, tempfile
+        from pathlib import Path
+        data = {"default": {"rankedList": [
+            {"rankedKeyword": [{"query": "hamas israel", "value": 100, "formattedValue": "100"}]},
+            {"rankedKeyword": [{"query": "acordo hamas", "value": 5000, "formattedValue": "Aumento repentino"},
+                               {"topic": {"title": "Desarmamento", "type": "Assunto"}, "value": 350, "formattedValue": "+350%"}]}]}}
+        with tempfile.TemporaryDirectory() as d:
+            n = ct.write_related([("Hamas", "consultas", data)], Path(d) / "r.csv")
+            rows = list(csv.DictReader(open(Path(d) / "r.csv", encoding="utf-8"), delimiter=";"))
+        self.assertEqual(n, 3)
+        self.assertEqual([r["lista"] for r in rows], ["principais", "em_alta", "em_alta"])
+        self.assertEqual(rows[2]["texto"], "Desarmamento")

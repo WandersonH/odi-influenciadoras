@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: Trends "em alta" do tema
+
+O responsável pediu às 23h04 e 23h05: "falta o em alta"; "trends em alta da consulta que estamos estudando". O coletor já sabia ler as consultas e os assuntos relacionados, mas `trends.json` não tinha o bloco `relacionados`, então nada era coletado.
+- **Configuração:** relacionados ligados para os tópicos do tema, as palavras do tema e os nomes, no núcleo e no período inteiro.
+- **Página:** bloco "Em alta: o que se buscou junto com o tema", com consultas em alta, consultas mais buscadas e assuntos em alta, até 10 por termo, no núcleo e no período inteiro.
+- **Testes:** 2 novos (configuração e gravação das duas listas).
+- **Coleta:** `trends.yml` disparado depois deste commit.
+
 ## 22/11/2026: similitude do caderno 09 abre os trechos do corpus ao clicar
 
 O responsável pediu às 23h00: "quero o corpus quando eu clicar aqui", sobre a similitude.

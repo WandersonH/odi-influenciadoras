@@ -373,6 +373,22 @@ async function dizem(rede) {
       blocos.push(`<h2 class="tk-h2" style="margin-top:18px">${titulo}</h2>${grafico(rows, termos)}<p class="inf-nota">Em 31/07: ${termos.map(t => `${esc(t)} ${d31[t] ?? "—"}`).join(" · ")}. Pico do período: ${termos.map(t => { const b = rows.reduce((a, r) => (+r[t] > +a[t] ? r : a), rows[0]); return `${esc(t)} ${b[t]} em ${dataBR(b.timestamp_utc)}`; }).join(" · ")}.</p>`);
     }
     {
+      const recs = [["2026-07-23_2026-08-14", "núcleo (23/07 a 14/08)"], ["eleitoral", "período inteiro (01/06 a 14/08)"]];
+      let h = `<h2 class="tk-h2" style="margin-top:24px">Em alta: o que se buscou junto com o tema</h2><p class="inf-nota" style="margin-top:0">Para cada termo do tema, as duas listas do Trends: <b>em alta</b> (buscas que mais cresceram no período em relação ao período anterior de mesma duração; "Aumento repentino" = mais de 5.000%) e <b>mais buscadas</b> (índice 0 a 100 dentro do termo). Consultas são o texto digitado; assuntos são as entidades que o Google reconhece. Universo ⛔: o Trends mostra só as primeiras de cada lista e não informa volume.</p>`;
+      let algum = false;
+      for (const [rec, rotRec] of recs) {
+        const linhas = [...((await serieCSV(`tema_topicos__${rec}__relacionados.csv`)) || []), ...((await serieCSV(`tema_palavras__${rec}__relacionados.csv`)) || [])];
+        if (!linhas.length) continue;
+        algum = true;
+        const termos = [...new Set(linhas.map(l => l.termo))];
+        const lista = (t, tipo, l) => { const xs = linhas.filter(r => r.termo === t && r.tipo === tipo && r.lista === l).slice(0, 10);
+          return xs.length ? `<ol class="inf-regras" style="font-size:12.5px">${xs.map(r => `<li>${esc(r.texto)}${r.tipo_assunto ? ` <small style="color:#6b7a8c">(${esc(r.tipo_assunto)})</small>` : ""} <small style="color:${l === "em_alta" ? "#9c2b20" : "#6b7a8c"}">${esc(r.valor_formatado || r.valor)}</small></li>`).join("")}</ol>` : `<p class="inf-nota">—</p>`; };
+        h += `<details ${rec.startsWith("2026") ? "open" : ""} style="margin:10px 0"><summary style="font-size:14px"><b>${rotRec}</b> · ${termos.length} termos</summary>
+          <div class="tablewrap"><table class="datatable"><thead><tr><th>Termo</th><th style="color:#9c2b20">Consultas em alta</th><th>Consultas mais buscadas</th><th style="color:#9c2b20">Assuntos em alta</th></tr></thead><tbody>${termos.map(t => `<tr><td><b>${esc(t)}</b></td><td>${lista(t, "consultas", "em_alta")}</td><td>${lista(t, "consultas", "principais")}</td><td>${lista(t, "assuntos", "em_alta")}</td></tr>`).join("")}</tbody></table></div></details>`;
+      }
+      blocos.push(algum ? h : h + vazio("⛔ Relacionados ainda não coletados nesta pasta do Trends (rodar o workflow trends.yml)."));
+    }
+    {
       const SG = await json("data/buscas/sugestoes.json"), GG = await json("data/buscas/google.json");
       const corCat = {proprio: "#1f6b3a", proprio_nao_confirmado: "#6b4fa0", terceiro_sobre_ela: "#165ebd", homonimo: "#7d8997", a_conferir: "#b4472b"};
       let h = `<h2 class="tk-h2" style="margin-top:24px">Buscas indexadas pelo nome das influenciadoras</h2><p class="inf-nota" style="margin-top:0">Como o Trends não mostra série para os nomes, esta parte lê o que o Google associa a cada nome: as sugestões do autocompletar e os primeiros resultados da busca.</p>`;
