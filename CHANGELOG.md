@@ -1,5 +1,9 @@
 # Changelog
 
+## 22/11/2026: mapa de emojis das publicações no caderno 03
+
+O responsável pediu às 23h43 o mapa de emojis também nas publicações delas. No caderno 03, cada influenciadora ganha, por rede, o mapa dos emojis das próprias publicações: legenda, e no YouTube o título. O tamanho é o número de publicações com o emoji. Ao clicar, abrem as publicações com o emoji, o nome dele, o sentimento e a posição no texto. Os dados vêm de `data/emojis.json`, já gerado; nada novo foi coletado.
+
 ## 22/11/2026: clique no caderno 03 (publicações delas)
 
 O responsável apontou às 23h41 que o clique não tinha sido aplicado às publicações delas. No caderno 03 ("O que dizem"), por rede, passam a abrir as publicações:
