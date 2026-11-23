@@ -1,0 +1,545 @@
+{
+ "coletado_em": "2026-11-22T23:55:00Z",
+ "metodo": "Motivo: o Google Trends não devolveu série para os nomes. Coleta: busca do Google no Chrome do responsável em 22/11/2026 (nome entre aspas, hl=pt-BR, gl=br, pws=0), os 10 primeiros resultados orgânicos, em dois recortes: sem data (\"geral\") e só páginas datadas de 23/07 a 14/08/2026 (\"núcleo\", filtro de data do próprio Google). Cada resultado recebe uma categoria (pelo endereço e pelo título, a revisar por uma pessoa): proprio (perfil confirmado em atores.json ou publicação dele), proprio_nao_confirmado (página que parece dela, fora de atores.json), terceiro_sobre_ela, homonimo e a_conferir. Privacidade: título e endereço completos ficam no privado (INFL_INTERNO_DIR/data/buscas/google_resultados.csv). No público vão a posição, o domínio e a categoria; o título só aparece para páginas de terceiros que não são redes sociais (imprensa e sites), como no caderno da imprensa. Universo ⛔: o Google não informa quantas páginas existem. Limite: os resultados variam com o dia, o lugar e a conta; é retrato de 22/11/2026. ",
+ "universo": "⛔ o Google não informa quantas páginas existem",
+ "categorias": {
+  "proprio": "perfil ou publicação dela",
+  "proprio_nao_confirmado": "parece dela, perfil não confirmado",
+  "terceiro_sobre_ela": "terceiro falando dela",
+  "homonimo": "homônimo",
+  "a_conferir": "a conferir"
+ },
+ "por_influenciadora": {
+  "mariam-chami": {
+   "nome": "Mariam Chami",
+   "recortes": {
+    "geral": {
+     "lidos": 7,
+     "por_categoria": {
+      "proprio": 3,
+      "terceiro_sobre_ela": 2,
+      "proprio_nao_confirmado": 2
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "exibirgospel.com.br",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Influenciadora muçulmana perde processo contra Caio ...",
+       "url": "https://exibirgospel.com.br/influenciadora-muculmana-perde-processo-contra-caio-modesto/"
+      },
+      {
+       "posicao": 3,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "youtube.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "elastica.abril.com.br",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Mariam Chami não precisa voltar a seu país",
+       "url": "https://elastica.abril.com.br/especiais/mariam-chami-hijab-muculmana-feminismo-islamismo-religiao/"
+      },
+      {
+       "posicao": 6,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    },
+    "nucleo": {
+     "lidos": 8,
+     "por_categoria": {
+      "a_conferir": 1,
+      "terceiro_sobre_ela": 1,
+      "proprio": 3,
+      "proprio_nao_confirmado": 3
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "instagram.com",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 8,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    }
+   }
+  },
+  "hyatt-omar": {
+   "nome": "Hyatt Omar",
+   "recortes": {
+    "geral": {
+     "lidos": 7,
+     "por_categoria": {
+      "proprio": 2,
+      "terceiro_sobre_ela": 3,
+      "a_conferir": 2
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "ahoradosul.com.br",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "“Quanto mais visibilidade eu fui ganhando, mais eu me ...",
+       "url": "https://ahoradosul.com.br/conteudos/2026/04/12/quanto-mais-visibilidade-eu-fui-ganhando-mais-eu-me-senti-na-responsabilidade-de-compartilhar-o-meu-conhecimento-para-desmistificar/"
+      },
+      {
+       "posicao": 3,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "podcasts.apple.com",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Hyatt Omar | Ativista pela Cau... - Open House",
+       "url": "https://podcasts.apple.com/ar/podcast/hyatt-omar-ativista-pela-causa-palestina-e"
+      },
+      {
+       "posicao": 5,
+       "dominio": "claudia.abril.com.br",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Ativista brasileira-palestina pede: “Humanize o povo ...",
+       "url": "https://claudia.abril.com.br/politica-poder/ativista-brasileira-palestina-pede-humanize-o-povo-palestino/"
+      },
+      {
+       "posicao": 6,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    },
+    "nucleo": {
+     "lidos": 9,
+     "por_categoria": {
+      "proprio": 4,
+      "a_conferir": 4,
+      "homonimo": 1
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 8,
+       "dominio": "facebook.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 9,
+       "dominio": "tiktok.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    }
+   }
+  },
+  "carima-orra": {
+   "nome": "Carima Orra",
+   "recortes": {
+    "geral": {
+     "lidos": 6,
+     "por_categoria": {
+      "proprio": 4,
+      "terceiro_sobre_ela": 2
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "vogue.globo.com",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Influenciadora Carima Orra usa o Instagram para dividir ...",
+       "url": "https://vogue.globo.com/moda/noticia/2022/02/influenciadora-carima-orra-usa-o-instagram-para-di"
+      },
+      {
+       "posicao": 4,
+       "dominio": "youtube.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "ted.com",
+       "categoria": "terceiro_sobre_ela",
+       "titulo": "Carima Orra: Além do véu",
+       "url": "https://www.ted.com/talks/carima_orra_alem_do_veu"
+      }
+     ]
+    },
+    "nucleo": {
+     "lidos": 9,
+     "por_categoria": {
+      "proprio": 4,
+      "a_conferir": 4,
+      "proprio_nao_confirmado": 1
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 8,
+       "dominio": "facebook.com",
+       "categoria": "proprio_nao_confirmado",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 9,
+       "dominio": "instagram.com",
+       "categoria": "a_conferir",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    }
+   }
+  },
+  "fabiola-oliveira": {
+   "nome": "Fabíola Oliveira",
+   "recortes": {
+    "geral": {
+     "lidos": 7,
+     "por_categoria": {
+      "proprio": 3,
+      "homonimo": 4
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "facebook.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "instagram.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "youtube.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "escavador.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "tiktok.com",
+       "categoria": "proprio",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "jusbrasil.com.br",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    },
+    "nucleo": {
+     "lidos": 9,
+     "por_categoria": {
+      "homonimo": 9
+     },
+     "itens": [
+      {
+       "posicao": 1,
+       "dominio": "instagram.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 2,
+       "dominio": "facebook.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 3,
+       "dominio": "br.linkedin.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 4,
+       "dominio": "migalhas.com.br",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 5,
+       "dominio": "www1.folha.uol.com.br",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 6,
+       "dominio": "metropoles.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 7,
+       "dominio": "noticias.uol.com.br",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 8,
+       "dominio": "instagram.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      },
+      {
+       "posicao": 9,
+       "dominio": "g1.globo.com",
+       "categoria": "homonimo",
+       "titulo": null,
+       "url": null
+      }
+     ]
+    }
+   }
+  }
+ }
+}

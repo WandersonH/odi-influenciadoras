@@ -30,3 +30,16 @@ class TestAnonimizacao(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSugestoes(unittest.TestCase):
+    def test_conta_sugestoes_por_consulta(self):
+        import importlib
+        cs = importlib.import_module("collect_sugestoes")
+        self.assertEqual(len(cs.consultas("Mariam Chami")), 28)
+        respostas = {"Mariam Chami": ["mariam chami marido", "mariam chami idade"], "Mariam Chami m": ["mariam chami marido"]}
+        cont = {}
+        for q in cs.consultas("Mariam Chami"):
+            for s in respostas.get(q, []):
+                cont[s] = cont.get(s, 0) + 1
+        self.assertEqual(cont["mariam chami marido"], 2)

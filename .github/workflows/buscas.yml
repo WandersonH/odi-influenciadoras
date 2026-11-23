@@ -1,0 +1,43 @@
+name: Buscas pelo nome das influenciadoras (autocompletar do Google, sem custo)
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: buscas
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Sugestões do Google
+        id: t
+        continue-on-error: true
+        run: |
+          rc=0; python scripts/collect_sugestoes.py > t.txt 2>&1 || rc=$?
+          while IFS= read -r l; do echo "::notice title=Sugestões::$(echo "$l" | cut -c1-900)"; done < t.txt
+          rm -f t.txt; exit $rc
+      - name: Gravar
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Sugestões de busca pelo nome (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.t.outcome == 'failure'
+        run: exit 1

@@ -1,5 +1,25 @@
 # Changelog
 
+## 22/11/2026: buscas indexadas pelo nome (no lugar da série do Trends para os nomes)
+
+O responsável pediu às 22h47: como o Trends não devolve série para os nomes, trazer as pesquisas indexadas por nome.
+- **Sugestões do autocompletar do Google** (`scripts/collect_sugestoes.py`, novo workflow `buscas.yml`, sem custo):
+  - Consultas: nome com e sem aspas e "nome + letra" de a a z (28 consultas por influenciadora), em hl=pt-BR e gl=br.
+  - Cada sugestão conta em quantas consultas apareceu. São agregados do Google, sem dado pessoal, e vão ao público.
+  - Universo ⛔. É retrato do dia da coleta, não do período do evento.
+  - Daqui a rede é bloqueada; o workflow foi disparado depois deste commit.
+- **Os 10 primeiros resultados do Google** pelo Chrome do responsável:
+  - 8 buscas: nome entre aspas, sem data e com filtro de 23/07 a 14/08/2026; pws=0, hl=pt-BR, gl=br. Sem CAPTCHA.
+  - 62 resultados lidos. As buscas devolveram de 6 a 9 resultados orgânicos, não 10.
+  - Título e endereço no privado (`data/buscas/google_resultados.csv`).
+  - Público (`scripts/build_buscas_google.py` → `data/buscas/google.json`): posição, domínio e categoria. O título só aparece para páginas de terceiros fora das redes sociais (imprensa e sites).
+  - Categorias dadas pelo assistente, a revisar: proprio, proprio_nao_confirmado, terceiro_sobre_ela, homonimo, a_conferir.
+  - Achados:
+    - Mariam: no recorte sem data, uma página do exibirgospel sobre o processo contra Caio Modesto. No período, o reel do Caio Modesto ("A Mariam Chami nos processou"), já marcado a conferir no caderno de terceiros.
+    - Fabíola: os 9 resultados do período são de homônimos.
+    - Hyatt e Carima: no período, quase só publicações próprias ou a conferir.
+- **Página:** dois blocos novos no caderno do Trends, abaixo dos gráficos.
+
 ## 22/11/2026: comentários abertos por tema e por palavra, anonimizados (caderno 05)
 
 O responsável pediu às 22h42 e 22h45: "ao clicar sobre o número exiba o corpus com nome anonimizado"; "mesma coisa nas palavras". A regra 10 do CLAUDE.md foi atualizada com essa exceção autorizada.
