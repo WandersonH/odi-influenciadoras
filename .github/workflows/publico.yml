@@ -1,0 +1,73 @@
+name: Público (comentaristas em comum, contas do YouTube, ficha das quatro; sem custo)
+
+# Canais de quem comenta: só no privado. Ao público, contagens e códigos anônimos.
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: coleta-influenciadoras
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publico:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Testes
+        run: python -m unittest discover -s tests -v
+      - name: Repositório privado
+        id: interno
+        env:
+          TOKEN: ${{ secrets.ODI_INTERNO_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ] && git clone -q --depth 1 "https://x-access-token:${TOKEN}@github.com/WandersonH/odi-secret-infl-.git" "$RUNNER_TEMP/interno"; then
+            echo "dir=$RUNNER_TEMP/interno" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error title=Repositório privado::sem acesso — nada é lido"; exit 1
+          fi
+      - name: Canais (YouTube API)
+        id: c
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          python scripts/collect_canais_comentaristas.py > o.txt 2>&1; rc=$?
+          while IFS= read -r l; do echo "::notice title=Canais::$(echo "$l" | cut -c1-900)"; done < o.txt; rm -f o.txt; exit $rc
+      - name: Agregados
+        env:
+          INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
+        run: |
+          python scripts/build_publico.py > o.txt 2>&1; rc=$?
+          while IFS= read -r l; do echo "::notice title=Público::$(echo "$l" | cut -c1-900)"; done < o.txt; rm -f o.txt; exit $rc
+      - name: Gravar (público)
+        if: always()
+        run: |
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Público (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Gravar (privado)
+        if: always() && steps.interno.outputs.dir != ''
+        run: |
+          cd "${{ steps.interno.outputs.dir }}"
+          git config user.name "odi-influenciadoras-coletor"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Canais dos comentaristas (run ${{ github.run_id }})"
+          for t in 1 2 3 4 5; do { git push -q 2>/dev/null || { git pull -q --rebase && git push -q; }; } && exit 0; sleep $((t * 10)); done
+          exit 1
+      - name: Resultado
+        if: steps.c.outcome == 'failure'
+        run: exit 1

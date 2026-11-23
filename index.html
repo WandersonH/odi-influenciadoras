@@ -96,6 +96,7 @@
   <div id="p5Destaque"></div>
   <div class="card" id="p5Corpo"></div>
   <div class="card" id="p5Emojis" style="margin-top:17px"></div>
+  <div class="card" id="p5Publico" style="margin-top:17px"></div>
 </section>
 
 <section class="panel" id="terceiros" aria-label="Quem fala delas">
@@ -694,6 +695,56 @@ async function dizem(rede) {
     el.addEventListener("click", ev => { if (ev.target === el || ev.target.closest(".inf-fecha")) fecha(); });
     document.addEventListener("keydown", ev => { if (ev.key === "Escape" && !el.hidden) fecha(); });
     return el;
+  }
+
+  // Caderno 05: quem acompanha as quatro (ficha, público em comum, contas de quem comenta no YouTube)
+  {
+    const PB = await json("data/publico/publico.json");
+    const ordem = ["mariam-chami", "carima-orra", "fabiola-oliveira", "hyatt-omar"];
+    const pais = (() => { try { const dn = new Intl.DisplayNames(["pt-BR"], {type: "region"}); return c => dn.of(c) || c; } catch (e) { return c => c; } })();
+    const dt = d => d ? dataBR(String(d).slice(0, 10) + "T12:00:00Z") : "—";
+    const btn = (no, q) => q ? `<button type="button" class="inf-abre inf-no" data-no="${esc(no)}" title="Ler os comentários (autor anonimizado)">${n(q)}</button>` : "0";
+    let h = `<div class="eyebrow">Quem acompanha as quatro · sem custo novo · clique num número para ler os comentários (autor anonimizado)</div><h2 class="tk-h2">Porte das contas, público em comum e contas de quem comenta</h2>`;
+    if (!PB) h += vazio("⛔ Ainda não gerado (workflow publico.yml).");
+    else {
+      const TT = (PB.ficha.tiktok || {}).perfis || {}, YT = ((PB.ficha.youtube || {}).canais) || {};
+      h += `<h2 class="tk-h2" style="font-size:16px;margin-top:10px">Ficha das quatro contas</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">TikTok · seguidores</th><th class="inf-num">curtidas</th><th class="inf-num">vídeos</th><th>conta criada</th><th class="inf-num">YouTube · inscritos</th><th class="inf-num">vídeos</th><th>canal criado</th><th>Instagram · seguidores</th></tr></thead><tbody>${ordem.map(a => { const t = TT[a] || {}, y = YT[a]; return `<tr><td>${esc(nomes[a] || a)}${t.verificada ? " ✓" : ""}</td><td class="inf-num">${t.seguidores != null ? n(t.seguidores) : "⛔"}</td><td class="inf-num">${t.curtidas != null ? n(t.curtidas) : "—"}</td><td class="inf-num">${t.videos != null ? n(t.videos) : "—"}</td><td>${dt(t.criada_em)}</td><td class="inf-num">${y ? (y.inscritos != null ? n(+y.inscritos) : "oculto") : "⛔"}</td><td class="inf-num">${y && y.videos != null ? n(+y.videos) : "—"}</td><td>${y ? dt(y.criado_em) : "—"}</td><td>⛔</td></tr>`; }).join("")}</tbody></table></div>
+        <p class="inf-nota">TikTok: ${esc((PB.ficha.tiktok || {}).fonte || "⛔ sem dado")}, coleta de ${dt((PB.ficha.tiktok || {}).coletado_em)} (o número é o do dia da coleta, não o de julho; ✓ = conta verificada). YouTube: ${PB.ficha.youtube ? `${esc(PB.ficha.youtube.fonte)}, coleta de ${dt(PB.ficha.youtube.gerado_em)}` : "⛔ ainda não lido (workflow publico.yml)"}. Instagram: ${esc(PB.ficha.instagram)}. Idade, gênero e país dos seguidores só aparecem para a dona da conta, no painel de estatísticas de cada rede: não estão aqui e não são estimados.</p>`;
+      const nomeRede = {youtube: "YouTube", instagram: "Instagram", tiktok: "TikTok"};
+      h += `<h2 class="tk-h2" style="font-size:16px;margin-top:16px">Público em comum: quem comenta em mais de uma</h2>` + Object.entries(PB.comum).map(([r, c]) => {
+        const so = Object.keys(c.autores).length < 2;
+        return `<h3 class="tk-h2" style="font-size:14px;margin:12px 0 4px">${nomeRede[r]} · ${n(c.comentarios)} comentários de ${n(c.autores_distintos)} autores</h3>
+          ${so ? `<p class="inf-nota" style="margin:0">Só ${esc(nomes[Object.keys(c.autores)[0]] || "")} tem publicações no núcleo nesta rede: não há com quem comparar.</p>` : `<p style="margin:0 0 6px">${ordem.filter(a => c.autores[a] != null).map(a => `${esc(nomes[a] || a)} <b>${n(c.autores[a])}</b>`).join(" · ")} · <b>${btn(`${r}|multi|`, c.em_duas_ou_mais)}</b> comentaram em duas ou mais (${(100 * c.em_duas_ou_mais / c.autores_distintos).toLocaleString("pt-BR", {maximumFractionDigits: 1})}%)</p>
+          <div class="tablewrap"><table class="datatable"><thead><tr><th>Par</th><th class="inf-num">Autores em comum</th><th class="inf-num">Sobreposição (Jaccard)</th></tr></thead><tbody>${c.pares.map((p, i) => `<tr><td>${esc(nomes[p.a] || p.a)} × ${esc(nomes[p.b] || p.b)}</td><td class="inf-num">${btn(`${r}|par|${i}`, p.comum)}</td><td class="inf-num">${p.jaccard_pct.toLocaleString("pt-BR")}%</td></tr>`).join("")}</tbody></table></div>`}`;
+      }).join("") + `<p class="inf-nota">Autores distintos que comentaram nas publicações do núcleo de cada uma. Jaccard = autores em comum ÷ autores das duas juntas. A comparação é dentro da mesma rede: o mesmo @ em redes diferentes não prova que é a mesma pessoa. No Instagram e no TikTok os comentários lidos são amostra (até 50 por publicação, na ordem da plataforma), então a sobreposição real pode ser maior. Mede o público que comenta, não todos os seguidores.</p>`;
+      const CY = PB.contas_youtube;
+      h += `<h2 class="tk-h2" style="font-size:16px;margin-top:16px">Contas de quem comenta no YouTube: quando foram criadas e de que país se declaram</h2>`;
+      if (!CY) h += vazio("⛔ Ainda não lido: o workflow publico.yml busca, pela API oficial do YouTube, a data de criação e o país declarado do canal de cada autor.");
+      else {
+        const mx = Math.max(1, ...CY.faixas.map(f => f.canais));
+        h += `<div class="kpigrid"><div class="kpi"><div class="klabel">Canais lidos</div><div class="kval">${n(CY.canais_lidos)}</div><div class="knote">de ${n(CY.autores)} autores dos comentários (universo)</div></div>
+          <div class="kpi"><div class="klabel">Criados até 30 dias antes do 1º comentário</div><div class="kval">${btn("youtube|recentes|", CY.criados_ate_30_dias_antes_do_1o_comentario)}</div><div class="knote">${(100 * CY.criados_ate_30_dias_antes_do_1o_comentario / Math.max(1, CY.canais_lidos)).toLocaleString("pt-BR", {maximumFractionDigits: 1})}% dos canais lidos</div></div>
+          <div class="kpi"><div class="klabel">Declaram país</div><div class="kval">${n(CY.com_pais)}</div><div class="knote">de ${n(CY.canais_lidos)} canais (campo opcional)</div></div></div>
+          <div class="inf-duas"><div><table class="datatable"><thead><tr><th>Canal criado em</th><th class="inf-num">Canais</th><th></th></tr></thead><tbody>${CY.faixas.map(f => `<tr><td>${esc(f.faixa)}</td><td class="inf-num">${btn(`youtube|faixa|${f.faixa}`, f.canais)}</td><td style="width:40%"><div style="height:9px;background:#165ebd;width:${(100 * f.canais / mx).toFixed(1)}%"></div></td></tr>`).join("")}</tbody></table></div>
+          <div><table class="datatable"><thead><tr><th>País declarado</th><th class="inf-num">Canais</th></tr></thead><tbody>${CY.paises.slice(0, 15).map(p => `<tr><td>${esc(pais(p.pais))}</td><td class="inf-num">${btn(`youtube|pais|${p.pais}`, p.canais)}</td></tr>`).join("")}<tr><td><i>sem país declarado</i></td><td class="inf-num">${n(CY.canais_lidos - CY.com_pais)}</td></tr></tbody></table></div></div>
+          <p class="inf-nota">Canal = conta Google de quem comentou, lida pela API oficial do YouTube (comments.list e channels.list) em ${dt(CY.coletado_em)}. Conta nova perto do acordo é só indício de conta criada para o momento, não prova de coordenação. O país é o que o dono escreveu no perfil, sem verificação. Só a Mariam Chami tem vídeos no núcleo, então todos esses autores são do canal dela. No Instagram e no TikTok a data de criação de quem comenta não é pública.</p>`;
+      }
+      h += `<p class="inf-nota">${esc(PB.metodo)}</p>`;
+    }
+    $("p5Publico").innerHTML = `<div data-ctx="pub">${h}</div>`;
+    if (PB) aoClicar("pub", async no => {
+      const [r, tipo, k] = no.split("|");
+      let cods = [], atores = null, tit = "";
+      if (tipo === "multi") { cods = PB.comum[r].codigos_duas_ou_mais; tit = "autores que comentaram em duas ou mais"; }
+      else if (tipo === "par") { const p = PB.comum[r].pares[+k]; cods = p.codigos; atores = [p.a, p.b]; tit = `em comum entre ${nomes[p.a] || p.a} e ${nomes[p.b] || p.b}`; }
+      else if (tipo === "recentes") { cods = PB.contas_youtube.codigos_recentes; tit = "canais criados até 30 dias antes do primeiro comentário"; }
+      else if (tipo === "faixa") { cods = (PB.contas_youtube.faixas.find(f => f.faixa === k) || {}).codigos || []; tit = `canais criados em: ${k}`; }
+      else if (tipo === "pais") { cods = (PB.contas_youtube.paises.find(p => p.pais === k) || {}).codigos || []; tit = `país declarado: ${pais(k)}`; }
+      abre(cab(REDES[r] || r, "Carregando…", ""), "");
+      const C = await comentarios([r]), S = new Set(cods);
+      const xs = C.filter(x => S.has(x.u) && (!atores || atores.includes(x.a))).sort((a, b) => a.u.localeCompare(b.u) || (a.d || "").localeCompare(b.d || ""));
+      abre(cab(`${esc(REDES[r] || r)} · ${esc(tit)}`, `${plural(S.size, "autor", "autores")} · ${plural(xs.length, "comentário", "comentários")}`, NOTA_COM), listaCom(xs));
+    });
   }
 
   // Caderno 05: comentários (só contagens)

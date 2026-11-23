@@ -1,5 +1,28 @@
 # Changelog
 
+## 23/11/2026: quem acompanha as quatro (caderno 05)
+
+O responsável aprovou à 0h52 os quatro itens da avaliação da comparação de seguidores. Idade, gênero e país dos seguidores só aparecem no painel da dona da conta: ficam fora e não são estimados. A lista de seguidores pela Apify não foi usada: gastaria o saldo sem responder à pergunta.
+- **`scripts/build_publico.py`** (lê o privado e grava `data/publico/publico.json` só com contagens e códigos anônimos, os mesmos do corpus):
+  1. **Público em comum.** Autores distintos por influenciadora e por rede, pares com autores em comum e Jaccard, e quantos comentaram em duas ou mais. A comparação é só dentro da mesma rede.
+  2. e 3. **Faixas de criação do canal e país declarado** de quem comenta no YouTube, a partir de `data/canais/youtube_comentaristas.csv` no privado.
+  4. **Ficha das quatro contas.**
+     - TikTok: seguidores, curtidas, vídeos, criação e verificação, tirados do arquivo bruto da coleta de publicações de 22/11. Sem custo novo.
+     - YouTube: `canais_proprios.json`.
+     - Instagram: ⛔, porque o coletor de publicações não traz seguidores.
+- **`scripts/collect_canais_comentaristas.py`** (API oficial do YouTube, sem custo):
+  - `comments.list` por id, 50 por chamada: dá o canal de cada autor.
+  - `channels.list`: data de criação, país declarado e os canais das quatro.
+  - O que identifica pessoa fica só no privado.
+- **Workflow novo `publico.yml`**. O `comentarios.yml` também passa a rodar `build_publico.py`.
+- **Página (caderno 05, bloco novo):** ficha, público em comum e contas do YouTube. Todo número de autores abre os comentários anonimizados desses autores.
+- **Executado localmente** com os CSVs do privado:
+  - Instagram: 999 autores, 23 em duas ou mais. O par com mais autores em comum é Carima × Mariam, com 11.
+  - TikTok: 898 autores, 3 em duas ou mais.
+  - YouTube: só a Mariam tem vídeos no núcleo (1947 autores).
+- **Testes novos:** `tests/test_publico.py`.
+- **Pendente:** o run de `publico.yml`, que traz a criação e o país dos canais e a ficha do YouTube. Disparado depois deste commit.
+
 ## 23/11/2026: Disque 100 sai da página
 
 O responsável corrigiu à 0h44: o Disque 100 não deve aparecer na página enquanto não houver o arquivo; o ⛔ “desativado por enquanto” não era o certo. O bloco foi retirado do caderno 10, e a apresentação do caderno deixou de citar o Disque 100. Nada foi apagado do repositório: o workflow, a função de diagnóstico e `disque100_diagnostico.json` continuam lá, prontos para quando o arquivo vier.

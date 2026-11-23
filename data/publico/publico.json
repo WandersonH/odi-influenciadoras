@@ -1,0 +1,237 @@
+{
+ "gerado_em": "2026-11-23T03:55:17Z",
+ "run_id": "local",
+ "metodo": "Só contagens e códigos anônimos vão ao público (os mesmos do corpus de comentários: A0001 no YouTube, IG0001, TT0001).\n1. Público em comum: por rede, autores distintos que comentaram nas publicações do núcleo de cada influenciadora e\n   quantos comentaram em duas ou mais. A comparação é dentro da mesma rede: o mesmo @ em redes diferentes não prova que\n   é a mesma pessoa, e por isso não entra.\n2. Criação das contas (YouTube): data de criação do canal de cada autor (channels.list snippet.publishedAt), por faixa,\n   com destaque para os canais criados na linha de base (01/06 a 22/07/2026) e no núcleo (23/07 a 14/08/2026).\n3. País declarado (YouTube): snippet.country, campo opcional; o universo é o total de canais lidos.\n4. Ficha das quatro: TikTok (seguidores, curtidas, vídeos, criação da conta, do item mais recente lido pela Apify na coleta\n   de publicações; sem custo novo) e YouTube (channels.list). Instagram: o coletor de publicações não traz seguidores (⛔).",
+ "comum": {
+  "youtube": {
+   "comentarios": 2698,
+   "autores": {
+    "mariam-chami": 1947
+   },
+   "autores_distintos": 1947,
+   "em_duas_ou_mais": 0,
+   "codigos_duas_ou_mais": [],
+   "pares": []
+  },
+  "instagram": {
+   "comentarios": 1323,
+   "autores": {
+    "carima-orra": 393,
+    "fabiola-oliveira": 21,
+    "hyatt-omar": 146,
+    "mariam-chami": 462
+   },
+   "autores_distintos": 999,
+   "em_duas_ou_mais": 23,
+   "codigos_duas_ou_mais": [
+    "IG0008",
+    "IG0012",
+    "IG0019",
+    "IG0087",
+    "IG0118",
+    "IG0129",
+    "IG0137",
+    "IG0153",
+    "IG0222",
+    "IG0247",
+    "IG0290",
+    "IG0294",
+    "IG0311",
+    "IG0332",
+    "IG0371",
+    "IG0378",
+    "IG0394",
+    "IG0460",
+    "IG0604",
+    "IG0633",
+    "IG0650",
+    "IG0704",
+    "IG0868"
+   ],
+   "pares": [
+    {
+     "a": "carima-orra",
+     "b": "mariam-chami",
+     "comum": 11,
+     "jaccard_pct": 1.3,
+     "codigos": [
+      "IG0008",
+      "IG0012",
+      "IG0019",
+      "IG0129",
+      "IG0137",
+      "IG0153",
+      "IG0332",
+      "IG0371",
+      "IG0378",
+      "IG0460",
+      "IG0604"
+     ]
+    },
+    {
+     "a": "carima-orra",
+     "b": "hyatt-omar",
+     "comum": 5,
+     "jaccard_pct": 0.94,
+     "codigos": [
+      "IG0087",
+      "IG0118",
+      "IG0311",
+      "IG0394",
+      "IG0868"
+     ]
+    },
+    {
+     "a": "hyatt-omar",
+     "b": "mariam-chami",
+     "comum": 4,
+     "jaccard_pct": 0.66,
+     "codigos": [
+      "IG0247",
+      "IG0290",
+      "IG0294",
+      "IG0633"
+     ]
+    },
+    {
+     "a": "fabiola-oliveira",
+     "b": "hyatt-omar",
+     "comum": 2,
+     "jaccard_pct": 1.21,
+     "codigos": [
+      "IG0222",
+      "IG0650"
+     ]
+    },
+    {
+     "a": "carima-orra",
+     "b": "fabiola-oliveira",
+     "comum": 1,
+     "jaccard_pct": 0.24,
+     "codigos": [
+      "IG0704"
+     ]
+    },
+    {
+     "a": "fabiola-oliveira",
+     "b": "mariam-chami",
+     "comum": 0,
+     "jaccard_pct": 0.0,
+     "codigos": []
+    }
+   ]
+  },
+  "tiktok": {
+   "comentarios": 950,
+   "autores": {
+    "carima-orra": 57,
+    "fabiola-oliveira": 101,
+    "hyatt-omar": 43,
+    "mariam-chami": 700
+   },
+   "autores_distintos": 898,
+   "em_duas_ou_mais": 3,
+   "codigos_duas_ou_mais": [
+    "TT0018",
+    "TT0020",
+    "TT0149"
+   ],
+   "pares": [
+    {
+     "a": "carima-orra",
+     "b": "fabiola-oliveira",
+     "comum": 1,
+     "jaccard_pct": 0.64,
+     "codigos": [
+      "TT0018"
+     ]
+    },
+    {
+     "a": "fabiola-oliveira",
+     "b": "mariam-chami",
+     "comum": 1,
+     "jaccard_pct": 0.12,
+     "codigos": [
+      "TT0020"
+     ]
+    },
+    {
+     "a": "hyatt-omar",
+     "b": "mariam-chami",
+     "comum": 1,
+     "jaccard_pct": 0.13,
+     "codigos": [
+      "TT0149"
+     ]
+    },
+    {
+     "a": "carima-orra",
+     "b": "hyatt-omar",
+     "comum": 0,
+     "jaccard_pct": 0.0,
+     "codigos": []
+    },
+    {
+     "a": "carima-orra",
+     "b": "mariam-chami",
+     "comum": 0,
+     "jaccard_pct": 0.0,
+     "codigos": []
+    },
+    {
+     "a": "fabiola-oliveira",
+     "b": "hyatt-omar",
+     "comum": 0,
+     "jaccard_pct": 0.0,
+     "codigos": []
+    }
+   ]
+  }
+ },
+ "ficha": {
+  "tiktok": {
+   "fonte": "Apify (clockworks/tiktok-scraper), dados do perfil que vêm junto de cada publicação; o mais recente lido",
+   "coletado_em": "2026-11-22",
+   "perfis": {
+    "mariam-chami": {
+     "perfil": "@mariamchami1",
+     "seguidores": 2300000,
+     "seguindo": 129,
+     "curtidas": 90300000,
+     "videos": 3628,
+     "verificada": true,
+     "criada_em": "2020-03-15"
+    },
+    "carima-orra": {
+     "perfil": "@carimaorra1",
+     "seguidores": 196000,
+     "seguindo": 223,
+     "curtidas": 3100000,
+     "videos": 570,
+     "verificada": false,
+     "criada_em": "2018-01-10"
+    },
+    "fabiola-oliveira": {
+     "perfil": "@fabiolaoliver",
+     "seguidores": 145600,
+     "seguindo": 584,
+     "curtidas": 4800000,
+     "videos": 941,
+     "verificada": false,
+     "criada_em": "2016-10-25"
+    },
+    "hyatt-omar": {
+     "perfil": "@hyattomar",
+     "seguidores": 80800,
+     "seguindo": 112,
+     "curtidas": 4000000,
+     "videos": 226,
+     "verificada": false,
+     "criada_em": "2022-03-14"
+    }
+   }
+  },
+  "youtube": null,
+  "instagram": "⛔ o coletor de publicações do Instagram não traz o número de seguidores"
+ }
+}
