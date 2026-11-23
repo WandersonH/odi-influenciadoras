@@ -1,5 +1,9 @@
 # Changelog
 
+## 22/11/2026: testes de novo compatíveis com os workflows sem numpy
+
+O run 45097399874 (`buscas.yml`) parou nos testes. Causa: o teste do corpus da imprensa, criado hoje, importa `build_corpus_imprensa`, que precisa de numpy, e `buscas.yml`, `trends.yml` e `checagens.yml` não instalam numpy. O erro também teria parado o Trends e as checagens. Correção: esse teste pula quando falta a dependência. Conferido com numpy, networkx e scipy escondidos: 43 testes, 3 pulados, nenhuma falha. Coleta das sugestões disparada de novo.
+
 ## 22/11/2026: buscas indexadas pelo nome (no lugar da série do Trends para os nomes)
 
 O responsável pediu às 22h47: como o Trends não devolve série para os nomes, trazer as pesquisas indexadas por nome.

@@ -57,7 +57,10 @@ class TestTextoImprensa(unittest.TestCase):
         from pathlib import Path as _P
         _s.path.insert(0, str(_P(__file__).resolve().parents[1] / "scripts"))
         self.cit = importlib.import_module("collect_imprensa_texto")
-        self.bci = importlib.import_module("build_corpus_imprensa")
+        try:
+            self.bci = importlib.import_module("build_corpus_imprensa")
+        except ModuleNotFoundError as e:  # workflows sem numpy (Trends, buscas) rodam os testes sem a CHD
+            self.skipTest(f"dependência ausente: {e.name}")
 
     def test_materias_distintas_com_recortes(self):
         res = {"consultas": [
