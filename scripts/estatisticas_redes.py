@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""Estatísticas das redes (os mesmos indicadores do painel Statistics do Gephi), para todas as redes dos casos.
+"""Estatísticas das redes do estudo (os mesmos indicadores do painel Statistics do Gephi).
 
-Pedido do responsável (07/11/2026, 19h25): "existem 2 tipos de redes que vamos explorar no Gephi: Force Atlas 2 para ver
-comunidades e OpenOrd para ver polarização. Vamos ver grupos pelo modularity e identificar qual a % desses; registre o
-csv com os cálculos".
+Duas leituras no Gephi: ForceAtlas 2 para ver comunidades e OpenOrd para ver polarização; os grupos vêm do Modularity,
+com a porcentagem de nós em cada um, e os cálculos ficam em CSV.
 
-Por rede (data/casos/<id>/*.gexf):
+Por rede (data/redes/*.gexf):
 - nós, arestas, dirigida, densidade (Graph Density), grau médio e grau ponderado médio (Average Degree);
 - componentes conectados (Connected Components; fracamente conectados quando dirigida) e % de nós no maior;
 - coeficiente de clustering médio (Avg. Clustering Coefficient, como grafo não dirigido);
@@ -17,7 +16,7 @@ Por rede (data/casos/<id>/*.gexf):
 - diâmetro e caminho médio (Network Diameter, Avg. Path Length) só no maior componente e só até 3.000 nós (acima disso
   ficam vazios: o cálculo exato fica caro demais para a rotina).
 
-Também (07/11/2026, "você não olhou o tamanho, não olhou densidade, eu veria tudo"): tamanho do maior componente,
+Também: tamanho do maior componente,
 assortatividade de grau, reciprocidade (dirigidas) e os 5 nós de maior grau ponderado, PageRank, intermediação,
 autovetor e HITS (dirigidas) → data/redes/centralidades_redes.csv.
 Saídas: data/redes/estatisticas_redes.csv (uma linha por rede) e data/redes/comunidades_redes.csv (uma linha por
@@ -170,9 +169,9 @@ def estatisticas(arq: str) -> tuple[dict, list[dict]]:
 
 def main(argv=None) -> int:
     argv = sys.argv[1:] if argv is None else argv
-    so = argv[argv.index("--caso") + 1] if "--caso" in argv else "*"
+    so = argv[argv.index("--rede") + 1] if "--rede" in argv else "*"
     maxn = int(argv[argv.index("--max-nos") + 1]) if "--max-nos" in argv else 200000
-    arqs = sorted(glob.glob(f"data/casos/{so}/*.gexf"))
+    arqs = sorted(glob.glob(f"data/redes/{so}.gexf"))
     linhas, coms, erros, cents = [], [], [], []
     for a in arqs:
         try:

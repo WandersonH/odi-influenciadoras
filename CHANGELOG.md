@@ -1,5 +1,20 @@
 # Changelog
 
+## 23/11/2026: auditoria crítica, ajustes
+
+O responsável pediu à 2h01 uma avaliação crítica. À 2h07 respondeu item a item: Stories e Destaques, “ok”; comentários anonimizados, “fica assim” (sem mudança); Wayback, “teste e veja”; e os itens 1 e 6, “erro seu […] ajusta”.
+- **Caderno 01:** o cartão “Posição codificada” dizia “falta transcrição”. Mas a transcrição está feita (YouTube 16/16, TikTok 28/28, Instagram 29/30, pelos manifestos `transcricao_*_latest.json`). Agora diz que falta a codificação humana com kappa.
+- **Caderno 02:** nota nova, “Stories não entram”. O método dizia “dito no caderno 02”, mas o caderno não dizia.
+- **Caderno 07:** o ⛔ dos nomes no Trends passa a aparecer como resultado (abaixo do limiar do Trends), não como falha.
+- **Caderno 08:** o aviso dizia que a rede de comentaristas dependia da coleta de comentários, mas ela já existe. Agora fala só da rede de quem cita quem, que depende da revisão de homônimos.
+- **`scripts/estatisticas_redes.py`:**
+  - saem do docstring as citações de pedidos de 07/11/2026, anteriores a este projeto (regra de autoria própria);
+  - o `main` passa a ler `data/redes/*.gexf` e não uma pasta de outro projeto. Nenhum workflow chama esse `main`.
+- **Método, limites (`metodologia.json`):**
+  - **Linha de Stories:** registra a conferência dos Destaques, feita no Chrome do responsável. Foram lidos só 3 dos 14 destaques da Hyatt Omar: UNESCO (15 itens, 2023), Romênia (39, 2024) e Turquia (42, 2024). Nenhum é de 2026. O responsável interrompeu a leitura às 2h13 (“pra que tu ta vendo coisa de 116 semanas”).
+  - **Linha nova:** seguidores lidos em novembro. A Wayback Machine (API CDX) não tem cópia de nenhum perfil das quatro entre maio e agosto de 2026, em Instagram, TikTok, YouTube e X. As cópias mais recentes da Mariam são: Instagram 30/07/2025, YouTube 19/02/2026, TikTok 09/12/2023.
+- **Topics dos repositórios:** não aplicados. O proxy desta sessão recusa a escrita em `/topics` (HTTP 403), e a página do GitHub não abriu no Chrome. Continua pendente.
+
 ## 23/11/2026: seguidores do Instagram na ficha das quatro
 
 O responsável perguntou à 1h45 por que a coluna do Instagram estava ⛔. O motivo: o coletor de publicações (esdrasdw) não traz o número de seguidores. Em vez de uma coleta paga, abri a página pública de cada perfil no Chrome dele e li os números.

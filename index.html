@@ -308,7 +308,7 @@ async function dizem(rede) {
       ["Canais do YouTube lidos", n(ok.length) + " de " + n(M.atores.length), "perfis confirmados"],
       ["Publicações no núcleo", n(nucleo.length), "YouTube, Instagram, TikTok e X · 23/07 a 14/08"],
       ["No núcleo, com termos do tema", n(tema.length), "Hamas, desarmamento, Gaza, Palestina, árabe"],
-      ["Posição codificada", "⛔", "falta transcrição e codificação humana"],
+      ["Posição codificada", "⛔", "transcrição feita (YouTube 16/16, TikTok 28/28, Instagram 29/30); falta a codificação humana com kappa"],
     ].map(k => `<div class="kpi"><div class="klabel">${k[0]}</div><div class="kval">${k[1]}</div><div class="knote">${k[2]}</div></div>`).join("");
     $("p1Tabela").innerHTML = `<thead><tr><th>Influenciadora</th><th>Rede</th><th class="inf-num">Universo</th><th class="inf-num">Lidos base</th><th class="inf-num">Lidos núcleo</th><th>Cobertura</th></tr></thead><tbody>${M.atores.map(a => a.canal
       ? `<tr><td>${esc(nomes[a.ator] || a.ator)}</td><td>YouTube</td><td class="inf-num">${a.universo_canal == null ? "⛔" : n(a.universo_canal)}</td><td class="inf-num">${n(a.lidos_base)}</td><td class="inf-num">${n(a.lidos_nucleo)}</td><td>${a.cobertura.startsWith("completa") ? '<span class="inf-sit ok">completa</span>' : '<span class="inf-sit bloq">parcial ⛔</span>'}${!a.lidos_base && !a.lidos_nucleo && ultYT(a.ator) ? `<br><small>último vídeo do canal: ${ultYT(a.ator)}</small>` : ""}</td></tr>`
@@ -346,6 +346,7 @@ async function dizem(rede) {
     }).join("");
     $("p2Corpo").innerHTML = `<div class="eyebrow">Leitura automática · antes da codificação humana</div><h2 class="tk-h2">Quem citou o tema no núcleo</h2>
       <div class="tablewrap"><table class="datatable"><thead><tr><th>Influenciadora</th><th class="inf-num">Publicações no núcleo</th><th class="inf-num">Legenda cita o tema</th><th class="inf-num">Vídeos com fala transcrita</th><th class="inf-num">Fala cita o tema</th><th>Pendência</th></tr></thead><tbody>${linhas}</tbody></table></div>
+      <p class="inf-nota"><b>Stories não entram.</b> Os Stories somem em 24 horas e não podem ser recuperados depois; só os que a dona guardou nos Destaques continuam no perfil. Por isso “não citou” aqui quer dizer “não citou no feed, nos vídeos e nas legendas”: a reação pode ter ido para os Stories.</p>
       <p class="inf-nota">Termos procurados: ${tema.join(", ")}. Transcrição automática (Whisper small), sujeita a erro de escuta. Uma menção não é posição: a posição só é atribuída depois da codificação humana com o livro de códigos (kappa ≥ 0,70), ainda ⛔ não feita.</p>
       ${trechos ? `<h2 class="tk-h2" style="margin-top:22px">Trechos em que a fala cita um termo</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Data</th><th>Influenciadora</th><th>Rede</th><th>Termo</th><th>Trecho</th><th></th></tr></thead><tbody>${trechos}</tbody></table></div><p class="inf-nota">Os trechos mostram o contexto: nenhum deles trata do acordo de 31/07.</p>` : ""}`;
   }
@@ -396,7 +397,7 @@ async function dizem(rede) {
   else {
     const blocos = [];
     for (const [arq, titulo] of [["tema_topicos__eleitoral__serie.csv", "Tópicos: Hamas e Faixa de Gaza"], ["tema_palavras__eleitoral__serie.csv", "Palavras do tema"], ["influenciadoras_palavras__eleitoral__serie.csv", "Nomes das influenciadoras"]]) {
-      const rows = await serieCSV(arq); if (!rows || !rows.length) { blocos.push(`<h2 class="tk-h2">${titulo}</h2>${vazio("⛔ O Trends não devolveu série nesta coleta: volume de buscas abaixo do mínimo que ele mostra para esses nomes no período.")}`); continue; }
+      const rows = await serieCSV(arq); if (!rows || !rows.length) { blocos.push(`<h2 class="tk-h2">${titulo}</h2>${(arq.startsWith("influenciadoras") ? `<div class="inf-vazio" style="background:#f4f7fa">Resultado: abaixo do limiar do Google Trends. O Trends não mostrou série para os nomes no período: o volume de buscas ficou abaixo do mínimo que ele exibe, enquanto os termos do tema aparecem acima. Isso é um achado, não uma falha de coleta: nenhum dos quatro nomes gerou procura suficiente para entrar na medição, nem no anúncio de 31/07. O que se buscou pelos nomes está nas sugestões e nos resultados do Google, abaixo.</div>` : vazio("⛔ O Trends não devolveu série nesta coleta: volume de buscas abaixo do mínimo que ele mostra para esses termos no período."))}`); continue; }
       const termos = Object.keys(rows[0]).filter(k => !["timestamp_utc", "rotulo", "parcial"].includes(k));
       const d31 = rows.find(r => r.timestamp_utc.startsWith("2026-07-31")) || {};
       blocos.push(`<h2 class="tk-h2" style="margin-top:18px">${titulo}</h2>${grafico(rows, termos)}<p class="inf-nota">Em 31/07: ${termos.map(t => `${esc(t)} ${d31[t] ?? "—"}`).join(" · ")}. Pico do período: ${termos.map(t => { const b = rows.reduce((a, r) => (+r[t] > +a[t] ? r : a), rows[0]); return `${esc(t)} ${b[t]} em ${dataBR(b.timestamp_utc)}`; }).join(" · ")}.</p>`);
@@ -846,7 +847,7 @@ async function dizem(rede) {
         ${tabEstat(R8)}
         <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/marcacoes.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/marcacoes.graphml" download>GraphML</a> · <a href="data/redes/marcacoes_nos.csv" download>nós (CSV, NodeXL)</a> · <a href="data/redes/marcacoes_arestas.csv" download>arestas completas, sem corte (CSV)</a> · <a href="data/redes/estatisticas_redes.csv" download>estatísticas (CSV)</a> · <a href="data/redes/centralidades_redes.csv" download>centralidades (CSV)</a> · <a href="data/redes/comunidades_redes.csv" download>comunidades (CSV)</a></p>
         <p class="inf-nota">${esc(R8.metodo)}</p>
-        <div class="inf-vazio" style="margin-top:12px">⛔ Ainda não geradas: a rede de quem cita quem nas menções de terceiros (depende da revisão de homônimos) e a de comentaristas (depende da coleta de comentários). O índice E-I de polarização só faz sentido nessas duas.</div>`;
+        <div class="inf-vazio" style="margin-top:12px">⛔ Ainda não gerada: a rede de quem cita quem nas menções de terceiros, que depende da revisão humana de homônimos e hoje teria poucos nós (3 menções confirmadas no Instagram, nenhuma no TikTok). A rede de comentaristas já existe (respostas no YouTube, acima).</div>`;
     }
     const C9 = await json("data/corpus/chd.json");
     if (!C9) $("p9Corpo").innerHTML = vazio("⛔ Corpus ainda não gerado.");
