@@ -1,5 +1,13 @@
 # Changelog
 
+## 22/11/2026: resultado do diagnóstico do Censo 2022 (run 45101287033)
+
+Nos microdados de acesso público do Censo 2022, a religião é a variável P0410, com 9 categorias: Católica, Evangélicas, Espírita, Umbanda e Candomblé, Tradições indígenas, Outras religiosidades, Sem religião, Não sabe e Sem declaração. O islamismo continua dentro de "outras religiosidades". O detalhe está só nos microdados de acesso controlado, como diz a nota 06/2026. O peso amostral público é a P0110. A evidência está em `data/dados_publicos/censo2022_diagnostico.json`.
+
+Conclusão: o número aberto mais recente de muçulmanos é o de 2010. O cartão de 2022 na página passa a explicar isso.
+
+Pendente: a imprensa noticiou 41,2 mil muçulmanos no Censo 2022, a partir de dados novos do IBGE. Nenhuma tabela oficial aberta com esse número foi localizada; não entra na página até a fonte oficial ser encontrada.
+
 ## 22/11/2026: por que 2010? Diagnóstico dos microdados públicos do Censo 2022
 
 O responsável perguntou às 23h35: "por que estamos usando 2010?". Até aqui, porque o 2010 era o último Censo com o islamismo separado nas tabelas abertas do SIDRA. As 52 tabelas de religião foram conferidas, e as de 2022 só trazem os 10 grandes grupos.
