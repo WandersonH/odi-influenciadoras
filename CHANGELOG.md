@@ -11,6 +11,11 @@ O responsável pediu à 10h03 um botão para baixar PDF.
   - o nome do arquivo vem sugerido (`influenciadoras-hamas_caderno-NN_AAAA-MM-DD`).
 - **O que fica de fora:** menu lateral, botões e janela de corpus. Os números clicáveis viram texto comum.
 - **Estilo de impressão:** reaproveita o que já existia em `assets/odi.css` (`print-caso`, `print-alvo`, A4, margem de 12 mm).
+- **Teste de verdade:** gerei o PDF dos 11 cadernos no Chrome sem janela (Playwright, mídia de impressão, A4).
+  - Primeira versão: 136 páginas. As tabelas largas ficavam cortadas (rolagem horizontal) e com nomes quebrados letra a letra.
+  - Correção na impressão: tabela sem rolagem, 100% da largura, fonte de 9 px e primeira coluna sem quebra.
+  - Segunda versão: 59 páginas, com os 11 cadernos completos. Caderno 01 na página 1, 05 na 15, 10 na 52, 11 na 56.
+  - Conferi pelas imagens das páginas: tabelas inteiras, redes, gráficos e mapa municipal aparecem.
 
 ## 23/11/2026: auditoria crítica, ajustes
 
