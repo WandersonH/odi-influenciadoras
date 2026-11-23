@@ -1,5 +1,9 @@
 # Changelog
 
+## 23/11/2026: Disque 100 sai da página
+
+O responsável corrigiu à 0h44: o Disque 100 não deve aparecer na página enquanto não houver o arquivo; o ⛔ “desativado por enquanto” não era o certo. O bloco foi retirado do caderno 10, e a apresentação do caderno deixou de citar o Disque 100. Nada foi apagado do repositório: o workflow, a função de diagnóstico e `disque100_diagnostico.json` continuam lá, prontos para quando o arquivo vier.
+
 ## 23/11/2026: Disque 100 desativado até haver o arquivo
 
 O responsável pediu à 0h43: “desativa Disque 100 […] subimos quando tivermos o arquivo”. O motivo é que o run 45103329132 estourou o limite de 40 minutos sem baixar nenhum CSV, porque o servidor do ministério derruba o GitHub. Cada arquivo passa de 1 GB, e o computador do responsável não tem espaço para eles.
