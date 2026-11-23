@@ -1,0 +1,90 @@
+{
+ "rede": "instagram",
+ "etapa": "reserva",
+ "tipo": "menções de terceiros",
+ "ator": "apify~instagram-hashtag-scraper",
+ "pedido": {
+  "hashtags": [
+   "Mariam Chami",
+   "Hyatt Omar",
+   "Carima Orra",
+   "Fabíola Oliveira"
+  ],
+  "keywordSearch": true,
+  "resultsType": "posts",
+  "resultsLimit": 60
+ },
+ "run_apify": null,
+ "run_id": "45111786683",
+ "gerado_em": "2026-11-23T04:27:10Z",
+ "janela": "núcleo",
+ "itens_recebidos": 40,
+ "itens_validos": 37,
+ "cap_por_execucao_usd": 0.7,
+ "custo_usd": 0.7,
+ "custo_nota": "Manifesto reconstruído em 23/11/2026 a partir do bruto guardado no privado (bruto_terceiros_20261123T042710Z.json): o run 45111786683 coletou, mas o commit público falhou por conflito com arquivos refeitos no mesmo passo, e o custo real não foi gravado. Registra-se o teto da execução (US$ 0,70) como custo, por precaução: é o máximo que a Apify pôde cobrar.",
+ "influenciadoras": [
+  {
+   "ator": "mariam-chami",
+   "termo": "Mariam Chami",
+   "citam_a_influenciadora": 12,
+   "periodo_lido": [
+    "2022-10-05",
+    "2026-11-23"
+   ],
+   "no_nucleo": 2,
+   "de_outras_do_estudo": 0,
+   "por_tipo": {
+    "nome": 2
+   },
+   "universo": "⛔ a busca não informa o total",
+   "cobertura": "a leitura alcançou o início do núcleo"
+  },
+  {
+   "ator": "hyatt-omar",
+   "termo": "Hyatt Omar",
+   "citam_a_influenciadora": 1,
+   "periodo_lido": [
+    "2025-01-21",
+    "2025-01-21"
+   ],
+   "no_nucleo": 0,
+   "de_outras_do_estudo": 0,
+   "por_tipo": {},
+   "universo": "⛔ a busca não informa o total",
+   "cobertura": "a leitura alcançou o início do núcleo"
+  },
+  {
+   "ator": "carima-orra",
+   "termo": "Carima Orra",
+   "citam_a_influenciadora": 6,
+   "periodo_lido": [
+    "2019-12-06",
+    "2026-07-24"
+   ],
+   "no_nucleo": 1,
+   "de_outras_do_estudo": 0,
+   "por_tipo": {
+    "nome": 1
+   },
+   "universo": "⛔ a busca não informa o total",
+   "cobertura": "a leitura alcançou o início do núcleo"
+  },
+  {
+   "ator": "fabiola-oliveira",
+   "termo": "Fabíola Oliveira",
+   "citam_a_influenciadora": 1,
+   "periodo_lido": [
+    "2025-11-20",
+    "2025-11-20"
+   ],
+   "no_nucleo": 0,
+   "de_outras_do_estudo": 0,
+   "por_tipo": {},
+   "universo": "⛔ a busca não informa o total",
+   "cobertura": "a leitura alcançou o início do núcleo"
+  }
+ ],
+ "destino_texto_e_autor": "repositório privado (data/terceiros/instagram_mencoes.csv)",
+ "erros": []
+}

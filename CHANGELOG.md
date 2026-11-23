@@ -20,7 +20,18 @@ O responsável pediu à 1h20: “quero que rode quem falou delas nas demais rede
 - **Workflow `pagas.yml`:** opções `terceiros_tiktok` e `terceiros_instagram`.
 - **Testes novos:** `tests/test_terceiros_redes.py`.
 - **Run 45111607586 (TikTok, `apidojo~tiktok-scraper`):** a busca devolveu só 10 itens, o limite do plano gratuito do ator nesta conta, sem custo. Só um cita a Mariam, e é de 15/11, fora do núcleo. O TikTok passa para `clockworks~tiktok-scraper`: busca de vídeos (`searchQueries`, seção `/video`), 50 por nome, teto de US$ 0,70, sem os filtros cobrados. Preço na loja a partir de US$ 1,70 por mil resultados.
-- **Pendente:** o novo run do TikTok, o do Instagram e o `terceiros_resumo.yml`.
+- **Run 45111771309 (TikTok, clockworks):** custo de US$ 0,68.
+  - A busca devolveu 188 vídeos. Só 10 de outras contas trazem o nome ou o @ no texto: Mariam 4, Carima 1, Fabíola 5.
+  - Nenhum desses 10 é do núcleo. A busca por relevância traz sobretudo vídeos antigos (desde 2022) ou de novembro.
+- **Run 45111786683 (Instagram):** a busca devolveu 40 posts.
+  - Citam: Mariam 12 (2 no núcleo), Carima 6 (1 no núcleo), Hyatt 1 e Fabíola 1 (nenhum no núcleo).
+  - O commit público desse run falhou: o passo “O que dizem” refez arquivos das publicações e deu conflito com o run do TikTok. O passo, porém, apareceu como sucesso.
+  - O manifesto foi reconstruído a partir do bruto guardado no privado (os mesmos números do run). Como o custo real não ficou gravado, registra-se o teto de US$ 0,70, por precaução.
+- **Correções no `pagas.yml`:**
+  - nas buscas de terceiros o passo “O que dizem” não roda;
+  - conflito no commit passa a abortar o rebase e falhar com erro visível.
+- **Gasto:** etapa `terceiros_transcricoes` em US$ 0,94 de US$ 1,00; reserva em até US$ 0,70 de US$ 1,50 (teto, até confirmar o custo real).
+- **Pendente:** o `terceiros_resumo.yml`.
 
 ## 23/11/2026: OBMigra, detalhe do país em gráficos
 

@@ -75,7 +75,8 @@ jobs:
           done
           rm -f o.txt; exit $rc
       - name: O que dizem (temas por rede)
-        if: always()
+        # nas buscas de terceiros não refaz os arquivos das publicações: refazê-los gerou conflito no commit (run 45111786683)
+        if: always() && !startsWith(github.event.inputs.rede, 'terceiros')
         continue-on-error: true
         run: pip install -q numpy networkx && python scripts/build_o_que_dizem.py && python scripts/build_engajamento.py && python scripts/build_redes.py && python scripts/build_corpus.py
       - name: Gravar (público)
@@ -86,7 +87,11 @@ jobs:
           git add -A data
           git diff --cached --quiet && exit 0
           git commit -q -m "Coleta Apify ${{ github.event.inputs.rede }} ${{ github.event.inputs.etapa }} (run ${{ github.run_id }})"
-          for t in 1 2 3; do { git push -q origin HEAD:main 2>/dev/null || { git pull -q --rebase origin main && git push -q origin HEAD:main; }; } && exit 0; sleep $((t * 10)); done
+          for t in 1 2 3; do
+            git push -q origin HEAD:main 2>/dev/null && exit 0
+            if ! git pull -q --rebase origin main; then git rebase --abort; echo "::error title=Gravar::conflito ao integrar com o main: nada foi publicado"; exit 1; fi
+            git push -q origin HEAD:main && exit 0; sleep $((t * 10))
+          done
           exit 1
       - name: Gravar bruto (privado)
         if: always() && steps.interno.outputs.dir != ''
