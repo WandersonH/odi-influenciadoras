@@ -1,5 +1,17 @@
 # Changelog
 
+## 22/11/2026: clique no caderno 03 (publicações delas)
+
+O responsável apontou às 23h41 que o clique não tinha sido aplicado às publicações delas. No caderno 03 ("O que dizem"), por rede, passam a abrir as publicações:
+- cada palavra das nuvens;
+- cada hashtag;
+- cada número da tabela de temas.
+
+Detalhes:
+- `build_o_que_dizem.py` grava em cada publicação os termos da nuvem que ela contém (`nw`, legenda + fala). Quando o termo só aparece na fala transcrita, grava também um trecho de cerca de 50 palavras da fala em volta dele (`fala_trechos`). A fala é das próprias influenciadoras, já pública.
+- Regerado localmente. Para todas as palavras das nuvens, o número de publicações com o termo bate com o da nuvem. Trechos de fala: YouTube 150, Instagram 236, TikTok 135.
+- Os helpers de clique ficam expostos em `window.INF` para o caderno 03, que é desenhado por uma função fora do bloco principal.
+
 ## 22/11/2026: crescimento entre Censos no caderno 10
 
 O responsável sugeriu às 23h39 usar três Censos para ver o crescimento. Conferido na API: em 1991 a tabela 137 só tem "Religiões orientais" (368.578), sem o islamismo separado, e 2022 não tem número aberto. Não há terceiro Censo comparável.

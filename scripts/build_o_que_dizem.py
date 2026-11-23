@@ -105,13 +105,34 @@ def main(argv=None, root: Path = RAIZ) -> int:
                 fase[fz["id"]] = {"rotulo": fz["rotulo"], "publicacoes": len(ps), "visualizacoes": sum(p["visualizacoes"] or 0 for p in ps),
                                   "taxa_interacao_mediana": round(statistics.median(tf), 4) if tf else None,
                                   "por_tema": dict(Counter(t for p in ps for t in p["temas"]).most_common())}
+            # para o clique na página: em cada publicação, os termos da nuvem que ela contém (legenda + fala) e, quando o
+            # termo só aparece na fala transcrita, um trecho da fala em volta dele (é fala da própria influenciadora, pública)
+            nuv = tx.nuvem(textos, excluir)
+            nset = {t for t, _ in nuv}
+            for i, p_ in enumerate(pubs):
+                tem = tx.termos(textos[i], excluir) & nset
+                p_["nw"] = sorted(tem)
+                so_fala = tem - tx.termos(tx.texto_util(meus[i], padrao), excluir)
+                f = fala.get(p_["post_id"], "")
+                if so_fala and f:
+                    ws = f.split()
+                    nws = [tx.norm(w).strip() for w in ws]
+                    tre = {}
+                    for t in sorted(so_fala):
+                        alvo = t.split()
+                        for j in range(len(nws)):
+                            if nws[j:j + len(alvo)] == alvo:
+                                tre[t] = ("… " if j > 25 else "") + " ".join(ws[max(0, j - 25): j + len(alvo) + 25]) + (" …" if j + len(alvo) + 25 < len(ws) else "")
+                                break
+                    if tre:
+                        p_["fala_trechos"] = tre
             out["atores"][a["id"]] = {
                 "nome": a["nome"], "total_publicacoes": len(pubs), "com_fala": sum(p["tem_fala"] for p in pubs),
                 "totais": {k: sum(p[k] or 0 for p in pubs) for k in ("visualizacoes", "curtidas", "comentarios", "compartilhamentos")},
                 "com_o_numero": {k: sum(1 for p in pubs if p[k] is not None) for k in ("visualizacoes", "curtidas", "comentarios", "compartilhamentos")},
                 "taxa_interacao_mediana": round(statistics.median(taxas), 4) if taxas else None,
                 "por_tema": dict(Counter(t for p in pubs for t in p["temas"]).most_common()),
-                "nuvem": tx.nuvem(textos, excluir), "hashtags": [[t, n] for t, n in Counter(t for s in tags for t in s).most_common(40) if n >= 2],
+                "nuvem": nuv, "hashtags": [[t, n] for t, n in Counter(t for s in tags for t in s).most_common(40) if n >= 2],
                 "por_fase": fase, "publicacoes": pubs}
         out["cobertura_do_dicionario"] = {"publicacoes": len(rows), "com_tema": com_tema, "sem_tema": len(rows) - com_tema,
                                           "pct_com_tema": round(100 * com_tema / len(rows), 1), "com_fala_transcrita": com_fala}
