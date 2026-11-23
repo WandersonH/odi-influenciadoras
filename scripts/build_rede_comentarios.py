@@ -76,6 +76,8 @@ def main(root: Path = RAIZ) -> int:
     des = resumo.pop("desenho")
     o = salvar("comentarios_respostas_youtube", nos, ar, des, {"rede": "youtube", "comentarios": len(yt),
                                                                 "respostas_lidas": sum(1 for r in yt if r.get("parent_id")), **resumo}, d, dirigida=True)
+    (Path(interno) / "data/redes").mkdir(parents=True, exist_ok=True)
+    (Path(interno) / "data/redes/respostas_youtube_codigos.json").write_text(json.dumps(rc.ULTIMOS_CODIGOS, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"respostas youtube: {resumo.get('autores_na_rede')} autores, {resumo.get('respostas_entre_autores')} respostas entre autores")
     return 0
 

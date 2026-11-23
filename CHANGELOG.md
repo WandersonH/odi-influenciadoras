@@ -1,5 +1,40 @@
 # Changelog
 
+## 22/11/2026: clicou, viu o corpus, em toda rede e análise; fonte padrão nas redes; "em alta" coletado
+
+**Pedidos do responsável**
+- 23h08: "padrão: clicou, viu o corpus em todo IRaMuTeQ, análise e rede do Gephi".
+- 23h11: o mesmo na tabela do Google.
+- 23h12: "por que mudou a fonte dos Gephi pra essa feia e não a padrão do projeto?".
+
+**Fonte das redes (erro meu, corrigido)**
+- A rede de palavras dos comentários é uma rede de coocorrência do Gephi, mas estava desenhada como similitude: Georgia em negrito grande e halos.
+- Agora usa o desenho de rede do projeto: nós coloridos por comunidade e rótulos em Courier New de 9,5 px. O `desenhaRede` passou a usar a mesma fonte; antes era sans-serif de 10 px.
+- A similitude volta ao tamanho padrão de rótulo: Georgia 700, 9 + 9·√(freq/máx).
+
+**Clique (mecanismo único `aoClicar`, painel comum)**
+
+| Onde | O que abre |
+|---|---|
+| Caderno 09, similitude e cada forma das classes da CHD | Segmentos do corpus das influenciadoras. A classe inteira abre pelo botão "ver os segmentos da classe". |
+| Caderno 07, similitude e classes do corpus da imprensa | Título, veículo e link das matérias que contêm a forma. O texto continua no privado. |
+| Caderno 07, rede veículo × termo | As matérias do nó. |
+| Caderno 08, rede de circulação | Vídeos e notícias do nó; vídeo de canal com menos de 10 mil inscritos sai sem título nem link. Os dados entram no próximo run da circulação (precisa da chave do YouTube). |
+| Caderno 08, rede de marcações | As publicações delas que usam o @ ou a hashtag (155 publicações indexadas). |
+| Caderno 08, redes de palavras dos comentários (todas e por rede) | Os comentários anonimizados com a palavra. Conferido: "parabens" tem 149 comentários, igual ao nó. |
+| Caderno 08, rede de respostas do YouTube (agora desenhada) | Os comentários do autor. |
+| Caderno do Trends, tabela do Google | Os resultados daquela categoria. |
+
+**Dados**
+- O YouTube no corpus anonimizado passa a usar o código da rede de respostas (A0001…). O mapa autor → código fica só no privado (`data/redes/respostas_youtube_codigos.json`).
+- Regerado localmente: marcações, rede da imprensa, redes dos comentários, corpus, corpus da imprensa e corpus dos comentários. A CHD e as contagens não mudaram.
+- `imprensa.yml` ganhou a opção `etapa=circulacao`, que refaz só a rede de circulação sem recoletar notícias. Disparada depois deste commit.
+
+**Trends "em alta"** (run 45098217630)
+- Palavras do tema: 81 linhas de relacionados no período inteiro e 31 no núcleo.
+- Tópicos do tema: 2 linhas e 0.
+- Nomes: nenhum relacionado (volume abaixo do mínimo do Trends).
+
 ## 22/11/2026: Trends "em alta" do tema
 
 O responsável pediu às 23h04 e 23h05: "falta o em alta"; "trends em alta da consulta que estamos estudando". O coletor já sabia ler as consultas e os assuntos relacionados, mas `trends.json` não tinha o bloco `relacionados`, então nada era coletado.

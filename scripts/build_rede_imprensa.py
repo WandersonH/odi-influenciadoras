@@ -71,7 +71,12 @@ def main(root: Path = RAIZ) -> int:
         por_veiculo.setdefault(x["veiculo"], set()).add(x["consulta"])
     top = sorted(({"veiculo": v, "materias": sum(1 for x in noticias if x["veiculo"] == v), "termos": len(t)}
                   for v, t in por_veiculo.items()), key=lambda x: (-x["materias"], x["veiculo"]))[:15]
-    out = {"gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
+    itens = [{"veiculo": x["veiculo"], "titulo": x["titulo"], "url": x["link"], "termo": x["consulta"], "recorte": x["recorte"]} for x in noticias]
+    por_no = {}
+    for i, x in enumerate(noticias):
+        for no in (f"imprensa:{x['veiculo']}", f"notícia: {x['consulta']}"):
+            por_no.setdefault(no, []).append(i)
+    out = {"itens": itens, "itens_por_no": por_no, "gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
            "fonte_coleta": {"run_id": res.get("run_id"), "gerado_em": res.get("gerado_em")},
            "metodo": __doc__.split("\n\n")[1].strip(),
            "universo": "⛔ o Google Notícias não informa o total; amostra = 10 primeiros por termo",

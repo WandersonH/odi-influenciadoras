@@ -1,322 +1,16 @@
 {
- "gerado_em": "2026-11-23T01:43:50Z",
+ "gerado_em": "2026-11-23T02:12:17Z",
  "metodo": "- Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),\n  formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.\n- Respostas: quem responde a quem nos comentários do YouTube (o único com respostas lidas); autores SEMPRE como código\n  (A0001…), nunca nome.\nLê o privado (INFL_INTERNO_DIR, data/comentarios/<rede>.csv); grava no público só palavras, códigos e contagens:\ndata/redes/comentarios_palavras_<rede>.json/.gexf, comentarios_respostas_youtube.json/.gexf.",
  "desenho": {
   "nos": [
    {
-    "id": "vcs",
-    "rotulo": "vcs",
+    "id": "parabens",
+    "rotulo": "parabens",
     "tipo": "palavra",
-    "n": 50,
-    "grupo": 1,
-    "x": 0.4963,
-    "y": 1.335
-   },
-   {
-    "id": "pais",
-    "rotulo": "pais",
-    "tipo": "palavra",
-    "n": 270,
-    "grupo": 1,
-    "x": 0.864,
-    "y": 1.0926
-   },
-   {
-    "id": "perfeito",
-    "rotulo": "perfeito",
-    "tipo": "palavra",
-    "n": 54,
+    "n": 108,
     "grupo": 0,
-    "x": 1.8702,
-    "y": 0.8213
-   },
-   {
-    "id": "estar",
-    "rotulo": "estar",
-    "tipo": "palavra",
-    "n": 117,
-    "grupo": 2,
-    "x": 0.8356,
-    "y": 1.1149
-   },
-   {
-    "id": "mundo",
-    "rotulo": "mundo",
-    "tipo": "palavra",
-    "n": 75,
-    "grupo": 1,
-    "x": 0.8105,
-    "y": 1.1902
-   },
-   {
-    "id": "muculmano",
-    "rotulo": "muculmano",
-    "tipo": "palavra",
-    "n": 246,
-    "grupo": 1,
-    "x": 0.9821,
-    "y": 1.077
-   },
-   {
-    "id": "dizer",
-    "rotulo": "dizer",
-    "tipo": "palavra",
-    "n": 75,
-    "grupo": 2,
-    "x": 1.0848,
-    "y": 1.138
-   },
-   {
-    "id": "brasileiro",
-    "rotulo": "brasileiro",
-    "tipo": "palavra",
-    "n": 97,
-    "grupo": 1,
-    "x": 0.7374,
-    "y": 0.8824
-   },
-   {
-    "id": "ignorancia",
-    "rotulo": "ignorancia",
-    "tipo": "palavra",
-    "n": 55,
-    "grupo": 0,
-    "x": 0.9417,
-    "y": 0.5531
-   },
-   {
-    "id": "precisar",
-    "rotulo": "precisar",
-    "tipo": "palavra",
-    "n": 52,
-    "grupo": 0,
-    "x": 1.4248,
-    "y": 0.916
-   },
-   {
-    "id": "conhecer",
-    "rotulo": "conhecer",
-    "tipo": "palavra",
-    "n": 41,
-    "grupo": 2,
-    "x": 0.528,
-    "y": 1.2091
-   },
-   {
-    "id": "cristao",
-    "rotulo": "cristao",
-    "tipo": "palavra",
-    "n": 143,
-    "grupo": 1,
-    "x": 0.972,
-    "y": 1.2217
-   },
-   {
-    "id": "ficar",
-    "rotulo": "ficar",
-    "tipo": "palavra",
-    "n": 106,
-    "grupo": 0,
-    "x": 0.9331,
-    "y": 0.8921
-   },
-   {
-    "id": "vida",
-    "rotulo": "vida",
-    "tipo": "palavra",
-    "n": 47,
-    "grupo": 2,
-    "x": 1.0794,
-    "y": 1.5356
-   },
-   {
-    "id": "isla",
-    "rotulo": "isla",
-    "tipo": "palavra",
-    "n": 81,
-    "grupo": 1,
-    "x": 0.8336,
-    "y": 1.287
-   },
-   {
-    "id": "coisa",
-    "rotulo": "coisa",
-    "tipo": "palavra",
-    "n": 111,
-    "grupo": 2,
-    "x": 0.839,
-    "y": 0.9449
-   },
-   {
-    "id": "mulher",
-    "rotulo": "mulher",
-    "tipo": "palavra",
-    "n": 196,
-    "grupo": 1,
-    "x": 0.9283,
-    "y": 1.1819
-   },
-   {
-    "id": "matar",
-    "rotulo": "matar",
-    "tipo": "palavra",
-    "n": 46,
-    "grupo": 1,
-    "x": 0.8036,
-    "y": 1.5743
-   },
-   {
-    "id": "existir",
-    "rotulo": "existir",
-    "tipo": "palavra",
-    "n": 69,
-    "grupo": 1,
-    "x": 1.0407,
-    "y": 1.2832
-   },
-   {
-    "id": "vez",
-    "rotulo": "vez",
-    "tipo": "palavra",
-    "n": 59,
-    "grupo": 0,
-    "x": 0.8128,
-    "y": 0.7731
-   },
-   {
-    "id": "facil",
-    "rotulo": "facil",
-    "tipo": "palavra",
-    "n": 49,
-    "grupo": 1,
-    "x": 0.4839,
-    "y": 0.9083
-   },
-   {
-    "id": "gostar",
-    "rotulo": "gostar",
-    "tipo": "palavra",
-    "n": 45,
-    "grupo": 0,
-    "x": 1.1852,
-    "y": 0.3643
-   },
-   {
-    "id": "religioso",
-    "rotulo": "religioso",
-    "tipo": "palavra",
-    "n": 43,
-    "grupo": 1,
-    "x": 0.6585,
-    "y": 1.3636
-   },
-   {
-    "id": "gente",
-    "rotulo": "gente",
-    "tipo": "palavra",
-    "n": 64,
-    "grupo": 0,
-    "x": 1.3089,
-    "y": 1.0638
-   },
-   {
-    "id": "pessoa",
-    "rotulo": "pessoa",
-    "tipo": "palavra",
-    "n": 63,
-    "grupo": 2,
-    "x": 1.0937,
-    "y": 1.273
-   },
-   {
-    "id": "bonito",
-    "rotulo": "bonito",
-    "tipo": "palavra",
-    "n": 44,
-    "grupo": 2,
-    "x": 1.5495,
-    "y": 1.3303
-   },
-   {
-    "id": "cultura",
-    "rotulo": "cultura",
-    "tipo": "palavra",
-    "n": 57,
-    "grupo": 1,
-    "x": 1.1652,
-    "y": 1.0532
-   },
-   {
-    "id": "claro",
-    "rotulo": "claro",
-    "tipo": "palavra",
-    "n": 41,
-    "grupo": 0,
-    "x": 0.5918,
-    "y": 0.6863
-   },
-   {
-    "id": "otimo",
-    "rotulo": "otimo",
-    "tipo": "palavra",
-    "n": 47,
-    "grupo": 0,
-    "x": 0.9296,
-    "y": 0.3383
-   },
-   {
-    "id": "lindo",
-    "rotulo": "lindo",
-    "tipo": "palavra",
-    "n": 201,
-    "grupo": 0,
-    "x": 1.3692,
-    "y": 1.0101
-   },
-   {
-    "id": "ano",
-    "rotulo": "ano",
-    "tipo": "palavra",
-    "n": 51,
-    "grupo": 2,
-    "x": 1.283,
-    "y": 1.2537
-   },
-   {
-    "id": "pq",
-    "rotulo": "pq",
-    "tipo": "palavra",
-    "n": 60,
-    "grupo": 1,
-    "x": 0.649,
-    "y": 0.9553
-   },
-   {
-    "id": "lei",
-    "rotulo": "lei",
-    "tipo": "palavra",
-    "n": 44,
-    "grupo": 1,
-    "x": 0.6135,
-    "y": 1.249
-   },
-   {
-    "id": "dar",
-    "rotulo": "dar",
-    "tipo": "palavra",
-    "n": 74,
-    "grupo": 2,
-    "x": 1.2241,
-    "y": 1.1135
-   },
-   {
-    "id": "mesmo",
-    "rotulo": "mesmo",
-    "tipo": "palavra",
-    "n": 51,
-    "grupo": 2,
-    "x": 0.6252,
-    "y": 0.8341
+    "x": 0.7923,
+    "y": 1.4891
    },
    {
     "id": "vc",
@@ -324,377 +18,8 @@
     "tipo": "palavra",
     "n": 168,
     "grupo": 0,
-    "x": 1.0958,
-    "y": 0.9834
-   },
-   {
-    "id": "religiao",
-    "rotulo": "religiao",
-    "tipo": "palavra",
-    "n": 291,
-    "grupo": 1,
-    "x": 0.9589,
-    "y": 1.0856
-   },
-   {
-    "id": "arabe",
-    "rotulo": "arabe",
-    "tipo": "palavra",
-    "n": 256,
-    "grupo": 1,
-    "x": 0.9842,
-    "y": 1.0084
-   },
-   {
-    "id": "problema",
-    "rotulo": "problema",
-    "tipo": "palavra",
-    "n": 42,
-    "grupo": 1,
-    "x": 0.5938,
-    "y": 1.4827
-   },
-   {
-    "id": "video",
-    "rotulo": "video",
-    "tipo": "palavra",
-    "n": 92,
-    "grupo": 0,
-    "x": 1.2072,
-    "y": 0.8888
-   },
-   {
-    "id": "respeito",
-    "rotulo": "respeito",
-    "tipo": "palavra",
-    "n": 46,
-    "grupo": 0,
-    "x": 1.056,
-    "y": 0.6558
-   },
-   {
-    "id": "vir",
-    "rotulo": "vir",
-    "tipo": "palavra",
-    "n": 57,
-    "grupo": 2,
-    "x": 0.6125,
-    "y": 1.1937
-   },
-   {
-    "id": "islamismo",
-    "rotulo": "islamismo",
-    "tipo": "palavra",
-    "n": 47,
-    "grupo": 1,
-    "x": 0.7074,
-    "y": 1.463
-   },
-   {
-    "id": "amar",
-    "rotulo": "amar",
-    "tipo": "palavra",
-    "n": 108,
-    "grupo": 0,
-    "x": 1.3113,
-    "y": 0.8504
-   },
-   {
-    "id": "dia",
-    "rotulo": "dia",
-    "tipo": "palavra",
-    "n": 45,
-    "grupo": 2,
-    "x": 1.3428,
-    "y": 1.3637
-   },
-   {
-    "id": "brasil",
-    "rotulo": "brasil",
-    "tipo": "palavra",
-    "n": 158,
-    "grupo": 1,
-    "x": 0.8099,
-    "y": 1.0273
-   },
-   {
-    "id": "deus",
-    "rotulo": "deus",
-    "tipo": "palavra",
-    "n": 133,
-    "grupo": 2,
-    "x": 1.1337,
-    "y": 1.2101
-   },
-   {
-    "id": "desenhar",
-    "rotulo": "desenhar",
-    "tipo": "palavra",
-    "n": 118,
-    "grupo": 0,
-    "x": 1.0819,
-    "y": 0.5364
-   },
-   {
-    "id": "diferenca",
-    "rotulo": "diferenca",
-    "tipo": "palavra",
-    "n": 49,
-    "grupo": 0,
-    "x": 1.3089,
-    "y": 0.7551
-   },
-   {
-    "id": "biblia",
-    "rotulo": "biblia",
-    "tipo": "palavra",
-    "n": 42,
-    "grupo": 2,
-    "x": 1.2674,
-    "y": 1.5499
-   },
-   {
-    "id": "viver",
-    "rotulo": "viver",
-    "tipo": "palavra",
-    "n": 59,
-    "grupo": 1,
-    "x": 0.6662,
-    "y": 1.1372
-   },
-   {
-    "id": "bom",
-    "rotulo": "bom",
-    "tipo": "palavra",
-    "n": 152,
-    "grupo": 0,
-    "x": 1.1193,
-    "y": 0.8766
-   },
-   {
-    "id": "melhor",
-    "rotulo": "melhor",
-    "tipo": "palavra",
-    "n": 50,
-    "grupo": 0,
-    "x": 0.8038,
-    "y": 0.6412
-   },
-   {
-    "id": "islamico",
-    "rotulo": "islamico",
-    "tipo": "palavra",
-    "n": 52,
-    "grupo": 1,
-    "x": 1.0194,
-    "y": 1.4507
-   },
-   {
-    "id": "nascer",
-    "rotulo": "nascer",
-    "tipo": "palavra",
-    "n": 45,
-    "grupo": 1,
-    "x": 0.4812,
-    "y": 1.0863
-   },
-   {
-    "id": "obrigar",
-    "rotulo": "obrigar",
-    "tipo": "palavra",
-    "n": 133,
-    "grupo": 0,
-    "x": 1.2066,
-    "y": 0.7276
-   },
-   {
-    "id": "saber",
-    "rotulo": "saber",
-    "tipo": "palavra",
-    "n": 180,
-    "grupo": 0,
-    "x": 1.0329,
-    "y": 0.9103
-   },
-   {
-    "id": "mulcumano",
-    "rotulo": "mulcumano",
-    "tipo": "palavra",
-    "n": 105,
-    "grupo": 1,
-    "x": 0.9533,
-    "y": 1.3056
-   },
-   {
-    "id": "falar",
-    "rotulo": "falar",
-    "tipo": "palavra",
-    "n": 168,
-    "grupo": 1,
-    "x": 0.9362,
-    "y": 0.9906
-   },
-   {
-    "id": "explicacao",
-    "rotulo": "explicacao",
-    "tipo": "palavra",
-    "n": 168,
-    "grupo": 0,
-    "x": 1.1781,
-    "y": 0.6644
-   },
-   {
-    "id": "aprender",
-    "rotulo": "aprender",
-    "tipo": "palavra",
-    "n": 53,
-    "grupo": 0,
-    "x": 0.8005,
-    "y": 0.5806
-   },
-   {
-    "id": "adorar",
-    "rotulo": "adorar",
-    "tipo": "palavra",
-    "n": 51,
-    "grupo": 0,
-    "x": 1.6986,
-    "y": 0.5318
-   },
-   {
-    "id": "seguir",
-    "rotulo": "seguir",
-    "tipo": "palavra",
-    "n": 57,
-    "grupo": 1,
-    "x": 0.739,
-    "y": 1.2666
-   },
-   {
-    "id": "ver",
-    "rotulo": "ver",
-    "tipo": "palavra",
-    "n": 79,
-    "grupo": 2,
-    "x": 0.7338,
-    "y": 1.0105
-   },
-   {
-    "id": "parabens",
-    "rotulo": "parabens",
-    "tipo": "palavra",
-    "n": 108,
-    "grupo": 0,
-    "x": 1.2719,
-    "y": 0.5269
-   },
-   {
-    "id": "explicar",
-    "rotulo": "explicar",
-    "tipo": "palavra",
-    "n": 129,
-    "grupo": 0,
-    "x": 0.9201,
-    "y": 0.7948
-   },
-   {
-    "id": "jesus",
-    "rotulo": "jesus",
-    "tipo": "palavra",
-    "n": 56,
-    "grupo": 2,
-    "x": 0.9894,
-    "y": 1.5461
-   },
-   {
-    "id": "so",
-    "rotulo": "so",
-    "tipo": "palavra",
-    "n": 176,
-    "grupo": 1,
-    "x": 1.0438,
-    "y": 1.0336
-   },
-   {
-    "id": "filho",
-    "rotulo": "filho",
-    "tipo": "palavra",
-    "n": 53,
-    "grupo": 2,
-    "x": 1.1626,
-    "y": 1.4676
-   },
-   {
-    "id": "maravilhoso",
-    "rotulo": "maravilhoso",
-    "tipo": "palavra",
-    "n": 70,
-    "grupo": 0,
-    "x": 1.6756,
-    "y": 0.7318
-   },
-   {
-    "id": "pai",
-    "rotulo": "pai",
-    "tipo": "palavra",
-    "n": 58,
-    "grupo": 1,
-    "x": 0.8308,
-    "y": 1.436
-   },
-   {
-    "id": "diferente",
-    "rotulo": "diferente",
-    "tipo": "palavra",
-    "n": 43,
-    "grupo": 1,
-    "x": 0.5314,
-    "y": 0.9706
-   },
-   {
-    "id": "risada",
-    "rotulo": "risada",
-    "tipo": "palavra",
-    "n": 81,
-    "grupo": 0,
-    "x": 0.8413,
-    "y": 0.417
-   },
-   {
-    "id": "entender",
-    "rotulo": "entender",
-    "tipo": "palavra",
-    "n": 174,
-    "grupo": 0,
-    "x": 1.074,
-    "y": 0.7942
-   },
-   {
-    "id": "querer",
-    "rotulo": "querer",
-    "tipo": "palavra",
-    "n": 180,
-    "grupo": 1,
-    "x": 0.8951,
-    "y": 1.0282
-   },
-   {
-    "id": "achar",
-    "rotulo": "achar",
-    "tipo": "palavra",
-    "n": 108,
-    "grupo": 0,
-    "x": 0.9864,
-    "y": 0.7953
-   },
-   {
-    "id": "aula",
-    "rotulo": "aula",
-    "tipo": "palavra",
-    "n": 82,
-    "grupo": 0,
-    "x": 1.3863,
-    "y": 0.5691
+    "x": 0.8674,
+    "y": 1.0249
    },
    {
     "id": "excelente",
@@ -702,17 +27,143 @@
     "tipo": "palavra",
     "n": 51,
     "grupo": 0,
-    "x": 1.5699,
-    "y": 0.0
+    "x": 0.6322,
+    "y": 2.0
    },
    {
-    "id": "homem",
-    "rotulo": "homem",
+    "id": "pai",
+    "rotulo": "pai",
     "tipo": "palavra",
-    "n": 52,
+    "n": 58,
     "grupo": 1,
-    "x": 0.9344,
-    "y": 1.451
+    "x": 0.9991,
+    "y": 0.606
+   },
+   {
+    "id": "religiao",
+    "rotulo": "religiao",
+    "tipo": "palavra",
+    "n": 291,
+    "grupo": 1,
+    "x": 1.0809,
+    "y": 0.9296
+   },
+   {
+    "id": "facil",
+    "rotulo": "facil",
+    "tipo": "palavra",
+    "n": 49,
+    "grupo": 1,
+    "x": 0.6805,
+    "y": 0.7265
+   },
+   {
+    "id": "gente",
+    "rotulo": "gente",
+    "tipo": "palavra",
+    "n": 64,
+    "grupo": 0,
+    "x": 0.6141,
+    "y": 1.0193
+   },
+   {
+    "id": "explicar",
+    "rotulo": "explicar",
+    "tipo": "palavra",
+    "n": 129,
+    "grupo": 0,
+    "x": 0.8402,
+    "y": 1.0917
+   },
+   {
+    "id": "biblia",
+    "rotulo": "biblia",
+    "tipo": "palavra",
+    "n": 42,
+    "grupo": 2,
+    "x": 0.7465,
+    "y": 0.4277
+   },
+   {
+    "id": "brasil",
+    "rotulo": "brasil",
+    "tipo": "palavra",
+    "n": 158,
+    "grupo": 1,
+    "x": 0.9632,
+    "y": 0.8488
+   },
+   {
+    "id": "amar",
+    "rotulo": "amar",
+    "tipo": "palavra",
+    "n": 108,
+    "grupo": 0,
+    "x": 0.8258,
+    "y": 1.2508
+   },
+   {
+    "id": "dar",
+    "rotulo": "dar",
+    "tipo": "palavra",
+    "n": 74,
+    "grupo": 2,
+    "x": 1.1922,
+    "y": 1.1171
+   },
+   {
+    "id": "dia",
+    "rotulo": "dia",
+    "tipo": "palavra",
+    "n": 45,
+    "grupo": 2,
+    "x": 1.4755,
+    "y": 1.0878
+   },
+   {
+    "id": "aprender",
+    "rotulo": "aprender",
+    "tipo": "palavra",
+    "n": 53,
+    "grupo": 0,
+    "x": 1.2215,
+    "y": 1.2992
+   },
+   {
+    "id": "diferenca",
+    "rotulo": "diferenca",
+    "tipo": "palavra",
+    "n": 49,
+    "grupo": 0,
+    "x": 1.1344,
+    "y": 1.3668
+   },
+   {
+    "id": "matar",
+    "rotulo": "matar",
+    "tipo": "palavra",
+    "n": 46,
+    "grupo": 1,
+    "x": 1.0243,
+    "y": 0.4086
+   },
+   {
+    "id": "vir",
+    "rotulo": "vir",
+    "tipo": "palavra",
+    "n": 57,
+    "grupo": 2,
+    "x": 0.8262,
+    "y": 0.6403
+   },
+   {
+    "id": "existir",
+    "rotulo": "existir",
+    "tipo": "palavra",
+    "n": 69,
+    "grupo": 1,
+    "x": 1.2498,
+    "y": 0.9212
    },
    {
     "id": "didatico",
@@ -720,3510 +171,4059 @@
     "tipo": "palavra",
     "n": 70,
     "grupo": 0,
-    "x": 1.4988,
-    "y": 0.383
+    "x": 0.8311,
+    "y": 1.7566
+   },
+   {
+    "id": "arabe",
+    "rotulo": "arabe",
+    "tipo": "palavra",
+    "n": 256,
+    "grupo": 1,
+    "x": 1.1092,
+    "y": 1.0319
+   },
+   {
+    "id": "bonito",
+    "rotulo": "bonito",
+    "tipo": "palavra",
+    "n": 44,
+    "grupo": 2,
+    "x": 0.4004,
+    "y": 0.786
+   },
+   {
+    "id": "melhor",
+    "rotulo": "melhor",
+    "tipo": "palavra",
+    "n": 50,
+    "grupo": 0,
+    "x": 0.605,
+    "y": 0.9239
+   },
+   {
+    "id": "claro",
+    "rotulo": "claro",
+    "tipo": "palavra",
+    "n": 41,
+    "grupo": 0,
+    "x": 1.3773,
+    "y": 1.2513
+   },
+   {
+    "id": "cristao",
+    "rotulo": "cristao",
+    "tipo": "palavra",
+    "n": 143,
+    "grupo": 1,
+    "x": 1.0738,
+    "y": 0.8179
+   },
+   {
+    "id": "conhecer",
+    "rotulo": "conhecer",
+    "tipo": "palavra",
+    "n": 41,
+    "grupo": 2,
+    "x": 1.1266,
+    "y": 0.5287
+   },
+   {
+    "id": "homem",
+    "rotulo": "homem",
+    "tipo": "palavra",
+    "n": 52,
+    "grupo": 1,
+    "x": 0.9583,
+    "y": 0.5338
+   },
+   {
+    "id": "adorar",
+    "rotulo": "adorar",
+    "tipo": "palavra",
+    "n": 51,
+    "grupo": 0,
+    "x": 1.3972,
+    "y": 1.6829
+   },
+   {
+    "id": "coisa",
+    "rotulo": "coisa",
+    "tipo": "palavra",
+    "n": 111,
+    "grupo": 2,
+    "x": 0.8643,
+    "y": 0.9145
+   },
+   {
+    "id": "filho",
+    "rotulo": "filho",
+    "tipo": "palavra",
+    "n": 53,
+    "grupo": 2,
+    "x": 0.7087,
+    "y": 0.6197
+   },
+   {
+    "id": "ano",
+    "rotulo": "ano",
+    "tipo": "palavra",
+    "n": 51,
+    "grupo": 2,
+    "x": 1.2851,
+    "y": 1.0633
+   },
+   {
+    "id": "pais",
+    "rotulo": "pais",
+    "tipo": "palavra",
+    "n": 270,
+    "grupo": 1,
+    "x": 1.1114,
+    "y": 0.9037
+   },
+   {
+    "id": "precisar",
+    "rotulo": "precisar",
+    "tipo": "palavra",
+    "n": 52,
+    "grupo": 0,
+    "x": 0.5157,
+    "y": 0.9802
+   },
+   {
+    "id": "vez",
+    "rotulo": "vez",
+    "tipo": "palavra",
+    "n": 59,
+    "grupo": 0,
+    "x": 0.738,
+    "y": 1.0444
+   },
+   {
+    "id": "pq",
+    "rotulo": "pq",
+    "tipo": "palavra",
+    "n": 60,
+    "grupo": 1,
+    "x": 1.0253,
+    "y": 0.7015
+   },
+   {
+    "id": "mulcumano",
+    "rotulo": "mulcumano",
+    "tipo": "palavra",
+    "n": 105,
+    "grupo": 1,
+    "x": 1.2302,
+    "y": 1.016
+   },
+   {
+    "id": "bom",
+    "rotulo": "bom",
+    "tipo": "palavra",
+    "n": 152,
+    "grupo": 0,
+    "x": 0.9173,
+    "y": 1.1405
+   },
+   {
+    "id": "islamismo",
+    "rotulo": "islamismo",
+    "tipo": "palavra",
+    "n": 47,
+    "grupo": 1,
+    "x": 1.4651,
+    "y": 0.853
+   },
+   {
+    "id": "pessoa",
+    "rotulo": "pessoa",
+    "tipo": "palavra",
+    "n": 63,
+    "grupo": 2,
+    "x": 0.787,
+    "y": 0.838
+   },
+   {
+    "id": "respeito",
+    "rotulo": "respeito",
+    "tipo": "palavra",
+    "n": 46,
+    "grupo": 0,
+    "x": 1.3896,
+    "y": 1.1332
+   },
+   {
+    "id": "so",
+    "rotulo": "so",
+    "tipo": "palavra",
+    "n": 176,
+    "grupo": 1,
+    "x": 1.0151,
+    "y": 0.9954
+   },
+   {
+    "id": "lei",
+    "rotulo": "lei",
+    "tipo": "palavra",
+    "n": 44,
+    "grupo": 1,
+    "x": 1.3207,
+    "y": 0.8046
+   },
+   {
+    "id": "seguir",
+    "rotulo": "seguir",
+    "tipo": "palavra",
+    "n": 57,
+    "grupo": 1,
+    "x": 1.2275,
+    "y": 0.7166
+   },
+   {
+    "id": "saber",
+    "rotulo": "saber",
+    "tipo": "palavra",
+    "n": 180,
+    "grupo": 0,
+    "x": 1.019,
+    "y": 1.09
+   },
+   {
+    "id": "perfeito",
+    "rotulo": "perfeito",
+    "tipo": "palavra",
+    "n": 54,
+    "grupo": 0,
+    "x": 1.1842,
+    "y": 1.8746
+   },
+   {
+    "id": "ignorancia",
+    "rotulo": "ignorancia",
+    "tipo": "palavra",
+    "n": 55,
+    "grupo": 0,
+    "x": 1.2737,
+    "y": 1.3834
+   },
+   {
+    "id": "ficar",
+    "rotulo": "ficar",
+    "tipo": "palavra",
+    "n": 106,
+    "grupo": 0,
+    "x": 0.9482,
+    "y": 1.022
+   },
+   {
+    "id": "entender",
+    "rotulo": "entender",
+    "tipo": "palavra",
+    "n": 174,
+    "grupo": 0,
+    "x": 0.8522,
+    "y": 1.1803
+   },
+   {
+    "id": "risada",
+    "rotulo": "risada",
+    "tipo": "palavra",
+    "n": 81,
+    "grupo": 0,
+    "x": 1.041,
+    "y": 1.5287
+   },
+   {
+    "id": "cultura",
+    "rotulo": "cultura",
+    "tipo": "palavra",
+    "n": 57,
+    "grupo": 1,
+    "x": 1.3326,
+    "y": 0.9025
+   },
+   {
+    "id": "mundo",
+    "rotulo": "mundo",
+    "tipo": "palavra",
+    "n": 75,
+    "grupo": 1,
+    "x": 1.1134,
+    "y": 0.7681
+   },
+   {
+    "id": "vida",
+    "rotulo": "vida",
+    "tipo": "palavra",
+    "n": 47,
+    "grupo": 2,
+    "x": 0.8134,
+    "y": 0.5395
+   },
+   {
+    "id": "ver",
+    "rotulo": "ver",
+    "tipo": "palavra",
+    "n": 79,
+    "grupo": 2,
+    "x": 0.9239,
+    "y": 0.7366
+   },
+   {
+    "id": "desenhar",
+    "rotulo": "desenhar",
+    "tipo": "palavra",
+    "n": 118,
+    "grupo": 0,
+    "x": 0.6103,
+    "y": 1.2732
+   },
+   {
+    "id": "nascer",
+    "rotulo": "nascer",
+    "tipo": "palavra",
+    "n": 45,
+    "grupo": 1,
+    "x": 1.4368,
+    "y": 0.9647
+   },
+   {
+    "id": "falar",
+    "rotulo": "falar",
+    "tipo": "palavra",
+    "n": 168,
+    "grupo": 1,
+    "x": 0.9738,
+    "y": 0.9353
+   },
+   {
+    "id": "explicacao",
+    "rotulo": "explicacao",
+    "tipo": "palavra",
+    "n": 168,
+    "grupo": 0,
+    "x": 0.949,
+    "y": 1.3669
+   },
+   {
+    "id": "islamico",
+    "rotulo": "islamico",
+    "tipo": "palavra",
+    "n": 52,
+    "grupo": 1,
+    "x": 1.4372,
+    "y": 0.7716
+   },
+   {
+    "id": "achar",
+    "rotulo": "achar",
+    "tipo": "palavra",
+    "n": 108,
+    "grupo": 0,
+    "x": 1.0597,
+    "y": 1.1902
+   },
+   {
+    "id": "diferente",
+    "rotulo": "diferente",
+    "tipo": "palavra",
+    "n": 43,
+    "grupo": 1,
+    "x": 1.295,
+    "y": 0.6249
+   },
+   {
+    "id": "aula",
+    "rotulo": "aula",
+    "tipo": "palavra",
+    "n": 82,
+    "grupo": 0,
+    "x": 0.9149,
+    "y": 1.539
+   },
+   {
+    "id": "brasileiro",
+    "rotulo": "brasileiro",
+    "tipo": "palavra",
+    "n": 97,
+    "grupo": 1,
+    "x": 1.0979,
+    "y": 1.1026
+   },
+   {
+    "id": "obrigar",
+    "rotulo": "obrigar",
+    "tipo": "palavra",
+    "n": 133,
+    "grupo": 0,
+    "x": 0.8783,
+    "y": 1.3283
+   },
+   {
+    "id": "vcs",
+    "rotulo": "vcs",
+    "tipo": "palavra",
+    "n": 50,
+    "grupo": 1,
+    "x": 1.1839,
+    "y": 0.4931
+   },
+   {
+    "id": "mulher",
+    "rotulo": "mulher",
+    "tipo": "palavra",
+    "n": 196,
+    "grupo": 1,
+    "x": 1.0275,
+    "y": 0.817
+   },
+   {
+    "id": "problema",
+    "rotulo": "problema",
+    "tipo": "palavra",
+    "n": 42,
+    "grupo": 1,
+    "x": 1.4121,
+    "y": 0.602
+   },
+   {
+    "id": "querer",
+    "rotulo": "querer",
+    "tipo": "palavra",
+    "n": 180,
+    "grupo": 1,
+    "x": 0.9975,
+    "y": 0.9018
+   },
+   {
+    "id": "video",
+    "rotulo": "video",
+    "tipo": "palavra",
+    "n": 92,
+    "grupo": 0,
+    "x": 1.0053,
+    "y": 1.2491
+   },
+   {
+    "id": "dizer",
+    "rotulo": "dizer",
+    "tipo": "palavra",
+    "n": 75,
+    "grupo": 2,
+    "x": 0.7953,
+    "y": 0.9078
+   },
+   {
+    "id": "viver",
+    "rotulo": "viver",
+    "tipo": "palavra",
+    "n": 59,
+    "grupo": 1,
+    "x": 1.1605,
+    "y": 0.6614
+   },
+   {
+    "id": "estar",
+    "rotulo": "estar",
+    "tipo": "palavra",
+    "n": 117,
+    "grupo": 2,
+    "x": 1.1156,
+    "y": 0.8989
+   },
+   {
+    "id": "gostar",
+    "rotulo": "gostar",
+    "tipo": "palavra",
+    "n": 45,
+    "grupo": 0,
+    "x": 0.5823,
+    "y": 1.501
+   },
+   {
+    "id": "maravilhoso",
+    "rotulo": "maravilhoso",
+    "tipo": "palavra",
+    "n": 70,
+    "grupo": 0,
+    "x": 0.4199,
+    "y": 1.4612
+   },
+   {
+    "id": "religioso",
+    "rotulo": "religioso",
+    "tipo": "palavra",
+    "n": 43,
+    "grupo": 1,
+    "x": 1.3652,
+    "y": 0.7041
+   },
+   {
+    "id": "otimo",
+    "rotulo": "otimo",
+    "tipo": "palavra",
+    "n": 47,
+    "grupo": 0,
+    "x": 0.6592,
+    "y": 1.4308
+   },
+   {
+    "id": "isla",
+    "rotulo": "isla",
+    "tipo": "palavra",
+    "n": 81,
+    "grupo": 1,
+    "x": 1.2338,
+    "y": 0.7898
+   },
+   {
+    "id": "lindo",
+    "rotulo": "lindo",
+    "tipo": "palavra",
+    "n": 201,
+    "grupo": 0,
+    "x": 0.6128,
+    "y": 1.127
+   },
+   {
+    "id": "jesus",
+    "rotulo": "jesus",
+    "tipo": "palavra",
+    "n": 56,
+    "grupo": 2,
+    "x": 0.9155,
+    "y": 0.5027
+   },
+   {
+    "id": "mesmo",
+    "rotulo": "mesmo",
+    "tipo": "palavra",
+    "n": 51,
+    "grupo": 2,
+    "x": 0.779,
+    "y": 0.75
+   },
+   {
+    "id": "deus",
+    "rotulo": "deus",
+    "tipo": "palavra",
+    "n": 133,
+    "grupo": 2,
+    "x": 0.8684,
+    "y": 0.8249
+   },
+   {
+    "id": "muculmano",
+    "rotulo": "muculmano",
+    "tipo": "palavra",
+    "n": 246,
+    "grupo": 1,
+    "x": 1.0657,
+    "y": 0.9624
    }
   ],
   "arestas": [
    [
-    "vcs",
-    "brasileiro",
-    6
-   ],
-   [
-    "vcs",
-    "falar",
-    8
-   ],
-   [
-    "vcs",
-    "ficar",
-    7
-   ],
-   [
-    "vcs",
-    "mesmo",
+    "parabens",
+    "bonito",
     3
    ],
    [
-    "vcs",
-    "muculmano",
-    11
+    "parabens",
+    "excelente",
+    9
    ],
    [
-    "vcs",
-    "problema",
+    "parabens",
+    "querer",
+    3
+   ],
+   [
+    "parabens",
+    "amar",
+    8
+   ],
+   [
+    "parabens",
+    "arabe",
     5
    ],
    [
-    "vcs",
+    "parabens",
+    "video",
+    13
+   ],
+   [
+    "parabens",
+    "gostar",
+    4
+   ],
+   [
+    "parabens",
+    "bom",
+    6
+   ],
+   [
+    "parabens",
+    "deus",
+    6
+   ],
+   [
+    "parabens",
     "entender",
+    10
+   ],
+   [
+    "parabens",
+    "estar",
     4
    ],
    [
-    "vcs",
-    "ano",
+    "parabens",
+    "explicacao",
+    29
+   ],
+   [
+    "parabens",
+    "explicar",
+    7
+   ],
+   [
+    "parabens",
+    "maravilhoso",
+    9
+   ],
+   [
+    "parabens",
+    "precisar",
     3
    ],
    [
-    "vcs",
-    "dizer",
-    3
-   ],
-   [
-    "vcs",
-    "homem",
+    "parabens",
+    "respeito",
     4
    ],
    [
-    "vcs",
-    "mundo",
-    4
-   ],
-   [
-    "vcs",
-    "pais",
+    "parabens",
+    "desenhar",
     8
    ],
    [
-    "vcs",
-    "religiao",
-    11
+    "parabens",
+    "obrigar",
+    7
    ],
    [
-    "vcs",
+    "parabens",
+    "otimo",
+    7
+   ],
+   [
+    "parabens",
+    "risada",
+    4
+   ],
+   [
+    "parabens",
+    "claro",
+    6
+   ],
+   [
+    "parabens",
+    "ignorancia",
+    5
+   ],
+   [
+    "parabens",
+    "didatico",
+    9
+   ],
+   [
+    "parabens",
     "vc",
     10
    ],
    [
-    "vcs",
-    "deus",
-    7
-   ],
-   [
-    "vcs",
-    "risada",
+    "parabens",
+    "diferenca",
     3
    ],
    [
-    "vcs",
+    "parabens",
+    "aula",
+    6
+   ],
+   [
+    "parabens",
     "dar",
     3
    ],
    [
-    "vcs",
-    "jesus",
-    3
-   ],
-   [
-    "vcs",
-    "seguir",
-    3
-   ],
-   [
-    "vcs",
-    "so",
+    "parabens",
+    "mesmo",
     4
    ],
    [
-    "vcs",
-    "achar",
-    3
-   ],
-   [
-    "vcs",
-    "lindo",
-    7
-   ],
-   [
-    "vcs",
-    "mulher",
-    13
-   ],
-   [
-    "vcs",
-    "bom",
-    3
-   ],
-   [
-    "vcs",
-    "pq",
+    "parabens",
+    "saber",
     6
    ],
    [
-    "vcs",
-    "viver",
+    "parabens",
+    "perfeito",
+    4
+   ],
+   [
+    "parabens",
+    "achar",
+    6
+   ],
+   [
+    "parabens",
+    "coisa",
     5
    ],
    [
-    "vcs",
+    "parabens",
+    "ficar",
+    5
+   ],
+   [
+    "parabens",
+    "melhor",
+    3
+   ],
+   [
+    "parabens",
     "ver",
     4
    ],
    [
+    "parabens",
+    "brasileiro",
+    3
+   ],
+   [
+    "parabens",
+    "muculmano",
+    8
+   ],
+   [
+    "parabens",
+    "pais",
+    3
+   ],
+   [
+    "parabens",
+    "adorar",
+    3
+   ],
+   [
+    "parabens",
+    "aprender",
+    3
+   ],
+   [
+    "parabens",
+    "so",
+    4
+   ],
+   [
+    "parabens",
+    "vez",
+    3
+   ],
+   [
+    "parabens",
+    "falar",
+    4
+   ],
+   [
+    "parabens",
+    "lindo",
+    11
+   ],
+   [
+    "parabens",
+    "religiao",
+    5
+   ],
+   [
+    "parabens",
+    "ano",
+    4
+   ],
+   [
+    "vc",
+    "dar",
+    10
+   ],
+   [
+    "vc",
+    "deus",
+    14
+   ],
+   [
+    "vc",
+    "mulher",
+    24
+   ],
+   [
+    "vc",
+    "querer",
+    22
+   ],
+   [
+    "vc",
+    "ver",
+    15
+   ],
+   [
+    "vc",
+    "amar",
+    12
+   ],
+   [
+    "vc",
+    "arabe",
+    14
+   ],
+   [
+    "vc",
+    "aprender",
+    6
+   ],
+   [
+    "vc",
+    "dizer",
+    12
+   ],
+   [
+    "vc",
+    "entender",
+    20
+   ],
+   [
+    "vc",
+    "estar",
+    15
+   ],
+   [
+    "vc",
+    "falar",
+    27
+   ],
+   [
+    "vc",
+    "ignorancia",
+    10
+   ],
+   [
+    "vc",
+    "nascer",
+    4
+   ],
+   [
+    "vc",
+    "pais",
+    22
+   ],
+   [
+    "vc",
+    "pessoa",
+    10
+   ],
+   [
+    "vc",
+    "pq",
+    16
+   ],
+   [
+    "vc",
+    "seguir",
+    8
+   ],
+   [
+    "vc",
+    "video",
+    7
+   ],
+   [
+    "vc",
+    "aula",
+    4
+   ],
+   [
+    "vc",
+    "explicar",
+    10
+   ],
+   [
+    "vc",
+    "coisa",
+    19
+   ],
+   [
+    "vc",
+    "muculmano",
+    17
+   ],
+   [
+    "vc",
+    "dia",
+    5
+   ],
+   [
+    "vc",
+    "maravilhoso",
+    8
+   ],
+   [
+    "vc",
+    "diferenca",
+    4
+   ],
+   [
+    "vc",
+    "mulcumano",
+    8
+   ],
+   [
+    "vc",
+    "mundo",
+    12
+   ],
+   [
+    "vc",
+    "problema",
+    5
+   ],
+   [
+    "vc",
+    "saber",
+    19
+   ],
+   [
+    "vc",
+    "so",
+    22
+   ],
+   [
+    "vc",
+    "bom",
+    8
+   ],
+   [
+    "vc",
+    "desenhar",
+    7
+   ],
+   [
+    "vc",
+    "explicacao",
+    7
+   ],
+   [
+    "vc",
+    "achar",
+    21
+   ],
+   [
+    "vc",
+    "claro",
+    5
+   ],
+   [
+    "vc",
+    "didatico",
+    6
+   ],
+   [
+    "vc",
+    "excelente",
+    3
+   ],
+   [
+    "vc",
+    "ficar",
+    12
+   ],
+   [
+    "vc",
+    "otimo",
+    5
+   ],
+   [
+    "vc",
+    "gente",
+    11
+   ],
+   [
+    "vc",
+    "brasil",
+    15
+   ],
+   [
+    "vc",
+    "brasileiro",
+    3
+   ],
+   [
+    "vc",
+    "cristao",
+    13
+   ],
+   [
+    "vc",
+    "obrigar",
+    7
+   ],
+   [
+    "vc",
+    "ano",
+    9
+   ],
+   [
+    "vc",
+    "diferente",
+    5
+   ],
+   [
+    "vc",
+    "homem",
+    6
+   ],
+   [
+    "vc",
+    "religiao",
+    25
+   ],
+   [
+    "vc",
     "vcs",
+    10
+   ],
+   [
+    "vc",
+    "vida",
+    10
+   ],
+   [
+    "vc",
+    "vir",
+    13
+   ],
+   [
+    "vc",
+    "risada",
+    10
+   ],
+   [
+    "vc",
+    "gostar",
+    4
+   ],
+   [
+    "vc",
+    "vez",
+    8
+   ],
+   [
+    "vc",
+    "cultura",
+    7
+   ],
+   [
+    "vc",
+    "religioso",
+    3
+   ],
+   [
+    "vc",
+    "lindo",
+    15
+   ],
+   [
+    "vc",
+    "lei",
+    9
+   ],
+   [
+    "vc",
+    "matar",
+    7
+   ],
+   [
+    "vc",
+    "respeito",
+    3
+   ],
+   [
+    "vc",
+    "facil",
+    6
+   ],
+   [
+    "vc",
+    "existir",
+    4
+   ],
+   [
+    "vc",
+    "islamismo",
+    6
+   ],
+   [
+    "vc",
+    "melhor",
+    5
+   ],
+   [
+    "vc",
+    "pai",
+    5
+   ],
+   [
+    "vc",
+    "viver",
+    4
+   ],
+   [
+    "vc",
+    "isla",
+    7
+   ],
+   [
+    "vc",
+    "biblia",
+    10
+   ],
+   [
+    "vc",
+    "filho",
+    6
+   ],
+   [
+    "vc",
+    "bonito",
+    8
+   ],
+   [
+    "vc",
+    "conhecer",
+    6
+   ],
+   [
+    "vc",
+    "precisar",
+    12
+   ],
+   [
+    "excelente",
+    "explicacao",
+    19
+   ],
+   [
+    "excelente",
+    "didatico",
+    6
+   ],
+   [
+    "excelente",
+    "aula",
+    6
+   ],
+   [
+    "excelente",
+    "entender",
+    4
+   ],
+   [
+    "excelente",
+    "obrigar",
+    7
+   ],
+   [
+    "excelente",
+    "desenhar",
+    3
+   ],
+   [
+    "pai",
+    "deus",
+    10
+   ],
+   [
+    "pai",
+    "jesus",
+    9
+   ],
+   [
+    "pai",
+    "muculmano",
+    12
+   ],
+   [
+    "pai",
+    "mundo",
+    8
+   ],
+   [
+    "pai",
+    "religiao",
+    17
+   ],
+   [
+    "pai",
+    "saber",
+    10
+   ],
+   [
+    "pai",
+    "vir",
+    12
+   ],
+   [
+    "pai",
+    "brasileiro",
+    6
+   ],
+   [
+    "pai",
+    "falar",
+    10
+   ],
+   [
+    "pai",
+    "pais",
+    11
+   ],
+   [
+    "pai",
+    "entender",
+    4
+   ],
+   [
+    "pai",
+    "mulher",
+    11
+   ],
+   [
+    "pai",
+    "ver",
+    6
+   ],
+   [
+    "pai",
+    "ano",
+    5
+   ],
+   [
+    "pai",
+    "bonito",
+    4
+   ],
+   [
+    "pai",
+    "brasil",
+    14
+   ],
+   [
+    "pai",
+    "cristao",
+    10
+   ],
+   [
+    "pai",
+    "dizer",
+    11
+   ],
+   [
+    "pai",
+    "existir",
+    6
+   ],
+   [
+    "pai",
+    "homem",
+    5
+   ],
+   [
+    "pai",
+    "obrigar",
+    3
+   ],
+   [
+    "pai",
+    "arabe",
+    15
+   ],
+   [
+    "pai",
     "estar",
     5
    ],
    [
-    "vcs",
+    "pai",
+    "isla",
+    4
+   ],
+   [
+    "pai",
+    "islamismo",
+    3
+   ],
+   [
+    "pai",
+    "nascer",
+    7
+   ],
+   [
+    "pai",
+    "religioso",
+    5
+   ],
+   [
+    "pai",
+    "filho",
+    13
+   ],
+   [
+    "pai",
+    "explicar",
+    5
+   ],
+   [
+    "pai",
+    "mulcumano",
+    4
+   ],
+   [
+    "pai",
+    "vez",
+    5
+   ],
+   [
+    "pai",
+    "amar",
+    3
+   ],
+   [
+    "pai",
+    "bom",
+    5
+   ],
+   [
+    "pai",
+    "ficar",
+    8
+   ],
+   [
+    "pai",
+    "querer",
+    12
+   ],
+   [
+    "pai",
+    "vida",
+    9
+   ],
+   [
+    "pai",
+    "coisa",
+    7
+   ],
+   [
+    "pai",
+    "lei",
+    6
+   ],
+   [
+    "pai",
     "cultura",
     4
    ],
    [
-    "vcs",
-    "brasil",
-    6
-   ],
-   [
-    "vcs",
-    "coisa",
-    3
-   ],
-   [
-    "vcs",
-    "gente",
-    7
-   ],
-   [
-    "vcs",
-    "matar",
-    5
-   ],
-   [
-    "vcs",
-    "querer",
-    5
-   ],
-   [
-    "vcs",
-    "saber",
-    6
-   ],
-   [
-    "vcs",
-    "isla",
+    "pai",
+    "diferente",
     4
    ],
    [
-    "vcs",
-    "video",
-    3
-   ],
-   [
-    "pais",
-    "arabe",
-    85
-   ],
-   [
-    "pais",
-    "coisa",
-    28
-   ],
-   [
-    "pais",
-    "isla",
-    32
-   ],
-   [
-    "pais",
-    "mesmo",
-    17
-   ],
-   [
-    "pais",
-    "muculmano",
-    79
-   ],
-   [
-    "pais",
-    "nascer",
-    19
-   ],
-   [
-    "pais",
-    "pessoa",
-    21
-   ],
-   [
-    "pais",
-    "religiao",
-    95
-   ],
-   [
-    "pais",
-    "seguir",
-    23
-   ],
-   [
-    "pais",
-    "islamico",
-    27
-   ],
-   [
-    "pais",
-    "amar",
-    7
-   ],
-   [
-    "pais",
-    "desenhar",
-    4
-   ],
-   [
-    "pais",
-    "existir",
-    31
-   ],
-   [
-    "pais",
-    "pq",
-    19
-   ],
-   [
-    "pais",
-    "vez",
-    11
-   ],
-   [
-    "pais",
-    "achar",
-    15
-   ],
-   [
-    "pais",
-    "aprender",
-    5
-   ],
-   [
-    "pais",
-    "bom",
-    18
-   ],
-   [
-    "pais",
-    "estar",
-    26
-   ],
-   [
-    "pais",
-    "obrigar",
-    9
-   ],
-   [
-    "pais",
-    "video",
-    17
-   ],
-   [
-    "pais",
-    "entender",
-    13
-   ],
-   [
-    "pais",
-    "brasil",
-    52
-   ],
-   [
-    "pais",
-    "falar",
-    46
-   ],
-   [
-    "pais",
-    "lindo",
-    5
-   ],
-   [
-    "pais",
-    "mulher",
-    51
-   ],
-   [
-    "pais",
-    "brasileiro",
-    28
-   ],
-   [
-    "pais",
-    "cristao",
-    41
-   ],
-   [
-    "pais",
-    "ficar",
-    17
-   ],
-   [
-    "pais",
-    "matar",
-    11
-   ],
-   [
-    "pais",
-    "religioso",
-    23
-   ],
-   [
-    "pais",
-    "saber",
-    33
-   ],
-   [
-    "pais",
-    "aula",
-    5
-   ],
-   [
-    "pais",
-    "islamismo",
-    27
-   ],
-   [
-    "pais",
-    "lei",
-    27
-   ],
-   [
-    "pais",
-    "mulcumano",
-    25
-   ],
-   [
-    "pais",
-    "mundo",
-    29
-   ],
-   [
-    "pais",
+    "pai",
     "problema",
+    4
+   ],
+   [
+    "pai",
+    "so",
     9
    ],
    [
-    "pais",
-    "dizer",
-    16
-   ],
-   [
-    "pais",
-    "facil",
-    14
-   ],
-   [
-    "pais",
-    "homem",
-    12
-   ],
-   [
-    "pais",
-    "querer",
-    50
-   ],
-   [
-    "pais",
-    "vir",
-    15
-   ],
-   [
-    "pais",
+    "pai",
     "viver",
-    28
+    9
    ],
    [
-    "pais",
+    "pai",
+    "biblia",
+    4
+   ],
+   [
+    "pai",
+    "conhecer",
+    5
+   ],
+   [
+    "pai",
+    "matar",
+    3
+   ],
+   [
+    "pai",
+    "seguir",
+    4
+   ],
+   [
+    "pai",
+    "dar",
+    6
+   ],
+   [
+    "pai",
+    "pessoa",
+    4
+   ],
+   [
+    "pai",
+    "facil",
+    3
+   ],
+   [
+    "pai",
+    "pq",
+    3
+   ],
+   [
+    "religiao",
     "so",
     45
    ],
    [
-    "pais",
-    "pai",
-    11
-   ],
-   [
-    "pais",
-    "ignorancia",
-    7
-   ],
-   [
-    "pais",
-    "vc",
-    22
-   ],
-   [
-    "pais",
-    "filho",
-    7
-   ],
-   [
-    "pais",
-    "gente",
-    8
-   ],
-   [
-    "pais",
-    "explicacao",
-    11
-   ],
-   [
-    "pais",
-    "dar",
-    14
-   ],
-   [
-    "pais",
-    "deus",
-    13
-   ],
-   [
-    "pais",
-    "dia",
-    7
-   ],
-   [
-    "pais",
-    "diferente",
-    13
-   ],
-   [
-    "pais",
-    "vida",
-    7
-   ],
-   [
-    "pais",
-    "melhor",
-    13
-   ],
-   [
-    "pais",
-    "respeito",
-    8
-   ],
-   [
-    "pais",
-    "otimo",
-    3
-   ],
-   [
-    "pais",
-    "cultura",
-    27
-   ],
-   [
-    "pais",
-    "ano",
-    11
-   ],
-   [
-    "pais",
-    "claro",
-    9
-   ],
-   [
-    "pais",
-    "explicar",
-    9
-   ],
-   [
-    "pais",
-    "ver",
-    14
-   ],
-   [
-    "pais",
-    "diferenca",
-    5
-   ],
-   [
-    "pais",
-    "risada",
-    5
-   ],
-   [
-    "pais",
-    "parabens",
-    3
-   ],
-   [
-    "pais",
-    "precisar",
-    5
-   ],
-   [
-    "pais",
-    "conhecer",
-    4
-   ],
-   [
-    "pais",
-    "gostar",
-    3
-   ],
-   [
-    "pais",
-    "biblia",
-    4
-   ],
-   [
-    "pais",
-    "jesus",
-    4
-   ],
-   [
-    "perfeito",
-    "arabe",
-    5
-   ],
-   [
-    "perfeito",
-    "querer",
-    3
-   ],
-   [
-    "perfeito",
-    "so",
-    3
-   ],
-   [
-    "perfeito",
-    "explicacao",
-    15
-   ],
-   [
-    "perfeito",
-    "muculmano",
-    4
-   ],
-   [
-    "perfeito",
     "religiao",
-    5
-   ],
-   [
-    "perfeito",
-    "parabens",
-    4
-   ],
-   [
-    "perfeito",
-    "entender",
-    4
-   ],
-   [
-    "perfeito",
-    "ficar",
-    4
-   ],
-   [
-    "perfeito",
-    "saber",
-    3
-   ],
-   [
-    "perfeito",
-    "ano",
-    3
-   ],
-   [
-    "perfeito",
-    "aula",
-    3
-   ],
-   [
-    "estar",
-    "bom",
-    15
-   ],
-   [
-    "estar",
-    "amar",
-    4
-   ],
-   [
-    "estar",
-    "conhecer",
-    8
-   ],
-   [
-    "estar",
-    "deus",
-    19
-   ],
-   [
-    "estar",
-    "dia",
-    11
-   ],
-   [
-    "estar",
-    "entender",
-    18
-   ],
-   [
-    "estar",
-    "explicacao",
-    7
-   ],
-   [
-    "estar",
-    "explicar",
-    7
-   ],
-   [
-    "estar",
-    "parabens",
-    4
-   ],
-   [
-    "estar",
-    "precisar",
-    5
-   ],
-   [
-    "estar",
-    "respeito",
-    5
-   ],
-   [
-    "estar",
-    "muculmano",
-    19
-   ],
-   [
-    "estar",
-    "achar",
-    12
-   ],
-   [
-    "estar",
-    "aprender",
-    7
-   ],
-   [
-    "estar",
     "arabe",
-    19
+    63
    ],
    [
-    "estar",
-    "coisa",
+    "religiao",
+    "brasileiro",
     17
    ],
    [
-    "estar",
-    "obrigar",
-    7
+    "religiao",
+    "isla",
+    40
    ],
    [
-    "estar",
-    "vez",
-    7
-   ],
-   [
-    "estar",
-    "video",
-    8
-   ],
-   [
-    "estar",
-    "dizer",
-    10
-   ],
-   [
-    "estar",
-    "falar",
-    24
-   ],
-   [
-    "estar",
-    "ignorancia",
-    4
-   ],
-   [
-    "estar",
-    "nascer",
-    3
-   ],
-   [
-    "estar",
-    "pessoa",
-    10
-   ],
-   [
-    "estar",
-    "pq",
-    11
-   ],
-   [
-    "estar",
-    "seguir",
-    7
-   ],
-   [
-    "estar",
-    "vc",
-    15
-   ],
-   [
-    "estar",
-    "mulher",
-    24
-   ],
-   [
-    "estar",
-    "ano",
-    11
-   ],
-   [
-    "estar",
-    "cristao",
-    11
-   ],
-   [
-    "estar",
-    "ver",
-    16
-   ],
-   [
-    "estar",
-    "cultura",
-    9
-   ],
-   [
-    "estar",
-    "melhor",
-    8
-   ],
-   [
-    "estar",
-    "mesmo",
-    5
-   ],
-   [
-    "estar",
-    "mulcumano",
-    6
-   ],
-   [
-    "estar",
-    "desenhar",
-    5
-   ],
-   [
-    "estar",
-    "so",
-    13
-   ],
-   [
-    "estar",
-    "querer",
+    "religiao",
+    "islamico",
     22
    ],
    [
-    "estar",
-    "ficar",
-    8
-   ],
-   [
-    "estar",
-    "saber",
-    13
-   ],
-   [
-    "estar",
-    "brasil",
-    18
-   ],
-   [
-    "estar",
-    "existir",
-    5
-   ],
-   [
-    "estar",
-    "isla",
-    8
-   ],
-   [
-    "estar",
-    "islamismo",
-    5
-   ],
-   [
-    "estar",
-    "pai",
-    5
-   ],
-   [
-    "estar",
     "religiao",
-    20
-   ],
-   [
-    "estar",
-    "religioso",
-    7
-   ],
-   [
-    "estar",
-    "filho",
-    7
-   ],
-   [
-    "estar",
-    "brasileiro",
-    7
-   ],
-   [
-    "estar",
-    "claro",
-    3
-   ],
-   [
-    "estar",
-    "dar",
-    8
-   ],
-   [
-    "estar",
-    "islamico",
-    3
-   ],
-   [
-    "estar",
-    "lei",
-    7
-   ],
-   [
-    "estar",
-    "vir",
-    6
-   ],
-   [
-    "estar",
-    "viver",
-    13
-   ],
-   [
-    "estar",
-    "risada",
-    4
-   ],
-   [
-    "estar",
-    "mundo",
-    6
-   ],
-   [
-    "estar",
-    "lindo",
-    11
-   ],
-   [
-    "estar",
-    "problema",
-    5
-   ],
-   [
-    "estar",
-    "biblia",
-    4
-   ],
-   [
-    "estar",
-    "matar",
-    6
-   ],
-   [
-    "estar",
-    "facil",
-    5
-   ],
-   [
-    "estar",
-    "gente",
-    6
-   ],
-   [
-    "estar",
-    "bonito",
-    4
-   ],
-   [
-    "estar",
-    "vida",
-    7
-   ],
-   [
-    "estar",
-    "homem",
-    7
-   ],
-   [
-    "estar",
-    "jesus",
-    3
-   ],
-   [
-    "mundo",
-    "deus",
-    9
-   ],
-   [
-    "mundo",
-    "jesus",
-    7
-   ],
-   [
-    "mundo",
-    "muculmano",
-    21
-   ],
-   [
-    "mundo",
-    "pai",
-    8
-   ],
-   [
-    "mundo",
-    "religiao",
-    25
-   ],
-   [
-    "mundo",
-    "saber",
-    13
-   ],
-   [
-    "mundo",
-    "vir",
-    7
-   ],
-   [
-    "mundo",
-    "aula",
-    5
-   ],
-   [
-    "mundo",
-    "isla",
-    8
-   ],
-   [
-    "mundo",
-    "islamismo",
-    5
-   ],
-   [
-    "mundo",
-    "lei",
-    6
-   ],
-   [
-    "mundo",
     "mulcumano",
-    12
+    30
    ],
    [
-    "mundo",
-    "problema",
-    4
-   ],
-   [
-    "mundo",
-    "brasil",
-    12
-   ],
-   [
-    "mundo",
-    "cristao",
-    12
-   ],
-   [
-    "mundo",
-    "dizer",
-    7
-   ],
-   [
-    "mundo",
-    "facil",
-    5
-   ],
-   [
-    "mundo",
-    "homem",
-    4
-   ],
-   [
-    "mundo",
-    "matar",
-    4
-   ],
-   [
-    "mundo",
-    "mesmo",
-    5
-   ],
-   [
-    "mundo",
-    "mulher",
-    8
-   ],
-   [
-    "mundo",
-    "pq",
-    4
-   ],
-   [
-    "mundo",
-    "querer",
-    15
-   ],
-   [
-    "mundo",
-    "viver",
-    8
-   ],
-   [
-    "mundo",
-    "arabe",
-    18
-   ],
-   [
-    "mundo",
-    "diferenca",
-    3
-   ],
-   [
-    "mundo",
-    "explicar",
-    5
-   ],
-   [
-    "mundo",
-    "ignorancia",
-    7
-   ],
-   [
-    "mundo",
-    "seguir",
-    6
-   ],
-   [
-    "mundo",
-    "so",
-    13
-   ],
-   [
-    "mundo",
-    "vc",
-    12
-   ],
-   [
-    "mundo",
-    "bom",
-    5
-   ],
-   [
-    "mundo",
-    "explicacao",
-    4
-   ],
-   [
-    "mundo",
-    "nascer",
-    3
-   ],
-   [
-    "mundo",
-    "coisa",
-    13
-   ],
-   [
-    "mundo",
-    "dia",
-    3
-   ],
-   [
-    "mundo",
-    "diferente",
-    5
-   ],
-   [
-    "mundo",
-    "existir",
-    6
-   ],
-   [
-    "mundo",
-    "pessoa",
-    6
-   ],
-   [
-    "mundo",
-    "religioso",
-    7
-   ],
-   [
-    "mundo",
-    "vez",
-    7
-   ],
-   [
-    "mundo",
-    "vida",
-    10
-   ],
-   [
-    "mundo",
-    "falar",
-    13
-   ],
-   [
-    "mundo",
-    "brasileiro",
-    6
-   ],
-   [
-    "mundo",
-    "ano",
-    3
-   ],
-   [
-    "mundo",
-    "ficar",
-    9
-   ],
-   [
-    "mundo",
-    "aprender",
-    3
-   ],
-   [
-    "mundo",
-    "gente",
-    6
-   ],
-   [
-    "mundo",
-    "gostar",
-    3
-   ],
-   [
-    "mundo",
-    "filho",
-    5
-   ],
-   [
-    "mundo",
-    "video",
-    5
-   ],
-   [
-    "mundo",
-    "cultura",
-    5
-   ],
-   [
-    "mundo",
-    "islamico",
-    4
-   ],
-   [
-    "mundo",
-    "obrigar",
-    3
-   ],
-   [
-    "mundo",
-    "dar",
-    7
-   ],
-   [
-    "mundo",
-    "respeito",
-    4
-   ],
-   [
-    "mundo",
-    "ver",
-    4
-   ],
-   [
-    "mundo",
-    "entender",
-    5
-   ],
-   [
-    "mundo",
-    "melhor",
-    6
-   ],
-   [
-    "mundo",
-    "precisar",
-    4
-   ],
-   [
-    "muculmano",
-    "mulher",
-    49
-   ],
-   [
-    "muculmano",
-    "arabe",
-    78
-   ],
-   [
-    "muculmano",
-    "coisa",
-    16
-   ],
-   [
-    "muculmano",
-    "isla",
-    25
-   ],
-   [
-    "muculmano",
-    "mesmo",
-    12
-   ],
-   [
-    "muculmano",
-    "nascer",
-    13
-   ],
-   [
-    "muculmano",
-    "pessoa",
-    12
-   ],
-   [
-    "muculmano",
     "religiao",
+    "querer",
+    41
+   ],
+   [
+    "religiao",
+    "coisa",
+    28
+   ],
+   [
+    "religiao",
+    "mesmo",
+    17
+   ],
+   [
+    "religiao",
+    "muculmano",
     76
    ],
    [
-    "muculmano",
+    "religiao",
+    "nascer",
+    16
+   ],
+   [
+    "religiao",
+    "pais",
+    95
+   ],
+   [
+    "religiao",
+    "pessoa",
+    22
+   ],
+   [
+    "religiao",
     "seguir",
-    12
+    36
    ],
    [
-    "muculmano",
+    "religiao",
     "desenhar",
-    4
+    5
    ],
    [
-    "muculmano",
+    "religiao",
     "deus",
-    12
+    20
    ],
    [
-    "muculmano",
+    "religiao",
     "jesus",
-    4
+    8
    ],
    [
-    "muculmano",
-    "pai",
-    12
+    "religiao",
+    "mundo",
+    25
    ],
    [
-    "muculmano",
+    "religiao",
     "saber",
     29
    ],
    [
-    "muculmano",
+    "religiao",
     "vir",
-    14
+    11
    ],
    [
-    "muculmano",
-    "vida",
-    13
-   ],
-   [
-    "muculmano",
-    "achar",
-    16
-   ],
-   [
-    "muculmano",
-    "aprender",
-    7
-   ],
-   [
-    "muculmano",
-    "bom",
-    17
-   ],
-   [
-    "muculmano",
-    "obrigar",
-    8
-   ],
-   [
-    "muculmano",
-    "vez",
+    "religiao",
+    "ano",
     10
    ],
    [
-    "muculmano",
-    "video",
+    "religiao",
+    "respeito",
     22
    ],
    [
-    "muculmano",
+    "religiao",
     "cristao",
-    39
+    48
    ],
    [
-    "muculmano",
-    "brasileiro",
-    26
+    "religiao",
+    "brasil",
+    50
    ],
    [
-    "muculmano",
-    "ficar",
+    "religiao",
+    "falar",
+    48
+   ],
+   [
+    "religiao",
+    "lindo",
+    10
+   ],
+   [
+    "religiao",
+    "mulher",
+    63
+   ],
+   [
+    "religiao",
+    "gente",
+    11
+   ],
+   [
+    "religiao",
+    "aula",
+    3
+   ],
+   [
+    "religiao",
+    "islamismo",
+    23
+   ],
+   [
+    "religiao",
+    "lei",
+    23
+   ],
+   [
+    "religiao",
+    "problema",
     16
    ],
    [
-    "muculmano",
-    "matar",
-    9
-   ],
-   [
-    "muculmano",
-    "religioso",
-    19
-   ],
-   [
-    "muculmano",
-    "falar",
-    35
-   ],
-   [
-    "muculmano",
-    "problema",
-    10
-   ],
-   [
-    "muculmano",
-    "ano",
-    12
-   ],
-   [
-    "muculmano",
-    "pq",
-    12
-   ],
-   [
-    "muculmano",
-    "ver",
-    13
-   ],
-   [
-    "muculmano",
-    "vc",
-    17
-   ],
-   [
-    "muculmano",
-    "explicar",
-    17
-   ],
-   [
-    "muculmano",
-    "explicacao",
-    9
-   ],
-   [
-    "muculmano",
-    "ignorancia",
-    4
-   ],
-   [
-    "muculmano",
-    "so",
-    33
-   ],
-   [
-    "muculmano",
-    "dia",
-    7
-   ],
-   [
-    "muculmano",
-    "diferente",
-    10
-   ],
-   [
-    "muculmano",
-    "existir",
-    25
-   ],
-   [
-    "muculmano",
-    "islamismo",
-    13
-   ],
-   [
-    "muculmano",
-    "viver",
+    "religiao",
+    "dizer",
     18
    ],
    [
-    "muculmano",
+    "religiao",
+    "facil",
+    13
+   ],
+   [
+    "religiao",
+    "homem",
+    18
+   ],
+   [
+    "religiao",
+    "matar",
+    15
+   ],
+   [
+    "religiao",
+    "pq",
+    19
+   ],
+   [
+    "religiao",
+    "viver",
+    24
+   ],
+   [
+    "religiao",
+    "existir",
+    35
+   ],
+   [
+    "religiao",
+    "bom",
+    21
+   ],
+   [
+    "religiao",
+    "explicacao",
+    14
+   ],
+   [
+    "religiao",
+    "ignorancia",
+    8
+   ],
+   [
+    "religiao",
+    "perfeito",
+    5
+   ],
+   [
+    "religiao",
+    "risada",
+    7
+   ],
+   [
+    "religiao",
+    "dia",
+    9
+   ],
+   [
+    "religiao",
+    "diferente",
+    17
+   ],
+   [
+    "religiao",
+    "religioso",
+    22
+   ],
+   [
+    "religiao",
+    "vez",
+    12
+   ],
+   [
+    "religiao",
+    "vida",
+    15
+   ],
+   [
+    "religiao",
     "diferenca",
     11
    ],
    [
-    "muculmano",
-    "cultura",
-    14
-   ],
-   [
-    "muculmano",
-    "aula",
-    6
-   ],
-   [
-    "muculmano",
-    "didatico",
-    3
-   ],
-   [
-    "muculmano",
-    "dizer",
-    14
-   ],
-   [
-    "muculmano",
-    "homem",
-    11
-   ],
-   [
-    "muculmano",
-    "islamico",
-    16
-   ],
-   [
-    "muculmano",
-    "lei",
-    8
-   ],
-   [
-    "muculmano",
-    "otimo",
-    5
-   ],
-   [
-    "muculmano",
-    "querer",
-    34
-   ],
-   [
-    "muculmano",
-    "brasil",
-    35
-   ],
-   [
-    "muculmano",
-    "entender",
-    9
-   ],
-   [
-    "muculmano",
-    "filho",
-    5
-   ],
-   [
-    "muculmano",
-    "respeito",
-    8
-   ],
-   [
-    "muculmano",
-    "claro",
-    7
-   ],
-   [
-    "muculmano",
-    "dar",
-    9
-   ],
-   [
-    "muculmano",
-    "gente",
-    8
-   ],
-   [
-    "muculmano",
-    "parabens",
-    8
-   ],
-   [
-    "muculmano",
-    "precisar",
-    6
-   ],
-   [
-    "muculmano",
-    "lindo",
-    7
-   ],
-   [
-    "muculmano",
-    "risada",
-    4
-   ],
-   [
-    "muculmano",
-    "gostar",
-    5
-   ],
-   [
-    "muculmano",
-    "bonito",
-    3
-   ],
-   [
-    "muculmano",
-    "melhor",
-    8
-   ],
-   [
-    "muculmano",
-    "facil",
-    16
-   ],
-   [
-    "muculmano",
-    "biblia",
-    5
-   ],
-   [
-    "muculmano",
-    "amar",
-    3
-   ],
-   [
-    "dizer",
-    "saber",
-    13
-   ],
-   [
-    "dizer",
-    "brasil",
-    13
-   ],
-   [
-    "dizer",
-    "cristao",
-    14
-   ],
-   [
-    "dizer",
-    "facil",
-    6
-   ],
-   [
-    "dizer",
-    "homem",
-    11
-   ],
-   [
-    "dizer",
-    "matar",
-    4
-   ],
-   [
-    "dizer",
-    "mesmo",
-    4
-   ],
-   [
-    "dizer",
-    "mulcumano",
-    7
-   ],
-   [
-    "dizer",
-    "mulher",
-    13
-   ],
-   [
-    "dizer",
-    "pq",
-    9
-   ],
-   [
-    "dizer",
-    "querer",
-    15
-   ],
-   [
-    "dizer",
     "religiao",
-    18
-   ],
-   [
-    "dizer",
-    "vir",
-    13
-   ],
-   [
-    "dizer",
-    "viver",
-    5
-   ],
-   [
-    "dizer",
-    "aprender",
-    3
-   ],
-   [
-    "dizer",
     "entender",
-    7
+    22
    ],
    [
-    "dizer",
-    "falar",
-    13
-   ],
-   [
-    "dizer",
-    "ignorancia",
-    6
-   ],
-   [
-    "dizer",
-    "nascer",
-    6
-   ],
-   [
-    "dizer",
-    "pessoa",
-    12
-   ],
-   [
-    "dizer",
-    "seguir",
-    9
-   ],
-   [
-    "dizer",
-    "vc",
-    12
-   ],
-   [
-    "dizer",
-    "video",
-    5
-   ],
-   [
-    "dizer",
-    "brasileiro",
-    11
-   ],
-   [
-    "dizer",
-    "coisa",
-    7
-   ],
-   [
-    "dizer",
-    "so",
-    13
-   ],
-   [
-    "dizer",
-    "ano",
-    9
-   ],
-   [
-    "dizer",
+    "religiao",
     "bonito",
-    7
-   ],
-   [
-    "dizer",
-    "existir",
     6
    ],
    [
-    "dizer",
-    "lindo",
-    6
-   ],
-   [
-    "dizer",
+    "religiao",
     "maravilhoso",
     4
    ],
    [
-    "dizer",
-    "pai",
+    "religiao",
+    "ficar",
+    17
+   ],
+   [
+    "religiao",
+    "vcs",
     11
    ],
    [
-    "dizer",
-    "explicacao",
-    8
-   ],
-   [
-    "dizer",
+    "religiao",
     "otimo",
-    4
+    6
    ],
    [
-    "dizer",
-    "aula",
-    4
-   ],
-   [
-    "dizer",
-    "didatico",
-    3
-   ],
-   [
-    "dizer",
-    "diferente",
-    5
-   ],
-   [
-    "dizer",
-    "ficar",
-    7
-   ],
-   [
-    "dizer",
-    "vida",
-    4
-   ],
-   [
-    "dizer",
-    "arabe",
-    9
-   ],
-   [
-    "dizer",
-    "achar",
-    4
-   ],
-   [
-    "dizer",
-    "filho",
-    10
-   ],
-   [
-    "dizer",
-    "obrigar",
-    3
-   ],
-   [
-    "dizer",
-    "vez",
-    10
-   ],
-   [
-    "dizer",
-    "bom",
-    15
-   ],
-   [
-    "dizer",
-    "deus",
-    10
-   ],
-   [
-    "dizer",
-    "diferenca",
-    3
-   ],
-   [
-    "dizer",
-    "respeito",
-    5
-   ],
-   [
-    "dizer",
-    "amar",
-    4
-   ],
-   [
-    "dizer",
-    "explicar",
-    7
-   ],
-   [
-    "dizer",
-    "jesus",
-    10
-   ],
-   [
-    "dizer",
-    "lei",
-    4
-   ],
-   [
-    "dizer",
-    "isla",
-    8
-   ],
-   [
-    "dizer",
-    "claro",
-    3
-   ],
-   [
-    "dizer",
+    "religiao",
     "cultura",
-    5
+    25
    ],
    [
-    "dizer",
-    "melhor",
-    5
-   ],
-   [
-    "dizer",
-    "problema",
-    4
-   ],
-   [
-    "dizer",
-    "religioso",
-    4
-   ],
-   [
-    "dizer",
-    "ver",
-    4
-   ],
-   [
-    "dizer",
-    "conhecer",
-    6
-   ],
-   [
-    "dizer",
-    "biblia",
-    4
-   ],
-   [
-    "dizer",
-    "dar",
-    6
-   ],
-   [
-    "dizer",
-    "gente",
-    3
-   ],
-   [
-    "dizer",
-    "dia",
-    3
-   ],
-   [
-    "brasileiro",
-    "entender",
-    9
-   ],
-   [
-    "brasileiro",
-    "arabe",
-    24
-   ],
-   [
-    "brasileiro",
-    "isla",
-    4
-   ],
-   [
-    "brasileiro",
-    "islamico",
-    8
-   ],
-   [
-    "brasileiro",
-    "mulcumano",
-    5
-   ],
-   [
-    "brasileiro",
-    "querer",
-    17
-   ],
-   [
-    "brasileiro",
     "religiao",
-    17
-   ],
-   [
-    "brasileiro",
-    "bom",
-    5
-   ],
-   [
-    "brasileiro",
-    "explicacao",
-    6
-   ],
-   [
-    "brasileiro",
-    "obrigar",
-    3
-   ],
-   [
-    "brasileiro",
-    "saber",
-    18
-   ],
-   [
-    "brasileiro",
-    "so",
-    13
-   ],
-   [
-    "brasileiro",
-    "cristao",
-    12
-   ],
-   [
-    "brasileiro",
-    "ficar",
-    6
-   ],
-   [
-    "brasileiro",
-    "matar",
-    3
-   ],
-   [
-    "brasileiro",
-    "religioso",
-    6
-   ],
-   [
-    "brasileiro",
-    "falar",
-    17
-   ],
-   [
-    "brasileiro",
-    "pai",
-    6
-   ],
-   [
-    "brasileiro",
-    "mesmo",
-    9
-   ],
-   [
-    "brasileiro",
-    "problema",
-    5
-   ],
-   [
-    "brasileiro",
-    "explicar",
-    4
-   ],
-   [
-    "brasileiro",
-    "brasil",
-    24
-   ],
-   [
-    "brasileiro",
-    "nascer",
-    9
-   ],
-   [
-    "brasileiro",
-    "aprender",
-    4
-   ],
-   [
-    "brasileiro",
-    "otimo",
-    3
-   ],
-   [
-    "brasileiro",
-    "coisa",
-    12
-   ],
-   [
-    "brasileiro",
-    "ano",
-    6
-   ],
-   [
-    "brasileiro",
-    "homem",
-    3
-   ],
-   [
-    "brasileiro",
-    "lindo",
-    6
-   ],
-   [
-    "brasileiro",
-    "vc",
-    3
-   ],
-   [
-    "brasileiro",
-    "lei",
-    6
-   ],
-   [
-    "brasileiro",
-    "mulher",
-    11
-   ],
-   [
-    "brasileiro",
-    "achar",
-    4
-   ],
-   [
-    "brasileiro",
-    "diferenca",
-    6
-   ],
-   [
-    "brasileiro",
-    "vez",
-    3
-   ],
-   [
-    "brasileiro",
-    "claro",
-    5
-   ],
-   [
-    "brasileiro",
-    "dar",
-    5
-   ],
-   [
-    "brasileiro",
-    "islamismo",
-    5
-   ],
-   [
-    "brasileiro",
-    "ver",
-    3
-   ],
-   [
-    "brasileiro",
-    "vir",
-    4
-   ],
-   [
-    "brasileiro",
-    "viver",
-    3
-   ],
-   [
-    "brasileiro",
-    "desenhar",
-    6
-   ],
-   [
-    "brasileiro",
-    "parabens",
-    3
-   ],
-   [
-    "brasileiro",
-    "video",
-    6
-   ],
-   [
-    "brasileiro",
-    "filho",
-    4
-   ],
-   [
-    "brasileiro",
-    "gostar",
-    4
-   ],
-   [
-    "brasileiro",
-    "facil",
-    3
-   ],
-   [
-    "brasileiro",
-    "deus",
-    6
-   ],
-   [
-    "brasileiro",
-    "cultura",
-    7
-   ],
-   [
-    "brasileiro",
-    "melhor",
-    3
-   ],
-   [
-    "brasileiro",
-    "diferente",
-    3
-   ],
-   [
-    "brasileiro",
-    "pq",
-    3
-   ],
-   [
-    "brasileiro",
-    "gente",
-    3
-   ],
-   [
-    "brasileiro",
-    "seguir",
-    4
-   ],
-   [
-    "ignorancia",
-    "achar",
-    6
-   ],
-   [
-    "ignorancia",
-    "conhecer",
-    3
-   ],
-   [
-    "ignorancia",
-    "explicacao",
-    9
-   ],
-   [
-    "ignorancia",
-    "pessoa",
-    7
-   ],
-   [
-    "ignorancia",
-    "so",
-    12
-   ],
-   [
-    "ignorancia",
-    "didatico",
-    4
-   ],
-   [
-    "ignorancia",
-    "parabens",
-    5
-   ],
-   [
-    "ignorancia",
-    "aprender",
-    8
-   ],
-   [
-    "ignorancia",
-    "entender",
-    3
-   ],
-   [
-    "ignorancia",
-    "falar",
-    8
-   ],
-   [
-    "ignorancia",
-    "nascer",
-    3
-   ],
-   [
-    "ignorancia",
-    "pq",
-    4
-   ],
-   [
-    "ignorancia",
-    "seguir",
-    3
-   ],
-   [
-    "ignorancia",
-    "vc",
-    10
-   ],
-   [
-    "ignorancia",
-    "video",
-    3
-   ],
-   [
-    "ignorancia",
-    "mulher",
-    4
-   ],
-   [
-    "ignorancia",
-    "arabe",
-    4
-   ],
-   [
-    "ignorancia",
-    "diferenca",
-    3
-   ],
-   [
-    "ignorancia",
-    "explicar",
-    3
-   ],
-   [
-    "ignorancia",
-    "saber",
-    9
-   ],
-   [
-    "ignorancia",
-    "bom",
-    8
-   ],
-   [
-    "ignorancia",
-    "religiao",
-    8
-   ],
-   [
-    "ignorancia",
-    "ficar",
-    3
-   ],
-   [
-    "ignorancia",
-    "desenhar",
-    3
-   ],
-   [
-    "ignorancia",
-    "dia",
-    3
-   ],
-   [
-    "ignorancia",
-    "melhor",
-    4
-   ],
-   [
-    "ignorancia",
-    "coisa",
-    6
-   ],
-   [
-    "ignorancia",
-    "existir",
-    3
-   ],
-   [
-    "ignorancia",
-    "vez",
-    3
-   ],
-   [
-    "ignorancia",
-    "cristao",
-    4
-   ],
-   [
-    "ignorancia",
-    "isla",
-    3
-   ],
-   [
-    "ignorancia",
-    "respeito",
-    8
-   ],
-   [
-    "ignorancia",
-    "aula",
-    4
-   ],
-   [
-    "ignorancia",
-    "dar",
-    7
-   ],
-   [
-    "ignorancia",
-    "deus",
-    3
-   ],
-   [
-    "precisar",
-    "bom",
-    6
-   ],
-   [
-    "precisar",
-    "entender",
-    9
-   ],
-   [
-    "precisar",
-    "explicacao",
-    3
-   ],
-   [
-    "precisar",
-    "explicar",
-    6
-   ],
-   [
-    "precisar",
-    "parabens",
-    3
-   ],
-   [
-    "precisar",
-    "respeito",
-    3
-   ],
-   [
-    "precisar",
-    "desenhar",
-    14
-   ],
-   [
-    "precisar",
-    "aula",
-    5
-   ],
-   [
-    "precisar",
-    "vez",
-    5
-   ],
-   [
-    "precisar",
-    "video",
-    6
-   ],
-   [
-    "precisar",
-    "dar",
-    3
-   ],
-   [
-    "precisar",
-    "homem",
-    4
-   ],
-   [
-    "precisar",
-    "isla",
-    3
-   ],
-   [
-    "precisar",
-    "mulher",
-    6
-   ],
-   [
-    "precisar",
-    "religiao",
-    7
-   ],
-   [
-    "precisar",
-    "coisa",
-    11
-   ],
-   [
-    "precisar",
-    "falar",
-    7
-   ],
-   [
-    "precisar",
-    "brasil",
-    7
-   ],
-   [
-    "precisar",
-    "arabe",
-    5
-   ],
-   [
-    "precisar",
-    "saber",
-    6
-   ],
-   [
-    "precisar",
-    "mulcumano",
-    3
-   ],
-   [
-    "precisar",
-    "so",
-    4
-   ],
-   [
-    "precisar",
-    "diferenca",
-    3
-   ],
-   [
-    "precisar",
-    "risada",
-    3
-   ],
-   [
-    "precisar",
-    "querer",
-    9
-   ],
-   [
-    "precisar",
-    "ver",
-    9
-   ],
-   [
-    "precisar",
-    "gente",
-    3
-   ],
-   [
-    "precisar",
-    "lindo",
-    5
-   ],
-   [
-    "precisar",
-    "viver",
-    4
-   ],
-   [
-    "precisar",
-    "pq",
-    3
-   ],
-   [
-    "precisar",
-    "islamico",
-    3
-   ],
-   [
-    "precisar",
-    "vc",
-    12
-   ],
-   [
-    "precisar",
-    "biblia",
-    7
-   ],
-   [
-    "precisar",
-    "cristao",
-    7
-   ],
-   [
-    "conhecer",
-    "amar",
-    4
-   ],
-   [
-    "conhecer",
-    "bom",
-    7
-   ],
-   [
-    "conhecer",
-    "deus",
-    11
-   ],
-   [
-    "conhecer",
-    "dia",
-    5
-   ],
-   [
-    "conhecer",
-    "explicacao",
-    6
-   ],
-   [
-    "conhecer",
-    "respeito",
-    3
-   ],
-   [
-    "conhecer",
-    "achar",
-    5
-   ],
-   [
-    "conhecer",
-    "brasil",
-    6
-   ],
-   [
-    "conhecer",
-    "obrigar",
-    6
-   ],
-   [
-    "conhecer",
-    "pessoa",
-    6
-   ],
-   [
-    "conhecer",
-    "so",
-    8
-   ],
-   [
-    "conhecer",
-    "arabe",
-    11
-   ],
-   [
-    "conhecer",
-    "biblia",
-    4
-   ],
-   [
-    "conhecer",
-    "cristao",
-    8
-   ],
-   [
-    "conhecer",
-    "falar",
-    8
-   ],
-   [
-    "conhecer",
-    "filho",
-    3
-   ],
-   [
-    "conhecer",
-    "jesus",
-    5
-   ],
-   [
-    "conhecer",
-    "mulcumano",
-    6
-   ],
-   [
-    "conhecer",
-    "querer",
-    9
-   ],
-   [
-    "conhecer",
-    "aprender",
-    4
-   ],
-   [
-    "conhecer",
-    "cultura",
-    5
-   ],
-   [
-    "conhecer",
-    "ver",
-    6
-   ],
-   [
-    "conhecer",
-    "existir",
-    4
-   ],
-   [
-    "conhecer",
-    "religiao",
-    8
-   ],
-   [
-    "conhecer",
-    "lindo",
-    3
-   ],
-   [
-    "conhecer",
-    "ano",
-    4
-   ],
-   [
-    "conhecer",
-    "ficar",
-    3
-   ],
-   [
-    "conhecer",
-    "matar",
-    3
-   ],
-   [
-    "conhecer",
-    "pai",
-    5
-   ],
-   [
-    "conhecer",
-    "viver",
-    3
-   ],
-   [
-    "conhecer",
-    "vc",
-    6
-   ],
-   [
-    "conhecer",
-    "homem",
-    3
-   ],
-   [
-    "conhecer",
-    "mulher",
-    5
-   ],
-   [
-    "conhecer",
-    "coisa",
-    3
-   ],
-   [
-    "cristao",
-    "religiao",
-    48
-   ],
-   [
-    "cristao",
-    "arabe",
-    33
-   ],
-   [
-    "cristao",
-    "ficar",
-    10
-   ],
-   [
-    "cristao",
-    "matar",
-    13
-   ],
-   [
-    "cristao",
-    "religioso",
-    12
-   ],
-   [
-    "cristao",
-    "saber",
-    14
-   ],
-   [
-    "cristao",
-    "brasil",
+    "estar",
     20
    ],
    [
-    "cristao",
-    "facil",
-    6
-   ],
-   [
-    "cristao",
-    "homem",
-    8
-   ],
-   [
-    "cristao",
-    "mesmo",
-    4
-   ],
-   [
-    "cristao",
-    "mulcumano",
-    18
-   ],
-   [
-    "cristao",
-    "mulher",
+    "religiao",
+    "achar",
     16
    ],
    [
-    "cristao",
-    "pq",
-    9
-   ],
-   [
-    "cristao",
-    "querer",
-    15
-   ],
-   [
-    "cristao",
-    "vir",
-    10
-   ],
-   [
-    "cristao",
-    "viver",
-    7
-   ],
-   [
-    "cristao",
-    "coisa",
-    15
-   ],
-   [
-    "cristao",
-    "biblia",
-    17
-   ],
-   [
-    "cristao",
-    "deus",
-    12
-   ],
-   [
-    "cristao",
-    "falar",
-    16
-   ],
-   [
-    "cristao",
+    "religiao",
     "filho",
-    6
-   ],
-   [
-    "cristao",
-    "jesus",
-    10
-   ],
-   [
-    "cristao",
-    "lei",
-    8
-   ],
-   [
-    "cristao",
-    "so",
-    15
-   ],
-   [
-    "cristao",
-    "ano",
     7
    ],
    [
-    "cristao",
-    "ver",
-    16
+    "religiao",
+    "obrigar",
+    7
    ],
    [
-    "cristao",
-    "dia",
-    6
-   ],
-   [
-    "cristao",
-    "diferente",
-    6
-   ],
-   [
-    "cristao",
-    "existir",
+    "religiao",
+    "dar",
     17
    ],
    [
-    "cristao",
-    "islamismo",
-    5
-   ],
-   [
-    "cristao",
-    "pessoa",
-    9
-   ],
-   [
-    "cristao",
-    "vez",
-    5
-   ],
-   [
-    "cristao",
-    "vida",
-    8
-   ],
-   [
-    "cristao",
-    "amar",
-    4
-   ],
-   [
-    "cristao",
-    "bom",
-    9
-   ],
-   [
-    "cristao",
-    "cultura",
+    "religiao",
+    "claro",
     11
    ],
    [
-    "cristao",
-    "respeito",
-    9
-   ],
-   [
-    "cristao",
-    "video",
-    5
-   ],
-   [
-    "cristao",
-    "bonito",
-    3
-   ],
-   [
-    "cristao",
-    "pai",
-    10
-   ],
-   [
-    "cristao",
-    "vc",
-    13
-   ],
-   [
-    "cristao",
-    "risada",
-    3
-   ],
-   [
-    "cristao",
-    "claro",
-    4
-   ],
-   [
-    "cristao",
-    "isla",
-    12
-   ],
-   [
-    "cristao",
-    "desenhar",
-    6
-   ],
-   [
-    "cristao",
-    "explicar",
-    6
-   ],
-   [
-    "cristao",
-    "diferenca",
-    5
-   ],
-   [
-    "cristao",
-    "explicacao",
-    6
-   ],
-   [
-    "cristao",
-    "dar",
-    9
-   ],
-   [
-    "cristao",
-    "problema",
-    10
-   ],
-   [
-    "cristao",
-    "seguir",
-    8
-   ],
-   [
-    "cristao",
-    "gostar",
-    3
-   ],
-   [
-    "cristao",
-    "entender",
-    5
-   ],
-   [
-    "cristao",
-    "melhor",
-    5
-   ],
-   [
-    "cristao",
-    "nascer",
-    3
-   ],
-   [
-    "cristao",
-    "islamico",
-    8
-   ],
-   [
-    "cristao",
-    "achar",
-    4
-   ],
-   [
-    "ficar",
-    "coisa",
-    10
-   ],
-   [
-    "ficar",
-    "nascer",
-    4
-   ],
-   [
-    "ficar",
-    "entender",
-    9
-   ],
-   [
-    "ficar",
-    "explicacao",
-    8
-   ],
-   [
-    "ficar",
-    "arabe",
-    17
-   ],
-   [
-    "ficar",
-    "matar",
-    4
-   ],
-   [
-    "ficar",
-    "religioso",
-    6
-   ],
-   [
-    "ficar",
-    "saber",
-    17
-   ],
-   [
-    "ficar",
-    "falar",
-    13
-   ],
-   [
-    "ficar",
-    "mesmo",
-    3
-   ],
-   [
-    "ficar",
-    "problema",
-    5
-   ],
-   [
-    "ficar",
-    "mulher",
-    13
-   ],
-   [
-    "ficar",
-    "achar",
-    12
-   ],
-   [
-    "ficar",
-    "aprender",
-    4
-   ],
-   [
-    "ficar",
-    "claro",
-    13
-   ],
-   [
-    "ficar",
-    "diferente",
-    5
-   ],
-   [
-    "ficar",
-    "explicar",
-    7
-   ],
-   [
-    "ficar",
-    "pessoa",
-    5
-   ],
-   [
-    "ficar",
-    "so",
-    17
-   ],
-   [
-    "ficar",
-    "viver",
-    7
-   ],
-   [
-    "ficar",
-    "facil",
-    7
-   ],
-   [
-    "ficar",
-    "mulcumano",
-    5
-   ],
-   [
-    "ficar",
-    "otimo",
-    3
-   ],
-   [
-    "ficar",
-    "vc",
-    12
-   ],
-   [
-    "ficar",
     "religiao",
-    17
+    "explicar",
+    23
    ],
    [
-    "ficar",
-    "isla",
-    4
+    "religiao",
+    "ver",
+    19
    ],
    [
-    "ficar",
-    "pq",
-    7
-   ],
-   [
-    "ficar",
-    "seguir",
-    6
-   ],
-   [
-    "ficar",
-    "diferenca",
-    4
-   ],
-   [
-    "ficar",
-    "ano",
-    5
-   ],
-   [
-    "ficar",
-    "aula",
-    4
-   ],
-   [
-    "ficar",
-    "homem",
-    5
-   ],
-   [
-    "ficar",
-    "vida",
-    5
-   ],
-   [
-    "ficar",
+    "religiao",
     "amar",
     8
    ],
    [
-    "ficar",
-    "melhor",
-    5
-   ],
-   [
-    "ficar",
-    "parabens",
-    5
-   ],
-   [
-    "ficar",
-    "cultura",
-    6
-   ],
-   [
-    "ficar",
-    "vez",
-    9
-   ],
-   [
-    "ficar",
-    "deus",
-    6
-   ],
-   [
-    "ficar",
-    "querer",
-    12
-   ],
-   [
-    "ficar",
-    "existir",
-    7
-   ],
-   [
-    "ficar",
+    "religiao",
     "video",
-    10
-   ],
-   [
-    "ficar",
-    "bonito",
-    7
-   ],
-   [
-    "ficar",
-    "bom",
-    9
-   ],
-   [
-    "ficar",
-    "brasil",
-    9
-   ],
-   [
-    "ficar",
-    "filho",
-    4
-   ],
-   [
-    "ficar",
-    "pai",
-    8
-   ],
-   [
-    "ficar",
-    "vir",
-    7
-   ],
-   [
-    "ficar",
-    "ver",
-    7
-   ],
-   [
-    "ficar",
-    "obrigar",
-    5
-   ],
-   [
-    "ficar",
-    "jesus",
-    6
-   ],
-   [
-    "ficar",
-    "lindo",
-    15
-   ],
-   [
-    "ficar",
-    "biblia",
-    3
-   ],
-   [
-    "ficar",
-    "dar",
-    5
-   ],
-   [
-    "ficar",
-    "respeito",
-    3
-   ],
-   [
-    "vida",
-    "arabe",
-    5
-   ],
-   [
-    "vida",
-    "coisa",
-    8
-   ],
-   [
-    "vida",
-    "deus",
-    11
-   ],
-   [
-    "vida",
-    "dia",
-    3
-   ],
-   [
-    "vida",
-    "existir",
-    3
-   ],
-   [
-    "vida",
-    "islamismo",
-    4
-   ],
-   [
-    "vida",
-    "pessoa",
-    5
-   ],
-   [
-    "vida",
-    "religiao",
-    15
-   ],
-   [
-    "vida",
-    "vez",
-    3
-   ],
-   [
-    "vida",
-    "viver",
-    7
-   ],
-   [
-    "vida",
-    "falar",
-    5
-   ],
-   [
-    "vida",
-    "ano",
-    6
-   ],
-   [
-    "vida",
-    "homem",
-    5
-   ],
-   [
-    "vida",
-    "vc",
-    10
-   ],
-   [
-    "vida",
-    "bom",
-    5
-   ],
-   [
-    "vida",
-    "brasil",
-    6
-   ],
-   [
-    "vida",
-    "filho",
-    3
-   ],
-   [
-    "vida",
-    "pai",
-    9
-   ],
-   [
-    "vida",
-    "querer",
-    6
-   ],
-   [
-    "vida",
-    "vir",
-    5
-   ],
-   [
-    "vida",
-    "islamico",
-    4
-   ],
-   [
-    "vida",
-    "mesmo",
-    4
-   ],
-   [
-    "vida",
-    "so",
-    8
-   ],
-   [
-    "vida",
-    "obrigar",
-    3
-   ],
-   [
-    "vida",
-    "saber",
-    4
-   ],
-   [
-    "vida",
-    "mulher",
-    11
-   ],
-   [
-    "vida",
-    "pq",
-    3
-   ],
-   [
-    "vida",
-    "melhor",
-    3
-   ],
-   [
-    "vida",
-    "bonito",
-    3
-   ],
-   [
-    "vida",
-    "dar",
-    5
-   ],
-   [
-    "vida",
-    "entender",
-    3
-   ],
-   [
-    "vida",
-    "jesus",
-    3
-   ],
-   [
-    "isla",
-    "arabe",
-    20
-   ],
-   [
-    "isla",
-    "islamico",
-    5
-   ],
-   [
-    "isla",
-    "mulcumano",
-    9
-   ],
-   [
-    "isla",
-    "querer",
-    13
-   ],
-   [
-    "isla",
-    "religiao",
-    40
-   ],
-   [
-    "isla",
-    "coisa",
-    9
-   ],
-   [
-    "isla",
-    "mesmo",
-    6
-   ],
-   [
-    "isla",
-    "nascer",
-    5
-   ],
-   [
-    "isla",
-    "pessoa",
-    4
-   ],
-   [
-    "isla",
-    "seguir",
     14
    ],
    [
-    "isla",
+    "religiao",
+    "precisar",
+    7
+   ],
+   [
+    "religiao",
+    "conhecer",
+    8
+   ],
+   [
+    "religiao",
+    "biblia",
+    4
+   ],
+   [
+    "religiao",
+    "gostar",
+    7
+   ],
+   [
+    "religiao",
+    "melhor",
+    8
+   ],
+   [
+    "religiao",
+    "aprender",
+    5
+   ],
+   [
+    "religiao",
+    "adorar",
+    3
+   ],
+   [
+    "facil",
+    "arabe",
+    5
+   ],
+   [
+    "facil",
     "brasil",
-    10
-   ],
-   [
-    "isla",
-    "falar",
-    15
-   ],
-   [
-    "isla",
-    "mulher",
     22
    ],
    [
-    "isla",
-    "islamismo",
+    "facil",
+    "cristao",
+    6
+   ],
+   [
+    "facil",
+    "dizer",
+    6
+   ],
+   [
+    "facil",
+    "matar",
+    3
+   ],
+   [
+    "facil",
+    "mulcumano",
     7
    ],
    [
+    "facil",
+    "mulher",
+    13
+   ],
+   [
+    "facil",
+    "mundo",
+    5
+   ],
+   [
+    "facil",
+    "pais",
+    14
+   ],
+   [
+    "facil",
+    "pq",
+    5
+   ],
+   [
+    "facil",
+    "querer",
+    14
+   ],
+   [
+    "facil",
+    "vir",
+    3
+   ],
+   [
+    "facil",
+    "viver",
+    3
+   ],
+   [
+    "facil",
+    "coisa",
+    7
+   ],
+   [
+    "facil",
+    "entender",
+    6
+   ],
+   [
+    "facil",
+    "ficar",
+    7
+   ],
+   [
+    "facil",
+    "brasileiro",
+    3
+   ],
+   [
+    "facil",
+    "amar",
+    3
+   ],
+   [
+    "facil",
+    "so",
+    6
+   ],
+   [
+    "facil",
+    "bom",
+    4
+   ],
+   [
+    "facil",
+    "explicacao",
+    3
+   ],
+   [
+    "facil",
+    "falar",
+    7
+   ],
+   [
+    "facil",
     "isla",
+    5
+   ],
+   [
+    "facil",
+    "muculmano",
+    16
+   ],
+   [
+    "facil",
+    "nascer",
+    4
+   ],
+   [
+    "facil",
+    "estar",
+    5
+   ],
+   [
+    "facil",
+    "melhor",
+    3
+   ],
+   [
+    "facil",
+    "otimo",
+    3
+   ],
+   [
+    "facil",
+    "religioso",
+    3
+   ],
+   [
+    "facil",
+    "achar",
+    4
+   ],
+   [
+    "facil",
+    "seguir",
+    7
+   ],
+   [
+    "facil",
+    "cultura",
+    3
+   ],
+   [
+    "facil",
+    "pessoa",
+    3
+   ],
+   [
+    "facil",
+    "diferente",
+    3
+   ],
+   [
+    "facil",
+    "existir",
+    4
+   ],
+   [
+    "facil",
+    "islamico",
+    4
+   ],
+   [
+    "facil",
+    "video",
+    3
+   ],
+   [
+    "gente",
+    "desenhar",
+    7
+   ],
+   [
+    "gente",
+    "entender",
+    17
+   ],
+   [
+    "gente",
+    "explicacao",
+    4
+   ],
+   [
+    "gente",
+    "obrigar",
+    7
+   ],
+   [
+    "gente",
+    "coisa",
+    8
+   ],
+   [
+    "gente",
+    "deus",
+    4
+   ],
+   [
+    "gente",
+    "saber",
+    15
+   ],
+   [
+    "gente",
+    "bom",
+    9
+   ],
+   [
+    "gente",
+    "pais",
+    8
+   ],
+   [
+    "gente",
+    "so",
+    7
+   ],
+   [
+    "gente",
+    "amar",
+    3
+   ],
+   [
+    "gente",
+    "aprender",
+    3
+   ],
+   [
+    "gente",
+    "aula",
+    4
+   ],
+   [
+    "gente",
+    "explicar",
+    7
+   ],
+   [
+    "gente",
+    "melhor",
+    5
+   ],
+   [
+    "gente",
+    "diferenca",
+    5
+   ],
+   [
+    "gente",
+    "mesmo",
+    4
+   ],
+   [
+    "gente",
+    "querer",
+    12
+   ],
+   [
+    "gente",
+    "lindo",
+    6
+   ],
+   [
+    "gente",
+    "pq",
+    4
+   ],
+   [
+    "gente",
+    "falar",
+    15
+   ],
+   [
+    "gente",
+    "gostar",
+    3
+   ],
+   [
+    "gente",
+    "mundo",
+    6
+   ],
+   [
+    "gente",
+    "achar",
+    6
+   ],
+   [
+    "gente",
+    "arabe",
+    10
+   ],
+   [
+    "gente",
+    "mulcumano",
+    3
+   ],
+   [
+    "gente",
+    "muculmano",
+    8
+   ],
+   [
+    "gente",
+    "brasil",
+    14
+   ],
+   [
+    "gente",
+    "dar",
+    4
+   ],
+   [
+    "gente",
+    "matar",
+    5
+   ],
+   [
+    "gente",
+    "vir",
+    5
+   ],
+   [
+    "gente",
+    "brasileiro",
+    3
+   ],
+   [
+    "gente",
+    "dizer",
+    3
+   ],
+   [
+    "gente",
+    "mulher",
+    9
+   ],
+   [
+    "gente",
+    "precisar",
+    3
+   ],
+   [
+    "gente",
+    "seguir",
+    4
+   ],
+   [
+    "gente",
+    "vez",
+    5
+   ],
+   [
+    "gente",
+    "estar",
+    6
+   ],
+   [
+    "gente",
+    "ver",
+    3
+   ],
+   [
+    "gente",
+    "pessoa",
+    3
+   ],
+   [
+    "gente",
+    "vcs",
+    7
+   ],
+   [
+    "gente",
+    "homem",
+    3
+   ],
+   [
+    "explicar",
+    "amar",
+    7
+   ],
+   [
+    "explicar",
+    "bom",
+    11
+   ],
+   [
+    "explicar",
+    "deus",
+    6
+   ],
+   [
+    "explicar",
+    "dia",
+    3
+   ],
+   [
+    "explicar",
+    "entender",
+    24
+   ],
+   [
+    "explicar",
+    "estar",
+    7
+   ],
+   [
+    "explicar",
+    "explicacao",
+    6
+   ],
+   [
+    "explicar",
+    "maravilhoso",
+    4
+   ],
+   [
+    "explicar",
+    "precisar",
+    6
+   ],
+   [
+    "explicar",
+    "dar",
+    8
+   ],
+   [
+    "explicar",
+    "aula",
+    5
+   ],
+   [
+    "explicar",
+    "arabe",
+    15
+   ],
+   [
+    "explicar",
+    "brasileiro",
+    4
+   ],
+   [
+    "explicar",
+    "muculmano",
+    17
+   ],
+   [
+    "explicar",
+    "diferenca",
+    7
+   ],
+   [
+    "explicar",
+    "ignorancia",
+    3
+   ],
+   [
+    "explicar",
+    "mulcumano",
+    4
+   ],
+   [
+    "explicar",
+    "mundo",
+    5
+   ],
+   [
+    "explicar",
+    "problema",
+    5
+   ],
+   [
+    "explicar",
+    "saber",
+    22
+   ],
+   [
+    "explicar",
+    "seguir",
+    8
+   ],
+   [
+    "explicar",
+    "so",
+    15
+   ],
+   [
+    "explicar",
+    "islamico",
+    4
+   ],
+   [
+    "explicar",
+    "querer",
+    15
+   ],
+   [
+    "explicar",
+    "desenhar",
+    14
+   ],
+   [
+    "explicar",
+    "nascer",
+    3
+   ],
+   [
+    "explicar",
+    "vir",
+    6
+   ],
+   [
+    "explicar",
+    "cultura",
+    5
+   ],
+   [
+    "explicar",
+    "achar",
+    8
+   ],
+   [
+    "explicar",
+    "aprender",
+    3
+   ],
+   [
+    "explicar",
+    "claro",
+    5
+   ],
+   [
+    "explicar",
+    "diferente",
+    5
+   ],
+   [
+    "explicar",
+    "falar",
+    11
+   ],
+   [
+    "explicar",
+    "ficar",
+    7
+   ],
+   [
+    "explicar",
+    "pessoa",
+    4
+   ],
+   [
+    "explicar",
+    "viver",
+    6
+   ],
+   [
+    "explicar",
+    "vez",
+    9
+   ],
+   [
+    "explicar",
+    "melhor",
+    5
+   ],
+   [
+    "explicar",
+    "obrigar",
+    9
+   ],
+   [
+    "explicar",
+    "didatico",
+    3
+   ],
+   [
+    "explicar",
+    "coisa",
+    10
+   ],
+   [
+    "explicar",
+    "mesmo",
+    4
+   ],
+   [
+    "explicar",
+    "brasil",
+    6
+   ],
+   [
+    "explicar",
+    "islamismo",
+    6
+   ],
+   [
+    "explicar",
+    "lei",
+    4
+   ],
+   [
+    "explicar",
+    "pais",
+    9
+   ],
+   [
+    "explicar",
+    "religioso",
+    6
+   ],
+   [
+    "explicar",
+    "ver",
+    5
+   ],
+   [
+    "explicar",
+    "isla",
+    6
+   ],
+   [
+    "explicar",
+    "cristao",
+    6
+   ],
+   [
+    "explicar",
+    "mulher",
+    10
+   ],
+   [
+    "explicar",
+    "video",
+    5
+   ],
+   [
+    "explicar",
+    "existir",
+    4
+   ],
+   [
+    "explicar",
+    "dizer",
+    7
+   ],
+   [
+    "explicar",
+    "otimo",
+    4
+   ],
+   [
+    "explicar",
+    "matar",
+    4
+   ],
+   [
+    "explicar",
+    "jesus",
+    3
+   ],
+   [
+    "explicar",
+    "biblia",
+    3
+   ],
+   [
+    "biblia",
+    "arabe",
+    3
+   ],
+   [
+    "biblia",
+    "conhecer",
+    4
+   ],
+   [
+    "biblia",
+    "cristao",
+    17
+   ],
+   [
+    "biblia",
+    "deus",
+    11
+   ],
+   [
+    "biblia",
+    "falar",
+    7
+   ],
+   [
+    "biblia",
+    "filho",
+    12
+   ],
+   [
+    "biblia",
+    "jesus",
+    5
+   ],
+   [
+    "biblia",
+    "querer",
+    3
+   ],
+   [
+    "biblia",
+    "so",
+    4
+   ],
+   [
+    "biblia",
+    "dar",
+    4
+   ],
+   [
+    "biblia",
+    "dia",
+    3
+   ],
+   [
+    "biblia",
+    "existir",
+    3
+   ],
+   [
+    "biblia",
+    "seguir",
+    3
+   ],
+   [
+    "biblia",
+    "ano",
+    5
+   ],
+   [
+    "biblia",
+    "estar",
+    4
+   ],
+   [
+    "biblia",
+    "ficar",
+    3
+   ],
+   [
+    "biblia",
+    "matar",
+    10
+   ],
+   [
+    "biblia",
+    "ver",
+    8
+   ],
+   [
+    "biblia",
+    "coisa",
+    10
+   ],
+   [
+    "biblia",
+    "muculmano",
+    5
+   ],
+   [
+    "biblia",
+    "pais",
+    4
+   ],
+   [
+    "biblia",
+    "dizer",
+    4
+   ],
+   [
+    "biblia",
+    "vir",
+    3
+   ],
+   [
+    "biblia",
+    "saber",
+    4
+   ],
+   [
+    "biblia",
+    "respeito",
+    4
+   ],
+   [
+    "biblia",
+    "homem",
+    7
+   ],
+   [
+    "biblia",
+    "mulher",
+    10
+   ],
+   [
+    "biblia",
+    "precisar",
+    7
+   ],
+   [
+    "brasil",
+    "achar",
+    12
+   ],
+   [
+    "brasil",
+    "conhecer",
+    6
+   ],
+   [
+    "brasil",
+    "explicacao",
+    7
+   ],
+   [
+    "brasil",
+    "gostar",
+    5
+   ],
+   [
+    "brasil",
+    "obrigar",
+    5
+   ],
+   [
+    "brasil",
+    "pessoa",
+    10
+   ],
+   [
+    "brasil",
+    "so",
+    17
+   ],
+   [
+    "brasil",
+    "falar",
+    27
+   ],
+   [
+    "brasil",
+    "isla",
+    10
+   ],
+   [
+    "brasil",
+    "lindo",
+    8
+   ],
+   [
+    "brasil",
+    "mulher",
+    41
+   ],
+   [
+    "brasil",
+    "pais",
+    52
+   ],
+   [
+    "brasil",
+    "cristao",
+    20
+   ],
+   [
+    "brasil",
+    "dizer",
+    13
+   ],
+   [
+    "brasil",
+    "homem",
+    14
+   ],
+   [
+    "brasil",
+    "matar",
+    7
+   ],
+   [
+    "brasil",
+    "mesmo",
+    9
+   ],
+   [
+    "brasil",
+    "mulcumano",
+    18
+   ],
+   [
+    "brasil",
+    "mundo",
+    12
+   ],
+   [
+    "brasil",
+    "pq",
+    6
+   ],
+   [
+    "brasil",
+    "querer",
+    37
+   ],
+   [
+    "brasil",
+    "vir",
+    8
+   ],
+   [
+    "brasil",
+    "viver",
+    17
+   ],
+   [
+    "brasil",
+    "coisa",
+    15
+   ],
+   [
+    "brasil",
+    "arabe",
+    23
+   ],
+   [
+    "brasil",
+    "brasileiro",
+    24
+   ],
+   [
+    "brasil",
+    "nascer",
+    14
+   ],
+   [
+    "brasil",
+    "risada",
+    3
+   ],
+   [
+    "brasil",
+    "saber",
+    17
+   ],
+   [
+    "brasil",
+    "ano",
+    4
+   ],
+   [
+    "brasil",
+    "bonito",
+    4
+   ],
+   [
+    "brasil",
+    "existir",
+    13
+   ],
+   [
+    "brasil",
+    "estar",
+    18
+   ],
+   [
+    "brasil",
+    "islamismo",
+    11
+   ],
+   [
+    "brasil",
+    "muculmano",
+    35
+   ],
+   [
+    "brasil",
+    "religioso",
+    13
+   ],
+   [
+    "brasil",
+    "respeito",
+    5
+   ],
+   [
+    "brasil",
+    "claro",
+    6
+   ],
+   [
+    "brasil",
+    "dar",
+    5
+   ],
+   [
+    "brasil",
+    "islamico",
+    9
+   ],
+   [
+    "brasil",
+    "lei",
+    14
+   ],
+   [
+    "brasil",
+    "ver",
+    11
+   ],
+   [
+    "brasil",
+    "cultura",
+    7
+   ],
+   [
+    "brasil",
+    "amar",
+    5
+   ],
+   [
+    "brasil",
+    "bom",
+    13
+   ],
+   [
+    "brasil",
+    "ficar",
+    9
+   ],
+   [
+    "brasil",
+    "filho",
+    4
+   ],
+   [
+    "brasil",
+    "vida",
+    6
+   ],
+   [
+    "brasil",
+    "otimo",
+    4
+   ],
+   [
+    "brasil",
+    "desenhar",
+    4
+   ],
+   [
+    "brasil",
+    "precisar",
+    7
+   ],
+   [
+    "brasil",
+    "entender",
+    14
+   ],
+   [
+    "brasil",
+    "melhor",
+    8
+   ],
+   [
+    "brasil",
+    "diferente",
+    4
+   ],
+   [
+    "brasil",
+    "problema",
+    5
+   ],
+   [
+    "brasil",
+    "vez",
+    4
+   ],
+   [
+    "brasil",
+    "aula",
+    4
+   ],
+   [
+    "brasil",
+    "deus",
+    9
+   ],
+   [
+    "brasil",
+    "seguir",
+    10
+   ],
+   [
+    "brasil",
+    "diferenca",
+    3
+   ],
+   [
+    "brasil",
+    "video",
+    7
+   ],
+   [
+    "brasil",
+    "vcs",
+    6
+   ],
+   [
+    "amar",
+    "arabe",
+    14
+   ],
+   [
+    "amar",
+    "didatico",
+    7
+   ],
+   [
+    "amar",
+    "explicacao",
+    15
+   ],
+   [
+    "amar",
+    "desenhar",
+    4
+   ],
+   [
+    "amar",
+    "bom",
+    11
+   ],
+   [
+    "amar",
+    "conhecer",
+    4
+   ],
+   [
+    "amar",
+    "deus",
+    8
+   ],
+   [
+    "amar",
+    "dia",
+    4
+   ],
+   [
+    "amar",
+    "entender",
+    5
+   ],
+   [
+    "amar",
+    "estar",
+    4
+   ],
+   [
+    "amar",
+    "maravilhoso",
+    6
+   ],
+   [
+    "amar",
+    "respeito",
+    6
+   ],
+   [
+    "amar",
+    "aula",
+    6
+   ],
+   [
+    "amar",
+    "diferenca",
+    4
+   ],
+   [
+    "amar",
+    "diferente",
+    4
+   ],
+   [
+    "amar",
+    "saber",
+    8
+   ],
+   [
+    "amar",
+    "adorar",
+    3
+   ],
+   [
+    "amar",
+    "existir",
+    7
+   ],
+   [
+    "amar",
+    "pais",
+    7
+   ],
+   [
+    "amar",
+    "pq",
+    5
+   ],
+   [
+    "amar",
+    "vez",
+    6
+   ],
+   [
+    "amar",
+    "querer",
+    6
+   ],
+   [
+    "amar",
+    "achar",
+    5
+   ],
+   [
+    "amar",
+    "claro",
+    3
+   ],
+   [
+    "amar",
+    "aprender",
+    8
+   ],
+   [
+    "amar",
+    "melhor",
+    5
+   ],
+   [
+    "amar",
+    "obrigar",
+    5
+   ],
+   [
+    "amar",
+    "coisa",
+    8
+   ],
+   [
+    "amar",
+    "cristao",
+    4
+   ],
+   [
+    "amar",
+    "cultura",
+    5
+   ],
+   [
+    "amar",
+    "so",
+    5
+   ],
+   [
+    "amar",
+    "video",
+    9
+   ],
+   [
+    "amar",
+    "ficar",
+    8
+   ],
+   [
+    "amar",
+    "lindo",
+    12
+   ],
+   [
+    "amar",
+    "pessoa",
+    4
+   ],
+   [
+    "amar",
+    "ano",
+    4
+   ],
+   [
+    "amar",
+    "dizer",
+    4
+   ],
+   [
+    "amar",
+    "filho",
+    5
+   ],
+   [
+    "amar",
+    "homem",
+    4
+   ],
+   [
+    "amar",
+    "mulher",
+    6
+   ],
+   [
+    "amar",
+    "falar",
+    5
+   ],
+   [
+    "amar",
+    "dar",
+    4
+   ],
+   [
+    "amar",
+    "jesus",
+    4
+   ],
+   [
+    "amar",
+    "ver",
+    4
+   ],
+   [
+    "amar",
+    "isla",
+    3
+   ],
+   [
+    "amar",
+    "muculmano",
+    3
+   ],
+   [
+    "dar",
+    "adorar",
+    3
+   ],
+   [
+    "dar",
+    "arabe",
+    14
+   ],
+   [
+    "dar",
+    "deus",
+    15
+   ],
+   [
+    "dar",
+    "mulher",
+    12
+   ],
+   [
+    "dar",
+    "querer",
+    12
+   ],
+   [
+    "dar",
+    "ver",
+    7
+   ],
+   [
+    "dar",
+    "aula",
+    10
+   ],
+   [
+    "dar",
+    "so",
+    20
+   ],
+   [
+    "dar",
+    "didatico",
+    3
+   ],
+   [
+    "dar",
+    "mulcumano",
+    3
+   ],
+   [
+    "dar",
+    "pais",
+    14
+   ],
+   [
+    "dar",
+    "achar",
+    9
+   ],
+   [
+    "dar",
+    "coisa",
+    9
+   ],
+   [
+    "dar",
+    "diferenca",
+    3
+   ],
+   [
+    "dar",
+    "entender",
+    7
+   ],
+   [
+    "dar",
+    "mesmo",
+    4
+   ],
+   [
+    "dar",
+    "obrigar",
+    3
+   ],
+   [
+    "dar",
+    "saber",
+    9
+   ],
+   [
+    "dar",
+    "explicacao",
+    6
+   ],
+   [
+    "dar",
+    "gostar",
+    3
+   ],
+   [
+    "dar",
+    "seguir",
+    8
+   ],
+   [
+    "dar",
+    "brasileiro",
+    5
+   ],
+   [
+    "dar",
+    "claro",
+    3
+   ],
+   [
+    "dar",
+    "dia",
+    5
+   ],
+   [
+    "dar",
+    "estar",
+    8
+   ],
+   [
+    "dar",
+    "falar",
+    5
+   ],
+   [
+    "dar",
+    "islamico",
+    3
+   ],
+   [
+    "dar",
+    "islamismo",
+    3
+   ],
+   [
+    "dar",
     "lei",
     7
    ],
    [
-    "isla",
-    "problema",
-    8
+    "dar",
+    "muculmano",
+    9
    ],
    [
-    "isla",
-    "existir",
+    "dar",
+    "pessoa",
     10
    ],
    [
+    "dar",
+    "religioso",
+    6
+   ],
+   [
+    "dar",
+    "viver",
+    8
+   ],
+   [
+    "dar",
     "isla",
+    5
+   ],
+   [
+    "dar",
+    "homem",
+    6
+   ],
+   [
+    "dar",
+    "precisar",
+    3
+   ],
+   [
+    "dar",
+    "problema",
+    4
+   ],
+   [
+    "dar",
     "pq",
+    5
+   ],
+   [
+    "dar",
+    "ano",
+    5
+   ],
+   [
+    "dar",
+    "ignorancia",
+    7
+   ],
+   [
+    "dar",
+    "cristao",
     9
+   ],
+   [
+    "dar",
+    "existir",
+    4
+   ],
+   [
+    "dar",
+    "jesus",
+    5
+   ],
+   [
+    "dar",
+    "vcs",
+    3
+   ],
+   [
+    "dar",
+    "mundo",
+    7
+   ],
+   [
+    "dar",
+    "melhor",
+    3
+   ],
+   [
+    "dar",
+    "bom",
+    7
+   ],
+   [
+    "dar",
+    "risada",
+    3
+   ],
+   [
+    "dar",
+    "matar",
+    4
+   ],
+   [
+    "dar",
+    "ficar",
+    5
+   ],
+   [
+    "dar",
+    "video",
+    4
+   ],
+   [
+    "dar",
+    "respeito",
+    3
+   ],
+   [
+    "dar",
+    "dizer",
+    6
+   ],
+   [
+    "dar",
+    "filho",
+    4
+   ],
+   [
+    "dar",
+    "vez",
+    3
+   ],
+   [
+    "dar",
+    "vida",
+    5
+   ],
+   [
+    "dia",
+    "arabe",
+    9
+   ],
+   [
+    "dia",
+    "falar",
+    5
+   ],
+   [
+    "dia",
+    "saber",
+    7
+   ],
+   [
+    "dia",
+    "bom",
+    5
+   ],
+   [
+    "dia",
+    "conhecer",
+    5
+   ],
+   [
+    "dia",
+    "deus",
+    10
+   ],
+   [
+    "dia",
+    "entender",
+    4
+   ],
+   [
+    "dia",
+    "estar",
+    11
+   ],
+   [
+    "dia",
+    "explicacao",
+    3
+   ],
+   [
+    "dia",
+    "maravilhoso",
+    4
+   ],
+   [
+    "dia",
+    "video",
+    3
+   ],
+   [
+    "dia",
+    "coisa",
+    3
+   ],
+   [
+    "dia",
+    "cristao",
+    6
+   ],
+   [
+    "dia",
+    "islamismo",
+    5
+   ],
+   [
+    "dia",
+    "muculmano",
+    7
+   ],
+   [
+    "dia",
+    "mundo",
+    3
+   ],
+   [
+    "dia",
+    "pais",
+    7
+   ],
+   [
+    "dia",
+    "pessoa",
+    4
+   ],
+   [
+    "dia",
+    "religioso",
+    5
+   ],
+   [
+    "dia",
+    "vida",
+    3
+   ],
+   [
+    "dia",
+    "viver",
+    3
+   ],
+   [
+    "dia",
+    "achar",
+    3
+   ],
+   [
+    "dia",
+    "ignorancia",
+    3
+   ],
+   [
+    "dia",
+    "querer",
+    8
+   ],
+   [
+    "dia",
+    "so",
+    3
+   ],
+   [
+    "dia",
+    "ver",
+    4
+   ],
+   [
+    "dia",
+    "jesus",
+    3
+   ],
+   [
+    "dia",
+    "problema",
+    4
+   ],
+   [
+    "dia",
+    "seguir",
+    3
+   ],
+   [
+    "dia",
+    "mulher",
+    4
+   ],
+   [
+    "dia",
+    "diferenca",
+    3
+   ],
+   [
+    "dia",
+    "ano",
+    3
+   ],
+   [
+    "dia",
+    "aprender",
+    3
+   ],
+   [
+    "dia",
+    "dizer",
+    3
+   ],
+   [
+    "aprender",
+    "diferenca",
+    8
+   ],
+   [
+    "aprender",
+    "diferente",
+    5
+   ],
+   [
+    "aprender",
+    "saber",
+    10
+   ],
+   [
+    "aprender",
+    "vez",
+    5
+   ],
+   [
+    "aprender",
+    "video",
+    5
+   ],
+   [
+    "aprender",
+    "achar",
+    4
+   ],
+   [
+    "aprender",
+    "arabe",
+    8
+   ],
+   [
+    "aprender",
+    "bom",
+    9
+   ],
+   [
+    "aprender",
+    "coisa",
+    7
+   ],
+   [
+    "aprender",
+    "estar",
+    7
+   ],
+   [
+    "aprender",
+    "muculmano",
+    7
+   ],
+   [
+    "aprender",
+    "obrigar",
+    7
+   ],
+   [
+    "aprender",
+    "pais",
+    5
+   ],
+   [
+    "aprender",
+    "explicacao",
+    7
+   ],
+   [
+    "aprender",
+    "dizer",
+    3
+   ],
+   [
+    "aprender",
+    "entender",
+    5
+   ],
+   [
+    "aprender",
+    "falar",
+    9
+   ],
+   [
+    "aprender",
+    "ignorancia",
+    8
+   ],
+   [
+    "aprender",
+    "nascer",
+    3
+   ],
+   [
+    "aprender",
+    "pessoa",
+    3
+   ],
+   [
+    "aprender",
+    "pq",
+    5
+   ],
+   [
+    "aprender",
+    "seguir",
+    5
+   ],
+   [
+    "aprender",
+    "gostar",
+    3
+   ],
+   [
+    "aprender",
+    "aula",
+    7
+   ],
+   [
+    "aprender",
+    "otimo",
+    4
+   ],
+   [
+    "aprender",
+    "brasileiro",
+    4
+   ],
+   [
+    "aprender",
+    "ficar",
+    4
+   ],
+   [
+    "aprender",
+    "so",
+    3
+   ],
+   [
+    "aprender",
+    "viver",
+    6
+   ],
+   [
+    "aprender",
+    "adorar",
+    4
+   ],
+   [
+    "aprender",
+    "conhecer",
+    4
+   ],
+   [
+    "aprender",
+    "cultura",
+    5
+   ],
+   [
+    "aprender",
+    "querer",
+    7
+   ],
+   [
+    "aprender",
+    "ver",
+    3
+   ],
+   [
+    "aprender",
+    "melhor",
+    3
+   ],
+   [
+    "aprender",
+    "mundo",
+    3
+   ],
+   [
+    "aprender",
+    "respeito",
+    4
+   ],
+   [
+    "aprender",
+    "ano",
+    3
+   ],
+   [
+    "aprender",
+    "isla",
+    3
+   ],
+   [
+    "aprender",
+    "mulher",
+    5
+   ],
+   [
+    "diferenca",
+    "aula",
+    7
+   ],
+   [
+    "diferenca",
+    "diferente",
+    7
+   ],
+   [
+    "diferenca",
+    "saber",
+    20
+   ],
+   [
+    "diferenca",
+    "vez",
+    5
+   ],
+   [
+    "diferenca",
+    "video",
+    4
+   ],
+   [
+    "diferenca",
+    "didatico",
+    4
+   ],
+   [
+    "diferenca",
+    "explicacao",
+    8
+   ],
+   [
+    "diferenca",
+    "obrigar",
+    8
+   ],
+   [
+    "diferenca",
+    "arabe",
+    11
+   ],
+   [
+    "diferenca",
+    "respeito",
+    5
+   ],
+   [
+    "diferenca",
+    "entender",
+    11
+   ],
+   [
+    "diferenca",
+    "ignorancia",
+    3
+   ],
+   [
+    "diferenca",
+    "mulcumano",
+    5
+   ],
+   [
+    "diferenca",
+    "mundo",
+    3
+   ],
+   [
+    "diferenca",
+    "so",
+    6
+   ],
+   [
+    "diferenca",
+    "islamico",
+    3
+   ],
+   [
+    "diferenca",
+    "cultura",
+    8
+   ],
+   [
+    "diferenca",
+    "desenhar",
+    4
+   ],
+   [
+    "diferenca",
+    "existir",
+    4
+   ],
+   [
+    "diferenca",
+    "falar",
+    7
+   ],
+   [
+    "diferenca",
+    "muculmano",
+    11
+   ],
+   [
+    "diferenca",
+    "mesmo",
+    4
+   ],
+   [
+    "diferenca",
+    "achar",
+    3
+   ],
+   [
+    "diferenca",
+    "coisa",
+    3
+   ],
+   [
+    "diferenca",
+    "ficar",
+    4
+   ],
+   [
+    "diferenca",
+    "brasileiro",
+    6
+   ],
+   [
+    "diferenca",
+    "mulher",
+    9
+   ],
+   [
+    "diferenca",
+    "pais",
+    5
+   ],
+   [
+    "diferenca",
+    "querer",
+    4
+   ],
+   [
+    "diferenca",
+    "deus",
+    3
+   ],
+   [
+    "diferenca",
+    "cristao",
+    5
+   ],
+   [
+    "diferenca",
+    "dizer",
+    3
+   ],
+   [
+    "diferenca",
+    "precisar",
+    3
+   ],
+   [
+    "diferenca",
+    "religioso",
+    5
+   ],
+   [
+    "diferenca",
+    "claro",
+    3
+   ],
+   [
+    "diferenca",
+    "isla",
+    3
+   ],
+   [
+    "matar",
+    "arabe",
+    3
+   ],
+   [
+    "matar",
+    "brasileiro",
+    3
+   ],
+   [
+    "matar",
+    "cristao",
+    13
+   ],
+   [
+    "matar",
+    "ficar",
+    4
+   ],
+   [
+    "matar",
+    "muculmano",
+    9
+   ],
+   [
+    "matar",
+    "pais",
+    11
+   ],
+   [
+    "matar",
+    "religioso",
+    4
+   ],
+   [
+    "matar",
+    "saber",
+    3
+   ],
+   [
+    "matar",
+    "dizer",
+    4
+   ],
+   [
+    "matar",
+    "homem",
+    16
+   ],
+   [
+    "matar",
+    "mesmo",
+    3
    ]
   ],
   "total_nos": 764,
@@ -4245,21 +4245,21 @@
   "assortatividade_grau": -0.3374,
   "diametro_maior_componente": 5,
   "caminho_medio_maior_componente": 2.264,
-  "modularidade_q": 0.2669,
-  "comunidades": 6,
+  "modularidade_q": 0.2579,
+  "comunidades": 7,
   "comunidades_1pct_ou_mais": 6,
-  "pct_maior": 43.55,
-  "pct_segunda": 23.4,
-  "pct_terceira": 15.04,
-  "pct_nos_em_comunidades_1pct": 100.0,
+  "pct_maior": 38.16,
+  "pct_segunda": 33.62,
+  "pct_terceira": 10.07,
+  "pct_nos_em_comunidades_1pct": 99.72,
   "gc_densidade": 0.041743,
-  "gc_modularidade_q": 0.2669,
-  "gc_comunidades": 6,
+  "gc_modularidade_q": 0.2579,
+  "gc_comunidades": 7,
   "gc_comunidades_1pct_ou_mais": 6,
-  "gc_pct_maior": 43.55,
-  "gc_pct_segunda": 23.4,
-  "gc_polarizacao_ei_2_maiores": -0.3896,
-  "polarizacao_ei_2_maiores": -0.3896
+  "gc_pct_maior": 38.16,
+  "gc_pct_segunda": 33.62,
+  "gc_polarizacao_ei_2_maiores": -0.273,
+  "polarizacao_ei_2_maiores": -0.273
  },
  "centralidades": [
   {
@@ -4448,55 +4448,55 @@
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 1,
-   "nos": 307,
-   "pct_nos": 43.55,
-   "pct_peso_interno": 26.08,
+   "nos": 269,
+   "pct_nos": 38.16,
+   "pct_peso_interno": 16.61,
    "nos_de_maior_grau": "religiao | pais | muculmano | arabe | mulher"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 2,
-   "nos": 165,
-   "pct_nos": 23.4,
-   "pct_peso_interno": 9.48,
-   "nos_de_maior_grau": "falar | saber | estar | entender | bom"
+   "nos": 237,
+   "pct_nos": 33.62,
+   "pct_peso_interno": 20.53,
+   "nos_de_maior_grau": "querer | falar | so | saber | brasil"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 3,
-   "nos": 106,
-   "pct_nos": 15.04,
-   "pct_peso_interno": 3.96,
-   "nos_de_maior_grau": "deus | dizer | pessoa | pai | jesus"
+   "nos": 71,
+   "pct_nos": 10.07,
+   "pct_peso_interno": 4.97,
+   "nos_de_maior_grau": "deus | achar | lei | dar | acontecer"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 4,
-   "nos": 51,
-   "pct_nos": 7.23,
-   "pct_peso_interno": 2.68,
-   "nos_de_maior_grau": "cristao | vc | coisa | ver | precisar"
+   "nos": 55,
+   "pct_nos": 7.8,
+   "pct_peso_interno": 1.28,
+   "nos_de_maior_grau": "dizer | pai | proprio | conhecer | lugar"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 5,
-   "nos": 44,
-   "pct_nos": 6.24,
-   "pct_peso_interno": 7.4,
+   "nos": 43,
+   "pct_nos": 6.1,
+   "pct_peso_interno": 7.38,
    "nos_de_maior_grau": "homem | filho | matar | biblia | crianca"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_youtube",
    "comunidade": 6,
-   "nos": 32,
-   "pct_nos": 4.54,
-   "pct_peso_interno": 3.23,
-   "nos_de_maior_grau": "achar | lei | dar | acontecer | guerra"
+   "nos": 28,
+   "pct_nos": 3.97,
+   "pct_peso_interno": 1.93,
+   "nos_de_maior_grau": "cristao | ver | precisar | alcorao | defender"
   }
  ],
  "rede": "youtube",

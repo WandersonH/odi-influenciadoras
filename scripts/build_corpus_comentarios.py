@@ -6,7 +6,8 @@ anonimizado"; "mesma coisa nas palavras"). Entrada: o CSV privado de cada rede (
 só comentários de publicações do núcleo, os mesmos que entram nas contagens do resumo.
 
 Anonimização, antes de ir ao público:
-- autor vira código por rede, na ordem do primeiro comentário (YT0001, IG0001, TT0001); o nome e o @ do autor não saem;
+- autor vira código por rede, na ordem do primeiro comentário (IG0001, TT0001; no YouTube, A0001…, o mesmo código da rede
+  de respostas, para o clique na rede abrir os comentários do autor); o nome e o @ do autor não saem;
 - todo @ no texto vira "@perfil", menos o @ das quatro influenciadoras monitoradas (perfis públicos do estudo);
 - links, e-mails e sequências de 8 ou mais dígitos (telefone, documento) são retirados;
 - sem identificador do comentário na plataforma (não dá para achar o autor pelo endereço do comentário).
@@ -50,7 +51,18 @@ def anonimizar(texto: str, proprios: set[str]) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
-def codigos(linhas: list[dict], prefixo: str) -> dict[str, str]:
+def codigos(linhas: list[dict], prefixo: str, fixos: dict[str, str] | None = None) -> dict[str, str]:
+    """Código por autor, na ordem do primeiro comentário. `fixos` (YouTube): os autores da rede de respostas mantêm o
+    código dela (A0001…), para o clique na rede abrir os comentários do mesmo autor; os demais seguem do último número."""
+    if fixos:
+        base = dict(fixos)
+        n = max((int(v[1:]) for v in base.values() if v[1:].isdigit()), default=0)
+        for r in sorted(linhas, key=lambda r: (r.get("publicado_em") or "", r.get("comment_id") or "")):
+            a = (r.get("autor") or "").strip().lower()
+            if a and a not in base:
+                n += 1
+                base[a] = f"A{n:04d}"
+        return base
     ordem = []
     for r in sorted(linhas, key=lambda r: (r.get("publicado_em") or "", r.get("comment_id") or "")):
         a = (r.get("autor") or "").strip().lower()
@@ -74,6 +86,16 @@ def main(root: Path = RAIZ) -> int:
             h = p.get("perfil") if isinstance(p, dict) else None
             if h:
                 proprios.add(h.lower().lstrip("@"))
+    import chd_reinert as cr
+    vocab = set()
+    for nome in ("todas", "youtube", "instagram", "tiktok"):
+        rp = root / f"data/redes/comentarios_palavras_{nome}.json"
+        if rp.exists():
+            vocab |= {x["id"] for x in (json.loads(rp.read_text(encoding="utf-8")).get("desenho") or {}).get("nos", [])}
+    cod_resp = {}
+    cp = Path(interno) / "data/redes/respostas_youtube_codigos.json"
+    if cp.exists():
+        cod_resp = {k.strip().lower(): v for k, v in json.loads(cp.read_text(encoding="utf-8")).items()}
     for rede, (arq, chave) in FONTES.items():
         resumo_p = root / f"data/comentarios/{rede}_resumo.json"
         if not resumo_p.exists():
@@ -81,7 +103,7 @@ def main(root: Path = RAIZ) -> int:
         resumo = json.loads(resumo_p.read_text(encoding="utf-8"))
         posts = {r[chave]: r for r in ler(root / arq) if r.get("janela") == "nucleo"}
         linhas = [r for r in ler(Path(interno) / f"data/comentarios/{rede}.csv") if r.get("post_id") in posts]
-        cod = codigos(linhas, PREFIXO[rede])
+        cod = codigos(linhas, PREFIXO[rede], cod_resp if rede == "youtube" else None)
         nuvens = {a: {t for t, _ in (v.get("nuvem") or [])} for a, v in resumo["por_influenciadora"].items()}
         saida = []
         for r in sorted(linhas, key=lambda r: (r["ator_id"], r.get("publicado_em") or "")):
@@ -92,7 +114,8 @@ def main(root: Path = RAIZ) -> int:
             saida.append({"a": r["ator_id"], "u": cod.get((r.get("autor") or "").strip().lower(), f"{PREFIXO[rede]}0000"),
                           "d": (r.get("publicado_em") or "")[:10], "p": posts[r["post_id"]].get("url"),
                           "r": 1 if r.get("parent_id") else 0, "c": r.get("curtidas") or "",
-                          "t": anonimizar(bruto, proprios), "tm": temas, "w": palavras})
+                          "t": anonimizar(bruto, proprios), "tm": temas, "w": palavras,
+                          "lm": sorted(set(cr.tokens(bruto)) & vocab)})
         out = {"rede": rede, "gerado_em": resumo.get("gerado_em"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
                "metodo": __doc__.split("\n\n")[2].strip(), "comentarios": len(saida), "autores_codificados": len(cod), "itens": saida}
         (root / f"data/comentarios/corpus_{rede}.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

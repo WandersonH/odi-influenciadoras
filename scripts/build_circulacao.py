@@ -111,7 +111,22 @@ def main(root: Path = RAIZ) -> int:
                           "inscritos": v.get("inscritos"), "visualizacoes": v.get("visualizacoes"), "titulo": v["titulo"] if (v.get("inscritos") or 0) >= rc.MIN_PUBLICO else "",
                           "publicado_em": v["publicado_em"], "url": "https://www.youtube.com/watch?v=" + v["video_id"] if (v.get("inscritos") or 0) >= rc.MIN_PUBLICO else ""}
                          for v in vids), key=lambda x: -(x["visualizacoes"] or 0))[:15]
-    out = {"gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
+    # itens de cada nó, para o clique na página: mesmos ids da rede (códigos P0001… na ordem em que rc.circulacao os dá);
+    # título e endereço de vídeo de canal pequeno não saem (o canal aparece como código)
+    cods, itens, por_no = {}, [], {}
+    for v in linhas_v:
+        pub = (v.get("inscritos") or 0) >= rc.MIN_PUBLICO
+        k = f"yt:{v.get('canal_id')}"
+        nid = k if pub else cods.setdefault(k, f"P{len(cods) + 1:04d}")
+        itens.append({"tipo": "vídeo", "fonte": v["canal"] if pub else f"canal pequeno {nid}", "titulo": v["titulo"] if pub else "vídeo de canal com menos de 10 mil inscritos (título no privado)",
+                      "url": "https://www.youtube.com/watch?v=" + v["video_id"] if pub else "", "data": v["publicado_em"][:10], "visualizacoes": v.get("visualizacoes"), "termo": v["consulta"]})
+        for no in (nid, f"busca: {v['consulta']}"):
+            por_no.setdefault(no, []).append(len(itens) - 1)
+    for x in noticias:
+        itens.append({"tipo": "notícia", "fonte": x["veiculo"], "titulo": x["titulo"], "url": x["link"], "data": "", "visualizacoes": None, "termo": x["consulta"]})
+        for no in (f"imprensa:{x['veiculo']}", f"notícia: {x['consulta']}"):
+            por_no.setdefault(no, []).append(len(itens) - 1)
+    out = {"itens": itens, "itens_por_no": por_no, "gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
            "metodo": __doc__.split("\n\n")[1].strip(), "recorte": {"de": DE, "ate_exclusivo": ATE}, "termos": TERMOS,
            "youtube": {"videos": len(vids), "canais": len({v["canal_id"] for v in vids}), "estimativa_api_por_termo": estimativas,
                        "universo": "⛔ a busca do YouTube não informa o total (a estimativa da API não é universo)", "cota_unidades": unidades},

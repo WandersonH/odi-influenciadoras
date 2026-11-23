@@ -9,16 +9,400 @@
       <attribute id="1" title="peso" type="long" />
     </attributes>
     <nodes>
-      <node id="vcs" label="vcs">
+      <node id="parabens" label="parabens">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="vc" label="vc">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="58" />
+        </attvalues>
+      </node>
+      <node id="acontecer" label="acontecer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="44" />
+        </attvalues>
+      </node>
+      <node id="final" label="final">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="pai" label="pai">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="morar" label="morar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="mari" label="mari">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="bolsa" label="bolsa">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="religiao" label="religiao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="58" />
+        </attvalues>
+      </node>
+      <node id="sair" label="sair">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="decidir" label="decidir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="gente" label="gente">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="33" />
+        </attvalues>
+      </node>
+      <node id="facil" label="facil">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="comida" label="comida">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="look" label="look">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="importar" label="importar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="lugar" label="lugar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="elegante" label="elegante">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="brasil" label="brasil">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="30" />
+        </attvalues>
+      </node>
+      <node id="uso" label="uso">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="amar" label="amar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="39" />
+        </attvalues>
+      </node>
+      <node id="cobrir" label="cobrir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="arrasar" label="arrasar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="dar" label="dar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="21" />
+        </attvalues>
+      </node>
+      <node id="linha" label="linha">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="maquiagem" label="maquiagem">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="exemplo" label="exemplo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="sentir" label="sentir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="falta" label="falta">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="mandar" label="mandar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="negro" label="negro">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="diva" label="diva">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="grecia" label="grecia">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="vir" label="vir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="existir" label="existir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="23" />
+        </attvalues>
+      </node>
+      <node id="veu" label="veu">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="andar" label="andar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="arabe" label="arabe">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="melhor" label="melhor">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="claro" label="claro">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="barak" label="barak">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="chiclete" label="chiclete">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="acreditar" label="acreditar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="cristao" label="cristao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="afeganistao" label="afeganistao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="homem" label="homem">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="22" />
+        </attvalues>
+      </node>
+      <node id="catolico" label="catolico">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="vestimenta" label="vestimenta">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="morto" label="morto">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="arrumar" label="arrumar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="escolher" label="escolher">
         <attvalues>
           <attvalue for="0" value="palavra" />
           <attvalue for="1" value="10" />
         </attvalues>
       </node>
-      <node id="sofrer" label="sofrer">
+      <node id="nao" label="nao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="18" />
+        </attvalues>
+      </node>
+      <node id="belo" label="belo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="livre" label="livre">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="cola" label="cola">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="direito" label="direito">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="ne" label="ne">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="coisa" label="coisa">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="21" />
+        </attvalues>
+      </node>
+      <node id="reclamar" label="reclamar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="mostrar" label="mostrar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="filho" label="filho">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="ruim" label="ruim">
         <attvalues>
           <attvalue for="0" value="palavra" />
           <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="liberdade" label="liberdade">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="agulha" label="agulha">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="descolar" label="descolar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="ano" label="ano">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
         </attvalues>
       </node>
       <node id="pais" label="pais">
@@ -27,10 +411,436 @@
           <attvalue for="1" value="22" />
         </attvalues>
       </node>
+      <node id="calor" label="calor">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="maior" label="maior">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="preconceito" label="preconceito">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="precisar" label="precisar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="vez" label="vez">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="pq" label="pq">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="32" />
+        </attvalues>
+      </node>
+      <node id="pensar" label="pensar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="cabelo" label="cabelo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="16" />
+        </attvalues>
+      </node>
+      <node id="praticar" label="praticar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="super" label="super">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="mulcumano" label="mulcumano">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="bom" label="bom">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="26" />
+        </attvalues>
+      </node>
+      <node id="pessoa" label="pessoa">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="confortavel" label="confortavel">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="caso" label="caso">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="soltar" label="soltar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="regra" label="regra">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="respeito" label="respeito">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="12" />
+        </attvalues>
+      </node>
+      <node id="hijab" label="hijab">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="40" />
+        </attvalues>
+      </node>
+      <node id="so" label="so">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="51" />
+        </attvalues>
+      </node>
+      <node id="obrigatorio" label="obrigatorio">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="levar" label="levar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="certeza" label="certeza">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="lei" label="lei">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="guardar" label="guardar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="seguir" label="seguir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="mariam" label="mariam">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="saber" label="saber">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="28" />
+        </attvalues>
+      </node>
       <node id="perfeito" label="perfeito">
         <attvalues>
           <attvalue for="0" value="palavra" />
           <attvalue for="1" value="20" />
+        </attvalues>
+      </node>
+      <node id="vestir" label="vestir">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="esperar" label="esperar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="ficar" label="ficar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="39" />
+        </attvalues>
+      </node>
+      <node id="solado" label="solado">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="entender" label="entender">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="risada" label="risada">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="45" />
+        </attvalues>
+      </node>
+      <node id="comecar" label="comecar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="cultura" label="cultura">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="julgar" label="julgar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="escolha" label="escolha">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="28" />
+        </attvalues>
+      </node>
+      <node id="proprio" label="proprio">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="vida" label="vida">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="17" />
+        </attvalues>
+      </node>
+      <node id="marido" label="marido">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="ver" label="ver">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="29" />
+        </attvalues>
+      </node>
+      <node id="pergunta" label="pergunta">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="nascer" label="nascer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="sapato" label="sapato">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="30" />
+        </attvalues>
+      </node>
+      <node id="familia" label="familia">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="19" />
+        </attvalues>
+      </node>
+      <node id="oriente" label="oriente">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="falar" label="falar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="65" />
+        </attvalues>
+      </node>
+      <node id="islamico" label="islamico">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="achar" label="achar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="57" />
+        </attvalues>
+      </node>
+      <node id="diferente" label="diferente">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="brasileiro" label="brasileiro">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="casa" label="casa">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="forma" label="forma">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="roupa" label="roupa">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="23" />
+        </attvalues>
+      </node>
+      <node id="parecer" label="parecer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="obrigar" label="obrigar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="34" />
+        </attvalues>
+      </node>
+      <node id="vcs" label="vcs">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="mulher" label="mulher">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="85" />
+        </attvalues>
+      </node>
+      <node id="branco" label="branco">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="pessoal" label="pessoal">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="tranquilo" label="tranquilo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="problema" label="problema">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="lenco" label="lenco">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="deixar" label="deixar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="querer" label="querer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="57" />
+        </attvalues>
+      </node>
+      <node id="video" label="video">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="38" />
+        </attvalues>
+      </node>
+      <node id="tbm" label="tbm">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="dizer" label="dizer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="13" />
+        </attvalues>
+      </node>
+      <node id="pressao" label="pressao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="viver" label="viver">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
         </attvalues>
       </node>
       <node id="estar" label="estar">
@@ -39,10 +849,148 @@
           <attvalue for="1" value="42" />
         </attvalues>
       </node>
-      <node id="proprio" label="proprio">
+      <node id="comprar" label="comprar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="14" />
+        </attvalues>
+      </node>
+      <node id="gostar" label="gostar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="24" />
+        </attvalues>
+      </node>
+      <node id="vestido" label="vestido">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="54" />
+        </attvalues>
+      </node>
+      <node id="ja" label="ja">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="maravilhoso" label="maravilhoso">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="39" />
+        </attvalues>
+      </node>
+      <node id="religioso" label="religioso">
         <attvalues>
           <attvalue for="0" value="palavra" />
           <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="amigo" label="amigo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="11" />
+        </attvalues>
+      </node>
+      <node id="questao" label="questao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="8" />
+        </attvalues>
+      </node>
+      <node id="filme" label="filme">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="obrigacao" label="obrigacao">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="cor" label="cor">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="to" label="to">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="usar" label="usar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="36" />
+        </attvalues>
+      </node>
+      <node id="fossar" label="fossar">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="6" />
+        </attvalues>
+      </node>
+      <node id="sofrer" label="sofrer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="lindo" label="lindo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="112" />
+        </attvalues>
+      </node>
+      <node id="isla" label="isla">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="10" />
+        </attvalues>
+      </node>
+      <node id="vontade" label="vontade">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="jesus" label="jesus">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="9" />
+        </attvalues>
+      </node>
+      <node id="bomba" label="bomba">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="errado" label="errado">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="5" />
+        </attvalues>
+      </node>
+      <node id="mesmo" label="mesmo">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="7" />
+        </attvalues>
+      </node>
+      <node id="deus" label="deus">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="27" />
+        </attvalues>
+      </node>
+      <node id="comer" label="comer">
+        <attvalues>
+          <attvalue for="0" value="palavra" />
+          <attvalue for="1" value="12" />
         </attvalues>
       </node>
       <node id="muculmano" label="muculmano">
@@ -57,1727 +1005,779 @@
           <attvalue for="1" value="12" />
         </attvalues>
       </node>
-      <node id="morto" label="morto">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="dizer" label="dizer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="linha" label="linha">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="brasileiro" label="brasileiro">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="bomba" label="bomba">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="catolico" label="catolico">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="tranquilo" label="tranquilo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="mariam" label="mariam">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="ja" label="ja">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="afeganistao" label="afeganistao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="guardar" label="guardar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="cor" label="cor">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="cristao" label="cristao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="precisar" label="precisar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="negro" label="negro">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="ficar" label="ficar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="39" />
-        </attvalues>
-      </node>
-      <node id="questao" label="questao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="vida" label="vida">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="17" />
-        </attvalues>
-      </node>
-      <node id="isla" label="isla">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="confortavel" label="confortavel">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="coisa" label="coisa">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="21" />
-        </attvalues>
-      </node>
-      <node id="usar" label="usar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="36" />
-        </attvalues>
-      </node>
-      <node id="solado" label="solado">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="uso" label="uso">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
-      <node id="mulher" label="mulher">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="85" />
-        </attvalues>
-      </node>
-      <node id="andar" label="andar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="19" />
-        </attvalues>
-      </node>
-      <node id="nao" label="nao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="18" />
-        </attvalues>
-      </node>
-      <node id="vestir" label="vestir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="existir" label="existir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="23" />
-        </attvalues>
-      </node>
-      <node id="vez" label="vez">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="20" />
-        </attvalues>
-      </node>
-      <node id="gostar" label="gostar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="24" />
-        </attvalues>
-      </node>
-      <node id="escolher" label="escolher">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="facil" label="facil">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="casa" label="casa">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="julgar" label="julgar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="maior" label="maior">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="roupa" label="roupa">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="23" />
-        </attvalues>
-      </node>
-      <node id="arrumar" label="arrumar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="soltar" label="soltar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="religioso" label="religioso">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="sentir" label="sentir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="gente" label="gente">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="33" />
-        </attvalues>
-      </node>
-      <node id="pergunta" label="pergunta">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="pessoa" label="pessoa">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="filme" label="filme">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="calor" label="calor">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="esperar" label="esperar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="descolar" label="descolar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="cultura" label="cultura">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="17" />
-        </attvalues>
-      </node>
-      <node id="cabelo" label="cabelo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="16" />
-        </attvalues>
-      </node>
-      <node id="belo" label="belo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="16" />
-        </attvalues>
-      </node>
-      <node id="claro" label="claro">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="escolha" label="escolha">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="28" />
-        </attvalues>
-      </node>
-      <node id="exemplo" label="exemplo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="pessoal" label="pessoal">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="lindo" label="lindo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="112" />
-        </attvalues>
-      </node>
-      <node id="ano" label="ano">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="pq" label="pq">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="32" />
-        </attvalues>
-      </node>
-      <node id="lei" label="lei">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="tbm" label="tbm">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="dar" label="dar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="21" />
-        </attvalues>
-      </node>
-      <node id="mesmo" label="mesmo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="obrigacao" label="obrigacao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="comecar" label="comecar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="vc" label="vc">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="58" />
-        </attvalues>
-      </node>
-      <node id="sair" label="sair">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="18" />
-        </attvalues>
-      </node>
-      <node id="parecer" label="parecer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="religiao" label="religiao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="58" />
-        </attvalues>
-      </node>
-      <node id="arabe" label="arabe">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="elegante" label="elegante">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="problema" label="problema">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="video" label="video">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="38" />
-        </attvalues>
-      </node>
-      <node id="vestimenta" label="vestimenta">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="importar" label="importar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="mandar" label="mandar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="comida" label="comida">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="respeito" label="respeito">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
-      <node id="marido" label="marido">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="regra" label="regra">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="vir" label="vir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="look" label="look">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="vestido" label="vestido">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="54" />
-        </attvalues>
-      </node>
-      <node id="arrasar" label="arrasar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="deixar" label="deixar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="final" label="final">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="amar" label="amar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="39" />
-        </attvalues>
-      </node>
-      <node id="errado" label="errado">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="livre" label="livre">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="grecia" label="grecia">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="brasil" label="brasil">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="30" />
-        </attvalues>
-      </node>
-      <node id="cola" label="cola">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="17" />
-        </attvalues>
-      </node>
-      <node id="deus" label="deus">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="27" />
-        </attvalues>
-      </node>
-      <node id="ne" label="ne">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="16" />
-        </attvalues>
-      </node>
-      <node id="falta" label="falta">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="praticar" label="praticar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="viver" label="viver">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="10" />
-        </attvalues>
-      </node>
-      <node id="preconceito" label="preconceito">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="bom" label="bom">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="26" />
-        </attvalues>
-      </node>
-      <node id="hijab" label="hijab">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="40" />
-        </attvalues>
-      </node>
-      <node id="melhor" label="melhor">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="islamico" label="islamico">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="forma" label="forma">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="sapato" label="sapato">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="30" />
-        </attvalues>
-      </node>
-      <node id="barak" label="barak">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="nascer" label="nascer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="obrigar" label="obrigar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="34" />
-        </attvalues>
-      </node>
-      <node id="veu" label="veu">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="saber" label="saber">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="28" />
-        </attvalues>
-      </node>
-      <node id="vontade" label="vontade">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="cobrir" label="cobrir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="mulcumano" label="mulcumano">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="comprar" label="comprar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="morar" label="morar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="certeza" label="certeza">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="liberdade" label="liberdade">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="comer" label="comer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
-      <node id="falar" label="falar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="65" />
-        </attvalues>
-      </node>
-      <node id="levar" label="levar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="ruim" label="ruim">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="reclamar" label="reclamar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="caso" label="caso">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="decidir" label="decidir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="seguir" label="seguir">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="ver" label="ver">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="29" />
-        </attvalues>
-      </node>
-      <node id="oriente" label="oriente">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="agulha" label="agulha">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="parabens" label="parabens">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="jesus" label="jesus">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="acontecer" label="acontecer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="44" />
-        </attvalues>
-      </node>
-      <node id="amigo" label="amigo">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="lugar" label="lugar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="mari" label="mari">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="pensar" label="pensar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="16" />
-        </attvalues>
-      </node>
-      <node id="so" label="so">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="51" />
-        </attvalues>
-      </node>
-      <node id="lenco" label="lenco">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="8" />
-        </attvalues>
-      </node>
-      <node id="filho" label="filho">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
-      <node id="maravilhoso" label="maravilhoso">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="39" />
-        </attvalues>
-      </node>
-      <node id="mostrar" label="mostrar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="13" />
-        </attvalues>
-      </node>
-      <node id="pai" label="pai">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
       <node id="realidade" label="realidade">
         <attvalues>
           <attvalue for="0" value="palavra" />
           <attvalue for="1" value="8" />
         </attvalues>
       </node>
-      <node id="diferente" label="diferente">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="risada" label="risada">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="45" />
-        </attvalues>
-      </node>
-      <node id="acreditar" label="acreditar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="12" />
-        </attvalues>
-      </node>
-      <node id="maquiagem" label="maquiagem">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="super" label="super">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="11" />
-        </attvalues>
-      </node>
-      <node id="direito" label="direito">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="entender" label="entender">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="9" />
-        </attvalues>
-      </node>
-      <node id="bolsa" label="bolsa">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="18" />
-        </attvalues>
-      </node>
-      <node id="querer" label="querer">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="57" />
-        </attvalues>
-      </node>
-      <node id="chiclete" label="chiclete">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="achar" label="achar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="57" />
-        </attvalues>
-      </node>
-      <node id="pressao" label="pressao">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="5" />
-        </attvalues>
-      </node>
-      <node id="homem" label="homem">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="22" />
-        </attvalues>
-      </node>
-      <node id="diva" label="diva">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="19" />
-        </attvalues>
-      </node>
-      <node id="familia" label="familia">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="19" />
-        </attvalues>
-      </node>
-      <node id="obrigatorio" label="obrigatorio">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
-      <node id="to" label="to">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="7" />
-        </attvalues>
-      </node>
-      <node id="branco" label="branco">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="14" />
-        </attvalues>
-      </node>
-      <node id="fossar" label="fossar">
-        <attvalues>
-          <attvalue for="0" value="palavra" />
-          <attvalue for="1" value="6" />
-        </attvalues>
-      </node>
     </nodes>
     <edges>
-      <edge source="vcs" target="achar" id="0" weight="3" />
-      <edge source="vcs" target="lindo" id="1" weight="3" />
-      <edge source="vcs" target="saber" id="2" weight="3" />
-      <edge source="sofrer" target="religiao" id="3" weight="5" />
-      <edge source="sofrer" target="muculmano" id="4" weight="3" />
-      <edge source="sofrer" target="brasil" id="5" weight="3" />
-      <edge source="sofrer" target="lei" id="6" weight="3" />
-      <edge source="sofrer" target="liberdade" id="7" weight="3" />
-      <edge source="sofrer" target="mulher" id="8" weight="3" />
-      <edge source="sofrer" target="pais" id="9" weight="3" />
-      <edge source="sofrer" target="religioso" id="10" weight="4" />
-      <edge source="pais" target="mulcumano" id="11" weight="4" />
-      <edge source="pais" target="obrigar" id="12" weight="8" />
-      <edge source="pais" target="religiao" id="13" weight="10" />
-      <edge source="pais" target="seguir" id="14" weight="3" />
-      <edge source="pais" target="so" id="15" weight="6" />
-      <edge source="pais" target="achar" id="16" weight="4" />
-      <edge source="pais" target="escolha" id="17" weight="5" />
-      <edge source="pais" target="escolher" id="18" weight="3" />
-      <edge source="pais" target="falar" id="19" weight="3" />
-      <edge source="pais" target="mulher" id="20" weight="12" />
-      <edge source="pais" target="querer" id="21" weight="6" />
-      <edge source="pais" target="roupa" id="22" weight="3" />
-      <edge source="pais" target="muculmano" id="23" weight="6" />
-      <edge source="pais" target="ver" id="24" weight="4" />
-      <edge source="pais" target="brasil" id="25" weight="6" />
-      <edge source="pais" target="coisa" id="26" weight="3" />
-      <edge source="pais" target="dar" id="27" weight="4" />
-      <edge source="pais" target="lei" id="28" weight="5" />
-      <edge source="pais" target="religioso" id="29" weight="3" />
-      <edge source="pais" target="saber" id="30" weight="3" />
-      <edge source="pais" target="diferente" id="31" weight="3" />
-      <edge source="pais" target="liberdade" id="32" weight="3" />
-      <edge source="pais" target="morar" id="33" weight="3" />
-      <edge source="pais" target="exemplo" id="34" weight="3" />
-      <edge source="pais" target="existir" id="35" weight="4" />
-      <edge source="pais" target="familia" id="36" weight="4" />
-      <edge source="pais" target="hijab" id="37" weight="4" />
-      <edge source="pais" target="sair" id="38" weight="4" />
-      <edge source="pais" target="pq" id="39" weight="3" />
-      <edge source="pais" target="islamico" id="40" weight="4" />
-      <edge source="pais" target="deixar" id="41" weight="3" />
-      <edge source="pais" target="gente" id="42" weight="3" />
-      <edge source="pais" target="marido" id="43" weight="3" />
-      <edge source="pais" target="vc" id="44" weight="3" />
-      <edge source="pais" target="proprio" id="45" weight="3" />
-      <edge source="perfeito" target="existir" id="46" weight="3" />
-      <edge source="perfeito" target="vestido" id="47" weight="5" />
-      <edge source="estar" target="amar" id="48" weight="3" />
-      <edge source="estar" target="cultura" id="49" weight="3" />
-      <edge source="estar" target="hijab" id="50" weight="4" />
-      <edge source="estar" target="querer" id="51" weight="12" />
-      <edge source="estar" target="religiao" id="52" weight="4" />
-      <edge source="estar" target="sair" id="53" weight="4" />
-      <edge source="estar" target="obrigar" id="54" weight="3" />
-      <edge source="estar" target="pq" id="55" weight="7" />
-      <edge source="estar" target="vc" id="56" weight="12" />
-      <edge source="estar" target="achar" id="57" weight="6" />
-      <edge source="estar" target="vida" id="58" weight="3" />
-      <edge source="estar" target="dar" id="59" weight="3" />
-      <edge source="estar" target="dizer" id="60" weight="4" />
-      <edge source="estar" target="muculmano" id="61" weight="4" />
-      <edge source="estar" target="so" id="62" weight="6" />
-      <edge source="estar" target="video" id="63" weight="6" />
-      <edge source="estar" target="mulher" id="64" weight="6" />
-      <edge source="estar" target="seguir" id="65" weight="3" />
-      <edge source="estar" target="branco" id="66" weight="3" />
-      <edge source="estar" target="existir" id="67" weight="3" />
-      <edge source="estar" target="falar" id="68" weight="7" />
-      <edge source="estar" target="pensar" id="69" weight="3" />
-      <edge source="estar" target="usar" id="70" weight="7" />
-      <edge source="estar" target="escolha" id="71" weight="3" />
-      <edge source="estar" target="marido" id="72" weight="3" />
-      <edge source="estar" target="lindo" id="73" weight="3" />
-      <edge source="estar" target="acontecer" id="74" weight="3" />
-      <edge source="estar" target="roupa" id="75" weight="4" />
-      <edge source="estar" target="saber" id="76" weight="3" />
-      <edge source="estar" target="to" id="77" weight="3" />
-      <edge source="estar" target="ano" id="78" weight="6" />
-      <edge source="estar" target="brasil" id="79" weight="3" />
-      <edge source="estar" target="risada" id="80" weight="4" />
-      <edge source="estar" target="guardar" id="81" weight="4" />
-      <edge source="estar" target="sapato" id="82" weight="5" />
-      <edge source="proprio" target="escolha" id="83" weight="5" />
-      <edge source="proprio" target="obrigar" id="84" weight="3" />
-      <edge source="proprio" target="querer" id="85" weight="3" />
-      <edge source="proprio" target="religiao" id="86" weight="8" />
-      <edge source="proprio" target="tirar" id="87" weight="4" />
-      <edge source="proprio" target="vc" id="88" weight="3" />
-      <edge source="proprio" target="usar" id="89" weight="3" />
-      <edge source="proprio" target="existir" id="90" weight="3" />
-      <edge source="proprio" target="so" id="91" weight="3" />
-      <edge source="muculmano" target="cobrir" id="92" weight="3" />
-      <edge source="muculmano" target="cristao" id="93" weight="5" />
-      <edge source="muculmano" target="julgar" id="94" weight="3" />
-      <edge source="muculmano" target="amigo" id="95" weight="3" />
-      <edge source="muculmano" target="deus" id="96" weight="4" />
-      <edge source="muculmano" target="pq" id="97" weight="4" />
-      <edge source="muculmano" target="so" id="98" weight="6" />
-      <edge source="muculmano" target="nao" id="99" weight="3" />
-      <edge source="muculmano" target="saber" id="100" weight="6" />
-      <edge source="muculmano" target="existir" id="101" weight="7" />
-      <edge source="muculmano" target="falar" id="102" weight="5" />
-      <edge source="muculmano" target="forma" id="103" weight="3" />
-      <edge source="muculmano" target="religiao" id="104" weight="11" />
-      <edge source="muculmano" target="vc" id="105" weight="6" />
-      <edge source="muculmano" target="dizer" id="106" weight="4" />
-      <edge source="muculmano" target="querer" id="107" weight="5" />
-      <edge source="muculmano" target="video" id="108" weight="3" />
-      <edge source="muculmano" target="achar" id="109" weight="5" />
-      <edge source="muculmano" target="mulher" id="110" weight="11" />
-      <edge source="muculmano" target="regra" id="111" weight="3" />
-      <edge source="muculmano" target="familia" id="112" weight="7" />
-      <edge source="muculmano" target="obrigar" id="113" weight="4" />
-      <edge source="muculmano" target="ver" id="114" weight="8" />
-      <edge source="muculmano" target="decidir" id="115" weight="3" />
-      <edge source="muculmano" target="escolha" id="116" weight="6" />
-      <edge source="muculmano" target="exemplo" id="117" weight="3" />
-      <edge source="muculmano" target="hijab" id="118" weight="10" />
-      <edge source="muculmano" target="sair" id="119" weight="3" />
-      <edge source="muculmano" target="brasil" id="120" weight="4" />
-      <edge source="muculmano" target="vida" id="121" weight="5" />
-      <edge source="muculmano" target="viver" id="122" weight="4" />
-      <edge source="muculmano" target="gostar" id="123" weight="3" />
-      <edge source="muculmano" target="escolher" id="124" weight="3" />
-      <edge source="muculmano" target="acreditar" id="125" weight="3" />
-      <edge source="muculmano" target="usar" id="126" weight="6" />
-      <edge source="muculmano" target="lindo" id="127" weight="3" />
-      <edge source="tirar" target="querer" id="128" weight="3" />
-      <edge source="tirar" target="religiao" id="129" weight="4" />
-      <edge source="tirar" target="cabelo" id="130" weight="3" />
-      <edge source="tirar" target="escolha" id="131" weight="3" />
-      <edge source="tirar" target="hijab" id="132" weight="4" />
-      <edge source="tirar" target="obrigar" id="133" weight="3" />
-      <edge source="tirar" target="sair" id="134" weight="3" />
-      <edge source="tirar" target="vc" id="135" weight="4" />
-      <edge source="tirar" target="usar" id="136" weight="3" />
-      <edge source="morto" target="mulher" id="137" weight="3" />
-      <edge source="dizer" target="pensar" id="138" weight="5" />
-      <edge source="dizer" target="video" id="139" weight="6" />
-      <edge source="dizer" target="dar" id="140" weight="3" />
-      <edge source="dizer" target="pq" id="141" weight="3" />
-      <edge source="dizer" target="so" id="142" weight="3" />
-      <edge source="dizer" target="ano" id="143" weight="3" />
-      <edge source="dizer" target="hijab" id="144" weight="4" />
-      <edge source="dizer" target="saber" id="145" weight="3" />
-      <edge source="dizer" target="usar" id="146" weight="4" />
-      <edge source="dizer" target="vc" id="147" weight="4" />
-      <edge source="dizer" target="ver" id="148" weight="4" />
-      <edge source="linha" target="agulha" id="149" weight="6" />
-      <edge source="linha" target="cola" id="150" weight="3" />
-      <edge source="linha" target="bolsa" id="151" weight="3" />
-      <edge source="linha" target="sair" id="152" weight="3" />
-      <edge source="brasileiro" target="achar" id="153" weight="3" />
-      <edge source="brasileiro" target="lindo" id="154" weight="3" />
-      <edge source="bomba" target="mulher" id="155" weight="5" />
-      <edge source="bomba" target="falar" id="156" weight="3" />
-      <edge source="catolico" target="religiao" id="157" weight="5" />
-      <edge source="catolico" target="familia" id="158" weight="3" />
-      <edge source="tranquilo" target="roupa" id="159" weight="3" />
-      <edge source="tranquilo" target="so" id="160" weight="3" />
-      <edge source="mariam" target="lindo" id="161" weight="3" />
-      <edge source="mariam" target="hijab" id="162" weight="4" />
-      <edge source="ja" target="sapato" id="163" weight="3" />
-      <edge source="ja" target="acontecer" id="164" weight="3" />
-      <edge source="afeganistao" target="falar" id="165" weight="4" />
-      <edge source="afeganistao" target="mulher" id="166" weight="4" />
-      <edge source="afeganistao" target="exemplo" id="167" weight="3" />
-      <edge source="guardar" target="ano" id="168" weight="3" />
-      <edge source="guardar" target="sapato" id="169" weight="6" />
-      <edge source="guardar" target="acontecer" id="170" weight="5" />
-      <edge source="guardar" target="usar" id="171" weight="3" />
-      <edge source="guardar" target="risada" id="172" weight="3" />
-      <edge source="cor" target="ficar" id="173" weight="3" />
-      <edge source="cor" target="lindo" id="174" weight="3" />
-      <edge source="cristao" target="religiao" id="175" weight="5" />
-      <edge source="cristao" target="mulher" id="176" weight="3" />
-      <edge source="precisar" target="vez" id="177" weight="3" />
-      <edge source="precisar" target="mulher" id="178" weight="3" />
-      <edge source="negro" target="reclamar" id="179" weight="3" />
-      <edge source="ficar" target="achar" id="180" weight="4" />
-      <edge source="ficar" target="coisa" id="181" weight="3" />
-      <edge source="ficar" target="vida" id="182" weight="3" />
-      <edge source="ficar" target="video" id="183" weight="3" />
-      <edge source="ficar" target="deus" id="184" weight="4" />
-      <edge source="ficar" target="pq" id="185" weight="3" />
-      <edge source="ficar" target="saber" id="186" weight="4" />
-      <edge source="ficar" target="risada" id="187" weight="6" />
-      <edge source="ficar" target="lindo" id="188" weight="13" />
-      <edge source="ficar" target="vc" id="189" weight="6" />
-      <edge source="ficar" target="usar" id="190" weight="3" />
-      <edge source="ficar" target="vestido" id="191" weight="4" />
-      <edge source="ficar" target="sapato" id="192" weight="3" />
-      <edge source="questao" target="achar" id="193" weight="3" />
-      <edge source="questao" target="escolha" id="194" weight="3" />
-      <edge source="questao" target="mulher" id="195" weight="4" />
-      <edge source="questao" target="obrigar" id="196" weight="3" />
-      <edge source="questao" target="querer" id="197" weight="3" />
-      <edge source="questao" target="religiao" id="198" weight="5" />
-      <edge source="questao" target="falar" id="199" weight="3" />
-      <edge source="vida" target="achar" id="200" weight="3" />
-      <edge source="vida" target="coisa" id="201" weight="4" />
-      <edge source="vida" target="falar" id="202" weight="3" />
-      <edge source="vida" target="querer" id="203" weight="5" />
-      <edge source="vida" target="religiao" id="204" weight="3" />
-      <edge source="vida" target="viver" id="205" weight="3" />
-      <edge source="vida" target="sair" id="206" weight="3" />
-      <edge source="vida" target="usar" id="207" weight="3" />
-      <edge source="isla" target="pq" id="208" weight="3" />
-      <edge source="isla" target="mulher" id="209" weight="5" />
-      <edge source="isla" target="religiao" id="210" weight="4" />
-      <edge source="isla" target="video" id="211" weight="3" />
-      <edge source="confortavel" target="falar" id="212" weight="4" />
-      <edge source="confortavel" target="sentir" id="213" weight="3" />
-      <edge source="coisa" target="acontecer" id="214" weight="6" />
-      <edge source="coisa" target="querer" id="215" weight="5" />
-      <edge source="coisa" target="errado" id="216" weight="3" />
-      <edge source="coisa" target="gente" id="217" weight="3" />
-      <edge source="coisa" target="lindo" id="218" weight="3" />
-      <edge source="coisa" target="existir" id="219" weight="3" />
-      <edge source="coisa" target="religiao" id="220" weight="6" />
-      <edge source="coisa" target="dar" id="221" weight="3" />
-      <edge source="coisa" target="saber" id="222" weight="3" />
-      <edge source="coisa" target="gostar" id="223" weight="3" />
-      <edge source="coisa" target="pq" id="224" weight="4" />
-      <edge source="coisa" target="sapato" id="225" weight="3" />
-      <edge source="usar" target="achar" id="226" weight="6" />
-      <edge source="usar" target="lenco" id="227" weight="3" />
-      <edge source="usar" target="mulher" id="228" weight="7" />
-      <edge source="usar" target="obrigar" id="229" weight="4" />
-      <edge source="usar" target="hijab" id="230" weight="10" />
-      <edge source="usar" target="super" id="231" weight="3" />
-      <edge source="usar" target="lindo" id="232" weight="4" />
-      <edge source="usar" target="falar" id="233" weight="7" />
-      <edge source="usar" target="pensar" id="234" weight="5" />
-      <edge source="usar" target="querer" id="235" weight="5" />
-      <edge source="usar" target="religiao" id="236" weight="6" />
-      <edge source="usar" target="cabelo" id="237" weight="3" />
-      <edge source="usar" target="pai" id="238" weight="3" />
-      <edge source="usar" target="respeito" id="239" weight="3" />
-      <edge source="usar" target="vc" id="240" weight="7" />
-      <edge source="usar" target="saber" id="241" weight="4" />
-      <edge source="usar" target="so" id="242" weight="4" />
-      <edge source="usar" target="video" id="243" weight="5" />
-      <edge source="usar" target="escolha" id="244" weight="3" />
-      <edge source="usar" target="uso" id="245" weight="5" />
-      <edge source="usar" target="ano" id="246" weight="5" />
-      <edge source="usar" target="ver" id="247" weight="3" />
-      <edge source="usar" target="deus" id="248" weight="3" />
-      <edge source="usar" target="vez" id="249" weight="3" />
-      <edge source="usar" target="filho" id="250" weight="4" />
-      <edge source="usar" target="sapato" id="251" weight="9" />
-      <edge source="usar" target="nascer" id="252" weight="4" />
-      <edge source="usar" target="acontecer" id="253" weight="9" />
-      <edge source="usar" target="certeza" id="254" weight="3" />
-      <edge source="usar" target="descolar" id="255" weight="4" />
-      <edge source="usar" target="risada" id="256" weight="4" />
-      <edge source="solado" target="soltar" id="257" weight="3" />
-      <edge source="uso" target="escolha" id="258" weight="3" />
-      <edge source="uso" target="existir" id="259" weight="3" />
-      <edge source="uso" target="hijab" id="260" weight="6" />
-      <edge source="uso" target="obrigacao" id="261" weight="3" />
-      <edge source="uso" target="obrigar" id="262" weight="4" />
-      <edge source="uso" target="sapato" id="263" weight="3" />
-      <edge source="mulher" target="achar" id="264" weight="13" />
-      <edge source="mulher" target="escolher" id="265" weight="4" />
-      <edge source="mulher" target="obrigar" id="266" weight="10" />
-      <edge source="mulher" target="viver" id="267" weight="4" />
-      <edge source="mulher" target="homem" id="268" weight="13" />
-      <edge source="mulher" target="lindo" id="269" weight="9" />
-      <edge source="mulher" target="andar" id="270" weight="3" />
-      <edge source="mulher" target="cobrir" id="271" weight="3" />
-      <edge source="mulher" target="cultura" id="272" weight="4" />
-      <edge source="mulher" target="pergunta" id="273" weight="4" />
-      <edge source="mulher" target="roupa" id="274" weight="7" />
-      <edge source="mulher" target="so" id="275" weight="9" />
-      <edge source="mulher" target="falar" id="276" weight="17" />
-      <edge source="mulher" target="video" id="277" weight="11" />
-      <edge source="mulher" target="hijab" id="278" weight="13" />
-      <edge source="mulher" target="exemplo" id="279" weight="3" />
-      <edge source="mulher" target="querer" id="280" weight="18" />
-      <edge source="mulher" target="religiao" id="281" weight="11" />
-      <edge source="mulher" target="falta" id="282" weight="3" />
-      <edge source="mulher" target="gente" id="283" weight="6" />
-      <edge source="mulher" target="saber" id="284" weight="3" />
-      <edge source="mulher" target="pq" id="285" weight="10" />
-      <edge source="mulher" target="diva" id="286" weight="4" />
-      <edge source="mulher" target="deixar" id="287" weight="5" />
-      <edge source="mulher" target="regra" id="288" weight="4" />
-      <edge source="mulher" target="seguir" id="289" weight="4" />
-      <edge source="mulher" target="vez" id="290" weight="3" />
-      <edge source="mulher" target="cabelo" id="291" weight="5" />
-      <edge source="mulher" target="vc" id="292" weight="11" />
-      <edge source="mulher" target="dar" id="293" weight="3" />
-      <edge source="mulher" target="existir" id="294" weight="6" />
-      <edge source="mulher" target="forma" id="295" weight="4" />
-      <edge source="mulher" target="mesmo" id="296" weight="3" />
-      <edge source="mulher" target="pensar" id="297" weight="3" />
-      <edge source="mulher" target="acreditar" id="298" weight="3" />
-      <edge source="mulher" target="nao" id="299" weight="3" />
-      <edge source="mulher" target="escolha" id="300" weight="9" />
-      <edge source="mulher" target="vestimenta" id="301" weight="3" />
-      <edge source="mulher" target="direito" id="302" weight="3" />
-      <edge source="mulher" target="mulcumano" id="303" weight="7" />
-      <edge source="mulher" target="deus" id="304" weight="3" />
-      <edge source="mulher" target="marido" id="305" weight="4" />
-      <edge source="mulher" target="ver" id="306" weight="5" />
-      <edge source="mulher" target="bom" id="307" weight="4" />
-      <edge source="mulher" target="brasil" id="308" weight="4" />
-      <edge source="mulher" target="diferente" id="309" weight="4" />
-      <edge source="mulher" target="lei" id="310" weight="5" />
-      <edge source="mulher" target="liberdade" id="311" weight="3" />
-      <edge source="mulher" target="morar" id="312" weight="3" />
-      <edge source="mulher" target="caso" id="313" weight="3" />
-      <edge source="mulher" target="decidir" id="314" weight="3" />
-      <edge source="mulher" target="obrigatorio" id="315" weight="3" />
-      <edge source="mulher" target="religioso" id="316" weight="3" />
-      <edge source="mulher" target="sair" id="317" weight="3" />
-      <edge source="mulher" target="veu" id="318" weight="4" />
-      <edge source="mulher" target="islamico" id="319" weight="4" />
-      <edge source="mulher" target="mostrar" id="320" weight="3" />
-      <edge source="mulher" target="realidade" id="321" weight="3" />
-      <edge source="mulher" target="acontecer" id="322" weight="3" />
-      <edge source="mulher" target="gostar" id="323" weight="3" />
-      <edge source="mulher" target="lugar" id="324" weight="3" />
-      <edge source="mulher" target="oriente" id="325" weight="4" />
-      <edge source="mulher" target="mandar" id="326" weight="3" />
-      <edge source="mulher" target="vestido" id="327" weight="3" />
-      <edge source="andar" target="roupa" id="328" weight="4" />
-      <edge source="andar" target="so" id="329" weight="4" />
-      <edge source="andar" target="achar" id="330" weight="4" />
-      <edge source="andar" target="gente" id="331" weight="3" />
-      <edge source="andar" target="ver" id="332" weight="3" />
-      <edge source="andar" target="bolsa" id="333" weight="4" />
-      <edge source="andar" target="risada" id="334" weight="3" />
-      <edge source="nao" target="hijab" id="335" weight="3" />
-      <edge source="nao" target="achar" id="336" weight="3" />
-      <edge source="nao" target="escolha" id="337" weight="4" />
-      <edge source="vestir" target="querer" id="338" weight="3" />
-      <edge source="vestir" target="video" id="339" weight="3" />
-      <edge source="existir" target="hijab" id="340" weight="4" />
-      <edge source="existir" target="familia" id="341" weight="4" />
-      <edge source="existir" target="falar" id="342" weight="4" />
-      <edge source="existir" target="forma" id="343" weight="4" />
-      <edge source="existir" target="religiao" id="344" weight="7" />
-      <edge source="existir" target="vc" id="345" weight="4" />
-      <edge source="existir" target="achar" id="346" weight="4" />
-      <edge source="existir" target="exemplo" id="347" weight="4" />
-      <edge source="existir" target="grecia" id="348" weight="3" />
-      <edge source="existir" target="viver" id="349" weight="4" />
-      <edge source="existir" target="cultura" id="350" weight="4" />
-      <edge source="existir" target="mesmo" id="351" weight="3" />
-      <edge source="existir" target="problema" id="352" weight="3" />
-      <edge source="existir" target="querer" id="353" weight="4" />
-      <edge source="existir" target="escolha" id="354" weight="7" />
-      <edge source="existir" target="pressao" id="355" weight="4" />
-      <edge source="existir" target="acreditar" id="356" weight="3" />
-      <edge source="existir" target="caso" id="357" weight="3" />
-      <edge source="existir" target="obrigar" id="358" weight="6" />
-      <edge source="existir" target="religioso" id="359" weight="3" />
-      <edge source="existir" target="bom" id="360" weight="3" />
-      <edge source="existir" target="brasil" id="361" weight="3" />
-      <edge source="vez" target="levar" id="362" weight="3" />
-      <edge source="vez" target="religiao" id="363" weight="3" />
-      <edge source="vez" target="gente" id="364" weight="3" />
-      <edge source="vez" target="video" id="365" weight="5" />
-      <edge source="vez" target="falar" id="366" weight="3" />
-      <edge source="vez" target="so" id="367" weight="3" />
-      <edge source="vez" target="vc" id="368" weight="3" />
-      <edge source="vez" target="ver" id="369" weight="4" />
-      <edge source="vez" target="risada" id="370" weight="3" />
-      <edge source="vez" target="bolsa" id="371" weight="3" />
-      <edge source="gostar" target="achar" id="372" weight="7" />
-      <edge source="gostar" target="escolha" id="373" weight="5" />
-      <edge source="gostar" target="falar" id="374" weight="3" />
-      <edge source="gostar" target="obrigar" id="375" weight="3" />
-      <edge source="gostar" target="querer" id="376" weight="5" />
-      <edge source="gostar" target="religiao" id="377" weight="6" />
-      <edge source="gostar" target="hijab" id="378" weight="3" />
-      <edge source="gostar" target="esperar" id="379" weight="3" />
-      <edge source="escolher" target="livre" id="380" weight="3" />
-      <edge source="escolher" target="escolha" id="381" weight="3" />
-      <edge source="escolher" target="querer" id="382" weight="3" />
-      <edge source="escolher" target="religiao" id="383" weight="3" />
-      <edge source="facil" target="brasil" id="384" weight="4" />
-      <edge source="facil" target="falar" id="385" weight="3" />
-      <edge source="casa" target="querer" id="386" weight="3" />
-      <edge source="casa" target="sair" id="387" weight="4" />
-      <edge source="maior" target="religiao" id="388" weight="4" />
-      <edge source="roupa" target="homem" id="389" weight="4" />
-      <edge source="roupa" target="so" id="390" weight="8" />
-      <edge source="roupa" target="hijab" id="391" weight="3" />
-      <edge source="roupa" target="lindo" id="392" weight="4" />
-      <edge source="roupa" target="achar" id="393" weight="5" />
-      <edge source="roupa" target="falar" id="394" weight="3" />
-      <edge source="roupa" target="marido" id="395" weight="3" />
-      <edge source="roupa" target="querer" id="396" weight="5" />
-      <edge source="roupa" target="obrigar" id="397" weight="3" />
-      <edge source="roupa" target="religiao" id="398" weight="3" />
-      <edge source="roupa" target="amar" id="399" weight="3" />
-      <edge source="roupa" target="video" id="400" weight="3" />
-      <edge source="roupa" target="calor" id="401" weight="3" />
-      <edge source="arrumar" target="vc" id="402" weight="3" />
-      <edge source="arrumar" target="pensar" id="403" weight="4" />
-      <edge source="religioso" target="escolha" id="404" weight="3" />
-      <edge source="religioso" target="obrigacao" id="405" weight="3" />
-      <edge source="religioso" target="brasil" id="406" weight="4" />
-      <edge source="religioso" target="lei" id="407" weight="3" />
-      <edge source="religioso" target="religiao" id="408" weight="4" />
-      <edge source="religioso" target="hijab" id="409" weight="3" />
-      <edge source="sentir" target="falar" id="410" weight="3" />
-      <edge source="gente" target="falar" id="411" weight="5" />
-      <edge source="gente" target="pergunta" id="412" weight="3" />
-      <edge source="gente" target="querer" id="413" weight="6" />
-      <edge source="gente" target="saber" id="414" weight="4" />
-      <edge source="gente" target="pq" id="415" weight="6" />
-      <edge source="gente" target="achar" id="416" weight="4" />
-      <edge source="gente" target="video" id="417" weight="4" />
-      <edge source="gente" target="branco" id="418" weight="3" />
-      <edge source="gente" target="cultura" id="419" weight="3" />
-      <edge source="gente" target="dar" id="420" weight="3" />
-      <edge source="gente" target="deixar" id="421" weight="3" />
-      <edge source="gente" target="filme" id="422" weight="3" />
-      <edge source="gente" target="acontecer" id="423" weight="4" />
-      <edge source="gente" target="religiao" id="424" weight="3" />
-      <edge source="gente" target="ver" id="425" weight="3" />
-      <edge source="gente" target="maravilhoso" id="426" weight="3" />
-      <edge source="pergunta" target="falar" id="427" weight="3" />
-      <edge source="pessoa" target="falar" id="428" weight="3" />
-      <edge source="pessoa" target="religiao" id="429" weight="4" />
-      <edge source="pessoa" target="vc" id="430" weight="3" />
-      <edge source="pessoa" target="video" id="431" weight="3" />
-      <edge source="descolar" target="sapato" id="432" weight="6" />
-      <edge source="descolar" target="acontecer" id="433" weight="3" />
-      <edge source="descolar" target="risada" id="434" weight="4" />
-      <edge source="cultura" target="amar" id="435" weight="4" />
-      <edge source="cultura" target="querer" id="436" weight="3" />
-      <edge source="cultura" target="religiao" id="437" weight="3" />
-      <edge source="cultura" target="achar" id="438" weight="4" />
-      <edge source="cultura" target="vc" id="439" weight="3" />
-      <edge source="cabelo" target="achar" id="440" weight="4" />
-      <edge source="cabelo" target="lindo" id="441" weight="5" />
-      <edge source="cabelo" target="vc" id="442" weight="4" />
-      <edge source="cabelo" target="mostrar" id="443" weight="5" />
-      <edge source="cabelo" target="querer" id="444" weight="3" />
-      <edge source="cabelo" target="hijab" id="445" weight="3" />
-      <edge source="belo" target="achar" id="446" weight="3" />
-      <edge source="belo" target="vestido" id="447" weight="4" />
-      <edge source="claro" target="ne" id="448" weight="3" />
-      <edge source="escolha" target="achar" id="449" weight="6" />
-      <edge source="escolha" target="caso" id="450" weight="3" />
-      <edge source="escolha" target="familia" id="451" weight="6" />
-      <edge source="escolha" target="pessoal" id="452" weight="3" />
-      <edge source="escolha" target="problema" id="453" weight="3" />
-      <edge source="escolha" target="lindo" id="454" weight="3" />
-      <edge source="escolha" target="obrigacao" id="455" weight="3" />
-      <edge source="escolha" target="direito" id="456" weight="3" />
-      <edge source="escolha" target="falar" id="457" weight="6" />
-      <edge source="escolha" target="querer" id="458" weight="9" />
-      <edge source="escolha" target="marido" id="459" weight="5" />
-      <edge source="escolha" target="amigo" id="460" weight="3" />
-      <edge source="escolha" target="livre" id="461" weight="3" />
-      <edge source="escolha" target="hijab" id="462" weight="5" />
-      <edge source="escolha" target="lei" id="463" weight="4" />
-      <edge source="escolha" target="liberdade" id="464" weight="3" />
-      <edge source="escolha" target="obrigar" id="465" weight="8" />
-      <edge source="escolha" target="regra" id="466" weight="3" />
-      <edge source="escolha" target="religiao" id="467" weight="7" />
-      <edge source="escolha" target="vc" id="468" weight="5" />
-      <edge source="escolha" target="viver" id="469" weight="3" />
-      <edge source="exemplo" target="querer" id="470" weight="4" />
-      <edge source="exemplo" target="religiao" id="471" weight="4" />
-      <edge source="exemplo" target="achar" id="472" weight="3" />
-      <edge source="exemplo" target="ver" id="473" weight="3" />
-      <edge source="pessoal" target="religiao" id="474" weight="4" />
-      <edge source="lindo" target="achar" id="475" weight="24" />
-      <edge source="lindo" target="amar" id="476" weight="7" />
-      <edge source="lindo" target="querer" id="477" weight="4" />
-      <edge source="lindo" target="video" id="478" weight="5" />
-      <edge source="lindo" target="homem" id="479" weight="3" />
-      <edge source="lindo" target="hijab" id="480" weight="6" />
-      <edge source="lindo" target="so" id="481" weight="4" />
-      <edge source="lindo" target="maquiagem" id="482" weight="5" />
-      <edge source="lindo" target="melhor" id="483" weight="3" />
-      <edge source="lindo" target="vc" id="484" weight="12" />
-      <edge source="lindo" target="saber" id="485" weight="6" />
-      <edge source="lindo" target="lei" id="486" weight="3" />
-      <edge source="lindo" target="religiao" id="487" weight="3" />
-      <edge source="lindo" target="seguir" id="488" weight="3" />
-      <edge source="lindo" target="ver" id="489" weight="5" />
-      <edge source="lindo" target="elegante" id="490" weight="8" />
-      <edge source="lindo" target="lenco" id="491" weight="3" />
-      <edge source="lindo" target="vestido" id="492" weight="16" />
-      <edge source="lindo" target="maravilhoso" id="493" weight="5" />
-      <edge source="lindo" target="look" id="494" weight="4" />
-      <edge source="lindo" target="parabens" id="495" weight="3" />
-      <edge source="lindo" target="mostrar" id="496" weight="3" />
-      <edge source="ano" target="vc" id="497" weight="4" />
-      <edge source="ano" target="falar" id="498" weight="3" />
-      <edge source="ano" target="sapato" id="499" weight="6" />
-      <edge source="ano" target="acontecer" id="500" weight="3" />
-      <edge source="ano" target="pensar" id="501" weight="3" />
-      <edge source="pq" target="obrigar" id="502" weight="7" />
-      <edge source="pq" target="parecer" id="503" weight="3" />
-      <edge source="pq" target="querer" id="504" weight="8" />
-      <edge source="pq" target="vc" id="505" weight="7" />
-      <edge source="pq" target="falar" id="506" weight="8" />
-      <edge source="pq" target="deus" id="507" weight="3" />
-      <edge source="pq" target="so" id="508" weight="7" />
-      <edge source="pq" target="tbm" id="509" weight="4" />
-      <edge source="pq" target="saber" id="510" weight="6" />
-      <edge source="pq" target="dar" id="511" weight="7" />
-      <edge source="pq" target="video" id="512" weight="5" />
-      <edge source="pq" target="risada" id="513" weight="3" />
-      <edge source="pq" target="religiao" id="514" weight="5" />
-      <edge source="pq" target="hijab" id="515" weight="6" />
-      <edge source="pq" target="achar" id="516" weight="5" />
-      <edge source="pq" target="entender" id="517" weight="3" />
-      <edge source="pq" target="acontecer" id="518" weight="4" />
-      <edge source="pq" target="mulcumano" id="519" weight="3" />
-      <edge source="pq" target="bom" id="520" weight="3" />
-      <edge source="lei" target="brasil" id="521" weight="3" />
-      <edge source="lei" target="querer" id="522" weight="4" />
-      <edge source="lei" target="religiao" id="523" weight="5" />
-      <edge source="lei" target="achar" id="524" weight="3" />
-      <edge source="lei" target="liberdade" id="525" weight="3" />
-      <edge source="lei" target="hijab" id="526" weight="3" />
-      <edge source="lei" target="obrigar" id="527" weight="4" />
-      <edge source="tbm" target="achar" id="528" weight="3" />
-      <edge source="tbm" target="ne" id="529" weight="3" />
-      <edge source="tbm" target="querer" id="530" weight="3" />
-      <edge source="dar" target="querer" id="531" weight="5" />
-      <edge source="dar" target="so" id="532" weight="5" />
-      <edge source="dar" target="video" id="533" weight="3" />
-      <edge source="dar" target="falar" id="534" weight="5" />
-      <edge source="dar" target="religiao" id="535" weight="3" />
-      <edge source="dar" target="saber" id="536" weight="4" />
-      <edge source="dar" target="risada" id="537" weight="3" />
-      <edge source="dar" target="sapato" id="538" weight="3" />
-      <edge source="mesmo" target="religiao" id="539" weight="3" />
-      <edge source="obrigacao" target="familia" id="540" weight="3" />
-      <edge source="obrigacao" target="hijab" id="541" weight="3" />
-      <edge source="comecar" target="falar" id="542" weight="3" />
-      <edge source="vc" target="obrigar" id="543" weight="6" />
-      <edge source="vc" target="parecer" id="544" weight="3" />
-      <edge source="vc" target="querer" id="545" weight="8" />
-      <edge source="vc" target="falar" id="546" weight="13" />
-      <edge source="vc" target="religiao" id="547" weight="4" />
-      <edge source="vc" target="achar" id="548" weight="7" />
-      <edge source="vc" target="amar" id="549" weight="5" />
-      <edge source="vc" target="video" id="550" weight="5" />
-      <edge source="vc" target="acontecer" id="551" weight="6" />
-      <edge source="vc" target="hijab" id="552" weight="4" />
-      <edge source="vc" target="marido" id="553" weight="4" />
-      <edge source="vc" target="seguir" id="554" weight="3" />
-      <edge source="vc" target="certeza" id="555" weight="3" />
-      <edge source="vc" target="bom" id="556" weight="3" />
-      <edge source="vc" target="brasil" id="557" weight="4" />
-      <edge source="vc" target="ver" id="558" weight="3" />
-      <edge source="vc" target="mulcumano" id="559" weight="3" />
-      <edge source="vc" target="saber" id="560" weight="4" />
-      <edge source="vc" target="so" id="561" weight="5" />
-      <edge source="vc" target="respeito" id="562" weight="4" />
-      <edge source="vc" target="ne" id="563" weight="4" />
-      <edge source="vc" target="lenco" id="564" weight="3" />
-      <edge source="vc" target="elegante" id="565" weight="3" />
-      <edge source="vc" target="pensar" id="566" weight="4" />
-      <edge source="vc" target="sapato" id="567" weight="3" />
-      <edge source="sair" target="hijab" id="568" weight="3" />
-      <edge source="sair" target="querer" id="569" weight="4" />
-      <edge source="sair" target="religiao" id="570" weight="3" />
-      <edge source="sair" target="saber" id="571" weight="3" />
-      <edge source="sair" target="obrigar" id="572" weight="3" />
-      <edge source="sair" target="ver" id="573" weight="3" />
-      <edge source="sair" target="acontecer" id="574" weight="3" />
-      <edge source="sair" target="so" id="575" weight="4" />
-      <edge source="sair" target="bolsa" id="576" weight="4" />
-      <edge source="sair" target="cola" id="577" weight="4" />
-      <edge source="sair" target="agulha" id="578" weight="3" />
-      <edge source="sair" target="risada" id="579" weight="3" />
-      <edge source="religiao" target="falar" id="580" weight="7" />
-      <edge source="religiao" target="querer" id="581" weight="14" />
-      <edge source="religiao" target="video" id="582" weight="5" />
-      <edge source="religiao" target="amar" id="583" weight="4" />
-      <edge source="religiao" target="hijab" id="584" weight="4" />
-      <edge source="religiao" target="errado" id="585" weight="3" />
-      <edge source="religiao" target="preconceito" id="586" weight="3" />
-      <edge source="religiao" target="vestimenta" id="587" weight="3" />
-      <edge source="religiao" target="mulcumano" id="588" weight="3" />
-      <edge source="religiao" target="obrigar" id="589" weight="11" />
-      <edge source="religiao" target="seguir" id="590" weight="5" />
-      <edge source="religiao" target="so" id="591" weight="8" />
-      <edge source="religiao" target="acontecer" id="592" weight="6" />
-      <edge source="religiao" target="brasil" id="593" weight="6" />
-      <edge source="religiao" target="viver" id="594" weight="5" />
-      <edge source="religiao" target="diferente" id="595" weight="3" />
-      <edge source="religiao" target="deixar" id="596" weight="3" />
-      <edge source="religiao" target="homem" id="597" weight="4" />
-      <edge source="religiao" target="regra" id="598" weight="3" />
-      <edge source="religiao" target="vontade" id="599" weight="3" />
-      <edge source="religiao" target="familia" id="600" weight="6" />
-      <edge source="religiao" target="praticar" id="601" weight="4" />
-      <edge source="religiao" target="achar" id="602" weight="10" />
-      <edge source="religiao" target="acreditar" id="603" weight="4" />
-      <edge source="religiao" target="importar" id="604" weight="3" />
-      <edge source="religiao" target="deus" id="605" weight="4" />
-      <edge source="religiao" target="problema" id="606" weight="3" />
-      <edge source="religiao" target="ver" id="607" weight="4" />
-      <edge source="religiao" target="saber" id="608" weight="5" />
-      <edge source="religiao" target="bom" id="609" weight="3" />
-      <edge source="religiao" target="pai" id="610" weight="3" />
-      <edge source="arabe" target="querer" id="611" weight="3" />
-      <edge source="arabe" target="so" id="612" weight="3" />
-      <edge source="arabe" target="comida" id="613" weight="3" />
-      <edge source="elegante" target="achar" id="614" weight="3" />
-      <edge source="problema" target="querer" id="615" weight="3" />
-      <edge source="video" target="final" id="616" weight="3" />
-      <edge source="video" target="achar" id="617" weight="6" />
-      <edge source="video" target="amar" id="618" weight="7" />
-      <edge source="video" target="querer" id="619" weight="7" />
-      <edge source="video" target="ruim" id="620" weight="3" />
-      <edge source="video" target="falar" id="621" weight="11" />
-      <edge source="video" target="homem" id="622" weight="3" />
-      <edge source="video" target="pensar" id="623" weight="4" />
-      <edge source="video" target="so" id="624" weight="5" />
-      <edge source="video" target="saber" id="625" weight="3" />
-      <edge source="video" target="ver" id="626" weight="6" />
-      <edge source="video" target="hijab" id="627" weight="3" />
-      <edge source="video" target="mari" id="628" weight="3" />
-      <edge source="video" target="risada" id="629" weight="5" />
-      <edge source="video" target="sapato" id="630" weight="3" />
-      <edge source="respeito" target="achar" id="631" weight="4" />
-      <edge source="respeito" target="saber" id="632" weight="4" />
-      <edge source="respeito" target="amar" id="633" weight="3" />
-      <edge source="respeito" target="ne" id="634" weight="3" />
-      <edge source="respeito" target="so" id="635" weight="4" />
-      <edge source="marido" target="achar" id="636" weight="5" />
-      <edge source="marido" target="falar" id="637" weight="5" />
-      <edge source="marido" target="familia" id="638" weight="3" />
-      <edge source="marido" target="querer" id="639" weight="4" />
-      <edge source="marido" target="obrigar" id="640" weight="6" />
-      <edge source="vir" target="achar" id="641" weight="3" />
-      <edge source="vir" target="saber" id="642" weight="3" />
-      <edge source="vir" target="so" id="643" weight="3" />
-      <edge source="vestido" target="maravilhoso" id="644" weight="10" />
-      <edge source="vestido" target="achar" id="645" weight="3" />
-      <edge source="vestido" target="ver" id="646" weight="4" />
-      <edge source="vestido" target="querer" id="647" weight="3" />
-      <edge source="arrasar" target="diva" id="648" weight="3" />
-      <edge source="deixar" target="querer" id="649" weight="4" />
-      <edge source="amar" target="achar" id="650" weight="6" />
-      <edge source="amar" target="so" id="651" weight="3" />
-      <edge source="errado" target="falar" id="652" weight="3" />
-      <edge source="brasil" target="acontecer" id="653" weight="3" />
-      <edge source="brasil" target="querer" id="654" weight="4" />
-      <edge source="brasil" target="viver" id="655" weight="4" />
-      <edge source="brasil" target="morar" id="656" weight="4" />
-      <edge source="brasil" target="falar" id="657" weight="6" />
-      <edge source="brasil" target="diferente" id="658" weight="4" />
-      <edge source="brasil" target="seguir" id="659" weight="3" />
-      <edge source="brasil" target="so" id="660" weight="3" />
-      <edge source="brasil" target="ver" id="661" weight="3" />
-      <edge source="cola" target="bolsa" id="662" weight="8" />
-      <edge source="cola" target="sapato" id="663" weight="3" />
-      <edge source="cola" target="risada" id="664" weight="4" />
-      <edge source="cola" target="chiclete" id="665" weight="4" />
-      <edge source="cola" target="super" id="666" weight="3" />
-      <edge source="cola" target="agulha" id="667" weight="3" />
-      <edge source="cola" target="acontecer" id="668" weight="3" />
-      <edge source="deus" target="hijab" id="669" weight="3" />
-      <edge source="deus" target="querer" id="670" weight="4" />
-      <edge source="deus" target="filho" id="671" weight="3" />
-      <edge source="deus" target="jesus" id="672" weight="3" />
-      <edge source="ne" target="achar" id="673" weight="4" />
-      <edge source="ne" target="so" id="674" weight="3" />
-      <edge source="viver" target="achar" id="675" weight="3" />
-      <edge source="viver" target="obrigar" id="676" weight="3" />
-      <edge source="viver" target="acontecer" id="677" weight="3" />
-      <edge source="bom" target="hijab" id="678" weight="3" />
-      <edge source="hijab" target="achar" id="679" weight="8" />
-      <edge source="hijab" target="homem" id="680" weight="4" />
-      <edge source="hijab" target="so" id="681" weight="6" />
-      <edge source="hijab" target="querer" id="682" weight="9" />
-      <edge source="hijab" target="decidir" id="683" weight="3" />
-      <edge source="hijab" target="familia" id="684" weight="4" />
-      <edge source="hijab" target="obrigar" id="685" weight="7" />
-      <edge source="hijab" target="ver" id="686" weight="6" />
-      <edge source="hijab" target="veu" id="687" weight="4" />
-      <edge source="hijab" target="falar" id="688" weight="4" />
-      <edge source="forma" target="querer" id="689" weight="3" />
-      <edge source="sapato" target="risada" id="690" weight="10" />
-      <edge source="sapato" target="bolsa" id="691" weight="3" />
-      <edge source="sapato" target="acontecer" id="692" weight="9" />
-      <edge source="sapato" target="falar" id="693" weight="4" />
-      <edge source="barak" target="comer" id="694" weight="3" />
-      <edge source="nascer" target="falar" id="695" weight="4" />
-      <edge source="nascer" target="filho" id="696" weight="3" />
-      <edge source="obrigar" target="achar" id="697" weight="8" />
-      <edge source="obrigar" target="entender" id="698" weight="3" />
-      <edge source="obrigar" target="querer" id="699" weight="7" />
-      <edge source="obrigar" target="so" id="700" weight="6" />
-      <edge source="obrigar" target="cobrir" id="701" weight="3" />
-      <edge source="obrigar" target="homem" id="702" weight="4" />
-      <edge source="obrigar" target="falar" id="703" weight="5" />
-      <edge source="obrigar" target="caso" id="704" weight="3" />
-      <edge source="obrigar" target="familia" id="705" weight="5" />
-      <edge source="obrigar" target="pai" id="706" weight="3" />
-      <edge source="veu" target="ver" id="707" weight="3" />
-      <edge source="saber" target="risada" id="708" weight="5" />
-      <edge source="saber" target="falar" id="709" weight="5" />
-      <edge source="saber" target="querer" id="710" weight="5" />
-      <edge source="saber" target="achar" id="711" weight="4" />
-      <edge source="saber" target="acontecer" id="712" weight="3" />
-      <edge source="saber" target="so" id="713" weight="7" />
-      <edge source="cobrir" target="so" id="714" weight="3" />
-      <edge source="mulcumano" target="achar" id="715" weight="3" />
-      <edge source="mulcumano" target="falar" id="716" weight="3" />
-      <edge source="mulcumano" target="querer" id="717" weight="4" />
-      <edge source="mulcumano" target="homem" id="718" weight="3" />
-      <edge source="comprar" target="risada" id="719" weight="3" />
-      <edge source="certeza" target="acontecer" id="720" weight="3" />
-      <edge source="comer" target="so" id="721" weight="4" />
-      <edge source="falar" target="querer" id="722" weight="9" />
-      <edge source="falar" target="achar" id="723" weight="8" />
-      <edge source="falar" target="fossar" id="724" weight="3" />
-      <edge source="falar" target="homem" id="725" weight="4" />
-      <edge source="falar" target="pensar" id="726" weight="4" />
-      <edge source="falar" target="diferente" id="727" weight="3" />
-      <edge source="falar" target="so" id="728" weight="6" />
-      <edge source="falar" target="risada" id="729" weight="3" />
-      <edge source="falar" target="reclamar" id="730" weight="3" />
-      <edge source="falar" target="seguir" id="731" weight="3" />
-      <edge source="falar" target="acontecer" id="732" weight="9" />
-      <edge source="falar" target="caso" id="733" weight="3" />
-      <edge source="falar" target="ver" id="734" weight="3" />
-      <edge source="falar" target="filho" id="735" weight="3" />
-      <edge source="levar" target="bolsa" id="736" weight="4" />
-      <edge source="caso" target="achar" id="737" weight="3" />
-      <edge source="caso" target="familia" id="738" weight="3" />
-      <edge source="seguir" target="achar" id="739" weight="4" />
-      <edge source="ver" target="achar" id="740" weight="3" />
-      <edge source="ver" target="filho" id="741" weight="3" />
-      <edge source="ver" target="risada" id="742" weight="3" />
-      <edge source="agulha" target="bolsa" id="743" weight="3" />
-      <edge source="acontecer" target="querer" id="744" weight="3" />
-      <edge source="acontecer" target="so" id="745" weight="3" />
-      <edge source="acontecer" target="bolsa" id="746" weight="4" />
-      <edge source="acontecer" target="risada" id="747" weight="9" />
-      <edge source="pensar" target="achar" id="748" weight="3" />
-      <edge source="so" target="homem" id="749" weight="4" />
-      <edge source="so" target="querer" id="750" weight="8" />
-      <edge source="so" target="achar" id="751" weight="7" />
-      <edge source="so" target="familia" id="752" weight="3" />
-      <edge source="so" target="risada" id="753" weight="4" />
-      <edge source="maravilhoso" target="achar" id="754" weight="3" />
-      <edge source="pai" target="querer" id="755" weight="3" />
-      <edge source="realidade" target="diferente" id="756" weight="3" />
-      <edge source="risada" target="querer" id="757" weight="4" />
-      <edge source="risada" target="bolsa" id="758" weight="5" />
-      <edge source="super" target="bolsa" id="759" weight="6" />
-      <edge source="querer" target="achar" id="760" weight="8" />
-      <edge source="querer" target="branco" id="761" weight="3" />
-      <edge source="querer" target="familia" id="762" weight="3" />
-      <edge source="achar" target="homem" id="763" weight="3" />
-      <edge source="achar" target="familia" id="764" weight="3" />
+      <edge source="parabens" target="lindo" id="0" weight="3" />
+      <edge source="vc" target="estar" id="1" weight="12" />
+      <edge source="vc" target="obrigar" id="2" weight="6" />
+      <edge source="vc" target="parecer" id="3" weight="3" />
+      <edge source="vc" target="pq" id="4" weight="7" />
+      <edge source="vc" target="querer" id="5" weight="8" />
+      <edge source="vc" target="existir" id="6" weight="4" />
+      <edge source="vc" target="falar" id="7" weight="13" />
+      <edge source="vc" target="muculmano" id="8" weight="6" />
+      <edge source="vc" target="religiao" id="9" weight="4" />
+      <edge source="vc" target="pessoa" id="10" weight="3" />
+      <edge source="vc" target="achar" id="11" weight="7" />
+      <edge source="vc" target="amar" id="12" weight="5" />
+      <edge source="vc" target="cabelo" id="13" weight="4" />
+      <edge source="vc" target="cultura" id="14" weight="3" />
+      <edge source="vc" target="lindo" id="15" weight="12" />
+      <edge source="vc" target="mulher" id="16" weight="11" />
+      <edge source="vc" target="video" id="17" weight="5" />
+      <edge source="vc" target="acontecer" id="18" weight="6" />
+      <edge source="vc" target="hijab" id="19" weight="4" />
+      <edge source="vc" target="tirar" id="20" weight="4" />
+      <edge source="vc" target="escolha" id="21" weight="5" />
+      <edge source="vc" target="marido" id="22" weight="4" />
+      <edge source="vc" target="proprio" id="23" weight="3" />
+      <edge source="vc" target="seguir" id="24" weight="3" />
+      <edge source="vc" target="certeza" id="25" weight="3" />
+      <edge source="vc" target="ficar" id="26" weight="6" />
+      <edge source="vc" target="bom" id="27" weight="3" />
+      <edge source="vc" target="brasil" id="28" weight="4" />
+      <edge source="vc" target="ver" id="29" weight="3" />
+      <edge source="vc" target="mulcumano" id="30" weight="3" />
+      <edge source="vc" target="pais" id="31" weight="3" />
+      <edge source="vc" target="saber" id="32" weight="4" />
+      <edge source="vc" target="so" id="33" weight="5" />
+      <edge source="vc" target="respeito" id="34" weight="4" />
+      <edge source="vc" target="usar" id="35" weight="7" />
+      <edge source="vc" target="ne" id="36" weight="4" />
+      <edge source="vc" target="ano" id="37" weight="4" />
+      <edge source="vc" target="dizer" id="38" weight="4" />
+      <edge source="vc" target="lenco" id="39" weight="3" />
+      <edge source="vc" target="vez" id="40" weight="3" />
+      <edge source="vc" target="elegante" id="41" weight="3" />
+      <edge source="vc" target="arrumar" id="42" weight="3" />
+      <edge source="vc" target="pensar" id="43" weight="4" />
+      <edge source="vc" target="sapato" id="44" weight="3" />
+      <edge source="acontecer" target="brasil" id="45" weight="3" />
+      <edge source="acontecer" target="coisa" id="46" weight="6" />
+      <edge source="acontecer" target="querer" id="47" weight="3" />
+      <edge source="acontecer" target="religiao" id="48" weight="6" />
+      <edge source="acontecer" target="viver" id="49" weight="3" />
+      <edge source="acontecer" target="estar" id="50" weight="3" />
+      <edge source="acontecer" target="falar" id="51" weight="9" />
+      <edge source="acontecer" target="mulher" id="52" weight="3" />
+      <edge source="acontecer" target="pq" id="53" weight="4" />
+      <edge source="acontecer" target="saber" id="54" weight="3" />
+      <edge source="acontecer" target="sair" id="55" weight="3" />
+      <edge source="acontecer" target="so" id="56" weight="3" />
+      <edge source="acontecer" target="gente" id="57" weight="4" />
+      <edge source="acontecer" target="certeza" id="58" weight="3" />
+      <edge source="acontecer" target="usar" id="59" weight="9" />
+      <edge source="acontecer" target="ano" id="60" weight="3" />
+      <edge source="acontecer" target="sapato" id="61" weight="9" />
+      <edge source="acontecer" target="bolsa" id="62" weight="4" />
+      <edge source="acontecer" target="cola" id="63" weight="3" />
+      <edge source="acontecer" target="risada" id="64" weight="9" />
+      <edge source="acontecer" target="descolar" id="65" weight="3" />
+      <edge source="acontecer" target="guardar" id="66" weight="5" />
+      <edge source="acontecer" target="ja" id="67" weight="3" />
+      <edge source="final" target="video" id="68" weight="3" />
+      <edge source="pai" target="obrigar" id="69" weight="3" />
+      <edge source="pai" target="querer" id="70" weight="3" />
+      <edge source="pai" target="religiao" id="71" weight="3" />
+      <edge source="pai" target="usar" id="72" weight="3" />
+      <edge source="morar" target="brasil" id="73" weight="4" />
+      <edge source="morar" target="mulher" id="74" weight="3" />
+      <edge source="morar" target="pais" id="75" weight="3" />
+      <edge source="mari" target="video" id="76" weight="3" />
+      <edge source="bolsa" target="cola" id="77" weight="8" />
+      <edge source="bolsa" target="sapato" id="78" weight="3" />
+      <edge source="bolsa" target="vez" id="79" weight="3" />
+      <edge source="bolsa" target="sair" id="80" weight="4" />
+      <edge source="bolsa" target="super" id="81" weight="6" />
+      <edge source="bolsa" target="andar" id="82" weight="4" />
+      <edge source="bolsa" target="levar" id="83" weight="4" />
+      <edge source="bolsa" target="risada" id="84" weight="5" />
+      <edge source="bolsa" target="agulha" id="85" weight="3" />
+      <edge source="bolsa" target="linha" id="86" weight="3" />
+      <edge source="religiao" target="falar" id="87" weight="7" />
+      <edge source="religiao" target="maior" id="88" weight="4" />
+      <edge source="religiao" target="pessoa" id="89" weight="4" />
+      <edge source="religiao" target="querer" id="90" weight="14" />
+      <edge source="religiao" target="tirar" id="91" weight="4" />
+      <edge source="religiao" target="exemplo" id="92" weight="4" />
+      <edge source="religiao" target="mulher" id="93" weight="11" />
+      <edge source="religiao" target="video" id="94" weight="5" />
+      <edge source="religiao" target="amar" id="95" weight="4" />
+      <edge source="religiao" target="cultura" id="96" weight="3" />
+      <edge source="religiao" target="estar" id="97" weight="4" />
+      <edge source="religiao" target="hijab" id="98" weight="4" />
+      <edge source="religiao" target="sair" id="99" weight="3" />
+      <edge source="religiao" target="catolico" id="100" weight="5" />
+      <edge source="religiao" target="errado" id="101" weight="3" />
+      <edge source="religiao" target="preconceito" id="102" weight="3" />
+      <edge source="religiao" target="sofrer" id="103" weight="5" />
+      <edge source="religiao" target="pessoal" id="104" weight="4" />
+      <edge source="religiao" target="vestimenta" id="105" weight="3" />
+      <edge source="religiao" target="mulcumano" id="106" weight="3" />
+      <edge source="religiao" target="obrigar" id="107" weight="11" />
+      <edge source="religiao" target="pais" id="108" weight="10" />
+      <edge source="religiao" target="seguir" id="109" weight="5" />
+      <edge source="religiao" target="so" id="110" weight="8" />
+      <edge source="religiao" target="brasil" id="111" weight="6" />
+      <edge source="religiao" target="cristao" id="112" weight="5" />
+      <edge source="religiao" target="vida" id="113" weight="3" />
+      <edge source="religiao" target="viver" id="114" weight="5" />
+      <edge source="religiao" target="diferente" id="115" weight="3" />
+      <edge source="religiao" target="existir" id="116" weight="7" />
+      <edge source="religiao" target="muculmano" id="117" weight="11" />
+      <edge source="religiao" target="deixar" id="118" weight="3" />
+      <edge source="religiao" target="homem" id="119" weight="4" />
+      <edge source="religiao" target="regra" id="120" weight="3" />
+      <edge source="religiao" target="vez" id="121" weight="3" />
+      <edge source="religiao" target="vontade" id="122" weight="3" />
+      <edge source="religiao" target="familia" id="123" weight="6" />
+      <edge source="religiao" target="praticar" id="124" weight="4" />
+      <edge source="religiao" target="achar" id="125" weight="10" />
+      <edge source="religiao" target="acreditar" id="126" weight="4" />
+      <edge source="religiao" target="importar" id="127" weight="3" />
+      <edge source="religiao" target="isla" id="128" weight="4" />
+      <edge source="religiao" target="deus" id="129" weight="4" />
+      <edge source="religiao" target="coisa" id="130" weight="6" />
+      <edge source="religiao" target="escolher" id="131" weight="3" />
+      <edge source="religiao" target="problema" id="132" weight="3" />
+      <edge source="religiao" target="ver" id="133" weight="4" />
+      <edge source="religiao" target="pq" id="134" weight="5" />
+      <edge source="religiao" target="usar" id="135" weight="6" />
+      <edge source="religiao" target="dar" id="136" weight="3" />
+      <edge source="religiao" target="lei" id="137" weight="5" />
+      <edge source="religiao" target="lindo" id="138" weight="3" />
+      <edge source="religiao" target="religioso" id="139" weight="4" />
+      <edge source="religiao" target="saber" id="140" weight="5" />
+      <edge source="religiao" target="bom" id="141" weight="3" />
+      <edge source="religiao" target="questao" id="142" weight="5" />
+      <edge source="religiao" target="escolha" id="143" weight="7" />
+      <edge source="religiao" target="proprio" id="144" weight="8" />
+      <edge source="religiao" target="gostar" id="145" weight="6" />
+      <edge source="religiao" target="roupa" id="146" weight="3" />
+      <edge source="religiao" target="gente" id="147" weight="3" />
+      <edge source="religiao" target="mesmo" id="148" weight="3" />
+      <edge source="sair" target="estar" id="149" weight="4" />
+      <edge source="sair" target="hijab" id="150" weight="3" />
+      <edge source="sair" target="querer" id="151" weight="4" />
+      <edge source="sair" target="saber" id="152" weight="3" />
+      <edge source="sair" target="muculmano" id="153" weight="3" />
+      <edge source="sair" target="mulher" id="154" weight="3" />
+      <edge source="sair" target="obrigar" id="155" weight="3" />
+      <edge source="sair" target="pais" id="156" weight="4" />
+      <edge source="sair" target="tirar" id="157" weight="3" />
+      <edge source="sair" target="ver" id="158" weight="3" />
+      <edge source="sair" target="casa" id="159" weight="4" />
+      <edge source="sair" target="so" id="160" weight="4" />
+      <edge source="sair" target="vida" id="161" weight="3" />
+      <edge source="sair" target="cola" id="162" weight="4" />
+      <edge source="sair" target="agulha" id="163" weight="3" />
+      <edge source="sair" target="linha" id="164" weight="3" />
+      <edge source="sair" target="risada" id="165" weight="3" />
+      <edge source="decidir" target="hijab" id="166" weight="3" />
+      <edge source="decidir" target="muculmano" id="167" weight="3" />
+      <edge source="decidir" target="mulher" id="168" weight="3" />
+      <edge source="gente" target="falar" id="169" weight="5" />
+      <edge source="gente" target="mulher" id="170" weight="6" />
+      <edge source="gente" target="pergunta" id="171" weight="3" />
+      <edge source="gente" target="querer" id="172" weight="6" />
+      <edge source="gente" target="saber" id="173" weight="4" />
+      <edge source="gente" target="pq" id="174" weight="6" />
+      <edge source="gente" target="achar" id="175" weight="4" />
+      <edge source="gente" target="coisa" id="176" weight="3" />
+      <edge source="gente" target="video" id="177" weight="4" />
+      <edge source="gente" target="branco" id="178" weight="3" />
+      <edge source="gente" target="cultura" id="179" weight="3" />
+      <edge source="gente" target="dar" id="180" weight="3" />
+      <edge source="gente" target="deixar" id="181" weight="3" />
+      <edge source="gente" target="filme" id="182" weight="3" />
+      <edge source="gente" target="vez" id="183" weight="3" />
+      <edge source="gente" target="pais" id="184" weight="3" />
+      <edge source="gente" target="andar" id="185" weight="3" />
+      <edge source="gente" target="ver" id="186" weight="3" />
+      <edge source="gente" target="maravilhoso" id="187" weight="3" />
+      <edge source="facil" target="brasil" id="188" weight="4" />
+      <edge source="facil" target="falar" id="189" weight="3" />
+      <edge source="comida" target="arabe" id="190" weight="3" />
+      <edge source="look" target="lindo" id="191" weight="4" />
+      <edge source="lugar" target="mulher" id="192" weight="3" />
+      <edge source="elegante" target="achar" id="193" weight="3" />
+      <edge source="elegante" target="lindo" id="194" weight="8" />
+      <edge source="brasil" target="querer" id="195" weight="4" />
+      <edge source="brasil" target="viver" id="196" weight="4" />
+      <edge source="brasil" target="lei" id="197" weight="3" />
+      <edge source="brasil" target="pais" id="198" weight="6" />
+      <edge source="brasil" target="religioso" id="199" weight="4" />
+      <edge source="brasil" target="falar" id="200" weight="6" />
+      <edge source="brasil" target="diferente" id="201" weight="4" />
+      <edge source="brasil" target="mulher" id="202" weight="4" />
+      <edge source="brasil" target="seguir" id="203" weight="3" />
+      <edge source="brasil" target="sofrer" id="204" weight="3" />
+      <edge source="brasil" target="so" id="205" weight="3" />
+      <edge source="brasil" target="existir" id="206" weight="3" />
+      <edge source="brasil" target="muculmano" id="207" weight="4" />
+      <edge source="brasil" target="ver" id="208" weight="3" />
+      <edge source="brasil" target="estar" id="209" weight="3" />
+      <edge source="uso" target="escolha" id="210" weight="3" />
+      <edge source="uso" target="existir" id="211" weight="3" />
+      <edge source="uso" target="hijab" id="212" weight="6" />
+      <edge source="uso" target="obrigacao" id="213" weight="3" />
+      <edge source="uso" target="obrigar" id="214" weight="4" />
+      <edge source="uso" target="usar" id="215" weight="5" />
+      <edge source="uso" target="sapato" id="216" weight="3" />
+      <edge source="amar" target="achar" id="217" weight="6" />
+      <edge source="amar" target="lindo" id="218" weight="7" />
+      <edge source="amar" target="video" id="219" weight="7" />
+      <edge source="amar" target="cultura" id="220" weight="4" />
+      <edge source="amar" target="estar" id="221" weight="3" />
+      <edge source="amar" target="respeito" id="222" weight="3" />
+      <edge source="amar" target="roupa" id="223" weight="3" />
+      <edge source="amar" target="so" id="224" weight="3" />
+      <edge source="cobrir" target="mulher" id="225" weight="3" />
+      <edge source="cobrir" target="so" id="226" weight="3" />
+      <edge source="cobrir" target="muculmano" id="227" weight="3" />
+      <edge source="cobrir" target="obrigar" id="228" weight="3" />
+      <edge source="arrasar" target="diva" id="229" weight="3" />
+      <edge source="dar" target="dizer" id="230" weight="3" />
+      <edge source="dar" target="estar" id="231" weight="3" />
+      <edge source="dar" target="pq" id="232" weight="7" />
+      <edge source="dar" target="querer" id="233" weight="5" />
+      <edge source="dar" target="so" id="234" weight="5" />
+      <edge source="dar" target="video" id="235" weight="3" />
+      <edge source="dar" target="falar" id="236" weight="5" />
+      <edge source="dar" target="mulher" id="237" weight="3" />
+      <edge source="dar" target="coisa" id="238" weight="3" />
+      <edge source="dar" target="pais" id="239" weight="4" />
+      <edge source="dar" target="saber" id="240" weight="4" />
+      <edge source="dar" target="risada" id="241" weight="3" />
+      <edge source="dar" target="sapato" id="242" weight="3" />
+      <edge source="linha" target="agulha" id="243" weight="6" />
+      <edge source="linha" target="cola" id="244" weight="3" />
+      <edge source="maquiagem" target="lindo" id="245" weight="5" />
+      <edge source="exemplo" target="mulher" id="246" weight="3" />
+      <edge source="exemplo" target="querer" id="247" weight="4" />
+      <edge source="exemplo" target="achar" id="248" weight="3" />
+      <edge source="exemplo" target="existir" id="249" weight="4" />
+      <edge source="exemplo" target="afeganistao" id="250" weight="3" />
+      <edge source="exemplo" target="muculmano" id="251" weight="3" />
+      <edge source="exemplo" target="pais" id="252" weight="3" />
+      <edge source="exemplo" target="ver" id="253" weight="3" />
+      <edge source="sentir" target="confortavel" id="254" weight="3" />
+      <edge source="sentir" target="falar" id="255" weight="3" />
+      <edge source="falta" target="mulher" id="256" weight="3" />
+      <edge source="mandar" target="mulher" id="257" weight="3" />
+      <edge source="negro" target="reclamar" id="258" weight="3" />
+      <edge source="diva" target="mulher" id="259" weight="4" />
+      <edge source="grecia" target="existir" id="260" weight="3" />
+      <edge source="vir" target="achar" id="261" weight="3" />
+      <edge source="vir" target="saber" id="262" weight="3" />
+      <edge source="vir" target="so" id="263" weight="3" />
+      <edge source="existir" target="hijab" id="264" weight="4" />
+      <edge source="existir" target="familia" id="265" weight="4" />
+      <edge source="existir" target="falar" id="266" weight="4" />
+      <edge source="existir" target="forma" id="267" weight="4" />
+      <edge source="existir" target="muculmano" id="268" weight="7" />
+      <edge source="existir" target="perfeito" id="269" weight="3" />
+      <edge source="existir" target="achar" id="270" weight="4" />
+      <edge source="existir" target="viver" id="271" weight="4" />
+      <edge source="existir" target="cultura" id="272" weight="4" />
+      <edge source="existir" target="estar" id="273" weight="3" />
+      <edge source="existir" target="mesmo" id="274" weight="3" />
+      <edge source="existir" target="mulher" id="275" weight="6" />
+      <edge source="existir" target="problema" id="276" weight="3" />
+      <edge source="existir" target="querer" id="277" weight="4" />
+      <edge source="existir" target="escolha" id="278" weight="7" />
+      <edge source="existir" target="pressao" id="279" weight="4" />
+      <edge source="existir" target="acreditar" id="280" weight="3" />
+      <edge source="existir" target="coisa" id="281" weight="3" />
+      <edge source="existir" target="caso" id="282" weight="3" />
+      <edge source="existir" target="obrigar" id="283" weight="6" />
+      <edge source="existir" target="pais" id="284" weight="4" />
+      <edge source="existir" target="religioso" id="285" weight="3" />
+      <edge source="existir" target="bom" id="286" weight="3" />
+      <edge source="existir" target="proprio" id="287" weight="3" />
+      <edge source="veu" target="hijab" id="288" weight="4" />
+      <edge source="veu" target="mulher" id="289" weight="4" />
+      <edge source="veu" target="ver" id="290" weight="3" />
+      <edge source="andar" target="mulher" id="291" weight="3" />
+      <edge source="andar" target="roupa" id="292" weight="4" />
+      <edge source="andar" target="so" id="293" weight="4" />
+      <edge source="andar" target="achar" id="294" weight="4" />
+      <edge source="andar" target="ver" id="295" weight="3" />
+      <edge source="andar" target="risada" id="296" weight="3" />
+      <edge source="arabe" target="querer" id="297" weight="3" />
+      <edge source="arabe" target="so" id="298" weight="3" />
+      <edge source="melhor" target="lindo" id="299" weight="3" />
+      <edge source="claro" target="ne" id="300" weight="3" />
+      <edge source="barak" target="comer" id="301" weight="3" />
+      <edge source="chiclete" target="cola" id="302" weight="4" />
+      <edge source="acreditar" target="mulher" id="303" weight="3" />
+      <edge source="acreditar" target="muculmano" id="304" weight="3" />
+      <edge source="cristao" target="muculmano" id="305" weight="5" />
+      <edge source="cristao" target="mulher" id="306" weight="3" />
+      <edge source="afeganistao" target="falar" id="307" weight="4" />
+      <edge source="afeganistao" target="mulher" id="308" weight="4" />
+      <edge source="homem" target="achar" id="309" weight="3" />
+      <edge source="homem" target="lindo" id="310" weight="3" />
+      <edge source="homem" target="mulher" id="311" weight="13" />
+      <edge source="homem" target="roupa" id="312" weight="4" />
+      <edge source="homem" target="so" id="313" weight="4" />
+      <edge source="homem" target="hijab" id="314" weight="4" />
+      <edge source="homem" target="video" id="315" weight="3" />
+      <edge source="homem" target="falar" id="316" weight="4" />
+      <edge source="homem" target="obrigar" id="317" weight="4" />
+      <edge source="homem" target="mulcumano" id="318" weight="3" />
+      <edge source="catolico" target="familia" id="319" weight="3" />
+      <edge source="vestimenta" target="mulher" id="320" weight="3" />
+      <edge source="morto" target="mulher" id="321" weight="3" />
+      <edge source="arrumar" target="pensar" id="322" weight="4" />
+      <edge source="escolher" target="livre" id="323" weight="3" />
+      <edge source="escolher" target="mulher" id="324" weight="4" />
+      <edge source="escolher" target="escolha" id="325" weight="3" />
+      <edge source="escolher" target="pais" id="326" weight="3" />
+      <edge source="escolher" target="querer" id="327" weight="3" />
+      <edge source="escolher" target="muculmano" id="328" weight="3" />
+      <edge source="nao" target="hijab" id="329" weight="3" />
+      <edge source="nao" target="muculmano" id="330" weight="3" />
+      <edge source="nao" target="achar" id="331" weight="3" />
+      <edge source="nao" target="mulher" id="332" weight="3" />
+      <edge source="nao" target="escolha" id="333" weight="4" />
+      <edge source="belo" target="achar" id="334" weight="3" />
+      <edge source="belo" target="vestido" id="335" weight="4" />
+      <edge source="livre" target="escolha" id="336" weight="3" />
+      <edge source="cola" target="sapato" id="337" weight="3" />
+      <edge source="cola" target="risada" id="338" weight="4" />
+      <edge source="cola" target="super" id="339" weight="3" />
+      <edge source="cola" target="agulha" id="340" weight="3" />
+      <edge source="direito" target="escolha" id="341" weight="3" />
+      <edge source="direito" target="mulher" id="342" weight="3" />
+      <edge source="ne" target="achar" id="343" weight="4" />
+      <edge source="ne" target="tbm" id="344" weight="3" />
+      <edge source="ne" target="so" id="345" weight="3" />
+      <edge source="ne" target="respeito" id="346" weight="3" />
+      <edge source="coisa" target="querer" id="347" weight="5" />
+      <edge source="coisa" target="errado" id="348" weight="3" />
+      <edge source="coisa" target="ficar" id="349" weight="3" />
+      <edge source="coisa" target="vida" id="350" weight="4" />
+      <edge source="coisa" target="lindo" id="351" weight="3" />
+      <edge source="coisa" target="pais" id="352" weight="3" />
+      <edge source="coisa" target="saber" id="353" weight="3" />
+      <edge source="coisa" target="gostar" id="354" weight="3" />
+      <edge source="coisa" target="pq" id="355" weight="4" />
+      <edge source="coisa" target="sapato" id="356" weight="3" />
+      <edge source="reclamar" target="falar" id="357" weight="3" />
+      <edge source="mostrar" target="cabelo" id="358" weight="5" />
+      <edge source="mostrar" target="mulher" id="359" weight="3" />
+      <edge source="mostrar" target="lindo" id="360" weight="3" />
+      <edge source="filho" target="deus" id="361" weight="3" />
+      <edge source="filho" target="usar" id="362" weight="4" />
+      <edge source="filho" target="falar" id="363" weight="3" />
+      <edge source="filho" target="ver" id="364" weight="3" />
+      <edge source="filho" target="nascer" id="365" weight="3" />
+      <edge source="ruim" target="video" id="366" weight="3" />
+      <edge source="liberdade" target="lei" id="367" weight="3" />
+      <edge source="liberdade" target="mulher" id="368" weight="3" />
+      <edge source="liberdade" target="pais" id="369" weight="3" />
+      <edge source="liberdade" target="sofrer" id="370" weight="3" />
+      <edge source="liberdade" target="escolha" id="371" weight="3" />
+      <edge source="descolar" target="sapato" id="372" weight="6" />
+      <edge source="descolar" target="usar" id="373" weight="4" />
+      <edge source="descolar" target="risada" id="374" weight="4" />
+      <edge source="ano" target="dizer" id="375" weight="3" />
+      <edge source="ano" target="estar" id="376" weight="6" />
+      <edge source="ano" target="usar" id="377" weight="5" />
+      <edge source="ano" target="falar" id="378" weight="3" />
+      <edge source="ano" target="guardar" id="379" weight="3" />
+      <edge source="ano" target="sapato" id="380" weight="6" />
+      <edge source="ano" target="pensar" id="381" weight="3" />
+      <edge source="pais" target="mulcumano" id="382" weight="4" />
+      <edge source="pais" target="obrigar" id="383" weight="8" />
+      <edge source="pais" target="seguir" id="384" weight="3" />
+      <edge source="pais" target="so" id="385" weight="6" />
+      <edge source="pais" target="achar" id="386" weight="4" />
+      <edge source="pais" target="escolha" id="387" weight="5" />
+      <edge source="pais" target="falar" id="388" weight="3" />
+      <edge source="pais" target="mulher" id="389" weight="12" />
+      <edge source="pais" target="querer" id="390" weight="6" />
+      <edge source="pais" target="roupa" id="391" weight="3" />
+      <edge source="pais" target="muculmano" id="392" weight="6" />
+      <edge source="pais" target="ver" id="393" weight="4" />
+      <edge source="pais" target="lei" id="394" weight="5" />
+      <edge source="pais" target="religioso" id="395" weight="3" />
+      <edge source="pais" target="saber" id="396" weight="3" />
+      <edge source="pais" target="diferente" id="397" weight="3" />
+      <edge source="pais" target="sofrer" id="398" weight="3" />
+      <edge source="pais" target="familia" id="399" weight="4" />
+      <edge source="pais" target="hijab" id="400" weight="4" />
+      <edge source="pais" target="pq" id="401" weight="3" />
+      <edge source="pais" target="islamico" id="402" weight="4" />
+      <edge source="pais" target="deixar" id="403" weight="3" />
+      <edge source="pais" target="marido" id="404" weight="3" />
+      <edge source="pais" target="proprio" id="405" weight="3" />
+      <edge source="calor" target="roupa" id="406" weight="3" />
+      <edge source="precisar" target="vez" id="407" weight="3" />
+      <edge source="precisar" target="mulher" id="408" weight="3" />
+      <edge source="vez" target="levar" id="409" weight="3" />
+      <edge source="vez" target="mulher" id="410" weight="3" />
+      <edge source="vez" target="video" id="411" weight="5" />
+      <edge source="vez" target="falar" id="412" weight="3" />
+      <edge source="vez" target="so" id="413" weight="3" />
+      <edge source="vez" target="usar" id="414" weight="3" />
+      <edge source="vez" target="ver" id="415" weight="4" />
+      <edge source="vez" target="risada" id="416" weight="3" />
+      <edge source="pq" target="estar" id="417" weight="7" />
+      <edge source="pq" target="obrigar" id="418" weight="7" />
+      <edge source="pq" target="parecer" id="419" weight="3" />
+      <edge source="pq" target="querer" id="420" weight="8" />
+      <edge source="pq" target="falar" id="421" weight="8" />
+      <edge source="pq" target="mulher" id="422" weight="10" />
+      <edge source="pq" target="deus" id="423" weight="3" />
+      <edge source="pq" target="isla" id="424" weight="3" />
+      <edge source="pq" target="muculmano" id="425" weight="4" />
+      <edge source="pq" target="so" id="426" weight="7" />
+      <edge source="pq" target="tbm" id="427" weight="4" />
+      <edge source="pq" target="ficar" id="428" weight="3" />
+      <edge source="pq" target="saber" id="429" weight="6" />
+      <edge source="pq" target="dizer" id="430" weight="3" />
+      <edge source="pq" target="video" id="431" weight="5" />
+      <edge source="pq" target="risada" id="432" weight="3" />
+      <edge source="pq" target="hijab" id="433" weight="6" />
+      <edge source="pq" target="achar" id="434" weight="5" />
+      <edge source="pq" target="entender" id="435" weight="3" />
+      <edge source="pq" target="mulcumano" id="436" weight="3" />
+      <edge source="pq" target="bom" id="437" weight="3" />
+      <edge source="pensar" target="achar" id="438" weight="3" />
+      <edge source="pensar" target="dizer" id="439" weight="5" />
+      <edge source="pensar" target="falar" id="440" weight="4" />
+      <edge source="pensar" target="video" id="441" weight="4" />
+      <edge source="pensar" target="estar" id="442" weight="3" />
+      <edge source="pensar" target="mulher" id="443" weight="3" />
+      <edge source="pensar" target="usar" id="444" weight="5" />
+      <edge source="cabelo" target="achar" id="445" weight="4" />
+      <edge source="cabelo" target="lindo" id="446" weight="5" />
+      <edge source="cabelo" target="mulher" id="447" weight="5" />
+      <edge source="cabelo" target="querer" id="448" weight="3" />
+      <edge source="cabelo" target="hijab" id="449" weight="3" />
+      <edge source="cabelo" target="tirar" id="450" weight="3" />
+      <edge source="cabelo" target="usar" id="451" weight="3" />
+      <edge source="super" target="usar" id="452" weight="3" />
+      <edge source="mulcumano" target="achar" id="453" weight="3" />
+      <edge source="mulcumano" target="falar" id="454" weight="3" />
+      <edge source="mulcumano" target="mulher" id="455" weight="7" />
+      <edge source="mulcumano" target="querer" id="456" weight="4" />
+      <edge source="bom" target="mulher" id="457" weight="4" />
+      <edge source="bom" target="hijab" id="458" weight="3" />
+      <edge source="pessoa" target="falar" id="459" weight="3" />
+      <edge source="pessoa" target="video" id="460" weight="3" />
+      <edge source="confortavel" target="falar" id="461" weight="4" />
+      <edge source="caso" target="achar" id="462" weight="3" />
+      <edge source="caso" target="escolha" id="463" weight="3" />
+      <edge source="caso" target="familia" id="464" weight="3" />
+      <edge source="caso" target="mulher" id="465" weight="3" />
+      <edge source="caso" target="obrigar" id="466" weight="3" />
+      <edge source="caso" target="falar" id="467" weight="3" />
+      <edge source="soltar" target="solado" id="468" weight="3" />
+      <edge source="regra" target="muculmano" id="469" weight="3" />
+      <edge source="regra" target="mulher" id="470" weight="4" />
+      <edge source="regra" target="escolha" id="471" weight="3" />
+      <edge source="respeito" target="achar" id="472" weight="4" />
+      <edge source="respeito" target="saber" id="473" weight="4" />
+      <edge source="respeito" target="usar" id="474" weight="3" />
+      <edge source="respeito" target="so" id="475" weight="4" />
+      <edge source="hijab" target="usar" id="476" weight="10" />
+      <edge source="hijab" target="achar" id="477" weight="8" />
+      <edge source="hijab" target="lindo" id="478" weight="6" />
+      <edge source="hijab" target="mulher" id="479" weight="13" />
+      <edge source="hijab" target="roupa" id="480" weight="3" />
+      <edge source="hijab" target="so" id="481" weight="6" />
+      <edge source="hijab" target="estar" id="482" weight="4" />
+      <edge source="hijab" target="querer" id="483" weight="9" />
+      <edge source="hijab" target="escolha" id="484" weight="5" />
+      <edge source="hijab" target="familia" id="485" weight="4" />
+      <edge source="hijab" target="lei" id="486" weight="3" />
+      <edge source="hijab" target="muculmano" id="487" weight="10" />
+      <edge source="hijab" target="obrigacao" id="488" weight="3" />
+      <edge source="hijab" target="obrigar" id="489" weight="7" />
+      <edge source="hijab" target="religioso" id="490" weight="3" />
+      <edge source="hijab" target="tirar" id="491" weight="4" />
+      <edge source="hijab" target="ver" id="492" weight="6" />
+      <edge source="hijab" target="video" id="493" weight="3" />
+      <edge source="hijab" target="gostar" id="494" weight="3" />
+      <edge source="hijab" target="falar" id="495" weight="4" />
+      <edge source="hijab" target="dizer" id="496" weight="4" />
+      <edge source="hijab" target="deus" id="497" weight="3" />
+      <edge source="hijab" target="mariam" id="498" weight="4" />
+      <edge source="so" target="mulher" id="499" weight="9" />
+      <edge source="so" target="roupa" id="500" weight="8" />
+      <edge source="so" target="tranquilo" id="501" weight="3" />
+      <edge source="so" target="lindo" id="502" weight="4" />
+      <edge source="so" target="querer" id="503" weight="8" />
+      <edge source="so" target="muculmano" id="504" weight="6" />
+      <edge source="so" target="obrigar" id="505" weight="6" />
+      <edge source="so" target="dizer" id="506" weight="3" />
+      <edge source="so" target="estar" id="507" weight="6" />
+      <edge source="so" target="video" id="508" weight="5" />
+      <edge source="so" target="falar" id="509" weight="6" />
+      <edge source="so" target="achar" id="510" weight="7" />
+      <edge source="so" target="familia" id="511" weight="3" />
+      <edge source="so" target="saber" id="512" weight="7" />
+      <edge source="so" target="proprio" id="513" weight="3" />
+      <edge source="so" target="usar" id="514" weight="4" />
+      <edge source="so" target="risada" id="515" weight="4" />
+      <edge source="so" target="comer" id="516" weight="4" />
+      <edge source="obrigatorio" target="mulher" id="517" weight="3" />
+      <edge source="certeza" target="usar" id="518" weight="3" />
+      <edge source="lei" target="lindo" id="519" weight="3" />
+      <edge source="lei" target="querer" id="520" weight="4" />
+      <edge source="lei" target="religioso" id="521" weight="3" />
+      <edge source="lei" target="achar" id="522" weight="3" />
+      <edge source="lei" target="mulher" id="523" weight="5" />
+      <edge source="lei" target="sofrer" id="524" weight="3" />
+      <edge source="lei" target="escolha" id="525" weight="4" />
+      <edge source="lei" target="obrigar" id="526" weight="4" />
+      <edge source="guardar" target="estar" id="527" weight="4" />
+      <edge source="guardar" target="sapato" id="528" weight="6" />
+      <edge source="guardar" target="usar" id="529" weight="3" />
+      <edge source="guardar" target="risada" id="530" weight="3" />
+      <edge source="seguir" target="achar" id="531" weight="4" />
+      <edge source="seguir" target="estar" id="532" weight="3" />
+      <edge source="seguir" target="mulher" id="533" weight="4" />
+      <edge source="seguir" target="lindo" id="534" weight="3" />
+      <edge source="seguir" target="falar" id="535" weight="3" />
+      <edge source="mariam" target="lindo" id="536" weight="3" />
+      <edge source="saber" target="risada" id="537" weight="5" />
+      <edge source="saber" target="falar" id="538" weight="5" />
+      <edge source="saber" target="mulher" id="539" weight="3" />
+      <edge source="saber" target="querer" id="540" weight="5" />
+      <edge source="saber" target="muculmano" id="541" weight="6" />
+      <edge source="saber" target="ficar" id="542" weight="4" />
+      <edge source="saber" target="achar" id="543" weight="4" />
+      <edge source="saber" target="lindo" id="544" weight="6" />
+      <edge source="saber" target="vcs" id="545" weight="3" />
+      <edge source="saber" target="estar" id="546" weight="3" />
+      <edge source="saber" target="usar" id="547" weight="4" />
+      <edge source="saber" target="video" id="548" weight="3" />
+      <edge source="saber" target="dizer" id="549" weight="3" />
+      <edge source="perfeito" target="vestido" id="550" weight="5" />
+      <edge source="vestir" target="querer" id="551" weight="3" />
+      <edge source="vestir" target="video" id="552" weight="3" />
+      <edge source="esperar" target="gostar" id="553" weight="3" />
+      <edge source="ficar" target="achar" id="554" weight="4" />
+      <edge source="ficar" target="vida" id="555" weight="3" />
+      <edge source="ficar" target="video" id="556" weight="3" />
+      <edge source="ficar" target="deus" id="557" weight="4" />
+      <edge source="ficar" target="risada" id="558" weight="6" />
+      <edge source="ficar" target="cor" id="559" weight="3" />
+      <edge source="ficar" target="lindo" id="560" weight="13" />
+      <edge source="ficar" target="usar" id="561" weight="3" />
+      <edge source="ficar" target="vestido" id="562" weight="4" />
+      <edge source="ficar" target="sapato" id="563" weight="3" />
+      <edge source="entender" target="obrigar" id="564" weight="3" />
+      <edge source="risada" target="falar" id="565" weight="3" />
+      <edge source="risada" target="comprar" id="566" weight="3" />
+      <edge source="risada" target="querer" id="567" weight="4" />
+      <edge source="risada" target="video" id="568" weight="5" />
+      <edge source="risada" target="estar" id="569" weight="4" />
+      <edge source="risada" target="sapato" id="570" weight="10" />
+      <edge source="risada" target="ver" id="571" weight="3" />
+      <edge source="risada" target="usar" id="572" weight="4" />
+      <edge source="comecar" target="falar" id="573" weight="3" />
+      <edge source="cultura" target="mulher" id="574" weight="4" />
+      <edge source="cultura" target="estar" id="575" weight="3" />
+      <edge source="cultura" target="querer" id="576" weight="3" />
+      <edge source="cultura" target="achar" id="577" weight="4" />
+      <edge source="julgar" target="muculmano" id="578" weight="3" />
+      <edge source="escolha" target="achar" id="579" weight="6" />
+      <edge source="escolha" target="familia" id="580" weight="6" />
+      <edge source="escolha" target="pessoal" id="581" weight="3" />
+      <edge source="escolha" target="problema" id="582" weight="3" />
+      <edge source="escolha" target="lindo" id="583" weight="3" />
+      <edge source="escolha" target="mulher" id="584" weight="9" />
+      <edge source="escolha" target="obrigacao" id="585" weight="3" />
+      <edge source="escolha" target="questao" id="586" weight="3" />
+      <edge source="escolha" target="falar" id="587" weight="6" />
+      <edge source="escolha" target="querer" id="588" weight="9" />
+      <edge source="escolha" target="marido" id="589" weight="5" />
+      <edge source="escolha" target="estar" id="590" weight="3" />
+      <edge source="escolha" target="religioso" id="591" weight="3" />
+      <edge source="escolha" target="amigo" id="592" weight="3" />
+      <edge source="escolha" target="muculmano" id="593" weight="6" />
+      <edge source="escolha" target="obrigar" id="594" weight="8" />
+      <edge source="escolha" target="tirar" id="595" weight="3" />
+      <edge source="escolha" target="proprio" id="596" weight="5" />
+      <edge source="escolha" target="gostar" id="597" weight="5" />
+      <edge source="escolha" target="viver" id="598" weight="3" />
+      <edge source="escolha" target="usar" id="599" weight="3" />
+      <edge source="proprio" target="obrigar" id="600" weight="3" />
+      <edge source="proprio" target="querer" id="601" weight="3" />
+      <edge source="proprio" target="tirar" id="602" weight="4" />
+      <edge source="proprio" target="usar" id="603" weight="3" />
+      <edge source="vida" target="achar" id="604" weight="3" />
+      <edge source="vida" target="falar" id="605" weight="3" />
+      <edge source="vida" target="estar" id="606" weight="3" />
+      <edge source="vida" target="querer" id="607" weight="5" />
+      <edge source="vida" target="viver" id="608" weight="3" />
+      <edge source="vida" target="muculmano" id="609" weight="5" />
+      <edge source="vida" target="usar" id="610" weight="3" />
+      <edge source="marido" target="achar" id="611" weight="5" />
+      <edge source="marido" target="falar" id="612" weight="5" />
+      <edge source="marido" target="roupa" id="613" weight="3" />
+      <edge source="marido" target="mulher" id="614" weight="4" />
+      <edge source="marido" target="estar" id="615" weight="3" />
+      <edge source="marido" target="familia" id="616" weight="3" />
+      <edge source="marido" target="querer" id="617" weight="4" />
+      <edge source="marido" target="obrigar" id="618" weight="6" />
+      <edge source="ver" target="muculmano" id="619" weight="8" />
+      <edge source="ver" target="mulher" id="620" weight="5" />
+      <edge source="ver" target="video" id="621" weight="6" />
+      <edge source="ver" target="dizer" id="622" weight="4" />
+      <edge source="ver" target="usar" id="623" weight="3" />
+      <edge source="ver" target="achar" id="624" weight="3" />
+      <edge source="ver" target="lindo" id="625" weight="5" />
+      <edge source="ver" target="falar" id="626" weight="3" />
+      <edge source="ver" target="vestido" id="627" weight="4" />
+      <edge source="pergunta" target="mulher" id="628" weight="4" />
+      <edge source="pergunta" target="falar" id="629" weight="3" />
+      <edge source="nascer" target="falar" id="630" weight="4" />
+      <edge source="nascer" target="usar" id="631" weight="4" />
+      <edge source="sapato" target="usar" id="632" weight="9" />
+      <edge source="sapato" target="video" id="633" weight="3" />
+      <edge source="sapato" target="estar" id="634" weight="5" />
+      <edge source="sapato" target="ja" id="635" weight="3" />
+      <edge source="sapato" target="falar" id="636" weight="4" />
+      <edge source="familia" target="achar" id="637" weight="3" />
+      <edge source="familia" target="muculmano" id="638" weight="7" />
+      <edge source="familia" target="obrigacao" id="639" weight="3" />
+      <edge source="familia" target="querer" id="640" weight="3" />
+      <edge source="familia" target="obrigar" id="641" weight="5" />
+      <edge source="oriente" target="mulher" id="642" weight="4" />
+      <edge source="falar" target="querer" id="643" weight="9" />
+      <edge source="falar" target="achar" id="644" weight="8" />
+      <edge source="falar" target="mulher" id="645" weight="17" />
+      <edge source="falar" target="video" id="646" weight="11" />
+      <edge source="falar" target="bomba" id="647" weight="3" />
+      <edge source="falar" target="fossar" id="648" weight="3" />
+      <edge source="falar" target="roupa" id="649" weight="3" />
+      <edge source="falar" target="errado" id="650" weight="3" />
+      <edge source="falar" target="diferente" id="651" weight="3" />
+      <edge source="falar" target="muculmano" id="652" weight="5" />
+      <edge source="falar" target="estar" id="653" weight="7" />
+      <edge source="falar" target="usar" id="654" weight="7" />
+      <edge source="falar" target="obrigar" id="655" weight="5" />
+      <edge source="falar" target="gostar" id="656" weight="3" />
+      <edge source="falar" target="questao" id="657" weight="3" />
+      <edge source="islamico" target="mulher" id="658" weight="4" />
+      <edge source="achar" target="lindo" id="659" weight="24" />
+      <edge source="achar" target="querer" id="660" weight="8" />
+      <edge source="achar" target="video" id="661" weight="6" />
+      <edge source="achar" target="mulher" id="662" weight="13" />
+      <edge source="achar" target="obrigar" id="663" weight="8" />
+      <edge source="achar" target="usar" id="664" weight="6" />
+      <edge source="achar" target="viver" id="665" weight="3" />
+      <edge source="achar" target="roupa" id="666" weight="5" />
+      <edge source="achar" target="tbm" id="667" weight="3" />
+      <edge source="achar" target="brasileiro" id="668" weight="3" />
+      <edge source="achar" target="estar" id="669" weight="6" />
+      <edge source="achar" target="muculmano" id="670" weight="5" />
+      <edge source="achar" target="questao" id="671" weight="3" />
+      <edge source="achar" target="vcs" id="672" weight="3" />
+      <edge source="achar" target="gostar" id="673" weight="7" />
+      <edge source="achar" target="maravilhoso" id="674" weight="3" />
+      <edge source="achar" target="vestido" id="675" weight="3" />
+      <edge source="diferente" target="mulher" id="676" weight="4" />
+      <edge source="diferente" target="realidade" id="677" weight="3" />
+      <edge source="brasileiro" target="lindo" id="678" weight="3" />
+      <edge source="casa" target="querer" id="679" weight="3" />
+      <edge source="forma" target="muculmano" id="680" weight="3" />
+      <edge source="forma" target="mulher" id="681" weight="4" />
+      <edge source="forma" target="querer" id="682" weight="3" />
+      <edge source="roupa" target="mulher" id="683" weight="7" />
+      <edge source="roupa" target="tranquilo" id="684" weight="3" />
+      <edge source="roupa" target="lindo" id="685" weight="4" />
+      <edge source="roupa" target="querer" id="686" weight="5" />
+      <edge source="roupa" target="estar" id="687" weight="4" />
+      <edge source="roupa" target="obrigar" id="688" weight="3" />
+      <edge source="roupa" target="video" id="689" weight="3" />
+      <edge source="obrigar" target="mulher" id="690" weight="10" />
+      <edge source="obrigar" target="usar" id="691" weight="4" />
+      <edge source="obrigar" target="viver" id="692" weight="3" />
+      <edge source="obrigar" target="estar" id="693" weight="3" />
+      <edge source="obrigar" target="querer" id="694" weight="7" />
+      <edge source="obrigar" target="muculmano" id="695" weight="4" />
+      <edge source="obrigar" target="tirar" id="696" weight="3" />
+      <edge source="obrigar" target="questao" id="697" weight="3" />
+      <edge source="obrigar" target="gostar" id="698" weight="3" />
+      <edge source="vcs" target="lindo" id="699" weight="3" />
+      <edge source="mulher" target="usar" id="700" weight="7" />
+      <edge source="mulher" target="viver" id="701" weight="4" />
+      <edge source="mulher" target="bomba" id="702" weight="5" />
+      <edge source="mulher" target="lindo" id="703" weight="9" />
+      <edge source="mulher" target="video" id="704" weight="11" />
+      <edge source="mulher" target="querer" id="705" weight="18" />
+      <edge source="mulher" target="deixar" id="706" weight="5" />
+      <edge source="mulher" target="estar" id="707" weight="6" />
+      <edge source="mulher" target="muculmano" id="708" weight="11" />
+      <edge source="mulher" target="mesmo" id="709" weight="3" />
+      <edge source="mulher" target="isla" id="710" weight="5" />
+      <edge source="mulher" target="questao" id="711" weight="4" />
+      <edge source="mulher" target="deus" id="712" weight="3" />
+      <edge source="mulher" target="sofrer" id="713" weight="3" />
+      <edge source="mulher" target="religioso" id="714" weight="3" />
+      <edge source="mulher" target="realidade" id="715" weight="3" />
+      <edge source="mulher" target="gostar" id="716" weight="3" />
+      <edge source="mulher" target="vestido" id="717" weight="3" />
+      <edge source="branco" target="estar" id="718" weight="3" />
+      <edge source="branco" target="querer" id="719" weight="3" />
+      <edge source="problema" target="querer" id="720" weight="3" />
+      <edge source="lenco" target="usar" id="721" weight="3" />
+      <edge source="lenco" target="lindo" id="722" weight="3" />
+      <edge source="deixar" target="querer" id="723" weight="4" />
+      <edge source="querer" target="tirar" id="724" weight="3" />
+      <edge source="querer" target="lindo" id="725" weight="4" />
+      <edge source="querer" target="video" id="726" weight="7" />
+      <edge source="querer" target="estar" id="727" weight="12" />
+      <edge source="querer" target="muculmano" id="728" weight="5" />
+      <edge source="querer" target="usar" id="729" weight="5" />
+      <edge source="querer" target="questao" id="730" weight="3" />
+      <edge source="querer" target="gostar" id="731" weight="5" />
+      <edge source="querer" target="deus" id="732" weight="4" />
+      <edge source="querer" target="tbm" id="733" weight="3" />
+      <edge source="querer" target="vestido" id="734" weight="3" />
+      <edge source="video" target="lindo" id="735" weight="5" />
+      <edge source="video" target="dizer" id="736" weight="6" />
+      <edge source="video" target="estar" id="737" weight="6" />
+      <edge source="video" target="muculmano" id="738" weight="3" />
+      <edge source="video" target="usar" id="739" weight="5" />
+      <edge source="video" target="isla" id="740" weight="3" />
+      <edge source="dizer" target="estar" id="741" weight="4" />
+      <edge source="dizer" target="muculmano" id="742" weight="4" />
+      <edge source="dizer" target="usar" id="743" weight="4" />
+      <edge source="viver" target="muculmano" id="744" weight="4" />
+      <edge source="estar" target="muculmano" id="745" weight="4" />
+      <edge source="estar" target="usar" id="746" weight="7" />
+      <edge source="estar" target="lindo" id="747" weight="3" />
+      <edge source="estar" target="to" id="748" weight="3" />
+      <edge source="gostar" target="muculmano" id="749" weight="3" />
+      <edge source="vestido" target="maravilhoso" id="750" weight="10" />
+      <edge source="vestido" target="lindo" id="751" weight="16" />
+      <edge source="maravilhoso" target="lindo" id="752" weight="5" />
+      <edge source="religioso" target="obrigacao" id="753" weight="3" />
+      <edge source="religioso" target="sofrer" id="754" weight="4" />
+      <edge source="amigo" target="muculmano" id="755" weight="3" />
+      <edge source="cor" target="lindo" id="756" weight="3" />
+      <edge source="usar" target="lindo" id="757" weight="4" />
+      <edge source="usar" target="tirar" id="758" weight="3" />
+      <edge source="usar" target="muculmano" id="759" weight="6" />
+      <edge source="usar" target="deus" id="760" weight="3" />
+      <edge source="sofrer" target="muculmano" id="761" weight="3" />
+      <edge source="lindo" target="muculmano" id="762" weight="3" />
+      <edge source="jesus" target="deus" id="763" weight="3" />
+      <edge source="deus" target="muculmano" id="764" weight="4" />
     </edges>
   </graph>
 </gexf>

@@ -2,6 +2,12 @@ name: Imprensa (Google Notícias) e rede de circulação do caso Hamas (sem cust
 
 on:
   workflow_dispatch:
+    inputs:
+      etapa:
+        description: "todas = notícias + circulação + rede da imprensa; circulacao = só refaz a rede de circulação (YouTube), sem recoletar notícias"
+        default: todas
+        type: choice
+        options: [todas, circulacao]
 
 concurrency:
   group: imprensa
@@ -30,7 +36,11 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: |
           rc=0
-          { python scripts/collect_imprensa.py && python scripts/build_circulacao.py && python scripts/build_rede_imprensa.py; } > o.txt 2>&1 || rc=$?
+          if [ "${{ github.event.inputs.etapa }}" = "circulacao" ]; then
+            python scripts/build_circulacao.py > o.txt 2>&1 || rc=$?
+          else
+            { python scripts/collect_imprensa.py && python scripts/build_circulacao.py && python scripts/build_rede_imprensa.py; } > o.txt 2>&1 || rc=$?
+          fi
           while IFS= read -r l; do echo "::notice title=Imprensa::$(echo "$l" | cut -c1-900)"; done < o.txt
           rm -f o.txt; exit $rc
       - name: Gravar

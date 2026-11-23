@@ -1,5 +1,5 @@
 {
- "gerado_em_utc": "2026-11-23T01:44:46Z",
+ "gerado_em_utc": "2026-11-23T02:12:05Z",
  "metodo": "Rede \"marcações e hashtags\": bipartida, com as quatro influenciadoras e o que elas marcam nas próprias publicações do\nrecorte (01/06 a 14/08/2026), em todas as redes coletadas:\n  influenciadora → @perfil marcado (marcas, parceiros, outras influenciadoras)  e  influenciadora → #hashtag.\nPeso da aresta = número de publicações. Mostra com quem e com que temas cada uma se liga; perfis e hashtags partilhados\naproximam as influenciadoras. Comunidades: Louvain (networkx.community.louvain_communities, resolução 1,0, semente 42), como no plano; posições para\no desenho na página (spring layout por componente, redes_caso._layout). No Gephi: ForceAtlas 2 para as\ncomunidades e Modularity com resolução 1,0. Os @ marcados são perfis citados pelas próprias influenciadoras em\npublicações públicas; nenhum dado de comentarista entra aqui.",
  "nos": [
   {
@@ -9,8 +9,8 @@
    "grau": 51,
    "peso": 215,
    "comunidade": 1,
-   "x": 0.7545,
-   "y": 1.1794
+   "x": 0.8066,
+   "y": 1.1658
   },
   {
    "id": "hyatt-omar",
@@ -19,8 +19,8 @@
    "grau": 26,
    "peso": 58,
    "comunidade": 2,
-   "x": 1.4098,
-   "y": 0.4248
+   "x": 1.3384,
+   "y": 0.4337
   },
   {
    "id": "carima-orra",
@@ -29,8 +29,8 @@
    "grau": 8,
    "peso": 20,
    "comunidade": 3,
-   "x": 1.4852,
-   "y": 1.6517
+   "x": 1.3958,
+   "y": 1.6961
   },
   {
    "id": "fabiola-oliveira",
@@ -43,24 +43,24 @@
    "y": 0.175
   },
   {
-   "id": "#hajj",
-   "rotulo": "#hajj",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 5,
-   "comunidade": 1,
-   "x": 0.5953,
-   "y": 1.0173
-  },
-  {
    "id": "#hajj2026",
    "rotulo": "#hajj2026",
    "tipo": "hashtag",
    "grau": 1,
    "peso": 6,
    "comunidade": 1,
-   "x": 0.6084,
-   "y": 1.2937
+   "x": 0.7951,
+   "y": 0.9917
+  },
+  {
+   "id": "#hajj",
+   "rotulo": "#hajj",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 5,
+   "comunidade": 1,
+   "x": 0.6162,
+   "y": 1.183
   },
   {
    "id": "#hijab",
@@ -69,8 +69,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.2268,
-   "y": 0.8532
+   "x": 1.2151,
+   "y": 0.8434
   },
   {
    "id": "@turkishairlines",
@@ -79,18 +79,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3253,
-   "y": 0.9738
-  },
-  {
-   "id": "@naturabroficial",
-   "rotulo": "@naturabroficial",
-   "tipo": "perfil marcado",
-   "grau": 2,
-   "peso": 4,
-   "comunidade": 3,
-   "x": 1.1674,
-   "y": 1.5394
+   "x": 0.4164,
+   "y": 0.9869
   },
   {
    "id": "#naturaessencialsafran",
@@ -99,8 +89,18 @@
    "grau": 2,
    "peso": 6,
    "comunidade": 3,
-   "x": 1.1105,
-   "y": 1.3765
+   "x": 1.1025,
+   "y": 1.3961
+  },
+  {
+   "id": "@naturabroficial",
+   "rotulo": "@naturabroficial",
+   "tipo": "perfil marcado",
+   "grau": 2,
+   "peso": 4,
+   "comunidade": 3,
+   "x": 1.1448,
+   "y": 1.5346
   },
   {
    "id": "@leilinha_arabi",
@@ -109,18 +109,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.8383,
-   "y": 1.7538
-  },
-  {
-   "id": "@hamde_atelie",
-   "rotulo": "@hamde_atelie",
-   "tipo": "perfil marcado",
-   "grau": 1,
-   "peso": 3,
-   "comunidade": 1,
-   "x": 0.7844,
-   "y": 1.5091
+   "x": 1.6994,
+   "y": 1.8257
   },
   {
    "id": "@lattafa_brazil",
@@ -129,28 +119,18 @@
    "grau": 1,
    "peso": 4,
    "comunidade": 1,
-   "x": 0.5008,
-   "y": 1.222
+   "x": 0.9306,
+   "y": 1.368
   },
   {
-   "id": "#isla",
-   "rotulo": "#isla",
-   "tipo": "hashtag",
+   "id": "@hamde_atelie",
+   "rotulo": "@hamde_atelie",
+   "tipo": "perfil marcado",
    "grau": 1,
-   "peso": 2,
-   "comunidade": 2,
-   "x": 1.6362,
-   "y": 0.1361
-  },
-  {
-   "id": "#copa",
-   "rotulo": "#copa",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 7,
-   "comunidade": 2,
-   "x": 1.3913,
-   "y": 0.27
+   "peso": 3,
+   "comunidade": 1,
+   "x": 0.5106,
+   "y": 1.2409
   },
   {
    "id": "#fifa",
@@ -159,18 +139,28 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 2,
-   "x": 1.586,
-   "y": 0.4227
+   "x": 1.475,
+   "y": 0.3732
   },
   {
-   "id": "#bebida",
-   "rotulo": "#bebida",
+   "id": "#copa",
+   "rotulo": "#copa",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 7,
+   "comunidade": 2,
+   "x": 1.2975,
+   "y": 0.2984
+  },
+  {
+   "id": "#isla",
+   "rotulo": "#isla",
    "tipo": "hashtag",
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.2635,
-   "y": 0.0796
+   "x": 1.6893,
+   "y": 0.3108
   },
   {
    "id": "#muçulmano",
@@ -179,18 +169,18 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.3594,
-   "y": 0.0543
+   "x": 1.1844,
+   "y": 0.1342
   },
   {
-   "id": "#alcool",
-   "rotulo": "#alcool",
+   "id": "#bebida",
+   "rotulo": "#bebida",
    "tipo": "hashtag",
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.8206,
-   "y": 0.483
+   "x": 1.34,
+   "y": 0.1042
   },
   {
    "id": "#bet",
@@ -199,8 +189,18 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.7379,
-   "y": 0.1457
+   "x": 1.7034,
+   "y": 0.4083
+  },
+  {
+   "id": "#alcool",
+   "rotulo": "#alcool",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 2,
+   "x": 1.574,
+   "y": 0.1964
   },
   {
    "id": "#copadomundo",
@@ -209,28 +209,8 @@
    "grau": 2,
    "peso": 4,
    "comunidade": 2,
-   "x": 1.1001,
-   "y": 0.7803
-  },
-  {
-   "id": "#worldcup",
-   "rotulo": "#worldcup",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 5,
-   "comunidade": 2,
-   "x": 1.5047,
-   "y": 0.2667
-  },
-  {
-   "id": "#marrocos",
-   "rotulo": "#marrocos",
-   "tipo": "hashtag",
-   "grau": 2,
-   "peso": 3,
-   "comunidade": 2,
-   "x": 1.139,
-   "y": 0.6148
+   "x": 1.0931,
+   "y": 0.7767
   },
   {
    "id": "#morocco",
@@ -239,8 +219,28 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.814,
-   "y": 0.3428
+   "x": 1.4612,
+   "y": 0.1357
+  },
+  {
+   "id": "#worldcup",
+   "rotulo": "#worldcup",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 5,
+   "comunidade": 2,
+   "x": 1.4026,
+   "y": 0.279
+  },
+  {
+   "id": "#marrocos",
+   "rotulo": "#marrocos",
+   "tipo": "hashtag",
+   "grau": 2,
+   "peso": 3,
+   "comunidade": 2,
+   "x": 1.2453,
+   "y": 0.7366
   },
   {
    "id": "@usedohabr",
@@ -249,8 +249,8 @@
    "grau": 1,
    "peso": 6,
    "comunidade": 3,
-   "x": 1.6497,
-   "y": 1.7474
+   "x": 1.5245,
+   "y": 1.8091
   },
   {
    "id": "#roubo",
@@ -259,8 +259,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.7395,
-   "y": 0.4576
+   "x": 1.6614,
+   "y": 0.5015
   },
   {
    "id": "#argentina",
@@ -269,8 +269,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.7818,
-   "y": 0.2425
+   "x": 1.5581,
+   "y": 0.1053
   },
   {
    "id": "@lojacasaoriente",
@@ -279,8 +279,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.7858,
-   "y": 1.8745
+   "x": 1.6358,
+   "y": 1.9334
   },
   {
    "id": "@oboticario",
@@ -289,8 +289,8 @@
    "grau": 2,
    "peso": 4,
    "comunidade": 3,
-   "x": 1.2269,
-   "y": 1.4353
+   "x": 1.2055,
+   "y": 1.45
   },
   {
    "id": "#hadiya",
@@ -299,8 +299,8 @@
    "grau": 2,
    "peso": 5,
    "comunidade": 3,
-   "x": 1.1239,
-   "y": 1.4564
+   "x": 1.0937,
+   "y": 1.4707
   },
   {
    "id": "#publicidade",
@@ -309,8 +309,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 3,
-   "x": 1.6789,
-   "y": 1.9586
+   "x": 1.5273,
+   "y": 2.0
   },
   {
    "id": "#publi",
@@ -319,8 +319,8 @@
    "grau": 1,
    "peso": 4,
    "comunidade": 1,
-   "x": 0.8717,
-   "y": 1.4116
+   "x": 1.0176,
+   "y": 1.2822
   },
   {
    "id": "@sephorabrasil",
@@ -329,8 +329,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 0.9429,
-   "y": 0.6281
+   "x": 0.9517,
+   "y": 0.5873
   },
   {
    "id": "@hudabeauty",
@@ -339,8 +339,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.0341,
-   "y": 0.6625
+   "x": 0.9223,
+   "y": 0.6495
   },
   {
    "id": "#fatiha",
@@ -349,8 +349,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 2,
-   "x": 1.6427,
-   "y": 0.3009
+   "x": 1.5708,
+   "y": 0.3744
   },
   {
    "id": "#arabe",
@@ -359,8 +359,8 @@
    "grau": 2,
    "peso": 3,
    "comunidade": 2,
-   "x": 1.2012,
-   "y": 0.6877
+   "x": 1.109,
+   "y": 0.6311
   },
   {
    "id": "#arrumesecomigo",
@@ -369,8 +369,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.6147,
-   "y": 0.0371
+   "x": 1.6593,
+   "y": 0.2225
   },
   {
    "id": "#maquiagem",
@@ -379,8 +379,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.4447,
-   "y": 0.0
+   "x": 1.2629,
+   "y": 0.0637
   },
   {
    "id": "#makeup",
@@ -389,8 +389,8 @@
    "grau": 2,
    "peso": 3,
    "comunidade": 2,
-   "x": 1.2736,
-   "y": 0.7466
+   "x": 1.1746,
+   "y": 0.6902
   },
   {
    "id": "#hudabeauty",
@@ -399,28 +399,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.5114,
-   "y": 0.0731
-  },
-  {
-   "id": "#curiosidades",
-   "rotulo": "#curiosidades",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 10,
-   "comunidade": 1,
-   "x": 0.7244,
-   "y": 1.0579
-  },
-  {
-   "id": "#religiao",
-   "rotulo": "#religiao",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 2,
-   "comunidade": 1,
-   "x": 0.2667,
-   "y": 1.1873
+   "x": 1.4255,
+   "y": 0.0468
   },
   {
    "id": "#muculmanos",
@@ -429,18 +409,28 @@
    "grau": 1,
    "peso": 17,
    "comunidade": 1,
-   "x": 0.8618,
-   "y": 1.1604
+   "x": 0.8221,
+   "y": 1.0882
   },
   {
-   "id": "#provandocomidas",
-   "rotulo": "#provandocomidas",
+   "id": "#religiao",
+   "rotulo": "#religiao",
    "tipo": "hashtag",
    "grau": 1,
-   "peso": 3,
+   "peso": 2,
    "comunidade": 1,
-   "x": 0.9671,
-   "y": 1.4043
+   "x": 0.3742,
+   "y": 1.1733
+  },
+  {
+   "id": "#curiosidades",
+   "rotulo": "#curiosidades",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 10,
+   "comunidade": 1,
+   "x": 0.7394,
+   "y": 1.2573
   },
   {
    "id": "#viagem",
@@ -449,8 +439,18 @@
    "grau": 1,
    "peso": 30,
    "comunidade": 1,
-   "x": 0.7956,
-   "y": 1.1147
+   "x": 0.8365,
+   "y": 1.2152
+  },
+  {
+   "id": "#provandocomidas",
+   "rotulo": "#provandocomidas",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 3,
+   "comunidade": 1,
+   "x": 0.8526,
+   "y": 1.4602
   },
   {
    "id": "#turquia",
@@ -459,18 +459,8 @@
    "grau": 1,
    "peso": 8,
    "comunidade": 1,
-   "x": 0.9248,
-   "y": 1.2292
-  },
-  {
-   "id": "#arrumesecmg",
-   "rotulo": "#arrumesecmg",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 2,
-   "comunidade": 1,
-   "x": 0.6629,
-   "y": 1.6417
+   "x": 0.9284,
+   "y": 1.1114
   },
   {
    "id": "#modamodesta",
@@ -479,8 +469,18 @@
    "grau": 1,
    "peso": 6,
    "comunidade": 1,
-   "x": 0.7837,
-   "y": 1.3586
+   "x": 0.8167,
+   "y": 1.3393
+  },
+  {
+   "id": "#arrumesecmg",
+   "rotulo": "#arrumesecmg",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 1,
+   "x": 0.4717,
+   "y": 1.4373
   },
   {
    "id": "#turkishairlines",
@@ -489,8 +489,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4598,
-   "y": 1.0211
+   "x": 0.5054,
+   "y": 1.1256
   },
   {
    "id": "@turkish",
@@ -499,18 +499,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.6531,
-   "y": 1.4989
-  },
-  {
-   "id": "#peregrinacao",
-   "rotulo": "#peregrinacao",
-   "tipo": "hashtag",
-   "grau": 1,
-   "peso": 2,
-   "comunidade": 1,
-   "x": 0.2983,
-   "y": 1.2892
+   "x": 0.7362,
+   "y": 1.4543
   },
   {
    "id": "#mariamnohajj",
@@ -519,8 +509,18 @@
    "grau": 1,
    "peso": 15,
    "comunidade": 1,
-   "x": 0.8013,
-   "y": 1.262
+   "x": 0.7204,
+   "y": 1.1307
+  },
+  {
+   "id": "#peregrinacao",
+   "rotulo": "#peregrinacao",
+   "tipo": "hashtag",
+   "grau": 1,
+   "peso": 2,
+   "comunidade": 1,
+   "x": 0.3783,
+   "y": 1.2704
   },
   {
    "id": "@naturabr",
@@ -529,8 +529,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.9033,
-   "y": 1.6018
+   "x": 0.5538,
+   "y": 0.8525
   },
   {
    "id": "#maeefilha",
@@ -539,8 +539,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.5566,
-   "y": 1.6046
+   "x": 0.7159,
+   "y": 1.5876
   },
   {
    "id": "#medina",
@@ -549,8 +549,8 @@
    "grau": 1,
    "peso": 8,
    "comunidade": 1,
-   "x": 0.6327,
-   "y": 1.1921
+   "x": 0.9307,
+   "y": 1.2248
   },
   {
    "id": "#arabiasaudita",
@@ -559,8 +559,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.6725,
-   "y": 1.3761
+   "x": 0.6639,
+   "y": 1.3064
   },
   {
    "id": "#mesquita",
@@ -569,8 +569,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.5521,
-   "y": 1.1096
+   "x": 0.6487,
+   "y": 1.0563
   },
   {
    "id": "#brasil",
@@ -579,8 +579,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.5399,
-   "y": 1.435
+   "x": 0.6351,
+   "y": 1.4222
   },
   {
    "id": "#oracao",
@@ -589,8 +589,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.7821,
-   "y": 1.6421
+   "x": 0.9275,
+   "y": 1.5522
   },
   {
    "id": "#casaltiktok",
@@ -599,8 +599,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.2962,
-   "y": 1.0784
+   "x": 0.3809,
+   "y": 1.0775
   },
   {
    "id": "#islam",
@@ -609,8 +609,8 @@
    "grau": 2,
    "peso": 10,
    "comunidade": 1,
-   "x": 0.9415,
-   "y": 0.9801
+   "x": 0.9531,
+   "y": 0.9688
   },
   {
    "id": "@lattafa",
@@ -619,8 +619,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3254,
-   "y": 1.3882
+   "x": 0.4062,
+   "y": 1.3655
   },
   {
    "id": "#comidaarabe",
@@ -629,8 +629,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4623,
-   "y": 1.3385
+   "x": 0.5544,
+   "y": 1.3373
   },
   {
    "id": "#abaya",
@@ -639,18 +639,8 @@
    "grau": 1,
    "peso": 4,
    "comunidade": 1,
-   "x": 0.7602,
-   "y": 0.9233
-  },
-  {
-   "id": "#muculmana",
-   "rotulo": "#muculmana",
-   "tipo": "hashtag",
-   "grau": 2,
-   "peso": 6,
-   "comunidade": 2,
-   "x": 1.0377,
-   "y": 0.861
+   "x": 0.6954,
+   "y": 0.9568
   },
   {
    "id": "#respeito",
@@ -659,8 +649,18 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.5887,
-   "y": 0.7891
+   "x": 0.8167,
+   "y": 1.5939
+  },
+  {
+   "id": "#muculmana",
+   "rotulo": "#muculmana",
+   "tipo": "hashtag",
+   "grau": 2,
+   "peso": 6,
+   "comunidade": 2,
+   "x": 1.0374,
+   "y": 0.8546
   },
   {
    "id": "#arabes",
@@ -669,8 +669,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3839,
-   "y": 1.4763
+   "x": 0.5309,
+   "y": 1.5135
   },
   {
    "id": "#muculmanas",
@@ -679,8 +679,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.4836,
-   "y": 0.8293
+   "x": 0.6516,
+   "y": 0.8202
   },
   {
    "id": "#fulla",
@@ -689,8 +689,8 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.4526,
-   "y": 1.5601
+   "x": 0.6194,
+   "y": 1.5628
   },
   {
    "id": "#casamentoarabe",
@@ -699,8 +699,8 @@
    "grau": 1,
    "peso": 5,
    "comunidade": 1,
-   "x": 0.6657,
-   "y": 0.9587
+   "x": 1.0229,
+   "y": 1.1643
   },
   {
    "id": "@huda",
@@ -709,8 +709,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 1.3101,
-   "y": 0.9021
+   "x": 1.2918,
+   "y": 0.8789
   },
   {
    "id": "#grwm",
@@ -719,8 +719,8 @@
    "grau": 2,
    "peso": 2,
    "comunidade": 2,
-   "x": 0.9594,
-   "y": 0.557
+   "x": 1.0157,
+   "y": 0.6821
   },
   {
    "id": "#perrenguechique",
@@ -729,8 +729,8 @@
    "grau": 1,
    "peso": 3,
    "comunidade": 1,
-   "x": 0.4125,
-   "y": 1.1711
+   "x": 0.551,
+   "y": 1.0144
   },
   {
    "id": "#japao",
@@ -739,16 +739,11 @@
    "grau": 1,
    "peso": 2,
    "comunidade": 1,
-   "x": 0.3984,
-   "y": 0.8902
+   "x": 0.4779,
+   "y": 0.907
   }
  ],
  "arestas": [
-  [
-   "mariam-chami",
-   "#hajj",
-   5
-  ],
   [
    "mariam-chami",
    "#hajj2026",
@@ -756,12 +751,12 @@
   ],
   [
    "mariam-chami",
-   "@turkishairlines",
-   2
+   "#hajj",
+   5
   ],
   [
    "mariam-chami",
-   "@naturabroficial",
+   "@turkishairlines",
    2
   ],
   [
@@ -771,13 +766,18 @@
   ],
   [
    "mariam-chami",
-   "@hamde_atelie",
-   3
+   "@naturabroficial",
+   2
   ],
   [
    "mariam-chami",
    "@lattafa_brazil",
    4
+  ],
+  [
+   "mariam-chami",
+   "@hamde_atelie",
+   3
   ],
   [
    "mariam-chami",
@@ -806,8 +806,8 @@
   ],
   [
    "mariam-chami",
-   "#curiosidades",
-   10
+   "#muculmanos",
+   17
   ],
   [
    "mariam-chami",
@@ -816,13 +816,8 @@
   ],
   [
    "mariam-chami",
-   "#muculmanos",
-   17
-  ],
-  [
-   "mariam-chami",
-   "#provandocomidas",
-   3
+   "#curiosidades",
+   10
   ],
   [
    "mariam-chami",
@@ -831,18 +826,23 @@
   ],
   [
    "mariam-chami",
+   "#provandocomidas",
+   3
+  ],
+  [
+   "mariam-chami",
    "#turquia",
    8
   ],
   [
    "mariam-chami",
-   "#arrumesecmg",
-   2
+   "#modamodesta",
+   6
   ],
   [
    "mariam-chami",
-   "#modamodesta",
-   6
+   "#arrumesecmg",
+   2
   ],
   [
    "mariam-chami",
@@ -856,13 +856,13 @@
   ],
   [
    "mariam-chami",
-   "#peregrinacao",
-   2
+   "#mariamnohajj",
+   15
   ],
   [
    "mariam-chami",
-   "#mariamnohajj",
-   15
+   "#peregrinacao",
+   2
   ],
   [
    "mariam-chami",
@@ -891,13 +891,13 @@
   ],
   [
    "mariam-chami",
-   "#copadomundo",
-   2
+   "#brasil",
+   3
   ],
   [
    "mariam-chami",
-   "#brasil",
-   3
+   "#copadomundo",
+   2
   ],
   [
    "mariam-chami",
@@ -936,13 +936,13 @@
   ],
   [
    "mariam-chami",
-   "#muculmana",
-   4
+   "#respeito",
+   2
   ],
   [
    "mariam-chami",
-   "#respeito",
-   2
+   "#muculmana",
+   4
   ],
   [
    "mariam-chami",
@@ -961,13 +961,13 @@
   ],
   [
    "mariam-chami",
-   "#makeup",
-   1
+   "#casamentoarabe",
+   5
   ],
   [
    "mariam-chami",
-   "#casamentoarabe",
-   5
+   "#makeup",
+   1
   ],
   [
    "mariam-chami",
@@ -1006,8 +1006,8 @@
   ],
   [
    "hyatt-omar",
-   "#isla",
-   2
+   "#fifa",
+   5
   ],
   [
    "hyatt-omar",
@@ -1016,12 +1016,7 @@
   ],
   [
    "hyatt-omar",
-   "#fifa",
-   5
-  ],
-  [
-   "hyatt-omar",
-   "#bebida",
+   "#isla",
    2
   ],
   [
@@ -1031,7 +1026,7 @@
   ],
   [
    "hyatt-omar",
-   "#alcool",
+   "#bebida",
    2
   ],
   [
@@ -1041,7 +1036,17 @@
   ],
   [
    "hyatt-omar",
+   "#alcool",
+   2
+  ],
+  [
+   "hyatt-omar",
    "#copadomundo",
+   2
+  ],
+  [
+   "hyatt-omar",
+   "#morocco",
    2
   ],
   [
@@ -1052,11 +1057,6 @@
   [
    "hyatt-omar",
    "#marrocos",
-   2
-  ],
-  [
-   "hyatt-omar",
-   "#morocco",
    2
   ],
   [
@@ -1086,13 +1086,13 @@
   ],
   [
    "hyatt-omar",
-   "@hudabeauty",
-   1
+   "#maquiagem",
+   2
   ],
   [
    "hyatt-omar",
-   "#maquiagem",
-   2
+   "@hudabeauty",
+   1
   ],
   [
    "hyatt-omar",
@@ -1131,12 +1131,12 @@
   ],
   [
    "carima-orra",
-   "@naturabroficial",
+   "#naturaessencialsafran",
    2
   ],
   [
    "carima-orra",
-   "#naturaessencialsafran",
+   "@naturabroficial",
    2
   ],
   [
@@ -1290,6 +1290,1846 @@
    ]
   }
  ],
+ "publicacoes": [
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-01",
+   "u": "https://www.instagram.com/reel/DZD79zRx_uZ/",
+   "j": "base",
+   "t": "Hajj: onde o mundo se encontra em um só lugar 🤲🤲🤲 #hajj #hajj2026 #mashallah #alhamdulillah"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-06-02",
+   "u": "https://www.instagram.com/reel/DZGXsBVqvW1/",
+   "j": "base",
+   "t": "Avanços feitos para inclusão e para que mulheres muçulmanas possam ocupar todos os espaços possíveis, mas infelizmente o preconceito segue grande 🤡🤡🤡 #reels #rs #bombeiros #hijab #muçulmanos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-07",
+   "u": "https://www.instagram.com/reel/DZQ9IbFxq2M/",
+   "j": "base",
+   "t": "Peguei um voo de Jeddah para Istambul no período em que muitos peregrinos estão retornando para suas casas após concluírem o Hajj. Na ida, a @turkishairlines já tinha me surpreendido com a sombrinha e a bolsa. Mas, na volta, fui pega de surpresa mais uma vez ao receber um Alcorão Sagrado. Pode parecer um gesto simples, mas são esses detalhes que fazem a diferença e mostram tanto cuidado com os passageiros. Dá até um quentinho no coração ❤️ Muito obrigada, Turkish Airlines, pelo carinho e pela atenção em tornar essa jornada ainda mais especial."
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-07",
+   "u": "https://www.instagram.com/reel/DZTPQmIxFl4/",
+   "j": "base",
+   "t": "Vcs viram a supresa que o Mozi e minha irmã fizeram pra gente de Hajj? 🥹❤️ juro que não esperava, foi uma surpresa linda. Foram mais de 24horas pra chegar em casa, mas chegamos imensamente felizes, renovadas e não poderia ser melhor. Muito obrigada @turkishairlines por sempre fazer parte dos momentos inesquecíveis da minha família!! Até a próxima … Çok Teşekkür ederim💕"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-11",
+   "u": "https://www.instagram.com/reel/DZdc4ITRUOa/",
+   "j": "base",
+   "t": "Recebi essa caixa com uma missão: dar minhas primeiras impressões e tentar descobrir qual fragrância estava lá dentro. Vendada, comecei a explorar cada detalhe, tentando desvendar os acordes e identificar os ingredientes por trás daquele cheiro tão marcante. Algumas notas eram familiares, mas havia algo novo, surpreendente e impossível de ignorar. E então veio a descoberta: Natura Essencial Safran. Uma fragrância que une o açafrão, uma das especiarias mais preciosas da perfumaria árabe, ao Ishpink, uma joia da biodiversidade brasileira. O resultado é uma combinação intensa, sofisticada e envol"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-12",
+   "u": "https://www.instagram.com/reel/DZfX95AtVxE/",
+   "j": "base",
+   "t": "A @naturabroficial me enviou um press kit misterioso e eu precisei descobrir a senha para abrir! Mas antes mesmo de encontrar o código, já dava para sentir aquela intensidade marcante do Natura Essencial Safran! A espera valeu a pena! Estou apaixonada! Você encontra Natura com as Consultoras de beleza, nas lojas físicas, no app ou no site oficial! (🏷️ SAFRANCARIMA pra 5% de desconto em todo site) @naturabroficial #NaturaEssencialSafran *publicidade"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-12",
+   "u": "https://www.instagram.com/reel/DZf_OxHx9b3/",
+   "j": "base",
+   "t": "Eu sou o resultado do encontro entre o mundo árabe e o jeito brasileiro de viver. Talvez por isso eu tenha me identificado tanto com Natura Essencial Safran. Assim como a minha história, essa fragrância nasce da união de dois universos: de um lado, o açafrão, uma das especiarias mais preciosas da perfumaria árabe; do outro, o Ishpink, uma joia da biodiversidade brasileira. O resultado é uma fragrância intensa, sofisticada e cheia de personalidade, que traduz a riqueza de diferentes culturas em uma combinação única e marcante. Você encontra Natura com as Consultoras de beleza, nas lojas físicas"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-14",
+   "u": "https://www.instagram.com/reel/DZlXsWYRMRd/",
+   "j": "base",
+   "t": "O Brasil acolheu o Líbano e o a Líbano tem um carinho mto especial por nós brasileiros ❤️💚💛💙 Vídeos: @orientecomabou @eyesoflebanon @livelovebeirut @zeinchimalii @aljadeednews"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-17",
+   "u": "https://www.instagram.com/reel/DZtDWeoMSOv/",
+   "j": "base",
+   "t": "Tem cuidados que vão muito além da estética. 🤍 Hoje a We Go Clean veio fazer a higienização dos nossos estofados e eu fiquei impressionada com a diferença. Quem tem criança em casa sabe: a gente limpa tudo o que vê, mas os estofados acumulam muita coisa que não enxergamos. Por isso, esse é um cuidado importante para a saúde respiratória da família e que vale a pena fazer regularmente. E, como mãe, preciso dizer: isso também é saúde mental. 🫶🏻 Não existe sensação melhor do que ver a casa limpa, sentir aquele cheirinho de cuidado e saber que nossos filhos estão em um ambiente mais saudável. Obri"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-19",
+   "u": "https://www.instagram.com/reel/DZyI33gvvK9/",
+   "j": "base",
+   "t": "VAMOS BRASILLLLLLLL ❤️ 🇧🇷 🇵🇸 Hoje eu, @denisedemarchimakeup e @tapaasii arrasamos, né?"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-22",
+   "u": "https://www.instagram.com/reel/DZ3iZ2qsdVw/",
+   "j": "base",
+   "t": "Mohamedddd cadê você? Amando a @marimenezees_ na copa 💖❤️"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-23",
+   "u": "https://www.instagram.com/reel/DZ7sBs4Ofuc/",
+   "j": "base",
+   "t": "Toda felicidade do mundo ❤️ @leilinha_arabi @omarhindicb"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-23",
+   "u": "https://www.instagram.com/reel/DZ8ogByxebQ/",
+   "j": "base",
+   "t": "Oq vcs acharam do meu look combinando com o lançamento do Khamrah Wafa da @lattafa_brazil ??? Cada evento, festa ou casamento a @hamde_atelie se supera nos meus vestidos. Fala sério!!!! Tá cheio de bossa do RJ🥰"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-06-24",
+   "u": "https://www.instagram.com/reel/DZ--5mcqH5j/",
+   "j": "base",
+   "t": "FIFA fazendo modificações que de fato são inclusivas🤔 Mostra que quando um quer, consegue! O que acharam? Já tinham notado? #fifa #copa2026 #copa #brazil #isla"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-06-25",
+   "u": "https://www.instagram.com/reel/DaBl52bqKtm/",
+   "j": "base",
+   "t": "Uma questão que sempre quis trazer aqui: Por que o fato de não beber surpreende tanto e é tão questionado? Cada pessoa escolhe o que quer para si, mas a normalização do excesso assusta! O que acham do assunto? #reels #bebida #alcool #muçulmano #bet"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-25",
+   "u": "https://www.instagram.com/reel/DaBozEzxVA4/",
+   "j": "base",
+   "t": "Waha em árabe significa Oásis🏝️, e tem perfumes que têm o poder de nos teletransportar né? O Khamrah Waha é o novo lançamento da linha Khamrah da @lattafa_brazil , ele me leva direto para aquela sensação de verão, brisa no rosto e a energia do Rio de Janeiro.🌊☀️ É uma fragrância totalmente diferente das outras da linha. Ele é fresco, cítrico, aquático, refrescante mas com um toque envolvente. Inclusive agora vocês já podem comprar os perfumes da Lattafa no site oficial www.lattafabrasil.com e eu tenho um cupom MARIAM de 5% de desconto em todo site. 💙"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-26",
+   "u": "https://www.instagram.com/reel/DaEDZbIRczW/",
+   "j": "base",
+   "t": "Como filha de libanese e alguém que cresceu dentro de restaurante árabe, eu sou bem exigente quando o assunto é comida árabe.😅 Por isso preciso indicar: o @rafih.moema é simplesmente delicioso! Vale muito a visita. Além de ser um restaurante é um empório e doceira, tem todos os ingredientes da culinárias árabe. E se vc não pode ir até o Rafih ele vai até vc, da pra comprar online pelo site https://rafihdoceria.com.br Quem for lá não pode sair sem pedir lahmajin 😋😋"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-27",
+   "u": "https://www.instagram.com/reel/DaGrThfvNsp/",
+   "j": "base",
+   "t": "AAAAAS minaê tio! Zuzu entrevistou os irmãos mais queridos da internet! Amamos a tarde com vocês! @bedandroombr @panini_sport"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-06-27",
+   "u": "https://www.instagram.com/p/DaG5_RNkQq8/",
+   "j": "base",
+   "t": "Eu ainda não superei esse dia 🩵🩵 O vestido perfeito que a @hamde_atelie fez pra mim e o evento chiquerrimo pro novo lançamento da @lattafa_brazil"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-06-28",
+   "u": "https://www.instagram.com/reel/DaJTIIXKz3R/",
+   "j": "base",
+   "t": "O futebol nunca foi apenas futebol. Se a FIFA decide tomar posição diante de conflitos internacionais, essa postura precisa ser coerente. A Rússia foi excluída após a invasão da Ucrânia. Já Israel segue disputando as eliminatórias da Copa mesmo diante do gen0c1d10 em G4z4 e do processo em curso na Corte Internacional de Justiça. Enquanto isso, nesta Copa, vimos atletas, dirigentes e até um árbitro oficial serem impedidos de participar por questões políticas e burocráticas. Dois pesos e duas medidas que vemos fora dos gramados está dentro agora. #fifa #copadomundo #eua #ira #mexico"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-28",
+   "u": "https://www.instagram.com/p/DaJTQhmDwMk/",
+   "j": "base",
+   "t": "Nossos favoritos no @almanararestaurante ❤️ @pr.connect"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-06-30",
+   "u": "https://www.instagram.com/reel/DaObTZYPsP2/",
+   "j": "base",
+   "t": "Ter uma rotina corrida não significa fazer tudo sozinha. 🤍 A praticidade também faz parte da minha rede de apoio, e a @shopper.com.br me ajuda a economizar tempo e ainda encontrar ótimas promoções no dia a dia. Tudo chega na porta do meu apartamento, organizado e pronto para guardar. Mais tempo para o que realmente importa: minha família e o meu trabalho. 💚"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-06-30",
+   "u": "https://www.instagram.com/reel/DaOd39-qXGH/",
+   "j": "base",
+   "t": "O tipo de representatividade que emociona e importa! 🥹❤️ Que possamos o upar cada vez mais espaços e mostrar quem somos sem termos um alvo em nossas cabeças o tempo todo🙌🏼 DIMA MAGHREB🇲🇦 #marrocos #copa #worldcup #dimamaghrib #morocco"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-01",
+   "u": "https://www.instagram.com/p/DaRA21Mj5G7/",
+   "j": "base",
+   "t": "Junho de muita comida, pessoas queridas, esportes, @usedohabr , jogos do Brasil e muita felicidade ❤️ o último vídeo da sequência é o melhor!"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-07-07",
+   "u": "https://www.instagram.com/reel/DagFFiWqUME/",
+   "j": "base",
+   "t": "Que dor foi assistir esse jogo 💔🇪🇬 #egypt #worldcup #copa #futebop #soccer"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-07-09",
+   "u": "https://www.instagram.com/reel/DalqJGlqnek/",
+   "j": "base",
+   "t": "O sofrimento emocional dessa copa não tá no mapa... nem o favoritismo para certos hermanos 🤷🏻‍♀️👀 #copa #fifa #argentina #worldcup #roubo"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-10",
+   "u": "https://www.instagram.com/reel/DaoZZWHR9I-/",
+   "j": "base",
+   "t": "Só eu amo dia de casamento árabe??❤️❤️❤️ Perfumes: Queen of Arabia e Yara Elixir @lattafa_brazil"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-14",
+   "u": "https://www.instagram.com/reel/DaybuzXPKLc/",
+   "j": "base",
+   "t": "CASA NOVAAAA = tudo novo! E pra encontrar tudo que eu preciso em um só lugar, fui na @lojacasaoriente e vim fazer um unboxing com vocês!"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-15",
+   "u": "https://www.instagram.com/p/Da1Rr-mka2m/",
+   "j": "base",
+   "t": "Eu sempre fico apaixonada pelo último vestido que eu uso❤️ Esse é um kaftan marroquino(Vlww @rafa_marrocos por me lembrar😘) que comprei na minha viagem pro Marrocos há uns 4 anos. Inclusive uma das melhores viagens que eu já fiz😍"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-18",
+   "u": "https://www.instagram.com/reel/Da9AxgVspjB/",
+   "j": "base",
+   "t": "Viemos assistir o @utsriodejaneiro com a @premiumlindoia e foi uma das melhores experiências da vidaaaa! Que vive boa! Ainda aproveitamos para uma hidratação incrível com os lançamentos das águas saborizadas flavors! Uma melhor que a outra!"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-19",
+   "u": "https://www.instagram.com/p/Da-__b3FKno/",
+   "j": "base",
+   "t": "A beleza desse lugar é de tirar o fôlego! E o @adelarabi de fotógrafo merece qual nota? 😁"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-20",
+   "u": "https://www.instagram.com/reel/DbCGZ0GMde4/",
+   "j": "base",
+   "t": "Minha coleção de @larroude ‘s ❤️ qual é o seu favorito? Obrigada @marinalarroude por essas maravilhas!"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-21",
+   "u": "https://www.instagram.com/reel/DbEtsn7x2L-/",
+   "j": "base",
+   "t": "Se tem uma coisa que eu gosto de ver é a perfumaria árabe ganhando cada vez mais espaço. Fabricado no Brasil, pelo @oboticario , Hadiya está de volta!! O coração da fragrância conta com a Rosa Damascena para magnitude e o Oud Assam para potência. Hadiya é marcante, sofisticada e envolvente. Esse lançamento em 2025 estou em apenas 7 dias, não perca sua oportunidade de já garantir o seu!! *publicidade #Hadiya"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-21",
+   "u": "https://www.instagram.com/reel/DbEts7jvjup/",
+   "j": "base",
+   "t": "Todos os meus organizadores são da @lojacasaoriente ❤️"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-23",
+   "u": "https://www.instagram.com/p/DbHXUXKkZm6/",
+   "j": "nucleo",
+   "t": "Só eu que vejo 3 girafas na 1ª foto?? 👀🤣 Passamos o dia no @zoosaopaulo e @simbasafarisp foi uma experiência única, vcs não tem noção da felicidade das crianças. Mtoo obrigada por fazer as férias deles inesquecíveis❤️"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-24",
+   "u": "https://www.instagram.com/reel/DbMWx8psBP-/",
+   "j": "nucleo",
+   "t": "Tem notícia boa por aqui! 🤎✨ Hadiya voltou! Eu participei da campanha de lançamento no ano passado e fiquei muito feliz em fazer parte desse retorno também. Inspirado na perfumaria árabe, ele combina Rosa Damascena e Oud Assam em uma fragrância marcante, elegante e inesquecível. Se você queria conhecer, essa é a hora! Depois me contem o que acharam. 🫶💛 #Publicidade #Hadiya @oboticario"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-07-25",
+   "u": "https://www.instagram.com/p/DbOC7LegATx/",
+   "j": "nucleo",
+   "t": "De @emiliopucci ❤️"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-27",
+   "u": "https://www.instagram.com/reel/DbT5nlbxoQ1/",
+   "j": "nucleo",
+   "t": "Tem receita que parece que deu horas de trabalho, mas na verdade o segredo é deixar o trabalho pesado com a KitchenAid. 😍 Esse copinho de quibe recheado com homus é uma dessas receitas que impressionam qualquer visita e ficam prontas em menos de uma hora. Para a massa do kibe: • 200 g de trigo para quibe • 130 g de carne moída • 1 cebola pequena • ½ colher (sopa) de tempero árabe • ½ colher (sopa) de sal • 1 colh sobremesa cominho 1 colh sobremesa de páprica defumada • Pimenta-do-reino a gosto • 2 colheres (sopa) de hortelã fresca • Manjericão a gosto Coloque o trigo na água quente e deixe hid"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-30",
+   "u": "https://www.instagram.com/reel/DbZXZFWxv0Q/",
+   "j": "nucleo",
+   "t": "Em Foz do Iguaçu tem muitos restaurantes halal, quando fui lá o @brimomudi me levou em 11 restaurantes em 1 dia🤣 Já salva esse vídeo pra quando vc for pra Foz do Iguaçu 😋"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-30",
+   "u": "https://www.instagram.com/reel/Dbb6xCOx3Q-/",
+   "j": "nucleo",
+   "t": "Oq vcs acharam???❤️❤️ Hoje no evento de lançamento da @hudabeauty no Brasil na @sephorabrasil"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-07-31",
+   "u": "https://www.instagram.com/reel/DbeSsn3RtkS/",
+   "j": "nucleo",
+   "t": "Sempre o último vestido é o meu preferido😍❤️ Quem tem amigo tem tudo né?? Obrigada @samirakissa 💕💕"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-08-01",
+   "u": "https://www.instagram.com/reel/Dbg6ndrRQMu/",
+   "j": "nucleo",
+   "t": "Esse foi um dos vídeos mais lindos que fizemos juntos. 🤎 E, neste Dia dos Pais, nada melhor do que presentear quem nós amamos com uma fragrância especial. A Lattafa Brasil separou cinco perfumes masculinos incríveis em promoção: The Kingdom, Khamrah, Emeer, Hayati e Al Noble Wazeer e estão no site www.lattafabrasil.com E o melhor: você ainda pode aproveitar o meu cupom MARIAM pra garantir + 5% de desconto Qual desses combina mais com o seu pai? The Kingdom: elegante, sofisticado, com lavanda, tabaco e baunilha. * Khamrah: doce e intenso, com canela, tâmaras e baunilha. * Emeer: fresco e refina"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-06",
+   "u": "https://www.instagram.com/p/DbsyX_NkV3F/",
+   "j": "nucleo",
+   "t": "212 mansion @carolinaherrera ❤️ uma experiência imersiva que nos transportou ao universo da nova fragrância 212 Men Parfum!"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-07",
+   "u": "https://www.instagram.com/p/DbwdPp6lLKp/",
+   "j": "nucleo",
+   "t": "DOMINGO - 09/08 às 18:00 Lançamento da nova coleção da @usedohabr Ansiosissima!"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-08-08",
+   "u": "https://www.instagram.com/reel/DbyzdPIzZYZ/",
+   "j": "nucleo",
+   "t": "Esse ano, o presente de Dia dos Pais também virou o nosso presente de 10 anos de casamento. E não poderia ter sido melhor: finalmente montamos a nossa cama dos sonhos com o Emma Hybrid 2.0. Ele combina molas ensacadas com espumas de alta tecnologia, o que garante mais suporte para a coluna, alívio de pontos de pressão e muito mais conforto durante a noite. Além disso, ajuda a reduzir a transferência de movimento e mantém uma sensação mais fresca ao dormir. Se você também está pensando em trocar de colchão, esse é o momento. No site da Emma você encontra até 55% de desconto, mais 15% OFF com o "
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-08-09",
+   "u": "https://www.instagram.com/p/Db0s8ZylqhA/",
+   "j": "nucleo",
+   "t": "الحمد لله الذي بنعمته تتم الصالحات 🤍 Our Fatiha has been read, and a beautiful new chapter begins🥹 May Allah bless our journey, fill it with love and barakah, and bring us together in goodness always🤲🏼🤍 Que Deus abençoe esse novo capítulo em nossas vidas, sou a mulher mais sortuda❤️ A special thank you to @inspiredbyayesha for this beautiful personalized sign! Can't wait for what's to come 🥰"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-09",
+   "u": "https://www.instagram.com/p/Db039golAkZ/",
+   "j": "nucleo",
+   "t": "É HOJE! Nova coleção da @usedohabr estará no ar as 18:00 ❤️ confirme tudo no www.dohabr.com"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-08-10",
+   "u": "https://www.instagram.com/reel/Db36X8lqyHi/",
+   "j": "nucleo",
+   "t": "Arrume-se comigo para ser pedida em casamento🥰❤️ #arrumesecomigo #casamento #arabe #reels #fatiha"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-11",
+   "u": "https://www.instagram.com/p/Db6nddQDzJM/",
+   "j": "nucleo",
+   "t": "RIO 48 horas ❤️ com lookinhos @usedohabr"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "instagram",
+   "d": "2026-08-12",
+   "u": "https://www.instagram.com/reel/Db9KEJDzlwS/",
+   "j": "nucleo",
+   "t": "Um dia era sonho. Hoje é realidade❤️ Viajar pelo mundo com a minha família é uma das minhas maiores realizações. E para viajar tranquila, seguro viagem é indispensável. Com a @corisbrasil , você viaja protegido e ainda economiza. Use meu cupom MARIAM20 e garanta 20% de desconto + 25% desconto para acompanhante. Porque viajar tranquilo faz toda a diferença. #publi"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-13",
+   "u": "https://www.instagram.com/reel/Db9du_bsn0a/",
+   "j": "nucleo",
+   "t": "Nosso dia de patricinha caricocassss 🤎 Cerâmica: @tintalavidarj Restaurante: @laspiaggiacucina Pilates: @thesimplegym"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-13",
+   "u": "https://www.instagram.com/p/Db-pjXLEZIh/",
+   "j": "nucleo",
+   "t": "Lookinhos @usedohabr ❤️"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "instagram",
+   "d": "2026-08-13",
+   "u": "https://www.instagram.com/reel/Db_s0DJMWcB/",
+   "j": "nucleo",
+   "t": "As aulas da Abraço Cultural @abracocultural começam no dia 19/08 e as inscrições ainda estão abertas! 🌎✨ Uma oportunidade de aprender uma nova língua, conhecer diferentes culturas com professores experientes. Não deixa para depois! 💛 * publi"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "instagram",
+   "d": "2026-08-13",
+   "u": "https://www.instagram.com/reel/Db_2H9wKrSh/",
+   "j": "nucleo",
+   "t": "Thank u so much @hudabeauty and @sephorabrasil for this beautiful package🥰❤️ Eu amo uma marca de make🥹 #makeup #maquiagem #reels #hudabeauty #pr"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-14",
+   "u": "https://www.instagram.com/p/DcBMXflEXyo/",
+   "j": "nucleo",
+   "t": "O Rio é lindo, mas o Rio lá de cima é outro nível! Obrigada por tudo amiga linda @ayabittencourt ps. Sim, eu estava chorando na última foto kkkkkkk"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-14",
+   "u": "https://www.instagram.com/reel/DcBoj4SRk_2/",
+   "j": "nucleo",
+   "t": "Tutorial de hijab com brinco da @leilinha_arabi pra vocês ❤️🥰"
+  },
+  {
+   "a": "carima-orra",
+   "r": "instagram",
+   "d": "2026-08-14",
+   "u": "https://www.instagram.com/reel/DcCVAKmvL23/",
+   "j": "nucleo",
+   "t": "Hoje eu levei o hijab para o meio de Copacabana. Coloquei uma placa na praia: “Quer experimentar um hijab?” Sem obrigação. Sem julgamento. Sem tentar convencer ninguém de nada. Só um convite para conhecer, experimentar e, principalmente, conversar. Porque muitas vezes aquilo que parece tão diferente de longe deixa de ser estranho quando a gente chega perto. Vieram mulheres curiosas, homens, pessoas que nunca tinham tocado em um hijab e outras cheias de perguntas. E foi exatamente por isso que eu quis fazer isso: trocar o preconceito pela curiosidade e a distância pelo encontro. E eu quero sabe"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649076577216548104",
+   "j": "base",
+   "t": "Nós muçulmanos rezamos 5x ao dia. Então rezamos onde estivermos #muculmanos #religiao #curiosidades"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649107399990627592",
+   "j": "base",
+   "t": "Vcs já viram geleia de azeitona? Comi na Turquia, e olha que já vou a Turquia mtos anos e nunca tinha visto. #curiosidades #turquia #viagem #provandocomidas"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649113403792854280",
+   "j": "base",
+   "t": "Um dos países que eu mais amo visitar é a #turquia . Vamos fazer uma parada aqui antes de ir até a a Arábia Saudita fazer a peregrinação #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649120285278342407",
+   "j": "base",
+   "t": "Tava tudo com Gosto de nori kkkkkk a alga que faz sushi #viagem #provandocomidas"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649126019227536647",
+   "j": "base",
+   "t": "Oq vcs acharam dos nossos looks? #viagem #arrumesecmg #modamodesta"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-08",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649156256074059026",
+   "j": "base",
+   "t": "Se chama #adhan e a cada oração nos países islâmicos tem o chamado da oração. Ou seja são 5x por dia #turquia #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-09",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649499746297531655",
+   "j": "base",
+   "t": "Hospitalidade turca #viagem #turquia"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649829411516108050",
+   "j": "base",
+   "t": "Nunca tinha comido esse kibe e olha que já fui várias vezes pra #Turquia #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649858977982942471",
+   "j": "base",
+   "t": "Vcs sabiam que da pra fazer esse check in personalizado?? Com td esse conforto? #viagem #turquia #turkishairlines"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649863073083165960",
+   "j": "base",
+   "t": "A melhor #salavip é essa🥰 #viagem #turkishairlines #viagem #turquia @Turkish Airlines"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649866728519912712",
+   "j": "base",
+   "t": "Lembrando que é tudo #halal 😋😋"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649881588217482504",
+   "j": "base",
+   "t": "#viagem #istambul"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-10",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7649920557932219656",
+   "j": "base",
+   "t": "Preferimos tomar o café da manhã na sala vip 😋 #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-11",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650233042614668551",
+   "j": "base",
+   "t": "Uma galera no aeroporto de Istambul indo para Arábia Saudita. Os que estão de ihram(toalhas) estão indo pra Meca e já vão fazer a peregrinação menor. Eu vou primeiro pra Medina, e dps de alguns dias vamos pra Meca #hajj2026 #hajj #peregrinacao #mariamnohajj #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-11",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650247601916349714",
+   "j": "base",
+   "t": "Recebi essa caixa com uma missão: dar minhas primeiras impressões e tentar descobrir qual fragrância estava lá dentro. Vendada, comecei a explorar cada detalhe, tentando desvendar os acordes e identificar os ingredientes por trás daquele cheiro tão marcante. Algumas notas eram familiares, mas havia algo novo, surpreendente e impossível de ignorar. E então veio a descoberta: Natura Essencial Safran. Uma fragrância que une o açafrão, uma das especiarias mais preciosas da perfumaria árabe, ao Ishpink, uma joia da biodiversidade brasileira. O resultado é uma combinação intensa, sofisticada e envol"
+  },
+  {
+   "a": "carima-orra",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@carimaorra1/video/7650524411216383239",
+   "j": "base",
+   "t": "A @naturabroficial me enviou um press kit misterioso e eu precisei descobrir a senha para abrir! Mas antes mesmo de encontrar o código, já dava para sentir aquela intensidade marcante do Natura Essencial Safran! A espera valeu a pena! Estou apaixonada! Você encontra Natura com as Consultoras de beleza, nas lojas físicas, no app ou no site oficial! (🏷️ SAFRANCARIMA pra 5% de desconto em todo site) @naturabroficial #NaturaEssencialSafran *publicidade"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650547730883841288",
+   "j": "base",
+   "t": "Vcs sabiam que da pra ficar de graça? Fazendo Stopover na Turquia com a @Turkish Airlines #viagem #turquia"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650573271213067528",
+   "j": "base",
+   "t": "Nunca imaginei ganhar uma sombrinha no avião😅 mas como estamos indo fazer o hajj a @Turkish Airlines entregou pra todos os passageiros do voo (todos estavam indo fazer o hajj) esse kit que vai sermtooo útil nos próximos dias. #viagem #mariamnohajj #turkishairlines #hajj2026"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650590000085568776",
+   "j": "base",
+   "t": "Saindo de Istambul e indo pra Medina, na Arábia Saudita. Estamos chegando🥰 #mariamnohajj #viagem #hajj2026 #maeefilha"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650641773047352594",
+   "j": "base",
+   "t": "Eu sou o resultado do encontro entre o mundo árabe e o jeito brasileiro de viver. Talvez por isso eu tenha me identificado tanto com Natura Essencial Safran. Assim como a minha história, essa fragrância nasce da união de dois universos: de um lado, o açafrão, uma das especiarias mais preciosas da perfumaria árabe; do outro, o Ishpink, uma joia da biodiversidade brasileira. O resultado é uma fragrância intensa, sofisticada e cheia de personalidade, que traduz a riqueza de diferentes culturas em uma combinação única e marcante. Você encontra @Naturabr com as Consultoras de beleza, nas lojas físi"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650662054658837767",
+   "j": "base",
+   "t": "Estamos em Medina, uma das cidades mais sagradas do Islam. Foi aqui que o Profeta Mohamad viveu após deixar Meca e onde está localizada a Mesquita do Profeta. Embora Medina não faça parte dos rituais religiosos do Hajj, muitos peregrinos vêm até aqui para visitar seus locais históricos, rezar e sentir de perto essa energia maravilhosa. #medina #mariamnohajj #viagem #arabiasaudita #hajj2026"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650908686579141895",
+   "j": "base",
+   "t": "Essas pessoas que falam ê pq são ignorantes, pq em todos os países árabes/islamicos que eu visitei tem mulheres muçulmanas trabalhando em todas as áreas. #viagem #arabiasaudita #hajj2026 #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650939042053377287",
+   "j": "base",
+   "t": "Estamos indo pro nosso hotel que é bem de frente pra Mesquita do Profeta em Medina. Mostrei um pouco o caminho pra vcs. #viagem #medina #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650944041735048456",
+   "j": "base",
+   "t": "😋😋 #mariamnohajj #medina #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650949152163024135",
+   "j": "base",
+   "t": "É surreal quantas pessoas tem. É um mar de gente. E todas as horas do dia. Principalmente nos horários das orações. Mas nunca fecha #mesquita #arabiasaudita #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650956734994926855",
+   "j": "base",
+   "t": "Nem parece que estamos no calor de 40 graus 😅 na vdd eu tô com frio🤣 é impressionante a estrutura. #medina #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-13",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7650963797980548370",
+   "j": "base",
+   "t": "Vc sabia que as mesquitas mais sagradas pro Islam são 3? A Masjid al haram em Meca, essa Masjid Nabawi em Medina e Mesquita Aqsa em Jerusalém. #mariamnohajj #muculmanos #mesquita"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-15",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7651426713418648840",
+   "j": "base",
+   "t": "Nesse vídeo coloquei a tradução do que falamos na oração. #curiosidades #muculmanos #oracaoislamica"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-15",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7651432266060582152",
+   "j": "base",
+   "t": "É um mar de gente.. e não acaba 🥰 #medina #mesquita #viagem #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-15",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7651438902997159186",
+   "j": "base",
+   "t": "🇱🇧🇧🇷❤️ #libano #brasil #curiosidades #copadomundo"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-15",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7651713578809953543",
+   "j": "base",
+   "t": "Vendo da nossa perspectiva como fazemos uma oração 🥰 #muculmanos #oracao #mariamnohajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-17",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7652164890504776968",
+   "j": "base",
+   "t": "#hegira #anonovoislamico #muculmanos #1448h"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-17",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7652512312040983826",
+   "j": "base",
+   "t": "Não pode não 😅🤣 #casaltiktok #muculmanos #émeme"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-20",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7653603584625364232",
+   "j": "base",
+   "t": "Essa publicação poderia viralizar assim como a notícia né? #islam #muculmanos #religiao"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-06-24",
+   "u": "https://www.tiktok.com/@hyattomar/video/7655081417428192533",
+   "j": "base",
+   "t": "Já tinham notado isso??? O que acharam?🥹❤️ #fifa #copa #copadomundo #worldcup #islam"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-06-25",
+   "u": "https://www.tiktok.com/@hyattomar/video/7655457695570611477",
+   "j": "base",
+   "t": "Sempre sou questionado sobre não beber e os comentários me deixaram reflexiva.... Qual a opinião de vcs? #alcool #bebida #muçulmano #isla #bet"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-26",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7655491616928582930",
+   "j": "base",
+   "t": "Waha em árabe significa Oásis🏝️, e tem perfumes que têm o poder de nos teletransportar né? O Khamrah Waha é o novo lançamento da linha Khamrah da @Lattafa Brasil , ele me leva direto para aquela sensação de verão, brisa no rosto e a energia do Rio de Janeiro.🌊☀️ É uma fragrância totalmente diferente das outras da linha. Ele é fresco, cítrico, aquático, refrescante mas com um toque envolvente. Inclusive agora vocês já podem comprar os perfumes da Lattafa no site oficial www.lattafabrasil.com e eu tenho um cupom MARIAM de 5% de desconto em todo site. 💙"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-26",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7655851691635445010",
+   "j": "base",
+   "t": "De comida árabe eu entendo, esse empório, restaurante é doceira fica em Moema. Pra quem quer comer comida árabe autêntica vale muito a pena a visita. O lugar se chama RAFIH, fica na Alameda Iraé, 405, Moema Sp. #restaurantearabe #comidaarabe #provandocomidas"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656501109074300168",
+   "j": "base",
+   "t": "Como a cidade tá cheia pq o hajj está chegando tudo tem mta fila. É um constante teste de paciência 😅 #hajj #viagem #peregrinacao #muculmanos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656506908924218631",
+   "j": "base",
+   "t": "Esse ano fizemos o 5º pilar do Islam, que é o Hajj, a peregrinação à Meca. #islam #muculmanos #hajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656516175957921032",
+   "j": "base",
+   "t": "Vim pro lanacamento do novo perfume da @Lattafa Brasil no #Copacabanapalace então tinha que ir com um vestido a altura. A @Hamde_atelie fez pra mim. Olha que obra de arte #riodejaneiro #modamodesta #vestidofesta #perfumearabe"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656534989449760007",
+   "j": "base",
+   "t": "#viagem #arabiasaudita #hajj"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656573157037329672",
+   "j": "base",
+   "t": "Tem lojas de #abaya em todo lugar. Eu piro nessas lojas 😅 #modamodesta #medina #viagem"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-06-28",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7656584530928602376",
+   "j": "base",
+   "t": "#TelaVerde3D"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-29",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656628353864109320",
+   "j": "base",
+   "t": "#muculmana #hijab #respeito"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-06-29",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7656643016941243656",
+   "j": "base",
+   "t": "#copadobrasil"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-29",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656968290945879314",
+   "j": "base",
+   "t": "O resultado do encontro entre o mineiro e o libanês😋 #receitasimples #receitafacil #fy #comidaarabe"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-30",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656989915120520456",
+   "j": "base",
+   "t": "Essa é a Mesquita do Profeta Mohamad, se chama Masjid an Nabawi, fica em Medina. Uma oração exata aqui equivale a 1000 orações. #curiosidades #muculmanos #mesquira"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-30",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7656997742148881682",
+   "j": "base",
+   "t": "Minha mãe engatou a 3ª e não parava rezar. Era uma atrás da outra😅 #islam #muculmanos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-06-30",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657005423081327880",
+   "j": "base",
+   "t": "Alguém me belisca pq parece que tô sonhando #madinah #mariamnohajj #viagem #fy #muculmanos"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-06-30",
+   "u": "https://www.tiktok.com/@hyattomar/video/7657319275081764117",
+   "j": "base",
+   "t": "Dima Maghreb🙌🏼🇲🇦 #marrocos #morocco #copa #worldcup #futebol"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657637818608422152",
+   "j": "base",
+   "t": "Esse é o chamado da oração, 5 vezes por dia é tocado para chamar os feitos ao encontro com Deus. #muculmanos #islam #mariamnohajj #medina"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657657967256292616",
+   "j": "base",
+   "t": "Vc sabe que os árabes são os maiores negociantes do mundo né?? E eu como filha de libanes, seu pechinchar mto bem😅🤣 #viagem #falandoarabe #pechinchar"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657663628597857544",
+   "j": "base",
+   "t": "Gente.. negociar faz parte do jogo. No oriente médio negociar é uma arte, não tem como vc comprar algo sem negociar. Isso é cultural. #culturaarabe #viagem #curiosidades #arabes #linguaarabe"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657670746336136455",
+   "j": "base",
+   "t": "A generosidade que vc vê aqui eu nunca vi em nenhum lugar 😍❤️ #muculmanos #islam #generosidade"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657679511814753543",
+   "j": "base",
+   "t": "Tem uma energia tão boa aqui que não dá vontade de sair💕😍 #mesquita #casadeDeus #Medina"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657689911851502856",
+   "j": "base",
+   "t": "E ainda insistem em dizer que mulheres não trabalham nos países islâmicos. #muculmanas #islam"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657699855405452562",
+   "j": "base",
+   "t": "Eu fico louca com as lojas daqui. #abaya #modamodesta"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657932970170338578",
+   "j": "base",
+   "t": "Quando dá o chamado da oração, as lojas fecham para as pessoas fazerem a oração, e quando termina a oração elas abrem novamente #curiosidades #viagem #muculmanos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7657970892223352072",
+   "j": "base",
+   "t": "Tudo fechado😅 #oracao #muculmanos #islam"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658061716466502919",
+   "j": "base",
+   "t": "A disciplina do #muculmano é admirável. Não importa onde vc esteja, o encontro com Deus vai acontecer ❤️ #islam #respeito #disciplina"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658062479221640456",
+   "j": "base",
+   "t": "Eu amoo #abaya olha como fica elegante, mesmo com esse tênis😅 #modamodesta"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658071261465087240",
+   "j": "base",
+   "t": "Essa foi a 1ª Mesquita construída na história do Islam #curiosidades #mesquita #muculmanos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-02",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658072609115917586",
+   "j": "base",
+   "t": "Lá música #gospel da versão islâmica se chama #anasheed"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-03",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658123347624021266",
+   "j": "base",
+   "t": "Eu não sei se to louca não kkkkkk #bismillah #cr7 #cristianoronaldo #copadomundo"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-03",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7658435909427334407",
+   "j": "base",
+   "t": "#maeefilha #familia #mariamnohajj #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-05",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7659142311296716050",
+   "j": "base",
+   "t": "Vaiii #brasil"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-06",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7659516157115796743",
+   "j": "base",
+   "t": "Essa é a #Fulla a versão da Barbie #muculmana . Vcs já tinham visto?? #arabiasaudita #curiosidades"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-06",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7659557821486271762",
+   "j": "base",
+   "t": "#curiosidades #fulla #boneca #viagem #muculmana"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-07-10",
+   "u": "https://www.tiktok.com/@hyattomar/video/7660896764844707092",
+   "j": "base",
+   "t": "E sempre os hermanos envolvidos.... #copa #netflix #fifa #argentina #roubo"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-11",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7661381214888103175",
+   "j": "base",
+   "t": "Quem aqui gosta de casamento árabe??? #casamentoarabe #makeup #zendaya"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-11",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7661410549049265416",
+   "j": "base",
+   "t": "Oq vcs acharam do nosso look? #casamentoarabe #casaltiktok #kaftan #marrocos"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7661458330023447815",
+   "j": "base",
+   "t": "Não tem como🤣🤣 #musicaarabe #casamentoarabe #casal"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-12",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7661726472431881480",
+   "j": "base",
+   "t": "Eu amooooo esse quadro❤️ #casamentoarabe #vestidosdefesta #arabe"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-07-13",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7662035973093477640",
+   "j": "base",
+   "t": "Ai desculpa gente….#england"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-16",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7662931867930332434",
+   "j": "base",
+   "t": "Não tem como ficar parado #musicarabe #casamentoarabe #arabes"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-07-20",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7664547624590036231",
+   "j": "base",
+   "t": "Ele agradecendo por ser campeão e o resto só na confusão #spain🇪🇸"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-22",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7665392173763824914",
+   "j": "base",
+   "t": "Se tem uma coisa que eu gosto de ver é a perfumaria árabe ganhando cada vez mais espaço. Fabricado no Brasil, pelo @oboticario , Hadiya está de volta!! O coração da fragrância conta com a Rosa Damascena para magnitude e o Oud Assam para potência. Hadiya é marcante, sofisticada e envolvente. Esse lançamento em 2025 estou em apenas 7 dias, não perca sua oportunidade de já garantir o seu!! *publicidade #Hadiya"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-07-23",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7665859042501348616",
+   "j": "nucleo",
+   "t": "#lamineyamal"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-07-25",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7666248732865826066",
+   "j": "nucleo",
+   "t": "#odisseia"
+  },
+  {
+   "a": "carima-orra",
+   "r": "tiktok",
+   "d": "2026-07-25",
+   "u": "https://www.tiktok.com/@carimaorra1/video/7666475363429600519",
+   "j": "nucleo",
+   "t": "Tem notícia boa por aqui! 🤎✨ Hadiya voltou! Eu participei da campanha de lançamento no ano passado e fiquei muito feliz em fazer parte desse retorno também. Inspirado na perfumaria árabe, ele combina Rosa Damascena e Oud Assam em uma fragrância marcante, elegante e inesquecível. Se você queria conhecer, essa é a hora! Depois me contem o que acharam. 🫶💛 #Publicidade #Hadiya @oboticario"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-27",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7667297399836069138",
+   "j": "nucleo",
+   "t": "Ahh mas te obrigam… #muculmanas #islam"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-27",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7667312131829697799",
+   "j": "nucleo",
+   "t": "Respondendo a @Karla Duarte Nunes"
+  },
+  {
+   "a": "fabiola-oliveira",
+   "r": "tiktok",
+   "d": "2026-07-27",
+   "u": "https://www.tiktok.com/@fabiolaoliver/video/7667340944013790482",
+   "j": "nucleo",
+   "t": "#bts"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7667611237559110930",
+   "j": "nucleo",
+   "t": "Já ouviram falar desses pratos?? São super tradicionais mas não é mto comum de ver nos restaurantes árabes no Brasil. #comidaarabe"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-28",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7667708180964674834",
+   "j": "nucleo",
+   "t": "Depois de esgotar em apenas 7 dias em 2025, a joia da alta perfumaria árabe do @O Boticário está de volta: Hadiya. Fragrância intensa, com uma fixação incrível e aquele rastro que faz as pessoas perguntarem o que você está usando. Se você não conseguiu garantir o seu da última vez, essa é a oportunidade. #Hadiya *publicidade"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-07-31",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7668825304181378322",
+   "j": "nucleo",
+   "t": "@Huda Beauty chegou no #brasil"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7668850207710301447",
+   "j": "nucleo",
+   "t": "#muculmana #arrumesecmg #grwm"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7668879587547319560",
+   "j": "nucleo",
+   "t": "Perrengue chique😅 #perrenguechique #perrengue #sufoco"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7668897621058030855",
+   "j": "nucleo",
+   "t": "Azinimagas tentando me tombar né??? 🤣🤣 #nemémeme #perrenguechique"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7669139336394312968",
+   "j": "nucleo",
+   "t": "Respondendo a @Helder Nepomuceno 🤣🤣🤣🤣"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-01",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7669196671422663943",
+   "j": "nucleo",
+   "t": "Respondendo a @guimarcelle so cmg pra acontecer isso mesmo kkkkkk #perrenguechique"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-04",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7670314889700773127",
+   "j": "nucleo",
+   "t": "Estamos fazendo a nossa viagem dos sonhos. Chegamos no Japão 🇯🇵🥹😍 #japao #viagem"
+  },
+  {
+   "a": "mariam-chami",
+   "r": "tiktok",
+   "d": "2026-08-04",
+   "u": "https://www.tiktok.com/@mariamchami1/video/7670328283950550280",
+   "j": "nucleo",
+   "t": "Oq vcs acharam do meu look pro 1º dia no #japao ? #abaya #modamodesta #muculmanasbrasileiras"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-08-08",
+   "u": "https://www.tiktok.com/@hyattomar/video/7671671431075335444",
+   "j": "nucleo",
+   "t": "Noivei🥰🤍 #noiva #surpresa #fyp #muculmana #fatiha"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-08-10",
+   "u": "https://www.tiktok.com/@hyattomar/video/7672493906650713364",
+   "j": "nucleo",
+   "t": "Arab Cinderella I guess🩵 #dress #wedding #blue #arab #princess"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-08-10",
+   "u": "https://www.tiktok.com/@hyattomar/video/7672510412046224660",
+   "j": "nucleo",
+   "t": "O melhor arrume-se comigo ❤️🥰. #grwm #arrumesecomigo #fatiha #muculmana #arabe"
+  },
+  {
+   "a": "hyatt-omar",
+   "r": "tiktok",
+   "d": "2026-08-13",
+   "u": "https://www.tiktok.com/@hyattomar/video/7673652819383127317",
+   "j": "nucleo",
+   "t": "Obrigada @Sephora Brasil e @Huda Beauty por esse pacote maravilhoso🥹❤️ #pravc #pr #makeup #maquiagem #hudabeauty"
+  }
+ ],
+ "publicacoes_por_no": {
+  "mariam-chami": [
+   0,
+   2,
+   3,
+   4,
+   6,
+   7,
+   12,
+   15,
+   16,
+   18,
+   26,
+   28,
+   32,
+   34,
+   37,
+   38,
+   39,
+   40,
+   41,
+   44,
+   49,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   67,
+   68,
+   69,
+   70,
+   71,
+   73,
+   74,
+   75,
+   76,
+   77,
+   78,
+   79,
+   80,
+   81,
+   82,
+   83,
+   84,
+   85,
+   86,
+   87,
+   88,
+   89,
+   90,
+   93,
+   94,
+   95,
+   96,
+   97,
+   98,
+   99,
+   101,
+   103,
+   104,
+   105,
+   106,
+   108,
+   109,
+   110,
+   111,
+   112,
+   113,
+   114,
+   115,
+   116,
+   117,
+   118,
+   119,
+   120,
+   121,
+   122,
+   123,
+   124,
+   125,
+   127,
+   128,
+   129,
+   130,
+   132,
+   134,
+   138,
+   139,
+   141,
+   142,
+   143,
+   144,
+   145,
+   146,
+   147,
+   148,
+   149,
+   150
+  ],
+  "hyatt-omar": [
+   1,
+   13,
+   14,
+   19,
+   22,
+   24,
+   25,
+   45,
+   47,
+   53,
+   91,
+   92,
+   107,
+   126,
+   151,
+   152,
+   153,
+   154
+  ],
+  "carima-orra": [
+   5,
+   8,
+   9,
+   10,
+   11,
+   17,
+   20,
+   21,
+   23,
+   27,
+   29,
+   30,
+   31,
+   33,
+   35,
+   36,
+   42,
+   43,
+   46,
+   48,
+   50,
+   51,
+   54,
+   55,
+   56,
+   72,
+   137
+  ],
+  "fabiola-oliveira": [
+   52,
+   100,
+   102,
+   131,
+   133,
+   135,
+   136,
+   140
+  ],
+  "#hajj2026": [
+   0,
+   70,
+   74,
+   75,
+   77,
+   78
+  ],
+  "#hajj": [
+   0,
+   70,
+   95,
+   96,
+   98
+  ],
+  "#hijab": [
+   1,
+   101
+  ],
+  "@turkishairlines": [
+   2,
+   3
+  ],
+  "#naturaessencialsafran": [
+   4,
+   5,
+   6,
+   71,
+   72,
+   76
+  ],
+  "@naturabroficial": [
+   4,
+   5,
+   6,
+   72
+  ],
+  "@leilinha_arabi": [
+   11,
+   55
+  ],
+  "@lattafa_brazil": [
+   12,
+   15,
+   18,
+   26
+  ],
+  "@hamde_atelie": [
+   12,
+   18,
+   97
+  ],
+  "#fifa": [
+   13,
+   19,
+   25,
+   91,
+   126
+  ],
+  "#copa": [
+   13,
+   22,
+   24,
+   25,
+   91,
+   107,
+   126
+  ],
+  "#isla": [
+   13,
+   92
+  ],
+  "#muçulmano": [
+   14,
+   92
+  ],
+  "#bebida": [
+   14,
+   92
+  ],
+  "#bet": [
+   14,
+   92
+  ],
+  "#alcool": [
+   14,
+   92
+  ],
+  "#copadomundo": [
+   19,
+   86,
+   91,
+   121
+  ],
+  "#morocco": [
+   22,
+   107
+  ],
+  "#worldcup": [
+   22,
+   24,
+   25,
+   91,
+   107
+  ],
+  "#marrocos": [
+   22,
+   107,
+   128
+  ],
+  "@usedohabr": [
+   23,
+   43,
+   46,
+   48,
+   51,
+   56
+  ],
+  "#roubo": [
+   25,
+   126
+  ],
+  "#argentina": [
+   25,
+   126
+  ],
+  "@lojacasaoriente": [
+   27,
+   33
+  ],
+  "@oboticario": [
+   32,
+   35,
+   134,
+   137
+  ],
+  "#hadiya": [
+   32,
+   35,
+   134,
+   137,
+   142
+  ],
+  "#publicidade": [
+   35,
+   137
+  ],
+  "#publi": [
+   37,
+   41,
+   44,
+   49
+  ],
+  "@sephorabrasil": [
+   39,
+   53
+  ],
+  "@hudabeauty": [
+   39,
+   53
+  ],
+  "#fatiha": [
+   47,
+   151,
+   153
+  ],
+  "#arabe": [
+   47,
+   130,
+   153
+  ],
+  "#arrumesecomigo": [
+   47,
+   153
+  ],
+  "#maquiagem": [
+   53,
+   154
+  ],
+  "#makeup": [
+   53,
+   127,
+   154
+  ],
+  "#hudabeauty": [
+   53,
+   154
+  ],
+  "#muculmanos": [
+   57,
+   83,
+   84,
+   87,
+   88,
+   89,
+   90,
+   95,
+   96,
+   104,
+   105,
+   106,
+   108,
+   111,
+   115,
+   116,
+   119
+  ],
+  "#religiao": [
+   57,
+   90
+  ],
+  "#curiosidades": [
+   57,
+   58,
+   84,
+   86,
+   104,
+   110,
+   115,
+   119,
+   124,
+   125
+  ],
+  "#viagem": [
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   64,
+   65,
+   66,
+   68,
+   69,
+   70,
+   73,
+   74,
+   75,
+   77,
+   78,
+   79,
+   80,
+   85,
+   95,
+   98,
+   99,
+   106,
+   109,
+   110,
+   115,
+   122,
+   125,
+   149
+  ],
+  "#provandocomidas": [
+   58,
+   60,
+   94
+  ],
+  "#turquia": [
+   58,
+   59,
+   62,
+   63,
+   64,
+   65,
+   66,
+   73
+  ],
+  "#modamodesta": [
+   61,
+   97,
+   99,
+   114,
+   118,
+   150
+  ],
+  "#arrumesecmg": [
+   61,
+   144
+  ],
+  "#turkishairlines": [
+   65,
+   66,
+   74
+  ],
+  "@turkish": [
+   66,
+   73,
+   74
+  ],
+  "#mariamnohajj": [
+   70,
+   74,
+   75,
+   77,
+   78,
+   79,
+   80,
+   81,
+   82,
+   83,
+   85,
+   87,
+   106,
+   108,
+   122
+  ],
+  "#peregrinacao": [
+   70,
+   95
+  ],
+  "@naturabr": [
+   71,
+   76
+  ],
+  "#maeefilha": [
+   75,
+   122
+  ],
+  "#medina": [
+   77,
+   79,
+   80,
+   82,
+   85,
+   99,
+   108,
+   112
+  ],
+  "#arabiasaudita": [
+   77,
+   78,
+   81,
+   98,
+   124
+  ],
+  "#mesquita": [
+   81,
+   83,
+   85,
+   112,
+   119
+  ],
+  "#brasil": [
+   86,
+   123,
+   143
+  ],
+  "#oracao": [
+   87,
+   116
+  ],
+  "#casaltiktok": [
+   89,
+   128
+  ],
+  "#islam": [
+   90,
+   91,
+   96,
+   105,
+   108,
+   111,
+   113,
+   116,
+   117,
+   138
+  ],
+  "@lattafa": [
+   93,
+   97
+  ],
+  "#comidaarabe": [
+   94,
+   103,
+   141
+  ],
+  "#abaya": [
+   99,
+   114,
+   118,
+   150
+  ],
+  "#respeito": [
+   101,
+   117
+  ],
+  "#muculmana": [
+   101,
+   124,
+   125,
+   144,
+   151,
+   153
+  ],
+  "#arabes": [
+   110,
+   132
+  ],
+  "#muculmanas": [
+   113,
+   138
+  ],
+  "#fulla": [
+   124,
+   125
+  ],
+  "#casamentoarabe": [
+   127,
+   128,
+   129,
+   130,
+   132
+  ],
+  "@huda": [
+   143,
+   154
+  ],
+  "#grwm": [
+   144,
+   153
+  ],
+  "#perrenguechique": [
+   145,
+   146,
+   148
+  ],
+  "#japao": [
+   149,
+   150
+  ]
+ },
  "estatisticas_rede": {
   "rede": "marcacoes",
   "dirigida": false,
@@ -1444,7 +3284,7 @@
    "rede": "marcacoes",
    "medida": "intermediação (betweenness)",
    "posicao": 4,
-   "no": "@naturabroficial",
+   "no": "#naturaessencialsafran",
    "valor": 0.030441,
    "comunidade": 3
   },
@@ -1453,7 +3293,7 @@
    "rede": "marcacoes",
    "medida": "intermediação (betweenness)",
    "posicao": 5,
-   "no": "#naturaessencialsafran",
+   "no": "@naturabroficial",
    "valor": 0.030441,
    "comunidade": 3
   },

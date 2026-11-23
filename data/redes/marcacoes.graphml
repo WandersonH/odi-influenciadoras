@@ -28,17 +28,17 @@
   <data key="d2">4</data>
   <data key="d3">Fabíola Oliveira</data>
 </node>
-<node id="#hajj">
-  <data key="d0">#hajj</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">1</data>
-  <data key="d3">#hajj</data>
-</node>
 <node id="#hajj2026">
   <data key="d0">#hajj2026</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
   <data key="d3">#hajj2026</data>
+</node>
+<node id="#hajj">
+  <data key="d0">#hajj</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">1</data>
+  <data key="d3">#hajj</data>
 </node>
 <node id="#hijab">
   <data key="d0">#hijab</data>
@@ -52,17 +52,17 @@
   <data key="d2">1</data>
   <data key="d3">@turkishairlines</data>
 </node>
-<node id="@naturabroficial">
-  <data key="d0">@naturabroficial</data>
-  <data key="d1">perfil marcado</data>
-  <data key="d2">3</data>
-  <data key="d3">@naturabroficial</data>
-</node>
 <node id="#naturaessencialsafran">
   <data key="d0">#naturaessencialsafran</data>
   <data key="d1">hashtag</data>
   <data key="d2">3</data>
   <data key="d3">#naturaessencialsafran</data>
+</node>
+<node id="@naturabroficial">
+  <data key="d0">@naturabroficial</data>
+  <data key="d1">perfil marcado</data>
+  <data key="d2">3</data>
+  <data key="d3">@naturabroficial</data>
 </node>
 <node id="@leilinha_arabi">
   <data key="d0">@leilinha_arabi</data>
@@ -70,29 +70,17 @@
   <data key="d2">3</data>
   <data key="d3">@leilinha_arabi</data>
 </node>
-<node id="@hamde_atelie">
-  <data key="d0">@hamde_atelie</data>
-  <data key="d1">perfil marcado</data>
-  <data key="d2">1</data>
-  <data key="d3">@hamde_atelie</data>
-</node>
 <node id="@lattafa_brazil">
   <data key="d0">@lattafa_brazil</data>
   <data key="d1">perfil marcado</data>
   <data key="d2">1</data>
   <data key="d3">@lattafa_brazil</data>
 </node>
-<node id="#isla">
-  <data key="d0">#isla</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">2</data>
-  <data key="d3">#isla</data>
-</node>
-<node id="#copa">
-  <data key="d0">#copa</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">2</data>
-  <data key="d3">#copa</data>
+<node id="@hamde_atelie">
+  <data key="d0">@hamde_atelie</data>
+  <data key="d1">perfil marcado</data>
+  <data key="d2">1</data>
+  <data key="d3">@hamde_atelie</data>
 </node>
 <node id="#fifa">
   <data key="d0">#fifa</data>
@@ -100,11 +88,17 @@
   <data key="d2">2</data>
   <data key="d3">#fifa</data>
 </node>
-<node id="#bebida">
-  <data key="d0">#bebida</data>
+<node id="#copa">
+  <data key="d0">#copa</data>
   <data key="d1">hashtag</data>
   <data key="d2">2</data>
-  <data key="d3">#bebida</data>
+  <data key="d3">#copa</data>
+</node>
+<node id="#isla">
+  <data key="d0">#isla</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">2</data>
+  <data key="d3">#isla</data>
 </node>
 <node id="#muçulmano">
   <data key="d0">#muçulmano</data>
@@ -112,11 +106,11 @@
   <data key="d2">2</data>
   <data key="d3">#muçulmano</data>
 </node>
-<node id="#alcool">
-  <data key="d0">#alcool</data>
+<node id="#bebida">
+  <data key="d0">#bebida</data>
   <data key="d1">hashtag</data>
   <data key="d2">2</data>
-  <data key="d3">#alcool</data>
+  <data key="d3">#bebida</data>
 </node>
 <node id="#bet">
   <data key="d0">#bet</data>
@@ -124,11 +118,23 @@
   <data key="d2">2</data>
   <data key="d3">#bet</data>
 </node>
+<node id="#alcool">
+  <data key="d0">#alcool</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">2</data>
+  <data key="d3">#alcool</data>
+</node>
 <node id="#copadomundo">
   <data key="d0">#copadomundo</data>
   <data key="d1">hashtag</data>
   <data key="d2">2</data>
   <data key="d3">#copadomundo</data>
+</node>
+<node id="#morocco">
+  <data key="d0">#morocco</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">2</data>
+  <data key="d3">#morocco</data>
 </node>
 <node id="#worldcup">
   <data key="d0">#worldcup</data>
@@ -141,12 +147,6 @@
   <data key="d1">hashtag</data>
   <data key="d2">2</data>
   <data key="d3">#marrocos</data>
-</node>
-<node id="#morocco">
-  <data key="d0">#morocco</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">2</data>
-  <data key="d3">#morocco</data>
 </node>
 <node id="@usedohabr">
   <data key="d0">@usedohabr</data>
@@ -244,11 +244,11 @@
   <data key="d2">2</data>
   <data key="d3">#hudabeauty</data>
 </node>
-<node id="#curiosidades">
-  <data key="d0">#curiosidades</data>
+<node id="#muculmanos">
+  <data key="d0">#muculmanos</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
-  <data key="d3">#curiosidades</data>
+  <data key="d3">#muculmanos</data>
 </node>
 <node id="#religiao">
   <data key="d0">#religiao</data>
@@ -256,17 +256,11 @@
   <data key="d2">1</data>
   <data key="d3">#religiao</data>
 </node>
-<node id="#muculmanos">
-  <data key="d0">#muculmanos</data>
+<node id="#curiosidades">
+  <data key="d0">#curiosidades</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
-  <data key="d3">#muculmanos</data>
-</node>
-<node id="#provandocomidas">
-  <data key="d0">#provandocomidas</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">1</data>
-  <data key="d3">#provandocomidas</data>
+  <data key="d3">#curiosidades</data>
 </node>
 <node id="#viagem">
   <data key="d0">#viagem</data>
@@ -274,23 +268,29 @@
   <data key="d2">1</data>
   <data key="d3">#viagem</data>
 </node>
+<node id="#provandocomidas">
+  <data key="d0">#provandocomidas</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">1</data>
+  <data key="d3">#provandocomidas</data>
+</node>
 <node id="#turquia">
   <data key="d0">#turquia</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
   <data key="d3">#turquia</data>
 </node>
-<node id="#arrumesecmg">
-  <data key="d0">#arrumesecmg</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">1</data>
-  <data key="d3">#arrumesecmg</data>
-</node>
 <node id="#modamodesta">
   <data key="d0">#modamodesta</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
   <data key="d3">#modamodesta</data>
+</node>
+<node id="#arrumesecmg">
+  <data key="d0">#arrumesecmg</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">1</data>
+  <data key="d3">#arrumesecmg</data>
 </node>
 <node id="#turkishairlines">
   <data key="d0">#turkishairlines</data>
@@ -304,17 +304,17 @@
   <data key="d2">1</data>
   <data key="d3">@turkish</data>
 </node>
-<node id="#peregrinacao">
-  <data key="d0">#peregrinacao</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">1</data>
-  <data key="d3">#peregrinacao</data>
-</node>
 <node id="#mariamnohajj">
   <data key="d0">#mariamnohajj</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
   <data key="d3">#mariamnohajj</data>
+</node>
+<node id="#peregrinacao">
+  <data key="d0">#peregrinacao</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">1</data>
+  <data key="d3">#peregrinacao</data>
 </node>
 <node id="@naturabr">
   <data key="d0">@naturabr</data>
@@ -388,17 +388,17 @@
   <data key="d2">1</data>
   <data key="d3">#abaya</data>
 </node>
-<node id="#muculmana">
-  <data key="d0">#muculmana</data>
-  <data key="d1">hashtag</data>
-  <data key="d2">2</data>
-  <data key="d3">#muculmana</data>
-</node>
 <node id="#respeito">
   <data key="d0">#respeito</data>
   <data key="d1">hashtag</data>
   <data key="d2">1</data>
   <data key="d3">#respeito</data>
+</node>
+<node id="#muculmana">
+  <data key="d0">#muculmana</data>
+  <data key="d1">hashtag</data>
+  <data key="d2">2</data>
+  <data key="d3">#muculmana</data>
 </node>
 <node id="#arabes">
   <data key="d0">#arabes</data>
@@ -448,26 +448,26 @@
   <data key="d2">1</data>
   <data key="d3">#japao</data>
 </node>
-<edge source="mariam-chami" target="#hajj">
-  <data key="d4">5</data>
-</edge>
 <edge source="mariam-chami" target="#hajj2026">
   <data key="d4">6</data>
 </edge>
-<edge source="mariam-chami" target="@turkishairlines">
-  <data key="d4">2</data>
+<edge source="mariam-chami" target="#hajj">
+  <data key="d4">5</data>
 </edge>
-<edge source="mariam-chami" target="@naturabroficial">
+<edge source="mariam-chami" target="@turkishairlines">
   <data key="d4">2</data>
 </edge>
 <edge source="mariam-chami" target="#naturaessencialsafran">
   <data key="d4">4</data>
 </edge>
-<edge source="mariam-chami" target="@hamde_atelie">
-  <data key="d4">3</data>
+<edge source="mariam-chami" target="@naturabroficial">
+  <data key="d4">2</data>
 </edge>
 <edge source="mariam-chami" target="@lattafa_brazil">
   <data key="d4">4</data>
+</edge>
+<edge source="mariam-chami" target="@hamde_atelie">
+  <data key="d4">3</data>
 </edge>
 <edge source="mariam-chami" target="@oboticario">
   <data key="d4">2</data>
@@ -484,29 +484,29 @@
 <edge source="mariam-chami" target="@hudabeauty">
   <data key="d4">1</data>
 </edge>
-<edge source="mariam-chami" target="#curiosidades">
-  <data key="d4">10</data>
+<edge source="mariam-chami" target="#muculmanos">
+  <data key="d4">17</data>
 </edge>
 <edge source="mariam-chami" target="#religiao">
   <data key="d4">2</data>
 </edge>
-<edge source="mariam-chami" target="#muculmanos">
-  <data key="d4">17</data>
-</edge>
-<edge source="mariam-chami" target="#provandocomidas">
-  <data key="d4">3</data>
+<edge source="mariam-chami" target="#curiosidades">
+  <data key="d4">10</data>
 </edge>
 <edge source="mariam-chami" target="#viagem">
   <data key="d4">30</data>
 </edge>
+<edge source="mariam-chami" target="#provandocomidas">
+  <data key="d4">3</data>
+</edge>
 <edge source="mariam-chami" target="#turquia">
   <data key="d4">8</data>
 </edge>
-<edge source="mariam-chami" target="#arrumesecmg">
-  <data key="d4">2</data>
-</edge>
 <edge source="mariam-chami" target="#modamodesta">
   <data key="d4">6</data>
+</edge>
+<edge source="mariam-chami" target="#arrumesecmg">
+  <data key="d4">2</data>
 </edge>
 <edge source="mariam-chami" target="#turkishairlines">
   <data key="d4">3</data>
@@ -514,11 +514,11 @@
 <edge source="mariam-chami" target="@turkish">
   <data key="d4">3</data>
 </edge>
-<edge source="mariam-chami" target="#peregrinacao">
-  <data key="d4">2</data>
-</edge>
 <edge source="mariam-chami" target="#mariamnohajj">
   <data key="d4">15</data>
+</edge>
+<edge source="mariam-chami" target="#peregrinacao">
+  <data key="d4">2</data>
 </edge>
 <edge source="mariam-chami" target="@naturabr">
   <data key="d4">2</data>
@@ -535,11 +535,11 @@
 <edge source="mariam-chami" target="#mesquita">
   <data key="d4">5</data>
 </edge>
-<edge source="mariam-chami" target="#copadomundo">
-  <data key="d4">2</data>
-</edge>
 <edge source="mariam-chami" target="#brasil">
   <data key="d4">3</data>
+</edge>
+<edge source="mariam-chami" target="#copadomundo">
+  <data key="d4">2</data>
 </edge>
 <edge source="mariam-chami" target="#oracao">
   <data key="d4">2</data>
@@ -562,11 +562,11 @@
 <edge source="mariam-chami" target="#hijab">
   <data key="d4">1</data>
 </edge>
-<edge source="mariam-chami" target="#muculmana">
-  <data key="d4">4</data>
-</edge>
 <edge source="mariam-chami" target="#respeito">
   <data key="d4">2</data>
+</edge>
+<edge source="mariam-chami" target="#muculmana">
+  <data key="d4">4</data>
 </edge>
 <edge source="mariam-chami" target="#arabes">
   <data key="d4">2</data>
@@ -577,11 +577,11 @@
 <edge source="mariam-chami" target="#fulla">
   <data key="d4">2</data>
 </edge>
-<edge source="mariam-chami" target="#makeup">
-  <data key="d4">1</data>
-</edge>
 <edge source="mariam-chami" target="#casamentoarabe">
   <data key="d4">5</data>
+</edge>
+<edge source="mariam-chami" target="#makeup">
+  <data key="d4">1</data>
 </edge>
 <edge source="mariam-chami" target="#marrocos">
   <data key="d4">1</data>
@@ -604,37 +604,37 @@
 <edge source="hyatt-omar" target="#hijab">
   <data key="d4">1</data>
 </edge>
-<edge source="hyatt-omar" target="#isla">
-  <data key="d4">2</data>
+<edge source="hyatt-omar" target="#fifa">
+  <data key="d4">5</data>
 </edge>
 <edge source="hyatt-omar" target="#copa">
   <data key="d4">7</data>
 </edge>
-<edge source="hyatt-omar" target="#fifa">
-  <data key="d4">5</data>
-</edge>
-<edge source="hyatt-omar" target="#bebida">
+<edge source="hyatt-omar" target="#isla">
   <data key="d4">2</data>
 </edge>
 <edge source="hyatt-omar" target="#muçulmano">
   <data key="d4">2</data>
 </edge>
-<edge source="hyatt-omar" target="#alcool">
+<edge source="hyatt-omar" target="#bebida">
   <data key="d4">2</data>
 </edge>
 <edge source="hyatt-omar" target="#bet">
   <data key="d4">2</data>
 </edge>
+<edge source="hyatt-omar" target="#alcool">
+  <data key="d4">2</data>
+</edge>
 <edge source="hyatt-omar" target="#copadomundo">
+  <data key="d4">2</data>
+</edge>
+<edge source="hyatt-omar" target="#morocco">
   <data key="d4">2</data>
 </edge>
 <edge source="hyatt-omar" target="#worldcup">
   <data key="d4">5</data>
 </edge>
 <edge source="hyatt-omar" target="#marrocos">
-  <data key="d4">2</data>
-</edge>
-<edge source="hyatt-omar" target="#morocco">
   <data key="d4">2</data>
 </edge>
 <edge source="hyatt-omar" target="#roubo">
@@ -652,11 +652,11 @@
 <edge source="hyatt-omar" target="#arrumesecomigo">
   <data key="d4">2</data>
 </edge>
-<edge source="hyatt-omar" target="@hudabeauty">
-  <data key="d4">1</data>
-</edge>
 <edge source="hyatt-omar" target="#maquiagem">
   <data key="d4">2</data>
+</edge>
+<edge source="hyatt-omar" target="@hudabeauty">
+  <data key="d4">1</data>
 </edge>
 <edge source="hyatt-omar" target="@sephorabrasil">
   <data key="d4">1</data>
@@ -679,10 +679,10 @@
 <edge source="hyatt-omar" target="@huda">
   <data key="d4">1</data>
 </edge>
-<edge source="carima-orra" target="@naturabroficial">
+<edge source="carima-orra" target="#naturaessencialsafran">
   <data key="d4">2</data>
 </edge>
-<edge source="carima-orra" target="#naturaessencialsafran">
+<edge source="carima-orra" target="@naturabroficial">
   <data key="d4">2</data>
 </edge>
 <edge source="carima-orra" target="@leilinha_arabi">

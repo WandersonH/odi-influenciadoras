@@ -165,6 +165,8 @@ def respostas(rows: list[dict]) -> tuple[dict, dict, dict]:
         grau[a] += w
         grau[b] += w
     # peso do nó = respostas dadas + recebidas (para o desenho escolher as conversas maiores, não só os mais respondidos)
+    global ULTIMOS_CODIGOS
+    ULTIMOS_CODIGOS = dict(cod)  # autor → código; só para o repositório privado (o corpus anonimizado usa o mesmo código)
     nos = {k: {"rotulo": k, "tipo": "autor (código)", "n": grau.get(k, 0)} for k in cod.values()}
     resumo = {"autores_na_rede": len(cod), "respostas_entre_autores": int(sum(ar.values())), "pares": len(ar),
               "mais_respondidos": [[k, n] for k, n in grau_in.most_common(10)],
@@ -173,6 +175,7 @@ def respostas(rows: list[dict]) -> tuple[dict, dict, dict]:
 
 
 ULTIMOS_ROTULOS: list[int] = []
+ULTIMOS_CODIGOS: dict[str, str] = {}
 
 
 def classes(textos: list[str], anos: list[str], grupos: list[str] | None = None, rotulo_grupo: str | None = None,

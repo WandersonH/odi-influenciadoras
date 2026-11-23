@@ -48,6 +48,7 @@ def main(root: Path = RAIZ) -> int:
     nomes = {a["id"]: a["nome"] for a in atores}
     proprios = {str(p.get("perfil") or "").lstrip("@").lower(): a["id"] for a in atores for p in a["perfis"].values() if p.get("perfil")}
     arestas, por_rede = Counter(), Counter()
+    pubs, pubs_idx, pubs_por_no = [], {}, {}  # para a página abrir as publicações ao clicar num nó
     for rede, arq in FONTES.items():
         for r in ler(root / arq):
             if r.get("janela") not in ("base", "nucleo"):
@@ -60,6 +61,15 @@ def main(root: Path = RAIZ) -> int:
                     continue  # marcar a si mesma não é ligação
                 destino = aid_alvo or alvo  # marcar outra influenciadora do estudo liga as duas diretamente
                 arestas[(r["ator_id"], destino)] += 1
+                chave = (rede, r.get("url"))
+                if chave not in pubs_idx:
+                    pubs_idx[chave] = len(pubs)
+                    pubs.append({"a": r["ator_id"], "r": rede, "d": (r.get("publicado_em") or "")[:10], "u": r.get("url"), "j": r.get("janela"),
+                                 "t": re.sub(r"\s+", " ", t)[:600]})
+                for no in (destino, r["ator_id"]):
+                    lst = pubs_por_no.setdefault(no, [])
+                    if pubs_idx[chave] not in lst:
+                        lst.append(pubs_idx[chave])
                 por_rede[rede] += 1
     peso_no = Counter()
     for (a, b), w in arestas.items():
@@ -90,6 +100,9 @@ def main(root: Path = RAIZ) -> int:
                             "densidade": round(nx.density(G), 4), "ligacoes_por_rede": dict(por_rede),
                             "ligacoes_totais_antes_do_corte": len(arestas), "corte": f"perfil ou hashtag em {MIN_PESO_NO}+ publicações"},
            "partilhados": [{"no": n, "influenciadoras": [nomes[x] for x in xs]} for n, xs in partilhados]}
+    # publicações das próprias influenciadoras (públicas) por nó, para o clique na página
+    out["publicacoes"] = pubs
+    out["publicacoes_por_no"] = {n: pubs_por_no.get(n, []) for n in G}
     (d / "marcacoes.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     for n in G:
         G.nodes[n]["comunidade"] = com.get(n, 0)

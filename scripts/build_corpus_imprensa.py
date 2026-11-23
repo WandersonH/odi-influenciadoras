@@ -66,7 +66,7 @@ def main(root: Path = RAIZ) -> int:
     with (dp / "imprensa_iramuteq.txt").open("w", encoding="utf-8") as f:
         for t in sorted(ts, key=lambda t: (t["recorte"], t["veiculo"])):
             f.write(f"**** *veic_{var(t['veiculo'])} *recorte_{t['recorte']}\n{t['texto']}\n\n")
-    segs = [{"veiculo": t["veiculo"], "recorte": t["recorte"], "url": t["url"], "texto": s} for t in ts for s in segmentar(t["texto"])]
+    segs = [{"veiculo": t["veiculo"], "recorte": t["recorte"], "url": t["url"], "texto": s, "m": k} for k, t in enumerate(ts) for s in segmentar(t["texto"])]
     X, voc = cr.matriz([s["texto"] for s in segs])
     n_ativos = int((X.sum(1) > 0).sum())
     mc = max(cr.MIN_CLASSE, int(cr.MIN_CLASSE_PCT * n_ativos))
@@ -96,7 +96,9 @@ def main(root: Path = RAIZ) -> int:
         score = sorted(((sum(peso.get(j, 0) for j in np.nonzero(X[i])[0]), i) for i in idx), reverse=True)[:5]
         privados.append({"classe": k, "segmentos_caracteristicos": [{"veiculo": segs[i]["veiculo"], "url": segs[i]["url"],
                                                                     "texto": segs[i]["texto"][:300]} for _, i in score]})
-        classes.append({"classe": k, "segmentos": nk, "pct": round(100 * nk / max(1, n), 1), "formas": formas, "variaveis": variaveis,
+        colv = {f: j for j, f in enumerate(voc)}
+        mat_forma = {f[0]: sorted({segs[i]["m"] for i in idx if X[i, colv[f[0]]] > 0}) for f in formas}
+        classes.append({"classe": k, "materias_por_forma": mat_forma, "materias_da_classe": sorted({segs[i]["m"] for i in idx}), "segmentos": nk, "pct": round(100 * nk / max(1, n), 1), "formas": formas, "variaveis": variaveis,
                         "veiculos_dos_segmentos_caracteristicos": [segs[i]["veiculo"] for _, i in score], "nome": None})
     out = {"gerado_em_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
            "metodo": (f"CHD de Reinert (implementação em Python/numpy): até {cr.K} classes, formas com {cr.MIN_FREQ}+ segmentos, "
@@ -109,13 +111,17 @@ def main(root: Path = RAIZ) -> int:
            "veiculos": len({t["veiculo"] for t in ts}),
            "lematizacao": cr.lematizacao(), "escolha_classes": escolha_k, "segmentos_total": len(segs), "segmentos_classificados": n,
            "pct_classificados": round(100 * n / max(1, len(segs)), 1), "formas_ativas": len(voc),
-           "aproveitamento": cr.aproveitamento(rot, len(segs)), "arvore": arvore, "classes": classes}
+           "aproveitamento": cr.aproveitamento(rot, len(segs)), "arvore": arvore, "classes": classes,
+           # título, veículo e link (públicos, como no caderno da imprensa); o texto da matéria fica no privado
+           "materias": [{"veiculo": t["veiculo"], "titulo": t["titulo"], "url": t["url"], "recorte": t["recorte"]} for t in ts]}
     d = root / "data/corpus"
     d.mkdir(parents=True, exist_ok=True)
     try:
         import similitude as sim
         res = sim.ads(X, voc, [s["recorte"] for s in segs])
         if res:
+            colv = {f: j for j, f in enumerate(voc)}
+            res["materias_por_forma"] = {nd["id"]: sorted({segs[int(i)]["m"] for i in np.nonzero(X[:, colv[nd["id"]]])[0]}) for nd in res["nos"] if nd["id"] in colv}
             out["similitude"] = res
             sim.gexf(res, d / "imprensa_similitude.gexf")
     except Exception as e:  # noqa: BLE001

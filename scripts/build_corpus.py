@@ -125,7 +125,10 @@ def main(root: Path = RAIZ) -> int:
         idx = np.where(cl)[0][m]
         peso = {j: ch[j] for j in range(len(voc)) if ch[j] > 0}
         score = sorted(((sum(peso.get(j, 0) for j in np.nonzero(X[i])[0]), i) for i in idx), reverse=True)[:5]
+        col = {f: j for j, f in enumerate(voc)}
+        seg_forma = {f[0]: [int(i) for i in idx if X[i, col[f[0]]] > 0] for f in formas}
         classes.append({"classe": k, "segmentos": nk, "pct": round(100 * nk / max(1, n), 1), "formas": formas, "variaveis": variaveis,
+                        "segmentos_por_forma": seg_forma, "segmentos_da_classe": [int(i) for i in idx],
                         "segmentos_caracteristicos": [{"cand": segs[i]["cand"], "rede": segs[i]["rede"], "url": segs[i]["url"],
                                                        "texto": segs[i]["texto"][:300]} for _, i in score], "nome": None})
     out = {"gerado_em_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -150,7 +153,7 @@ def main(root: Path = RAIZ) -> int:
     except Exception as e:  # noqa: BLE001
         out["similitude"] = {"erro": f"{type(e).__name__}: {str(e)[:160]}"}
     # segmentos do corpus (texto das próprias influenciadoras: legenda + fala transcrita), na ordem da matriz
-    (d / "segmentos.json").write_text(json.dumps([{"i": i, "a": g["cand"], "r": g["rede"], "j": g["janela"], "d": g["data"], "u": g["url"], "t": g["texto"]}
+    (d / "segmentos.json").write_text(json.dumps([{"i": i, "a": g["cand"], "r": g["rede"], "j": g["janela"], "d": g["data"], "u": g["url"], "c": int(rot[i]), "t": g["texto"]}
                                                   for i, g in enumerate(segs)], ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (d / "chd.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"corpus: {len(ts)} textos ({out['textos_com_fala']} com fala), {len(segs)} segmentos, {n} classificados "
