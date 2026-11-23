@@ -31,7 +31,8 @@ O responsável pediu à 1h20: “quero que rode quem falou delas nas demais rede
   - nas buscas de terceiros o passo “O que dizem” não roda;
   - conflito no commit passa a abortar o rebase e falhar com erro visível.
 - **Gasto:** etapa `terceiros_transcricoes` em US$ 0,94 de US$ 1,00; reserva em até US$ 0,70 de US$ 1,50 (teto, até confirmar o custo real).
-- **Pendente:** o `terceiros_resumo.yml`.
+- **`terceiros_resumo.yml` (run 45112154958):** no núcleo, o Instagram tem 3 menções confirmadas pela regra de homônimos (Mariam 2, Carima 1). O TikTok não tem nenhuma. Conferido na página publicada: o clique abre os 2 itens da Mariam.
+- **Pendente:** confirmar o custo real do run do Instagram (registrado como US$ 0,70) e uma leitura humana das 3 menções.
 
 ## 23/11/2026: OBMigra, detalhe do país em gráficos
 
