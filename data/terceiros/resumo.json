@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-22T23:22:13Z",
+ "gerado_em": "2026-11-23T02:46:12Z",
  "janela": "núcleo",
  "regra": "Regra de homônimos do plano (seção 5): uma menção só conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto. O resto fica 'a conferir' e fora da contagem.",
  "contexto": [
@@ -42,23 +42,63 @@
        "publicado_em": "2026-08-12",
        "url": "https://www.youtube.com/watch?v=Enp4gKn0NCU"
       }
+     ],
+     "itens": [
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-07",
+       "fonte": "canal pequeno C001",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-12",
+       "fonte": "Caio Modesto",
+       "titulo": "FUI PROCESSADO POR UMA INFLUENCIADORA MUÇULMANA",
+       "url": "https://www.youtube.com/watch?v=Enp4gKn0NCU"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "O Menor Casal do Mundo",
+       "titulo": "Coisa estranha!! #paulinhogigante",
+       "url": "https://www.youtube.com/watch?v=5ZjHM9NnoFo"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "Itatiaia",
+       "titulo": "BRASIL INICIA PROCESSO DE RECIPROCIDADE PARA MANDAR RECADO AOS EUA",
+       "url": "https://www.youtube.com/watch?v=XyR1dObQKtA"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "CNN Brasil",
+       "titulo": "EUA sinalizam que pretendem testar limites de ações internacionais; veja análise | CNN 360º",
+       "url": "https://www.youtube.com/watch?v=sikc8e4QJaU"
+      }
      ]
     },
     "X (API, xquik)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "X (busca avançada no navegador)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
      "a_conferir": 0,
-     "veiculos_confirmados": []
+     "veiculos_confirmados": [],
+     "itens": []
     }
    },
    "confirmadas_total": 0,
@@ -111,23 +151,378 @@
        "publicado_em": "2026-08-07",
        "url": ""
       }
+     ],
+     "itens": [
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-23",
+       "fonte": "canal pequeno C002",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-23",
+       "fonte": "canal pequeno C003",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C004",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "Naqash Baloch ",
+       "titulo": "Hilton Hotel &amp; Convention Jabal Omar Makkah | 5 star hotel front of Haram gate | details review",
+       "url": "https://www.youtube.com/watch?v=QWvAUblpGPU"
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C005",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C006",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C007",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C008",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-26",
+       "fonte": "canal pequeno C009",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C010",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C006",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C011",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C012",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C012",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "Imtiaz Makkah vlogs ",
+       "titulo": "Shocking 5-Star Hotel Rates | Hilton Convention Makkah Review (Only 100m From Haram) ",
+       "url": "https://www.youtube.com/watch?v=qE6wHfnIkL0"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C006",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C013",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C014",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C015",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C016",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C017",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-02",
+       "fonte": "Civil Xplained",
+       "titulo": "Hyatt Regency Walkway Collapse | Why One Connection Change Killed 114 People",
+       "url": "https://www.youtube.com/watch?v=S-qtRxp9WFQ"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-02",
+       "fonte": "JLA ",
+       "titulo": "he knew something was wrong 🤣",
+       "url": "https://www.youtube.com/watch?v=8od4dsIffP0"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-02",
+       "fonte": "canal pequeno C018",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-04",
+       "fonte": "canal pequeno C019",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-04",
+       "fonte": "canal pequeno C020",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "Egi Jalan Jalan",
+       "titulo": "Hyatt Regency Malaysia #hotel #hotels #hotelreview #hotelstyle #malaysia",
+       "url": "https://www.youtube.com/watch?v=6rbPis8woiY"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C011",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-06",
+       "fonte": "canal pequeno C021",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-07",
+       "fonte": "canal pequeno C022",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-08",
+       "fonte": "canal pequeno C023",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-08",
+       "fonte": "canal pequeno C024",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-08",
+       "fonte": "West Coast Swing",
+       "titulo": "Tien Khieu &amp; Jenna Shimek - 2nd place Sophisticated Jack&amp;Jill Finals - Jack&amp;Jill O&#39;Rama 2026",
+       "url": "https://www.youtube.com/watch?v=oh6Ok002YE4"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-09",
+       "fonte": "canal pequeno C025",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-09",
+       "fonte": "canal pequeno C026",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-09",
+       "fonte": "canal pequeno C027",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-10",
+       "fonte": "Rachel | Points & Miles",
+       "titulo": "The Secret to Booking Luxury Hotels on a Budget (Game Changer!)",
+       "url": "https://www.youtube.com/watch?v=HNNyG21sXt8"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C028",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C029",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C030",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-12",
+       "fonte": "canal pequeno C031",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-12",
+       "fonte": "Omar Nhas",
+       "titulo": "Schneller Snack in der Sonnenallee #shorts",
+       "url": "https://www.youtube.com/watch?v=b-Fs1eFGJ-w"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-12",
+       "fonte": "canal pequeno C032",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-12",
+       "fonte": "canal pequeno C033",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C034",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C035",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C034",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C036",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C037",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "canal pequeno C027",
+       "titulo": "",
+       "url": ""
+      }
      ]
     },
     "X (API, xquik)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "X (busca avançada no navegador)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
      "a_conferir": 0,
-     "veiculos_confirmados": []
+     "veiculos_confirmados": [],
+     "itens": []
     }
    },
    "confirmadas_total": 0,
@@ -150,23 +545,42 @@
        "publicado_em": "2026-08-03",
        "url": ""
       }
+     ],
+     "itens": [
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-03",
+       "fonte": "canal pequeno C038",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "O Menor Casal do Mundo",
+       "titulo": "Coisa estranha!! #paulinhogigante",
+       "url": "https://www.youtube.com/watch?v=5ZjHM9NnoFo"
+      }
      ]
     },
     "X (API, xquik)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "X (busca avançada no navegador)": {
      "lidos": 0,
      "confirmadas": 0,
-     "a_conferir": 0
+     "a_conferir": 0,
+     "itens": []
     },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
      "a_conferir": 0,
-     "veiculos_confirmados": []
+     "veiculos_confirmados": [],
+     "itens": []
     }
    },
    "confirmadas_total": 0,
@@ -215,23 +629,766 @@
        "publicado_em": "2026-08-14",
        "url": "https://www.youtube.com/watch?v=E3GFF6WFK0w"
       }
+     ],
+     "itens": [
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-23",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-25",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-25",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-27",
+       "fonte": "canal pequeno C041",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-28",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-07-28",
+       "fonte": "Kim Kataguiri",
+       "titulo": "TERRORISTA MATA PESSOAS E ESQUERDISTA SE PREOCUPA COM ISLAMOFOBIA!",
+       "url": "https://www.youtube.com/watch?v=KSQr0py4Nz8"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-29",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-30",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-30",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-07-31",
+       "fonte": "Bryan Behr",
+       "titulo": "Bryan Behr - Concreto, ferro e saudade (Videoclipe Oficial)",
+       "url": "https://www.youtube.com/watch?v=M9-LIhubIU4"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-07-31",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C042",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-01",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-06",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-06",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-06",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "confirmada (nome + contexto)",
+       "data": "2026-08-06",
+       "fonte": "canal pequeno C043",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - O Vento (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=MYu9h8R9MVc"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Arco-Íris (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=jwlJIAmo4Y4"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Vivão e Vivendo (Sozinho e Bem Acompanhado)",
+       "url": "https://www.youtube.com/watch?v=uBwp3VIpPuE"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Mundo Paralelo (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=hWWgTIkZFiM"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Por Você (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=4ICb9oobSWY"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Da Minha Natureza (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=mgc-3etIDKs"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Como Se Fosse Ontem (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=D36tkz3B0as"
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-07",
+       "fonte": "Vitor Kley",
+       "titulo": "Vitor Kley - Abalo Psicológico (Sozinho e Bem Acompanhado) Voz e Violão",
+       "url": "https://www.youtube.com/watch?v=EAIi-AJoqMI"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-08",
+       "fonte": "canal pequeno C044",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-08",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-08",
+       "fonte": "canal pequeno C045",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-09",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-09",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-10",
+       "fonte": "Stand Tall Israel",
+       "titulo": "“Islamophobia Does Not Exist” | Imam Tawhidi",
+       "url": "https://www.youtube.com/watch?v=Yi4W4TD16fA"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C040",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C047",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C047",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C047",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C047",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-13",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "canal pequeno C046",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-14",
+       "fonte": "Bryan Behr",
+       "titulo": "Bryan Behr - Quem me viu quem me vê (Videoclipe Oficial)",
+       "url": "https://www.youtube.com/watch?v=ZYS-f8IbdXY"
+      },
+      {
+       "como": "a conferir (o nome não está no título, mas há termo de contexto; a busca achou o nome na descrição ou na fala)",
+       "data": "2026-08-14",
+       "fonte": "MercifulServant",
+       "titulo": "2026 CRISIS - EXTREME ISLAMOPHOBIA RISING",
+       "url": "https://www.youtube.com/watch?v=E3GFF6WFK0w"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "canal pequeno C039",
+       "titulo": "",
+       "url": ""
+      }
      ]
     },
     "X (API, xquik)": {
      "lidos": 1,
      "confirmadas": 0,
-     "a_conferir": 1
+     "a_conferir": 1,
+     "itens": [
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-14",
+       "fonte": "post de terceiro (texto e autor no privado)",
+       "titulo": "",
+       "url": ""
+      }
+     ]
     },
     "X (busca avançada no navegador)": {
      "lidos": 2,
      "confirmadas": 0,
-     "a_conferir": 1
+     "a_conferir": 1,
+     "itens": [
+      {
+       "como": "a conferir (homônimo provável)",
+       "data": "2026-08-14",
+       "fonte": "post de terceiro (texto e autor no privado)",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-11",
+       "fonte": "post de terceiro (texto e autor no privado)",
+       "titulo": "",
+       "url": ""
+      }
+     ]
     },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 9,
      "confirmadas": 0,
      "a_conferir": 0,
-     "veiculos_confirmados": []
+     "veiculos_confirmados": [],
+     "itens": [
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "Migalhas",
+       "titulo": "Influenciador é condenado por difamar ex-namorado em perfis falsos",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOHBScEJzUk9vVDhKMVdCQk9heTZ6X0xjaGNpdTViX2xWdlJsNkFZbWwwQXl2SHpOdmFYcVdudjJFaXVDODMxRGp5S1NHTk1FR1lHNWtKT3VoMmNfMUJscWZUcWNJeHItR0xXR1BIT2FPVWdvQVI0X0JLd3REa2NLZ3F5Vms0UXJEaGZmTkdRZm9McnpucjlJTEtPVUxoUDBJQWpHNmxxSk9TRmFIX2c?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "G1",
+       "titulo": "Influenciador é condenado por usar perfil falso em app de relacionamento para difamar ex-companheiro em SP",
+       "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUXI2N1h1QU9GeWpYVG1neERSa1IyaXZZYm1nNlJ6SENaTmNBSlkxdExXOXVBV0Fla1M5QnRBM2hmWUoyQ1kwUG1Ya3dLVExDZldKanBhc0UzckFEeXpoR3lXa1BTZVRlb0gxbEpCSW9uMnFVcUp4cDRwVmR3UnBGVUoySE03bE5BaS1ibDBQZlh3UkVkaFh4MTFVWTVIeXZJUi1nbUJlUVMzamtJX0kwRUsyMlhYTDMyb1h4S0owTHFRSG1jV29VVDdIT1JtQklKME1zR2ZrakVPSGxnWUFIcTByT2NLbHY0VC03b1o0SENMUmpNdlhLStIBhwJBVV95cUxNVm9IbTdLMUtRUUVQY0piRzZUaHBoU0JSV3p3eE5tM1hqNmtNN2lYcGlXMGFXd1U3My0wRllmTGxRRUFhdkVrcjNKQkdXVDJTbXdINVR1azJCX3NCTlpMVkVZRlhPR1VPQWQ2VUlOa25fQVdnTl82Q1NpWThqRlBPM2QtYUFwZ2NPR19hLXE4eTEtc2tXODlxQ3B5dEpibGZidWJRUDVnQVh4VnFEaWFTNWJBU2tJVkVFVjI0dTVTSUk0aGMyaHF2dkk4dlpyTzM1TWhOcmhDN2RxZi1aQUU0M014TklSQmxRTTUyYkxoZFVzYlF3bG4tcFdZR1JvVnYwc2hVX1Naaw?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "Metrópoles",
+       "titulo": "Influenciador é condenado por difamar ex em perfis falsos",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbDBJOUdhVnZKT1VNOER2ajV3R3g3ZS1PcFFlUXZfNXcwbGVPbExiVnhvc2VBUEhOdUlzaThZa1p0bHFWN2lreDd6dmlUNU5KWktzTlc1WjZmRGpBU0hSMjJXUWhIdHN2YzZzTXFQSTBEOFZsbHNlMWUxaDFienBGN2xBWklmQW5JRmprdGNmWi16c050TVRpczZBLXg0dw?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "Terra",
+       "titulo": "Influenciador Victor Oliveira é condenado por usar perfis falsos para difamar ex-namorado",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPVHZmVzcxRjRvT2lWaEJmTVg1amszaHRRM0FoR25mZG1VVXIzR2dBMDJ2YVAyWC1sZXdIaFhQS19jd21BVGJkckhTcVBEYTZvcW5qMFdhSmlkUHVXZ1NXRHBfSzVkSEtwUVJ3Z2UzR05ScENINXlxWkw1UEJWZXc0Z0VYX1RKTXp6S2liRDRwWHg1aWZKM1VCYXZKLVJrNWlZMExDdlFQOGxWTEtwVTFDRmJBdjV4STBoUFBBMFRqcXRwcFhsOEc3YzZBM19TaEtpeXVWbG5pU3V6OTA1OThnTW5feHdwZENrajFZamJTQmFMLWlBdEdyR0liYVE0b3ZvWTBRSXZn?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "UOL Notícias",
+       "titulo": "Influenciador é condenado por difamar ex com perfis falsos em SP",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNb3RpckpQODRuSk5oWVMxOUVGemxZZVBaYWo3V1FmN2xMQnZ2dVUyTzU5N1c2OHBiMk9YM3U1N19pTGhmYjJzT01jUjBXQzFHNTh2RlZZVVNrN3FqN2FycHRsNTNwN1J0eFVINFRISDhQTFEyVzlrN19vU0ktLWVaM3VUdHBBV2w4bTFZVkZQaHd4VGdYZzRQcHJvSDZ1ZXZhMmZWQUFhVktyZGk2Q1JKUGJyYkU3dFpzVFE1WWExTEtmeHRfNUJ4SERqU01WYjdZ?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-05",
+       "fonte": "Rádio Comercial",
+       "titulo": "CP reforça comboios para as Festas da Senhora d'Agonia",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLVh1SzBtV2VxRFg1NXFtdEI2Tmltb1F1X3U4eWYzUWVtZFZ2ZTlabXZ6V0kwTFYzTzRIZTdPQzg3V0hRQVpBb2luVlIwVHg2WjlaN0VtRmJHNmtvOWlWX0R2aUN2a1RYZ2Z4cDJWRHgwTzFkbnA5NWdaZVAwSFVmdjlRQXhGbWZ2NXNENjVJYTc?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-15",
+       "fonte": "Notícias ao Minuto Brasil",
+       "titulo": "Influenciador é condenado por difamar ex no Grindr e no Instagram",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeFpxVFBJWEZ5YmwyaWQyZ21Vc3NBb0J0OHBsc0pmaTRKREZKUGJ3NWxjUW5rSWtEc3VtMzJQdU1vT0MyeXd6dVVveXNOQUhvT2VWOGV3WjhSN0dBdU9peXBRSHFVMFBEdjlLdXQ2NHhlOXJtdWVhNU1hRWZXWjQxWXQzYjdmU0Z3bGw4V0U4REREWlcwLTNkdjA3TDRxSS0tS1BGamd3MTY3LUlTUkZNYVluNUU?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-14",
+       "fonte": "diariodamidia.com.br",
+       "titulo": "Victor Oliveira: condenado com multa de R$ 1.540 e serviços",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV2lhZEZUSGpUcks5UEtrZS1yQkI5V3YwVl9FMmtUc1phNW02U1VIeGwwMzNCSGs2VjV3Q2lrSlItekVBTnJyOXkyaGotMzJlUU83TmRUSE5VVFc3d2V4ejBEcDQyTTFTSGdMNXBsM1JkOGg5eHBvNEtNYzVCTFhCUndiTlRldjh6d2ZrbzhR?oc=5"
+      },
+      {
+       "como": "sem o nome no texto",
+       "data": "2026-08-04",
+       "fonte": "Rádio Vale do Minho",
+       "titulo": "Vai à Romaria d’ Agonia? Vá pensando em deixar o carro em casa",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSHRnTGFKRGg0bmIxZ1lOZ2JGUndhQndzYTVlZ2hEN2RoelIxQVpwSG1FWkxqTzA3S3dBclc0YzRxSm5Uazh0NVNyR243aTFlNHhZYmtxdURnTnc4WERucXZ6X0NhMHduNGluOFdUTmVXUVo0cmNvSC1vMW8zeHdYdVY4Y0xvUDJkc1g3SkRpQ21PVE5UNmFsTV9DdVc3MENYYjUzVkRJdEs?oc=5"
+      }
+     ]
     }
    },
    "confirmadas_total": 1,
