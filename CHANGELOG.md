@@ -1,5 +1,15 @@
 # Changelog
 
+## 22/11/2026: "ATLAS" volta como logotipo; resultado das sugestões de busca (run com sucesso)
+
+- O responsável corrigiu às 22h58: "ATLAS" é o logotipo dos projetos e fica. Embaixo dele, no lugar do nome do observatório, entra o nome da pesquisa: "Influenciadoras muçulmanas e o acordo do Hamas". Isso também resolve o nome cortado na barra lateral.
+- **Sugestões do autocompletar** (`buscas.yml`): 28 de 28 consultas por influenciadora.
+  - Mariam: 70 sugestões distintas ("sem hijab", "antes e depois", "é brasileira", "masterchef"…).
+  - Hyatt: 56 sugestões, muitas do hotel Hyatt Jabal Omar.
+  - Carima: 8 sugestões ("o que aconteceu", "sem hijab live", "marido"…).
+  - Fabíola: 85 sugestões, quase todas de homônimos.
+  - Nenhuma sugestão cita Hamas, Gaza ou o acordo. A página avisa que as sugestões não passam pela regra de homônimos.
+
 ## 22/11/2026: testes de novo compatíveis com os workflows sem numpy
 
 O run 45097399874 (`buscas.yml`) parou nos testes. Causa: o teste do corpus da imprensa, criado hoje, importa `build_corpus_imprensa`, que precisa de numpy, e `buscas.yml`, `trends.yml` e `checagens.yml` não instalam numpy. O erro também teria parado o Trends e as checagens. Correção: esse teste pula quando falta a dependência. Conferido com numpy, networkx e scipy escondidos: 43 testes, 3 pulados, nenhuma falha. Coleta das sugestões disparada de novo.
