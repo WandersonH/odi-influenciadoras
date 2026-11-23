@@ -86,7 +86,7 @@ def baixar_audio(url: str, pasta: str) -> str:
 
 
 def legendas_apify(ids: list[str], raiz: Path = RAIZ, executar=None) -> dict:
-    """Legendas do YouTube pela Apify (seemuapps~youtube-transcript-scraper; o ODI Atlas mediu US$ 0,0001 por transcrição
+    """Legendas do YouTube pela Apify (seemuapps~youtube-transcript-scraper; cerca de US$ 0,0001 por transcrição
     + início). Etapa "terceiros_transcricoes" do teto autorizado; a Apify exige teto mínimo de US$ 0,50 por execução.
     Grava o manifesto apify_youtube_transcricao_*.json com o custo. Devolve {video_id: resultado}."""
     import sys

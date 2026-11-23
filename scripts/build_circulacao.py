@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Rede de circulação do caso Hamas no dia do anúncio (30/07 a 02/08/2026), no padrão dos casos do ODI Atlas.
+"""Rede de circulação do caso Hamas no dia do anúncio (30/07 a 02/08/2026).
 
 Pedido do responsável (22/11/2026, 19h14): "uma rede de circulação do Hamas com canais [que] publicaram notícias no dia".
 - YouTube (API oficial, sem custo): search.list por termo do caso, publishedAfter 2026-07-30 e publishedBefore 2026-08-03,
   ordem de relevância, até 50 vídeos por termo; visualizações (videos.list) e inscritos do canal (channels.list).
 - Imprensa: os 10 primeiros do Google Notícias no recorte "dia do anúncio" (data/imprensa/resultados.json).
-- Rede: redes_caso.circulacao() do ODI Atlas, sem mudança: quem publicou (canal do YouTube ou veículo) × termo que o
+- Rede: redes_caso.circulacao(): quem publicou (canal do YouTube ou veículo) × termo que o
   trouxe; peso = visualizações (ou 1 por notícia). Canal com menos de 10 mil inscritos aparece como código (P0001…).
-- Estatísticas: estatisticas_redes.py do ODI Atlas (Gephi Statistics, Louvain semente 42, E-I, centralidades).
+- Estatísticas: estatisticas_redes.py (Gephi Statistics, Louvain semente 42, E-I, centralidades).
 - Cruzamento: se algum canal da rede é de uma das influenciadoras (canal próprio) — resposta direta à pergunta do estudo.
 Universo: a busca do YouTube não informa o total (pageInfo.totalResults é estimativa: não é universo, ⛔).
 Saídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatísticas.
@@ -84,7 +84,7 @@ def main(root: Path = RAIZ) -> int:
         for c in json.loads(imp.read_text(encoding="utf-8"))["consultas"]:
             if c["recorte"] == "dia do anúncio" and c["grupo"] == "tema":
                 noticias += [{"veiculo": r["veiculo"], "consulta": c["consulta"], "titulo": r["titulo"], "link": r["link"]} for r in c["resultados"]]
-    # uma linha por (vídeo, termo), como no Atlas
+    # uma linha por (vídeo, termo)
     linhas_v = [dict(v, consulta=t) for v in vids for t in v["termos"]]
     nos, arestas, desenho = rc.circulacao(linhas_v, noticias, [])
     d = root / "data/redes"
@@ -118,9 +118,9 @@ def main(root: Path = RAIZ) -> int:
            "imprensa": {"noticias": len(noticias), "veiculos": len({x["veiculo"] for x in noticias})},
            "influenciadoras_na_rede": das_influenciadoras, "top_canais": top_canais,
            "desenho": desenho, "total_nos": len(nos), "total_arestas": len(arestas),
-           "estatisticas_atlas": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}, "centralidades": cent, "comunidades_atlas": coms}
+           "estatisticas_rede": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}, "centralidades": cent, "comunidades_rede": coms}
     (d / "circulacao_hamas.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    for nome, linhas in (("circulacao_estatisticas.csv", [out["estatisticas_atlas"]]), ("circulacao_centralidades.csv", cent), ("circulacao_comunidades.csv", coms)):
+    for nome, linhas in (("circulacao_estatisticas.csv", [out["estatisticas_rede"]]), ("circulacao_centralidades.csv", cent), ("circulacao_comunidades.csv", coms)):
         if linhas:
             with (d / nome).open("w", encoding="utf-8", newline="") as f:
                 w = csv.DictWriter(f, fieldnames=list(linhas[0].keys()))

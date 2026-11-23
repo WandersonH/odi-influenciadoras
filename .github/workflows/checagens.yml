@@ -1,6 +1,6 @@
 name: Checagens (Google Fact Check Tools)
 
-# Porta do coletor do ODI Atlas. Grátis. Chave FACTCHECK_API_KEY; sem ela, a do YouTube (a API precisa estar ativa no projeto).
+# Grátis. Chave FACTCHECK_API_KEY; sem ela, a do YouTube (a API precisa estar ativa no projeto).
 on:
   workflow_dispatch:
 

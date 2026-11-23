@@ -5,8 +5,8 @@ Fonte: data/imprensa/resultados.json (collect_imprensa.py): os 10 primeiros resu
 Brasil) por termo, nos recortes "dia do anúncio" (30/07 a 02/08) e "núcleo" (23/07 a 14/08/2026). Entram só as
 buscas do tema (Hamas, desarmamento, Gaza…). As buscas pelos nomes das influenciadoras ficam de fora porque nenhuma
 matéria as cita: os resultados de "Fabíola Oliveira" são de homônimos. Uma matéria que aparece nos dois recortes
-para o mesmo termo conta uma vez. Rede: redes_caso.circulacao() do ODI Atlas, sem mudança (veículo ligado ao termo
-pelo qual apareceu; peso = número de matérias). Estatísticas: estatisticas_redes.py do Atlas (Gephi Statistics,
+para o mesmo termo conta uma vez. Rede: redes_caso.circulacao() (veículo ligado ao termo
+pelo qual apareceu; peso = número de matérias). Estatísticas: estatisticas_redes.py (Gephi Statistics,
 Louvain semente 42, E-I, centralidades). Universo ⛔: o Google Notícias não informa quantas matérias existem; a
 amostra é a dos 10 primeiros por termo, na ordem do Google.
 
@@ -79,9 +79,9 @@ def main(root: Path = RAIZ) -> int:
            "por_recorte": {r: sum(1 for x in noticias if x["recorte"] == r) for r in sorted({x["recorte"] for x in noticias})},
            "influenciadoras_na_rede": [], "top_veiculos": top,
            "desenho": desenho, "total_nos": len(nos), "total_arestas": len(arestas),
-           "estatisticas_atlas": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}, "centralidades": cent, "comunidades_atlas": coms}
+           "estatisticas_rede": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}, "centralidades": cent, "comunidades_rede": coms}
     (d / "imprensa.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    for nome, linhas in (("imprensa_estatisticas.csv", [out["estatisticas_atlas"]]), ("imprensa_centralidades.csv", cent), ("imprensa_comunidades.csv", coms)):
+    for nome, linhas in (("imprensa_estatisticas.csv", [out["estatisticas_rede"]]), ("imprensa_centralidades.csv", cent), ("imprensa_comunidades.csv", coms)):
         if linhas:
             with (d / nome).open("w", encoding="utf-8", newline="") as f:
                 w = csv.DictWriter(f, fieldnames=list(linhas[0].keys()))

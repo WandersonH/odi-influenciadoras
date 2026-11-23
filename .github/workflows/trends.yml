@@ -1,6 +1,6 @@
 name: Google Trends (Brasil, recorte do estudo)
 
-# Cópia do coletor do ODI Espanha/ODI Atlas. Sem custo e sem chave. O Google pode limitar (HTTP 429); fica registrado no manifesto.
+# Sem custo e sem chave. O Google pode limitar (HTTP 429); fica registrado no manifesto.
 on:
   workflow_dispatch:
 

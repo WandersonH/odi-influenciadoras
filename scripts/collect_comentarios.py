@@ -4,9 +4,9 @@
 Uso: python scripts/collect_comentarios.py --rede youtube|instagram|tiktok [--por-post 50]
 
 - YouTube: API oficial (commentThreads.list, 100 por página, do mais novo ao mais antigo, até o fim), sem custo em US$.
-- Instagram: Apify datadoping~instagram-comments-and-replies-scraper (o do ODI Atlas; US$ 1,40 por mil no caso 008),
+- Instagram: Apify datadoping~instagram-comments-and-replies-scraper,
   até --por-post comentários por publicação, ordem "popular", sem respostas.
-- TikTok: Apify clockworks~tiktok-comments-scraper (o do ODI Atlas; cerca de US$ 0,50 por mil), até --por-post por vídeo.
+- TikTok: Apify clockworks~tiktok-comments-scraper, até --por-post por vídeo.
 Teto: etapa "comentarios" de data/config/coleta.json (US$ 5,00 autorizados em 22/11/2026). Instagram leva até US$ 3,60 e
 TikTok até US$ 1,20 por execução, sempre limitados ao que resta da etapa e ao mínimo de US$ 0,50 da Apify.
 
@@ -69,7 +69,7 @@ def _get_yt(rota, q):
 
 def youtube(posts, chave, max_paginas=40):
     """Comentários de primeiro nível (commentThreads.list) e TODAS as respostas (comments.list com parentId quando a
-    conversa tem mais respostas do que as que vêm junto), como no coletor completo do ODI Atlas."""
+    conversa tem mais respostas do que as que vêm junto)."""
     out, chamadas, erros = [], 0, []
     for p in posts:
         token = None

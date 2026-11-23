@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regras de texto do caderno "O que dizem", portadas de scripts/build_conteudo.py do ODI Atlas (mesmo método):
+"""Regras de texto do caderno "O que dizem":
 normalização (minúsculas, sem acento), dicionário aberto de temas por regras (termo com * casa por prefixo),
 descarte de trechos repetidos em 10+ publicações do mesmo perfil, nuvem por nº de publicações (não de ocorrências) e
 hashtags. Aqui as palavras vazias são as do português falado (legendas e transcrições). Classificação por regras, NÃO por IA:

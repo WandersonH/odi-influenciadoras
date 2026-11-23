@@ -190,7 +190,7 @@ def classes(textos: list[str], anos: list[str], grupos: list[str] | None = None,
     mc = max(cr.MIN_CLASSE, int(0.05 * n_at))
     rot, arvore, escolha_k = cr.chd_iramuteq(X, min_classe=mc, n_textos=len(textos))
     global ULTIMOS_ROTULOS
-    ULTIMOS_ROTULOS = rot.tolist()  # classe do Atlas por texto, na ordem recebida (para comparar com o IRaMuTeQ; vai só para o privado)
+    ULTIMOS_ROTULOS = rot.tolist()  # classe da CHD por texto, na ordem recebida (para comparar com o IRaMuTeQ; vai só para o privado)
     ok = rot > 0
     if not ok.any():
         return None
@@ -230,14 +230,14 @@ def classes(textos: list[str], anos: list[str], grupos: list[str] | None = None,
     return {"comentarios": len(textos), "classificados": int(ok.sum()), "pct_classificados": round(100 * ok.sum() / len(textos), 1), "classes": out,
             "arvore": arvore, "min_classe": mc, "escolha_classes": escolha_k, "aproveitamento": cr.aproveitamento(rot, len(textos)),
             "variavel": rotulo_grupo if grupos is not None else None,
-            "nota": "CHD de Reinert do Atlas (chd_reinert.py), um comentário = um segmento; sem lematização. Os nomes das classes são dados "
+            "nota": "CHD de Reinert (chd_reinert.py), um comentário = um segmento; sem lematização. Os nomes das classes são dados "
                     "por quem lê as formas. O corpus no formato do IRaMuTeQ (com *video_, *ano_ e *tipo_) fica no repositório privado."}
 
 
 def corpus_iramuteq(rows: list[dict]) -> str:
     l = []
     for r in rows:
-        tx = re.sub(r"[*\-$]", " ", cr.normalizar_risadas(r.get("texto") or "")).strip()  # risadas como no Atlas (01/11/2026)
+        tx = re.sub(r"[*\-$]", " ", cr.normalizar_risadas(r.get("texto") or "")).strip()  # risadas normalizadas
         if tx:
             l.append(f"**** *video_{re.sub(r'[^A-Za-z0-9]', '', r['video_id'])} *ano_{(r.get('publicado_em') or '0000')[:4]} *tipo_{r.get('tipo')}\n{tx}\n")
     return "\n".join(l)

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Índice de engajamento relativo (seção 8.1 do plano, mesmo método dos casos do ODI Atlas).
+"""Índice de engajamento relativo (seção 8.1 do plano).
 
 Para cada publicação do núcleo:  índice = interações da publicação ÷ mediana das interações da MESMA influenciadora,
 na MESMA rede, na linha de base (01/06 a 22/07/2026). Acima de 1, rendeu mais que o habitual dela naquela rede.

@@ -1,5 +1,23 @@
 # Changelog
 
+## 22/11/2026: projeto sem referência a outros projetos; regras do "O que dizem" na página; nome da pesquisa na marca
+
+O responsável pediu às 22h41: o projeto é de outro pesquisador, então nada de "mesmo método do ODI Atlas e do ODI Espanha"; o método deve ser descrito por si, com as regras listadas. Às 22h43 pediu para manter o logotipo e trocar o nome do observatório pelo nome da pesquisa.
+- **Página:**
+  - O caderno 03 lista as 8 regras do "O que dizem": texto lido, normalização, dicionário (11 temas, prefixo com *, escrita não latina literal), contagem por publicação, descarte de texto padrão (10+ publicações), nuvem (top 60, mínimo de 3 publicações), taxa de interação e limites.
+  - Os demais textos não citam outros projetos.
+  - Marca: o logotipo fica; o nome passa a ser "Influenciadoras · Muçulmanas brasileiras e o acordo do Hamas".
+- **Folha de estilo:** `assets/odi-atlas.css` passa a ser `assets/odi.css` (`git mv`); comentários e classes `atlas-*` (não usadas na página) renomeados.
+- **Scripts, workflows, configuração, README e CLAUDE.md:** referências retiradas. O agente de navegador do coletor passa a ser `odi-influenciadoras-coletor`.
+- **Chaves de dados renomeadas:** `estatisticas_atlas` passa a ser `estatisticas_rede`, e `comunidades_atlas` passa a ser `comunidades_rede`. O mesmo vale para `classe_atlas` (agora `classe_chd`) e para os arquivos `*_classes_atlas_por_segmento` (agora `*_classes_chd_por_segmento`).
+- **Regerado localmente:** o que dizem, engajamento, redes, rede da imprensa, corpus, redes dos comentários e corpus da imprensa. A CHD das influenciadoras saiu igual (7 classes, 61,4%, 321 textos).
+  - A rede de circulação precisa da chave do YouTube, então só as chaves e o texto do método foram trocados no JSON.
+  - Os números não mudaram.
+- **Não alterado:**
+  - Manifestos de coletas já feitas (Trends de 22/11) e os registros antigos deste CHANGELOG, que são histórico.
+  - `lexique_pt.txt`, onde "atlas" e "espanha" são verbetes do dicionário.
+  - "ForceAtlas 2", que é o nome do algoritmo do Gephi.
+
 ## 22/11/2026: resultado do IRaMuTeQ das matérias (run 45083550703)
 
 - **Texto completo:** 39 de 51 matérias distintas (25 veículos). Ficaram de fora:

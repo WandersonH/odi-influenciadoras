@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Estatísticas das redes do Atlas (os mesmos indicadores do painel Statistics do Gephi), para todas as redes dos casos.
+"""Estatísticas das redes (os mesmos indicadores do painel Statistics do Gephi), para todas as redes dos casos.
 
 Pedido do responsável (07/11/2026, 19h25): "existem 2 tipos de redes que vamos explorar no Gephi: Force Atlas 2 para ver
 comunidades e OpenOrd para ver polarização. Vamos ver grupos pelo modularity e identificar qual a % desses; registre o

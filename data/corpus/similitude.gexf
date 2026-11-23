@@ -3,117 +3,117 @@
 <graph defaultedgetype="undirected">
 <attributes class="node"><attribute id="0" title="tipo" type="string"/><attribute id="1" title="peso" type="double"/><attribute id="2" title="comunidade" type="string"/></attributes>
 <nodes>
-<node id="gente" label="gente"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="116"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="estar" label="estar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="114"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="achar" label="achar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="76"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="saber" label="saber"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="74"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="so" label="so"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="70"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="arabe" label="arabe"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="66"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="ficar" label="ficar"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="62"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="querer" label="querer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="62"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="ne" label="ne"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="55"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="dia" label="dia"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="51"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="olhar" label="olhar"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="51"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="coisa" label="coisa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="49"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="dar" label="dar"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="49"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="mundo" label="mundo"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="49"/><attvalue for="2" value="G7"/></attvalues></node>
-<node id="falar" label="falar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="48"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="gente" label="gente"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="119"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="estar" label="estar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="115"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="achar" label="achar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="77"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="saber" label="saber"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="77"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="arabe" label="arabe"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="71"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="so" label="so"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="71"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="querer" label="querer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="65"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="ficar" label="ficar"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="64"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="ne" label="ne"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="56"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="dia" label="dia"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="55"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="dar" label="dar"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="54"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="mundo" label="mundo"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="53"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="olhar" label="olhar"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="51"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="coisa" label="coisa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="50"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="falar" label="falar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="49"/><attvalue for="2" value="G2"/></attvalues></node>
 <node id="deixar" label="deixar"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="47"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="colocar" label="colocar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="45"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="brasil" label="brasil"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="42"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="perfume" label="perfume"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="41"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="muculmano" label="muculmano"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="39"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="bom" label="bom"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="38"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="ver" label="ver"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="36"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="ano" label="ano"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="35"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="fragrancia" label="fragrancia"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="33"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="mulher" label="mulher"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="33"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="brasil" label="brasil"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="44"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="muculmano" label="muculmano"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="44"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="perfume" label="perfume"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="42"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="bom" label="bom"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="39"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="ver" label="ver"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="38"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="ano" label="ano"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="36"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="mulher" label="mulher"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="36"/><attvalue for="2" value="G8"/></attvalues></node>
+<node id="vir" label="vir"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="33"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="fragrancia" label="fragrancia"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="32"/><attvalue for="2" value="G3"/></attvalues></node>
 <node id="gostar" label="gostar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="32"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="vir" label="vir"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="32"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="amar" label="amar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="chamar" label="chamar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="vcs" label="vcs"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="31"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="amar" label="amar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="30"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="chamar" label="chamar"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="diferente" label="diferente"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="29"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="conhecer" label="conhecer"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="deus" label="deus"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="28"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="pai" label="pai"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="28"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="pais" label="pais"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="28"/><attvalue for="2" value="G8"/></attvalues></node>
 <node id="usar" label="usar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="lindo" label="lindo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="27"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="pai" label="pai"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="27"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="pais" label="pais"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="vcs" label="vcs"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="26"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="vez" label="vez"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="existir" label="existir"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="25"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="video" label="video"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="filho" label="filho"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="24"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="vez" label="vez"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="28"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="lindo" label="lindo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="27"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="existir" label="existir"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="26"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="video" label="video"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="26"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="filho" label="filho"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="melhor" label="melhor"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="passar" label="passar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="25"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="marca" label="marca"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="24"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="melhor" label="melhor"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="mostrar" label="mostrar"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="23"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="passar" label="passar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="mostrar" label="mostrar"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="24"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="chegar" label="chegar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="23"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="homem" label="homem"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="23"/><attvalue for="2" value="G8"/></attvalues></node>
 <node id="pensar" label="pensar"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="23"/><attvalue for="2" value="G7"/></attvalues></node>
-<node id="bonito" label="bonito"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="casa" label="casa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="desconto" label="desconto"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="22"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="homem" label="homem"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="22"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="religiao" label="religiao"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="21"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="bonito" label="bonito"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G4"/></attvalues></node>
+<node id="casa" label="casa"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="22"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="desconto" label="desconto"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="22"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="casamento" label="casamento"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="21"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="novo" label="novo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="21"/><attvalue for="2" value="G9"/></attvalues></node>
+<node id="parecer" label="parecer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="21"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="religiao" label="religiao"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="21"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="brasileiro" label="brasileiro"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="20"/><attvalue for="2" value="G3"/></attvalues></node>
 <node id="cara" label="cara"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="20"/><attvalue for="2" value="G2"/></attvalues></node>
 <node id="comecar" label="comecar"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="20"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="obrigar" label="obrigar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="20"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="parecer" label="parecer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="20"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="obrigar" label="obrigar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="20"/><attvalue for="2" value="G8"/></attvalues></node>
 <node id="acontecer" label="acontecer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="19"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="brasileiro" label="brasileiro"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="19"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="chegar" label="chegar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="19"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="contar" label="contar"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="19"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="novo" label="novo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="19"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="casamento" label="casamento"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="18"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="gosto" label="gosto"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="19"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="mae" label="mae"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="19"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="to" label="to"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="19"/><attvalue for="2" value="G2"/></attvalues></node>
 <node id="forma" label="forma"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="18"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="gosto" label="gosto"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="18"/><attvalue for="2" value="G5"/></attvalues></node>
 <node id="historia" label="historia"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="18"/><attvalue for="2" value="G7"/></attvalues></node>
 <node id="lembrar" label="lembrar"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="18"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="lugar" label="lugar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="18"/><attvalue for="2" value="G7"/></attvalues></node>
 <node id="maravilhoso" label="maravilhoso"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="18"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="site" label="site"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="18"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="to" label="to"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="18"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="pov" label="pov"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="18"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="site" label="site"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="18"/><attvalue for="2" value="G5"/></attvalues></node>
 <node id="trazer" label="trazer"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="18"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="vc" label="vc"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="18"/><attvalue for="2" value="G6"/></attvalues></node>
 <node id="cultura" label="cultura"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="17"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="lugar" label="lugar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G7"/></attvalues></node>
-<node id="marido" label="marido"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="17"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="islam" label="islam"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="17"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="marido" label="marido"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="oracao" label="oracao"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="17"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="perfumaria" label="perfumaria"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G3"/></attvalues></node>
 <node id="receber" label="receber"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="sair" label="sair"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G2"/></attvalues></node>
 <node id="significar" label="significar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="17"/><attvalue for="2" value="G3"/></attvalues></node>
+<node id="viver" label="viver"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="17"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="encontrar" label="encontrar"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="16"/><attvalue for="2" value="G5"/></attvalues></node>
 <node id="entender" label="entender"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="16"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="especial" label="especial"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="16"/><attvalue for="2" value="G6"/></attvalues></node>
+<node id="especial" label="especial"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="16"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="hajj" label="hajj"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="16"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="islamico" label="islamico"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="16"/><attvalue for="2" value="G8"/></attvalues></node>
+<node id="loja" label="loja"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="16"/><attvalue for="2" value="G5"/></attvalues></node>
 <node id="maior" label="maior"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="16"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="momento" label="momento"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="16"/><attvalue for="2" value="G7"/></attvalues></node>
 <node id="sofisticado" label="sofisticado"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="16"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="viver" label="viver"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="16"/><attvalue for="2" value="G7"/></attvalues></node>
+<node id="amigo" label="amigo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="facil" label="facil"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G4"/></attvalues></node>
-<node id="islam" label="islam"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="15"/><attvalue for="2" value="G5"/></attvalues></node>
+<node id="hora" label="hora"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G1"/></attvalues></node>
 <node id="marcante" label="marcante"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="momento" label="momento"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="15"/><attvalue for="2" value="G7"/></attvalues></node>
 <node id="pedir" label="pedir"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G2"/></attvalues></node>
 <node id="pessoa" label="pessoa"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="sair" label="sair"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="amigo" label="amigo"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="14"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="conseguir" label="conseguir"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="14"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="encontrar" label="encontrar"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="14"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="familia" label="familia"><attvalues><attvalue for="0" value="hyatt-omar"/><attvalue for="1" value="14"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="sonho" label="sonho"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="14"/><attvalue for="2" value="G2"/></attvalues></node>
-<node id="aprender" label="aprender"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="13"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="assar" label="assar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="13"/><attvalue for="2" value="G3"/></attvalues></node>
-<node id="cafe" label="cafe"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="13"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="claro" label="claro"><attvalues><attvalue for="0" value="mariam-chami"/><attvalue for="1" value="13"/><attvalue for="2" value="G5"/></attvalues></node>
-<node id="comprar" label="comprar"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="13"/><attvalue for="2" value="G8"/></attvalues></node>
-<node id="cupom" label="cupom"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="13"/><attvalue for="2" value="G6"/></attvalues></node>
-<node id="doce" label="doce"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="13"/><attvalue for="2" value="G1"/></attvalues></node>
-<node id="fresco" label="fresco"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="13"/><attvalue for="2" value="G8"/></attvalues></node>
+<node id="sonho" label="sonho"><attvalues><attvalue for="0" value="comum"/><attvalue for="1" value="15"/><attvalue for="2" value="G2"/></attvalues></node>
+<node id="aprender" label="aprender"><attvalues><attvalue for="0" value="fabiola-oliveira"/><attvalue for="1" value="14"/><attvalue for="2" value="G1"/></attvalues></node>
+<node id="cafe" label="cafe"><attvalues><attvalue for="0" value="carima-orra"/><attvalue for="1" value="14"/><attvalue for="2" value="G1"/></attvalues></node>
 </nodes><edges>
-<edge id="0" source="gente" target="estar" weight="31"/>
+<edge id="0" source="gente" target="estar" weight="30"/>
 <edge id="1" source="gente" target="colocar" weight="22"/>
 <edge id="2" source="gente" target="so" weight="20"/>
 <edge id="3" source="gente" target="coisa" weight="18"/>
-<edge id="4" source="gente" target="achar" weight="16"/>
+<edge id="4" source="gente" target="achar" weight="17"/>
 <edge id="5" source="gente" target="ficar" weight="16"/>
 <edge id="6" source="gente" target="mundo" weight="15"/>
 <edge id="7" source="gente" target="deixar" weight="15"/>
-<edge id="8" source="gente" target="ver" weight="13"/>
-<edge id="9" source="gente" target="arabe" weight="12"/>
+<edge id="8" source="gente" target="olhar" weight="14"/>
+<edge id="9" source="gente" target="ver" weight="14"/>
 <edge id="10" source="gente" target="conhecer" weight="11"/>
 <edge id="11" source="gente" target="pais" weight="10"/>
 <edge id="12" source="gente" target="ano" weight="9"/>
@@ -122,87 +122,87 @@
 <edge id="15" source="gente" target="forma" weight="8"/>
 <edge id="16" source="gente" target="entender" weight="8"/>
 <edge id="17" source="gente" target="usar" weight="7"/>
-<edge id="18" source="gente" target="marca" weight="7"/>
-<edge id="19" source="gente" target="religiao" weight="7"/>
+<edge id="18" source="gente" target="vez" weight="7"/>
+<edge id="19" source="gente" target="melhor" weight="7"/>
 <edge id="20" source="gente" target="chegar" weight="7"/>
-<edge id="21" source="gente" target="aprender" weight="7"/>
-<edge id="22" source="gente" target="vez" weight="6"/>
-<edge id="23" source="gente" target="melhor" weight="6"/>
-<edge id="24" source="gente" target="casa" weight="5"/>
-<edge id="25" source="gente" target="parecer" weight="5"/>
-<edge id="26" source="gente" target="familia" weight="4"/>
-<edge id="27" source="gente" target="cafe" weight="3"/>
-<edge id="28" source="estar" target="olhar" weight="17"/>
-<edge id="29" source="estar" target="falar" weight="17"/>
-<edge id="30" source="estar" target="ne" weight="16"/>
-<edge id="31" source="estar" target="dia" weight="16"/>
-<edge id="32" source="estar" target="dar" weight="14"/>
+<edge id="21" source="gente" target="religiao" weight="7"/>
+<edge id="22" source="gente" target="aprender" weight="7"/>
+<edge id="23" source="gente" target="chamar" weight="6"/>
+<edge id="24" source="gente" target="marca" weight="6"/>
+<edge id="25" source="gente" target="amigo" weight="6"/>
+<edge id="26" source="gente" target="casa" weight="5"/>
+<edge id="27" source="gente" target="parecer" weight="5"/>
+<edge id="28" source="gente" target="hora" weight="5"/>
+<edge id="29" source="gente" target="cafe" weight="3"/>
+<edge id="30" source="estar" target="falar" weight="17"/>
+<edge id="31" source="estar" target="dia" weight="15"/>
+<edge id="32" source="estar" target="dar" weight="15"/>
 <edge id="33" source="estar" target="bom" weight="14"/>
-<edge id="34" source="estar" target="to" weight="10"/>
-<edge id="35" source="estar" target="acontecer" weight="9"/>
+<edge id="34" source="estar" target="acontecer" weight="9"/>
+<edge id="35" source="estar" target="to" weight="9"/>
 <edge id="36" source="estar" target="deus" weight="8"/>
-<edge id="37" source="estar" target="comecar" weight="8"/>
+<edge id="37" source="estar" target="comecar" weight="7"/>
 <edge id="38" source="estar" target="sonho" weight="7"/>
 <edge id="39" source="estar" target="casamento" weight="6"/>
 <edge id="40" source="estar" target="pedir" weight="6"/>
 <edge id="41" source="estar" target="pessoa" weight="6"/>
 <edge id="42" source="estar" target="sair" weight="4"/>
-<edge id="43" source="achar" target="querer" weight="17"/>
-<edge id="44" source="achar" target="gostar" weight="10"/>
-<edge id="45" source="achar" target="mostrar" weight="7"/>
-<edge id="46" source="achar" target="contar" weight="5"/>
-<edge id="47" source="achar" target="maravilhoso" weight="5"/>
-<edge id="48" source="achar" target="facil" weight="5"/>
-<edge id="49" source="saber" target="coisa" weight="17"/>
-<edge id="50" source="saber" target="muculmano" weight="14"/>
-<edge id="51" source="saber" target="vcs" weight="10"/>
-<edge id="52" source="saber" target="gosto" weight="4"/>
-<edge id="53" source="saber" target="conseguir" weight="4"/>
-<edge id="54" source="arabe" target="fragrancia" weight="17"/>
-<edge id="55" source="arabe" target="perfumaria" weight="17"/>
-<edge id="56" source="arabe" target="brasil" weight="15"/>
-<edge id="57" source="arabe" target="filho" weight="8"/>
-<edge id="58" source="arabe" target="brasileiro" weight="7"/>
-<edge id="59" source="arabe" target="cultura" weight="7"/>
-<edge id="60" source="arabe" target="amigo" weight="7"/>
-<edge id="61" source="arabe" target="significar" weight="5"/>
-<edge id="62" source="querer" target="mulher" weight="8"/>
-<edge id="63" source="querer" target="video" weight="6"/>
-<edge id="64" source="ne" target="bonito" weight="7"/>
-<edge id="65" source="dia" target="pai" weight="13"/>
-<edge id="66" source="dia" target="desconto" weight="7"/>
-<edge id="67" source="dia" target="especial" weight="6"/>
-<edge id="68" source="olhar" target="perfume" weight="14"/>
-<edge id="69" source="olhar" target="lindo" weight="13"/>
-<edge id="70" source="olhar" target="vir" weight="7"/>
+<edge id="43" source="estar" target="hajj" weight="3"/>
+<edge id="44" source="achar" target="querer" weight="19"/>
+<edge id="45" source="achar" target="ne" weight="16"/>
+<edge id="46" source="achar" target="gostar" weight="10"/>
+<edge id="47" source="achar" target="mostrar" weight="6"/>
+<edge id="48" source="achar" target="facil" weight="6"/>
+<edge id="49" source="achar" target="contar" weight="5"/>
+<edge id="50" source="achar" target="maravilhoso" weight="4"/>
+<edge id="51" source="saber" target="coisa" weight="17"/>
+<edge id="52" source="saber" target="muculmano" weight="13"/>
+<edge id="53" source="saber" target="vcs" weight="11"/>
+<edge id="54" source="saber" target="mae" weight="4"/>
+<edge id="55" source="saber" target="vc" weight="4"/>
+<edge id="56" source="arabe" target="perfumaria" weight="17"/>
+<edge id="57" source="arabe" target="fragrancia" weight="16"/>
+<edge id="58" source="arabe" target="brasil" weight="15"/>
+<edge id="59" source="arabe" target="ne" weight="12"/>
+<edge id="60" source="arabe" target="filho" weight="8"/>
+<edge id="61" source="arabe" target="brasileiro" weight="8"/>
+<edge id="62" source="arabe" target="cultura" weight="7"/>
+<edge id="63" source="arabe" target="gosto" weight="5"/>
+<edge id="64" source="arabe" target="significar" weight="5"/>
+<edge id="65" source="querer" target="video" weight="6"/>
+<edge id="66" source="ne" target="bonito" weight="7"/>
+<edge id="67" source="dia" target="pai" weight="14"/>
+<edge id="68" source="dia" target="amar" weight="8"/>
+<edge id="69" source="dia" target="desconto" weight="7"/>
+<edge id="70" source="dia" target="especial" weight="6"/>
 <edge id="71" source="dar" target="receber" weight="6"/>
 <edge id="72" source="mundo" target="historia" weight="8"/>
 <edge id="73" source="mundo" target="maior" weight="7"/>
 <edge id="74" source="mundo" target="pensar" weight="6"/>
 <edge id="75" source="mundo" target="lembrar" weight="6"/>
-<edge id="76" source="mundo" target="lugar" weight="5"/>
-<edge id="77" source="deixar" target="chamar" weight="7"/>
-<edge id="78" source="deixar" target="passar" weight="6"/>
-<edge id="79" source="colocar" target="doce" weight="6"/>
-<edge id="80" source="perfume" target="amar" weight="8"/>
-<edge id="81" source="perfume" target="fresco" weight="5"/>
-<edge id="82" source="perfume" target="comprar" weight="4"/>
-<edge id="83" source="muculmano" target="claro" weight="9"/>
-<edge id="84" source="muculmano" target="islam" weight="5"/>
-<edge id="85" source="bom" target="cara" weight="8"/>
-<edge id="86" source="fragrancia" target="sofisticado" weight="9"/>
-<edge id="87" source="fragrancia" target="marcante" weight="9"/>
-<edge id="88" source="fragrancia" target="assar" weight="7"/>
+<edge id="76" source="mundo" target="lugar" weight="6"/>
+<edge id="77" source="olhar" target="perfume" weight="14"/>
+<edge id="78" source="olhar" target="lindo" weight="13"/>
+<edge id="79" source="deixar" target="passar" weight="6"/>
+<edge id="80" source="brasil" target="vir" weight="7"/>
+<edge id="81" source="muculmano" target="islam" weight="5"/>
+<edge id="82" source="perfume" target="novo" weight="5"/>
+<edge id="83" source="bom" target="cara" weight="8"/>
+<edge id="84" source="mulher" target="pais" weight="9"/>
+<edge id="85" source="mulher" target="homem" weight="8"/>
+<edge id="86" source="mulher" target="obrigar" weight="7"/>
+<edge id="87" source="fragrancia" target="sofisticado" weight="9"/>
+<edge id="88" source="fragrancia" target="marcante" weight="9"/>
 <edge id="89" source="fragrancia" target="trazer" weight="6"/>
-<edge id="90" source="fragrancia" target="novo" weight="5"/>
-<edge id="91" source="mulher" target="homem" weight="8"/>
-<edge id="92" source="mulher" target="obrigar" weight="7"/>
-<edge id="93" source="pai" target="marido" weight="7"/>
-<edge id="94" source="desconto" target="site" weight="15"/>
-<edge id="95" source="desconto" target="cupom" weight="11"/>
-<edge id="96" source="historia" target="viver" weight="6"/>
-<edge id="97" source="site" target="encontrar" weight="7"/>
-<edge id="98" source="viver" target="momento" weight="6"/>
+<edge id="90" source="chamar" target="oracao" weight="4"/>
+<edge id="91" source="pai" target="marido" weight="7"/>
+<edge id="92" source="pais" target="islamico" weight="6"/>
+<edge id="93" source="desconto" target="site" weight="15"/>
+<edge id="94" source="historia" target="viver" weight="6"/>
+<edge id="95" source="pov" target="vc" weight="7"/>
+<edge id="96" source="site" target="encontrar" weight="7"/>
+<edge id="97" source="site" target="loja" weight="6"/>
+<edge id="98" source="viver" target="momento" weight="7"/>
 </edges>
 </graph>
 </gexf>

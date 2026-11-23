@@ -1,7 +1,7 @@
 {
  "versao": "v0",
  "estado": "RASCUNHO a validar pelos pesquisadores. Montado em 22/11/2026 a partir da pergunta do estudo e das legendas e transcrições do acervo; ainda sem codificação humana nem teste de concordância.",
- "nota": "Dicionário aberto de temas aplicado à legenda e à fala transcrita de cada publicação (normalizado: minúsculas, sem acento). Uma publicação pode ter vários temas. Classificação por regras, NÃO por IA: auditável e replicável, mas não entende ironia nem contexto. Termos com * casam por prefixo. Mesmo método do caderno 'O que dizem' do ODI Atlas e do ODI Espanha.",
+ "nota": "Dicionário aberto de temas aplicado à legenda e à fala transcrita de cada publicação (normalizado: minúsculas, sem acento). Uma publicação pode ter vários temas. Classificação por regras, NÃO por IA: auditável e replicável, mas não entende ironia nem contexto. Termos com * casam por prefixo.",
  "temas": {
   "acordo_hamas": [
    "hamas",

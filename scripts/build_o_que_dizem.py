@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-"""Caderno "O que dizem": publicações de cada influenciadora por tema, por rede. Mesmo método do caderno "O que dizem"
-do ODI Espanha e "O que as campanhas dizem" do ODI Atlas (dicionário aberto por regras, nuvem por nº de publicações,
-hashtags, taxa de interação), aplicado à LEGENDA e à FALA TRANSCRITA de cada publicação, quando houver.
+"""Caderno "O que dizem": publicações de cada influenciadora por tema, por rede. Dicionário aberto por regras, nuvem por nº de publicações,
+hashtags e taxa de interação, aplicado à LEGENDA e à FALA TRANSCRITA de cada publicação, quando houver.
 
 Entrada: data/youtube/videos.csv, data/instagram/posts.csv, data/tiktok/posts.csv, data/transcricoes/<rede>.csv,
 data/config/temas.json, data/config/atores.json, data/config/projeto.json.

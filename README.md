@@ -2,7 +2,7 @@
 
 Posicionamento de influenciadoras muçulmanas brasileiras sobre o acordo de desarmamento gradual do Hamas, aceito em 31/07/2026. Mede o que cada uma publicou, o grau de interação e as menções de terceiros no período do evento.
 
-Projeto herdado do [ODI Espanha](https://github.com/WandersonH/odi-espanha) e do [ODI Atlas](https://github.com/WandersonH/odi-atlas). As regras de coleta, universo e privacidade estão em [CLAUDE.md](CLAUDE.md). Mudanças no [CHANGELOG.md](CHANGELOG.md).
+As regras de coleta, universo e privacidade estão em [CLAUDE.md](CLAUDE.md). Mudanças no [CHANGELOG.md](CHANGELOG.md).
 
 ## Janelas
 

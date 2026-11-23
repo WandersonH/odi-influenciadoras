@@ -1,6 +1,6 @@
 {
  "titulo": "Método e metodologia",
- "fonte": "Plano aprovado pelo responsável em 22/11/2026 (documento 'ODI Influenciadoras — Plano de coleta, método e páginas'), mesmo desenho dos casos do ODI Atlas (data/config/metodologia_casos.json de lá). Desvios da execução registrados ao fim de cada seção e no CHANGELOG.md.",
+ "fonte": "Plano aprovado pelo responsável em 22/11/2026 (documento 'ODI Influenciadoras — Plano de coleta, método e páginas'). Desvios da execução registrados ao fim de cada seção e no CHANGELOG.md.",
  "secoes": [
   {
    "titulo": "1. Objeto e pergunta",
@@ -88,7 +88,7 @@
      ]
     ]
    },
-   "lista_titulo": "Regras herdadas do ODI Atlas e do ODI Espanha",
+   "lista_titulo": "Regras de coleta e de leitura dos dados",
    "lista": [
     "Toda amostra aparece com o universo, a fonte do universo e o percentual lido. Universo não informado é ⛔, nunca estimado nem zero.",
     "Dado ausente é bloqueio (⛔), não sucesso.",
@@ -152,7 +152,7 @@
      ],
      [
       "Google Trends",
-      "Coletor do ODI Atlas",
+      "Coletor próprio (pytrends, Brasil)",
       "Brasil, 01/06 a 14/08 e só o núcleo: tópicos, palavras do tema e nomes",
       "Coletado"
      ],
@@ -209,7 +209,7 @@
   {
    "titulo": "6. Classificação (Bardin)",
    "paragrafos": [
-    "Cada publicação do núcleo recebe códigos de um livro de códigos, codificado por pessoas; a máquina só faz a pré-codificação. Amostra estratificada por influenciadora e rede, sorteada uma vez com semente fixa; dois codificadores cegos; concordância por kappa de Cohen, meta κ ≥ 0,70; divergências resolvidas por um terceiro. Nos comentários, o livro de intolerância do ODI Atlas com islamofobia e antissemitismo, e a posição do comentarista (apoio, ataque, debate, sem relação). <b>Estado: ⛔ codificação humana ainda não feita</b>; os cadernos 02 e 05 mostram só a leitura automática."
+    "Cada publicação do núcleo recebe códigos de um livro de códigos, codificado por pessoas; a máquina só faz a pré-codificação. Amostra estratificada por influenciadora e rede, sorteada uma vez com semente fixa; dois codificadores cegos; concordância por kappa de Cohen, meta κ ≥ 0,70; divergências resolvidas por um terceiro. Nos comentários, um livro de códigos de intolerância com islamofobia e antissemitismo, e a posição do comentarista (apoio, ataque, debate, sem relação). <b>Estado: ⛔ codificação humana ainda não feita</b>; os cadernos 02 e 05 mostram só a leitura automática."
    ],
    "tabela": {
     "cab": [
@@ -240,8 +240,8 @@
    "titulo": "7. Análises",
    "paragrafos": [
     "<b>Engajamento relativo (caderno 04).</b> Índice = interações da publicação ÷ mediana das interações da mesma influenciadora, na mesma rede, na linha de base. Mediana, e não média, para que um viral antigo não distorça a régua. Interações = o que cada rede informa (YouTube: curtidas + comentários; Instagram: curtidas; TikTok e X: curtidas + comentários + compartilhamentos). Linha de base com menos de 3 publicações: ⛔.",
-    "<b>Redes (caderno 08).</b> Pacote do ODI Atlas: rede de marcações e hashtags das quatro e rede de circulação do caso Hamas no dia do anúncio (redes_caso.circulacao: quem publicou × termo; peso = visualizações). Estatísticas do painel do Gephi (estatisticas_redes.py): densidade, grau, componentes, clustering, diâmetro, assortatividade; Modularity por Louvain (Blondel et al., 2008), resolução 1,0, semente 42; E-I de Krackhardt e Stern (1988) entre as duas maiores comunidades; top 5 por grau, PageRank, intermediação e autovetor. ForceAtlas 2 para comunidades e OpenOrd para polarização, no Gephi, com os GEXF da página. Uma comunidade não é, sozinha, uma bolha; citar ou marcar não é apoiar.",
-    "<b>IRaMuTeQ (caderno 09).</b> Corpus no formato do IRaMuTeQ (**** *infl_ *rede_ *janela_ *fala_), legenda + fala transcrita. CHD de Reinert (1990) pelo chd_reinert.py do ODI Atlas, com o lexique_pt.txt do IRaMuTeQ (o mesmo do Atlas), classe mínima de 5%, χ² ≥ 3,84; aproveitamento mínimo de referência de 75% (Camargo & Justo, 2013). Análise de similitude (Marchand & Ratinaud, 2012): árvore máxima de coocorrência das 100 formas mais frequentes. Validação: o mesmo corpus no IRaMuTeQ desktop."
+    "<b>Redes (caderno 08).</b> Rede de marcações e hashtags das quatro e rede de circulação do caso Hamas no dia do anúncio (redes_caso.circulacao: quem publicou × termo; peso = visualizações). Estatísticas do painel do Gephi (estatisticas_redes.py): densidade, grau, componentes, clustering, diâmetro, assortatividade; Modularity por Louvain (Blondel et al., 2008), resolução 1,0, semente 42; E-I de Krackhardt e Stern (1988) entre as duas maiores comunidades; top 5 por grau, PageRank, intermediação e autovetor. ForceAtlas 2 para comunidades e OpenOrd para polarização, no Gephi, com os GEXF da página. Uma comunidade não é, sozinha, uma bolha; citar ou marcar não é apoiar.",
+    "<b>IRaMuTeQ (caderno 09).</b> Corpus no formato do IRaMuTeQ (**** *infl_ *rede_ *janela_ *fala_), legenda + fala transcrita. CHD de Reinert (1990) (scripts/chd_reinert.py), com o lexique_pt.txt do IRaMuTeQ, classe mínima de 5%, χ² ≥ 3,84; aproveitamento mínimo de referência de 75% (Camargo & Justo, 2013). Análise de similitude (Marchand & Ratinaud, 2012): árvore máxima de coocorrência das 100 formas mais frequentes. Validação: o mesmo corpus no IRaMuTeQ desktop."
    ]
   },
   {

@@ -2,13 +2,14 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
 <link rel="icon" href="./assets/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png"><link rel="apple-touch-icon" href="./assets/favicon-180.png">
 <title>ODI Influenciadoras / Influenciadoras muçulmanas brasileiras e o acordo do Hamas</title>
-<!-- Identidade visual do ODI Atlas: a folha de estilo é a mesma (assets/odi-atlas.css, gerada no repositório odi-atlas). -->
-<link rel="stylesheet" href="./assets/odi-atlas.css">
+<!-- Folha de estilo: assets/odi.css. -->
+<link rel="stylesheet" href="./assets/odi.css">
 <style>
-/* Só o que esta página tem de próprio; cores e tipografia vêm da folha do ODI Atlas. */
+/* Só o que esta página tem de próprio; cores e tipografia vêm de assets/odi.css. */
 .inf-sit{display:inline-block;font:700 10px monospace;padding:3px 8px;border:1px solid #d5e3fa;background:#f2f7fd;color:#165ebd;white-space:nowrap}
 .inf-sit.ok{background:#eef7f1;border-color:#cfe6d6;color:#1f6b3a}.inf-sit.pend{background:#fff8ec;border-color:#f0dfbd;color:#8a5a0b}.inf-sit.bloq{background:#fdf0ef;border-color:#f1cfcb;color:#9c2b20}
 .inf-vazio{border:1px dashed #cedbe5;padding:22px;background:#fbfdff;color:#5b6b7c;font-size:13px;line-height:1.6}
+.inf-regras{font-size:13px;line-height:1.55;margin:8px 0 0;padding-left:20px}.inf-regras li{margin:3px 0}
 .inf-nota{font-size:11.5px;color:#6b7a8c;margin:12px 0 0;line-height:1.55}
 .card+.card{margin-top:17px}h2.tk-h2{margin-top:0}
 .inf-num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -23,7 +24,7 @@
 .inf-item{display:block;border-top:1px solid #edf1f5;padding:9px 0;color:#273447;text-decoration:none}.inf-item p{margin:0 0 4px;font-size:12.5px;line-height:1.45}.inf-item small{color:#6b7a8c;font-size:11px}
 .inf-tl{overflow-x:auto}
 </style></head>
-<body><div class="layout"><aside class="side"><div class="mark" aria-label="Observatório de Desinformação e Intolerância Digital — ODI Influenciadoras"><div class="brand-head"><img class="odi-brand-img" alt="Identidade visual do Observatório de Desinformação e Intolerância Digital" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>ATLAS</strong><span>Observatório de Desinformação<br>e Intolerância Digital</span></div></div><div class="brand-footer"><span>INFLUENCIADORAS</span><span>2026</span></div></div><div class="navcaption">ÍNDICE / 10 CADERNOS</div><nav class="nav" id="nav">
+<body><div class="layout"><aside class="side"><div class="mark" aria-label="Influenciadoras muçulmanas brasileiras e o acordo do Hamas"><div class="brand-head"><img class="odi-brand-img" alt="Logotipo" src="./assets/odi-marca.jpg"><div class="brand-name"><strong>Influenciadoras</strong><span>Muçulmanas brasileiras<br>e o acordo do Hamas</span></div></div><div class="brand-footer"><span>INFLUENCIADORAS</span><span>2026</span></div></div><div class="navcaption">ÍNDICE / 10 CADERNOS</div><nav class="nav" id="nav">
 <button class="navbutton active" data-tab="panorama"><span class="navicon">◫</span> Panorama · universo e amostra</button>
 <button class="navbutton" data-tab="posicao"><span class="navicon">◉</span> Se posicionaram?</button>
 <button class="navbutton" data-tab="dizem"><span class="navicon">≡</span> O que dizem</button>
@@ -60,7 +61,17 @@
 <section class="panel" id="dizem" aria-label="O que dizem">
   <div class="paper-ribbon"><span>CADERNO 03 / O QUE DIZEM</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Conteúdo por tema · por rede · legenda e fala transcrita</div><h1>Do que falam, com que palavras e quando.</h1>
-    <p>Mesmo método do caderno "O que dizem" do ODI Atlas e do ODI Espanha: cada publicação do recorte (01/06 a 14/08/2026) é classificada por um dicionário aberto de temas aplicado à legenda e à fala transcrita (regras, não inteligência artificial). O dicionário está em <b>rascunho</b>. As nuvens contam publicações, não ocorrências. A posição só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</p></div>
+    <p>Cada publicação das quatro no recorte (01/06 a 14/08/2026) é classificada por um dicionário aberto de temas, com regras escritas, sem inteligência artificial. O dicionário está em <b>rascunho</b> (v0, ainda sem codificação humana). As regras:</p>
+    <ol class="inf-regras">
+      <li><b>Texto lido:</b> legenda (e título, no YouTube) mais a fala transcrita, quando houver.</li>
+      <li><b>Normalização:</b> minúsculas, sem acento e sem links.</li>
+      <li><b>Dicionário:</b> 11 temas, cada um com uma lista aberta de termos (em data/config/temas.json). Termo com * casa pelo começo da palavra (palestin* pega palestina, palestino, palestinos). Termos em escrita não latina (árabe, emoji) são buscados literalmente no texto original.</li>
+      <li><b>Contagem:</b> uma publicação pode ter vários temas e conta uma vez em cada tema, por mais que repita o termo.</li>
+      <li><b>Texto padrão fora:</b> trecho repetido em 10 ou mais publicações do mesmo perfil (rodapé, assinatura, chamada fixa) é descartado antes da classificação.</li>
+      <li><b>Nuvem:</b> as 60 palavras presentes em mais publicações, desde que estejam em pelo menos 3. Conta publicações, não ocorrências. As palavras vazias do português falado ficam de fora. Hashtags são contadas à parte.</li>
+      <li><b>Taxa de interação:</b> (curtidas + comentários + compartilhamentos) ÷ visualizações. Mede interação por visualização, não apoio.</li>
+      <li><b>Limites:</b> regra não entende ironia nem contexto. A posição (a favor, contra, neutra) só aparece depois da codificação humana. Campo vazio significa que a plataforma não informou, não que seja zero. Datas em UTC.</li>
+    </ol></div>
   <div class="inf-chips" id="dzRedes"></div>
   <div id="dzCorpo"></div>
   <div class="sectionlabel"><h2>Cada publicação do núcleo</h2><p>23/07 a 14/08 · todas as redes</p></div>
@@ -101,7 +112,7 @@
 <section class="panel" id="redes" aria-label="Redes">
   <div class="paper-ribbon"><span>CADERNO 08 / REDES</span><span>—</span></div>
   <div class="intro"><div class="eyebrow">Gephi · ForceAtlas 2 e OpenOrd</div><h1>Quem se conecta a quem.</h1>
-    <p>Comunidades por Modularity (Louvain, resolução 1,0, semente 42), polarização pelo índice E-I de Krackhardt e Stern. Download em GEXF, GraphML e NodeXL, como nos casos do ODI Atlas.</p></div>
+    <p>Comunidades por Modularity (Louvain, resolução 1,0, semente 42), polarização pelo índice E-I de Krackhardt e Stern. Download em GEXF, GraphML e NodeXL.</p></div>
   <div class="card" id="p8Circ"></div>
   <div class="card" id="p8Corpo"></div>
   <div class="card" id="p8Coment"></div>
@@ -116,7 +127,7 @@
 
 <section class="panel" id="metodo" aria-label="Método">
   <div class="paper-ribbon"><span>CADERNO 10 / MÉTODO, FONTES E SAÚDE DA COLETA</span><span>—</span></div>
-  <div class="intro"><div class="eyebrow">Como foi feito</div><h1>Pergunta, recorte, desenho, coleta, análises e limites.</h1><p>Método e metodologia no mesmo desenho dos casos do ODI Atlas, a partir do plano aprovado em 22/11/2026. Cada desvio da execução está registrado no CHANGELOG do repositório.</p></div>
+  <div class="intro"><div class="eyebrow">Como foi feito</div><h1>Pergunta, recorte, desenho, coleta, análises e limites.</h1><p>Método e metodologia a partir do plano aprovado em 22/11/2026. Cada desvio da execução está registrado no CHANGELOG do repositório.</p></div>
   <div id="p10Metodo"></div>
   <div class="card"><div class="eyebrow">Saúde da coleta</div><h2 class="tk-h2">Última execução por fonte</h2><div class="tablewrap"><table class="datatable" id="p10Saude"></table></div></div>
 </section>
@@ -380,15 +391,15 @@ async function dizem(rede) {
         <p class="inf-nota">Consultas: ${MC.consultas.map(c => `${esc(c.consulta)} (${c.lidos})`).join(" · ")}. O estudo não dá veredito: o rótulo é o da agência. Nome de pessoa comum em "quem disse" é omitido.</p>`;
   }
 
-  // Estatísticas de rede no formato do ODI Atlas (painel Statistics do Gephi)
+  // Estatísticas de rede (os indicadores do painel Statistics do Gephi)
   const ROT_EST = {nos: "Nós", arestas: "Arestas", densidade: "Densidade", grau_medio: "Grau médio", grau_ponderado_medio: "Grau ponderado médio", componentes: "Componentes",
     pct_nos_maior_componente: "% de nós no maior componente", clustering_medio: "Clustering médio", assortatividade_grau: "Assortatividade de grau",
     diametro_maior_componente: "Diâmetro (maior componente)", caminho_medio_maior_componente: "Caminho médio (maior componente)", modularidade_q: "Modularidade Q (Louvain)",
     comunidades: "Comunidades", pct_maior: "% de nós na maior", pct_segunda: "% na segunda", pct_terceira: "% na terceira", polarizacao_ei_2_maiores: "E-I das duas maiores (−1 bolhas · +1 cruzado)",
     gc_modularidade_q: "Q no maior componente", gc_polarizacao_ei_2_maiores: "E-I no maior componente"};
-  const tabEstat = R => { const e_ = R.estatisticas_atlas || {}, cent = R.centralidades || [], coms = R.comunidades_atlas || [];
+  const tabEstat = R => { const e_ = R.estatisticas_rede || {}, cent = R.centralidades || [], coms = R.comunidades_rede || [];
     const medidas = [...new Set(cent.map(c => c.medida))];
-    return `<h2 class="tk-h2" style="margin-top:18px">Estatísticas (as do Gephi, calculadas como no ODI Atlas)</h2>
+    return `<h2 class="tk-h2" style="margin-top:18px">Estatísticas de rede (os indicadores do Gephi)</h2>
       <div class="tablewrap"><table class="datatable"><tbody>${Object.entries(ROT_EST).filter(([k]) => e_[k] != null).map(([k, r]) => `<tr><td>${r}</td><td class="inf-num">${typeof e_[k] === "number" ? e_[k].toLocaleString("pt-BR") : esc(e_[k])}</td></tr>`).join("")}</tbody></table></div>
       ${coms.length ? `<h2 class="tk-h2" style="margin-top:16px">Comunidades (Louvain, resolução 1,0, semente 42)</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Comunidade</th><th class="inf-num">Nós</th><th class="inf-num">% dos nós</th><th class="inf-num">% do peso interno</th><th>Nós de maior grau</th></tr></thead><tbody>${coms.map(c => `<tr><td>${c.comunidade}</td><td class="inf-num">${n(c.nos)}</td><td class="inf-num">${c.pct_nos}%</td><td class="inf-num">${c.pct_peso_interno ?? "—"}%</td><td>${esc(c.nos_de_maior_grau)}</td></tr>`).join("")}</tbody></table></div>` : ""}
       ${medidas.length ? `<h2 class="tk-h2" style="margin-top:16px">Centralidades: os 5 maiores por medida</h2><div class="inf-duas">${medidas.map(m => `<div class="card"><div class="eyebrow">${esc(m)}</div><ol style="font-size:12.5px;line-height:1.7;margin:6px 0 0;padding-left:18px">${cent.filter(c => c.medida === m).map(c => `<li>${esc(c.no)} <small style="color:#7d8997">${c.valor.toLocaleString("pt-BR", {maximumFractionDigits: 4})} · com. ${c.comunidade}</small></li>`).join("")}</ol></div>`).join("")}</div>` : ""}`; };
@@ -449,7 +460,7 @@ async function dizem(rede) {
         <h2 class="tk-h2" style="margin-top:16px">Canais de maior audiência</h2><div class="tablewrap"><table class="datatable"><thead><tr><th>Canal</th><th class="inf-num">Inscritos</th><th class="inf-num">Visualizações</th><th>Vídeo</th></tr></thead><tbody>${CI.top_canais.map(t => `<tr><td>${esc(t.canal)}</td><td class="inf-num">${n(t.inscritos)}</td><td class="inf-num">${n(t.visualizacoes)}</td><td>${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.titulo)}</a>` : "—"}</td></tr>`).join("")}</tbody></table></div>
         ${tabEstat(CI)}
         <p class="inf-nota"><b>Baixar:</b> <a href="data/redes/circulacao_hamas.gexf" download>GEXF (Gephi)</a> · <a href="data/redes/circulacao_hamas.graphml" download>GraphML</a> · <a href="data/redes/circulacao_estatisticas.csv" download>estatísticas (CSV)</a> · <a href="data/redes/circulacao_centralidades.csv" download>centralidades (CSV)</a> · <a href="data/redes/circulacao_comunidades.csv" download>comunidades (CSV)</a></p>
-        <p class="inf-nota">${esc(CI.metodo)} Canais com menos de 10 mil inscritos aparecem como código (P0001…), como nos casos do Atlas.</p>`;
+        <p class="inf-nota">${esc(CI.metodo)} Canais com menos de 10 mil inscritos aparecem como código (P0001…).</p>`;
     }
   }
 
@@ -460,7 +471,7 @@ async function dizem(rede) {
     const RR = await json("data/redes/comentarios_respostas_youtube.json");
     const paleta = ["#165ebd", "#b0478f", "#1f6b3a", "#b4472b", "#6b4fa0", "#8a5a0b", "#2a8a8a", "#c4302b"];
     const blocoP = (r, R) => { if (!R || !R.desenho) return ""; const mx = Math.max(1, ...R.desenho.nos.map(x => x.n));
-      return `<details ${r === "todas" ? "open" : ""} style="margin:10px 0"><summary style="font-size:13px"><b>${r === "todas" ? "Todas as redes" : REDES[r]}</b> · ${n(R.comentarios)} comentários · ${n(R.estatisticas_atlas.nos)} palavras · ${n(R.estatisticas_atlas.arestas)} ligações · Q ${R.estatisticas_atlas.modularidade_q ?? "—"}</summary>
+      return `<details ${r === "todas" ? "open" : ""} style="margin:10px 0"><summary style="font-size:13px"><b>${r === "todas" ? "Todas as redes" : REDES[r]}</b> · ${n(R.comentarios)} comentários · ${n(R.estatisticas_rede.nos)} palavras · ${n(R.estatisticas_rede.arestas)} ligações · Q ${R.estatisticas_rede.modularidade_q ?? "—"}</summary>
         ${desenhaSim({nos: R.desenho.nos.map(x => ({id: x.rotulo, freq: x.n, grupo: x.grupo, x: x.x, y: x.y, especifica_de: null})), arestas: R.desenho.arestas.map(([a, b, w]) => [a, b, w])}, {})}
         ${tabEstat(R)}<p class="inf-nota"><a href="data/redes/comentarios_palavras_${r}.gexf" download>GEXF (Gephi)</a></p></details>`; };
     $("p8Coment").innerHTML = `<div class="eyebrow">Redes dos comentários · núcleo · só palavras e códigos no público</div><h2 class="tk-h2">Que temas a audiência traz (palavras que aparecem juntas no mesmo comentário)</h2>
@@ -507,7 +518,7 @@ async function dizem(rede) {
       <div class="inf-vazio" style="margin-top:12px">⛔ Ainda por fazer sobre os comentários: classificação de intolerância e posição do comentarista pelo livro de códigos (com kappa), CHD e similitude dos comentários.</div>`;
   }
 
-  // Similitude no desenho do ODI Atlas/IRaMuTeQ: a palavra é o nó; tamanho = frequência; espessura = coocorrência
+  // Similitude no desenho do IRaMuTeQ: a palavra é o nó; tamanho = frequência; espessura = coocorrência
   function desenhaSim(S, cores) {
     const W = 980, H = 680, xs = S.nos.map(n => n.x), ys = S.nos.map(n => n.y), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
     const X = v => 50 + (v - x0) / ((x1 - x0) || 1) * (W - 100), Y = v => 30 + (v - y0) / ((y1 - y0) || 1) * (H - 60), by = {};

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Checagens publicadas (ClaimReview) sobre o acordo do Hamas e sobre as influenciadoras: Google Fact Check Tools API (grátis).
 
-Porta do collect_checagens.py do ODI Atlas. Fonte: https://factchecktools.googleapis.com/v1alpha1/claims:search, que
+Fonte: https://factchecktools.googleapis.com/v1alpha1/claims:search, que
 agrega as checagens publicadas pelas agências no formato ClaimReview. O estudo não dá veredito: mostra o que cada
 agência checou, com o rótulo dela, a data e o link.
 
@@ -12,7 +12,7 @@ A API só filtra por idade (maxAgeDays, contada a partir de hoje). O coletor ped
 marca a janela de cada checagem pela data da checagem.
 
 Universo: a API não informa o total de checagens existentes (⛔); o manifesto registra quanto foi lido por consulta.
-Saída pública: data/checagens/checagens.json. Nome de pessoa comum em "quem disse" é omitido, como no Atlas.
+Saída pública: data/checagens/checagens.json. Nome de pessoa comum em "quem disse" é omitido.
 """
 from __future__ import annotations
 

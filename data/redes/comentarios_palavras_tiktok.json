@@ -1,160 +1,16 @@
 {
- "gerado_em": "2026-11-22T23:15:52Z",
+ "gerado_em": "2026-11-23T01:43:52Z",
  "metodo": "- Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),\n  formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.\n- Respostas: quem responde a quem nos comentários do YouTube (o único com respostas lidas); autores SEMPRE como código\n  (A0001…), nunca nome.\nLê o privado (INFL_INTERNO_DIR, data/comentarios/<rede>.csv); grava no público só palavras, códigos e contagens:\ndata/redes/comentarios_palavras_<rede>.json/.gexf, comentarios_respostas_youtube.json/.gexf.",
  "desenho": {
   "nos": [
    {
-    "id": "mostrar",
-    "rotulo": "mostrar",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 2,
-    "x": 0.7313,
-    "y": 1.65
-   },
-   {
-    "id": "filho",
-    "rotulo": "filho",
-    "tipo": "palavra",
-    "n": 12,
-    "grupo": 1,
-    "x": 1.4994,
-    "y": 1.4875
-   },
-   {
-    "id": "mariam",
-    "rotulo": "mariam",
-    "tipo": "palavra",
-    "n": 14,
-    "grupo": 2,
-    "x": 1.2631,
-    "y": 1.7027
-   },
-   {
-    "id": "achar",
-    "rotulo": "achar",
-    "tipo": "palavra",
-    "n": 57,
-    "grupo": 2,
-    "x": 0.8988,
-    "y": 1.0167
-   },
-   {
-    "id": "arabe",
-    "rotulo": "arabe",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 0,
-    "x": 0.1811,
-    "y": 0.9869
-   },
-   {
-    "id": "livre",
-    "rotulo": "livre",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 0.0914,
-    "y": 0.5875
-   },
-   {
-    "id": "saber",
-    "rotulo": "saber",
-    "tipo": "palavra",
-    "n": 28,
-    "grupo": 1,
-    "x": 1.0591,
-    "y": 1.1335
-   },
-   {
-    "id": "so",
-    "rotulo": "so",
-    "tipo": "palavra",
-    "n": 51,
-    "grupo": 0,
-    "x": 0.8898,
-    "y": 1.0741
-   },
-   {
-    "id": "exemplo",
-    "rotulo": "exemplo",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 1.0201,
-    "y": 0.51
-   },
-   {
-    "id": "ano",
-    "rotulo": "ano",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 1,
-    "x": 1.5084,
-    "y": 0.8822
-   },
-   {
-    "id": "vestido",
-    "rotulo": "vestido",
-    "tipo": "palavra",
-    "n": 54,
-    "grupo": 2,
-    "x": 0.8385,
-    "y": 1.4735
-   },
-   {
-    "id": "branco",
-    "rotulo": "branco",
-    "tipo": "palavra",
-    "n": 14,
-    "grupo": 1,
-    "x": 0.6555,
-    "y": 0.386
-   },
-   {
-    "id": "viver",
-    "rotulo": "viver",
-    "tipo": "palavra",
-    "n": 10,
-    "grupo": 0,
-    "x": 1.2095,
-    "y": 0.5654
-   },
-   {
-    "id": "risada",
-    "rotulo": "risada",
-    "tipo": "palavra",
-    "n": 45,
-    "grupo": 1,
-    "x": 1.3567,
-    "y": 1.2816
-   },
-   {
-    "id": "amar",
-    "rotulo": "amar",
-    "tipo": "palavra",
-    "n": 39,
-    "grupo": 2,
-    "x": 0.677,
-    "y": 1.0956
-   },
-   {
-    "id": "querer",
-    "rotulo": "querer",
-    "tipo": "palavra",
-    "n": 57,
-    "grupo": 0,
-    "x": 0.9373,
-    "y": 0.9134
-   },
-   {
-    "id": "homem",
-    "rotulo": "homem",
+    "id": "pais",
+    "rotulo": "pais",
     "tipo": "palavra",
     "n": 22,
     "grupo": 0,
-    "x": 0.7275,
-    "y": 0.9357
+    "x": 1.0214,
+    "y": 0.8564
    },
    {
     "id": "perfeito",
@@ -162,377 +18,8 @@
     "tipo": "palavra",
     "n": 20,
     "grupo": 2,
-    "x": 1.084,
-    "y": 1.7326
-   },
-   {
-    "id": "cola",
-    "rotulo": "cola",
-    "tipo": "palavra",
-    "n": 17,
-    "grupo": 1,
-    "x": 1.7953,
-    "y": 1.2993
-   },
-   {
-    "id": "ver",
-    "rotulo": "ver",
-    "tipo": "palavra",
-    "n": 29,
-    "grupo": 1,
-    "x": 1.1361,
-    "y": 1.0787
-   },
-   {
-    "id": "roupa",
-    "rotulo": "roupa",
-    "tipo": "palavra",
-    "n": 23,
-    "grupo": 0,
-    "x": 0.7917,
-    "y": 1.0854
-   },
-   {
-    "id": "cristao",
-    "rotulo": "cristao",
-    "tipo": "palavra",
-    "n": 14,
-    "grupo": 0,
-    "x": 1.1091,
-    "y": 0.3084
-   },
-   {
-    "id": "dar",
-    "rotulo": "dar",
-    "tipo": "palavra",
-    "n": 21,
-    "grupo": 0,
-    "x": 1.1226,
-    "y": 1.1632
-   },
-   {
-    "id": "marido",
-    "rotulo": "marido",
-    "tipo": "palavra",
-    "n": 14,
-    "grupo": 0,
-    "x": 0.7796,
-    "y": 0.7896
-   },
-   {
-    "id": "escolher",
-    "rotulo": "escolher",
-    "tipo": "palavra",
-    "n": 10,
-    "grupo": 0,
-    "x": 0.5528,
-    "y": 0.6012
-   },
-   {
-    "id": "gente",
-    "rotulo": "gente",
-    "tipo": "palavra",
-    "n": 33,
-    "grupo": 1,
-    "x": 0.8339,
-    "y": 0.9908
-   },
-   {
-    "id": "escolha",
-    "rotulo": "escolha",
-    "tipo": "palavra",
-    "n": 28,
-    "grupo": 0,
-    "x": 0.946,
-    "y": 0.7109
-   },
-   {
-    "id": "bom",
-    "rotulo": "bom",
-    "tipo": "palavra",
-    "n": 26,
-    "grupo": 0,
-    "x": 1.3144,
-    "y": 0.5734
-   },
-   {
-    "id": "ne",
-    "rotulo": "ne",
-    "tipo": "palavra",
-    "n": 16,
-    "grupo": 2,
-    "x": 0.4325,
-    "y": 1.2248
-   },
-   {
-    "id": "deixar",
-    "rotulo": "deixar",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 0.652,
-    "y": 0.5335
-   },
-   {
-    "id": "pensar",
-    "rotulo": "pensar",
-    "tipo": "palavra",
-    "n": 16,
-    "grupo": 1,
-    "x": 1.442,
-    "y": 0.9784
-   },
-   {
-    "id": "video",
-    "rotulo": "video",
-    "tipo": "palavra",
-    "n": 38,
-    "grupo": 1,
-    "x": 1.0234,
-    "y": 1.0966
-   },
-   {
-    "id": "acreditar",
-    "rotulo": "acreditar",
-    "tipo": "palavra",
-    "n": 12,
-    "grupo": 0,
-    "x": 1.2931,
-    "y": 0.3309
-   },
-   {
-    "id": "usar",
-    "rotulo": "usar",
-    "tipo": "palavra",
-    "n": 36,
-    "grupo": 1,
-    "x": 1.2273,
-    "y": 1.086
-   },
-   {
-    "id": "pais",
-    "rotulo": "pais",
-    "tipo": "palavra",
-    "n": 22,
-    "grupo": 0,
-    "x": 0.9381,
-    "y": 0.7773
-   },
-   {
-    "id": "super",
-    "rotulo": "super",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 1,
-    "x": 1.964,
-    "y": 1.4778
-   },
-   {
-    "id": "pq",
-    "rotulo": "pq",
-    "tipo": "palavra",
-    "n": 32,
-    "grupo": 0,
-    "x": 1.0062,
-    "y": 0.9724
-   },
-   {
-    "id": "religiao",
-    "rotulo": "religiao",
-    "tipo": "palavra",
-    "n": 58,
-    "grupo": 0,
-    "x": 1.0049,
-    "y": 0.8418
-   },
-   {
-    "id": "existir",
-    "rotulo": "existir",
-    "tipo": "palavra",
-    "n": 23,
-    "grupo": 0,
-    "x": 1.1626,
-    "y": 0.775
-   },
-   {
-    "id": "familia",
-    "rotulo": "familia",
-    "tipo": "palavra",
-    "n": 19,
-    "grupo": 0,
-    "x": 0.9081,
-    "y": 0.6002
-   },
-   {
-    "id": "dizer",
-    "rotulo": "dizer",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 1,
-    "x": 1.3393,
-    "y": 0.9412
-   },
-   {
-    "id": "bolsa",
-    "rotulo": "bolsa",
-    "tipo": "palavra",
-    "n": 18,
-    "grupo": 1,
-    "x": 1.6387,
-    "y": 1.3948
-   },
-   {
-    "id": "maravilhoso",
-    "rotulo": "maravilhoso",
-    "tipo": "palavra",
-    "n": 39,
-    "grupo": 2,
-    "x": 0.6051,
-    "y": 1.5311
-   },
-   {
-    "id": "comprar",
-    "rotulo": "comprar",
-    "tipo": "palavra",
-    "n": 14,
-    "grupo": 1,
-    "x": 2.0,
-    "y": 1.9022
-   },
-   {
-    "id": "sapato",
-    "rotulo": "sapato",
-    "tipo": "palavra",
-    "n": 30,
-    "grupo": 1,
-    "x": 1.4572,
-    "y": 1.1472
-   },
-   {
-    "id": "vez",
-    "rotulo": "vez",
-    "tipo": "palavra",
-    "n": 20,
-    "grupo": 1,
-    "x": 1.199,
-    "y": 1.3247
-   },
-   {
-    "id": "amigo",
-    "rotulo": "amigo",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 0.7375,
-    "y": 0.0835
-   },
-   {
-    "id": "andar",
-    "rotulo": "andar",
-    "tipo": "palavra",
-    "n": 19,
-    "grupo": 1,
-    "x": 1.089,
-    "y": 1.4188
-   },
-   {
-    "id": "vc",
-    "rotulo": "vc",
-    "tipo": "palavra",
-    "n": 58,
-    "grupo": 1,
-    "x": 0.987,
-    "y": 1.0211
-   },
-   {
-    "id": "ficar",
-    "rotulo": "ficar",
-    "tipo": "palavra",
-    "n": 39,
-    "grupo": 2,
-    "x": 1.1059,
-    "y": 1.2944
-   },
-   {
-    "id": "sair",
-    "rotulo": "sair",
-    "tipo": "palavra",
-    "n": 18,
-    "grupo": 1,
-    "x": 1.3669,
-    "y": 1.0411
-   },
-   {
-    "id": "lindo",
-    "rotulo": "lindo",
-    "tipo": "palavra",
-    "n": 112,
-    "grupo": 2,
-    "x": 0.8669,
-    "y": 1.2301
-   },
-   {
-    "id": "nao",
-    "rotulo": "nao",
-    "tipo": "palavra",
-    "n": 18,
-    "grupo": 0,
-    "x": 1.3754,
-    "y": 0.519
-   },
-   {
-    "id": "respeito",
-    "rotulo": "respeito",
-    "tipo": "palavra",
-    "n": 12,
-    "grupo": 2,
-    "x": 0.7095,
-    "y": 1.3279
-   },
-   {
-    "id": "acontecer",
-    "rotulo": "acontecer",
-    "tipo": "palavra",
-    "n": 44,
-    "grupo": 1,
-    "x": 1.2926,
-    "y": 1.0337
-   },
-   {
-    "id": "cultura",
-    "rotulo": "cultura",
-    "tipo": "palavra",
-    "n": 17,
-    "grupo": 2,
-    "x": 0.7581,
-    "y": 0.6785
-   },
-   {
-    "id": "coisa",
-    "rotulo": "coisa",
-    "tipo": "palavra",
-    "n": 21,
-    "grupo": 3,
-    "x": 1.2467,
-    "y": 0.9035
-   },
-   {
-    "id": "uso",
-    "rotulo": "uso",
-    "tipo": "palavra",
-    "n": 12,
-    "grupo": 0,
-    "x": 1.5695,
-    "y": 0.8761
-   },
-   {
-    "id": "mulher",
-    "rotulo": "mulher",
-    "tipo": "palavra",
-    "n": 85,
-    "grupo": 0,
-    "x": 0.9551,
-    "y": 0.8707
+    "x": 0.4013,
+    "y": 0.8119
    },
    {
     "id": "estar",
@@ -540,35 +27,8 @@
     "tipo": "palavra",
     "n": 42,
     "grupo": 1,
-    "x": 1.1071,
-    "y": 0.9087
-   },
-   {
-    "id": "cabelo",
-    "rotulo": "cabelo",
-    "tipo": "palavra",
-    "n": 16,
-    "grupo": 2,
-    "x": 0.9244,
-    "y": 1.3469
-   },
-   {
-    "id": "elegante",
-    "rotulo": "elegante",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 2,
-    "x": 0.5159,
-    "y": 1.4109
-   },
-   {
-    "id": "tirar",
-    "rotulo": "tirar",
-    "tipo": "palavra",
-    "n": 12,
-    "grupo": 0,
-    "x": 1.317,
-    "y": 1.1399
+    "x": 1.128,
+    "y": 1.0747
    },
    {
     "id": "muculmano",
@@ -576,143 +36,53 @@
     "tipo": "palavra",
     "n": 41,
     "grupo": 0,
-    "x": 1.0757,
-    "y": 0.7609
+    "x": 1.1184,
+    "y": 0.8777
    },
    {
-    "id": "deus",
-    "rotulo": "deus",
-    "tipo": "palavra",
-    "n": 27,
-    "grupo": 0,
-    "x": 1.2593,
-    "y": 1.2164
-   },
-   {
-    "id": "belo",
-    "rotulo": "belo",
-    "tipo": "palavra",
-    "n": 16,
-    "grupo": 2,
-    "x": 0.6245,
-    "y": 1.8337
-   },
-   {
-    "id": "tbm",
-    "rotulo": "tbm",
-    "tipo": "palavra",
-    "n": 10,
-    "grupo": 2,
-    "x": 0.3802,
-    "y": 0.9605
-   },
-   {
-    "id": "mulcumano",
-    "rotulo": "mulcumano",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 0.6385,
-    "y": 0.8274
-   },
-   {
-    "id": "morar",
-    "rotulo": "morar",
-    "tipo": "palavra",
-    "n": 11,
-    "grupo": 0,
-    "x": 1.0004,
-    "y": 0.1743
-   },
-   {
-    "id": "hijab",
-    "rotulo": "hijab",
-    "tipo": "palavra",
-    "n": 40,
-    "grupo": 0,
-    "x": 1.1378,
-    "y": 0.9755
-   },
-   {
-    "id": "gostar",
-    "rotulo": "gostar",
-    "tipo": "palavra",
-    "n": 24,
-    "grupo": 0,
-    "x": 1.0115,
-    "y": 0.61
-   },
-   {
-    "id": "parabens",
-    "rotulo": "parabens",
-    "tipo": "palavra",
-    "n": 13,
-    "grupo": 2,
-    "x": 0.3104,
-    "y": 1.9468
-   },
-   {
-    "id": "brasil",
-    "rotulo": "brasil",
-    "tipo": "palavra",
-    "n": 30,
-    "grupo": 0,
-    "x": 1.0968,
-    "y": 0.647
-   },
-   {
-    "id": "falar",
-    "rotulo": "falar",
-    "tipo": "palavra",
-    "n": 65,
-    "grupo": 1,
-    "x": 1.0738,
-    "y": 0.9713
-   },
-   {
-    "id": "comer",
-    "rotulo": "comer",
+    "id": "tirar",
+    "rotulo": "tirar",
     "tipo": "palavra",
     "n": 12,
     "grupo": 0,
-    "x": 0.1083,
-    "y": 1.4156
+    "x": 1.3048,
+    "y": 1.0911
    },
    {
-    "id": "seguir",
-    "rotulo": "seguir",
+    "id": "dizer",
+    "rotulo": "dizer",
     "tipo": "palavra",
     "n": 13,
-    "grupo": 2,
-    "x": 0.7164,
-    "y": 0.7445
-   },
-   {
-    "id": "obrigar",
-    "rotulo": "obrigar",
-    "tipo": "palavra",
-    "n": 34,
-    "grupo": 0,
-    "x": 1.0793,
-    "y": 0.8336
-   },
-   {
-    "id": "diva",
-    "rotulo": "diva",
-    "tipo": "palavra",
-    "n": 19,
-    "grupo": 0,
-    "x": 0.3926,
-    "y": 0.2095
-   },
-   {
-    "id": "pessoa",
-    "rotulo": "pessoa",
-    "tipo": "palavra",
-    "n": 10,
     "grupo": 1,
-    "x": 0.5269,
-    "y": 1.0322
+    "x": 1.2223,
+    "y": 1.2033
+   },
+   {
+    "id": "mariam",
+    "rotulo": "mariam",
+    "tipo": "palavra",
+    "n": 14,
+    "grupo": 2,
+    "x": 0.6992,
+    "y": 0.5397
+   },
+   {
+    "id": "cristao",
+    "rotulo": "cristao",
+    "tipo": "palavra",
+    "n": 14,
+    "grupo": 0,
+    "x": 1.4467,
+    "y": 0.755
+   },
+   {
+    "id": "ficar",
+    "rotulo": "ficar",
+    "tipo": "palavra",
+    "n": 39,
+    "grupo": 2,
+    "x": 0.875,
+    "y": 1.1817
    },
    {
     "id": "vida",
@@ -720,1817 +90,642 @@
     "tipo": "palavra",
     "n": 17,
     "grupo": 3,
-    "x": 1.3391,
-    "y": 0.7841
+    "x": 0.9176,
+    "y": 0.9378
+   },
+   {
+    "id": "coisa",
+    "rotulo": "coisa",
+    "tipo": "palavra",
+    "n": 21,
+    "grupo": 3,
+    "x": 1.2026,
+    "y": 1.0528
+   },
+   {
+    "id": "usar",
+    "rotulo": "usar",
+    "tipo": "palavra",
+    "n": 36,
+    "grupo": 1,
+    "x": 1.0875,
+    "y": 1.1466
+   },
+   {
+    "id": "uso",
+    "rotulo": "uso",
+    "tipo": "palavra",
+    "n": 12,
+    "grupo": 0,
+    "x": 1.4019,
+    "y": 0.9846
+   },
+   {
+    "id": "mulher",
+    "rotulo": "mulher",
+    "tipo": "palavra",
+    "n": 85,
+    "grupo": 0,
+    "x": 1.0011,
+    "y": 0.9161
+   },
+   {
+    "id": "andar",
+    "rotulo": "andar",
+    "tipo": "palavra",
+    "n": 19,
+    "grupo": 1,
+    "x": 0.8241,
+    "y": 1.3072
+   },
+   {
+    "id": "existir",
+    "rotulo": "existir",
+    "tipo": "palavra",
+    "n": 23,
+    "grupo": 0,
+    "x": 1.0606,
+    "y": 0.8062
+   },
+   {
+    "id": "nao",
+    "rotulo": "nao",
+    "tipo": "palavra",
+    "n": 18,
+    "grupo": 0,
+    "x": 1.054,
+    "y": 0.5386
+   },
+   {
+    "id": "vez",
+    "rotulo": "vez",
+    "tipo": "palavra",
+    "n": 20,
+    "grupo": 1,
+    "x": 0.9558,
+    "y": 1.309
+   },
+   {
+    "id": "gostar",
+    "rotulo": "gostar",
+    "tipo": "palavra",
+    "n": 24,
+    "grupo": 0,
+    "x": 1.2807,
+    "y": 0.8823
+   },
+   {
+    "id": "escolher",
+    "rotulo": "escolher",
+    "tipo": "palavra",
+    "n": 10,
+    "grupo": 0,
+    "x": 1.2789,
+    "y": 0.5893
+   },
+   {
+    "id": "roupa",
+    "rotulo": "roupa",
+    "tipo": "palavra",
+    "n": 23,
+    "grupo": 0,
+    "x": 0.8589,
+    "y": 0.9928
+   },
+   {
+    "id": "gente",
+    "rotulo": "gente",
+    "tipo": "palavra",
+    "n": 33,
+    "grupo": 1,
+    "x": 1.0184,
+    "y": 1.0646
+   },
+   {
+    "id": "pessoa",
+    "rotulo": "pessoa",
+    "tipo": "palavra",
+    "n": 10,
+    "grupo": 1,
+    "x": 1.451,
+    "y": 1.2086
+   },
+   {
+    "id": "cultura",
+    "rotulo": "cultura",
+    "tipo": "palavra",
+    "n": 17,
+    "grupo": 2,
+    "x": 1.2946,
+    "y": 1.0004
+   },
+   {
+    "id": "cabelo",
+    "rotulo": "cabelo",
+    "tipo": "palavra",
+    "n": 16,
+    "grupo": 2,
+    "x": 0.8106,
+    "y": 1.1734
+   },
+   {
+    "id": "belo",
+    "rotulo": "belo",
+    "tipo": "palavra",
+    "n": 16,
+    "grupo": 2,
+    "x": 0.3063,
+    "y": 1.1368
+   },
+   {
+    "id": "escolha",
+    "rotulo": "escolha",
+    "tipo": "palavra",
+    "n": 28,
+    "grupo": 0,
+    "x": 1.1845,
+    "y": 0.8025
+   },
+   {
+    "id": "exemplo",
+    "rotulo": "exemplo",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 0.9281,
+    "y": 0.6697
+   },
+   {
+    "id": "lindo",
+    "rotulo": "lindo",
+    "tipo": "palavra",
+    "n": 112,
+    "grupo": 2,
+    "x": 0.8197,
+    "y": 1.038
+   },
+   {
+    "id": "ano",
+    "rotulo": "ano",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 1,
+    "x": 1.3075,
+    "y": 1.3465
+   },
+   {
+    "id": "pq",
+    "rotulo": "pq",
+    "tipo": "palavra",
+    "n": 32,
+    "grupo": 0,
+    "x": 1.0707,
+    "y": 1.0072
+   },
+   {
+    "id": "tbm",
+    "rotulo": "tbm",
+    "tipo": "palavra",
+    "n": 10,
+    "grupo": 2,
+    "x": 0.6529,
+    "y": 1.2213
+   },
+   {
+    "id": "dar",
+    "rotulo": "dar",
+    "tipo": "palavra",
+    "n": 21,
+    "grupo": 0,
+    "x": 1.2047,
+    "y": 1.1327
+   },
+   {
+    "id": "vc",
+    "rotulo": "vc",
+    "tipo": "palavra",
+    "n": 58,
+    "grupo": 1,
+    "x": 1.0433,
+    "y": 1.0855
+   },
+   {
+    "id": "sair",
+    "rotulo": "sair",
+    "tipo": "palavra",
+    "n": 18,
+    "grupo": 1,
+    "x": 1.038,
+    "y": 1.2167
+   },
+   {
+    "id": "religiao",
+    "rotulo": "religiao",
+    "tipo": "palavra",
+    "n": 58,
+    "grupo": 0,
+    "x": 1.103,
+    "y": 0.9376
+   },
+   {
+    "id": "arabe",
+    "rotulo": "arabe",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 0,
+    "x": 0.849,
+    "y": 0.4476
+   },
+   {
+    "id": "elegante",
+    "rotulo": "elegante",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 2,
+    "x": 0.7383,
+    "y": 1.4013
+   },
+   {
+    "id": "video",
+    "rotulo": "video",
+    "tipo": "palavra",
+    "n": 38,
+    "grupo": 1,
+    "x": 1.0553,
+    "y": 1.138
+   },
+   {
+    "id": "respeito",
+    "rotulo": "respeito",
+    "tipo": "palavra",
+    "n": 12,
+    "grupo": 2,
+    "x": 0.9358,
+    "y": 1.4061
+   },
+   {
+    "id": "marido",
+    "rotulo": "marido",
+    "tipo": "palavra",
+    "n": 14,
+    "grupo": 0,
+    "x": 1.0534,
+    "y": 0.7586
+   },
+   {
+    "id": "vestido",
+    "rotulo": "vestido",
+    "tipo": "palavra",
+    "n": 54,
+    "grupo": 2,
+    "x": 0.6119,
+    "y": 1.0347
+   },
+   {
+    "id": "deixar",
+    "rotulo": "deixar",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 1.191,
+    "y": 0.6382
+   },
+   {
+    "id": "amar",
+    "rotulo": "amar",
+    "tipo": "palavra",
+    "n": 39,
+    "grupo": 2,
+    "x": 1.0311,
+    "y": 1.257
+   },
+   {
+    "id": "livre",
+    "rotulo": "livre",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 1.5195,
+    "y": 0.3038
+   },
+   {
+    "id": "cola",
+    "rotulo": "cola",
+    "tipo": "palavra",
+    "n": 17,
+    "grupo": 1,
+    "x": 1.1513,
+    "y": 1.6271
+   },
+   {
+    "id": "brasil",
+    "rotulo": "brasil",
+    "tipo": "palavra",
+    "n": 30,
+    "grupo": 0,
+    "x": 0.8803,
+    "y": 0.8729
+   },
+   {
+    "id": "deus",
+    "rotulo": "deus",
+    "tipo": "palavra",
+    "n": 27,
+    "grupo": 0,
+    "x": 0.8444,
+    "y": 0.8053
+   },
+   {
+    "id": "ne",
+    "rotulo": "ne",
+    "tipo": "palavra",
+    "n": 16,
+    "grupo": 2,
+    "x": 0.6984,
+    "y": 1.3554
+   },
+   {
+    "id": "viver",
+    "rotulo": "viver",
+    "tipo": "palavra",
+    "n": 10,
+    "grupo": 0,
+    "x": 0.9704,
+    "y": 0.7315
+   },
+   {
+    "id": "bom",
+    "rotulo": "bom",
+    "tipo": "palavra",
+    "n": 26,
+    "grupo": 0,
+    "x": 1.1035,
+    "y": 0.6186
+   },
+   {
+    "id": "hijab",
+    "rotulo": "hijab",
+    "tipo": "palavra",
+    "n": 40,
+    "grupo": 0,
+    "x": 1.0484,
+    "y": 0.9061
+   },
+   {
+    "id": "sapato",
+    "rotulo": "sapato",
+    "tipo": "palavra",
+    "n": 30,
+    "grupo": 1,
+    "x": 1.189,
+    "y": 1.3392
+   },
+   {
+    "id": "obrigar",
+    "rotulo": "obrigar",
+    "tipo": "palavra",
+    "n": 34,
+    "grupo": 0,
+    "x": 1.1554,
+    "y": 0.9154
+   },
+   {
+    "id": "saber",
+    "rotulo": "saber",
+    "tipo": "palavra",
+    "n": 28,
+    "grupo": 1,
+    "x": 0.9918,
+    "y": 1.1534
+   },
+   {
+    "id": "mulcumano",
+    "rotulo": "mulcumano",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 1.2376,
+    "y": 0.801
+   },
+   {
+    "id": "comprar",
+    "rotulo": "comprar",
+    "tipo": "palavra",
+    "n": 14,
+    "grupo": 1,
+    "x": 0.8615,
+    "y": 2.0
+   },
+   {
+    "id": "morar",
+    "rotulo": "morar",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 0.6374,
+    "y": 0.6318
+   },
+   {
+    "id": "comer",
+    "rotulo": "comer",
+    "tipo": "palavra",
+    "n": 12,
+    "grupo": 0,
+    "x": 0.3981,
+    "y": 0.6688
+   },
+   {
+    "id": "falar",
+    "rotulo": "falar",
+    "tipo": "palavra",
+    "n": 65,
+    "grupo": 1,
+    "x": 1.0772,
+    "y": 1.0418
+   },
+   {
+    "id": "seguir",
+    "rotulo": "seguir",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 2,
+    "x": 0.7786,
+    "y": 0.8978
+   },
+   {
+    "id": "ver",
+    "rotulo": "ver",
+    "tipo": "palavra",
+    "n": 29,
+    "grupo": 1,
+    "x": 0.9031,
+    "y": 1.0782
+   },
+   {
+    "id": "parabens",
+    "rotulo": "parabens",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 2,
+    "x": 0.3606,
+    "y": 0.4624
+   },
+   {
+    "id": "acontecer",
+    "rotulo": "acontecer",
+    "tipo": "palavra",
+    "n": 44,
+    "grupo": 1,
+    "x": 1.1156,
+    "y": 1.2219
+   },
+   {
+    "id": "amigo",
+    "rotulo": "amigo",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 0,
+    "x": 1.5958,
+    "y": 0.5487
+   },
+   {
+    "id": "pensar",
+    "rotulo": "pensar",
+    "tipo": "palavra",
+    "n": 16,
+    "grupo": 1,
+    "x": 1.2884,
+    "y": 1.2424
+   },
+   {
+    "id": "so",
+    "rotulo": "so",
+    "tipo": "palavra",
+    "n": 51,
+    "grupo": 0,
+    "x": 0.9275,
+    "y": 1.0203
+   },
+   {
+    "id": "filho",
+    "rotulo": "filho",
+    "tipo": "palavra",
+    "n": 12,
+    "grupo": 1,
+    "x": 0.6343,
+    "y": 0.9645
+   },
+   {
+    "id": "maravilhoso",
+    "rotulo": "maravilhoso",
+    "tipo": "palavra",
+    "n": 39,
+    "grupo": 2,
+    "x": 0.5229,
+    "y": 1.107
+   },
+   {
+    "id": "mostrar",
+    "rotulo": "mostrar",
+    "tipo": "palavra",
+    "n": 13,
+    "grupo": 2,
+    "x": 0.5084,
+    "y": 1.2542
+   },
+   {
+    "id": "acreditar",
+    "rotulo": "acreditar",
+    "tipo": "palavra",
+    "n": 12,
+    "grupo": 0,
+    "x": 1.3612,
+    "y": 0.6247
+   },
+   {
+    "id": "risada",
+    "rotulo": "risada",
+    "tipo": "palavra",
+    "n": 45,
+    "grupo": 1,
+    "x": 1.0392,
+    "y": 1.3664
+   },
+   {
+    "id": "super",
+    "rotulo": "super",
+    "tipo": "palavra",
+    "n": 11,
+    "grupo": 1,
+    "x": 1.1757,
+    "y": 1.7884
+   },
+   {
+    "id": "bolsa",
+    "rotulo": "bolsa",
+    "tipo": "palavra",
+    "n": 18,
+    "grupo": 1,
+    "x": 1.0439,
+    "y": 1.5826
+   },
+   {
+    "id": "querer",
+    "rotulo": "querer",
+    "tipo": "palavra",
+    "n": 57,
+    "grupo": 0,
+    "x": 1.0506,
+    "y": 0.9494
+   },
+   {
+    "id": "achar",
+    "rotulo": "achar",
+    "tipo": "palavra",
+    "n": 57,
+    "grupo": 2,
+    "x": 0.9618,
+    "y": 1.0137
+   },
+   {
+    "id": "homem",
+    "rotulo": "homem",
+    "tipo": "palavra",
+    "n": 22,
+    "grupo": 0,
+    "x": 0.9255,
+    "y": 0.8181
+   },
+   {
+    "id": "diva",
+    "rotulo": "diva",
+    "tipo": "palavra",
+    "n": 19,
+    "grupo": 0,
+    "x": 0.5102,
+    "y": 0.4997
+   },
+   {
+    "id": "familia",
+    "rotulo": "familia",
+    "tipo": "palavra",
+    "n": 19,
+    "grupo": 0,
+    "x": 1.1482,
+    "y": 0.7215
+   },
+   {
+    "id": "branco",
+    "rotulo": "branco",
+    "tipo": "palavra",
+    "n": 14,
+    "grupo": 1,
+    "x": 1.5443,
+    "y": 1.0882
    }
   ],
   "arestas": [
    [
-    "mostrar",
-    "cabelo",
-    5
-   ],
-   [
-    "mostrar",
-    "mulher",
-    3
-   ],
-   [
-    "mostrar",
-    "lindo",
-    3
-   ],
-   [
-    "filho",
-    "deus",
-    3
-   ],
-   [
-    "filho",
-    "usar",
-    4
-   ],
-   [
-    "filho",
-    "falar",
-    3
-   ],
-   [
-    "filho",
-    "ver",
-    3
-   ],
-   [
-    "mariam",
-    "lindo",
-    3
-   ],
-   [
-    "mariam",
-    "hijab",
-    4
-   ],
-   [
-    "achar",
-    "amar",
-    6
-   ],
-   [
-    "achar",
-    "lindo",
-    24
-   ],
-   [
-    "achar",
-    "querer",
-    8
-   ],
-   [
-    "achar",
-    "video",
-    6
-   ],
-   [
-    "achar",
-    "mulher",
-    13
-   ],
-   [
-    "achar",
-    "obrigar",
-    8
-   ],
-   [
-    "achar",
-    "usar",
-    6
-   ],
-   [
-    "achar",
-    "viver",
-    3
-   ],
-   [
-    "achar",
-    "homem",
-    3
-   ],
-   [
-    "achar",
-    "hijab",
-    8
-   ],
-   [
-    "achar",
-    "falar",
-    8
-   ],
-   [
-    "achar",
-    "elegante",
-    3
-   ],
-   [
-    "achar",
-    "andar",
-    4
-   ],
-   [
-    "achar",
-    "marido",
-    5
-   ],
-   [
-    "achar",
-    "roupa",
-    5
-   ],
-   [
-    "achar",
-    "tbm",
-    3
-   ],
-   [
-    "achar",
-    "mulcumano",
-    3
-   ],
-   [
-    "achar",
-    "escolha",
-    6
-   ],
-   [
-    "achar",
-    "familia",
-    3
-   ],
-   [
-    "achar",
-    "seguir",
-    4
-   ],
-   [
-    "achar",
-    "ficar",
-    4
-   ],
-   [
-    "achar",
-    "gente",
-    4
-   ],
-   [
-    "achar",
-    "ne",
-    4
-   ],
-   [
-    "achar",
-    "pensar",
-    3
-   ],
-   [
-    "achar",
-    "vida",
-    3
-   ],
-   [
-    "achar",
-    "estar",
-    6
-   ],
-   [
-    "achar",
-    "muculmano",
-    5
-   ],
-   [
-    "achar",
-    "exemplo",
-    3
-   ],
-   [
-    "achar",
-    "existir",
-    4
-   ],
-   [
-    "achar",
-    "cabelo",
-    4
-   ],
-   [
-    "achar",
-    "cultura",
-    4
-   ],
-   [
-    "achar",
-    "vc",
-    7
-   ],
-   [
-    "achar",
-    "religiao",
-    10
-   ],
-   [
-    "achar",
-    "belo",
-    3
-   ],
-   [
-    "achar",
-    "nao",
-    3
-   ],
-   [
-    "achar",
-    "so",
-    7
-   ],
-   [
-    "achar",
-    "pais",
-    4
-   ],
-   [
-    "achar",
-    "saber",
-    4
-   ],
-   [
-    "achar",
-    "respeito",
-    4
-   ],
-   [
-    "achar",
-    "pq",
-    5
-   ],
-   [
-    "achar",
-    "gostar",
-    7
-   ],
-   [
-    "achar",
-    "maravilhoso",
-    3
-   ],
-   [
-    "achar",
-    "ver",
-    3
-   ],
-   [
-    "achar",
-    "vestido",
-    3
-   ],
-   [
-    "arabe",
-    "querer",
-    3
-   ],
-   [
-    "arabe",
-    "so",
-    3
-   ],
-   [
-    "livre",
-    "escolher",
-    3
-   ],
-   [
-    "livre",
-    "escolha",
-    3
-   ],
-   [
-    "saber",
-    "risada",
-    5
-   ],
-   [
-    "saber",
-    "falar",
-    5
-   ],
-   [
-    "saber",
-    "gente",
-    4
-   ],
-   [
-    "saber",
-    "mulher",
-    3
-   ],
-   [
-    "saber",
-    "querer",
-    5
-   ],
-   [
-    "saber",
-    "muculmano",
-    6
-   ],
-   [
-    "saber",
-    "ficar",
-    4
-   ],
-   [
-    "saber",
-    "pq",
-    6
-   ],
-   [
-    "saber",
-    "sair",
-    3
-   ],
-   [
-    "saber",
-    "lindo",
-    6
-   ],
-   [
-    "saber",
-    "coisa",
-    3
-   ],
-   [
-    "saber",
-    "dar",
-    4
-   ],
-   [
-    "saber",
-    "pais",
-    3
-   ],
-   [
-    "saber",
-    "religiao",
-    5
-   ],
-   [
-    "saber",
-    "respeito",
-    4
-   ],
-   [
-    "saber",
-    "acontecer",
-    3
-   ],
-   [
-    "saber",
-    "estar",
-    3
-   ],
-   [
-    "saber",
-    "so",
-    7
-   ],
-   [
-    "saber",
-    "vc",
-    4
-   ],
-   [
-    "saber",
-    "usar",
-    4
-   ],
-   [
-    "saber",
-    "video",
-    3
-   ],
-   [
-    "saber",
-    "dizer",
-    3
-   ],
-   [
-    "so",
-    "andar",
-    4
-   ],
-   [
-    "so",
-    "homem",
-    4
-   ],
-   [
-    "so",
-    "mulher",
-    9
-   ],
-   [
-    "so",
-    "roupa",
-    8
-   ],
-   [
-    "so",
-    "hijab",
-    6
-   ],
-   [
-    "so",
-    "lindo",
-    4
-   ],
-   [
-    "so",
-    "querer",
-    8
-   ],
-   [
-    "so",
-    "muculmano",
-    6
-   ],
-   [
-    "so",
-    "pq",
-    7
-   ],
-   [
-    "so",
-    "obrigar",
-    6
-   ],
-   [
-    "so",
-    "pais",
-    6
-   ],
-   [
-    "so",
-    "religiao",
-    8
-   ],
-   [
-    "so",
-    "dar",
-    5
-   ],
-   [
-    "so",
-    "dizer",
-    3
-   ],
-   [
-    "so",
-    "estar",
-    6
-   ],
-   [
-    "so",
-    "video",
-    5
-   ],
-   [
-    "so",
-    "falar",
-    6
-   ],
-   [
-    "so",
-    "vez",
-    3
-   ],
-   [
-    "so",
-    "brasil",
-    3
-   ],
-   [
-    "so",
-    "ne",
-    3
-   ],
-   [
-    "so",
-    "acontecer",
-    3
-   ],
-   [
-    "so",
-    "familia",
-    3
-   ],
-   [
-    "so",
-    "sair",
-    4
-   ],
-   [
-    "so",
-    "vc",
-    5
-   ],
-   [
-    "so",
-    "amar",
-    3
-   ],
-   [
-    "so",
-    "respeito",
-    4
-   ],
-   [
-    "so",
-    "usar",
-    4
-   ],
-   [
-    "so",
-    "risada",
-    4
-   ],
-   [
-    "so",
-    "comer",
-    4
-   ],
-   [
-    "exemplo",
-    "mulher",
-    3
-   ],
-   [
-    "exemplo",
-    "querer",
-    4
-   ],
-   [
-    "exemplo",
-    "religiao",
-    4
-   ],
-   [
-    "exemplo",
-    "existir",
-    4
-   ],
-   [
-    "exemplo",
-    "muculmano",
-    3
-   ],
-   [
-    "exemplo",
-    "pais",
-    3
-   ],
-   [
-    "exemplo",
-    "ver",
-    3
-   ],
-   [
-    "ano",
-    "dizer",
-    3
-   ],
-   [
-    "ano",
-    "estar",
-    6
-   ],
-   [
-    "ano",
-    "usar",
-    5
-   ],
-   [
-    "ano",
-    "vc",
-    4
-   ],
-   [
-    "ano",
-    "falar",
-    3
-   ],
-   [
-    "ano",
-    "sapato",
-    6
-   ],
-   [
-    "ano",
-    "acontecer",
-    3
-   ],
-   [
-    "ano",
-    "pensar",
-    3
-   ],
-   [
-    "vestido",
-    "belo",
-    4
-   ],
-   [
-    "vestido",
-    "maravilhoso",
-    10
-   ],
-   [
-    "vestido",
-    "mulher",
-    3
-   ],
-   [
-    "vestido",
-    "lindo",
-    16
-   ],
-   [
-    "vestido",
-    "perfeito",
-    5
-   ],
-   [
-    "vestido",
-    "ver",
-    4
-   ],
-   [
-    "vestido",
-    "ficar",
-    4
-   ],
-   [
-    "vestido",
-    "querer",
-    3
-   ],
-   [
-    "branco",
-    "estar",
-    3
-   ],
-   [
-    "branco",
-    "gente",
-    3
-   ],
-   [
-    "branco",
-    "querer",
-    3
-   ],
-   [
-    "viver",
-    "mulher",
-    4
-   ],
-   [
-    "viver",
-    "obrigar",
-    3
-   ],
-   [
-    "viver",
-    "acontecer",
-    3
-   ],
-   [
-    "viver",
-    "brasil",
-    4
-   ],
-   [
-    "viver",
-    "religiao",
-    5
-   ],
-   [
-    "viver",
-    "vida",
-    3
-   ],
-   [
-    "viver",
-    "existir",
-    4
-   ],
-   [
-    "viver",
-    "muculmano",
-    4
-   ],
-   [
-    "viver",
-    "escolha",
-    3
-   ],
-   [
-    "risada",
-    "falar",
-    3
-   ],
-   [
-    "risada",
-    "comprar",
-    3
-   ],
-   [
-    "risada",
-    "ficar",
-    6
-   ],
-   [
-    "risada",
-    "pq",
-    3
-   ],
-   [
-    "risada",
-    "querer",
-    4
-   ],
-   [
-    "risada",
-    "video",
-    5
-   ],
-   [
-    "risada",
-    "estar",
-    4
-   ],
-   [
-    "risada",
-    "dar",
-    3
-   ],
-   [
-    "risada",
-    "sapato",
-    10
-   ],
-   [
-    "risada",
-    "ver",
-    3
-   ],
-   [
-    "risada",
-    "vez",
-    3
-   ],
-   [
-    "risada",
-    "cola",
-    4
-   ],
-   [
-    "risada",
-    "acontecer",
-    9
-   ],
-   [
-    "risada",
-    "bolsa",
-    5
-   ],
-   [
-    "risada",
-    "andar",
-    3
-   ],
-   [
-    "risada",
-    "sair",
-    3
-   ],
-   [
-    "risada",
-    "usar",
-    4
-   ],
-   [
-    "amar",
-    "lindo",
-    7
-   ],
-   [
-    "amar",
-    "video",
-    7
-   ],
-   [
-    "amar",
-    "cultura",
-    4
-   ],
-   [
-    "amar",
-    "estar",
-    3
-   ],
-   [
-    "amar",
-    "religiao",
-    4
-   ],
-   [
-    "amar",
-    "vc",
-    5
-   ],
-   [
-    "amar",
-    "respeito",
-    3
-   ],
-   [
-    "amar",
-    "roupa",
-    3
-   ],
-   [
-    "querer",
-    "falar",
-    9
-   ],
-   [
-    "querer",
-    "religiao",
-    14
-   ],
-   [
-    "querer",
-    "tirar",
-    3
-   ],
-   [
-    "querer",
-    "lindo",
-    4
-   ],
-   [
-    "querer",
-    "video",
-    7
-   ],
-   [
-    "querer",
-    "mulher",
-    18
-   ],
-   [
-    "querer",
-    "cultura",
-    3
-   ],
-   [
-    "querer",
-    "estar",
-    12
-   ],
-   [
-    "querer",
-    "hijab",
-    9
-   ],
-   [
-    "querer",
-    "sair",
-    4
-   ],
-   [
-    "querer",
-    "acontecer",
-    3
-   ],
-   [
-    "querer",
-    "brasil",
-    4
-   ],
-   [
-    "querer",
-    "coisa",
-    5
-   ],
-   [
-    "querer",
-    "gente",
-    6
-   ],
-   [
-    "querer",
-    "obrigar",
-    7
-   ],
-   [
-    "querer",
-    "pq",
-    8
-   ],
-   [
-    "querer",
-    "vc",
-    8
-   ],
-   [
-    "querer",
-    "deixar",
-    4
-   ],
-   [
-    "querer",
-    "vida",
-    5
-   ],
-   [
-    "querer",
-    "dar",
-    5
-   ],
-   [
-    "querer",
-    "muculmano",
-    5
-   ],
-   [
-    "querer",
-    "existir",
-    4
-   ],
-   [
-    "querer",
-    "usar",
-    5
-   ],
-   [
-    "querer",
-    "escolha",
-    9
-   ],
-   [
-    "querer",
-    "escolher",
-    3
-   ],
-   [
-    "querer",
-    "mulcumano",
-    4
-   ],
-   [
-    "querer",
-    "pais",
-    6
-   ],
-   [
-    "querer",
-    "roupa",
-    5
-   ],
-   [
-    "querer",
-    "familia",
-    3
-   ],
-   [
-    "querer",
-    "marido",
-    4
-   ],
-   [
-    "querer",
-    "cabelo",
-    3
-   ],
-   [
-    "querer",
-    "gostar",
-    5
-   ],
-   [
-    "querer",
-    "deus",
-    4
-   ],
-   [
-    "querer",
-    "tbm",
-    3
-   ],
-   [
-    "homem",
-    "lindo",
-    3
-   ],
-   [
-    "homem",
-    "mulher",
-    13
-   ],
-   [
-    "homem",
-    "roupa",
-    4
-   ],
-   [
-    "homem",
-    "hijab",
-    4
-   ],
-   [
-    "homem",
-    "video",
-    3
-   ],
-   [
-    "homem",
-    "falar",
-    4
-   ],
-   [
-    "homem",
-    "religiao",
-    4
-   ],
-   [
-    "homem",
-    "obrigar",
-    4
-   ],
-   [
-    "homem",
-    "mulcumano",
-    3
-   ],
-   [
-    "perfeito",
-    "existir",
-    3
-   ],
-   [
-    "cola",
-    "bolsa",
-    8
-   ],
-   [
-    "cola",
-    "sapato",
-    3
-   ],
-   [
-    "cola",
-    "sair",
-    4
-   ],
-   [
-    "cola",
-    "super",
-    3
-   ],
-   [
-    "cola",
-    "acontecer",
-    3
-   ],
-   [
-    "ver",
-    "muculmano",
-    8
-   ],
-   [
-    "ver",
-    "mulher",
-    5
-   ],
-   [
-    "ver",
-    "pais",
-    4
-   ],
-   [
-    "ver",
-    "religiao",
-    4
-   ],
-   [
-    "ver",
-    "hijab",
-    6
-   ],
-   [
-    "ver",
-    "sair",
-    3
-   ],
-   [
-    "ver",
-    "brasil",
-    3
-   ],
-   [
-    "ver",
-    "vc",
-    3
-   ],
-   [
-    "ver",
-    "andar",
-    3
-   ],
-   [
-    "ver",
-    "gente",
-    3
-   ],
-   [
-    "ver",
-    "video",
-    6
-   ],
-   [
-    "ver",
-    "dizer",
-    4
-   ],
-   [
-    "ver",
-    "usar",
-    3
-   ],
-   [
-    "ver",
-    "lindo",
-    5
-   ],
-   [
-    "ver",
-    "falar",
-    3
-   ],
-   [
-    "ver",
-    "vez",
-    4
-   ],
-   [
-    "roupa",
-    "andar",
-    4
-   ],
-   [
-    "roupa",
-    "mulher",
-    7
-   ],
-   [
-    "roupa",
-    "hijab",
-    3
-   ],
-   [
-    "roupa",
-    "lindo",
-    4
-   ],
-   [
-    "roupa",
-    "falar",
-    3
-   ],
-   [
-    "roupa",
-    "marido",
-    3
-   ],
-   [
-    "roupa",
-    "pais",
-    3
-   ],
-   [
-    "roupa",
-    "estar",
-    4
-   ],
-   [
-    "roupa",
-    "obrigar",
-    3
-   ],
-   [
-    "roupa",
-    "religiao",
-    3
-   ],
-   [
-    "roupa",
-    "video",
-    3
-   ],
-   [
-    "cristao",
-    "muculmano",
-    5
-   ],
-   [
-    "cristao",
-    "religiao",
-    5
-   ],
-   [
-    "cristao",
-    "mulher",
-    3
-   ],
-   [
-    "dar",
-    "dizer",
-    3
-   ],
-   [
-    "dar",
-    "estar",
-    3
-   ],
-   [
-    "dar",
-    "pq",
-    7
-   ],
-   [
-    "dar",
-    "video",
-    3
-   ],
-   [
-    "dar",
-    "falar",
-    5
-   ],
-   [
-    "dar",
-    "gente",
-    3
-   ],
-   [
-    "dar",
-    "mulher",
-    3
-   ],
-   [
-    "dar",
-    "coisa",
-    3
-   ],
-   [
-    "dar",
-    "pais",
-    4
-   ],
-   [
-    "dar",
-    "religiao",
-    3
-   ],
-   [
-    "dar",
-    "sapato",
-    3
-   ],
-   [
-    "marido",
-    "falar",
-    5
-   ],
-   [
-    "marido",
-    "escolha",
-    5
-   ],
-   [
-    "marido",
-    "mulher",
-    4
-   ],
-   [
-    "marido",
-    "estar",
-    3
-   ],
-   [
-    "marido",
-    "familia",
-    3
-   ],
-   [
-    "marido",
-    "obrigar",
-    6
-   ],
-   [
-    "marido",
-    "vc",
-    4
-   ],
-   [
-    "marido",
-    "pais",
-    3
-   ],
-   [
-    "escolher",
-    "mulher",
-    4
-   ],
-   [
-    "escolher",
-    "escolha",
-    3
-   ],
-   [
-    "escolher",
-    "pais",
-    3
-   ],
-   [
-    "escolher",
-    "religiao",
-    3
-   ],
-   [
-    "escolher",
-    "muculmano",
-    3
-   ],
-   [
-    "gente",
-    "falar",
-    5
-   ],
-   [
-    "gente",
-    "mulher",
-    6
-   ],
-   [
-    "gente",
-    "pq",
-    6
-   ],
-   [
-    "gente",
-    "coisa",
-    3
-   ],
-   [
-    "gente",
-    "video",
-    4
-   ],
-   [
-    "gente",
-    "cultura",
-    3
-   ],
-   [
-    "gente",
-    "deixar",
-    3
-   ],
-   [
-    "gente",
-    "vez",
-    3
-   ],
-   [
-    "gente",
-    "pais",
-    3
-   ],
-   [
-    "gente",
-    "acontecer",
-    4
-   ],
-   [
-    "gente",
-    "andar",
-    3
-   ],
-   [
-    "gente",
-    "religiao",
-    3
-   ],
-   [
-    "gente",
-    "maravilhoso",
-    3
-   ],
-   [
-    "escolha",
-    "familia",
-    6
-   ],
-   [
-    "escolha",
-    "lindo",
-    3
-   ],
-   [
-    "escolha",
-    "mulher",
-    9
-   ],
-   [
-    "escolha",
-    "falar",
-    6
-   ],
-   [
-    "escolha",
-    "pais",
-    5
-   ],
-   [
-    "escolha",
-    "existir",
-    7
-   ],
-   [
-    "escolha",
-    "estar",
-    3
-   ],
-   [
-    "escolha",
-    "amigo",
-    3
-   ],
-   [
-    "escolha",
-    "hijab",
-    5
-   ],
-   [
-    "escolha",
-    "muculmano",
-    6
-   ],
-   [
-    "escolha",
-    "obrigar",
-    8
-   ],
-   [
-    "escolha",
-    "tirar",
-    3
-   ],
-   [
-    "escolha",
-    "uso",
-    3
-   ],
-   [
-    "escolha",
-    "religiao",
-    7
-   ],
-   [
-    "escolha",
-    "vc",
-    5
-   ],
-   [
-    "escolha",
-    "gostar",
-    5
-   ],
-   [
-    "escolha",
-    "nao",
-    4
-   ],
-   [
-    "escolha",
-    "usar",
-    3
-   ],
-   [
-    "bom",
-    "mulher",
-    4
-   ],
-   [
-    "bom",
-    "religiao",
-    3
-   ],
-   [
-    "bom",
-    "existir",
-    3
-   ],
-   [
-    "bom",
-    "vc",
-    3
-   ],
-   [
-    "bom",
-    "hijab",
-    3
-   ],
-   [
-    "bom",
-    "pq",
-    3
-   ],
-   [
-    "ne",
-    "tbm",
-    3
-   ],
-   [
-    "ne",
-    "respeito",
-    3
-   ],
-   [
-    "ne",
-    "vc",
-    4
-   ],
-   [
-    "deixar",
-    "mulher",
-    5
-   ],
-   [
-    "deixar",
-    "religiao",
-    3
-   ],
-   [
-    "deixar",
-    "pais",
-    3
-   ],
-   [
-    "pensar",
-    "dizer",
-    5
-   ],
-   [
-    "pensar",
-    "falar",
-    4
-   ],
-   [
-    "pensar",
-    "video",
-    4
-   ],
-   [
-    "pensar",
-    "estar",
-    3
-   ],
-   [
-    "pensar",
-    "mulher",
-    3
-   ],
-   [
-    "pensar",
-    "usar",
-    5
-   ],
-   [
-    "pensar",
-    "vc",
-    4
-   ],
-   [
-    "video",
-    "lindo",
-    5
-   ],
-   [
-    "video",
-    "falar",
-    11
-   ],
-   [
-    "video",
-    "mulher",
-    11
-   ],
-   [
-    "video",
-    "religiao",
-    5
-   ],
-   [
-    "video",
-    "dizer",
-    6
-   ],
-   [
-    "video",
-    "ficar",
-    3
-   ],
-   [
-    "video",
-    "estar",
-    6
-   ],
-   [
-    "video",
-    "muculmano",
-    3
-   ],
-   [
-    "video",
-    "pq",
-    5
-   ],
-   [
-    "video",
-    "pessoa",
-    3
-   ],
-   [
-    "video",
-    "vc",
-    5
-   ],
-   [
-    "video",
-    "vez",
-    5
-   ],
-   [
-    "video",
-    "usar",
-    5
-   ],
-   [
-    "video",
-    "hijab",
-    3
-   ],
-   [
-    "video",
-    "sapato",
-    3
-   ],
-   [
-    "acreditar",
-    "mulher",
-    3
-   ],
-   [
-    "acreditar",
-    "religiao",
-    4
-   ],
-   [
-    "acreditar",
-    "existir",
-    3
-   ],
-   [
-    "acreditar",
-    "muculmano",
-    3
-   ],
-   [
-    "usar",
-    "mulher",
-    7
-   ],
-   [
-    "usar",
-    "obrigar",
-    4
-   ],
-   [
-    "usar",
-    "hijab",
-    10
-   ],
-   [
-    "usar",
-    "super",
-    3
-   ],
-   [
-    "usar",
-    "lindo",
-    4
-   ],
-   [
-    "usar",
-    "estar",
-    7
-   ],
-   [
-    "usar",
-    "falar",
-    7
-   ],
-   [
-    "usar",
-    "religiao",
-    6
-   ],
-   [
-    "usar",
-    "cabelo",
-    3
-   ],
-   [
-    "usar",
-    "tirar",
-    3
-   ],
-   [
-    "usar",
-    "respeito",
-    3
-   ],
-   [
-    "usar",
-    "vc",
-    7
-   ],
-   [
-    "usar",
-    "uso",
-    5
-   ],
-   [
-    "usar",
-    "dizer",
-    4
-   ],
-   [
-    "usar",
-    "muculmano",
-    6
-   ],
-   [
-    "usar",
-    "deus",
-    3
-   ],
-   [
-    "usar",
-    "ficar",
-    3
-   ],
-   [
-    "usar",
-    "vida",
-    3
-   ],
-   [
-    "usar",
-    "vez",
-    3
-   ],
-   [
-    "usar",
-    "sapato",
-    9
-   ],
-   [
-    "usar",
-    "acontecer",
-    9
-   ],
-   [
     "pais",
     "mulcumano",
     4
@@ -2552,6 +747,26 @@
    ],
    [
     "pais",
+    "so",
+    6
+   ],
+   [
+    "pais",
+    "achar",
+    4
+   ],
+   [
+    "pais",
+    "escolha",
+    5
+   ],
+   [
+    "pais",
+    "escolher",
+    3
+   ],
+   [
+    "pais",
     "falar",
     3
    ],
@@ -2562,8 +777,23 @@
    ],
    [
     "pais",
+    "querer",
+    6
+   ],
+   [
+    "pais",
+    "roupa",
+    3
+   ],
+   [
+    "pais",
     "muculmano",
     6
+   ],
+   [
+    "pais",
+    "ver",
+    4
    ],
    [
     "pais",
@@ -2573,6 +803,16 @@
    [
     "pais",
     "coisa",
+    3
+   ],
+   [
+    "pais",
+    "dar",
+    4
+   ],
+   [
+    "pais",
+    "saber",
     3
    ],
    [
@@ -2582,6 +822,11 @@
    ],
    [
     "pais",
+    "exemplo",
+    3
+   ],
+   [
+    "pais",
     "existir",
     4
    ],
@@ -2607,478 +852,478 @@
    ],
    [
     "pais",
+    "deixar",
+    3
+   ],
+   [
+    "pais",
+    "gente",
+    3
+   ],
+   [
+    "pais",
+    "marido",
+    3
+   ],
+   [
+    "pais",
     "vc",
     3
    ],
    [
-    "super",
-    "bolsa",
-    6
-   ],
-   [
-    "pq",
-    "estar",
-    7
-   ],
-   [
-    "pq",
-    "obrigar",
-    7
-   ],
-   [
-    "pq",
-    "vc",
-    7
-   ],
-   [
-    "pq",
-    "falar",
-    8
-   ],
-   [
-    "pq",
-    "mulher",
-    10
-   ],
-   [
-    "pq",
-    "deus",
+    "perfeito",
+    "existir",
     3
    ],
    [
-    "pq",
-    "muculmano",
-    4
-   ],
-   [
-    "pq",
-    "tbm",
-    4
-   ],
-   [
-    "pq",
-    "ficar",
-    3
-   ],
-   [
-    "pq",
-    "dizer",
-    3
-   ],
-   [
-    "pq",
-    "religiao",
+    "perfeito",
+    "vestido",
     5
    ],
    [
-    "pq",
-    "hijab",
-    6
-   ],
-   [
-    "pq",
-    "acontecer",
-    4
-   ],
-   [
-    "pq",
-    "coisa",
-    4
-   ],
-   [
-    "pq",
-    "mulcumano",
+    "estar",
+    "amar",
     3
    ],
    [
-    "religiao",
-    "falar",
-    7
-   ],
-   [
-    "religiao",
-    "pessoa",
-    4
-   ],
-   [
-    "religiao",
-    "tirar",
-    4
-   ],
-   [
-    "religiao",
-    "mulher",
-    11
-   ],
-   [
-    "religiao",
+    "estar",
     "cultura",
     3
    ],
    [
-    "religiao",
     "estar",
-    4
-   ],
-   [
-    "religiao",
     "hijab",
     4
    ],
    [
+    "estar",
+    "querer",
+    12
+   ],
+   [
+    "estar",
     "religiao",
+    4
+   ],
+   [
+    "estar",
     "sair",
-    3
+    4
    ],
    [
-    "religiao",
-    "mulcumano",
-    3
-   ],
-   [
-    "religiao",
+    "estar",
     "obrigar",
-    11
+    3
    ],
    [
-    "religiao",
-    "seguir",
-    5
+    "estar",
+    "pq",
+    7
    ],
    [
-    "religiao",
-    "acontecer",
+    "estar",
+    "vc",
+    12
+   ],
+   [
+    "estar",
+    "achar",
     6
    ],
    [
-    "religiao",
-    "brasil",
-    6
-   ],
-   [
-    "religiao",
+    "estar",
     "vida",
     3
    ],
    [
-    "religiao",
-    "existir",
-    7
-   ],
-   [
-    "religiao",
-    "muculmano",
-    11
-   ],
-   [
-    "religiao",
-    "vc",
-    4
-   ],
-   [
-    "religiao",
-    "vez",
-    3
-   ],
-   [
-    "religiao",
-    "familia",
-    6
-   ],
-   [
-    "religiao",
-    "deus",
-    4
-   ],
-   [
-    "religiao",
-    "coisa",
-    6
-   ],
-   [
-    "religiao",
-    "lindo",
-    3
-   ],
-   [
-    "religiao",
-    "gostar",
-    6
-   ],
-   [
-    "existir",
-    "hijab",
-    4
-   ],
-   [
-    "existir",
-    "familia",
-    4
-   ],
-   [
-    "existir",
-    "falar",
-    4
-   ],
-   [
-    "existir",
-    "muculmano",
-    7
-   ],
-   [
-    "existir",
-    "vc",
-    4
-   ],
-   [
-    "existir",
-    "cultura",
-    4
-   ],
-   [
-    "existir",
     "estar",
+    "dar",
     3
    ],
    [
-    "existir",
+    "estar",
+    "dizer",
+    4
+   ],
+   [
+    "estar",
+    "muculmano",
+    4
+   ],
+   [
+    "estar",
+    "so",
+    6
+   ],
+   [
+    "estar",
+    "video",
+    6
+   ],
+   [
+    "estar",
     "mulher",
     6
    ],
    [
-    "existir",
-    "coisa",
+    "estar",
+    "seguir",
     3
    ],
    [
+    "estar",
+    "branco",
+    3
+   ],
+   [
+    "estar",
     "existir",
-    "obrigar",
+    3
+   ],
+   [
+    "estar",
+    "falar",
+    7
+   ],
+   [
+    "estar",
+    "pensar",
+    3
+   ],
+   [
+    "estar",
+    "usar",
+    7
+   ],
+   [
+    "estar",
+    "escolha",
+    3
+   ],
+   [
+    "estar",
+    "marido",
+    3
+   ],
+   [
+    "estar",
+    "lindo",
+    3
+   ],
+   [
+    "estar",
+    "acontecer",
+    3
+   ],
+   [
+    "estar",
+    "roupa",
+    4
+   ],
+   [
+    "estar",
+    "saber",
+    3
+   ],
+   [
+    "estar",
+    "ano",
     6
    ],
    [
-    "existir",
-    "uso",
-    3
-   ],
-   [
-    "existir",
+    "estar",
     "brasil",
     3
    ],
    [
-    "familia",
-    "muculmano",
-    7
-   ],
-   [
-    "familia",
-    "hijab",
-    4
-   ],
-   [
-    "familia",
-    "obrigar",
-    5
-   ],
-   [
-    "dizer",
     "estar",
+    "risada",
     4
    ],
    [
-    "dizer",
-    "muculmano",
-    4
-   ],
-   [
-    "dizer",
-    "hijab",
-    4
-   ],
-   [
-    "dizer",
-    "vc",
-    4
-   ],
-   [
-    "bolsa",
-    "sapato",
-    3
-   ],
-   [
-    "bolsa",
-    "vez",
-    3
-   ],
-   [
-    "bolsa",
-    "sair",
-    4
-   ],
-   [
-    "bolsa",
-    "andar",
-    4
-   ],
-   [
-    "bolsa",
-    "acontecer",
-    4
-   ],
-   [
-    "maravilhoso",
-    "lindo",
-    5
-   ],
-   [
-    "sapato",
-    "ficar",
-    3
-   ],
-   [
-    "sapato",
-    "coisa",
-    3
-   ],
-   [
-    "sapato",
     "estar",
+    "sapato",
     5
    ],
    [
-    "sapato",
-    "vc",
-    3
+    "muculmano",
+    "cristao",
+    5
    ],
    [
-    "sapato",
-    "acontecer",
-    9
-   ],
-   [
-    "sapato",
-    "falar",
-    4
-   ],
-   [
-    "sapato",
-    "uso",
-    3
-   ],
-   [
-    "vez",
-    "mulher",
-    3
-   ],
-   [
-    "vez",
-    "falar",
-    3
-   ],
-   [
-    "vez",
-    "vc",
-    3
-   ],
-   [
+    "muculmano",
     "amigo",
+    3
+   ],
+   [
     "muculmano",
-    3
-   ],
-   [
-    "andar",
-    "mulher",
-    3
-   ],
-   [
-    "vc",
-    "estar",
-    12
-   ],
-   [
-    "vc",
-    "obrigar",
-    6
-   ],
-   [
-    "vc",
-    "falar",
-    13
-   ],
-   [
-    "vc",
-    "muculmano",
-    6
-   ],
-   [
-    "vc",
-    "pessoa",
-    3
-   ],
-   [
-    "vc",
-    "cabelo",
+    "deus",
     4
    ],
    [
-    "vc",
-    "cultura",
+    "muculmano",
+    "pq",
+    4
+   ],
+   [
+    "muculmano",
+    "so",
+    6
+   ],
+   [
+    "muculmano",
+    "nao",
     3
    ],
    [
-    "vc",
-    "lindo",
-    12
+    "muculmano",
+    "saber",
+    6
    ],
    [
+    "muculmano",
+    "existir",
+    7
+   ],
+   [
+    "muculmano",
+    "falar",
+    5
+   ],
+   [
+    "muculmano",
+    "religiao",
+    11
+   ],
+   [
+    "muculmano",
     "vc",
+    6
+   ],
+   [
+    "muculmano",
+    "dizer",
+    4
+   ],
+   [
+    "muculmano",
+    "querer",
+    5
+   ],
+   [
+    "muculmano",
+    "video",
+    3
+   ],
+   [
+    "muculmano",
+    "achar",
+    5
+   ],
+   [
+    "muculmano",
     "mulher",
     11
    ],
    [
-    "vc",
-    "acontecer",
+    "muculmano",
+    "familia",
+    7
+   ],
+   [
+    "muculmano",
+    "obrigar",
+    4
+   ],
+   [
+    "muculmano",
+    "ver",
+    8
+   ],
+   [
+    "muculmano",
+    "escolha",
     6
    ],
    [
-    "vc",
-    "hijab",
-    4
-   ],
-   [
-    "vc",
-    "tirar",
-    4
-   ],
-   [
-    "vc",
-    "seguir",
+    "muculmano",
+    "exemplo",
     3
    ],
    [
-    "vc",
-    "ficar",
-    6
+    "muculmano",
+    "hijab",
+    10
    ],
    [
-    "vc",
+    "muculmano",
+    "sair",
+    3
+   ],
+   [
+    "muculmano",
     "brasil",
     4
    ],
    [
-    "vc",
-    "mulcumano",
-    3
+    "muculmano",
+    "vida",
+    5
    ],
    [
-    "vc",
-    "respeito",
+    "muculmano",
+    "viver",
     4
    ],
    [
-    "vc",
-    "elegante",
+    "muculmano",
+    "gostar",
     3
+   ],
+   [
+    "muculmano",
+    "escolher",
+    3
+   ],
+   [
+    "muculmano",
+    "acreditar",
+    3
+   ],
+   [
+    "muculmano",
+    "usar",
+    6
+   ],
+   [
+    "muculmano",
+    "lindo",
+    3
+   ],
+   [
+    "tirar",
+    "querer",
+    3
+   ],
+   [
+    "tirar",
+    "religiao",
+    4
+   ],
+   [
+    "tirar",
+    "cabelo",
+    3
+   ],
+   [
+    "tirar",
+    "escolha",
+    3
+   ],
+   [
+    "tirar",
+    "hijab",
+    4
+   ],
+   [
+    "tirar",
+    "obrigar",
+    3
+   ],
+   [
+    "tirar",
+    "sair",
+    3
+   ],
+   [
+    "tirar",
+    "vc",
+    4
+   ],
+   [
+    "tirar",
+    "usar",
+    3
+   ],
+   [
+    "dizer",
+    "pensar",
+    5
+   ],
+   [
+    "dizer",
+    "video",
+    6
+   ],
+   [
+    "dizer",
+    "dar",
+    3
+   ],
+   [
+    "dizer",
+    "pq",
+    3
+   ],
+   [
+    "dizer",
+    "so",
+    3
+   ],
+   [
+    "dizer",
+    "ano",
+    3
+   ],
+   [
+    "dizer",
+    "hijab",
+    4
+   ],
+   [
+    "dizer",
+    "saber",
+    3
+   ],
+   [
+    "dizer",
+    "usar",
+    4
+   ],
+   [
+    "dizer",
+    "vc",
+    4
+   ],
+   [
+    "dizer",
+    "ver",
+    4
+   ],
+   [
+    "mariam",
+    "lindo",
+    3
+   ],
+   [
+    "mariam",
+    "hijab",
+    4
+   ],
+   [
+    "cristao",
+    "religiao",
+    5
+   ],
+   [
+    "cristao",
+    "mulher",
+    3
+   ],
+   [
+    "ficar",
+    "achar",
+    4
    ],
    [
     "ficar",
@@ -3088,6 +1333,11 @@
    [
     "ficar",
     "vida",
+    3
+   ],
+   [
+    "ficar",
+    "video",
     3
    ],
    [
@@ -3097,148 +1347,123 @@
    ],
    [
     "ficar",
+    "pq",
+    3
+   ],
+   [
+    "ficar",
+    "saber",
+    4
+   ],
+   [
+    "ficar",
+    "risada",
+    6
+   ],
+   [
+    "ficar",
     "lindo",
     13
    ],
    [
-    "sair",
-    "estar",
-    4
-   ],
-   [
-    "sair",
-    "hijab",
-    3
-   ],
-   [
-    "sair",
-    "muculmano",
-    3
-   ],
-   [
-    "sair",
-    "mulher",
-    3
-   ],
-   [
-    "sair",
-    "obrigar",
-    3
-   ],
-   [
-    "sair",
-    "tirar",
-    3
-   ],
-   [
-    "sair",
-    "acontecer",
-    3
-   ],
-   [
-    "sair",
-    "vida",
-    3
-   ],
-   [
-    "lindo",
-    "mulher",
-    9
-   ],
-   [
-    "lindo",
-    "hijab",
+    "ficar",
+    "vc",
     6
    ],
    [
-    "lindo",
-    "cabelo",
+    "ficar",
+    "usar",
+    3
+   ],
+   [
+    "ficar",
+    "vestido",
+    4
+   ],
+   [
+    "ficar",
+    "sapato",
+    3
+   ],
+   [
+    "vida",
+    "achar",
+    3
+   ],
+   [
+    "vida",
+    "coisa",
+    4
+   ],
+   [
+    "vida",
+    "falar",
+    3
+   ],
+   [
+    "vida",
+    "querer",
     5
    ],
    [
-    "lindo",
+    "vida",
+    "religiao",
+    3
+   ],
+   [
+    "vida",
+    "viver",
+    3
+   ],
+   [
+    "vida",
+    "sair",
+    3
+   ],
+   [
+    "vida",
+    "usar",
+    3
+   ],
+   [
     "coisa",
-    3
-   ],
-   [
-    "lindo",
-    "seguir",
-    3
-   ],
-   [
-    "lindo",
-    "estar",
-    3
-   ],
-   [
-    "lindo",
-    "muculmano",
-    3
-   ],
-   [
-    "lindo",
-    "elegante",
-    8
-   ],
-   [
-    "lindo",
-    "parabens",
-    3
-   ],
-   [
-    "nao",
-    "hijab",
-    3
-   ],
-   [
-    "nao",
-    "muculmano",
-    3
-   ],
-   [
-    "nao",
-    "mulher",
-    3
-   ],
-   [
     "acontecer",
-    "brasil",
-    3
-   ],
-   [
-    "acontecer",
-    "coisa",
     6
    ],
    [
-    "acontecer",
-    "estar",
-    3
+    "coisa",
+    "querer",
+    5
    ],
    [
-    "acontecer",
-    "falar",
-    9
-   ],
-   [
-    "acontecer",
-    "mulher",
-    3
-   ],
-   [
-    "cultura",
-    "mulher",
-    4
-   ],
-   [
-    "cultura",
-    "estar",
+    "coisa",
+    "gente",
     3
    ],
    [
     "coisa",
-    "vida",
-    4
+    "lindo",
+    3
+   ],
+   [
+    "coisa",
+    "existir",
+    3
+   ],
+   [
+    "coisa",
+    "religiao",
+    6
+   ],
+   [
+    "coisa",
+    "dar",
+    3
+   ],
+   [
+    "coisa",
+    "saber",
+    3
    ],
    [
     "coisa",
@@ -3246,6 +1471,156 @@
     3
    ],
    [
+    "coisa",
+    "pq",
+    4
+   ],
+   [
+    "coisa",
+    "sapato",
+    3
+   ],
+   [
+    "usar",
+    "achar",
+    6
+   ],
+   [
+    "usar",
+    "mulher",
+    7
+   ],
+   [
+    "usar",
+    "obrigar",
+    4
+   ],
+   [
+    "usar",
+    "hijab",
+    10
+   ],
+   [
+    "usar",
+    "super",
+    3
+   ],
+   [
+    "usar",
+    "lindo",
+    4
+   ],
+   [
+    "usar",
+    "falar",
+    7
+   ],
+   [
+    "usar",
+    "pensar",
+    5
+   ],
+   [
+    "usar",
+    "querer",
+    5
+   ],
+   [
+    "usar",
+    "religiao",
+    6
+   ],
+   [
+    "usar",
+    "cabelo",
+    3
+   ],
+   [
+    "usar",
+    "respeito",
+    3
+   ],
+   [
+    "usar",
+    "vc",
+    7
+   ],
+   [
+    "usar",
+    "saber",
+    4
+   ],
+   [
+    "usar",
+    "so",
+    4
+   ],
+   [
+    "usar",
+    "video",
+    5
+   ],
+   [
+    "usar",
+    "escolha",
+    3
+   ],
+   [
+    "usar",
+    "uso",
+    5
+   ],
+   [
+    "usar",
+    "ano",
+    5
+   ],
+   [
+    "usar",
+    "ver",
+    3
+   ],
+   [
+    "usar",
+    "deus",
+    3
+   ],
+   [
+    "usar",
+    "vez",
+    3
+   ],
+   [
+    "usar",
+    "filho",
+    4
+   ],
+   [
+    "usar",
+    "sapato",
+    9
+   ],
+   [
+    "usar",
+    "acontecer",
+    9
+   ],
+   [
+    "usar",
+    "risada",
+    4
+   ],
+   [
+    "uso",
+    "escolha",
+    3
+   ],
+   [
+    "uso",
+    "existir",
+    3
+   ],
+   [
     "uso",
     "hijab",
     6
@@ -3256,9 +1631,59 @@
     4
    ],
    [
+    "uso",
+    "sapato",
+    3
+   ],
+   [
+    "mulher",
+    "achar",
+    13
+   ],
+   [
+    "mulher",
+    "escolher",
+    4
+   ],
+   [
     "mulher",
     "obrigar",
     10
+   ],
+   [
+    "mulher",
+    "viver",
+    4
+   ],
+   [
+    "mulher",
+    "homem",
+    13
+   ],
+   [
+    "mulher",
+    "lindo",
+    9
+   ],
+   [
+    "mulher",
+    "andar",
+    3
+   ],
+   [
+    "mulher",
+    "cultura",
+    4
+   ],
+   [
+    "mulher",
+    "roupa",
+    7
+   ],
+   [
+    "mulher",
+    "so",
+    9
    ],
    [
     "mulher",
@@ -3267,8 +1692,43 @@
    ],
    [
     "mulher",
+    "video",
+    11
+   ],
+   [
+    "mulher",
     "hijab",
     13
+   ],
+   [
+    "mulher",
+    "exemplo",
+    3
+   ],
+   [
+    "mulher",
+    "querer",
+    18
+   ],
+   [
+    "mulher",
+    "religiao",
+    11
+   ],
+   [
+    "mulher",
+    "gente",
+    6
+   ],
+   [
+    "mulher",
+    "saber",
+    3
+   ],
+   [
+    "mulher",
+    "pq",
+    10
    ],
    [
     "mulher",
@@ -3277,23 +1737,58 @@
    ],
    [
     "mulher",
-    "estar",
-    6
+    "deixar",
+    5
    ],
    [
     "mulher",
-    "muculmano",
+    "seguir",
+    4
+   ],
+   [
+    "mulher",
+    "vez",
+    3
+   ],
+   [
+    "mulher",
+    "cabelo",
+    5
+   ],
+   [
+    "mulher",
+    "vc",
     11
    ],
    [
     "mulher",
-    "seguir",
-    4
+    "dar",
+    3
    ],
    [
     "mulher",
-    "cabelo",
-    5
+    "existir",
+    6
+   ],
+   [
+    "mulher",
+    "pensar",
+    3
+   ],
+   [
+    "mulher",
+    "acreditar",
+    3
+   ],
+   [
+    "mulher",
+    "nao",
+    3
+   ],
+   [
+    "mulher",
+    "escolha",
+    9
    ],
    [
     "mulher",
@@ -3307,6 +1802,21 @@
    ],
    [
     "mulher",
+    "marido",
+    4
+   ],
+   [
+    "mulher",
+    "ver",
+    5
+   ],
+   [
+    "mulher",
+    "bom",
+    4
+   ],
+   [
+    "mulher",
     "brasil",
     4
    ],
@@ -3317,138 +1827,1278 @@
    ],
    [
     "mulher",
+    "sair",
+    3
+   ],
+   [
+    "mulher",
+    "mostrar",
+    3
+   ],
+   [
+    "mulher",
+    "acontecer",
+    3
+   ],
+   [
+    "mulher",
     "gostar",
     3
    ],
    [
-    "estar",
+    "mulher",
+    "vestido",
+    3
+   ],
+   [
+    "andar",
+    "roupa",
+    4
+   ],
+   [
+    "andar",
+    "so",
+    4
+   ],
+   [
+    "andar",
+    "achar",
+    4
+   ],
+   [
+    "andar",
+    "gente",
+    3
+   ],
+   [
+    "andar",
+    "ver",
+    3
+   ],
+   [
+    "andar",
+    "bolsa",
+    4
+   ],
+   [
+    "andar",
+    "risada",
+    3
+   ],
+   [
+    "existir",
     "hijab",
     4
    ],
    [
-    "estar",
-    "obrigar",
-    3
-   ],
-   [
-    "estar",
-    "vida",
-    3
-   ],
-   [
-    "estar",
-    "muculmano",
+    "existir",
+    "familia",
     4
    ],
    [
-    "estar",
-    "seguir",
-    3
+    "existir",
+    "falar",
+    4
    ],
    [
-    "estar",
-    "falar",
+    "existir",
+    "religiao",
     7
    ],
    [
-    "estar",
+    "existir",
+    "vc",
+    4
+   ],
+   [
+    "existir",
+    "achar",
+    4
+   ],
+   [
+    "existir",
+    "exemplo",
+    4
+   ],
+   [
+    "existir",
+    "viver",
+    4
+   ],
+   [
+    "existir",
+    "cultura",
+    4
+   ],
+   [
+    "existir",
+    "querer",
+    4
+   ],
+   [
+    "existir",
+    "escolha",
+    7
+   ],
+   [
+    "existir",
+    "acreditar",
+    3
+   ],
+   [
+    "existir",
+    "obrigar",
+    6
+   ],
+   [
+    "existir",
+    "bom",
+    3
+   ],
+   [
+    "existir",
     "brasil",
     3
    ],
    [
-    "cabelo",
+    "nao",
     "hijab",
     3
    ],
    [
-    "cabelo",
-    "tirar",
+    "nao",
+    "achar",
     3
    ],
    [
-    "tirar",
-    "hijab",
+    "nao",
+    "escolha",
     4
    ],
    [
-    "tirar",
+    "vez",
+    "religiao",
+    3
+   ],
+   [
+    "vez",
+    "gente",
+    3
+   ],
+   [
+    "vez",
+    "video",
+    5
+   ],
+   [
+    "vez",
+    "falar",
+    3
+   ],
+   [
+    "vez",
+    "so",
+    3
+   ],
+   [
+    "vez",
+    "vc",
+    3
+   ],
+   [
+    "vez",
+    "ver",
+    4
+   ],
+   [
+    "vez",
+    "risada",
+    3
+   ],
+   [
+    "vez",
+    "bolsa",
+    3
+   ],
+   [
+    "gostar",
+    "achar",
+    7
+   ],
+   [
+    "gostar",
+    "escolha",
+    5
+   ],
+   [
+    "gostar",
+    "falar",
+    3
+   ],
+   [
+    "gostar",
     "obrigar",
     3
    ],
    [
-    "muculmano",
-    "deus",
+    "gostar",
+    "querer",
+    5
+   ],
+   [
+    "gostar",
+    "religiao",
+    6
+   ],
+   [
+    "gostar",
+    "hijab",
+    3
+   ],
+   [
+    "escolher",
+    "livre",
+    3
+   ],
+   [
+    "escolher",
+    "escolha",
+    3
+   ],
+   [
+    "escolher",
+    "querer",
+    3
+   ],
+   [
+    "escolher",
+    "religiao",
+    3
+   ],
+   [
+    "roupa",
+    "homem",
     4
    ],
    [
-    "muculmano",
+    "roupa",
+    "so",
+    8
+   ],
+   [
+    "roupa",
+    "hijab",
+    3
+   ],
+   [
+    "roupa",
+    "lindo",
+    4
+   ],
+   [
+    "roupa",
+    "achar",
+    5
+   ],
+   [
+    "roupa",
+    "falar",
+    3
+   ],
+   [
+    "roupa",
+    "marido",
+    3
+   ],
+   [
+    "roupa",
+    "querer",
+    5
+   ],
+   [
+    "roupa",
+    "obrigar",
+    3
+   ],
+   [
+    "roupa",
+    "religiao",
+    3
+   ],
+   [
+    "roupa",
+    "amar",
+    3
+   ],
+   [
+    "roupa",
+    "video",
+    3
+   ],
+   [
+    "gente",
     "falar",
     5
    ],
    [
-    "muculmano",
-    "obrigar",
+    "gente",
+    "querer",
+    6
+   ],
+   [
+    "gente",
+    "saber",
     4
    ],
    [
-    "muculmano",
+    "gente",
+    "pq",
+    6
+   ],
+   [
+    "gente",
+    "achar",
+    4
+   ],
+   [
+    "gente",
+    "video",
+    4
+   ],
+   [
+    "gente",
+    "branco",
+    3
+   ],
+   [
+    "gente",
+    "cultura",
+    3
+   ],
+   [
+    "gente",
+    "dar",
+    3
+   ],
+   [
+    "gente",
+    "deixar",
+    3
+   ],
+   [
+    "gente",
+    "acontecer",
+    4
+   ],
+   [
+    "gente",
+    "religiao",
+    3
+   ],
+   [
+    "gente",
+    "ver",
+    3
+   ],
+   [
+    "gente",
+    "maravilhoso",
+    3
+   ],
+   [
+    "pessoa",
+    "falar",
+    3
+   ],
+   [
+    "pessoa",
+    "religiao",
+    4
+   ],
+   [
+    "pessoa",
+    "vc",
+    3
+   ],
+   [
+    "pessoa",
+    "video",
+    3
+   ],
+   [
+    "cultura",
+    "amar",
+    4
+   ],
+   [
+    "cultura",
+    "querer",
+    3
+   ],
+   [
+    "cultura",
+    "religiao",
+    3
+   ],
+   [
+    "cultura",
+    "achar",
+    4
+   ],
+   [
+    "cultura",
+    "vc",
+    3
+   ],
+   [
+    "cabelo",
+    "achar",
+    4
+   ],
+   [
+    "cabelo",
+    "lindo",
+    5
+   ],
+   [
+    "cabelo",
+    "vc",
+    4
+   ],
+   [
+    "cabelo",
+    "mostrar",
+    5
+   ],
+   [
+    "cabelo",
+    "querer",
+    3
+   ],
+   [
+    "cabelo",
     "hijab",
+    3
+   ],
+   [
+    "belo",
+    "achar",
+    3
+   ],
+   [
+    "belo",
+    "vestido",
+    4
+   ],
+   [
+    "escolha",
+    "achar",
+    6
+   ],
+   [
+    "escolha",
+    "familia",
+    6
+   ],
+   [
+    "escolha",
+    "lindo",
+    3
+   ],
+   [
+    "escolha",
+    "falar",
+    6
+   ],
+   [
+    "escolha",
+    "querer",
+    9
+   ],
+   [
+    "escolha",
+    "marido",
+    5
+   ],
+   [
+    "escolha",
+    "amigo",
+    3
+   ],
+   [
+    "escolha",
+    "livre",
+    3
+   ],
+   [
+    "escolha",
+    "hijab",
+    5
+   ],
+   [
+    "escolha",
+    "obrigar",
+    8
+   ],
+   [
+    "escolha",
+    "religiao",
+    7
+   ],
+   [
+    "escolha",
+    "vc",
+    5
+   ],
+   [
+    "escolha",
+    "viver",
+    3
+   ],
+   [
+    "exemplo",
+    "querer",
+    4
+   ],
+   [
+    "exemplo",
+    "religiao",
+    4
+   ],
+   [
+    "exemplo",
+    "achar",
+    3
+   ],
+   [
+    "exemplo",
+    "ver",
+    3
+   ],
+   [
+    "lindo",
+    "achar",
+    24
+   ],
+   [
+    "lindo",
+    "amar",
+    7
+   ],
+   [
+    "lindo",
+    "querer",
+    4
+   ],
+   [
+    "lindo",
+    "video",
+    5
+   ],
+   [
+    "lindo",
+    "homem",
+    3
+   ],
+   [
+    "lindo",
+    "hijab",
+    6
+   ],
+   [
+    "lindo",
+    "so",
+    4
+   ],
+   [
+    "lindo",
+    "vc",
+    12
+   ],
+   [
+    "lindo",
+    "saber",
+    6
+   ],
+   [
+    "lindo",
+    "religiao",
+    3
+   ],
+   [
+    "lindo",
+    "seguir",
+    3
+   ],
+   [
+    "lindo",
+    "ver",
+    5
+   ],
+   [
+    "lindo",
+    "elegante",
+    8
+   ],
+   [
+    "lindo",
+    "vestido",
+    16
+   ],
+   [
+    "lindo",
+    "maravilhoso",
+    5
+   ],
+   [
+    "lindo",
+    "parabens",
+    3
+   ],
+   [
+    "lindo",
+    "mostrar",
+    3
+   ],
+   [
+    "ano",
+    "vc",
+    4
+   ],
+   [
+    "ano",
+    "falar",
+    3
+   ],
+   [
+    "ano",
+    "sapato",
+    6
+   ],
+   [
+    "ano",
+    "acontecer",
+    3
+   ],
+   [
+    "ano",
+    "pensar",
+    3
+   ],
+   [
+    "pq",
+    "obrigar",
+    7
+   ],
+   [
+    "pq",
+    "querer",
+    8
+   ],
+   [
+    "pq",
+    "vc",
+    7
+   ],
+   [
+    "pq",
+    "falar",
+    8
+   ],
+   [
+    "pq",
+    "deus",
+    3
+   ],
+   [
+    "pq",
+    "so",
+    7
+   ],
+   [
+    "pq",
+    "tbm",
+    4
+   ],
+   [
+    "pq",
+    "saber",
+    6
+   ],
+   [
+    "pq",
+    "dar",
+    7
+   ],
+   [
+    "pq",
+    "video",
+    5
+   ],
+   [
+    "pq",
+    "risada",
+    3
+   ],
+   [
+    "pq",
+    "religiao",
+    5
+   ],
+   [
+    "pq",
+    "hijab",
+    6
+   ],
+   [
+    "pq",
+    "achar",
+    5
+   ],
+   [
+    "pq",
+    "acontecer",
+    4
+   ],
+   [
+    "pq",
+    "mulcumano",
+    3
+   ],
+   [
+    "pq",
+    "bom",
+    3
+   ],
+   [
+    "tbm",
+    "achar",
+    3
+   ],
+   [
+    "tbm",
+    "ne",
+    3
+   ],
+   [
+    "tbm",
+    "querer",
+    3
+   ],
+   [
+    "dar",
+    "querer",
+    5
+   ],
+   [
+    "dar",
+    "so",
+    5
+   ],
+   [
+    "dar",
+    "video",
+    3
+   ],
+   [
+    "dar",
+    "falar",
+    5
+   ],
+   [
+    "dar",
+    "religiao",
+    3
+   ],
+   [
+    "dar",
+    "saber",
+    4
+   ],
+   [
+    "dar",
+    "risada",
+    3
+   ],
+   [
+    "dar",
+    "sapato",
+    3
+   ],
+   [
+    "vc",
+    "obrigar",
+    6
+   ],
+   [
+    "vc",
+    "querer",
+    8
+   ],
+   [
+    "vc",
+    "falar",
+    13
+   ],
+   [
+    "vc",
+    "religiao",
+    4
+   ],
+   [
+    "vc",
+    "achar",
+    7
+   ],
+   [
+    "vc",
+    "amar",
+    5
+   ],
+   [
+    "vc",
+    "video",
+    5
+   ],
+   [
+    "vc",
+    "acontecer",
+    6
+   ],
+   [
+    "vc",
+    "hijab",
+    4
+   ],
+   [
+    "vc",
+    "marido",
+    4
+   ],
+   [
+    "vc",
+    "seguir",
+    3
+   ],
+   [
+    "vc",
+    "bom",
+    3
+   ],
+   [
+    "vc",
+    "brasil",
+    4
+   ],
+   [
+    "vc",
+    "ver",
+    3
+   ],
+   [
+    "vc",
+    "mulcumano",
+    3
+   ],
+   [
+    "vc",
+    "saber",
+    4
+   ],
+   [
+    "vc",
+    "so",
+    5
+   ],
+   [
+    "vc",
+    "respeito",
+    4
+   ],
+   [
+    "vc",
+    "ne",
+    4
+   ],
+   [
+    "vc",
+    "elegante",
+    3
+   ],
+   [
+    "vc",
+    "pensar",
+    4
+   ],
+   [
+    "vc",
+    "sapato",
+    3
+   ],
+   [
+    "sair",
+    "hijab",
+    3
+   ],
+   [
+    "sair",
+    "querer",
+    4
+   ],
+   [
+    "sair",
+    "religiao",
+    3
+   ],
+   [
+    "sair",
+    "saber",
+    3
+   ],
+   [
+    "sair",
+    "obrigar",
+    3
+   ],
+   [
+    "sair",
+    "ver",
+    3
+   ],
+   [
+    "sair",
+    "acontecer",
+    3
+   ],
+   [
+    "sair",
+    "so",
+    4
+   ],
+   [
+    "sair",
+    "bolsa",
+    4
+   ],
+   [
+    "sair",
+    "cola",
+    4
+   ],
+   [
+    "sair",
+    "risada",
+    3
+   ],
+   [
+    "religiao",
+    "falar",
+    7
+   ],
+   [
+    "religiao",
+    "querer",
+    14
+   ],
+   [
+    "religiao",
+    "video",
+    5
+   ],
+   [
+    "religiao",
+    "amar",
+    4
+   ],
+   [
+    "religiao",
+    "hijab",
+    4
+   ],
+   [
+    "religiao",
+    "mulcumano",
+    3
+   ],
+   [
+    "religiao",
+    "obrigar",
+    11
+   ],
+   [
+    "religiao",
+    "seguir",
+    5
+   ],
+   [
+    "religiao",
+    "so",
+    8
+   ],
+   [
+    "religiao",
+    "acontecer",
+    6
+   ],
+   [
+    "religiao",
+    "brasil",
+    6
+   ],
+   [
+    "religiao",
+    "viver",
+    5
+   ],
+   [
+    "religiao",
+    "deixar",
+    3
+   ],
+   [
+    "religiao",
+    "homem",
+    4
+   ],
+   [
+    "religiao",
+    "familia",
+    6
+   ],
+   [
+    "religiao",
+    "achar",
     10
    ],
    [
-    "muculmano",
-    "brasil",
+    "religiao",
+    "acreditar",
     4
    ],
    [
-    "muculmano",
-    "vida",
+    "religiao",
+    "deus",
+    4
+   ],
+   [
+    "religiao",
+    "ver",
+    4
+   ],
+   [
+    "religiao",
+    "saber",
     5
    ],
    [
-    "muculmano",
-    "gostar",
+    "religiao",
+    "bom",
     3
    ],
    [
-    "deus",
-    "hijab",
+    "arabe",
+    "querer",
     3
    ],
    [
-    "mulcumano",
-    "falar",
+    "arabe",
+    "so",
     3
    ],
    [
-    "morar",
-    "brasil",
-    4
+    "elegante",
+    "achar",
+    3
    ],
    [
-    "hijab",
-    "obrigar",
+    "video",
+    "achar",
+    6
+   ],
+   [
+    "video",
+    "amar",
     7
    ],
    [
-    "hijab",
-    "gostar",
+    "video",
+    "querer",
+    7
+   ],
+   [
+    "video",
+    "falar",
+    11
+   ],
+   [
+    "video",
+    "homem",
     3
    ],
    [
-    "hijab",
-    "falar",
+    "video",
+    "pensar",
     4
    ],
    [
-    "gostar",
-    "falar",
+    "video",
+    "so",
+    5
+   ],
+   [
+    "video",
+    "saber",
     3
    ],
    [
-    "gostar",
-    "obrigar",
+    "video",
+    "ver",
+    6
+   ],
+   [
+    "video",
+    "hijab",
     3
+   ],
+   [
+    "video",
+    "risada",
+    5
+   ],
+   [
+    "video",
+    "sapato",
+    3
+   ],
+   [
+    "respeito",
+    "achar",
+    4
+   ],
+   [
+    "respeito",
+    "saber",
+    4
+   ],
+   [
+    "respeito",
+    "amar",
+    3
+   ],
+   [
+    "respeito",
+    "ne",
+    3
+   ],
+   [
+    "respeito",
+    "so",
+    4
+   ],
+   [
+    "marido",
+    "achar",
+    5
+   ],
+   [
+    "marido",
+    "falar",
+    5
+   ],
+   [
+    "marido",
+    "familia",
+    3
+   ],
+   [
+    "marido",
+    "querer",
+    4
+   ],
+   [
+    "marido",
+    "obrigar",
+    6
+   ],
+   [
+    "vestido",
+    "maravilhoso",
+    10
+   ],
+   [
+    "vestido",
+    "achar",
+    3
+   ],
+   [
+    "vestido",
+    "ver",
+    4
+   ],
+   [
+    "vestido",
+    "querer",
+    3
+   ],
+   [
+    "deixar",
+    "querer",
+    4
+   ],
+   [
+    "amar",
+    "achar",
+    6
+   ],
+   [
+    "amar",
+    "so",
+    3
+   ],
+   [
+    "cola",
+    "bolsa",
+    8
+   ],
+   [
+    "cola",
+    "sapato",
+    3
+   ],
+   [
+    "cola",
+    "risada",
+    4
+   ],
+   [
+    "cola",
+    "super",
+    3
+   ],
+   [
+    "cola",
+    "acontecer",
+    3
+   ],
+   [
+    "brasil",
+    "acontecer",
+    3
+   ],
+   [
+    "brasil",
+    "querer",
+    4
+   ],
+   [
+    "brasil",
+    "viver",
+    4
+   ],
+   [
+    "brasil",
+    "morar",
+    4
    ],
    [
     "brasil",
@@ -3461,23 +3111,373 @@
     3
    ],
    [
-    "falar",
-    "pessoa",
+    "brasil",
+    "so",
     3
    ],
    [
-    "falar",
-    "vida",
+    "brasil",
+    "ver",
     3
    ],
    [
-    "falar",
+    "deus",
+    "hijab",
+    3
+   ],
+   [
+    "deus",
+    "querer",
+    4
+   ],
+   [
+    "deus",
+    "filho",
+    3
+   ],
+   [
+    "ne",
+    "achar",
+    4
+   ],
+   [
+    "ne",
+    "so",
+    3
+   ],
+   [
+    "viver",
+    "achar",
+    3
+   ],
+   [
+    "viver",
     "obrigar",
+    3
+   ],
+   [
+    "viver",
+    "acontecer",
+    3
+   ],
+   [
+    "bom",
+    "hijab",
+    3
+   ],
+   [
+    "hijab",
+    "achar",
+    8
+   ],
+   [
+    "hijab",
+    "homem",
+    4
+   ],
+   [
+    "hijab",
+    "so",
+    6
+   ],
+   [
+    "hijab",
+    "querer",
+    9
+   ],
+   [
+    "hijab",
+    "familia",
+    4
+   ],
+   [
+    "hijab",
+    "obrigar",
+    7
+   ],
+   [
+    "hijab",
+    "ver",
+    6
+   ],
+   [
+    "hijab",
+    "falar",
+    4
+   ],
+   [
+    "sapato",
+    "risada",
+    10
+   ],
+   [
+    "sapato",
+    "bolsa",
+    3
+   ],
+   [
+    "sapato",
+    "acontecer",
+    9
+   ],
+   [
+    "sapato",
+    "falar",
+    4
+   ],
+   [
+    "obrigar",
+    "achar",
+    8
+   ],
+   [
+    "obrigar",
+    "querer",
+    7
+   ],
+   [
+    "obrigar",
+    "so",
+    6
+   ],
+   [
+    "obrigar",
+    "homem",
+    4
+   ],
+   [
+    "obrigar",
+    "falar",
     5
+   ],
+   [
+    "obrigar",
+    "familia",
+    5
+   ],
+   [
+    "saber",
+    "risada",
+    5
+   ],
+   [
+    "saber",
+    "falar",
+    5
+   ],
+   [
+    "saber",
+    "querer",
+    5
+   ],
+   [
+    "saber",
+    "achar",
+    4
+   ],
+   [
+    "saber",
+    "acontecer",
+    3
+   ],
+   [
+    "saber",
+    "so",
+    7
+   ],
+   [
+    "mulcumano",
+    "achar",
+    3
+   ],
+   [
+    "mulcumano",
+    "falar",
+    3
+   ],
+   [
+    "mulcumano",
+    "querer",
+    4
+   ],
+   [
+    "mulcumano",
+    "homem",
+    3
+   ],
+   [
+    "comprar",
+    "risada",
+    3
+   ],
+   [
+    "comer",
+    "so",
+    4
+   ],
+   [
+    "falar",
+    "querer",
+    9
+   ],
+   [
+    "falar",
+    "achar",
+    8
+   ],
+   [
+    "falar",
+    "homem",
+    4
+   ],
+   [
+    "falar",
+    "pensar",
+    4
+   ],
+   [
+    "falar",
+    "so",
+    6
+   ],
+   [
+    "falar",
+    "risada",
+    3
    ],
    [
     "falar",
     "seguir",
+    3
+   ],
+   [
+    "falar",
+    "acontecer",
+    9
+   ],
+   [
+    "falar",
+    "ver",
+    3
+   ],
+   [
+    "falar",
+    "filho",
+    3
+   ],
+   [
+    "seguir",
+    "achar",
+    4
+   ],
+   [
+    "ver",
+    "achar",
+    3
+   ],
+   [
+    "ver",
+    "filho",
+    3
+   ],
+   [
+    "ver",
+    "risada",
+    3
+   ],
+   [
+    "acontecer",
+    "querer",
+    3
+   ],
+   [
+    "acontecer",
+    "so",
+    3
+   ],
+   [
+    "acontecer",
+    "bolsa",
+    4
+   ],
+   [
+    "acontecer",
+    "risada",
+    9
+   ],
+   [
+    "pensar",
+    "achar",
+    3
+   ],
+   [
+    "so",
+    "homem",
+    4
+   ],
+   [
+    "so",
+    "querer",
+    8
+   ],
+   [
+    "so",
+    "achar",
+    7
+   ],
+   [
+    "so",
+    "familia",
+    3
+   ],
+   [
+    "so",
+    "risada",
+    4
+   ],
+   [
+    "maravilhoso",
+    "achar",
+    3
+   ],
+   [
+    "risada",
+    "querer",
+    4
+   ],
+   [
+    "risada",
+    "bolsa",
+    5
+   ],
+   [
+    "super",
+    "bolsa",
+    6
+   ],
+   [
+    "querer",
+    "achar",
+    8
+   ],
+   [
+    "querer",
+    "branco",
+    3
+   ],
+   [
+    "querer",
+    "familia",
+    3
+   ],
+   [
+    "achar",
+    "homem",
+    3
+   ],
+   [
+    "achar",
+    "familia",
     3
    ]
   ],
@@ -3485,7 +3485,7 @@
   "total_arestas": 765,
   "comunidades": 4
  },
- "estatisticas_atlas": {
+ "estatisticas_rede": {
   "rede": "comentarios_palavras_tiktok",
   "dirigida": false,
   "nos": 167,
@@ -3500,21 +3500,21 @@
   "assortatividade_grau": -0.3237,
   "diametro_maior_componente": 5,
   "caminho_medio_maior_componente": 2.511,
-  "modularidade_q": 0.2655,
-  "comunidades": 6,
-  "comunidades_1pct_ou_mais": 6,
-  "pct_maior": 44.31,
-  "pct_segunda": 19.16,
-  "pct_terceira": 14.97,
+  "modularidade_q": 0.2668,
+  "comunidades": 7,
+  "comunidades_1pct_ou_mais": 7,
+  "pct_maior": 26.35,
+  "pct_segunda": 21.56,
+  "pct_terceira": 17.37,
   "pct_nos_em_comunidades_1pct": 100.0,
   "gc_densidade": 0.056467,
-  "gc_modularidade_q": 0.2611,
+  "gc_modularidade_q": 0.2629,
   "gc_comunidades": 5,
   "gc_comunidades_1pct_ou_mais": 5,
-  "gc_pct_maior": 30.3,
-  "gc_pct_segunda": 23.03,
-  "gc_polarizacao_ei_2_maiores": -0.3818,
-  "polarizacao_ei_2_maiores": -0.7154
+  "gc_pct_maior": 46.67,
+  "gc_pct_segunda": 16.36,
+  "gc_polarizacao_ei_2_maiores": -0.6384,
+  "polarizacao_ei_2_maiores": -0.5942
  },
  "centralidades": [
   {
@@ -3524,7 +3524,7 @@
    "posicao": 1,
    "no": "mulher",
    "valor": 410.0,
-   "comunidade": 1
+   "comunidade": 3
   },
   {
    "caso": "redes",
@@ -3551,7 +3551,7 @@
    "posicao": 4,
    "no": "achar",
    "valor": 254.0,
-   "comunidade": 3
+   "comunidade": 5
   },
   {
    "caso": "redes",
@@ -3560,7 +3560,7 @@
    "posicao": 5,
    "no": "falar",
    "valor": 245.0,
-   "comunidade": 4
+   "comunidade": 2
   },
   {
    "caso": "redes",
@@ -3569,7 +3569,7 @@
    "posicao": 1,
    "no": "mulher",
    "valor": 0.058905,
-   "comunidade": 1
+   "comunidade": 3
   },
   {
    "caso": "redes",
@@ -3587,7 +3587,7 @@
    "posicao": 3,
    "no": "falar",
    "valor": 0.03443,
-   "comunidade": 4
+   "comunidade": 2
   },
   {
    "caso": "redes",
@@ -3605,7 +3605,7 @@
    "posicao": 5,
    "no": "achar",
    "valor": 0.032381,
-   "comunidade": 3
+   "comunidade": 5
   },
   {
    "caso": "redes",
@@ -3614,7 +3614,7 @@
    "posicao": 1,
    "no": "mulher",
    "valor": 0.236531,
-   "comunidade": 1
+   "comunidade": 3
   },
   {
    "caso": "redes",
@@ -3632,7 +3632,7 @@
    "posicao": 3,
    "no": "falar",
    "valor": 0.120305,
-   "comunidade": 4
+   "comunidade": 2
   },
   {
    "caso": "redes",
@@ -3641,7 +3641,7 @@
    "posicao": 4,
    "no": "lindo",
    "valor": 0.080865,
-   "comunidade": 3
+   "comunidade": 5
   },
   {
    "caso": "redes",
@@ -3659,7 +3659,7 @@
    "posicao": 1,
    "no": "mulher",
    "valor": 0.354423,
-   "comunidade": 1
+   "comunidade": 3
   },
   {
    "caso": "redes",
@@ -3686,7 +3686,7 @@
    "posicao": 4,
    "no": "achar",
    "valor": 0.26035,
-   "comunidade": 3
+   "comunidade": 5
   },
   {
    "caso": "redes",
@@ -3695,63 +3695,72 @@
    "posicao": 5,
    "no": "falar",
    "valor": 0.247915,
-   "comunidade": 4
+   "comunidade": 2
   }
  ],
- "comunidades_atlas": [
+ "comunidades_rede": [
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 1,
-   "nos": 74,
-   "pct_nos": 44.31,
-   "pct_peso_interno": 28.13,
-   "nos_de_maior_grau": "mulher | religiao | muculmano | hijab | escolha"
+   "nos": 44,
+   "pct_nos": 26.35,
+   "pct_peso_interno": 13.41,
+   "nos_de_maior_grau": "religiao | muculmano | hijab | escolha | obrigar"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 2,
-   "nos": 32,
-   "pct_nos": 19.16,
-   "pct_peso_interno": 10.92,
-   "nos_de_maior_grau": "usar | estar | video | acontecer | risada"
+   "nos": 36,
+   "pct_nos": 21.56,
+   "pct_peso_interno": 13.47,
+   "nos_de_maior_grau": "falar | vc | usar | estar | video"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 3,
-   "nos": 25,
-   "pct_nos": 14.97,
-   "pct_peso_interno": 7.6,
-   "nos_de_maior_grau": "achar | vc | lindo | ficar | vestido"
+   "nos": 29,
+   "pct_nos": 17.37,
+   "pct_peso_interno": 6.14,
+   "nos_de_maior_grau": "mulher | pais | brasil | homem | lei"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 4,
-   "nos": 23,
-   "pct_nos": 13.77,
-   "pct_peso_interno": 5.75,
-   "nos_de_maior_grau": "querer | falar | pq | saber | gente"
+   "nos": 25,
+   "pct_nos": 14.97,
+   "pct_peso_interno": 6.14,
+   "nos_de_maior_grau": "querer | so | pq | saber | gente"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 5,
-   "nos": 11,
-   "pct_nos": 6.59,
-   "pct_peso_interno": 1.34,
-   "nos_de_maior_grau": "so | roupa | andar | cobrir | vir"
+   "nos": 22,
+   "pct_nos": 13.17,
+   "pct_peso_interno": 5.87,
+   "nos_de_maior_grau": "achar | lindo | ficar | vestido | amar"
   },
   {
    "caso": "redes",
    "rede": "comentarios_palavras_tiktok",
    "comunidade": 6,
+   "nos": 9,
+   "pct_nos": 5.39,
+   "pct_peso_interno": 1.86,
+   "nos_de_maior_grau": "sair | bolsa | cola | agulha | linha"
+  },
+  {
+   "caso": "redes",
+   "rede": "comentarios_palavras_tiktok",
+   "comunidade": 7,
    "nos": 2,
    "pct_nos": 1.2,
    "pct_peso_interno": 0.09,
-   "nos_de_maior_grau": "soltar | solado"
+   "nos_de_maior_grau": "solado | soltar"
   }
  ],
  "rede": "tiktok",

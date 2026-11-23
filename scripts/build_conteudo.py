@@ -1,5 +1,5 @@
-"""Funções de texto do ODI Atlas (scripts/build_conteudo.py) usadas pela CHD de Reinert portada (chd_reinert.py):
-norm, EMOJI_TAG e STOP, copiadas sem mudança para que a CHD daqui seja a mesma do Atlas."""
+"""Funções de texto usadas pela CHD de Reinert (chd_reinert.py):
+norm, EMOJI_TAG e STOP, usadas pela CHD."""
 from __future__ import annotations
 
 import re

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Redes dos comentários (seção 8.2 do plano): palavras e respostas, com as funções do ODI Atlas (redes_caso.palavras e
-redes_caso.respostas, sem mudança) e as estatísticas do Atlas (estatisticas_redes.py).
+"""Redes dos comentários (seção 8.2 do plano): palavras e respostas, com redes_caso.palavras e
+redes_caso.respostas e as estatísticas de rede de estatisticas_redes.py.
 
 - Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),
   formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.
@@ -43,8 +43,8 @@ def salvar(nome: str, nos: dict, arestas: dict, desenho, extra: dict, d: Path, d
     lin, coms = er.estatisticas(str(d / f"{nome}.gexf")) if G.number_of_nodes() else ({}, [])
     cent = lin.pop("_centralidades", []) if lin else []
     out = {"gerado_em": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "metodo": __doc__.split("\n\n")[1].strip(),
-           "desenho": desenho, "estatisticas_atlas": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")},
-           "centralidades": cent, "comunidades_atlas": coms, **extra}
+           "desenho": desenho, "estatisticas_rede": {k: v for k, v in lin.items() if k not in ("arquivo", "caso")},
+           "centralidades": cent, "comunidades_rede": coms, **extra}
     (d / f"{nome}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     return out
 
@@ -65,7 +65,7 @@ def main(root: Path = RAIZ) -> int:
             continue
         nos, ar, des = rc.palavras([r["texto"] for r in rows])
         o = salvar(f"comentarios_palavras_{rede}", nos, ar, des, {"rede": rede, "comentarios": len(rows)}, d)
-        print(f"palavras {rede}: {len(rows)} comentários, {o['estatisticas_atlas'].get('nos')} nós, {o['estatisticas_atlas'].get('arestas')} arestas")
+        print(f"palavras {rede}: {len(rows)} comentários, {o['estatisticas_rede'].get('nos')} nós, {o['estatisticas_rede'].get('arestas')} arestas")
     nos, ar, des = rc.palavras([r["texto"] for r in todos])
     salvar("comentarios_palavras_todas", nos, ar, des, {"rede": "todas", "comentarios": len(todos)}, d)
     yt = ler(Path(interno) / "data/comentarios/youtube.csv")

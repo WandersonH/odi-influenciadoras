@@ -1,11 +1,11 @@
 {
- "gerado_em": "2026-11-22T23:23:30Z",
+ "gerado_em": "2026-11-23T01:43:34Z",
  "run_id": "local",
  "fonte_coleta": {
   "run_id": "45076870902",
   "gerado_em": "2026-11-22T22:17:35Z"
  },
- "metodo": "Fonte: data/imprensa/resultados.json (collect_imprensa.py): os 10 primeiros resultados do Google Notícias (RSS,\nBrasil) por termo, nos recortes \"dia do anúncio\" (30/07 a 02/08) e \"núcleo\" (23/07 a 14/08/2026). Entram só as\nbuscas do tema (Hamas, desarmamento, Gaza…). As buscas pelos nomes das influenciadoras ficam de fora porque nenhuma\nmatéria as cita: os resultados de \"Fabíola Oliveira\" são de homônimos. Uma matéria que aparece nos dois recortes\npara o mesmo termo conta uma vez. Rede: redes_caso.circulacao() do ODI Atlas, sem mudança (veículo ligado ao termo\npelo qual apareceu; peso = número de matérias). Estatísticas: estatisticas_redes.py do Atlas (Gephi Statistics,\nLouvain semente 42, E-I, centralidades). Universo ⛔: o Google Notícias não informa quantas matérias existem; a\namostra é a dos 10 primeiros por termo, na ordem do Google.",
+ "metodo": "Fonte: data/imprensa/resultados.json (collect_imprensa.py): os 10 primeiros resultados do Google Notícias (RSS,\nBrasil) por termo, nos recortes \"dia do anúncio\" (30/07 a 02/08) e \"núcleo\" (23/07 a 14/08/2026). Entram só as\nbuscas do tema (Hamas, desarmamento, Gaza…). As buscas pelos nomes das influenciadoras ficam de fora porque nenhuma\nmatéria as cita: os resultados de \"Fabíola Oliveira\" são de homônimos. Uma matéria que aparece nos dois recortes\npara o mesmo termo conta uma vez. Rede: redes_caso.circulacao() (veículo ligado ao termo\npelo qual apareceu; peso = número de matérias). Estatísticas: estatisticas_redes.py (Gephi Statistics,\nLouvain semente 42, E-I, centralidades). Universo ⛔: o Google Notícias não informa quantas matérias existem; a\namostra é a dos 10 primeiros por termo, na ordem do Google.",
  "universo": "⛔ o Google Notícias não informa o total; amostra = 10 primeiros por termo",
  "materias": 75,
  "veiculos": 32,
@@ -737,7 +737,7 @@
  },
  "total_nos": 38,
  "total_arestas": 57,
- "estatisticas_atlas": {
+ "estatisticas_rede": {
   "rede": "imprensa",
   "dirigida": false,
   "nos": 38,
@@ -950,7 +950,7 @@
    "comunidade": 1
   }
  ],
- "comunidades_atlas": [
+ "comunidades_rede": [
   {
    "caso": "redes",
    "rede": "imprensa",
@@ -967,7 +967,7 @@
    "nos": 9,
    "pct_nos": 23.68,
    "pct_peso_interno": 10.67,
-   "nos_de_maior_grau": "notícia: Hamas aceita desarmamento | BBC | Estadão | Vermelho | Exame"
+   "nos_de_maior_grau": "notícia: Hamas aceita desarmamento | BBC | Estadão | Vermelho | ICL Notícias"
   },
   {
    "caso": "redes",
@@ -976,7 +976,7 @@
    "nos": 8,
    "pct_nos": 21.05,
    "pct_peso_interno": 10.67,
-   "nos_de_maior_grau": "notícia: Palestina | Portal da Assembleia Legislativa de Minas Gerais | Vatican News | ADUFC | Outras Palavras"
+   "nos_de_maior_grau": "notícia: Palestina | Portal da Assembleia Legislativa de Minas Gerais | Vatican News | UN News | Notícias - Canção Nova"
   },
   {
    "caso": "redes",
@@ -985,7 +985,7 @@
    "nos": 7,
    "pct_nos": 18.42,
    "pct_peso_interno": 16.0,
-   "nos_de_maior_grau": "notícia: Gaza | Brasil de Fato | O GLOBO | Médicos Sem Fronteiras | ND Mais"
+   "nos_de_maior_grau": "notícia: Gaza | Brasil de Fato | O GLOBO | Médicos Sem Fronteiras | Times Brasil"
   }
  ]
 }

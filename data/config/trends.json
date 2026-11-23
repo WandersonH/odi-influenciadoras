@@ -1,5 +1,5 @@
 {
- "nota": "Google Trends, Brasil. Os valores vão de 0 a 100 e são relativos dentro de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google e pode variar um pouco quando repetida. 'eleitoral' aqui é o nome herdado do coletor do Atlas para o período do estudo (linha de base + núcleo).",
+ "nota": "Google Trends, Brasil. Os valores vão de 0 a 100 e são relativos dentro de cada consulta: não são número de buscas e não se comparam entre consultas. Cada consulta é uma amostra do Google e pode variar um pouco quando repetida. 'eleitoral' é o nome interno do coletor para o período do estudo (linha de base + núcleo).",
  "geo": "BR",
  "periodos": [
   "eleitoral",

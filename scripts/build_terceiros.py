@@ -7,7 +7,7 @@ Regra: uma menção conta se trouxer o @ da influenciadora, ou o nome junto de u
 
 Fontes: YouTube (search.list por nome; título do vídeo, no privado), X pela API (xquik; privado), X pela busca do
 navegador (privado) e imprensa (Google Notícias, público). Lê o privado (INFL_INTERNO_DIR); grava no público só
-contagens e, para canais e veículos com 10 mil+ inscritos ou imprensa, o nome (como no ODI Atlas).
+contagens e, para canais e veículos com 10 mil+ inscritos ou imprensa, o nome.
 Saída: data/terceiros/resumo.json.
 """
 from __future__ import annotations
@@ -74,7 +74,7 @@ _COD = {}
 
 
 def canal_publico(nome: str, inscritos) -> str:
-    """Como no ODI Atlas: canal com menos de 10 mil inscritos (ou sem número) aparece só como código."""
+    """Canal com menos de 10 mil inscritos (ou sem número) aparece só como código."""
     if inscritos is not None and inscritos >= MIN_PUBLICO:
         return nome
     _COD.setdefault(nome, f"canal pequeno C{len(_COD) + 1:03d}")

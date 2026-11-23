@@ -22,7 +22,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-UA = "odi-espanha-coletor/1.0 (+https://github.com/WandersonH/odi-espanha)"
+UA = "odi-influenciadoras-coletor/1.0 (+https://github.com/WandersonH/odi-influenciadoras)"
 CHUNK = 1 << 20
 _CTX: dict[str, ssl.SSLContext] = {}
 

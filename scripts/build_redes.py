@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Redes para o Gephi (seção 8.2 do plano; mesmo desenho dos casos do ODI Atlas).
+"""Redes para o Gephi (seção 8.2 do plano).
 
 Rede "marcações e hashtags": bipartida, com as quatro influenciadoras e o que elas marcam nas próprias publicações do
 recorte (01/06 a 14/08/2026), em todas as redes coletadas:
@@ -8,7 +8,7 @@ Peso da aresta = número de publicações. Mostra com quem e com que temas cada 
 aproximam as influenciadoras.
 
 Comunidades: Louvain (networkx.community.louvain_communities, resolução 1,0, semente 42), como no plano; posições para
-o desenho na página (spring layout por componente, redes_caso._layout do Atlas). No Gephi: ForceAtlas 2 para as
+o desenho na página (spring layout por componente, redes_caso._layout). No Gephi: ForceAtlas 2 para as
 comunidades e Modularity com resolução 1,0. Os @ marcados são perfis citados pelas próprias influenciadoras em
 publicações públicas; nenhum dado de comentarista entra aqui.
 
@@ -96,16 +96,16 @@ def main(root: Path = RAIZ) -> int:
         G.nodes[n]["label"] = G.nodes[n]["rotulo"]
     nx.write_gexf(G, d / "marcacoes.gexf")
     nx.write_graphml(G, d / "marcacoes.graphml")
-    # estatísticas do ODI Atlas (scripts/estatisticas_redes.py, cópia sem mudança: os indicadores do painel Statistics do
+    # estatísticas de rede (scripts/estatisticas_redes.py: os indicadores do painel Statistics do
     # Gephi, Louvain com semente 42, E-I das duas maiores comunidades e as 5 maiores centralidades por medida)
     import estatisticas_redes as er
     lin, coms_ = er.estatisticas(str(d / "marcacoes.gexf"))
     cent = lin.pop("_centralidades", [])
-    out["estatisticas_atlas"] = {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}
+    out["estatisticas_rede"] = {k: v for k, v in lin.items() if k not in ("arquivo", "caso")}
     out["centralidades"] = cent
-    out["comunidades_atlas"] = coms_
+    out["comunidades_rede"] = coms_
     (d / "marcacoes.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    for nome, linhas in (("estatisticas_redes.csv", [out["estatisticas_atlas"]]), ("centralidades_redes.csv", cent), ("comunidades_redes.csv", coms_)):
+    for nome, linhas in (("estatisticas_redes.csv", [out["estatisticas_rede"]]), ("centralidades_redes.csv", cent), ("comunidades_redes.csv", coms_)):
         if linhas:
             with (d / nome).open("w", encoding="utf-8", newline="") as f:
                 w = csv.DictWriter(f, fieldnames=list(linhas[0].keys()))

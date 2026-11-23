@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from net import now_utc, open_url  # noqa: E402
 
 BASE = "https://trends.google.com/trends"
-HL, TZ, GEO = "pt-BR", "180", "BR"  # Brasil: interface em português e fuso de Brasília (UTC-3), em minutos como o Trends pede. Cópia do coletor do ODI Espanha/ODI Atlas.
+HL, TZ, GEO = "pt-BR", "180", "BR"  # Brasil: interface em português e fuso de Brasília (UTC-3), em minutos como o Trends pede.
 
 
 def _strip(txt: str):

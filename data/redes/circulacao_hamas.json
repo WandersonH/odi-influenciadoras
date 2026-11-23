@@ -1,7 +1,7 @@
 {
  "gerado_em": "2026-11-22T22:17:42Z",
  "run_id": "45076870902",
- "metodo": "Pedido do responsável (22/11/2026, 19h14): \"uma rede de circulação do Hamas com canais [que] publicaram notícias no dia\".\n- YouTube (API oficial, sem custo): search.list por termo do caso, publishedAfter 2026-07-30 e publishedBefore 2026-08-03,\n  ordem de relevância, até 50 vídeos por termo; visualizações (videos.list) e inscritos do canal (channels.list).\n- Imprensa: os 10 primeiros do Google Notícias no recorte \"dia do anúncio\" (data/imprensa/resultados.json).\n- Rede: redes_caso.circulacao() do ODI Atlas, sem mudança: quem publicou (canal do YouTube ou veículo) × termo que o\n  trouxe; peso = visualizações (ou 1 por notícia). Canal com menos de 10 mil inscritos aparece como código (P0001…).\n- Estatísticas: estatisticas_redes.py do ODI Atlas (Gephi Statistics, Louvain semente 42, E-I, centralidades).\n- Cruzamento: se algum canal da rede é de uma das influenciadoras (canal próprio) — resposta direta à pergunta do estudo.\nUniverso: a busca do YouTube não informa o total (pageInfo.totalResults é estimativa: não é universo, ⛔).\nSaídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatísticas.",
+ "metodo": "Pedido do responsável (22/11/2026, 19h14): \"uma rede de circulação do Hamas com canais [que] publicaram notícias no dia\".\n- YouTube (API oficial, sem custo): search.list por termo do caso, publishedAfter 2026-07-30 e publishedBefore 2026-08-03,\n  ordem de relevância, até 50 vídeos por termo; visualizações (videos.list) e inscritos do canal (channels.list).\n- Imprensa: os 10 primeiros do Google Notícias no recorte \"dia do anúncio\" (data/imprensa/resultados.json).\n- Rede: redes_caso.circulacao(): quem publicou (canal do YouTube ou veículo) × termo que o\n  trouxe; peso = visualizações (ou 1 por notícia). Canal com menos de 10 mil inscritos aparece como código (P0001…).\n- Estatísticas: estatisticas_redes.py (Gephi Statistics, Louvain semente 42, E-I, centralidades).\n- Cruzamento: se algum canal da rede é de uma das influenciadoras (canal próprio) — resposta direta à pergunta do estudo.\nUniverso: a busca do YouTube não informa o total (pageInfo.totalResults é estimativa: não é universo, ⛔).\nSaídas: data/redes/circulacao_hamas.json, .gexf, .graphml e CSVs de estatísticas.",
  "recorte": {
   "de": "2026-07-30T00:00:00Z",
   "ate_exclusivo": "2026-08-03T00:00:00Z"
@@ -1897,7 +1897,7 @@
  },
  "total_nos": 92,
  "total_arestas": 189,
- "estatisticas_atlas": {
+ "estatisticas_rede": {
   "rede": "circulacao_hamas",
   "dirigida": false,
   "nos": 92,
@@ -2110,7 +2110,7 @@
    "comunidade": 1
   }
  ],
- "comunidades_atlas": [
+ "comunidades_rede": [
   {
    "caso": "redes",
    "rede": "circulacao_hamas",

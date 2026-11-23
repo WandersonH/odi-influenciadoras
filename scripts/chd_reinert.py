@@ -34,7 +34,7 @@ import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_conteudo as bc  # noqa: E402
-pl = None  # o main do Atlas não é usado aqui: ver scripts/build_corpus.py
+pl = None  # o main original não é usado aqui: ver scripts/build_corpus.py
 
 # 01/11/2026: parâmetros alinhados ao padrão do IRaMuTeQ (Tutorial IRaMuTeQ em português, Camargo & Justo, 22/11/2021, enviado
 # pelo responsável): 10 classes terminais na fase 1, frequência mínima de uma forma = 2, no máximo 3.000 formas analisadas.
@@ -42,7 +42,7 @@ K = 10
 MIN_FREQ = 2
 MAX_FORMAS = 3000
 MIN_CLASSE = 10
-MIN_CLASSE_PCT = 0.05  # 01/11/2026: regra única do Atlas (era 8% no corpus principal); 3%, 5% e 8% ficam na sensibilidade
+MIN_CLASSE_PCT = 0.05  # 01/11/2026: regra única (era 8% no corpus principal); 3%, 5% e 8% ficam na sensibilidade
 SENSIBILIDADE = (0.03, 0.05, 0.08)
 CHI_CRIT = 3.84
 CC_TEST = 0.3  # rainette (Barnier & Privé): coeficiente de contingência para o passo 3 da bipartição
@@ -308,7 +308,7 @@ def _rotular(X: np.ndarray, arvore: list[dict], folhas: dict, eliminados: set):
 
 def chd_iramuteq(X: np.ndarray, min_classe: int = MIN_CLASSE, k_max: int = K, k_min: int = 3, n_textos: int | None = None):
     """CHD com a regra do tutorial do IRaMuTeQ (Camargo & Justo, 2021, p. 31): começa com 10 classes terminais e, se a CHD não
-    retiver 75% dos segmentos, muda o número de classes terminais e refaz. Regra fixa do Atlas, declarada antes de ver o resultado
+    retiver 75% dos segmentos, muda o número de classes terminais e refaz. Regra fixa, declarada antes de ver o resultado
     (01/11/2026): de 10 para baixo (10, 9, …, 3), a primeira partição com aproveitamento ≥ 75%; nenhuma → a de maior aproveitamento,
     marcada ⛔. Como as divisões são sempre as mesmas (a maior classe é dividida primeiro), as partições de 10 a 3 saem de uma só CHD.
     Devolve (rótulos, árvore, informação da escolha com todas as tentativas)."""
@@ -496,7 +496,7 @@ def main(argv=None) -> int:
                       "Sem lematização. Os nomes das classes devem ser dados pelo pesquisador. Conferir no IRaMuTeQ com o corpus exportado."),
            "lematizacao": lematizacao(), "escolha_classes": escolha_k, "estabilidade": estab, "parametros": {"k": K, "min_freq": MIN_FREQ, "min_classe": mc, "min_classe_pct": MIN_CLASSE_PCT, "chi_crit": CHI_CRIT},
            "sensibilidade": sens,
-           "nota_sensibilidade": "Regra única do Atlas desde 01/11/2026: classe mínima de 5%, até 60 divisões, aproveitamento mínimo de 75%. Antes, com o corte forçado no mínimo, 8% tinha sido adotado aqui porque 3% e 5% formavam classes por nomes próprios; as três versões ficam registradas para comparação. Aguardando conferência no IRaMuTeQ.",
+           "nota_sensibilidade": "Regra única: classe mínima de 5%, até 60 divisões, aproveitamento mínimo de 75%. Antes, com o corte forçado no mínimo, 8% tinha sido adotado aqui porque 3% e 5% formavam classes por nomes próprios; as três versões ficam registradas para comparação. Aguardando conferência no IRaMuTeQ.",
            "segmentos_total": len(linhas), "segmentos_classificados": n,
            "pct_classificados": round(100 * n / max(1, len(linhas)), 1), "formas_ativas": len(voc),
            "arvore": arvore, "classes": classes, "aproveitamento": aproveitamento(rot, len(linhas))}
@@ -511,11 +511,11 @@ def main(argv=None) -> int:
     except Exception as e:  # noqa: BLE001 — sem networkx a CHD sai do mesmo jeito
         out["similitude"] = {"erro": f"{type(e).__name__}: {str(e)[:120]}"}
     pl.caminho(root, plat, "chd").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    # 01/11/2026: classe do Atlas por segmento, na ordem do arquivo de segmentos, para comparar com o IRaMuTeQ (candidatos: dado público)
-    saida = pl.caminho(root, plat, "chd").with_name(f"{plat}_classes_atlas_por_segmento.csv")
+    # 01/11/2026: classe da CHD por segmento, na ordem do arquivo de segmentos, para comparar com o IRaMuTeQ (candidatos: dado público)
+    saida = pl.caminho(root, plat, "chd").with_name(f"{plat}_classes_chd_por_segmento.csv")
     with open(saida, "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
-        w.writerow(["linha_no_arquivo_de_segmentos", "video_id", "cand", "classe_atlas"])
+        w.writerow(["linha_no_arquivo_de_segmentos", "video_id", "cand", "classe_chd"])
         for i, (l, cl) in enumerate(zip(linhas, rot.tolist()), 1):
             w.writerow([i, l.get("video_id", ""), l.get("cand", ""), cl if cl > 0 else "não classificado"])
     print(f"CHD [{plat}]: {len(linhas)} segmentos, {n} classificados ({out['pct_classificados']}%), {len(voc)} formas, {len(classes)} classes")

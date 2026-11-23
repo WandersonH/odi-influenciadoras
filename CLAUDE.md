@@ -1,6 +1,8 @@
 # Instruções para qualquer IA ou pessoa que trabalhe neste repositório
 
-Este projeto herda a arquitetura e as regras do ODI Atlas (`WandersonH/odi-atlas`) e do ODI Espanha (`WandersonH/odi-espanha`). Objeto: posicionamento de influenciadoras muçulmanas brasileiras sobre o acordo de desarmamento do Hamas aceito em 31/07/2026.
+O projeto é de autoria própria: textos, página, dados e scripts descrevem o método em si e não citam outros projetos do observatório como origem ou referência.
+
+Objeto: posicionamento de influenciadoras muçulmanas brasileiras sobre o acordo de desarmamento do Hamas aceito em 31/07/2026.
 
 1. **Atualize o `CHANGELOG.md` em toda mudança**, no mesmo commit: o que mudou, por quê, o que foi executado de verdade (com ID do run ou comando), o que ficou pendente e onde está a evidência.
 2. Não declare pronto nada que não foi executado com dados reais. Dado ausente é bloqueio (⛔), não sucesso. Sem coleta, a página mostra ⛔, nunca zero.

@@ -1,259 +1,25 @@
 {
- "gerado_em": "2026-11-22T23:16:27Z",
+ "gerado_em": "2026-11-23T01:44:18Z",
  "metodo": "- Palavras: coocorrência de formas no mesmo comentário (lematizadas pelo lexique_pt.txt do IRaMuTeQ, como na CHD),\n  formas em 5+ comentários, arestas com 3+ comentários em comum. Uma rede por rede social e uma com tudo.\n- Respostas: quem responde a quem nos comentários do YouTube (o único com respostas lidas); autores SEMPRE como código\n  (A0001…), nunca nome.\nLê o privado (INFL_INTERNO_DIR, data/comentarios/<rede>.csv); grava no público só palavras, códigos e contagens:\ndata/redes/comentarios_palavras_<rede>.json/.gexf, comentarios_respostas_youtube.json/.gexf.",
  "desenho": {
   "nos": [
    {
-    "id": "A0129",
-    "rotulo": "A0129",
+    "id": "A0318",
+    "rotulo": "A0318",
     "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.1045,
-    "y": 1.1806
-   },
-   {
-    "id": "A0248",
-    "rotulo": "A0248",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.1112,
-    "y": 1.4838
-   },
-   {
-    "id": "A0257",
-    "rotulo": "A0257",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 0,
-    "x": 1.3402,
-    "y": 1.5093
-   },
-   {
-    "id": "A0300",
-    "rotulo": "A0300",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 4,
-    "x": 1.458,
-    "y": 0.7249
-   },
-   {
-    "id": "A0112",
-    "rotulo": "A0112",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 8,
-    "x": 0.8725,
-    "y": 0.99
-   },
-   {
-    "id": "A0013",
-    "rotulo": "A0013",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 9,
-    "x": 1.8092,
-    "y": 1.268
-   },
-   {
-    "id": "A0219",
-    "rotulo": "A0219",
-    "tipo": "autor (código)",
-    "n": 9,
-    "grupo": 4,
-    "x": 0.9242,
-    "y": 0.7039
-   },
-   {
-    "id": "A0039",
-    "rotulo": "A0039",
-    "tipo": "autor (código)",
-    "n": 49,
-    "grupo": 7,
-    "x": 0.6263,
-    "y": 1.2035
-   },
-   {
-    "id": "A0096",
-    "rotulo": "A0096",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 2,
-    "x": 0.8997,
-    "y": 1.0281
-   },
-   {
-    "id": "A0201",
-    "rotulo": "A0201",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 7,
-    "x": 0.5037,
-    "y": 1.2147
-   },
-   {
-    "id": "A0005",
-    "rotulo": "A0005",
-    "tipo": "autor (código)",
-    "n": 1,
-    "grupo": 3,
-    "x": 0.935,
-    "y": 0.0273
-   },
-   {
-    "id": "A0006",
-    "rotulo": "A0006",
-    "tipo": "autor (código)",
-    "n": 1,
-    "grupo": 3,
-    "x": 0.8053,
-    "y": 0.0111
-   },
-   {
-    "id": "A0375",
-    "rotulo": "A0375",
-    "tipo": "autor (código)",
-    "n": 10,
-    "grupo": 6,
-    "x": 1.402,
-    "y": 0.5375
-   },
-   {
-    "id": "A0342",
-    "rotulo": "A0342",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 5,
-    "x": 1.0525,
-    "y": 0.5339
-   },
-   {
-    "id": "A0245",
-    "rotulo": "A0245",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.6336,
-    "y": 1.3993
-   },
-   {
-    "id": "A0002",
-    "rotulo": "A0002",
-    "tipo": "autor (código)",
-    "n": 1,
-    "grupo": 12,
-    "x": 2.65,
-    "y": 0.2023
-   },
-   {
-    "id": "A0176",
-    "rotulo": "A0176",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 7,
-    "x": 0.3949,
-    "y": 1.3827
-   },
-   {
-    "id": "A0015",
-    "rotulo": "A0015",
-    "tipo": "autor (código)",
-    "n": 10,
-    "grupo": 4,
-    "x": 1.3277,
-    "y": 0.9304
-   },
-   {
-    "id": "A0283",
-    "rotulo": "A0283",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 4,
-    "x": 0.9625,
-    "y": 0.9464
-   },
-   {
-    "id": "A0363",
-    "rotulo": "A0363",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 6,
-    "x": 1.4236,
-    "y": 0.6953
+    "n": 28,
+    "grupo": 1,
+    "x": 0.9201,
+    "y": 0.6368
    },
    {
     "id": "A0135",
     "rotulo": "A0135",
     "tipo": "autor (código)",
     "n": 2,
-    "grupo": 7,
-    "x": 0.4707,
-    "y": 1.2635
-   },
-   {
-    "id": "A0315",
-    "rotulo": "A0315",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 6,
-    "x": 1.7625,
-    "y": 0.71
-   },
-   {
-    "id": "A0066",
-    "rotulo": "A0066",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 10,
-    "x": 0.0291,
-    "y": 1.6976
-   },
-   {
-    "id": "A0393",
-    "rotulo": "A0393",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 3,
-    "x": 0.6448,
-    "y": 0.9612
-   },
-   {
-    "id": "A0398",
-    "rotulo": "A0398",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.4833,
-    "y": 0.6188
-   },
-   {
-    "id": "A0259",
-    "rotulo": "A0259",
-    "tipo": "autor (código)",
-    "n": 21,
-    "grupo": 0,
-    "x": 1.2521,
-    "y": 1.395
-   },
-   {
-    "id": "A0322",
-    "rotulo": "A0322",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 5,
-    "x": 1.0147,
-    "y": 0.6269
-   },
-   {
-    "id": "A0216",
-    "rotulo": "A0216",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 1,
-    "x": 0.4055,
-    "y": 1.4193
+    "grupo": 8,
+    "x": 0.4141,
+    "y": 1.0028
    },
    {
     "id": "A0346",
@@ -261,908 +27,8 @@
     "tipo": "autor (código)",
     "n": 23,
     "grupo": 5,
-    "x": 1.0373,
-    "y": 0.4646
-   },
-   {
-    "id": "A0022",
-    "rotulo": "A0022",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 9,
-    "x": 1.2978,
-    "y": 1.6742
-   },
-   {
-    "id": "A0113",
-    "rotulo": "A0113",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 8,
-    "x": 1.0808,
-    "y": 0.9968
-   },
-   {
-    "id": "A0017",
-    "rotulo": "A0017",
-    "tipo": "autor (código)",
-    "n": 22,
-    "grupo": 2,
-    "x": 1.3607,
-    "y": 1.2175
-   },
-   {
-    "id": "A0341",
-    "rotulo": "A0341",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 1,
-    "x": 0.5746,
-    "y": 0.697
-   },
-   {
-    "id": "A0343",
-    "rotulo": "A0343",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 5,
-    "x": 0.9501,
-    "y": 0.2115
-   },
-   {
-    "id": "A0014",
-    "rotulo": "A0014",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 9,
-    "x": 1.6617,
-    "y": 1.2182
-   },
-   {
-    "id": "A0120",
-    "rotulo": "A0120",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 8,
-    "x": 1.152,
-    "y": 0.7161
-   },
-   {
-    "id": "A0011",
-    "rotulo": "A0011",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 3,
-    "x": 0.7723,
-    "y": 0.6215
-   },
-   {
-    "id": "A0148",
-    "rotulo": "A0148",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.5737,
-    "y": 1.3449
-   },
-   {
-    "id": "A0359",
-    "rotulo": "A0359",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 4,
-    "x": 0.7621,
-    "y": 0.1932
-   },
-   {
-    "id": "A0183",
-    "rotulo": "A0183",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.576,
-    "y": 0.9551
-   },
-   {
-    "id": "A0202",
-    "rotulo": "A0202",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.5688,
-    "y": 0.8208
-   },
-   {
-    "id": "A0123",
-    "rotulo": "A0123",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.4794,
-    "y": 1.3334
-   },
-   {
-    "id": "A0056",
-    "rotulo": "A0056",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 3,
-    "x": 0.5026,
-    "y": 1.3578
-   },
-   {
-    "id": "A0244",
-    "rotulo": "A0244",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.3051,
-    "y": 1.1911
-   },
-   {
-    "id": "A0047",
-    "rotulo": "A0047",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 3,
-    "x": 0.7176,
-    "y": 1.5385
-   },
-   {
-    "id": "A0089",
-    "rotulo": "A0089",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 11,
-    "x": 2.2556,
-    "y": 0.3497
-   },
-   {
-    "id": "A0261",
-    "rotulo": "A0261",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 0,
-    "x": 1.1653,
-    "y": 1.413
-   },
-   {
-    "id": "A0288",
-    "rotulo": "A0288",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 4,
-    "x": 1.1214,
-    "y": 0.6081
-   },
-   {
-    "id": "A0395",
-    "rotulo": "A0395",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 1,
-    "x": 0.6248,
-    "y": 0.5692
-   },
-   {
-    "id": "A0117",
-    "rotulo": "A0117",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 8,
-    "x": 0.5716,
-    "y": 0.8969
-   },
-   {
-    "id": "A0102",
-    "rotulo": "A0102",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 11,
-    "x": 2.3945,
-    "y": 0.0
-   },
-   {
-    "id": "A0156",
-    "rotulo": "A0156",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 6,
-    "x": 1.4687,
-    "y": 0.9575
-   },
-   {
-    "id": "A0209",
-    "rotulo": "A0209",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 0.3986,
-    "y": 0.9578
-   },
-   {
-    "id": "A0318",
-    "rotulo": "A0318",
-    "tipo": "autor (código)",
-    "n": 28,
-    "grupo": 1,
-    "x": 0.7047,
-    "y": 0.7233
-   },
-   {
-    "id": "A0023",
-    "rotulo": "A0023",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 9,
-    "x": 1.5504,
-    "y": 1.5194
-   },
-   {
-    "id": "A0030",
-    "rotulo": "A0030",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 0.3047,
-    "y": 1.0894
-   },
-   {
-    "id": "A0330",
-    "rotulo": "A0330",
-    "tipo": "autor (código)",
-    "n": 11,
-    "grupo": 1,
-    "x": 1.033,
-    "y": 0.6868
-   },
-   {
-    "id": "A0270",
-    "rotulo": "A0270",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 0,
-    "x": 1.1511,
-    "y": 1.6624
-   },
-   {
-    "id": "A0140",
-    "rotulo": "A0140",
-    "tipo": "autor (código)",
-    "n": 13,
-    "grupo": 5,
-    "x": 0.8994,
-    "y": 0.6588
-   },
-   {
-    "id": "A0319",
-    "rotulo": "A0319",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 5,
-    "x": 0.9264,
-    "y": 0.3638
-   },
-   {
-    "id": "A0063",
-    "rotulo": "A0063",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 13,
-    "x": 3.15,
-    "y": 0.2023
-   },
-   {
-    "id": "A0217",
-    "rotulo": "A0217",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 6,
-    "x": 1.2012,
-    "y": 0.5109
-   },
-   {
-    "id": "A0141",
-    "rotulo": "A0141",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 5,
-    "x": 0.7759,
-    "y": 0.469
-   },
-   {
-    "id": "A0177",
-    "rotulo": "A0177",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 7,
-    "x": 0.6011,
-    "y": 1.303
-   },
-   {
-    "id": "A0090",
-    "rotulo": "A0090",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 11,
-    "x": 2.3249,
-    "y": 0.1753
-   },
-   {
-    "id": "A0241",
-    "rotulo": "A0241",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.3708,
-    "y": 1.4167
-   },
-   {
-    "id": "A0317",
-    "rotulo": "A0317",
-    "tipo": "autor (código)",
-    "n": 26,
-    "grupo": 3,
-    "x": 0.7705,
-    "y": 0.9267
-   },
-   {
-    "id": "A0169",
-    "rotulo": "A0169",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 8,
-    "x": 0.832,
-    "y": 0.9565
-   },
-   {
-    "id": "A0249",
-    "rotulo": "A0249",
-    "tipo": "autor (código)",
-    "n": 40,
-    "grupo": 0,
-    "x": 1.1526,
-    "y": 1.3478
-   },
-   {
-    "id": "A0001",
-    "rotulo": "A0001",
-    "tipo": "autor (código)",
-    "n": 1,
-    "grupo": 12,
-    "x": 3.0,
-    "y": 0.1477
-   },
-   {
-    "id": "A0251",
-    "rotulo": "A0251",
-    "tipo": "autor (código)",
-    "n": 32,
-    "grupo": 0,
-    "x": 1.2854,
-    "y": 1.3884
-   },
-   {
-    "id": "A0045",
-    "rotulo": "A0045",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 10,
-    "x": 0.0,
-    "y": 1.8983
-   },
-   {
-    "id": "A0152",
-    "rotulo": "A0152",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 2,
-    "x": 0.5627,
-    "y": 1.1398
-   },
-   {
-    "id": "A0260",
-    "rotulo": "A0260",
-    "tipo": "autor (código)",
-    "n": 9,
-    "grupo": 0,
-    "x": 1.3795,
-    "y": 1.3307
-   },
-   {
-    "id": "A0377",
-    "rotulo": "A0377",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.6366,
-    "y": 0.8248
-   },
-   {
-    "id": "A0234",
-    "rotulo": "A0234",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.3811,
-    "y": 1.597
-   },
-   {
-    "id": "A0075",
-    "rotulo": "A0075",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 9,
-    "x": 0.9969,
-    "y": 1.6269
-   },
-   {
-    "id": "A0299",
-    "rotulo": "A0299",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 4,
-    "x": 1.5107,
-    "y": 0.826
-   },
-   {
-    "id": "A0360",
-    "rotulo": "A0360",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 4,
-    "x": 1.2864,
-    "y": 0.4787
-   },
-   {
-    "id": "A0190",
-    "rotulo": "A0190",
-    "tipo": "autor (código)",
-    "n": 12,
-    "grupo": 7,
-    "x": 0.8381,
-    "y": 1.1463
-   },
-   {
-    "id": "A0390",
-    "rotulo": "A0390",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 4,
-    "x": 0.6388,
-    "y": 0.2415
-   },
-   {
-    "id": "A0228",
-    "rotulo": "A0228",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 4,
-    "x": 1.0529,
-    "y": 0.9282
-   },
-   {
-    "id": "A0324",
-    "rotulo": "A0324",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 1,
-    "x": 0.8169,
-    "y": 0.5205
-   },
-   {
-    "id": "A0298",
-    "rotulo": "A0298",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 1,
-    "x": 0.9224,
-    "y": 0.5489
-   },
-   {
-    "id": "A0122",
-    "rotulo": "A0122",
-    "tipo": "autor (código)",
-    "n": 8,
-    "grupo": 8,
-    "x": 0.963,
-    "y": 1.1064
-   },
-   {
-    "id": "A0389",
-    "rotulo": "A0389",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 4,
-    "x": 0.7115,
-    "y": 0.4576
-   },
-   {
-    "id": "A0131",
-    "rotulo": "A0131",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.5404,
-    "y": 1.3987
-   },
-   {
-    "id": "A0278",
-    "rotulo": "A0278",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.1605,
-    "y": 1.8238
-   },
-   {
-    "id": "A0019",
-    "rotulo": "A0019",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 9,
-    "x": 1.8775,
-    "y": 1.3089
-   },
-   {
-    "id": "A0046",
-    "rotulo": "A0046",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 10,
-    "x": 0.0819,
-    "y": 1.7891
-   },
-   {
-    "id": "A0067",
-    "rotulo": "A0067",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 10,
-    "x": 0.1687,
-    "y": 1.5522
-   },
-   {
-    "id": "A0150",
-    "rotulo": "A0150",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.2204,
-    "y": 1.0881
-   },
-   {
-    "id": "A0018",
-    "rotulo": "A0018",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 9,
-    "x": 1.8589,
-    "y": 1.1195
-   },
-   {
-    "id": "A0302",
-    "rotulo": "A0302",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 6,
-    "x": 1.6255,
-    "y": 0.6338
-   },
-   {
-    "id": "A0267",
-    "rotulo": "A0267",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 0,
-    "x": 1.0265,
-    "y": 1.3439
-   },
-   {
-    "id": "A0265",
-    "rotulo": "A0265",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 0.8631,
-    "y": 1.2951
-   },
-   {
-    "id": "A0161",
-    "rotulo": "A0161",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.5131,
-    "y": 1.2364
-   },
-   {
-    "id": "A0382",
-    "rotulo": "A0382",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 6,
-    "x": 1.309,
-    "y": 0.6773
-   },
-   {
-    "id": "A0246",
-    "rotulo": "A0246",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 0,
-    "x": 1.4024,
-    "y": 1.3869
-   },
-   {
-    "id": "A0338",
-    "rotulo": "A0338",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 3,
-    "x": 0.8453,
-    "y": 0.8028
-   },
-   {
-    "id": "A0301",
-    "rotulo": "A0301",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 4,
-    "x": 1.2423,
-    "y": 0.5989
-   },
-   {
-    "id": "A0323",
-    "rotulo": "A0323",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 5,
-    "x": 0.9389,
-    "y": 0.4506
-   },
-   {
-    "id": "A0048",
-    "rotulo": "A0048",
-    "tipo": "autor (código)",
-    "n": 14,
-    "grupo": 3,
-    "x": 0.7587,
-    "y": 1.4126
-   },
-   {
-    "id": "A0003",
-    "rotulo": "A0003",
-    "tipo": "autor (código)",
-    "n": 1,
-    "grupo": 3,
-    "x": 0.8715,
-    "y": 0.0079
-   },
-   {
-    "id": "A0083",
-    "rotulo": "A0083",
-    "tipo": "autor (código)",
-    "n": 25,
-    "grupo": 8,
-    "x": 1.0132,
-    "y": 1.0002
-   },
-   {
-    "id": "A0333",
-    "rotulo": "A0333",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 1,
-    "x": 0.597,
-    "y": 0.6508
-   },
-   {
-    "id": "A0004",
-    "rotulo": "A0004",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 3,
-    "x": 0.8381,
-    "y": 0.2191
-   },
-   {
-    "id": "A0321",
-    "rotulo": "A0321",
-    "tipo": "autor (código)",
-    "n": 5,
-    "grupo": 5,
-    "x": 1.1686,
-    "y": 0.5229
-   },
-   {
-    "id": "A0376",
-    "rotulo": "A0376",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 4,
-    "x": 0.9701,
-    "y": 0.6484
-   },
-   {
-    "id": "A0215",
-    "rotulo": "A0215",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 1,
-    "x": 0.5006,
-    "y": 1.0671
-   },
-   {
-    "id": "A0029",
-    "rotulo": "A0029",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 2,
-    "x": 0.2044,
-    "y": 0.9866
-   },
-   {
-    "id": "A0348",
-    "rotulo": "A0348",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 6,
-    "x": 1.2692,
-    "y": 0.387
-   },
-   {
-    "id": "A0072",
-    "rotulo": "A0072",
-    "tipo": "autor (código)",
-    "n": 13,
-    "grupo": 8,
-    "x": 0.6996,
-    "y": 0.9928
-   },
-   {
-    "id": "A0263",
-    "rotulo": "A0263",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.1795,
-    "y": 1.5678
-   },
-   {
-    "id": "A0057",
-    "rotulo": "A0057",
-    "tipo": "autor (código)",
-    "n": 4,
-    "grupo": 13,
-    "x": 3.5,
-    "y": 0.1477
-   },
-   {
-    "id": "A0366",
-    "rotulo": "A0366",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 6,
-    "x": 1.5618,
-    "y": 0.3761
-   },
-   {
-    "id": "A0068",
-    "rotulo": "A0068",
-    "tipo": "autor (código)",
-    "n": 12,
-    "grupo": 3,
-    "x": 0.7007,
-    "y": 1.2081
-   },
-   {
-    "id": "A0287",
-    "rotulo": "A0287",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.308,
-    "y": 1.1362
-   },
-   {
-    "id": "A0191",
-    "rotulo": "A0191",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 7,
-    "x": 0.6882,
-    "y": 1.1493
-   },
-   {
-    "id": "A0316",
-    "rotulo": "A0316",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 6,
-    "x": 1.6569,
-    "y": 0.5498
-   },
-   {
-    "id": "A0111",
-    "rotulo": "A0111",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 8,
-    "x": 1.2289,
-    "y": 0.4565
-   },
-   {
-    "id": "A0069",
-    "rotulo": "A0069",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 3,
-    "x": 0.6058,
-    "y": 1.4152
-   },
-   {
-    "id": "A0133",
-    "rotulo": "A0133",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.1528,
-    "y": 1.1687
-   },
-   {
-    "id": "A0256",
-    "rotulo": "A0256",
-    "tipo": "autor (código)",
-    "n": 7,
-    "grupo": 0,
-    "x": 1.2938,
-    "y": 1.4616
-   },
-   {
-    "id": "A0255",
-    "rotulo": "A0255",
-    "tipo": "autor (código)",
-    "n": 9,
-    "grupo": 0,
-    "x": 1.2466,
-    "y": 1.2449
-   },
-   {
-    "id": "A0049",
-    "rotulo": "A0049",
-    "tipo": "autor (código)",
-    "n": 8,
-    "grupo": 7,
-    "x": 0.5817,
-    "y": 1.2421
-   },
-   {
-    "id": "A0311",
-    "rotulo": "A0311",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 6,
-    "x": 1.2401,
-    "y": 0.6421
-   },
-   {
-    "id": "A0126",
-    "rotulo": "A0126",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 2,
-    "x": 1.5037,
-    "y": 1.287
-   },
-   {
-    "id": "A0262",
-    "rotulo": "A0262",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 9,
-    "x": 1.6525,
-    "y": 1.161
+    "x": 1.1892,
+    "y": 0.5727
    },
    {
     "id": "A0213",
@@ -1170,98 +36,80 @@
     "tipo": "autor (código)",
     "n": 4,
     "grupo": 0,
-    "x": 1.1196,
-    "y": 1.5818
+    "x": 0.8682,
+    "y": 1.5906
    },
    {
-    "id": "A0146",
-    "rotulo": "A0146",
-    "tipo": "autor (código)",
-    "n": 3,
-    "grupo": 7,
-    "x": 0.3894,
-    "y": 1.259
-   },
-   {
-    "id": "A0037",
-    "rotulo": "A0037",
+    "id": "A0113",
+    "rotulo": "A0113",
     "tipo": "autor (código)",
     "n": 4,
     "grupo": 7,
-    "x": 0.5292,
-    "y": 1.279
+    "x": 0.286,
+    "y": 1.3032
    },
    {
-    "id": "A0230",
-    "rotulo": "A0230",
-    "tipo": "autor (código)",
-    "n": 14,
-    "grupo": 0,
-    "x": 1.1363,
-    "y": 1.1934
-   },
-   {
-    "id": "A0294",
-    "rotulo": "A0294",
-    "tipo": "autor (código)",
-    "n": 6,
-    "grupo": 9,
-    "x": 1.8162,
-    "y": 0.9677
-   },
-   {
-    "id": "A0344",
-    "rotulo": "A0344",
+    "id": "A0241",
+    "rotulo": "A0241",
     "tipo": "autor (código)",
     "n": 2,
-    "grupo": 5,
-    "x": 1.0432,
-    "y": 0.2359
+    "grupo": 0,
+    "x": 1.2868,
+    "y": 1.4625
    },
    {
-    "id": "A0310",
-    "rotulo": "A0310",
-    "tipo": "autor (código)",
-    "n": 18,
-    "grupo": 5,
-    "x": 1.014,
-    "y": 0.7658
-   },
-   {
-    "id": "A0253",
-    "rotulo": "A0253",
+    "id": "A0323",
+    "rotulo": "A0323",
     "tipo": "autor (código)",
     "n": 3,
-    "grupo": 0,
-    "x": 1.287,
-    "y": 1.5244
-   },
-   {
-    "id": "A0266",
-    "rotulo": "A0266",
-    "tipo": "autor (código)",
-    "n": 2,
-    "grupo": 0,
-    "x": 1.4279,
-    "y": 1.5206
-   },
-   {
-    "id": "A0326",
-    "rotulo": "A0326",
-    "tipo": "autor (código)",
-    "n": 2,
     "grupo": 5,
-    "x": 1.007,
-    "y": 0.5524
+    "x": 1.2449,
+    "y": 0.5688
    },
    {
-    "id": "A0027",
-    "rotulo": "A0027",
+    "id": "A0156",
+    "rotulo": "A0156",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 0.7704,
+    "y": 0.8196
+   },
+   {
+    "id": "A0090",
+    "rotulo": "A0090",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 11,
+    "x": 2.3246,
+    "y": 0.1747
+   },
+   {
+    "id": "A0129",
+    "rotulo": "A0129",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.7205,
+    "y": 0.9626
+   },
+   {
+    "id": "A0270",
+    "rotulo": "A0270",
     "tipo": "autor (código)",
     "n": 6,
-    "grupo": 8,
-    "x": 1.1657,
-    "y": 0.9373
+    "grupo": 0,
+    "x": 0.8745,
+    "y": 1.5413
+   },
+   {
+    "id": "A0057",
+    "rotulo": "A0057",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 12,
+    "x": 2.65,
+    "y": 0.2023
    },
    {
     "id": "A0101",
@@ -1269,11 +117,1328 @@
     "tipo": "autor (código)",
     "n": 2,
     "grupo": 10,
-    "x": 0.2683,
-    "y": 1.6022
+    "x": 0.7325,
+    "y": 1.2053
+   },
+   {
+    "id": "A0117",
+    "rotulo": "A0117",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.3567,
+    "y": 0.9362
+   },
+   {
+    "id": "A0390",
+    "rotulo": "A0390",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 1.4179,
+    "y": 0.4917
+   },
+   {
+    "id": "A0342",
+    "rotulo": "A0342",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 5,
+    "x": 1.1914,
+    "y": 0.6654
+   },
+   {
+    "id": "A0246",
+    "rotulo": "A0246",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.0827,
+    "y": 1.6814
+   },
+   {
+    "id": "A0375",
+    "rotulo": "A0375",
+    "tipo": "autor (código)",
+    "n": 10,
+    "grupo": 6,
+    "x": 1.2203,
+    "y": 0.5417
+   },
+   {
+    "id": "A0257",
+    "rotulo": "A0257",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.0479,
+    "y": 1.6659
+   },
+   {
+    "id": "A0029",
+    "rotulo": "A0029",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 2,
+    "x": 0.4248,
+    "y": 0.7396
+   },
+   {
+    "id": "A0148",
+    "rotulo": "A0148",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.5348,
+    "y": 1.249
+   },
+   {
+    "id": "A0047",
+    "rotulo": "A0047",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 4,
+    "x": 1.5973,
+    "y": 1.1881
+   },
+   {
+    "id": "A0278",
+    "rotulo": "A0278",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.8756,
+    "y": 1.4667
+   },
+   {
+    "id": "A0003",
+    "rotulo": "A0003",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 4,
+    "x": 1.9491,
+    "y": 0.416
+   },
+   {
+    "id": "A0075",
+    "rotulo": "A0075",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.7453,
+    "y": 1.2492
+   },
+   {
+    "id": "A0217",
+    "rotulo": "A0217",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 6,
+    "x": 1.1237,
+    "y": 0.5354
+   },
+   {
+    "id": "A0049",
+    "rotulo": "A0049",
+    "tipo": "autor (código)",
+    "n": 8,
+    "grupo": 8,
+    "x": 0.486,
+    "y": 1.0777
+   },
+   {
+    "id": "A0393",
+    "rotulo": "A0393",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 1.4683,
+    "y": 0.9118
+   },
+   {
+    "id": "A0069",
+    "rotulo": "A0069",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 4,
+    "x": 1.5116,
+    "y": 1.1165
+   },
+   {
+    "id": "A0126",
+    "rotulo": "A0126",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.5906,
+    "y": 1.1587
+   },
+   {
+    "id": "A0311",
+    "rotulo": "A0311",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.1531,
+    "y": 0.6644
+   },
+   {
+    "id": "A0017",
+    "rotulo": "A0017",
+    "tipo": "autor (código)",
+    "n": 22,
+    "grupo": 2,
+    "x": 0.5764,
+    "y": 1.0744
+   },
+   {
+    "id": "A0317",
+    "rotulo": "A0317",
+    "tipo": "autor (código)",
+    "n": 26,
+    "grupo": 4,
+    "x": 1.3338,
+    "y": 0.898
+   },
+   {
+    "id": "A0141",
+    "rotulo": "A0141",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 1.303,
+    "y": 0.5974
+   },
+   {
+    "id": "A0299",
+    "rotulo": "A0299",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 1.4581,
+    "y": 0.997
+   },
+   {
+    "id": "A0244",
+    "rotulo": "A0244",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.2156,
+    "y": 1.5575
+   },
+   {
+    "id": "A0255",
+    "rotulo": "A0255",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 0,
+    "x": 1.1434,
+    "y": 1.3536
+   },
+   {
+    "id": "A0068",
+    "rotulo": "A0068",
+    "tipo": "autor (código)",
+    "n": 12,
+    "grupo": 4,
+    "x": 1.3439,
+    "y": 1.0607
+   },
+   {
+    "id": "A0228",
+    "rotulo": "A0228",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 3,
+    "x": 1.1789,
+    "y": 1.174
+   },
+   {
+    "id": "A0261",
+    "rotulo": "A0261",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.011,
+    "y": 1.5271
+   },
+   {
+    "id": "A0259",
+    "rotulo": "A0259",
+    "tipo": "autor (código)",
+    "n": 21,
+    "grupo": 0,
+    "x": 1.0735,
+    "y": 1.5253
+   },
+   {
+    "id": "A0348",
+    "rotulo": "A0348",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.2098,
+    "y": 0.4103
+   },
+   {
+    "id": "A0266",
+    "rotulo": "A0266",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.0947,
+    "y": 1.77
+   },
+   {
+    "id": "A0300",
+    "rotulo": "A0300",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 3,
+    "x": 1.4186,
+    "y": 0.8819
+   },
+   {
+    "id": "A0330",
+    "rotulo": "A0330",
+    "tipo": "autor (código)",
+    "n": 11,
+    "grupo": 1,
+    "x": 1.0927,
+    "y": 0.7218
+   },
+   {
+    "id": "A0288",
+    "rotulo": "A0288",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 3,
+    "x": 1.2939,
+    "y": 0.844
+   },
+   {
+    "id": "A0294",
+    "rotulo": "A0294",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 9,
+    "x": 1.5611,
+    "y": 1.0903
+   },
+   {
+    "id": "A0140",
+    "rotulo": "A0140",
+    "tipo": "autor (código)",
+    "n": 13,
+    "grupo": 5,
+    "x": 1.1476,
+    "y": 0.7091
+   },
+   {
+    "id": "A0230",
+    "rotulo": "A0230",
+    "tipo": "autor (código)",
+    "n": 14,
+    "grupo": 0,
+    "x": 1.1066,
+    "y": 1.3875
+   },
+   {
+    "id": "A0333",
+    "rotulo": "A0333",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.8393,
+    "y": 0.5684
+   },
+   {
+    "id": "A0111",
+    "rotulo": "A0111",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.0,
+    "y": 1.5235
+   },
+   {
+    "id": "A0015",
+    "rotulo": "A0015",
+    "tipo": "autor (código)",
+    "n": 10,
+    "grupo": 3,
+    "x": 1.3018,
+    "y": 1.0379
+   },
+   {
+    "id": "A0067",
+    "rotulo": "A0067",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 10,
+    "x": 0.1413,
+    "y": 1.1233
+   },
+   {
+    "id": "A0316",
+    "rotulo": "A0316",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.4412,
+    "y": 0.6133
+   },
+   {
+    "id": "A0321",
+    "rotulo": "A0321",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 5,
+    "x": 1.1744,
+    "y": 0.5236
+   },
+   {
+    "id": "A0253",
+    "rotulo": "A0253",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 1.1298,
+    "y": 1.6409
+   },
+   {
+    "id": "A0011",
+    "rotulo": "A0011",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 4,
+    "x": 1.5518,
+    "y": 0.7276
+   },
+   {
+    "id": "A0216",
+    "rotulo": "A0216",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 1,
+    "x": 0.5848,
+    "y": 0.2038
+   },
+   {
+    "id": "A0169",
+    "rotulo": "A0169",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.2897,
+    "y": 1.0851
+   },
+   {
+    "id": "A0022",
+    "rotulo": "A0022",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 9,
+    "x": 1.9065,
+    "y": 1.3293
+   },
+   {
+    "id": "A0176",
+    "rotulo": "A0176",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 8,
+    "x": 0.3326,
+    "y": 1.0731
+   },
+   {
+    "id": "A0013",
+    "rotulo": "A0013",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.7204,
+    "y": 1.3231
+   },
+   {
+    "id": "A0234",
+    "rotulo": "A0234",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.5088,
+    "y": 0.1076
+   },
+   {
+    "id": "A0019",
+    "rotulo": "A0019",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.7651,
+    "y": 1.3777
+   },
+   {
+    "id": "A0366",
+    "rotulo": "A0366",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 6,
+    "x": 1.2333,
+    "y": 0.3189
+   },
+   {
+    "id": "A0014",
+    "rotulo": "A0014",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 9,
+    "x": 1.6273,
+    "y": 1.2399
+   },
+   {
+    "id": "A0146",
+    "rotulo": "A0146",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 8,
+    "x": 0.4459,
+    "y": 1.2617
+   },
+   {
+    "id": "A0112",
+    "rotulo": "A0112",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 7,
+    "x": 0.3146,
+    "y": 1.1358
+   },
+   {
+    "id": "A0256",
+    "rotulo": "A0256",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 0,
+    "x": 1.0878,
+    "y": 1.6116
+   },
+   {
+    "id": "A0398",
+    "rotulo": "A0398",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.8262,
+    "y": 0.4582
+   },
+   {
+    "id": "A0338",
+    "rotulo": "A0338",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 4,
+    "x": 1.2571,
+    "y": 0.9198
+   },
+   {
+    "id": "A0190",
+    "rotulo": "A0190",
+    "tipo": "autor (código)",
+    "n": 12,
+    "grupo": 8,
+    "x": 0.7096,
+    "y": 1.1562
+   },
+   {
+    "id": "A0315",
+    "rotulo": "A0315",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 6,
+    "x": 1.532,
+    "y": 0.8093
+   },
+   {
+    "id": "A0083",
+    "rotulo": "A0083",
+    "tipo": "autor (código)",
+    "n": 25,
+    "grupo": 7,
+    "x": 0.348,
+    "y": 1.2334
+   },
+   {
+    "id": "A0382",
+    "rotulo": "A0382",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 6,
+    "x": 1.002,
+    "y": 0.5636
+   },
+   {
+    "id": "A0046",
+    "rotulo": "A0046",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 10,
+    "x": 0.3981,
+    "y": 1.2788
+   },
+   {
+    "id": "A0096",
+    "rotulo": "A0096",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 2,
+    "x": 0.8778,
+    "y": 0.85
+   },
+   {
+    "id": "A0202",
+    "rotulo": "A0202",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.6679,
+    "y": 0.7799
+   },
+   {
+    "id": "A0302",
+    "rotulo": "A0302",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 6,
+    "x": 1.4342,
+    "y": 0.7031
+   },
+   {
+    "id": "A0262",
+    "rotulo": "A0262",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.3942,
+    "y": 1.3288
+   },
+   {
+    "id": "A0045",
+    "rotulo": "A0045",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 10,
+    "x": 0.2604,
+    "y": 1.3209
+   },
+   {
+    "id": "A0301",
+    "rotulo": "A0301",
+    "tipo": "autor (código)",
+    "n": 5,
+    "grupo": 3,
+    "x": 1.3238,
+    "y": 0.7878
+   },
+   {
+    "id": "A0131",
+    "rotulo": "A0131",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.4813,
+    "y": 1.2156
+   },
+   {
+    "id": "A0161",
+    "rotulo": "A0161",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.5371,
+    "y": 1.1644
+   },
+   {
+    "id": "A0322",
+    "rotulo": "A0322",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 5,
+    "x": 1.1581,
+    "y": 0.7496
+   },
+   {
+    "id": "A0251",
+    "rotulo": "A0251",
+    "tipo": "autor (código)",
+    "n": 32,
+    "grupo": 0,
+    "x": 1.0642,
+    "y": 1.5646
+   },
+   {
+    "id": "A0209",
+    "rotulo": "A0209",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.3598,
+    "y": 0.8401
+   },
+   {
+    "id": "A0122",
+    "rotulo": "A0122",
+    "tipo": "autor (código)",
+    "n": 8,
+    "grupo": 7,
+    "x": 0.4082,
+    "y": 1.1495
+   },
+   {
+    "id": "A0363",
+    "rotulo": "A0363",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 6,
+    "x": 1.0057,
+    "y": 0.6132
+   },
+   {
+    "id": "A0030",
+    "rotulo": "A0030",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.6051,
+    "y": 0.8071
+   },
+   {
+    "id": "A0006",
+    "rotulo": "A0006",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 4,
+    "x": 1.8749,
+    "y": 0.3363
+   },
+   {
+    "id": "A0267",
+    "rotulo": "A0267",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 0,
+    "x": 0.9654,
+    "y": 1.4768
+   },
+   {
+    "id": "A0072",
+    "rotulo": "A0072",
+    "tipo": "autor (código)",
+    "n": 13,
+    "grupo": 7,
+    "x": 0.4877,
+    "y": 1.0092
+   },
+   {
+    "id": "A0177",
+    "rotulo": "A0177",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 0.5143,
+    "y": 1.0746
+   },
+   {
+    "id": "A0027",
+    "rotulo": "A0027",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 7,
+    "x": 0.1615,
+    "y": 1.3227
+   },
+   {
+    "id": "A0215",
+    "rotulo": "A0215",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.736,
+    "y": 0.3903
+   },
+   {
+    "id": "A0191",
+    "rotulo": "A0191",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 8,
+    "x": 0.6564,
+    "y": 1.3201
+   },
+   {
+    "id": "A0183",
+    "rotulo": "A0183",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 0.7032,
+    "y": 0.8391
+   },
+   {
+    "id": "A0344",
+    "rotulo": "A0344",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 1.2721,
+    "y": 0.3782
+   },
+   {
+    "id": "A0150",
+    "rotulo": "A0150",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.4027,
+    "y": 1.1864
+   },
+   {
+    "id": "A0063",
+    "rotulo": "A0063",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 12,
+    "x": 3.0,
+    "y": 0.1477
+   },
+   {
+    "id": "A0287",
+    "rotulo": "A0287",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.2444,
+    "y": 1.5171
+   },
+   {
+    "id": "A0201",
+    "rotulo": "A0201",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 8,
+    "x": 0.4246,
+    "y": 1.0803
+   },
+   {
+    "id": "A0102",
+    "rotulo": "A0102",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 11,
+    "x": 2.5,
+    "y": 0.3237
+   },
+   {
+    "id": "A0265",
+    "rotulo": "A0265",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.8356,
+    "y": 1.4417
+   },
+   {
+    "id": "A0249",
+    "rotulo": "A0249",
+    "tipo": "autor (código)",
+    "n": 40,
+    "grupo": 0,
+    "x": 0.9955,
+    "y": 1.4465
+   },
+   {
+    "id": "A0066",
+    "rotulo": "A0066",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 10,
+    "x": 0.1826,
+    "y": 1.2395
+   },
+   {
+    "id": "A0089",
+    "rotulo": "A0089",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 11,
+    "x": 2.1504,
+    "y": 0.0266
+   },
+   {
+    "id": "A0152",
+    "rotulo": "A0152",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 2,
+    "x": 0.8361,
+    "y": 0.9356
+   },
+   {
+    "id": "A0326",
+    "rotulo": "A0326",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 5,
+    "x": 1.2155,
+    "y": 0.7209
+   },
+   {
+    "id": "A0319",
+    "rotulo": "A0319",
+    "tipo": "autor (código)",
+    "n": 7,
+    "grupo": 5,
+    "x": 1.2773,
+    "y": 0.4882
+   },
+   {
+    "id": "A0048",
+    "rotulo": "A0048",
+    "tipo": "autor (código)",
+    "n": 14,
+    "grupo": 4,
+    "x": 1.5031,
+    "y": 1.1491
+   },
+   {
+    "id": "A0123",
+    "rotulo": "A0123",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.4841,
+    "y": 1.1323
+   },
+   {
+    "id": "A0133",
+    "rotulo": "A0133",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 2,
+    "x": 0.6937,
+    "y": 0.9322
+   },
+   {
+    "id": "A0298",
+    "rotulo": "A0298",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 1,
+    "x": 1.0543,
+    "y": 0.6476
+   },
+   {
+    "id": "A0310",
+    "rotulo": "A0310",
+    "tipo": "autor (código)",
+    "n": 18,
+    "grupo": 5,
+    "x": 1.1166,
+    "y": 0.8643
+   },
+   {
+    "id": "A0002",
+    "rotulo": "A0002",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 13,
+    "x": 3.15,
+    "y": 0.2023
+   },
+   {
+    "id": "A0343",
+    "rotulo": "A0343",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 5,
+    "x": 1.3368,
+    "y": 0.3597
+   },
+   {
+    "id": "A0056",
+    "rotulo": "A0056",
+    "tipo": "autor (código)",
+    "n": 6,
+    "grupo": 4,
+    "x": 1.0567,
+    "y": 1.0844
+   },
+   {
+    "id": "A0341",
+    "rotulo": "A0341",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 0.8702,
+    "y": 0.5385
+   },
+   {
+    "id": "A0248",
+    "rotulo": "A0248",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.9588,
+    "y": 1.57
+   },
+   {
+    "id": "A0359",
+    "rotulo": "A0359",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 1.4248,
+    "y": 0.3773
+   },
+   {
+    "id": "A0376",
+    "rotulo": "A0376",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 3,
+    "x": 1.1046,
+    "y": 0.7532
+   },
+   {
+    "id": "A0395",
+    "rotulo": "A0395",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 1,
+    "x": 1.0614,
+    "y": 0.6001
+   },
+   {
+    "id": "A0039",
+    "rotulo": "A0039",
+    "tipo": "autor (código)",
+    "n": 49,
+    "grupo": 8,
+    "x": 0.5338,
+    "y": 1.0806
+   },
+   {
+    "id": "A0360",
+    "rotulo": "A0360",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 3,
+    "x": 1.4334,
+    "y": 0.7878
+   },
+   {
+    "id": "A0245",
+    "rotulo": "A0245",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 1.1073,
+    "y": 1.8777
+   },
+   {
+    "id": "A0377",
+    "rotulo": "A0377",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 1,
+    "x": 1.1131,
+    "y": 0.7941
+   },
+   {
+    "id": "A0263",
+    "rotulo": "A0263",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 0,
+    "x": 0.9364,
+    "y": 1.648
+   },
+   {
+    "id": "A0120",
+    "rotulo": "A0120",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 7,
+    "x": 0.1417,
+    "y": 1.4085
+   },
+   {
+    "id": "A0018",
+    "rotulo": "A0018",
+    "tipo": "autor (código)",
+    "n": 2,
+    "grupo": 9,
+    "x": 1.7108,
+    "y": 1.1597
+   },
+   {
+    "id": "A0005",
+    "rotulo": "A0005",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 4,
+    "x": 1.9194,
+    "y": 0.366
+   },
+   {
+    "id": "A0219",
+    "rotulo": "A0219",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 3,
+    "x": 1.2167,
+    "y": 0.9187
+   },
+   {
+    "id": "A0260",
+    "rotulo": "A0260",
+    "tipo": "autor (código)",
+    "n": 9,
+    "grupo": 0,
+    "x": 1.1614,
+    "y": 1.5065
+   },
+   {
+    "id": "A0283",
+    "rotulo": "A0283",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 3,
+    "x": 1.2249,
+    "y": 1.1182
+   },
+   {
+    "id": "A0023",
+    "rotulo": "A0023",
+    "tipo": "autor (código)",
+    "n": 3,
+    "grupo": 9,
+    "x": 1.822,
+    "y": 1.3174
+   },
+   {
+    "id": "A0324",
+    "rotulo": "A0324",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 1,
+    "x": 1.0241,
+    "y": 0.4863
+   },
+   {
+    "id": "A0037",
+    "rotulo": "A0037",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 8,
+    "x": 0.4432,
+    "y": 1.0393
+   },
+   {
+    "id": "A0001",
+    "rotulo": "A0001",
+    "tipo": "autor (código)",
+    "n": 1,
+    "grupo": 13,
+    "x": 3.5,
+    "y": 0.1477
+   },
+   {
+    "id": "A0389",
+    "rotulo": "A0389",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 3,
+    "x": 1.2726,
+    "y": 0.6663
+   },
+   {
+    "id": "A0004",
+    "rotulo": "A0004",
+    "tipo": "autor (código)",
+    "n": 4,
+    "grupo": 4,
+    "x": 1.7938,
+    "y": 0.4913
    }
   ],
   "arestas": [
+   [
+    "A0318",
+    "A0140",
+    1
+   ],
+   [
+    "A0318",
+    "A0324",
+    1
+   ],
+   [
+    "A0318",
+    "A0330",
+    2
+   ],
+   [
+    "A0318",
+    "A0333",
+    3
+   ],
+   [
+    "A0318",
+    "A0341",
+    3
+   ],
+   [
+    "A0318",
+    "A0215",
+    1
+   ],
+   [
+    "A0318",
+    "A0183",
+    1
+   ],
+   [
+    "A0318",
+    "A0376",
+    1
+   ],
+   [
+    "A0318",
+    "A0377",
+    1
+   ],
+   [
+    "A0318",
+    "A0395",
+    2
+   ],
+   [
+    "A0318",
+    "A0202",
+    1
+   ],
+   [
+    "A0318",
+    "A0398",
+    1
+   ],
+   [
+    "A0135",
+    "A0039",
+    2
+   ],
+   [
+    "A0346",
+    "A0342",
+    3
+   ],
+   [
+    "A0346",
+    "A0348",
+    1
+   ],
+   [
+    "A0346",
+    "A0330",
+    1
+   ],
+   [
+    "A0346",
+    "A0217",
+    1
+   ],
+   [
+    "A0346",
+    "A0326",
+    1
+   ],
+   [
+    "A0346",
+    "A0344",
+    1
+   ],
+   [
+    "A0346",
+    "A0324",
+    1
+   ],
+   [
+    "A0346",
+    "A0319",
+    3
+   ],
+   [
+    "A0346",
+    "A0322",
+    2
+   ],
+   [
+    "A0346",
+    "A0321",
+    2
+   ],
+   [
+    "A0346",
+    "A0323",
+    2
+   ],
+   [
+    "A0213",
+    "A0249",
+    1
+   ],
+   [
+    "A0213",
+    "A0270",
+    1
+   ],
+   [
+    "A0113",
+    "A0083",
+    4
+   ],
+   [
+    "A0241",
+    "A0255",
+    1
+   ],
+   [
+    "A0323",
+    "A0140",
+    1
+   ],
+   [
+    "A0156",
+    "A0017",
+    1
+   ],
+   [
+    "A0156",
+    "A0363",
+    1
+   ],
+   [
+    "A0090",
+    "A0089",
+    2
+   ],
+   [
+    "A0090",
+    "A0102",
+    2
+   ],
    [
     "A0129",
     "A0017",
@@ -1285,149 +1450,59 @@
     1
    ],
    [
-    "A0248",
+    "A0270",
     "A0249",
+    1
+   ],
+   [
+    "A0270",
+    "A0278",
     2
    ],
    [
-    "A0257",
-    "A0251",
-    2
-   ],
-   [
-    "A0257",
-    "A0259",
+    "A0057",
+    "A0063",
     1
    ],
    [
-    "A0300",
-    "A0015",
+    "A0101",
+    "A0046",
     1
    ],
    [
-    "A0300",
-    "A0301",
+    "A0101",
+    "A0056",
     1
    ],
    [
-    "A0300",
-    "A0302",
-    1
-   ],
-   [
-    "A0300",
-    "A0299",
-    1
-   ],
-   [
-    "A0112",
-    "A0083",
-    2
-   ],
-   [
-    "A0112",
+    "A0117",
     "A0072",
-    1
-   ],
-   [
-    "A0013",
-    "A0014",
     2
    ],
    [
-    "A0219",
-    "A0140",
-    1
-   ],
-   [
-    "A0219",
-    "A0228",
-    1
-   ],
-   [
-    "A0219",
-    "A0288",
-    1
-   ],
-   [
-    "A0219",
-    "A0283",
-    1
-   ],
-   [
-    "A0219",
+    "A0390",
     "A0389",
     1
    ],
    [
-    "A0039",
-    "A0037",
-    3
-   ],
-   [
-    "A0039",
-    "A0049",
-    8
-   ],
-   [
-    "A0039",
-    "A0122",
+    "A0390",
+    "A0359",
     1
    ],
    [
-    "A0039",
-    "A0135",
-    2
-   ],
-   [
-    "A0039",
-    "A0146",
+    "A0342",
+    "A0310",
     1
    ],
    [
-    "A0039",
-    "A0176",
+    "A0246",
+    "A0245",
     1
    ],
    [
-    "A0039",
-    "A0183",
-    1
-   ],
-   [
-    "A0039",
-    "A0190",
-    4
-   ],
-   [
-    "A0039",
-    "A0201",
-    3
-   ],
-   [
-    "A0096",
-    "A0133",
-    1
-   ],
-   [
-    "A0096",
-    "A0140",
-    1
-   ],
-   [
-    "A0096",
-    "A0152",
-    1
-   ],
-   [
-    "A0005",
-    "A0004",
-    1
-   ],
-   [
-    "A0006",
-    "A0004",
-    1
+    "A0246",
+    "A0251",
+    6
    ],
    [
     "A0375",
@@ -1470,104 +1545,59 @@
     2
    ],
    [
-    "A0342",
-    "A0310",
+    "A0257",
+    "A0251",
+    2
+   ],
+   [
+    "A0257",
+    "A0259",
     1
    ],
    [
-    "A0342",
-    "A0346",
+    "A0029",
+    "A0030",
+    1
+   ],
+   [
+    "A0029",
+    "A0209",
+    1
+   ],
+   [
+    "A0148",
+    "A0017",
+    1
+   ],
+   [
+    "A0047",
+    "A0048",
     3
    ],
    [
-    "A0245",
-    "A0246",
+    "A0003",
+    "A0004",
     1
    ],
    [
-    "A0002",
-    "A0001",
+    "A0075",
+    "A0048",
     1
    ],
    [
-    "A0176",
-    "A0177",
+    "A0075",
+    "A0022",
     1
    ],
    [
-    "A0176",
-    "A0067",
-    1
-   ],
-   [
-    "A0015",
-    "A0014",
-    1
-   ],
-   [
-    "A0015",
-    "A0299",
-    1
-   ],
-   [
-    "A0015",
-    "A0255",
-    1
-   ],
-   [
-    "A0015",
-    "A0310",
-    1
-   ],
-   [
-    "A0015",
+    "A0217",
     "A0330",
     1
    ],
    [
-    "A0283",
-    "A0230",
-    1
-   ],
-   [
-    "A0283",
-    "A0317",
-    1
-   ],
-   [
-    "A0363",
-    "A0156",
-    1
-   ],
-   [
-    "A0363",
-    "A0382",
-    3
-   ],
-   [
-    "A0315",
-    "A0316",
-    1
-   ],
-   [
-    "A0315",
-    "A0302",
-    2
-   ],
-   [
-    "A0315",
-    "A0294",
-    1
-   ],
-   [
-    "A0066",
-    "A0067",
-    1
-   ],
-   [
-    "A0066",
-    "A0046",
-    1
+    "A0049",
+    "A0039",
+    8
    ],
    [
     "A0393",
@@ -1575,129 +1605,19 @@
     2
    ],
    [
-    "A0398",
-    "A0318",
+    "A0069",
+    "A0068",
     1
    ],
    [
-    "A0259",
-    "A0256",
-    3
-   ],
-   [
-    "A0259",
-    "A0255",
-    1
-   ],
-   [
-    "A0259",
-    "A0249",
-    6
-   ],
-   [
-    "A0259",
-    "A0251",
-    3
-   ],
-   [
-    "A0259",
-    "A0253",
+    "A0126",
+    "A0017",
     2
    ],
    [
-    "A0259",
-    "A0260",
-    3
-   ],
-   [
-    "A0259",
-    "A0261",
-    2
-   ],
-   [
-    "A0322",
-    "A0140",
-    1
-   ],
-   [
-    "A0322",
+    "A0311",
     "A0310",
-    4
-   ],
-   [
-    "A0322",
-    "A0346",
-    2
-   ],
-   [
-    "A0216",
-    "A0215",
     1
-   ],
-   [
-    "A0216",
-    "A0234",
-    2
-   ],
-   [
-    "A0346",
-    "A0348",
-    1
-   ],
-   [
-    "A0346",
-    "A0330",
-    1
-   ],
-   [
-    "A0346",
-    "A0217",
-    1
-   ],
-   [
-    "A0346",
-    "A0326",
-    1
-   ],
-   [
-    "A0346",
-    "A0344",
-    1
-   ],
-   [
-    "A0346",
-    "A0324",
-    1
-   ],
-   [
-    "A0346",
-    "A0319",
-    3
-   ],
-   [
-    "A0346",
-    "A0321",
-    2
-   ],
-   [
-    "A0346",
-    "A0323",
-    2
-   ],
-   [
-    "A0022",
-    "A0023",
-    1
-   ],
-   [
-    "A0022",
-    "A0075",
-    1
-   ],
-   [
-    "A0113",
-    "A0083",
-    4
    ],
    [
     "A0017",
@@ -1711,17 +1631,7 @@
    ],
    [
     "A0017",
-    "A0126",
-    2
-   ],
-   [
-    "A0017",
     "A0131",
-    1
-   ],
-   [
-    "A0017",
-    "A0148",
     1
    ],
    [
@@ -1736,312 +1646,17 @@
    ],
    [
     "A0017",
-    "A0156",
-    1
-   ],
-   [
-    "A0017",
     "A0161",
     2
    ],
    [
-    "A0341",
-    "A0318",
-    3
-   ],
-   [
-    "A0343",
-    "A0344",
-    1
-   ],
-   [
-    "A0343",
-    "A0319",
-    2
-   ],
-   [
-    "A0014",
-    "A0018",
-    1
-   ],
-   [
-    "A0014",
-    "A0019",
-    1
-   ],
-   [
-    "A0014",
-    "A0023",
-    1
-   ],
-   [
-    "A0120",
-    "A0083",
-    1
-   ],
-   [
-    "A0120",
-    "A0111",
-    1
-   ],
-   [
-    "A0011",
-    "A0004",
-    1
-   ],
-   [
-    "A0011",
     "A0317",
-    2
-   ],
-   [
-    "A0359",
-    "A0319",
-    1
-   ],
-   [
-    "A0359",
-    "A0390",
-    1
-   ],
-   [
-    "A0183",
-    "A0318",
-    1
-   ],
-   [
-    "A0202",
-    "A0072",
-    1
-   ],
-   [
-    "A0202",
-    "A0318",
-    1
-   ],
-   [
-    "A0056",
-    "A0068",
-    2
-   ],
-   [
-    "A0056",
-    "A0101",
-    1
-   ],
-   [
-    "A0056",
-    "A0152",
-    1
-   ],
-   [
-    "A0244",
-    "A0230",
-    1
-   ],
-   [
-    "A0047",
-    "A0048",
-    3
-   ],
-   [
-    "A0089",
-    "A0090",
-    2
-   ],
-   [
-    "A0261",
-    "A0249",
-    3
-   ],
-   [
-    "A0261",
-    "A0251",
-    1
-   ],
-   [
-    "A0261",
-    "A0267",
-    1
-   ],
-   [
-    "A0288",
     "A0310",
-    1
-   ],
-   [
-    "A0288",
-    "A0301",
-    1
-   ],
-   [
-    "A0288",
-    "A0360",
-    1
-   ],
-   [
-    "A0395",
-    "A0318",
-    2
-   ],
-   [
-    "A0395",
-    "A0389",
-    1
-   ],
-   [
-    "A0117",
-    "A0072",
-    2
-   ],
-   [
-    "A0102",
-    "A0090",
-    2
-   ],
-   [
-    "A0209",
-    "A0072",
-    1
-   ],
-   [
-    "A0209",
-    "A0029",
-    1
-   ],
-   [
-    "A0318",
-    "A0140",
-    1
-   ],
-   [
-    "A0318",
-    "A0324",
-    1
-   ],
-   [
-    "A0318",
-    "A0330",
-    2
-   ],
-   [
-    "A0318",
-    "A0333",
-    3
-   ],
-   [
-    "A0318",
-    "A0215",
-    1
-   ],
-   [
-    "A0318",
-    "A0376",
-    1
-   ],
-   [
-    "A0318",
-    "A0377",
-    1
-   ],
-   [
-    "A0030",
-    "A0029",
-    1
-   ],
-   [
-    "A0030",
-    "A0152",
-    1
-   ],
-   [
-    "A0330",
-    "A0310",
-    1
-   ],
-   [
-    "A0330",
-    "A0217",
-    1
-   ],
-   [
-    "A0330",
-    "A0298",
-    1
-   ],
-   [
-    "A0330",
-    "A0382",
-    1
-   ],
-   [
-    "A0270",
-    "A0249",
-    1
-   ],
-   [
-    "A0270",
-    "A0278",
-    2
-   ],
-   [
-    "A0270",
-    "A0213",
-    1
-   ],
-   [
-    "A0140",
-    "A0141",
-    1
-   ],
-   [
-    "A0140",
-    "A0317",
-    1
-   ],
-   [
-    "A0140",
-    "A0310",
-    1
-   ],
-   [
-    "A0140",
-    "A0319",
-    1
-   ],
-   [
-    "A0140",
-    "A0298",
-    1
-   ],
-   [
-    "A0140",
-    "A0321",
-    1
-   ],
-   [
-    "A0140",
-    "A0323",
-    1
-   ],
-   [
-    "A0063",
-    "A0057",
-    1
-   ],
-   [
-    "A0177",
-    "A0190",
-    1
-   ],
-   [
-    "A0241",
-    "A0255",
     1
    ],
    [
     "A0317",
-    "A0310",
+    "A0140",
     1
    ],
    [
@@ -2060,6 +1675,301 @@
     1
    ],
    [
+    "A0317",
+    "A0011",
+    2
+   ],
+   [
+    "A0317",
+    "A0283",
+    1
+   ],
+   [
+    "A0141",
+    "A0140",
+    1
+   ],
+   [
+    "A0299",
+    "A0015",
+    1
+   ],
+   [
+    "A0299",
+    "A0300",
+    1
+   ],
+   [
+    "A0244",
+    "A0230",
+    1
+   ],
+   [
+    "A0255",
+    "A0249",
+    3
+   ],
+   [
+    "A0255",
+    "A0259",
+    1
+   ],
+   [
+    "A0255",
+    "A0230",
+    2
+   ],
+   [
+    "A0255",
+    "A0015",
+    1
+   ],
+   [
+    "A0068",
+    "A0048",
+    4
+   ],
+   [
+    "A0068",
+    "A0056",
+    2
+   ],
+   [
+    "A0228",
+    "A0219",
+    1
+   ],
+   [
+    "A0228",
+    "A0230",
+    1
+   ],
+   [
+    "A0261",
+    "A0249",
+    3
+   ],
+   [
+    "A0261",
+    "A0251",
+    1
+   ],
+   [
+    "A0261",
+    "A0259",
+    2
+   ],
+   [
+    "A0261",
+    "A0267",
+    1
+   ],
+   [
+    "A0259",
+    "A0256",
+    3
+   ],
+   [
+    "A0259",
+    "A0249",
+    6
+   ],
+   [
+    "A0259",
+    "A0251",
+    3
+   ],
+   [
+    "A0259",
+    "A0253",
+    2
+   ],
+   [
+    "A0259",
+    "A0260",
+    3
+   ],
+   [
+    "A0266",
+    "A0251",
+    1
+   ],
+   [
+    "A0300",
+    "A0015",
+    1
+   ],
+   [
+    "A0300",
+    "A0301",
+    1
+   ],
+   [
+    "A0300",
+    "A0302",
+    1
+   ],
+   [
+    "A0330",
+    "A0310",
+    1
+   ],
+   [
+    "A0330",
+    "A0298",
+    1
+   ],
+   [
+    "A0330",
+    "A0015",
+    1
+   ],
+   [
+    "A0330",
+    "A0382",
+    1
+   ],
+   [
+    "A0288",
+    "A0310",
+    1
+   ],
+   [
+    "A0288",
+    "A0301",
+    1
+   ],
+   [
+    "A0288",
+    "A0360",
+    1
+   ],
+   [
+    "A0288",
+    "A0219",
+    1
+   ],
+   [
+    "A0294",
+    "A0018",
+    1
+   ],
+   [
+    "A0294",
+    "A0262",
+    1
+   ],
+   [
+    "A0294",
+    "A0315",
+    1
+   ],
+   [
+    "A0140",
+    "A0096",
+    1
+   ],
+   [
+    "A0140",
+    "A0219",
+    1
+   ],
+   [
+    "A0140",
+    "A0310",
+    1
+   ],
+   [
+    "A0140",
+    "A0319",
+    1
+   ],
+   [
+    "A0140",
+    "A0298",
+    1
+   ],
+   [
+    "A0140",
+    "A0321",
+    1
+   ],
+   [
+    "A0140",
+    "A0322",
+    1
+   ],
+   [
+    "A0230",
+    "A0249",
+    6
+   ],
+   [
+    "A0230",
+    "A0267",
+    1
+   ],
+   [
+    "A0230",
+    "A0283",
+    1
+   ],
+   [
+    "A0230",
+    "A0287",
+    1
+   ],
+   [
+    "A0111",
+    "A0120",
+    1
+   ],
+   [
+    "A0015",
+    "A0014",
+    1
+   ],
+   [
+    "A0015",
+    "A0310",
+    1
+   ],
+   [
+    "A0067",
+    "A0066",
+    1
+   ],
+   [
+    "A0067",
+    "A0176",
+    1
+   ],
+   [
+    "A0316",
+    "A0315",
+    1
+   ],
+   [
+    "A0253",
+    "A0251",
+    1
+   ],
+   [
+    "A0011",
+    "A0004",
+    1
+   ],
+   [
+    "A0216",
+    "A0215",
+    1
+   ],
+   [
+    "A0216",
+    "A0234",
+    2
+   ],
+   [
     "A0169",
     "A0072",
     1
@@ -2070,78 +1980,73 @@
     1
    ],
    [
-    "A0249",
-    "A0251",
-    9
-   ],
-   [
-    "A0249",
-    "A0255",
-    3
-   ],
-   [
-    "A0249",
-    "A0263",
+    "A0022",
+    "A0023",
     1
    ],
    [
-    "A0249",
-    "A0230",
-    6
-   ],
-   [
-    "A0249",
-    "A0213",
+    "A0176",
+    "A0177",
     1
    ],
    [
-    "A0249",
-    "A0190",
+    "A0176",
+    "A0039",
+    1
+   ],
+   [
+    "A0013",
+    "A0014",
     2
    ],
    [
-    "A0251",
-    "A0246",
-    6
-   ],
-   [
-    "A0251",
-    "A0253",
+    "A0019",
+    "A0014",
     1
    ],
    [
-    "A0251",
+    "A0014",
+    "A0018",
+    1
+   ],
+   [
+    "A0014",
+    "A0023",
+    1
+   ],
+   [
+    "A0146",
+    "A0039",
+    1
+   ],
+   [
+    "A0112",
+    "A0083",
+    2
+   ],
+   [
+    "A0112",
+    "A0072",
+    1
+   ],
+   [
     "A0256",
+    "A0251",
     4
    ],
    [
-    "A0251",
-    "A0260",
-    5
-   ],
-   [
-    "A0251",
-    "A0266",
+    "A0338",
+    "A0310",
     1
    ],
    [
-    "A0045",
-    "A0046",
-    2
+    "A0190",
+    "A0039",
+    4
    ],
    [
-    "A0260",
-    "A0262",
-    1
-   ],
-   [
-    "A0075",
-    "A0048",
-    1
-   ],
-   [
-    "A0360",
-    "A0301",
+    "A0190",
+    "A0177",
     1
    ],
    [
@@ -2161,57 +2066,77 @@
    ],
    [
     "A0190",
+    "A0249",
+    2
+   ],
+   [
+    "A0190",
     "A0310",
     1
    ],
    [
-    "A0390",
-    "A0389",
-    1
+    "A0315",
+    "A0302",
+    2
    ],
    [
-    "A0228",
-    "A0230",
-    1
-   ],
-   [
-    "A0122",
     "A0083",
+    "A0027",
+    1
+   ],
+   [
+    "A0083",
+    "A0120",
+    1
+   ],
+   [
+    "A0083",
+    "A0122",
     5
    ],
    [
-    "A0122",
+    "A0083",
+    "A0150",
+    1
+   ],
+   [
+    "A0382",
+    "A0363",
+    3
+   ],
+   [
+    "A0046",
+    "A0045",
+    2
+   ],
+   [
+    "A0046",
+    "A0066",
+    1
+   ],
+   [
+    "A0096",
+    "A0133",
+    1
+   ],
+   [
+    "A0096",
+    "A0152",
+    1
+   ],
+   [
+    "A0202",
     "A0072",
     1
    ],
    [
-    "A0046",
-    "A0101",
+    "A0262",
+    "A0260",
     1
    ],
    [
-    "A0150",
-    "A0083",
-    1
-   ],
-   [
-    "A0018",
-    "A0294",
-    1
-   ],
-   [
-    "A0267",
-    "A0265",
-    1
-   ],
-   [
-    "A0267",
-    "A0230",
-    1
-   ],
-   [
-    "A0338",
-    "A0310",
+    "A0301",
+    "A0360",
     1
    ],
    [
@@ -2220,53 +2145,128 @@
     1
    ],
    [
-    "A0048",
-    "A0068",
+    "A0322",
+    "A0310",
     4
    ],
    [
-    "A0003",
+    "A0251",
+    "A0249",
+    9
+   ],
+   [
+    "A0251",
+    "A0260",
+    5
+   ],
+   [
+    "A0209",
+    "A0072",
+    1
+   ],
+   [
+    "A0122",
+    "A0072",
+    1
+   ],
+   [
+    "A0122",
+    "A0039",
+    1
+   ],
+   [
+    "A0030",
+    "A0152",
+    1
+   ],
+   [
+    "A0006",
     "A0004",
     1
    ],
    [
-    "A0083",
-    "A0027",
+    "A0267",
+    "A0265",
     1
    ],
    [
-    "A0376",
-    "A0310",
+    "A0183",
+    "A0039",
     1
    ],
    [
-    "A0068",
-    "A0069",
+    "A0344",
+    "A0343",
     1
    ],
    [
-    "A0287",
-    "A0230",
-    1
+    "A0201",
+    "A0039",
+    3
    ],
    [
-    "A0255",
-    "A0230",
+    "A0249",
+    "A0248",
     2
    ],
    [
-    "A0311",
-    "A0310",
+    "A0249",
+    "A0263",
     1
    ],
    [
-    "A0262",
-    "A0294",
+    "A0152",
+    "A0056",
     1
    ],
    [
-    "A0310",
     "A0326",
+    "A0310",
+    1
+   ],
+   [
+    "A0319",
+    "A0343",
+    2
+   ],
+   [
+    "A0319",
+    "A0359",
+    1
+   ],
+   [
+    "A0310",
+    "A0376",
+    1
+   ],
+   [
+    "A0002",
+    "A0001",
+    1
+   ],
+   [
+    "A0395",
+    "A0389",
+    1
+   ],
+   [
+    "A0039",
+    "A0037",
+    3
+   ],
+   [
+    "A0005",
+    "A0004",
+    1
+   ],
+   [
+    "A0219",
+    "A0283",
+    1
+   ],
+   [
+    "A0219",
+    "A0389",
     1
    ]
   ],
@@ -2274,7 +2274,7 @@
   "total_arestas": 427,
   "comunidades": 14
  },
- "estatisticas_atlas": {
+ "estatisticas_rede": {
   "rede": "comentarios_respostas_youtube",
   "dirigida": true,
   "nos": 404,
@@ -2578,7 +2578,7 @@
    "comunidade": 3
   }
  ],
- "comunidades_atlas": [
+ "comunidades_rede": [
   {
    "caso": "redes",
    "rede": "comentarios_respostas_youtube",
@@ -2613,7 +2613,7 @@
    "nos": 35,
    "pct_nos": 8.66,
    "pct_peso_interno": 10.93,
-   "nos_de_maior_grau": "A0346 | A0310 | A0140 | A0375 | A0319"
+   "nos_de_maior_grau": "A0346 | A0310 | A0140 | A0375 | A0322"
   },
   {
    "caso": "redes",
@@ -2622,7 +2622,7 @@
    "nos": 33,
    "pct_nos": 8.17,
    "pct_peso_interno": 7.22,
-   "nos_de_maior_grau": "A0318 | A0330 | A0216 | A0324 | A0298"
+   "nos_de_maior_grau": "A0318 | A0330 | A0216 | A0298 | A0324"
   },
   {
    "caso": "redes",
@@ -2631,7 +2631,7 @@
    "nos": 31,
    "pct_nos": 7.67,
    "pct_peso_interno": 6.3,
-   "nos_de_maior_grau": "A0015 | A0022 | A0302 | A0294 | A0014"
+   "nos_de_maior_grau": "A0015 | A0022 | A0302 | A0014 | A0294"
   },
   {
    "caso": "redes",
@@ -2640,7 +2640,7 @@
    "nos": 31,
    "pct_nos": 7.67,
    "pct_peso_interno": 6.3,
-   "nos_de_maior_grau": "A0017 | A0152 | A0096 | A0029 | A0133"
+   "nos_de_maior_grau": "A0017 | A0096 | A0152 | A0029 | A0148"
   },
   {
    "caso": "redes",
@@ -2658,7 +2658,7 @@
    "nos": 21,
    "pct_nos": 5.2,
    "pct_peso_interno": 3.89,
-   "nos_de_maior_grau": "A0219 | A0228 | A0301 | A0288 | A0389"
+   "nos_de_maior_grau": "A0219 | A0288 | A0301 | A0228 | A0283"
   },
   {
    "caso": "redes",
@@ -2667,7 +2667,7 @@
    "nos": 8,
    "pct_nos": 1.98,
    "pct_peso_interno": 1.48,
-   "nos_de_maior_grau": "A0046 | A0067 | A0045 | A0066 | A0101"
+   "nos_de_maior_grau": "A0046 | A0067 | A0101 | A0066 | A0045"
   },
   {
    "caso": "redes",
@@ -2676,7 +2676,7 @@
    "nos": 7,
    "pct_nos": 1.73,
    "pct_peso_interno": 1.11,
-   "nos_de_maior_grau": "A0057 | A0063 | A0064 | A0058 | A0060"
+   "nos_de_maior_grau": "A0057 | A0063 | A0064 | A0058 | A0059"
   },
   {
    "caso": "redes",
@@ -2685,7 +2685,7 @@
    "nos": 7,
    "pct_nos": 1.73,
    "pct_peso_interno": 1.3,
-   "nos_de_maior_grau": "A0270 | A0213 | A0278 | A0214 | A0280"
+   "nos_de_maior_grau": "A0270 | A0213 | A0278 | A0280 | A0276"
   },
   {
    "caso": "redes",
@@ -2694,7 +2694,7 @@
    "nos": 5,
    "pct_nos": 1.24,
    "pct_peso_interno": 0.74,
-   "nos_de_maior_grau": "A0272 | A0271 | A0282 | A0279 | A0275"
+   "nos_de_maior_grau": "A0272 | A0275 | A0271 | A0279 | A0282"
   }
  ],
  "rede": "youtube",

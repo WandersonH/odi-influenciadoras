@@ -4,9 +4,8 @@
 Texto de cada matéria = título + texto completo extraído (collect_imprensa_texto.py), só as de status "ok"
 (600 caracteres ou mais). As demais (paywall, vídeo, link não convertido) ficam fora e são contadas no JSON.
 Variáveis: *veic_<veículo> e *recorte_<dia|nucleo> ("dia" = apareceu nas buscas de 30/07 a 02/08; "nucleo" = só
-no restante do núcleo, 23/07 a 14/08). Segmentos de ~40 palavras; CHD (scripts/chd_reinert.py, cópia do ODI Atlas:
-lematização pelo dicionário do IRaMuTeQ, classe mínima de 5%, χ² ≥ 3,84) e similitude (scripts/similitude.py,
-cópia do ODI Atlas), com o recorte como variável de cor.
+no restante do núcleo, 23/07 a 14/08). Segmentos de ~40 palavras; CHD (scripts/chd_reinert.py: lematização
+pelo dicionário do IRaMuTeQ, classe mínima de 5%, χ² ≥ 3,84) e similitude (scripts/similitude.py), com o recorte como variável de cor.
 
 Privacidade e direito autoral: o corpus e os segmentos característicos (trechos das matérias) ficam só no privado.
 No público vão as formas, as classes, as variáveis, a árvore da similitude e as contagens.
@@ -100,7 +99,7 @@ def main(root: Path = RAIZ) -> int:
         classes.append({"classe": k, "segmentos": nk, "pct": round(100 * nk / max(1, n), 1), "formas": formas, "variaveis": variaveis,
                         "veiculos_dos_segmentos_caracteristicos": [segs[i]["veiculo"] for _, i in score], "nome": None})
     out = {"gerado_em_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "run_id": os.environ.get("GITHUB_RUN_ID", "local"),
-           "metodo": (f"CHD de Reinert (implementação do ODI Atlas em Python/numpy): até {cr.K} classes, formas com {cr.MIN_FREQ}+ segmentos, "
+           "metodo": (f"CHD de Reinert (implementação em Python/numpy): até {cr.K} classes, formas com {cr.MIN_FREQ}+ segmentos, "
                       f"classe mínima de {int(cr.MIN_CLASSE_PCT * 100)}% dos segmentos, formas características com χ² ≥ {cr.CHI_CRIT} (p < 0,05). "
                       f"Segmentos de ~{PALAVRAS_SEGMENTO} palavras de título + texto completo das matérias. Os nomes das classes são dados pelo pesquisador. "
                       "O corpus e os trechos ficam no repositório privado (texto de terceiros, com direito autoral); conferir no IRaMuTeQ com o arquivo de lá."),

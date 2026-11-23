@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Corpus para o IRaMuTeQ, CHD de Reinert e análise de similitude (seção 8.3 do plano; mesmo método dos casos do ODI Atlas).
+"""Corpus para o IRaMuTeQ, CHD de Reinert e análise de similitude (seção 8.3 do plano).
 
 Texto de cada publicação do recorte (01/06 a 14/08/2026) = legenda + fala transcrita (quando houver), das quatro
 influenciadoras, nas redes coletadas. Publicação sem texto nenhum fica fora (contada no JSON).
 
 1. Corpus no formato do IRaMuTeQ (data/corpus/influenciadoras_iramuteq.txt): uma linha de cabeçalho por texto,
-   "**** *infl_<id> *rede_<rede> *janela_<base|nucleo> *fala_<sim|nao>", seguida do texto. Risadas normalizadas como no Atlas.
+   "**** *infl_<id> *rede_<rede> *janela_<base|nucleo> *fala_<sim|nao>", seguida do texto. Risadas normalizadas.
 2. Segmentos de texto de cerca de 40 palavras (o padrão do IRaMuTeQ), com a influenciadora como variável.
-3. CHD de Reinert (scripts/chd_reinert.py, cópia do ODI Atlas: lematização pelo dicionário do IRaMuTeQ, classe mínima de
-   5%, χ² ≥ 3,84) e similitude (scripts/similitude.py, cópia do ODI Atlas), com a influenciadora como variável.
+3. CHD de Reinert (scripts/chd_reinert.py, lematização pelo dicionário do IRaMuTeQ, classe mínima de
+   5%, χ² ≥ 3,84) e similitude (scripts/similitude.py), com a influenciadora como variável.
    A implementação aproxima o IRaMuTeQ; os nomes das classes são dados pelo pesquisador; conferir no IRaMuTeQ com o arquivo 1.
 Saídas: data/corpus/influenciadoras_iramuteq.txt, data/corpus/chd.json, data/corpus/similitude.gexf.
 """
@@ -128,7 +128,7 @@ def main(root: Path = RAIZ) -> int:
                         "segmentos_caracteristicos": [{"cand": segs[i]["cand"], "rede": segs[i]["rede"], "url": segs[i]["url"],
                                                        "texto": segs[i]["texto"][:300]} for _, i in score], "nome": None})
     out = {"gerado_em_utc": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-           "metodo": (f"CHD de Reinert (implementação do ODI Atlas em Python/numpy, classificação simples): até {cr.K} classes, formas com "
+           "metodo": (f"CHD de Reinert (implementação em Python/numpy, classificação simples): até {cr.K} classes, formas com "
                       f"{cr.MIN_FREQ}+ segmentos, classe mínima de {int(cr.MIN_CLASSE_PCT * 100)}% dos segmentos, formas características com "
                       f"χ² ≥ {cr.CHI_CRIT} (p < 0,05). Segmentos de ~{PALAVRAS_SEGMENTO} palavras de legenda + fala transcrita. Os nomes das classes "
                       "devem ser dados pelo pesquisador. Conferir no IRaMuTeQ com o corpus exportado."),

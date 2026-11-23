@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Chamadas à Apify, portadas do ODI Atlas (collect_meta_apify.py e collect_meta_anuncios_apify.py).
+"""Chamadas à Apify.
 
 Diferença deliberada: aqui NÃO existe consulta de saldo nem de limites da conta (/users/me/limits). O gasto é
 controlado por dois freios que não dependem dela: o teto de cada execução (maxTotalChargeUsd) e a soma dos custos
