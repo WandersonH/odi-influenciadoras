@@ -1,16 +1,16 @@
 {
- "gerado_em": "2026-11-23T03:56:59Z",
- "run_id": "45108907711",
+ "gerado_em": "2026-11-23T03:58:13Z",
+ "run_id": "45109015337",
  "fonte": "YouTube Data API v3, channels.list (snippet, statistics)",
  "canais": {
-  "carima-orra": {
-   "canal_id": "UCDQSIfUd7W7alJtCkl-rDwQ",
-   "titulo": "Carima Orra",
-   "criado_em": "2008-05-01T14:02:42Z",
-   "pais": "BR",
-   "inscritos": "4560",
-   "videos": "32",
-   "visualizacoes": "124218"
+  "fabiola-oliveira": {
+   "canal_id": "UCa7KOBkF-se1jp1AKZTy8Ow",
+   "titulo": "fabiola",
+   "criado_em": "2020-10-08T00:16:55.906919Z",
+   "pais": "",
+   "inscritos": "55",
+   "videos": "145",
+   "visualizacoes": "4691"
   },
   "hyatt-omar": {
    "canal_id": "UCfUwhY2eJ0EmTn3vdaUhbSw",
@@ -30,14 +30,14 @@
    "videos": "2037",
    "visualizacoes": "92289616"
   },
-  "fabiola-oliveira": {
-   "canal_id": "UCa7KOBkF-se1jp1AKZTy8Ow",
-   "titulo": "fabiola",
-   "criado_em": "2020-10-08T00:16:55.906919Z",
-   "pais": "",
-   "inscritos": "55",
-   "videos": "145",
-   "visualizacoes": "4691"
+  "carima-orra": {
+   "canal_id": "UCDQSIfUd7W7alJtCkl-rDwQ",
+   "titulo": "Carima Orra",
+   "criado_em": "2008-05-01T14:02:42Z",
+   "pais": "BR",
+   "inscritos": "4560",
+   "videos": "32",
+   "visualizacoes": "124218"
   }
  }
 }
