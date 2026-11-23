@@ -39,9 +39,9 @@ def canais_dos_comentarios(ids: list[str], chave: str, get=_get) -> tuple[dict, 
     out, chamadas, erros = {}, 0, []
     for lote in lotes(ids):
         try:
-            d = get("comments", {"part": "snippet", "id": ",".join(lote), "maxResults": 50, "key": chave})
+            d = get("comments", {"part": "snippet", "id": ",".join(lote), "key": chave})
         except urllib.error.HTTPError as e:
-            erros.append(f"comments.list HTTP {e.code}")
+            erros.append(f"comments.list HTTP {e.code}: {e.read()[:300].decode('utf-8', 'replace')}")
             continue
         chamadas += 1
         for it in d.get("items", []):
@@ -55,9 +55,9 @@ def dados_dos_canais(ids: list[str], chave: str, parte: str = "snippet", get=_ge
     out, chamadas, erros = {}, 0, []
     for lote in lotes(sorted(set(ids))):
         try:
-            d = get("channels", {"part": parte, "id": ",".join(lote), "maxResults": 50, "key": chave})
+            d = get("channels", {"part": parte, "id": ",".join(lote), "key": chave})
         except urllib.error.HTTPError as e:
-            erros.append(f"channels.list HTTP {e.code}")
+            erros.append(f"channels.list HTTP {e.code}: {e.read()[:300].decode('utf-8', 'replace')}")
             continue
         chamadas += 1
         for it in d.get("items", []):
@@ -81,6 +81,11 @@ def main() -> int:
     linhas = list(csv.DictReader(open(Path(interno) / "data/comentarios/youtube.csv", encoding="utf-8")))
     c2c, ch1, e1 = canais_dos_comentarios([r["comment_id"] for r in linhas], chave)
     canais, ch2, e2 = dados_dos_canais(list(c2c.values()), chave)
+    if not c2c:
+        for e in sorted(set(e1))[:5]:
+            print("erro:", e.replace(chave, "***"))
+        print(f"⛔ nenhum canal identificado em {len(linhas)} comentários: nada gravado")
+        return 1
     dest = Path(interno) / "data/canais"
     dest.mkdir(parents=True, exist_ok=True)
     vistos = {}
@@ -109,6 +114,8 @@ def main() -> int:
         "autores_com_canal": len(vistos), "canais_com_dados": sum(1 for v in vistos.values() if v["criado_em"]),
         "chamadas": {"comments.list": ch1, "channels.list": ch2 + ch3}, "cota_unidades": ch1 + ch2 + ch3, "custo_usd": 0,
         "erros": e1 + e2 + e3}, ensure_ascii=False, indent=1), encoding="utf-8")
+    for e in sorted(set(e1 + e2 + e3))[:5]:
+        print("erro:", e.replace(chave, "***"))
     print(f"{len(linhas)} comentários; canal de {len(c2c)}; {len(vistos)} autores com canal; cota {ch1 + ch2 + ch3} unidades; erros {len(e1 + e2 + e3)}")
     return 0 if vistos else 1
 

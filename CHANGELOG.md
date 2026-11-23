@@ -21,7 +21,12 @@ O responsável aprovou à 0h52 os quatro itens da avaliação da comparação de
   - TikTok: 898 autores, 3 em duas ou mais.
   - YouTube: só a Mariam tem vídeos no núcleo (1947 autores).
 - **Testes novos:** `tests/test_publico.py`.
-- **Pendente:** o run de `publico.yml`, que traz a criação e o país dos canais e a ficha do YouTube. Disparado depois deste commit.
+- Primeiro run (45108907711): nenhum canal identificado, e o erro não apareceu porque o `bash -e` encerrava o passo antes de imprimir. Correções:
+  - `maxResults` sai das chamadas por `id`, onde a API não aceita esse parâmetro;
+  - o erro da API passa a ser impresso, com a chave mascarada;
+  - o workflow imprime a saída mesmo quando o script falha;
+  - sem canal identificado, nada é gravado.
+- **Pendente:** o segundo run de `publico.yml`.
 
 ## 23/11/2026: Disque 100 sai da página
 

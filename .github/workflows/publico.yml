@@ -39,13 +39,13 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
         run: |
-          python scripts/collect_canais_comentaristas.py > o.txt 2>&1; rc=$?
+          rc=0; python scripts/collect_canais_comentaristas.py > o.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=Canais::$(echo "$l" | cut -c1-900)"; done < o.txt; rm -f o.txt; exit $rc
       - name: Agregados
         env:
           INFL_INTERNO_DIR: ${{ steps.interno.outputs.dir }}
         run: |
-          python scripts/build_publico.py > o.txt 2>&1; rc=$?
+          rc=0; python scripts/build_publico.py > o.txt 2>&1 || rc=$?
           while IFS= read -r l; do echo "::notice title=Público::$(echo "$l" | cut -c1-900)"; done < o.txt; rm -f o.txt; exit $rc
       - name: Gravar (público)
         if: always()
