@@ -7,7 +7,7 @@ O responsável apontou à 1h14, com print do detalhe do Iraque, que as listas de
 - **idade e ano de entrada:** colunas, em ordem;
 - **estado, município, motivo, classificação, profissão e estado civil:** barras horizontais, com os 10 maiores em estado e município.
 
-Cinza marca “não informado” e os grupos agrupados (“outras”). O valor “--” do ano de entrada aparece como “não informado”. Os dados são os mesmos (`obmigra_sismigra.json`); só mudou a apresentação.
+Cinza marca “não informado” e os grupos agrupados (“outras”). O valor “--” do ano de entrada aparece como “não informado”. Ajuste depois da conferência na página: “não especificado”, “não aplicável” e idade não informada também ficam em cinza, a sigla do estado volta a maiúscula nos municípios e os rótulos das colunas quebram linha sem se sobrepor. Os dados são os mesmos (`obmigra_sismigra.json`); só mudou a apresentação.
 
 ## 23/11/2026: quem acompanha as quatro (caderno 05)
 
