@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-23T02:46:12Z",
+ "gerado_em": "2026-11-23T04:29:39Z",
  "janela": "núcleo",
  "regra": "Regra de homônimos do plano (seção 5): uma menção só conta se trouxer o @ da influenciadora, ou o nome junto de um termo de contexto. O resto fica 'a conferir' e fora da contagem.",
  "contexto": [
@@ -93,6 +93,35 @@
      "a_conferir": 0,
      "itens": []
     },
+    "TikTok (busca por nome)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
+    },
+    "Instagram (busca por palavra)": {
+     "lidos": 2,
+     "confirmadas": 2,
+     "a_conferir": 0,
+     "itens": [
+      {
+       "como": "confirmada (nome + contexto)",
+       "data": "2026-08-12",
+       "visualizacoes": 1472009,
+       "fonte": "conta de terceiro (autor no privado)",
+       "titulo": "",
+       "url": ""
+      },
+      {
+       "como": "confirmada (nome + contexto)",
+       "data": "2026-08-14",
+       "visualizacoes": 7935,
+       "fonte": "conta de terceiro (autor no privado)",
+       "titulo": "",
+       "url": ""
+      }
+     ]
+    },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
@@ -101,7 +130,7 @@
      "itens": []
     }
    },
-   "confirmadas_total": 0,
+   "confirmadas_total": 2,
    "a_conferir_total": 2
   },
   "hyatt-omar": {
@@ -517,6 +546,18 @@
      "a_conferir": 0,
      "itens": []
     },
+    "TikTok (busca por nome)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
+    },
+    "Instagram (busca por palavra)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
+    },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
@@ -575,6 +616,27 @@
      "a_conferir": 0,
      "itens": []
     },
+    "TikTok (busca por nome)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
+    },
+    "Instagram (busca por palavra)": {
+     "lidos": 1,
+     "confirmadas": 1,
+     "a_conferir": 0,
+     "itens": [
+      {
+       "como": "confirmada (nome + contexto)",
+       "data": "2026-07-24",
+       "visualizacoes": 1532,
+       "fonte": "conta de terceiro (autor no privado)",
+       "titulo": "",
+       "url": ""
+      }
+     ]
+    },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 0,
      "confirmadas": 0,
@@ -583,7 +645,7 @@
      "itens": []
     }
    },
-   "confirmadas_total": 0,
+   "confirmadas_total": 1,
    "a_conferir_total": 1
   },
   "fabiola-oliveira": {
@@ -1318,6 +1380,18 @@
        "url": ""
       }
      ]
+    },
+    "TikTok (busca por nome)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
+    },
+    "Instagram (busca por palavra)": {
+     "lidos": 0,
+     "confirmadas": 0,
+     "a_conferir": 0,
+     "itens": []
     },
     "Imprensa (Google Notícias, 10 primeiros)": {
      "lidos": 9,
