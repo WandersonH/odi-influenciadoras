@@ -29,10 +29,12 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
 IBGE = "https://servicodados.ibge.gov.br/api/v3/agregados"
+# os links do gov.br redirecionam para o servidor de arquivos do ministério (visto no Chrome do responsável em 22/11/2026)
 DISQUE100 = {
-    "2026-S1": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-primeiro-semestre-2026",
-    "2026-T3": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-terceiro-trimestre-2026",
-    "2025-S2": "https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/disque100/disque100-segundo-semestre-2025",
+    "2026-T3": "https://dadosabertos.mdh.gov.br/disque100-terceiro-trimestre-2026.csv",
+    "2026-S1": "https://dadosabertos.mdh.gov.br/disque100-primeiro-semestre-2026.csv",
+    "2025-S2": "https://dadosabertos.mdh.gov.br/disque100-segundo-semestre-2025.csv",
+    "2025-S1": "https://dadosabertos.mdh.gov.br/disque100-primeiro-semestre-2025.csv",
 }
 UA = {"User-Agent": "odi-influenciadoras-coletor/1.0 (+https://github.com/WandersonH/odi-influenciadoras)"}
 csv.field_size_limit(10_000_000)

@@ -1,5 +1,11 @@
 # Changelog
 
+## 22/11/2026: Disque 100, endereço real dos arquivos
+
+O responsável mandou os quatro links às 23h59 (2025-S1, 2025-S2, 2026-S1 e 2026-T3). Abrindo o do terceiro trimestre no Chrome dele, o gov.br redirecionou para `https://dadosabertos.mdh.gov.br/disque100-terceiro-trimestre-2026.csv`, que respondeu 503 (serviço indisponível). Nenhum arquivo foi baixado no computador dele.
+
+O coletor passa a usar esse servidor direto, com os quatro arquivos. Diagnóstico disparado pelo GitHub depois deste commit.
+
 ## 22/11/2026: caderno 06 com clique nos números ("não funciona o clique")
 
 O responsável apontou às 23h44 que a tabela "Quem falou delas" não tinha clique. A tabela tinha ficado fora da rodada de cliques; erro meu.
