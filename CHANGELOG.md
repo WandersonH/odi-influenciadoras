@@ -1,5 +1,14 @@
 # Changelog
 
+## 23/11/2026: OBMigra, detalhe do país em gráficos
+
+O responsável apontou à 1h14, com print do detalhe do Iraque, que as listas de texto deviam ser gráficos. O detalhe aberto pelo clique no caderno 10 passa a mostrar:
+- **sexo:** barra empilhada, com percentuais;
+- **idade e ano de entrada:** colunas, em ordem;
+- **estado, município, motivo, classificação, profissão e estado civil:** barras horizontais, com os 10 maiores em estado e município.
+
+Cinza marca “não informado” e os grupos agrupados (“outras”). O valor “--” do ano de entrada aparece como “não informado”. Os dados são os mesmos (`obmigra_sismigra.json`); só mudou a apresentação.
+
 ## 23/11/2026: quem acompanha as quatro (caderno 05)
 
 O responsável aprovou à 0h52 os quatro itens da avaliação da comparação de seguidores. Idade, gênero e país dos seguidores só aparecem no painel da dona da conta: ficam fora e não são estimados. A lista de seguidores pela Apify não foi usada: gastaria o saldo sem responder à pergunta.
