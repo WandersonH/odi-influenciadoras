@@ -1,0 +1,37 @@
+{
+ "versao": "v1 (24/11/2026)",
+ "estado": "⛔ a validar pelos pesquisadores antes da primeira rodada: categorias do plano de 22/11; 'sem enquadramento', 'outro formato' e 'não se aplica' foram acrescentados para que toda publicação tenha um código em cada dimensão",
+ "unidade": "uma publicação das quatro no núcleo (23/07 a 14/08/2026): legenda ou título + transcrição do áudio, quando houver",
+ "procedimento": "Dois codificadores, cegos um ao outro. Concordância por kappa de Cohen, por dimensão. Meta: κ ≥ 0,70 em A e B; abaixo disso, o livro é revisto e a rodada repetida. Divergências resolvidas por um terceiro codificador (papel responsável); o código final é o humano.",
+ "dimensoes": [
+  {"id": "mencao", "rotulo": "A. Menção", "pergunta": "A publicação fala do acordo ou de Gaza?",
+   "categorias": [
+    {"id": "acordo", "rotulo": "Cita o acordo de 31/07", "regra": "Menciona o acordo, o desarmamento do Hamas, o anúncio de Trump ou a aceitação do Hamas."},
+    {"id": "gaza", "rotulo": "Fala de Gaza ou Palestina sem citar o acordo", "regra": "Gaza, Palestina, guerra, ocupação, bandeira 🇵🇸 como tema, sem referência ao acordo."},
+    {"id": "nao_politica", "rotulo": "Menção não política", "regra": "Palestina ou árabes como cultura, comida, viagem, família, sem dimensão política."},
+    {"id": "sem_relacao", "rotulo": "Sem relação", "regra": "Nenhuma referência a Palestina, Gaza ou ao conflito."}]},
+  {"id": "posicao", "rotulo": "B. Posição", "pergunta": "Que posição a publicação toma? (só quando A = acordo ou Gaza)", "condicao": {"mencao": ["acordo", "gaza"]},
+   "categorias": [
+    {"id": "favoravel", "rotulo": "Favorável ao acordo"},
+    {"id": "cetica", "rotulo": "Cética ou crítica ao acordo"},
+    {"id": "contraria", "rotulo": "Contrária ao acordo"},
+    {"id": "informativa", "rotulo": "Informativa, sem posição"},
+    {"id": "humanitaria", "rotulo": "Humanitária (sofrimento, ajuda) sem posição sobre o acordo"},
+    {"id": "nao_se_aplica", "rotulo": "Não se aplica (A = não política ou sem relação)", "automatica": true}]},
+  {"id": "enquadramento", "rotulo": "C. Enquadramento", "pergunta": "Qual o enquadramento principal?",
+   "categorias": [
+    {"id": "religioso", "rotulo": "Religioso"},
+    {"id": "politico", "rotulo": "Político-diplomático"},
+    {"id": "humanitario", "rotulo": "Humanitário"},
+    {"id": "identitario", "rotulo": "Identitário (ser árabe ou muçulmana no Brasil)"},
+    {"id": "denuncia", "rotulo": "Denúncia de islamofobia ou da cobertura da mídia"},
+    {"id": "nenhum", "rotulo": "Sem enquadramento sobre o tema"}]},
+  {"id": "formato", "rotulo": "D. Formato", "pergunta": "Como a mensagem é dada?",
+   "categorias": [
+    {"id": "fala_propria", "rotulo": "Fala própria"},
+    {"id": "repost", "rotulo": "Repost ou dueto"},
+    {"id": "legenda", "rotulo": "Só legenda, emoji ou hashtag"},
+    {"id": "convite", "rotulo": "Convite a doação ou ato"},
+    {"id": "outro", "rotulo": "Outro formato"}]}
+ ]
+}

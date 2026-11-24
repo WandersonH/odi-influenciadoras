@@ -1,5 +1,54 @@
 # Changelog
 
+## 24/11/2026: área interna, codificação humana e kappa (fase 1: código pronto, banco aguardando confirmação)
+
+O responsável pediu às 17h38 a área interna do plano (“trmos a area interna deste”) e às 17h39 que ela fosse construída “com base na do odi atlas”. Respostas dele às duas perguntas:
+- **Banco:** projeto Supabase novo.
+- **Escopo:** “Codificação e kappa”.
+
+Do modelo de referência veio só a estrutura: login por convite, termo de uso, funções protegidas e cegueira entre codificadores. Nada desse projeto foi copiado de dado ou texto para cá.
+- **Supabase:**
+  - **Projeto `odi-influenciadoras`** (`psglawfeafdsaqjosnwn`, sa-east-1), criado na organização do responsável, de plano Pro. A criação passou sem pedido de confirmação de custo (custo cotado em US$ 0). Os outros três projetos da conta estão pausados (INACTIVE), inclusive o do Atlas.
+  - **Função `infl-area-config`** publicada (versão 1, sem JWT). Ela entrega a URL do projeto e a chave pública, lidas do ambiente do próprio Supabase, para que nenhuma chave fique no repositório.
+- **`supabase/migrations/20261124_area_interna.sql`:**
+  - **Tabelas:** `pesquisadores` (papel codificador ou responsável), `unidades`, `codificacoes`, `decisoes` e `acessos`. Todas com RLS e sem escrita direta.
+  - **Cegueira:** cada codificador lê só as próprias codificações. Dos outros vê apenas o número de codificações por unidade e o kappa agregado.
+  - **Funções:**
+    - `unidades_para_codificar` e `codificar`. A posição (B) vira “não se aplica” quando A não é acordo nem Gaza.
+    - `progresso` e `concordancia`: kappa de Cohen por dimensão e por par. B só conta quando os dois marcaram acordo ou Gaza.
+    - Só para o responsável: `divergencias`, `decidir` (terceiro codificador) e `resultado_final`.
+    - Auxiliares no schema `odi_interno`, que a API não expõe. Mesmo assim checam a permissão.
+- **`data/config/livro_codigos_posicionamento.json`** (v1): as quatro dimensões do plano (menção, posição, enquadramento, formato). Acrescentei “sem enquadramento”, “outro formato” e “não se aplica” para que toda publicação tenha código. ⛔ Ainda precisa ser validado pelos pesquisadores.
+- **`scripts/build_area_interna.py`:** gera `supabase/seed/unidades.sql`.
+  - 92 unidades, o censo do núcleo: Instagram 48, TikTok 28, YouTube 16.
+  - 67 delas com transcrição.
+  - Ordem fixa por md5. Só dado já público.
+- **`area-interna.html`** (`noindex`):
+  - login, definição de senha pelo convite e termo de uso;
+  - cartões de codificação, em que cada clique salva;
+  - abas de kappa, de divergências (só o responsável, com download do CSV final) e do livro de códigos.
+  - A página pública ganha o link “área interna” no rodapé da barra lateral.
+- **Testes executados:**
+  - **Postgres 16 local, com o Supabase simulado** (`supabase/tests/00_simula_supabase.sql` e `01_area_interna.sql`):
+    - a migração aplica duas vezes seguidas;
+    - um não convidado e um convidado sem termo veem 0 unidades;
+    - B automático vira “não se aplica” (6 de 6);
+    - valor fora do livro, campo desconhecido e escrita direta são recusados;
+    - a segunda codificadora não vê os códigos da primeira;
+    - kappa de menção 0,6429 com concordância de 80% em 10 unidades (conferido à mão: pe = 0,44);
+    - codificador não vê divergências; o responsável vê 2 e decide;
+    - decisão fora do livro é recusada; `anon` é negado;
+    - a carga das 92 unidades entrou.
+  - **Página (Playwright, 1300 e 390 px, servidor simulado):** login, cartão, B bloqueado com “sem relação” e liberado com “acordo”, kappa e divergências. Sem erro de JavaScript e sem rolagem lateral.
+  - `python -m unittest discover -s tests`: OK (novo `tests/test_area_interna.py`).
+- ⛔ **Migração não aplicada no banco real.** O conector pediu confirmação ao responsável, e o pedido expirou em 120 s sem resposta. Até ela entrar, a página abre, mas não há tabelas.
+- **Pendências do responsável:**
+  - confirmar a migração quando o conector pedir;
+  - no painel do Supabase: em Authentication → URL Configuration, pôr `https://wandersonh.github.io/odi-influenciadoras/area-interna.html` como URL de retorno; desligar o cadastro aberto (Sign-ups);
+  - convidar os e-mails dos codificadores e o próprio (Authentication → Users → Invite);
+  - informar quem é responsável e quem é codificador, para a inclusão em `pesquisadores`;
+  - validar o livro de códigos.
+
 ## 23/11/2026: botão “Baixar PDF”
 
 O responsável pediu à 10h03 um botão para baixar PDF.
